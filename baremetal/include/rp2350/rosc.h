@@ -77,7 +77,54 @@ typedef struct{
 		uint32_t RSVDclr_0[1014];
 } ROSC_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define rosc (*(ROSC_REG_BLOCKS volatile *)0x400e8000)
+
+
+/*IO Registers AS MACROS*/
+
+#define ROSC_CTRL (*(volatile uint32_t *)0x400e8000)
+#define ROSC_FREQA (*(volatile uint32_t *)0x400e8004)
+#define ROSC_FREQB (*(volatile uint32_t *)0x400e8008)
+#define ROSC_RANDOM (*(volatile uint32_t *)0x400e800c)
+#define ROSC_DORMANT (*(volatile uint32_t *)0x400e8010)
+#define ROSC_DIV (*(volatile uint32_t *)0x400e8014)
+#define ROSC_PHASE (*(volatile uint32_t *)0x400e8018)
+#define ROSC_STATUS (*(volatile uint32_t *)0x400e801c)
+#define ROSC_RANDOMBIT (*(volatile uint32_t *)0x400e8020)
+#define ROSC_COUNT (*(volatile uint32_t *)0x400e8024)
+#define ROSC_XOR_CTRL (*(volatile uint32_t *)0x400e9000)
+#define ROSC_XOR_FREQA (*(volatile uint32_t *)0x400e9004)
+#define ROSC_XOR_FREQB (*(volatile uint32_t *)0x400e9008)
+#define ROSC_XOR_RANDOM (*(volatile uint32_t *)0x400e900c)
+#define ROSC_XOR_DORMANT (*(volatile uint32_t *)0x400e9010)
+#define ROSC_XOR_DIV (*(volatile uint32_t *)0x400e9014)
+#define ROSC_XOR_PHASE (*(volatile uint32_t *)0x400e9018)
+#define ROSC_XOR_STATUS (*(volatile uint32_t *)0x400e901c)
+#define ROSC_XOR_RANDOMBIT (*(volatile uint32_t *)0x400e9020)
+#define ROSC_XOR_COUNT (*(volatile uint32_t *)0x400e9024)
+#define ROSC_SET_CTRL (*(volatile uint32_t *)0x400ea000)
+#define ROSC_SET_FREQA (*(volatile uint32_t *)0x400ea004)
+#define ROSC_SET_FREQB (*(volatile uint32_t *)0x400ea008)
+#define ROSC_SET_RANDOM (*(volatile uint32_t *)0x400ea00c)
+#define ROSC_SET_DORMANT (*(volatile uint32_t *)0x400ea010)
+#define ROSC_SET_DIV (*(volatile uint32_t *)0x400ea014)
+#define ROSC_SET_PHASE (*(volatile uint32_t *)0x400ea018)
+#define ROSC_SET_STATUS (*(volatile uint32_t *)0x400ea01c)
+#define ROSC_SET_RANDOMBIT (*(volatile uint32_t *)0x400ea020)
+#define ROSC_SET_COUNT (*(volatile uint32_t *)0x400ea024)
+#define ROSC_CLR_CTRL (*(volatile uint32_t *)0x400eb000)
+#define ROSC_CLR_FREQA (*(volatile uint32_t *)0x400eb004)
+#define ROSC_CLR_FREQB (*(volatile uint32_t *)0x400eb008)
+#define ROSC_CLR_RANDOM (*(volatile uint32_t *)0x400eb00c)
+#define ROSC_CLR_DORMANT (*(volatile uint32_t *)0x400eb010)
+#define ROSC_CLR_DIV (*(volatile uint32_t *)0x400eb014)
+#define ROSC_CLR_PHASE (*(volatile uint32_t *)0x400eb018)
+#define ROSC_CLR_STATUS (*(volatile uint32_t *)0x400eb01c)
+#define ROSC_CLR_RANDOMBIT (*(volatile uint32_t *)0x400eb020)
+#define ROSC_CLR_COUNT (*(volatile uint32_t *)0x400eb024)
 
 /*CTRL Register macros*/
 
@@ -156,3 +203,4 @@ typedef struct{
 
 
 #endif
+

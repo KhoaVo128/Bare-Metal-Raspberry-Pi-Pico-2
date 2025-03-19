@@ -81,7 +81,58 @@ typedef struct{
 		uint32_t RSVDclr_0[1013];
 } HSTX_CTRL_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define hstx_ctrl (*(HSTX_CTRL_REG_BLOCKS volatile *)0x400c0000)
+
+
+/*IO Registers AS MACROS*/
+
+#define HSTX_CTRL_CSR (*(volatile uint32_t *)0x400c0000)
+#define HSTX_CTRL_BIT0 (*(volatile uint32_t *)0x400c0004)
+#define HSTX_CTRL_BIT1 (*(volatile uint32_t *)0x400c0008)
+#define HSTX_CTRL_BIT2 (*(volatile uint32_t *)0x400c000c)
+#define HSTX_CTRL_BIT3 (*(volatile uint32_t *)0x400c0010)
+#define HSTX_CTRL_BIT4 (*(volatile uint32_t *)0x400c0014)
+#define HSTX_CTRL_BIT5 (*(volatile uint32_t *)0x400c0018)
+#define HSTX_CTRL_BIT6 (*(volatile uint32_t *)0x400c001c)
+#define HSTX_CTRL_BIT7 (*(volatile uint32_t *)0x400c0020)
+#define HSTX_CTRL_EXPAND_SHIFT (*(volatile uint32_t *)0x400c0024)
+#define HSTX_CTRL_EXPAND_TMDS (*(volatile uint32_t *)0x400c0028)
+#define HSTX_CTRL_XOR_CSR (*(volatile uint32_t *)0x400c1000)
+#define HSTX_CTRL_XOR_BIT0 (*(volatile uint32_t *)0x400c1004)
+#define HSTX_CTRL_XOR_BIT1 (*(volatile uint32_t *)0x400c1008)
+#define HSTX_CTRL_XOR_BIT2 (*(volatile uint32_t *)0x400c100c)
+#define HSTX_CTRL_XOR_BIT3 (*(volatile uint32_t *)0x400c1010)
+#define HSTX_CTRL_XOR_BIT4 (*(volatile uint32_t *)0x400c1014)
+#define HSTX_CTRL_XOR_BIT5 (*(volatile uint32_t *)0x400c1018)
+#define HSTX_CTRL_XOR_BIT6 (*(volatile uint32_t *)0x400c101c)
+#define HSTX_CTRL_XOR_BIT7 (*(volatile uint32_t *)0x400c1020)
+#define HSTX_CTRL_XOR_EXPAND_SHIFT (*(volatile uint32_t *)0x400c1024)
+#define HSTX_CTRL_XOR_EXPAND_TMDS (*(volatile uint32_t *)0x400c1028)
+#define HSTX_CTRL_SET_CSR (*(volatile uint32_t *)0x400c2000)
+#define HSTX_CTRL_SET_BIT0 (*(volatile uint32_t *)0x400c2004)
+#define HSTX_CTRL_SET_BIT1 (*(volatile uint32_t *)0x400c2008)
+#define HSTX_CTRL_SET_BIT2 (*(volatile uint32_t *)0x400c200c)
+#define HSTX_CTRL_SET_BIT3 (*(volatile uint32_t *)0x400c2010)
+#define HSTX_CTRL_SET_BIT4 (*(volatile uint32_t *)0x400c2014)
+#define HSTX_CTRL_SET_BIT5 (*(volatile uint32_t *)0x400c2018)
+#define HSTX_CTRL_SET_BIT6 (*(volatile uint32_t *)0x400c201c)
+#define HSTX_CTRL_SET_BIT7 (*(volatile uint32_t *)0x400c2020)
+#define HSTX_CTRL_SET_EXPAND_SHIFT (*(volatile uint32_t *)0x400c2024)
+#define HSTX_CTRL_SET_EXPAND_TMDS (*(volatile uint32_t *)0x400c2028)
+#define HSTX_CTRL_CLR_CSR (*(volatile uint32_t *)0x400c3000)
+#define HSTX_CTRL_CLR_BIT0 (*(volatile uint32_t *)0x400c3004)
+#define HSTX_CTRL_CLR_BIT1 (*(volatile uint32_t *)0x400c3008)
+#define HSTX_CTRL_CLR_BIT2 (*(volatile uint32_t *)0x400c300c)
+#define HSTX_CTRL_CLR_BIT3 (*(volatile uint32_t *)0x400c3010)
+#define HSTX_CTRL_CLR_BIT4 (*(volatile uint32_t *)0x400c3014)
+#define HSTX_CTRL_CLR_BIT5 (*(volatile uint32_t *)0x400c3018)
+#define HSTX_CTRL_CLR_BIT6 (*(volatile uint32_t *)0x400c301c)
+#define HSTX_CTRL_CLR_BIT7 (*(volatile uint32_t *)0x400c3020)
+#define HSTX_CTRL_CLR_EXPAND_SHIFT (*(volatile uint32_t *)0x400c3024)
+#define HSTX_CTRL_CLR_EXPAND_TMDS (*(volatile uint32_t *)0x400c3028)
 
 /*CSR Register macros*/
 
@@ -217,3 +268,4 @@ typedef struct{
 #define HSTX_CTRL_EXPAND_TMDS_L0_ROT_MASK HSTX_CTRL_EXPAND_TMDS_L0_ROT(ALL1)
 
 #endif
+

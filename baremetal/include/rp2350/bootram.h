@@ -85,7 +85,58 @@ typedef struct{
 		uint32_t RSVDclr_1[501];
 } BOOTRAM_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define bootram (*(BOOTRAM_REG_BLOCKS volatile *)0x400e0000)
+
+
+/*IO Registers AS MACROS*/
+
+#define BOOTRAM_WRITE_ONCE0 (*(volatile uint32_t *)0x400e0800)
+#define BOOTRAM_WRITE_ONCE1 (*(volatile uint32_t *)0x400e0804)
+#define BOOTRAM_BOOTLOCK_STAT (*(volatile uint32_t *)0x400e0808)
+#define BOOTRAM_BOOTLOCK0 (*(volatile uint32_t *)0x400e080c)
+#define BOOTRAM_BOOTLOCK1 (*(volatile uint32_t *)0x400e0810)
+#define BOOTRAM_BOOTLOCK2 (*(volatile uint32_t *)0x400e0814)
+#define BOOTRAM_BOOTLOCK3 (*(volatile uint32_t *)0x400e0818)
+#define BOOTRAM_BOOTLOCK4 (*(volatile uint32_t *)0x400e081c)
+#define BOOTRAM_BOOTLOCK5 (*(volatile uint32_t *)0x400e0820)
+#define BOOTRAM_BOOTLOCK6 (*(volatile uint32_t *)0x400e0824)
+#define BOOTRAM_BOOTLOCK7 (*(volatile uint32_t *)0x400e0828)
+#define BOOTRAM_XOR_WRITE_ONCE0 (*(volatile uint32_t *)0x400e1800)
+#define BOOTRAM_XOR_WRITE_ONCE1 (*(volatile uint32_t *)0x400e1804)
+#define BOOTRAM_XOR_BOOTLOCK_STAT (*(volatile uint32_t *)0x400e1808)
+#define BOOTRAM_XOR_BOOTLOCK0 (*(volatile uint32_t *)0x400e180c)
+#define BOOTRAM_XOR_BOOTLOCK1 (*(volatile uint32_t *)0x400e1810)
+#define BOOTRAM_XOR_BOOTLOCK2 (*(volatile uint32_t *)0x400e1814)
+#define BOOTRAM_XOR_BOOTLOCK3 (*(volatile uint32_t *)0x400e1818)
+#define BOOTRAM_XOR_BOOTLOCK4 (*(volatile uint32_t *)0x400e181c)
+#define BOOTRAM_XOR_BOOTLOCK5 (*(volatile uint32_t *)0x400e1820)
+#define BOOTRAM_XOR_BOOTLOCK6 (*(volatile uint32_t *)0x400e1824)
+#define BOOTRAM_XOR_BOOTLOCK7 (*(volatile uint32_t *)0x400e1828)
+#define BOOTRAM_SET_WRITE_ONCE0 (*(volatile uint32_t *)0x400e2800)
+#define BOOTRAM_SET_WRITE_ONCE1 (*(volatile uint32_t *)0x400e2804)
+#define BOOTRAM_SET_BOOTLOCK_STAT (*(volatile uint32_t *)0x400e2808)
+#define BOOTRAM_SET_BOOTLOCK0 (*(volatile uint32_t *)0x400e280c)
+#define BOOTRAM_SET_BOOTLOCK1 (*(volatile uint32_t *)0x400e2810)
+#define BOOTRAM_SET_BOOTLOCK2 (*(volatile uint32_t *)0x400e2814)
+#define BOOTRAM_SET_BOOTLOCK3 (*(volatile uint32_t *)0x400e2818)
+#define BOOTRAM_SET_BOOTLOCK4 (*(volatile uint32_t *)0x400e281c)
+#define BOOTRAM_SET_BOOTLOCK5 (*(volatile uint32_t *)0x400e2820)
+#define BOOTRAM_SET_BOOTLOCK6 (*(volatile uint32_t *)0x400e2824)
+#define BOOTRAM_SET_BOOTLOCK7 (*(volatile uint32_t *)0x400e2828)
+#define BOOTRAM_CLR_WRITE_ONCE0 (*(volatile uint32_t *)0x400e3800)
+#define BOOTRAM_CLR_WRITE_ONCE1 (*(volatile uint32_t *)0x400e3804)
+#define BOOTRAM_CLR_BOOTLOCK_STAT (*(volatile uint32_t *)0x400e3808)
+#define BOOTRAM_CLR_BOOTLOCK0 (*(volatile uint32_t *)0x400e380c)
+#define BOOTRAM_CLR_BOOTLOCK1 (*(volatile uint32_t *)0x400e3810)
+#define BOOTRAM_CLR_BOOTLOCK2 (*(volatile uint32_t *)0x400e3814)
+#define BOOTRAM_CLR_BOOTLOCK3 (*(volatile uint32_t *)0x400e3818)
+#define BOOTRAM_CLR_BOOTLOCK4 (*(volatile uint32_t *)0x400e381c)
+#define BOOTRAM_CLR_BOOTLOCK5 (*(volatile uint32_t *)0x400e3820)
+#define BOOTRAM_CLR_BOOTLOCK6 (*(volatile uint32_t *)0x400e3824)
+#define BOOTRAM_CLR_BOOTLOCK7 (*(volatile uint32_t *)0x400e3828)
 
 /*WRITE_ONCE0 Register macros*/
 
@@ -121,3 +172,4 @@ typedef struct{
 
 
 #endif
+

@@ -133,7 +133,82 @@ typedef struct{
 		uint32_t RSVDclr_7[959];
 } RISCV_DM_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define riscv_dm (*(RISCV_DM_REG_BLOCKS volatile *)0x50700000)
+
+
+/*IO Registers AS MACROS*/
+
+#define RISCV_DM_DATA0 (*(volatile uint32_t *)0x50700010)
+#define RISCV_DM_DMCONTROL (*(volatile uint32_t *)0x50700040)
+#define RISCV_DM_DMSTATUS (*(volatile uint32_t *)0x50700044)
+#define RISCV_DM_HARTINFO (*(volatile uint32_t *)0x50700048)
+#define RISCV_DM_HALTSUM1 (*(volatile uint32_t *)0x5070004c)
+#define RISCV_DM_HAWINDOWSEL (*(volatile uint32_t *)0x50700050)
+#define RISCV_DM_HAWINDOW (*(volatile uint32_t *)0x50700054)
+#define RISCV_DM_ABSTRACTS (*(volatile uint32_t *)0x50700058)
+#define RISCV_DM_COMMAND (*(volatile uint32_t *)0x5070005c)
+#define RISCV_DM_ABSTRACTAUTO (*(volatile uint32_t *)0x50700060)
+#define RISCV_DM_NEXTDM (*(volatile uint32_t *)0x50700074)
+#define RISCV_DM_PROGBUF0 (*(volatile uint32_t *)0x50700080)
+#define RISCV_DM_PROGBUF1 (*(volatile uint32_t *)0x50700084)
+#define RISCV_DM_SBCS (*(volatile uint32_t *)0x507000e0)
+#define RISCV_DM_SBADDRESS0 (*(volatile uint32_t *)0x507000e4)
+#define RISCV_DM_SBDATA0 (*(volatile uint32_t *)0x507000f0)
+#define RISCV_DM_HALTSUM0 (*(volatile uint32_t *)0x50700100)
+#define RISCV_DM_XOR_DATA0 (*(volatile uint32_t *)0x50701010)
+#define RISCV_DM_XOR_DMCONTROL (*(volatile uint32_t *)0x50701040)
+#define RISCV_DM_XOR_DMSTATUS (*(volatile uint32_t *)0x50701044)
+#define RISCV_DM_XOR_HARTINFO (*(volatile uint32_t *)0x50701048)
+#define RISCV_DM_XOR_HALTSUM1 (*(volatile uint32_t *)0x5070104c)
+#define RISCV_DM_XOR_HAWINDOWSEL (*(volatile uint32_t *)0x50701050)
+#define RISCV_DM_XOR_HAWINDOW (*(volatile uint32_t *)0x50701054)
+#define RISCV_DM_XOR_ABSTRACTS (*(volatile uint32_t *)0x50701058)
+#define RISCV_DM_XOR_COMMAND (*(volatile uint32_t *)0x5070105c)
+#define RISCV_DM_XOR_ABSTRACTAUTO (*(volatile uint32_t *)0x50701060)
+#define RISCV_DM_XOR_NEXTDM (*(volatile uint32_t *)0x50701074)
+#define RISCV_DM_XOR_PROGBUF0 (*(volatile uint32_t *)0x50701080)
+#define RISCV_DM_XOR_PROGBUF1 (*(volatile uint32_t *)0x50701084)
+#define RISCV_DM_XOR_SBCS (*(volatile uint32_t *)0x507010e0)
+#define RISCV_DM_XOR_SBADDRESS0 (*(volatile uint32_t *)0x507010e4)
+#define RISCV_DM_XOR_SBDATA0 (*(volatile uint32_t *)0x507010f0)
+#define RISCV_DM_XOR_HALTSUM0 (*(volatile uint32_t *)0x50701100)
+#define RISCV_DM_SET_DATA0 (*(volatile uint32_t *)0x50702010)
+#define RISCV_DM_SET_DMCONTROL (*(volatile uint32_t *)0x50702040)
+#define RISCV_DM_SET_DMSTATUS (*(volatile uint32_t *)0x50702044)
+#define RISCV_DM_SET_HARTINFO (*(volatile uint32_t *)0x50702048)
+#define RISCV_DM_SET_HALTSUM1 (*(volatile uint32_t *)0x5070204c)
+#define RISCV_DM_SET_HAWINDOWSEL (*(volatile uint32_t *)0x50702050)
+#define RISCV_DM_SET_HAWINDOW (*(volatile uint32_t *)0x50702054)
+#define RISCV_DM_SET_ABSTRACTS (*(volatile uint32_t *)0x50702058)
+#define RISCV_DM_SET_COMMAND (*(volatile uint32_t *)0x5070205c)
+#define RISCV_DM_SET_ABSTRACTAUTO (*(volatile uint32_t *)0x50702060)
+#define RISCV_DM_SET_NEXTDM (*(volatile uint32_t *)0x50702074)
+#define RISCV_DM_SET_PROGBUF0 (*(volatile uint32_t *)0x50702080)
+#define RISCV_DM_SET_PROGBUF1 (*(volatile uint32_t *)0x50702084)
+#define RISCV_DM_SET_SBCS (*(volatile uint32_t *)0x507020e0)
+#define RISCV_DM_SET_SBADDRESS0 (*(volatile uint32_t *)0x507020e4)
+#define RISCV_DM_SET_SBDATA0 (*(volatile uint32_t *)0x507020f0)
+#define RISCV_DM_SET_HALTSUM0 (*(volatile uint32_t *)0x50702100)
+#define RISCV_DM_CLR_DATA0 (*(volatile uint32_t *)0x50703010)
+#define RISCV_DM_CLR_DMCONTROL (*(volatile uint32_t *)0x50703040)
+#define RISCV_DM_CLR_DMSTATUS (*(volatile uint32_t *)0x50703044)
+#define RISCV_DM_CLR_HARTINFO (*(volatile uint32_t *)0x50703048)
+#define RISCV_DM_CLR_HALTSUM1 (*(volatile uint32_t *)0x5070304c)
+#define RISCV_DM_CLR_HAWINDOWSEL (*(volatile uint32_t *)0x50703050)
+#define RISCV_DM_CLR_HAWINDOW (*(volatile uint32_t *)0x50703054)
+#define RISCV_DM_CLR_ABSTRACTS (*(volatile uint32_t *)0x50703058)
+#define RISCV_DM_CLR_COMMAND (*(volatile uint32_t *)0x5070305c)
+#define RISCV_DM_CLR_ABSTRACTAUTO (*(volatile uint32_t *)0x50703060)
+#define RISCV_DM_CLR_NEXTDM (*(volatile uint32_t *)0x50703074)
+#define RISCV_DM_CLR_PROGBUF0 (*(volatile uint32_t *)0x50703080)
+#define RISCV_DM_CLR_PROGBUF1 (*(volatile uint32_t *)0x50703084)
+#define RISCV_DM_CLR_SBCS (*(volatile uint32_t *)0x507030e0)
+#define RISCV_DM_CLR_SBADDRESS0 (*(volatile uint32_t *)0x507030e4)
+#define RISCV_DM_CLR_SBDATA0 (*(volatile uint32_t *)0x507030f0)
+#define RISCV_DM_CLR_HALTSUM0 (*(volatile uint32_t *)0x50703100)
 
 /*DATA0 Register macros*/
 
@@ -315,3 +390,4 @@ typedef struct{
 
 
 #endif
+

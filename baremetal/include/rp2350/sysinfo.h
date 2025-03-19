@@ -57,7 +57,30 @@ typedef struct{
 		uint32_t RSVDclr_1[1018];
 } SYSINFO_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define sysinfo (*(SYSINFO_REG_BLOCKS volatile *)0x40000000)
+
+
+/*IO Registers AS MACROS*/
+
+#define SYSINFO_CHIP_ID (*(volatile uint32_t *)0x40000000)
+#define SYSINFO_PACKAGE_SEL (*(volatile uint32_t *)0x40000004)
+#define SYSINFO_PLATFORM (*(volatile uint32_t *)0x40000008)
+#define SYSINFO_GITREF_RP2350 (*(volatile uint32_t *)0x40000014)
+#define SYSINFO_XOR_CHIP_ID (*(volatile uint32_t *)0x40001000)
+#define SYSINFO_XOR_PACKAGE_SEL (*(volatile uint32_t *)0x40001004)
+#define SYSINFO_XOR_PLATFORM (*(volatile uint32_t *)0x40001008)
+#define SYSINFO_XOR_GITREF_RP2350 (*(volatile uint32_t *)0x40001014)
+#define SYSINFO_SET_CHIP_ID (*(volatile uint32_t *)0x40002000)
+#define SYSINFO_SET_PACKAGE_SEL (*(volatile uint32_t *)0x40002004)
+#define SYSINFO_SET_PLATFORM (*(volatile uint32_t *)0x40002008)
+#define SYSINFO_SET_GITREF_RP2350 (*(volatile uint32_t *)0x40002014)
+#define SYSINFO_CLR_CHIP_ID (*(volatile uint32_t *)0x40003000)
+#define SYSINFO_CLR_PACKAGE_SEL (*(volatile uint32_t *)0x40003004)
+#define SYSINFO_CLR_PLATFORM (*(volatile uint32_t *)0x40003008)
+#define SYSINFO_CLR_GITREF_RP2350 (*(volatile uint32_t *)0x40003014)
 
 /*CHIP_ID Register macros*/
 
@@ -90,3 +113,4 @@ typedef struct{
 
 
 #endif
+

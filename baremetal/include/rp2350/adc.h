@@ -73,7 +73,50 @@ typedef struct{
 		uint32_t RSVDclr_0[1015];
 } ADC_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define adc (*(ADC_REG_BLOCKS volatile *)0x400a0000)
+
+
+/*IO Registers AS MACROS*/
+
+#define ADC_CS (*(volatile uint32_t *)0x400a0000)
+#define ADC_RESULT (*(volatile uint32_t *)0x400a0004)
+#define ADC_FCS (*(volatile uint32_t *)0x400a0008)
+#define ADC_FIFO (*(volatile uint32_t *)0x400a000c)
+#define ADC_DIV (*(volatile uint32_t *)0x400a0010)
+#define ADC_INTR (*(volatile uint32_t *)0x400a0014)
+#define ADC_INTE (*(volatile uint32_t *)0x400a0018)
+#define ADC_INTF (*(volatile uint32_t *)0x400a001c)
+#define ADC_INTS (*(volatile uint32_t *)0x400a0020)
+#define ADC_XOR_CS (*(volatile uint32_t *)0x400a1000)
+#define ADC_XOR_RESULT (*(volatile uint32_t *)0x400a1004)
+#define ADC_XOR_FCS (*(volatile uint32_t *)0x400a1008)
+#define ADC_XOR_FIFO (*(volatile uint32_t *)0x400a100c)
+#define ADC_XOR_DIV (*(volatile uint32_t *)0x400a1010)
+#define ADC_XOR_INTR (*(volatile uint32_t *)0x400a1014)
+#define ADC_XOR_INTE (*(volatile uint32_t *)0x400a1018)
+#define ADC_XOR_INTF (*(volatile uint32_t *)0x400a101c)
+#define ADC_XOR_INTS (*(volatile uint32_t *)0x400a1020)
+#define ADC_SET_CS (*(volatile uint32_t *)0x400a2000)
+#define ADC_SET_RESULT (*(volatile uint32_t *)0x400a2004)
+#define ADC_SET_FCS (*(volatile uint32_t *)0x400a2008)
+#define ADC_SET_FIFO (*(volatile uint32_t *)0x400a200c)
+#define ADC_SET_DIV (*(volatile uint32_t *)0x400a2010)
+#define ADC_SET_INTR (*(volatile uint32_t *)0x400a2014)
+#define ADC_SET_INTE (*(volatile uint32_t *)0x400a2018)
+#define ADC_SET_INTF (*(volatile uint32_t *)0x400a201c)
+#define ADC_SET_INTS (*(volatile uint32_t *)0x400a2020)
+#define ADC_CLR_CS (*(volatile uint32_t *)0x400a3000)
+#define ADC_CLR_RESULT (*(volatile uint32_t *)0x400a3004)
+#define ADC_CLR_FCS (*(volatile uint32_t *)0x400a3008)
+#define ADC_CLR_FIFO (*(volatile uint32_t *)0x400a300c)
+#define ADC_CLR_DIV (*(volatile uint32_t *)0x400a3010)
+#define ADC_CLR_INTR (*(volatile uint32_t *)0x400a3014)
+#define ADC_CLR_INTE (*(volatile uint32_t *)0x400a3018)
+#define ADC_CLR_INTF (*(volatile uint32_t *)0x400a301c)
+#define ADC_CLR_INTS (*(volatile uint32_t *)0x400a3020)
 
 /*CS Register macros*/
 
@@ -157,3 +200,4 @@ typedef struct{
 #define ADC_INTS_FIFO_MASK ADC_INTS_FIFO(ALL1)
 
 #endif
+

@@ -107,9 +107,82 @@ typedef struct{
 		uint32_t RSVDclr_0[1016];
 } PLL_USB_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define pll_sys (*(PLL_SYS_REG_BLOCKS volatile *)0x40050000)
 
+
+
 #define pll_usb (*(PLL_USB_REG_BLOCKS volatile *)0x40058000)
+
+
+/*IO Registers AS MACROS*/
+
+#define PLL_SYS_CS (*(volatile uint32_t *)0x40050000)
+#define PLL_SYS_PWR (*(volatile uint32_t *)0x40050004)
+#define PLL_SYS_FBDIV_INT (*(volatile uint32_t *)0x40050008)
+#define PLL_SYS_PRIM (*(volatile uint32_t *)0x4005000c)
+#define PLL_SYS_INTR (*(volatile uint32_t *)0x40050010)
+#define PLL_SYS_INTE (*(volatile uint32_t *)0x40050014)
+#define PLL_SYS_INTF (*(volatile uint32_t *)0x40050018)
+#define PLL_SYS_INTS (*(volatile uint32_t *)0x4005001c)
+#define PLL_SYS_XOR_CS (*(volatile uint32_t *)0x40051000)
+#define PLL_SYS_XOR_PWR (*(volatile uint32_t *)0x40051004)
+#define PLL_SYS_XOR_FBDIV_INT (*(volatile uint32_t *)0x40051008)
+#define PLL_SYS_XOR_PRIM (*(volatile uint32_t *)0x4005100c)
+#define PLL_SYS_XOR_INTR (*(volatile uint32_t *)0x40051010)
+#define PLL_SYS_XOR_INTE (*(volatile uint32_t *)0x40051014)
+#define PLL_SYS_XOR_INTF (*(volatile uint32_t *)0x40051018)
+#define PLL_SYS_XOR_INTS (*(volatile uint32_t *)0x4005101c)
+#define PLL_SYS_SET_CS (*(volatile uint32_t *)0x40052000)
+#define PLL_SYS_SET_PWR (*(volatile uint32_t *)0x40052004)
+#define PLL_SYS_SET_FBDIV_INT (*(volatile uint32_t *)0x40052008)
+#define PLL_SYS_SET_PRIM (*(volatile uint32_t *)0x4005200c)
+#define PLL_SYS_SET_INTR (*(volatile uint32_t *)0x40052010)
+#define PLL_SYS_SET_INTE (*(volatile uint32_t *)0x40052014)
+#define PLL_SYS_SET_INTF (*(volatile uint32_t *)0x40052018)
+#define PLL_SYS_SET_INTS (*(volatile uint32_t *)0x4005201c)
+#define PLL_SYS_CLR_CS (*(volatile uint32_t *)0x40053000)
+#define PLL_SYS_CLR_PWR (*(volatile uint32_t *)0x40053004)
+#define PLL_SYS_CLR_FBDIV_INT (*(volatile uint32_t *)0x40053008)
+#define PLL_SYS_CLR_PRIM (*(volatile uint32_t *)0x4005300c)
+#define PLL_SYS_CLR_INTR (*(volatile uint32_t *)0x40053010)
+#define PLL_SYS_CLR_INTE (*(volatile uint32_t *)0x40053014)
+#define PLL_SYS_CLR_INTF (*(volatile uint32_t *)0x40053018)
+#define PLL_SYS_CLR_INTS (*(volatile uint32_t *)0x4005301c)
+#define PLL_USB_CS (*(volatile uint32_t *)0x40058000)
+#define PLL_USB_PWR (*(volatile uint32_t *)0x40058004)
+#define PLL_USB_FBDIV_INT (*(volatile uint32_t *)0x40058008)
+#define PLL_USB_PRIM (*(volatile uint32_t *)0x4005800c)
+#define PLL_USB_INTR (*(volatile uint32_t *)0x40058010)
+#define PLL_USB_INTE (*(volatile uint32_t *)0x40058014)
+#define PLL_USB_INTF (*(volatile uint32_t *)0x40058018)
+#define PLL_USB_INTS (*(volatile uint32_t *)0x4005801c)
+#define PLL_USB_XOR_CS (*(volatile uint32_t *)0x40059000)
+#define PLL_USB_XOR_PWR (*(volatile uint32_t *)0x40059004)
+#define PLL_USB_XOR_FBDIV_INT (*(volatile uint32_t *)0x40059008)
+#define PLL_USB_XOR_PRIM (*(volatile uint32_t *)0x4005900c)
+#define PLL_USB_XOR_INTR (*(volatile uint32_t *)0x40059010)
+#define PLL_USB_XOR_INTE (*(volatile uint32_t *)0x40059014)
+#define PLL_USB_XOR_INTF (*(volatile uint32_t *)0x40059018)
+#define PLL_USB_XOR_INTS (*(volatile uint32_t *)0x4005901c)
+#define PLL_USB_SET_CS (*(volatile uint32_t *)0x4005a000)
+#define PLL_USB_SET_PWR (*(volatile uint32_t *)0x4005a004)
+#define PLL_USB_SET_FBDIV_INT (*(volatile uint32_t *)0x4005a008)
+#define PLL_USB_SET_PRIM (*(volatile uint32_t *)0x4005a00c)
+#define PLL_USB_SET_INTR (*(volatile uint32_t *)0x4005a010)
+#define PLL_USB_SET_INTE (*(volatile uint32_t *)0x4005a014)
+#define PLL_USB_SET_INTF (*(volatile uint32_t *)0x4005a018)
+#define PLL_USB_SET_INTS (*(volatile uint32_t *)0x4005a01c)
+#define PLL_USB_CLR_CS (*(volatile uint32_t *)0x4005b000)
+#define PLL_USB_CLR_PWR (*(volatile uint32_t *)0x4005b004)
+#define PLL_USB_CLR_FBDIV_INT (*(volatile uint32_t *)0x4005b008)
+#define PLL_USB_CLR_PRIM (*(volatile uint32_t *)0x4005b00c)
+#define PLL_USB_CLR_INTR (*(volatile uint32_t *)0x4005b010)
+#define PLL_USB_CLR_INTE (*(volatile uint32_t *)0x4005b014)
+#define PLL_USB_CLR_INTF (*(volatile uint32_t *)0x4005b018)
+#define PLL_USB_CLR_INTS (*(volatile uint32_t *)0x4005b01c)
 
 /*CS Register macros*/
 
@@ -216,3 +289,4 @@ typedef struct{
 #define PLL_USB_INTS_LOCK_N_STICKY_MASK PLL_USB_INTS_LOCK_N_STICKY(ALL1)
 
 #endif
+

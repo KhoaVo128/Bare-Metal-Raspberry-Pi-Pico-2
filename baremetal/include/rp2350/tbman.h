@@ -41,7 +41,18 @@ typedef struct{
 		uint32_t RSVDclr_0[1023];
 } TBMAN_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define tbman (*(TBMAN_REG_BLOCKS volatile *)0x40160000)
+
+
+/*IO Registers AS MACROS*/
+
+#define TBMAN_PLATFORM (*(volatile uint32_t *)0x40160000)
+#define TBMAN_XOR_PLATFORM (*(volatile uint32_t *)0x40161000)
+#define TBMAN_SET_PLATFORM (*(volatile uint32_t *)0x40162000)
+#define TBMAN_CLR_PLATFORM (*(volatile uint32_t *)0x40163000)
 
 /*PLATFORM Register macros*/
 
@@ -53,3 +64,4 @@ typedef struct{
 #define TBMAN_PLATFORM_ASIC_MASK TBMAN_PLATFORM_ASIC(ALL1)
 
 #endif
+

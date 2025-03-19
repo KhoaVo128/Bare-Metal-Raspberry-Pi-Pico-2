@@ -61,7 +61,38 @@ typedef struct{
 		uint32_t RSVDclr_0[1018];
 } SYSCFG_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define syscfg (*(SYSCFG_REG_BLOCKS volatile *)0x40008000)
+
+
+/*IO Registers AS MACROS*/
+
+#define SYSCFG_PROC_CONFIG (*(volatile uint32_t *)0x40008000)
+#define SYSCFG_PROC_IN_SYNC_BYPASS (*(volatile uint32_t *)0x40008004)
+#define SYSCFG_PROC_IN_SYNC_BYPASS_HI (*(volatile uint32_t *)0x40008008)
+#define SYSCFG_DBGFORCE (*(volatile uint32_t *)0x4000800c)
+#define SYSCFG_MEMPOWERDOWN (*(volatile uint32_t *)0x40008010)
+#define SYSCFG_AUXCTRL (*(volatile uint32_t *)0x40008014)
+#define SYSCFG_XOR_PROC_CONFIG (*(volatile uint32_t *)0x40009000)
+#define SYSCFG_XOR_PROC_IN_SYNC_BYPASS (*(volatile uint32_t *)0x40009004)
+#define SYSCFG_XOR_PROC_IN_SYNC_BYPASS_HI (*(volatile uint32_t *)0x40009008)
+#define SYSCFG_XOR_DBGFORCE (*(volatile uint32_t *)0x4000900c)
+#define SYSCFG_XOR_MEMPOWERDOWN (*(volatile uint32_t *)0x40009010)
+#define SYSCFG_XOR_AUXCTRL (*(volatile uint32_t *)0x40009014)
+#define SYSCFG_SET_PROC_CONFIG (*(volatile uint32_t *)0x4000a000)
+#define SYSCFG_SET_PROC_IN_SYNC_BYPASS (*(volatile uint32_t *)0x4000a004)
+#define SYSCFG_SET_PROC_IN_SYNC_BYPASS_HI (*(volatile uint32_t *)0x4000a008)
+#define SYSCFG_SET_DBGFORCE (*(volatile uint32_t *)0x4000a00c)
+#define SYSCFG_SET_MEMPOWERDOWN (*(volatile uint32_t *)0x4000a010)
+#define SYSCFG_SET_AUXCTRL (*(volatile uint32_t *)0x4000a014)
+#define SYSCFG_CLR_PROC_CONFIG (*(volatile uint32_t *)0x4000b000)
+#define SYSCFG_CLR_PROC_IN_SYNC_BYPASS (*(volatile uint32_t *)0x4000b004)
+#define SYSCFG_CLR_PROC_IN_SYNC_BYPASS_HI (*(volatile uint32_t *)0x4000b008)
+#define SYSCFG_CLR_DBGFORCE (*(volatile uint32_t *)0x4000b00c)
+#define SYSCFG_CLR_MEMPOWERDOWN (*(volatile uint32_t *)0x4000b010)
+#define SYSCFG_CLR_AUXCTRL (*(volatile uint32_t *)0x4000b014)
 
 /*PROC_CONFIG Register macros*/
 
@@ -146,3 +177,4 @@ typedef struct{
 
 
 #endif
+

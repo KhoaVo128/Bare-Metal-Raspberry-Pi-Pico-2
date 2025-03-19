@@ -45,7 +45,22 @@ typedef struct{
 		uint32_t RSVDclr_0[1022];
 } HSTX_FIFO_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define hstx_fifo (*(HSTX_FIFO_REG_BLOCKS volatile *)0x50600000)
+
+
+/*IO Registers AS MACROS*/
+
+#define HSTX_FIFO_STAT (*(volatile uint32_t *)0x50600000)
+#define HSTX_FIFO_FIFO (*(volatile uint32_t *)0x50600004)
+#define HSTX_FIFO_XOR_STAT (*(volatile uint32_t *)0x50601000)
+#define HSTX_FIFO_XOR_FIFO (*(volatile uint32_t *)0x50601004)
+#define HSTX_FIFO_SET_STAT (*(volatile uint32_t *)0x50602000)
+#define HSTX_FIFO_SET_FIFO (*(volatile uint32_t *)0x50602004)
+#define HSTX_FIFO_CLR_STAT (*(volatile uint32_t *)0x50603000)
+#define HSTX_FIFO_CLR_FIFO (*(volatile uint32_t *)0x50603004)
 
 /*STAT Register macros*/
 
@@ -62,3 +77,4 @@ typedef struct{
 
 
 #endif
+

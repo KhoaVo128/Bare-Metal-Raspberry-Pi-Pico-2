@@ -45,7 +45,22 @@ typedef struct{
 		uint32_t RSVDclr_0[1022];
 } CORESIGHT_TRACE_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define coresight_trace (*(CORESIGHT_TRACE_REG_BLOCKS volatile *)0x50700000)
+
+
+/*IO Registers AS MACROS*/
+
+#define CORESIGHT_TRACE_CTRL_STATUS (*(volatile uint32_t *)0x50700000)
+#define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50700004)
+#define CORESIGHT_TRACE_XOR_CTRL_STATUS (*(volatile uint32_t *)0x50701000)
+#define CORESIGHT_TRACE_XOR_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50701004)
+#define CORESIGHT_TRACE_SET_CTRL_STATUS (*(volatile uint32_t *)0x50702000)
+#define CORESIGHT_TRACE_SET_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50702004)
+#define CORESIGHT_TRACE_CLR_CTRL_STATUS (*(volatile uint32_t *)0x50703000)
+#define CORESIGHT_TRACE_CLR_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50703004)
 
 /*CTRL_STATUS Register macros*/
 
@@ -60,3 +75,4 @@ typedef struct{
 #define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO_RDATA_MASK CORESIGHT_TRACE_TRACE_CAPTURE_FIFO_RDATA(ALL1)
 
 #endif
+

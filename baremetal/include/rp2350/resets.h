@@ -49,7 +49,26 @@ typedef struct{
 		uint32_t RSVDclr_0[1021];
 } RESETS_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define resets (*(RESETS_REG_BLOCKS volatile *)0x40020000)
+
+
+/*IO Registers AS MACROS*/
+
+#define RESETS_RESET (*(volatile uint32_t *)0x40020000)
+#define RESETS_WDSEL (*(volatile uint32_t *)0x40020004)
+#define RESETS_RESET_DONE (*(volatile uint32_t *)0x40020008)
+#define RESETS_XOR_RESET (*(volatile uint32_t *)0x40021000)
+#define RESETS_XOR_WDSEL (*(volatile uint32_t *)0x40021004)
+#define RESETS_XOR_RESET_DONE (*(volatile uint32_t *)0x40021008)
+#define RESETS_SET_RESET (*(volatile uint32_t *)0x40022000)
+#define RESETS_SET_WDSEL (*(volatile uint32_t *)0x40022004)
+#define RESETS_SET_RESET_DONE (*(volatile uint32_t *)0x40022008)
+#define RESETS_CLR_RESET (*(volatile uint32_t *)0x40023000)
+#define RESETS_CLR_WDSEL (*(volatile uint32_t *)0x40023004)
+#define RESETS_CLR_RESET_DONE (*(volatile uint32_t *)0x40023008)
 
 /*RESET Register macros*/
 
@@ -293,3 +312,4 @@ typedef struct{
 #define RESETS_RESET_DONE_ADC_MASK RESETS_RESET_DONE_ADC(ALL1)
 
 #endif
+

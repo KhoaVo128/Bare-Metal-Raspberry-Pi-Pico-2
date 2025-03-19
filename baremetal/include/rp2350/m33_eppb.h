@@ -49,7 +49,26 @@ typedef struct{
 		uint32_t RSVDclr_0[1021];
 } M33_EPPB_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define m33_eppb (*(M33_EPPB_REG_BLOCKS volatile *)0xe0000000)
+
+
+/*IO Registers AS MACROS*/
+
+#define M33_EPPB_NMI_MASK0 (*(volatile uint32_t *)0xe0000000)
+#define M33_EPPB_NMI_MASK1 (*(volatile uint32_t *)0xe0000004)
+#define M33_EPPB_SLEEPCTRL (*(volatile uint32_t *)0xe0000008)
+#define M33_EPPB_XOR_NMI_MASK0 (*(volatile uint32_t *)0xe0001000)
+#define M33_EPPB_XOR_NMI_MASK1 (*(volatile uint32_t *)0xe0001004)
+#define M33_EPPB_XOR_SLEEPCTRL (*(volatile uint32_t *)0xe0001008)
+#define M33_EPPB_SET_NMI_MASK0 (*(volatile uint32_t *)0xe0002000)
+#define M33_EPPB_SET_NMI_MASK1 (*(volatile uint32_t *)0xe0002004)
+#define M33_EPPB_SET_SLEEPCTRL (*(volatile uint32_t *)0xe0002008)
+#define M33_EPPB_CLR_NMI_MASK0 (*(volatile uint32_t *)0xe0003000)
+#define M33_EPPB_CLR_NMI_MASK1 (*(volatile uint32_t *)0xe0003004)
+#define M33_EPPB_CLR_SLEEPCTRL (*(volatile uint32_t *)0xe0003008)
 
 /*NMI_MASK0 Register macros*/
 
@@ -67,3 +86,4 @@ typedef struct{
 #define M33_EPPB_SLEEPCTRL_LIGHT_SLEEP_MASK M33_EPPB_SLEEPCTRL_LIGHT_SLEEP(ALL1)
 
 #endif
+

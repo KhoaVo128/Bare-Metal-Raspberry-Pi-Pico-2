@@ -53,7 +53,30 @@ typedef struct{
 		uint32_t RSVDclr_0[1020];
 } PSM_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define psm (*(PSM_REG_BLOCKS volatile *)0x40018000)
+
+
+/*IO Registers AS MACROS*/
+
+#define PSM_FRCE_ON (*(volatile uint32_t *)0x40018000)
+#define PSM_FRCE_OFF (*(volatile uint32_t *)0x40018004)
+#define PSM_WDSEL (*(volatile uint32_t *)0x40018008)
+#define PSM_DONE (*(volatile uint32_t *)0x4001800c)
+#define PSM_XOR_FRCE_ON (*(volatile uint32_t *)0x40019000)
+#define PSM_XOR_FRCE_OFF (*(volatile uint32_t *)0x40019004)
+#define PSM_XOR_WDSEL (*(volatile uint32_t *)0x40019008)
+#define PSM_XOR_DONE (*(volatile uint32_t *)0x4001900c)
+#define PSM_SET_FRCE_ON (*(volatile uint32_t *)0x4001a000)
+#define PSM_SET_FRCE_OFF (*(volatile uint32_t *)0x4001a004)
+#define PSM_SET_WDSEL (*(volatile uint32_t *)0x4001a008)
+#define PSM_SET_DONE (*(volatile uint32_t *)0x4001a00c)
+#define PSM_CLR_FRCE_ON (*(volatile uint32_t *)0x4001b000)
+#define PSM_CLR_FRCE_OFF (*(volatile uint32_t *)0x4001b004)
+#define PSM_CLR_WDSEL (*(volatile uint32_t *)0x4001b008)
+#define PSM_CLR_DONE (*(volatile uint32_t *)0x4001b00c)
 
 /*FRCE_ON Register macros*/
 
@@ -269,3 +292,4 @@ typedef struct{
 #define PSM_DONE_PROC_COLD_MASK PSM_DONE_PROC_COLD(ALL1)
 
 #endif
+

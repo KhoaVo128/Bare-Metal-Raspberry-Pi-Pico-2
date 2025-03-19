@@ -109,7 +109,86 @@ typedef struct{
 		uint32_t RSVDclr_0[1006];
 } TICKS_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define ticks (*(TICKS_REG_BLOCKS volatile *)0x40108000)
+
+
+/*IO Registers AS MACROS*/
+
+#define TICKS_PROC0_CTRL (*(volatile uint32_t *)0x40108000)
+#define TICKS_PROC0_CYCLES (*(volatile uint32_t *)0x40108004)
+#define TICKS_PROC0_COUNT (*(volatile uint32_t *)0x40108008)
+#define TICKS_PROC1_CTRL (*(volatile uint32_t *)0x4010800c)
+#define TICKS_PROC1_CYCLES (*(volatile uint32_t *)0x40108010)
+#define TICKS_PROC1_COUNT (*(volatile uint32_t *)0x40108014)
+#define TICKS_TIMER0_CTRL (*(volatile uint32_t *)0x40108018)
+#define TICKS_TIMER0_CYCLES (*(volatile uint32_t *)0x4010801c)
+#define TICKS_TIMER0_COUNT (*(volatile uint32_t *)0x40108020)
+#define TICKS_TIMER1_CTRL (*(volatile uint32_t *)0x40108024)
+#define TICKS_TIMER1_CYCLES (*(volatile uint32_t *)0x40108028)
+#define TICKS_TIMER1_COUNT (*(volatile uint32_t *)0x4010802c)
+#define TICKS_WATCHDOG_CTRL (*(volatile uint32_t *)0x40108030)
+#define TICKS_WATCHDOG_CYCLES (*(volatile uint32_t *)0x40108034)
+#define TICKS_WATCHDOG_COUNT (*(volatile uint32_t *)0x40108038)
+#define TICKS_RISCV_CTRL (*(volatile uint32_t *)0x4010803c)
+#define TICKS_RISCV_CYCLES (*(volatile uint32_t *)0x40108040)
+#define TICKS_RISCV_COUNT (*(volatile uint32_t *)0x40108044)
+#define TICKS_XOR_PROC0_CTRL (*(volatile uint32_t *)0x40109000)
+#define TICKS_XOR_PROC0_CYCLES (*(volatile uint32_t *)0x40109004)
+#define TICKS_XOR_PROC0_COUNT (*(volatile uint32_t *)0x40109008)
+#define TICKS_XOR_PROC1_CTRL (*(volatile uint32_t *)0x4010900c)
+#define TICKS_XOR_PROC1_CYCLES (*(volatile uint32_t *)0x40109010)
+#define TICKS_XOR_PROC1_COUNT (*(volatile uint32_t *)0x40109014)
+#define TICKS_XOR_TIMER0_CTRL (*(volatile uint32_t *)0x40109018)
+#define TICKS_XOR_TIMER0_CYCLES (*(volatile uint32_t *)0x4010901c)
+#define TICKS_XOR_TIMER0_COUNT (*(volatile uint32_t *)0x40109020)
+#define TICKS_XOR_TIMER1_CTRL (*(volatile uint32_t *)0x40109024)
+#define TICKS_XOR_TIMER1_CYCLES (*(volatile uint32_t *)0x40109028)
+#define TICKS_XOR_TIMER1_COUNT (*(volatile uint32_t *)0x4010902c)
+#define TICKS_XOR_WATCHDOG_CTRL (*(volatile uint32_t *)0x40109030)
+#define TICKS_XOR_WATCHDOG_CYCLES (*(volatile uint32_t *)0x40109034)
+#define TICKS_XOR_WATCHDOG_COUNT (*(volatile uint32_t *)0x40109038)
+#define TICKS_XOR_RISCV_CTRL (*(volatile uint32_t *)0x4010903c)
+#define TICKS_XOR_RISCV_CYCLES (*(volatile uint32_t *)0x40109040)
+#define TICKS_XOR_RISCV_COUNT (*(volatile uint32_t *)0x40109044)
+#define TICKS_SET_PROC0_CTRL (*(volatile uint32_t *)0x4010a000)
+#define TICKS_SET_PROC0_CYCLES (*(volatile uint32_t *)0x4010a004)
+#define TICKS_SET_PROC0_COUNT (*(volatile uint32_t *)0x4010a008)
+#define TICKS_SET_PROC1_CTRL (*(volatile uint32_t *)0x4010a00c)
+#define TICKS_SET_PROC1_CYCLES (*(volatile uint32_t *)0x4010a010)
+#define TICKS_SET_PROC1_COUNT (*(volatile uint32_t *)0x4010a014)
+#define TICKS_SET_TIMER0_CTRL (*(volatile uint32_t *)0x4010a018)
+#define TICKS_SET_TIMER0_CYCLES (*(volatile uint32_t *)0x4010a01c)
+#define TICKS_SET_TIMER0_COUNT (*(volatile uint32_t *)0x4010a020)
+#define TICKS_SET_TIMER1_CTRL (*(volatile uint32_t *)0x4010a024)
+#define TICKS_SET_TIMER1_CYCLES (*(volatile uint32_t *)0x4010a028)
+#define TICKS_SET_TIMER1_COUNT (*(volatile uint32_t *)0x4010a02c)
+#define TICKS_SET_WATCHDOG_CTRL (*(volatile uint32_t *)0x4010a030)
+#define TICKS_SET_WATCHDOG_CYCLES (*(volatile uint32_t *)0x4010a034)
+#define TICKS_SET_WATCHDOG_COUNT (*(volatile uint32_t *)0x4010a038)
+#define TICKS_SET_RISCV_CTRL (*(volatile uint32_t *)0x4010a03c)
+#define TICKS_SET_RISCV_CYCLES (*(volatile uint32_t *)0x4010a040)
+#define TICKS_SET_RISCV_COUNT (*(volatile uint32_t *)0x4010a044)
+#define TICKS_CLR_PROC0_CTRL (*(volatile uint32_t *)0x4010b000)
+#define TICKS_CLR_PROC0_CYCLES (*(volatile uint32_t *)0x4010b004)
+#define TICKS_CLR_PROC0_COUNT (*(volatile uint32_t *)0x4010b008)
+#define TICKS_CLR_PROC1_CTRL (*(volatile uint32_t *)0x4010b00c)
+#define TICKS_CLR_PROC1_CYCLES (*(volatile uint32_t *)0x4010b010)
+#define TICKS_CLR_PROC1_COUNT (*(volatile uint32_t *)0x4010b014)
+#define TICKS_CLR_TIMER0_CTRL (*(volatile uint32_t *)0x4010b018)
+#define TICKS_CLR_TIMER0_CYCLES (*(volatile uint32_t *)0x4010b01c)
+#define TICKS_CLR_TIMER0_COUNT (*(volatile uint32_t *)0x4010b020)
+#define TICKS_CLR_TIMER1_CTRL (*(volatile uint32_t *)0x4010b024)
+#define TICKS_CLR_TIMER1_CYCLES (*(volatile uint32_t *)0x4010b028)
+#define TICKS_CLR_TIMER1_COUNT (*(volatile uint32_t *)0x4010b02c)
+#define TICKS_CLR_WATCHDOG_CTRL (*(volatile uint32_t *)0x4010b030)
+#define TICKS_CLR_WATCHDOG_CYCLES (*(volatile uint32_t *)0x4010b034)
+#define TICKS_CLR_WATCHDOG_COUNT (*(volatile uint32_t *)0x4010b038)
+#define TICKS_CLR_RISCV_CTRL (*(volatile uint32_t *)0x4010b03c)
+#define TICKS_CLR_RISCV_CYCLES (*(volatile uint32_t *)0x4010b040)
+#define TICKS_CLR_RISCV_COUNT (*(volatile uint32_t *)0x4010b044)
 
 /*PROC0_CTRL Register macros*/
 
@@ -190,3 +269,4 @@ typedef struct{
 
 
 #endif
+

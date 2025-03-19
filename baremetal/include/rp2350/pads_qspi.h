@@ -65,7 +65,42 @@ typedef struct{
 		uint32_t RSVDclr_0[1017];
 } PADS_QSPI_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define pads_qspi (*(PADS_QSPI_REG_BLOCKS volatile *)0x40040000)
+
+
+/*IO Registers AS MACROS*/
+
+#define PADS_QSPI_VOLTAGE_SELECT (*(volatile uint32_t *)0x40040000)
+#define PADS_QSPI_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40040004)
+#define PADS_QSPI_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40040008)
+#define PADS_QSPI_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004000c)
+#define PADS_QSPI_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40040010)
+#define PADS_QSPI_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40040014)
+#define PADS_QSPI_GPIO_QSPI_SS (*(volatile uint32_t *)0x40040018)
+#define PADS_QSPI_XOR_VOLTAGE_SELECT (*(volatile uint32_t *)0x40041000)
+#define PADS_QSPI_XOR_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40041004)
+#define PADS_QSPI_XOR_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40041008)
+#define PADS_QSPI_XOR_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004100c)
+#define PADS_QSPI_XOR_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40041010)
+#define PADS_QSPI_XOR_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40041014)
+#define PADS_QSPI_XOR_GPIO_QSPI_SS (*(volatile uint32_t *)0x40041018)
+#define PADS_QSPI_SET_VOLTAGE_SELECT (*(volatile uint32_t *)0x40042000)
+#define PADS_QSPI_SET_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40042004)
+#define PADS_QSPI_SET_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40042008)
+#define PADS_QSPI_SET_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004200c)
+#define PADS_QSPI_SET_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40042010)
+#define PADS_QSPI_SET_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40042014)
+#define PADS_QSPI_SET_GPIO_QSPI_SS (*(volatile uint32_t *)0x40042018)
+#define PADS_QSPI_CLR_VOLTAGE_SELECT (*(volatile uint32_t *)0x40043000)
+#define PADS_QSPI_CLR_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40043004)
+#define PADS_QSPI_CLR_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40043008)
+#define PADS_QSPI_CLR_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004300c)
+#define PADS_QSPI_CLR_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40043010)
+#define PADS_QSPI_CLR_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40043014)
+#define PADS_QSPI_CLR_GPIO_QSPI_SS (*(volatile uint32_t *)0x40043018)
 
 /*VOLTAGE_SELECT Register macros*/
 
@@ -185,3 +220,4 @@ typedef struct{
 #define PADS_QSPI_GPIO_QSPI_SS_SLEWFAST_MASK PADS_QSPI_GPIO_QSPI_SS_SLEWFAST(ALL1)
 
 #endif
+

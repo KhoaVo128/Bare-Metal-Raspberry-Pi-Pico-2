@@ -57,7 +57,34 @@ typedef struct{
 		uint32_t RSVDclr_0[1019];
 } XOSC_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define xosc (*(XOSC_REG_BLOCKS volatile *)0x40048000)
+
+
+/*IO Registers AS MACROS*/
+
+#define XOSC_CTRL (*(volatile uint32_t *)0x40048000)
+#define XOSC_STATUS (*(volatile uint32_t *)0x40048004)
+#define XOSC_DORMANT (*(volatile uint32_t *)0x40048008)
+#define XOSC_STARTUP (*(volatile uint32_t *)0x4004800c)
+#define XOSC_COUNT (*(volatile uint32_t *)0x40048010)
+#define XOSC_XOR_CTRL (*(volatile uint32_t *)0x40049000)
+#define XOSC_XOR_STATUS (*(volatile uint32_t *)0x40049004)
+#define XOSC_XOR_DORMANT (*(volatile uint32_t *)0x40049008)
+#define XOSC_XOR_STARTUP (*(volatile uint32_t *)0x4004900c)
+#define XOSC_XOR_COUNT (*(volatile uint32_t *)0x40049010)
+#define XOSC_SET_CTRL (*(volatile uint32_t *)0x4004a000)
+#define XOSC_SET_STATUS (*(volatile uint32_t *)0x4004a004)
+#define XOSC_SET_DORMANT (*(volatile uint32_t *)0x4004a008)
+#define XOSC_SET_STARTUP (*(volatile uint32_t *)0x4004a00c)
+#define XOSC_SET_COUNT (*(volatile uint32_t *)0x4004a010)
+#define XOSC_CLR_CTRL (*(volatile uint32_t *)0x4004b000)
+#define XOSC_CLR_STATUS (*(volatile uint32_t *)0x4004b004)
+#define XOSC_CLR_DORMANT (*(volatile uint32_t *)0x4004b008)
+#define XOSC_CLR_STARTUP (*(volatile uint32_t *)0x4004b00c)
+#define XOSC_CLR_COUNT (*(volatile uint32_t *)0x4004b010)
 
 /*CTRL Register macros*/
 
@@ -91,3 +118,4 @@ typedef struct{
 
 
 #endif
+

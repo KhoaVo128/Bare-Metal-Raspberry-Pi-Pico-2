@@ -49,7 +49,26 @@ typedef struct{
 		uint32_t RSVDclr_0[1021];
 } XIP_AUX_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define xip_aux (*(XIP_AUX_REG_BLOCKS volatile *)0x50500000)
+
+
+/*IO Registers AS MACROS*/
+
+#define XIP_AUX_STREAM (*(volatile uint32_t *)0x50500000)
+#define XIP_AUX_QMI_DIRECT_TX (*(volatile uint32_t *)0x50500004)
+#define XIP_AUX_QMI_DIRECT_RX (*(volatile uint32_t *)0x50500008)
+#define XIP_AUX_XOR_STREAM (*(volatile uint32_t *)0x50501000)
+#define XIP_AUX_XOR_QMI_DIRECT_TX (*(volatile uint32_t *)0x50501004)
+#define XIP_AUX_XOR_QMI_DIRECT_RX (*(volatile uint32_t *)0x50501008)
+#define XIP_AUX_SET_STREAM (*(volatile uint32_t *)0x50502000)
+#define XIP_AUX_SET_QMI_DIRECT_TX (*(volatile uint32_t *)0x50502004)
+#define XIP_AUX_SET_QMI_DIRECT_RX (*(volatile uint32_t *)0x50502008)
+#define XIP_AUX_CLR_STREAM (*(volatile uint32_t *)0x50503000)
+#define XIP_AUX_CLR_QMI_DIRECT_TX (*(volatile uint32_t *)0x50503004)
+#define XIP_AUX_CLR_QMI_DIRECT_RX (*(volatile uint32_t *)0x50503008)
 
 /*STREAM Register macros*/
 
@@ -71,3 +90,4 @@ typedef struct{
 
 
 #endif
+

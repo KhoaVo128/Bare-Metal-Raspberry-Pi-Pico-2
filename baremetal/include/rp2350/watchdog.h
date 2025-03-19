@@ -81,7 +81,58 @@ typedef struct{
 		uint32_t RSVDclr_0[1013];
 } WATCHDOG_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define watchdog (*(WATCHDOG_REG_BLOCKS volatile *)0x400d8000)
+
+
+/*IO Registers AS MACROS*/
+
+#define WATCHDOG_CTRL (*(volatile uint32_t *)0x400d8000)
+#define WATCHDOG_LOAD (*(volatile uint32_t *)0x400d8004)
+#define WATCHDOG_REASON (*(volatile uint32_t *)0x400d8008)
+#define WATCHDOG_SCRATCH0 (*(volatile uint32_t *)0x400d800c)
+#define WATCHDOG_SCRATCH1 (*(volatile uint32_t *)0x400d8010)
+#define WATCHDOG_SCRATCH2 (*(volatile uint32_t *)0x400d8014)
+#define WATCHDOG_SCRATCH3 (*(volatile uint32_t *)0x400d8018)
+#define WATCHDOG_SCRATCH4 (*(volatile uint32_t *)0x400d801c)
+#define WATCHDOG_SCRATCH5 (*(volatile uint32_t *)0x400d8020)
+#define WATCHDOG_SCRATCH6 (*(volatile uint32_t *)0x400d8024)
+#define WATCHDOG_SCRATCH7 (*(volatile uint32_t *)0x400d8028)
+#define WATCHDOG_XOR_CTRL (*(volatile uint32_t *)0x400d9000)
+#define WATCHDOG_XOR_LOAD (*(volatile uint32_t *)0x400d9004)
+#define WATCHDOG_XOR_REASON (*(volatile uint32_t *)0x400d9008)
+#define WATCHDOG_XOR_SCRATCH0 (*(volatile uint32_t *)0x400d900c)
+#define WATCHDOG_XOR_SCRATCH1 (*(volatile uint32_t *)0x400d9010)
+#define WATCHDOG_XOR_SCRATCH2 (*(volatile uint32_t *)0x400d9014)
+#define WATCHDOG_XOR_SCRATCH3 (*(volatile uint32_t *)0x400d9018)
+#define WATCHDOG_XOR_SCRATCH4 (*(volatile uint32_t *)0x400d901c)
+#define WATCHDOG_XOR_SCRATCH5 (*(volatile uint32_t *)0x400d9020)
+#define WATCHDOG_XOR_SCRATCH6 (*(volatile uint32_t *)0x400d9024)
+#define WATCHDOG_XOR_SCRATCH7 (*(volatile uint32_t *)0x400d9028)
+#define WATCHDOG_SET_CTRL (*(volatile uint32_t *)0x400da000)
+#define WATCHDOG_SET_LOAD (*(volatile uint32_t *)0x400da004)
+#define WATCHDOG_SET_REASON (*(volatile uint32_t *)0x400da008)
+#define WATCHDOG_SET_SCRATCH0 (*(volatile uint32_t *)0x400da00c)
+#define WATCHDOG_SET_SCRATCH1 (*(volatile uint32_t *)0x400da010)
+#define WATCHDOG_SET_SCRATCH2 (*(volatile uint32_t *)0x400da014)
+#define WATCHDOG_SET_SCRATCH3 (*(volatile uint32_t *)0x400da018)
+#define WATCHDOG_SET_SCRATCH4 (*(volatile uint32_t *)0x400da01c)
+#define WATCHDOG_SET_SCRATCH5 (*(volatile uint32_t *)0x400da020)
+#define WATCHDOG_SET_SCRATCH6 (*(volatile uint32_t *)0x400da024)
+#define WATCHDOG_SET_SCRATCH7 (*(volatile uint32_t *)0x400da028)
+#define WATCHDOG_CLR_CTRL (*(volatile uint32_t *)0x400db000)
+#define WATCHDOG_CLR_LOAD (*(volatile uint32_t *)0x400db004)
+#define WATCHDOG_CLR_REASON (*(volatile uint32_t *)0x400db008)
+#define WATCHDOG_CLR_SCRATCH0 (*(volatile uint32_t *)0x400db00c)
+#define WATCHDOG_CLR_SCRATCH1 (*(volatile uint32_t *)0x400db010)
+#define WATCHDOG_CLR_SCRATCH2 (*(volatile uint32_t *)0x400db014)
+#define WATCHDOG_CLR_SCRATCH3 (*(volatile uint32_t *)0x400db018)
+#define WATCHDOG_CLR_SCRATCH4 (*(volatile uint32_t *)0x400db01c)
+#define WATCHDOG_CLR_SCRATCH5 (*(volatile uint32_t *)0x400db020)
+#define WATCHDOG_CLR_SCRATCH6 (*(volatile uint32_t *)0x400db024)
+#define WATCHDOG_CLR_SCRATCH7 (*(volatile uint32_t *)0x400db028)
 
 /*CTRL Register macros*/
 
@@ -133,3 +184,4 @@ typedef struct{
 
 
 #endif
+

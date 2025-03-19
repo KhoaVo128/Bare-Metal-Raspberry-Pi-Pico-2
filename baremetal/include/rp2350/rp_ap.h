@@ -77,7 +77,50 @@ typedef struct{
 		uint32_t RSVDclr_1[128];
 } RP_AP_REG_BLOCKS;
 
+
+/*IO Registers as struct*/
+
 #define rp_ap (*(RP_AP_REG_BLOCKS volatile *)0x50700000)
+
+
+/*IO Registers AS MACROS*/
+
+#define RP_AP_CTRL (*(volatile uint32_t *)0x50700000)
+#define RP_AP_DBGKEY (*(volatile uint32_t *)0x50700004)
+#define RP_AP_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50700008)
+#define RP_AP_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070000c)
+#define RP_AP_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50700010)
+#define RP_AP_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50700014)
+#define RP_AP_DBG_POW_OVRD (*(volatile uint32_t *)0x50700018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070001c)
+#define RP_AP_IDR (*(volatile uint32_t *)0x50700dfc)
+#define RP_AP_XOR_CTRL (*(volatile uint32_t *)0x50701000)
+#define RP_AP_XOR_DBGKEY (*(volatile uint32_t *)0x50701004)
+#define RP_AP_XOR_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50701008)
+#define RP_AP_XOR_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070100c)
+#define RP_AP_XOR_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50701010)
+#define RP_AP_XOR_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50701014)
+#define RP_AP_XOR_DBG_POW_OVRD (*(volatile uint32_t *)0x50701018)
+#define RP_AP_XOR_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070101c)
+#define RP_AP_XOR_IDR (*(volatile uint32_t *)0x50701dfc)
+#define RP_AP_SET_CTRL (*(volatile uint32_t *)0x50702000)
+#define RP_AP_SET_DBGKEY (*(volatile uint32_t *)0x50702004)
+#define RP_AP_SET_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50702008)
+#define RP_AP_SET_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070200c)
+#define RP_AP_SET_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50702010)
+#define RP_AP_SET_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50702014)
+#define RP_AP_SET_DBG_POW_OVRD (*(volatile uint32_t *)0x50702018)
+#define RP_AP_SET_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070201c)
+#define RP_AP_SET_IDR (*(volatile uint32_t *)0x50702dfc)
+#define RP_AP_CLR_CTRL (*(volatile uint32_t *)0x50703000)
+#define RP_AP_CLR_DBGKEY (*(volatile uint32_t *)0x50703004)
+#define RP_AP_CLR_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50703008)
+#define RP_AP_CLR_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070300c)
+#define RP_AP_CLR_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50703010)
+#define RP_AP_CLR_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50703014)
+#define RP_AP_CLR_DBG_POW_OVRD (*(volatile uint32_t *)0x50703018)
+#define RP_AP_CLR_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070301c)
+#define RP_AP_CLR_IDR (*(volatile uint32_t *)0x50703dfc)
 
 /*CTRL Register macros*/
 
@@ -225,3 +268,4 @@ typedef struct{
 
 
 #endif
+
