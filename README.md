@@ -19,9 +19,9 @@ This environment has not yet undergone significant testing but will be updated a
 # Accessing Hardware Registers
 Each peripheral (e.g. UART) and CPU subsystem (e.g. PLL) has an include file (e.g. rp2350/pll.h) that can be included to use the register definitions and field macros.  There are two register naming conventions defined.  Either or both can be used simultaneously.  
 
-1. The register block for a peripheral is overlayed with a struct having the same name as the peripheral (from the datasheet).  To access a register, use peripheral.register notation. For example, the RP2350 datasheet shows pll\_sys has a cs register;this would be accessed using pll\_sys.cs.  To use the atomic versions of the registers, **prefix** the register name with set\_, clr\_, or xor_ to the register name (e.g. pll\_sys.clr\_cs).  The included example LED driver should make this evident.
+1. The register block for a peripheral is overlayed with a struct having the same name as the peripheral (from the datasheet).  To access a register, use peripheral.register notation. For example, the RP2350 datasheet shows pll\_sys has a cs register;this would be accessed using pll\_sys.cs.  To use the atomic versions of the registers, add the suffix \_set, \_clr, or \_xor to the register name (e.g. pll\_sys.cs\_clr).  The included example LED driver should make this evident.
 
-2. A preprocessor macro is created for each peripheral/register.  Following the example above, the corresponding registers are PLL\_SYS\_CS and PLL\_SYS\_CS\_CLR.  Note that the \_SET, \_CLR, and \_XOR are suffixes here to remain consistent with the Pico SDK.
+2. A preprocessor macro is created for each peripheral/register.  Following the example above, the corresponding registers are PLL\_SYS\_CS and PLL\_SYS\_CS\_CLR.  
 
 # Included Examples
  A sample C program to flash the LED on the Pico 2 is provided in the src directory.  To make the UF2, run the command 
