@@ -9,7 +9,7 @@
 
 void configure_systick(uint32_t systick_period_us)
 {
-	ticks.set_proc0_ctrl = TICKS_PROC0_CTRL_ENABLE_MASK;
+	ticks.proc0_ctrl_set = TICKS_PROC0_CTRL_ENABLE_MASK;
 	ticks.proc0_cycles = 1;
 	m33.syst_rvr= 1000000/systick_period_us;
 	m33.syst_cvr=0;

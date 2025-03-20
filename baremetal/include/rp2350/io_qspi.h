@@ -65,107 +65,107 @@ typedef struct{
 		uint32_t dormant_wake_intf;
 		uint32_t dormant_wake_ints;
 		uint32_t RSVD1[880];
-		uint32_t xor_usbphy_dp_status;
-		uint32_t xor_usbphy_dp_ctrl;
-		uint32_t xor_usbphy_dm_status;
-		uint32_t xor_usbphy_dm_ctrl;
-		uint32_t xor_gpio_qspi_sclk_status;
-		uint32_t xor_gpio_qspi_sclk_ctrl;
-		uint32_t xor_gpio_qspi_ss_status;
-		uint32_t xor_gpio_qspi_ss_ctrl;
-		uint32_t xor_gpio_qspi_sd0_status;
-		uint32_t xor_gpio_qspi_sd0_ctrl;
-		uint32_t xor_gpio_qspi_sd1_status;
-		uint32_t xor_gpio_qspi_sd1_ctrl;
-		uint32_t xor_gpio_qspi_sd2_status;
-		uint32_t xor_gpio_qspi_sd2_ctrl;
-		uint32_t xor_gpio_qspi_sd3_status;
-		uint32_t xor_gpio_qspi_sd3_ctrl;
+		uint32_t usbphy_dp_status_xor;
+		uint32_t usbphy_dp_ctrl_xor;
+		uint32_t usbphy_dm_status_xor;
+		uint32_t usbphy_dm_ctrl_xor;
+		uint32_t gpio_qspi_sclk_status_xor;
+		uint32_t gpio_qspi_sclk_ctrl_xor;
+		uint32_t gpio_qspi_ss_status_xor;
+		uint32_t gpio_qspi_ss_ctrl_xor;
+		uint32_t gpio_qspi_sd0_status_xor;
+		uint32_t gpio_qspi_sd0_ctrl_xor;
+		uint32_t gpio_qspi_sd1_status_xor;
+		uint32_t gpio_qspi_sd1_ctrl_xor;
+		uint32_t gpio_qspi_sd2_status_xor;
+		uint32_t gpio_qspi_sd2_ctrl_xor;
+		uint32_t gpio_qspi_sd3_status_xor;
+		uint32_t gpio_qspi_sd3_ctrl_xor;
 		uint32_t RSVDxor_0[112];
-		uint32_t xor_irqsummary_proc0_secure;
-		uint32_t xor_irqsummary_proc0_nonsecure;
-		uint32_t xor_irqsummary_proc1_secure;
-		uint32_t xor_irqsummary_proc1_nonsecure;
-		uint32_t xor_irqsummary_dormant_wake_secure;
-		uint32_t xor_irqsummary_dormant_wake_nonsecure;
-		uint32_t xor_intr;
-		uint32_t xor_proc0_inte;
-		uint32_t xor_proc0_intf;
-		uint32_t xor_proc0_ints;
-		uint32_t xor_proc1_inte;
-		uint32_t xor_proc1_intf;
-		uint32_t xor_proc1_ints;
-		uint32_t xor_dormant_wake_inte;
-		uint32_t xor_dormant_wake_intf;
-		uint32_t xor_dormant_wake_ints;
+		uint32_t irqsummary_proc0_secure_xor;
+		uint32_t irqsummary_proc0_nonsecure_xor;
+		uint32_t irqsummary_proc1_secure_xor;
+		uint32_t irqsummary_proc1_nonsecure_xor;
+		uint32_t irqsummary_dormant_wake_secure_xor;
+		uint32_t irqsummary_dormant_wake_nonsecure_xor;
+		uint32_t intr_xor;
+		uint32_t proc0_inte_xor;
+		uint32_t proc0_intf_xor;
+		uint32_t proc0_ints_xor;
+		uint32_t proc1_inte_xor;
+		uint32_t proc1_intf_xor;
+		uint32_t proc1_ints_xor;
+		uint32_t dormant_wake_inte_xor;
+		uint32_t dormant_wake_intf_xor;
+		uint32_t dormant_wake_ints_xor;
 		uint32_t RSVDxor_1[880];
-		uint32_t set_usbphy_dp_status;
-		uint32_t set_usbphy_dp_ctrl;
-		uint32_t set_usbphy_dm_status;
-		uint32_t set_usbphy_dm_ctrl;
-		uint32_t set_gpio_qspi_sclk_status;
-		uint32_t set_gpio_qspi_sclk_ctrl;
-		uint32_t set_gpio_qspi_ss_status;
-		uint32_t set_gpio_qspi_ss_ctrl;
-		uint32_t set_gpio_qspi_sd0_status;
-		uint32_t set_gpio_qspi_sd0_ctrl;
-		uint32_t set_gpio_qspi_sd1_status;
-		uint32_t set_gpio_qspi_sd1_ctrl;
-		uint32_t set_gpio_qspi_sd2_status;
-		uint32_t set_gpio_qspi_sd2_ctrl;
-		uint32_t set_gpio_qspi_sd3_status;
-		uint32_t set_gpio_qspi_sd3_ctrl;
+		uint32_t usbphy_dp_status_set;
+		uint32_t usbphy_dp_ctrl_set;
+		uint32_t usbphy_dm_status_set;
+		uint32_t usbphy_dm_ctrl_set;
+		uint32_t gpio_qspi_sclk_status_set;
+		uint32_t gpio_qspi_sclk_ctrl_set;
+		uint32_t gpio_qspi_ss_status_set;
+		uint32_t gpio_qspi_ss_ctrl_set;
+		uint32_t gpio_qspi_sd0_status_set;
+		uint32_t gpio_qspi_sd0_ctrl_set;
+		uint32_t gpio_qspi_sd1_status_set;
+		uint32_t gpio_qspi_sd1_ctrl_set;
+		uint32_t gpio_qspi_sd2_status_set;
+		uint32_t gpio_qspi_sd2_ctrl_set;
+		uint32_t gpio_qspi_sd3_status_set;
+		uint32_t gpio_qspi_sd3_ctrl_set;
 		uint32_t RSVDset_0[112];
-		uint32_t set_irqsummary_proc0_secure;
-		uint32_t set_irqsummary_proc0_nonsecure;
-		uint32_t set_irqsummary_proc1_secure;
-		uint32_t set_irqsummary_proc1_nonsecure;
-		uint32_t set_irqsummary_dormant_wake_secure;
-		uint32_t set_irqsummary_dormant_wake_nonsecure;
-		uint32_t set_intr;
-		uint32_t set_proc0_inte;
-		uint32_t set_proc0_intf;
-		uint32_t set_proc0_ints;
-		uint32_t set_proc1_inte;
-		uint32_t set_proc1_intf;
-		uint32_t set_proc1_ints;
-		uint32_t set_dormant_wake_inte;
-		uint32_t set_dormant_wake_intf;
-		uint32_t set_dormant_wake_ints;
+		uint32_t irqsummary_proc0_secure_set;
+		uint32_t irqsummary_proc0_nonsecure_set;
+		uint32_t irqsummary_proc1_secure_set;
+		uint32_t irqsummary_proc1_nonsecure_set;
+		uint32_t irqsummary_dormant_wake_secure_set;
+		uint32_t irqsummary_dormant_wake_nonsecure_set;
+		uint32_t intr_set;
+		uint32_t proc0_inte_set;
+		uint32_t proc0_intf_set;
+		uint32_t proc0_ints_set;
+		uint32_t proc1_inte_set;
+		uint32_t proc1_intf_set;
+		uint32_t proc1_ints_set;
+		uint32_t dormant_wake_inte_set;
+		uint32_t dormant_wake_intf_set;
+		uint32_t dormant_wake_ints_set;
 		uint32_t RSVDset_1[880];
-		uint32_t clr_usbphy_dp_status;
-		uint32_t clr_usbphy_dp_ctrl;
-		uint32_t clr_usbphy_dm_status;
-		uint32_t clr_usbphy_dm_ctrl;
-		uint32_t clr_gpio_qspi_sclk_status;
-		uint32_t clr_gpio_qspi_sclk_ctrl;
-		uint32_t clr_gpio_qspi_ss_status;
-		uint32_t clr_gpio_qspi_ss_ctrl;
-		uint32_t clr_gpio_qspi_sd0_status;
-		uint32_t clr_gpio_qspi_sd0_ctrl;
-		uint32_t clr_gpio_qspi_sd1_status;
-		uint32_t clr_gpio_qspi_sd1_ctrl;
-		uint32_t clr_gpio_qspi_sd2_status;
-		uint32_t clr_gpio_qspi_sd2_ctrl;
-		uint32_t clr_gpio_qspi_sd3_status;
-		uint32_t clr_gpio_qspi_sd3_ctrl;
+		uint32_t usbphy_dp_status_clr;
+		uint32_t usbphy_dp_ctrl_clr;
+		uint32_t usbphy_dm_status_clr;
+		uint32_t usbphy_dm_ctrl_clr;
+		uint32_t gpio_qspi_sclk_status_clr;
+		uint32_t gpio_qspi_sclk_ctrl_clr;
+		uint32_t gpio_qspi_ss_status_clr;
+		uint32_t gpio_qspi_ss_ctrl_clr;
+		uint32_t gpio_qspi_sd0_status_clr;
+		uint32_t gpio_qspi_sd0_ctrl_clr;
+		uint32_t gpio_qspi_sd1_status_clr;
+		uint32_t gpio_qspi_sd1_ctrl_clr;
+		uint32_t gpio_qspi_sd2_status_clr;
+		uint32_t gpio_qspi_sd2_ctrl_clr;
+		uint32_t gpio_qspi_sd3_status_clr;
+		uint32_t gpio_qspi_sd3_ctrl_clr;
 		uint32_t RSVDclr_0[112];
-		uint32_t clr_irqsummary_proc0_secure;
-		uint32_t clr_irqsummary_proc0_nonsecure;
-		uint32_t clr_irqsummary_proc1_secure;
-		uint32_t clr_irqsummary_proc1_nonsecure;
-		uint32_t clr_irqsummary_dormant_wake_secure;
-		uint32_t clr_irqsummary_dormant_wake_nonsecure;
-		uint32_t clr_intr;
-		uint32_t clr_proc0_inte;
-		uint32_t clr_proc0_intf;
-		uint32_t clr_proc0_ints;
-		uint32_t clr_proc1_inte;
-		uint32_t clr_proc1_intf;
-		uint32_t clr_proc1_ints;
-		uint32_t clr_dormant_wake_inte;
-		uint32_t clr_dormant_wake_intf;
-		uint32_t clr_dormant_wake_ints;
+		uint32_t irqsummary_proc0_secure_clr;
+		uint32_t irqsummary_proc0_nonsecure_clr;
+		uint32_t irqsummary_proc1_secure_clr;
+		uint32_t irqsummary_proc1_nonsecure_clr;
+		uint32_t irqsummary_dormant_wake_secure_clr;
+		uint32_t irqsummary_dormant_wake_nonsecure_clr;
+		uint32_t intr_clr;
+		uint32_t proc0_inte_clr;
+		uint32_t proc0_intf_clr;
+		uint32_t proc0_ints_clr;
+		uint32_t proc1_inte_clr;
+		uint32_t proc1_intf_clr;
+		uint32_t proc1_ints_clr;
+		uint32_t dormant_wake_inte_clr;
+		uint32_t dormant_wake_intf_clr;
+		uint32_t dormant_wake_ints_clr;
 		uint32_t RSVDclr_1[880];
 } IO_QSPI_REG_BLOCKS;
 
@@ -209,102 +209,102 @@ typedef struct{
 #define IO_QSPI_DORMANT_WAKE_INTE (*(volatile uint32_t *)0x40030234)
 #define IO_QSPI_DORMANT_WAKE_INTF (*(volatile uint32_t *)0x40030238)
 #define IO_QSPI_DORMANT_WAKE_INTS (*(volatile uint32_t *)0x4003023c)
-#define IO_QSPI_XOR_USBPHY_DP_STATUS (*(volatile uint32_t *)0x40031000)
-#define IO_QSPI_XOR_USBPHY_DP_CTRL (*(volatile uint32_t *)0x40031004)
-#define IO_QSPI_XOR_USBPHY_DM_STATUS (*(volatile uint32_t *)0x40031008)
-#define IO_QSPI_XOR_USBPHY_DM_CTRL (*(volatile uint32_t *)0x4003100c)
-#define IO_QSPI_XOR_GPIO_QSPI_SCLK_STATUS (*(volatile uint32_t *)0x40031010)
-#define IO_QSPI_XOR_GPIO_QSPI_SCLK_CTRL (*(volatile uint32_t *)0x40031014)
-#define IO_QSPI_XOR_GPIO_QSPI_SS_STATUS (*(volatile uint32_t *)0x40031018)
-#define IO_QSPI_XOR_GPIO_QSPI_SS_CTRL (*(volatile uint32_t *)0x4003101c)
-#define IO_QSPI_XOR_GPIO_QSPI_SD0_STATUS (*(volatile uint32_t *)0x40031020)
-#define IO_QSPI_XOR_GPIO_QSPI_SD0_CTRL (*(volatile uint32_t *)0x40031024)
-#define IO_QSPI_XOR_GPIO_QSPI_SD1_STATUS (*(volatile uint32_t *)0x40031028)
-#define IO_QSPI_XOR_GPIO_QSPI_SD1_CTRL (*(volatile uint32_t *)0x4003102c)
-#define IO_QSPI_XOR_GPIO_QSPI_SD2_STATUS (*(volatile uint32_t *)0x40031030)
-#define IO_QSPI_XOR_GPIO_QSPI_SD2_CTRL (*(volatile uint32_t *)0x40031034)
-#define IO_QSPI_XOR_GPIO_QSPI_SD3_STATUS (*(volatile uint32_t *)0x40031038)
-#define IO_QSPI_XOR_GPIO_QSPI_SD3_CTRL (*(volatile uint32_t *)0x4003103c)
-#define IO_QSPI_XOR_IRQSUMMARY_PROC0_SECURE (*(volatile uint32_t *)0x40031200)
-#define IO_QSPI_XOR_IRQSUMMARY_PROC0_NONSECURE (*(volatile uint32_t *)0x40031204)
-#define IO_QSPI_XOR_IRQSUMMARY_PROC1_SECURE (*(volatile uint32_t *)0x40031208)
-#define IO_QSPI_XOR_IRQSUMMARY_PROC1_NONSECURE (*(volatile uint32_t *)0x4003120c)
-#define IO_QSPI_XOR_IRQSUMMARY_DORMANT_WAKE_SECURE (*(volatile uint32_t *)0x40031210)
-#define IO_QSPI_XOR_IRQSUMMARY_DORMANT_WAKE_NONSECURE (*(volatile uint32_t *)0x40031214)
-#define IO_QSPI_XOR_INTR (*(volatile uint32_t *)0x40031218)
-#define IO_QSPI_XOR_PROC0_INTE (*(volatile uint32_t *)0x4003121c)
-#define IO_QSPI_XOR_PROC0_INTF (*(volatile uint32_t *)0x40031220)
-#define IO_QSPI_XOR_PROC0_INTS (*(volatile uint32_t *)0x40031224)
-#define IO_QSPI_XOR_PROC1_INTE (*(volatile uint32_t *)0x40031228)
-#define IO_QSPI_XOR_PROC1_INTF (*(volatile uint32_t *)0x4003122c)
-#define IO_QSPI_XOR_PROC1_INTS (*(volatile uint32_t *)0x40031230)
-#define IO_QSPI_XOR_DORMANT_WAKE_INTE (*(volatile uint32_t *)0x40031234)
-#define IO_QSPI_XOR_DORMANT_WAKE_INTF (*(volatile uint32_t *)0x40031238)
-#define IO_QSPI_XOR_DORMANT_WAKE_INTS (*(volatile uint32_t *)0x4003123c)
-#define IO_QSPI_SET_USBPHY_DP_STATUS (*(volatile uint32_t *)0x40032000)
-#define IO_QSPI_SET_USBPHY_DP_CTRL (*(volatile uint32_t *)0x40032004)
-#define IO_QSPI_SET_USBPHY_DM_STATUS (*(volatile uint32_t *)0x40032008)
-#define IO_QSPI_SET_USBPHY_DM_CTRL (*(volatile uint32_t *)0x4003200c)
-#define IO_QSPI_SET_GPIO_QSPI_SCLK_STATUS (*(volatile uint32_t *)0x40032010)
-#define IO_QSPI_SET_GPIO_QSPI_SCLK_CTRL (*(volatile uint32_t *)0x40032014)
-#define IO_QSPI_SET_GPIO_QSPI_SS_STATUS (*(volatile uint32_t *)0x40032018)
-#define IO_QSPI_SET_GPIO_QSPI_SS_CTRL (*(volatile uint32_t *)0x4003201c)
-#define IO_QSPI_SET_GPIO_QSPI_SD0_STATUS (*(volatile uint32_t *)0x40032020)
-#define IO_QSPI_SET_GPIO_QSPI_SD0_CTRL (*(volatile uint32_t *)0x40032024)
-#define IO_QSPI_SET_GPIO_QSPI_SD1_STATUS (*(volatile uint32_t *)0x40032028)
-#define IO_QSPI_SET_GPIO_QSPI_SD1_CTRL (*(volatile uint32_t *)0x4003202c)
-#define IO_QSPI_SET_GPIO_QSPI_SD2_STATUS (*(volatile uint32_t *)0x40032030)
-#define IO_QSPI_SET_GPIO_QSPI_SD2_CTRL (*(volatile uint32_t *)0x40032034)
-#define IO_QSPI_SET_GPIO_QSPI_SD3_STATUS (*(volatile uint32_t *)0x40032038)
-#define IO_QSPI_SET_GPIO_QSPI_SD3_CTRL (*(volatile uint32_t *)0x4003203c)
-#define IO_QSPI_SET_IRQSUMMARY_PROC0_SECURE (*(volatile uint32_t *)0x40032200)
-#define IO_QSPI_SET_IRQSUMMARY_PROC0_NONSECURE (*(volatile uint32_t *)0x40032204)
-#define IO_QSPI_SET_IRQSUMMARY_PROC1_SECURE (*(volatile uint32_t *)0x40032208)
-#define IO_QSPI_SET_IRQSUMMARY_PROC1_NONSECURE (*(volatile uint32_t *)0x4003220c)
-#define IO_QSPI_SET_IRQSUMMARY_DORMANT_WAKE_SECURE (*(volatile uint32_t *)0x40032210)
-#define IO_QSPI_SET_IRQSUMMARY_DORMANT_WAKE_NONSECURE (*(volatile uint32_t *)0x40032214)
-#define IO_QSPI_SET_INTR (*(volatile uint32_t *)0x40032218)
-#define IO_QSPI_SET_PROC0_INTE (*(volatile uint32_t *)0x4003221c)
-#define IO_QSPI_SET_PROC0_INTF (*(volatile uint32_t *)0x40032220)
-#define IO_QSPI_SET_PROC0_INTS (*(volatile uint32_t *)0x40032224)
-#define IO_QSPI_SET_PROC1_INTE (*(volatile uint32_t *)0x40032228)
-#define IO_QSPI_SET_PROC1_INTF (*(volatile uint32_t *)0x4003222c)
-#define IO_QSPI_SET_PROC1_INTS (*(volatile uint32_t *)0x40032230)
-#define IO_QSPI_SET_DORMANT_WAKE_INTE (*(volatile uint32_t *)0x40032234)
-#define IO_QSPI_SET_DORMANT_WAKE_INTF (*(volatile uint32_t *)0x40032238)
-#define IO_QSPI_SET_DORMANT_WAKE_INTS (*(volatile uint32_t *)0x4003223c)
-#define IO_QSPI_CLR_USBPHY_DP_STATUS (*(volatile uint32_t *)0x40033000)
-#define IO_QSPI_CLR_USBPHY_DP_CTRL (*(volatile uint32_t *)0x40033004)
-#define IO_QSPI_CLR_USBPHY_DM_STATUS (*(volatile uint32_t *)0x40033008)
-#define IO_QSPI_CLR_USBPHY_DM_CTRL (*(volatile uint32_t *)0x4003300c)
-#define IO_QSPI_CLR_GPIO_QSPI_SCLK_STATUS (*(volatile uint32_t *)0x40033010)
-#define IO_QSPI_CLR_GPIO_QSPI_SCLK_CTRL (*(volatile uint32_t *)0x40033014)
-#define IO_QSPI_CLR_GPIO_QSPI_SS_STATUS (*(volatile uint32_t *)0x40033018)
-#define IO_QSPI_CLR_GPIO_QSPI_SS_CTRL (*(volatile uint32_t *)0x4003301c)
-#define IO_QSPI_CLR_GPIO_QSPI_SD0_STATUS (*(volatile uint32_t *)0x40033020)
-#define IO_QSPI_CLR_GPIO_QSPI_SD0_CTRL (*(volatile uint32_t *)0x40033024)
-#define IO_QSPI_CLR_GPIO_QSPI_SD1_STATUS (*(volatile uint32_t *)0x40033028)
-#define IO_QSPI_CLR_GPIO_QSPI_SD1_CTRL (*(volatile uint32_t *)0x4003302c)
-#define IO_QSPI_CLR_GPIO_QSPI_SD2_STATUS (*(volatile uint32_t *)0x40033030)
-#define IO_QSPI_CLR_GPIO_QSPI_SD2_CTRL (*(volatile uint32_t *)0x40033034)
-#define IO_QSPI_CLR_GPIO_QSPI_SD3_STATUS (*(volatile uint32_t *)0x40033038)
-#define IO_QSPI_CLR_GPIO_QSPI_SD3_CTRL (*(volatile uint32_t *)0x4003303c)
-#define IO_QSPI_CLR_IRQSUMMARY_PROC0_SECURE (*(volatile uint32_t *)0x40033200)
-#define IO_QSPI_CLR_IRQSUMMARY_PROC0_NONSECURE (*(volatile uint32_t *)0x40033204)
-#define IO_QSPI_CLR_IRQSUMMARY_PROC1_SECURE (*(volatile uint32_t *)0x40033208)
-#define IO_QSPI_CLR_IRQSUMMARY_PROC1_NONSECURE (*(volatile uint32_t *)0x4003320c)
-#define IO_QSPI_CLR_IRQSUMMARY_DORMANT_WAKE_SECURE (*(volatile uint32_t *)0x40033210)
-#define IO_QSPI_CLR_IRQSUMMARY_DORMANT_WAKE_NONSECURE (*(volatile uint32_t *)0x40033214)
-#define IO_QSPI_CLR_INTR (*(volatile uint32_t *)0x40033218)
-#define IO_QSPI_CLR_PROC0_INTE (*(volatile uint32_t *)0x4003321c)
-#define IO_QSPI_CLR_PROC0_INTF (*(volatile uint32_t *)0x40033220)
-#define IO_QSPI_CLR_PROC0_INTS (*(volatile uint32_t *)0x40033224)
-#define IO_QSPI_CLR_PROC1_INTE (*(volatile uint32_t *)0x40033228)
-#define IO_QSPI_CLR_PROC1_INTF (*(volatile uint32_t *)0x4003322c)
-#define IO_QSPI_CLR_PROC1_INTS (*(volatile uint32_t *)0x40033230)
-#define IO_QSPI_CLR_DORMANT_WAKE_INTE (*(volatile uint32_t *)0x40033234)
-#define IO_QSPI_CLR_DORMANT_WAKE_INTF (*(volatile uint32_t *)0x40033238)
-#define IO_QSPI_CLR_DORMANT_WAKE_INTS (*(volatile uint32_t *)0x4003323c)
+#define IO_QSPI_USBPHY_DP_STATUS_XOR (*(volatile uint32_t *)0x40031000)
+#define IO_QSPI_USBPHY_DP_CTRL_XOR (*(volatile uint32_t *)0x40031004)
+#define IO_QSPI_USBPHY_DM_STATUS_XOR (*(volatile uint32_t *)0x40031008)
+#define IO_QSPI_USBPHY_DM_CTRL_XOR (*(volatile uint32_t *)0x4003100c)
+#define IO_QSPI_GPIO_QSPI_SCLK_STATUS_XOR (*(volatile uint32_t *)0x40031010)
+#define IO_QSPI_GPIO_QSPI_SCLK_CTRL_XOR (*(volatile uint32_t *)0x40031014)
+#define IO_QSPI_GPIO_QSPI_SS_STATUS_XOR (*(volatile uint32_t *)0x40031018)
+#define IO_QSPI_GPIO_QSPI_SS_CTRL_XOR (*(volatile uint32_t *)0x4003101c)
+#define IO_QSPI_GPIO_QSPI_SD0_STATUS_XOR (*(volatile uint32_t *)0x40031020)
+#define IO_QSPI_GPIO_QSPI_SD0_CTRL_XOR (*(volatile uint32_t *)0x40031024)
+#define IO_QSPI_GPIO_QSPI_SD1_STATUS_XOR (*(volatile uint32_t *)0x40031028)
+#define IO_QSPI_GPIO_QSPI_SD1_CTRL_XOR (*(volatile uint32_t *)0x4003102c)
+#define IO_QSPI_GPIO_QSPI_SD2_STATUS_XOR (*(volatile uint32_t *)0x40031030)
+#define IO_QSPI_GPIO_QSPI_SD2_CTRL_XOR (*(volatile uint32_t *)0x40031034)
+#define IO_QSPI_GPIO_QSPI_SD3_STATUS_XOR (*(volatile uint32_t *)0x40031038)
+#define IO_QSPI_GPIO_QSPI_SD3_CTRL_XOR (*(volatile uint32_t *)0x4003103c)
+#define IO_QSPI_IRQSUMMARY_PROC0_SECURE_XOR (*(volatile uint32_t *)0x40031200)
+#define IO_QSPI_IRQSUMMARY_PROC0_NONSECURE_XOR (*(volatile uint32_t *)0x40031204)
+#define IO_QSPI_IRQSUMMARY_PROC1_SECURE_XOR (*(volatile uint32_t *)0x40031208)
+#define IO_QSPI_IRQSUMMARY_PROC1_NONSECURE_XOR (*(volatile uint32_t *)0x4003120c)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_SECURE_XOR (*(volatile uint32_t *)0x40031210)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_NONSECURE_XOR (*(volatile uint32_t *)0x40031214)
+#define IO_QSPI_INTR_XOR (*(volatile uint32_t *)0x40031218)
+#define IO_QSPI_PROC0_INTE_XOR (*(volatile uint32_t *)0x4003121c)
+#define IO_QSPI_PROC0_INTF_XOR (*(volatile uint32_t *)0x40031220)
+#define IO_QSPI_PROC0_INTS_XOR (*(volatile uint32_t *)0x40031224)
+#define IO_QSPI_PROC1_INTE_XOR (*(volatile uint32_t *)0x40031228)
+#define IO_QSPI_PROC1_INTF_XOR (*(volatile uint32_t *)0x4003122c)
+#define IO_QSPI_PROC1_INTS_XOR (*(volatile uint32_t *)0x40031230)
+#define IO_QSPI_DORMANT_WAKE_INTE_XOR (*(volatile uint32_t *)0x40031234)
+#define IO_QSPI_DORMANT_WAKE_INTF_XOR (*(volatile uint32_t *)0x40031238)
+#define IO_QSPI_DORMANT_WAKE_INTS_XOR (*(volatile uint32_t *)0x4003123c)
+#define IO_QSPI_USBPHY_DP_STATUS_SET (*(volatile uint32_t *)0x40032000)
+#define IO_QSPI_USBPHY_DP_CTRL_SET (*(volatile uint32_t *)0x40032004)
+#define IO_QSPI_USBPHY_DM_STATUS_SET (*(volatile uint32_t *)0x40032008)
+#define IO_QSPI_USBPHY_DM_CTRL_SET (*(volatile uint32_t *)0x4003200c)
+#define IO_QSPI_GPIO_QSPI_SCLK_STATUS_SET (*(volatile uint32_t *)0x40032010)
+#define IO_QSPI_GPIO_QSPI_SCLK_CTRL_SET (*(volatile uint32_t *)0x40032014)
+#define IO_QSPI_GPIO_QSPI_SS_STATUS_SET (*(volatile uint32_t *)0x40032018)
+#define IO_QSPI_GPIO_QSPI_SS_CTRL_SET (*(volatile uint32_t *)0x4003201c)
+#define IO_QSPI_GPIO_QSPI_SD0_STATUS_SET (*(volatile uint32_t *)0x40032020)
+#define IO_QSPI_GPIO_QSPI_SD0_CTRL_SET (*(volatile uint32_t *)0x40032024)
+#define IO_QSPI_GPIO_QSPI_SD1_STATUS_SET (*(volatile uint32_t *)0x40032028)
+#define IO_QSPI_GPIO_QSPI_SD1_CTRL_SET (*(volatile uint32_t *)0x4003202c)
+#define IO_QSPI_GPIO_QSPI_SD2_STATUS_SET (*(volatile uint32_t *)0x40032030)
+#define IO_QSPI_GPIO_QSPI_SD2_CTRL_SET (*(volatile uint32_t *)0x40032034)
+#define IO_QSPI_GPIO_QSPI_SD3_STATUS_SET (*(volatile uint32_t *)0x40032038)
+#define IO_QSPI_GPIO_QSPI_SD3_CTRL_SET (*(volatile uint32_t *)0x4003203c)
+#define IO_QSPI_IRQSUMMARY_PROC0_SECURE_SET (*(volatile uint32_t *)0x40032200)
+#define IO_QSPI_IRQSUMMARY_PROC0_NONSECURE_SET (*(volatile uint32_t *)0x40032204)
+#define IO_QSPI_IRQSUMMARY_PROC1_SECURE_SET (*(volatile uint32_t *)0x40032208)
+#define IO_QSPI_IRQSUMMARY_PROC1_NONSECURE_SET (*(volatile uint32_t *)0x4003220c)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_SECURE_SET (*(volatile uint32_t *)0x40032210)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_NONSECURE_SET (*(volatile uint32_t *)0x40032214)
+#define IO_QSPI_INTR_SET (*(volatile uint32_t *)0x40032218)
+#define IO_QSPI_PROC0_INTE_SET (*(volatile uint32_t *)0x4003221c)
+#define IO_QSPI_PROC0_INTF_SET (*(volatile uint32_t *)0x40032220)
+#define IO_QSPI_PROC0_INTS_SET (*(volatile uint32_t *)0x40032224)
+#define IO_QSPI_PROC1_INTE_SET (*(volatile uint32_t *)0x40032228)
+#define IO_QSPI_PROC1_INTF_SET (*(volatile uint32_t *)0x4003222c)
+#define IO_QSPI_PROC1_INTS_SET (*(volatile uint32_t *)0x40032230)
+#define IO_QSPI_DORMANT_WAKE_INTE_SET (*(volatile uint32_t *)0x40032234)
+#define IO_QSPI_DORMANT_WAKE_INTF_SET (*(volatile uint32_t *)0x40032238)
+#define IO_QSPI_DORMANT_WAKE_INTS_SET (*(volatile uint32_t *)0x4003223c)
+#define IO_QSPI_USBPHY_DP_STATUS_CLR (*(volatile uint32_t *)0x40033000)
+#define IO_QSPI_USBPHY_DP_CTRL_CLR (*(volatile uint32_t *)0x40033004)
+#define IO_QSPI_USBPHY_DM_STATUS_CLR (*(volatile uint32_t *)0x40033008)
+#define IO_QSPI_USBPHY_DM_CTRL_CLR (*(volatile uint32_t *)0x4003300c)
+#define IO_QSPI_GPIO_QSPI_SCLK_STATUS_CLR (*(volatile uint32_t *)0x40033010)
+#define IO_QSPI_GPIO_QSPI_SCLK_CTRL_CLR (*(volatile uint32_t *)0x40033014)
+#define IO_QSPI_GPIO_QSPI_SS_STATUS_CLR (*(volatile uint32_t *)0x40033018)
+#define IO_QSPI_GPIO_QSPI_SS_CTRL_CLR (*(volatile uint32_t *)0x4003301c)
+#define IO_QSPI_GPIO_QSPI_SD0_STATUS_CLR (*(volatile uint32_t *)0x40033020)
+#define IO_QSPI_GPIO_QSPI_SD0_CTRL_CLR (*(volatile uint32_t *)0x40033024)
+#define IO_QSPI_GPIO_QSPI_SD1_STATUS_CLR (*(volatile uint32_t *)0x40033028)
+#define IO_QSPI_GPIO_QSPI_SD1_CTRL_CLR (*(volatile uint32_t *)0x4003302c)
+#define IO_QSPI_GPIO_QSPI_SD2_STATUS_CLR (*(volatile uint32_t *)0x40033030)
+#define IO_QSPI_GPIO_QSPI_SD2_CTRL_CLR (*(volatile uint32_t *)0x40033034)
+#define IO_QSPI_GPIO_QSPI_SD3_STATUS_CLR (*(volatile uint32_t *)0x40033038)
+#define IO_QSPI_GPIO_QSPI_SD3_CTRL_CLR (*(volatile uint32_t *)0x4003303c)
+#define IO_QSPI_IRQSUMMARY_PROC0_SECURE_CLR (*(volatile uint32_t *)0x40033200)
+#define IO_QSPI_IRQSUMMARY_PROC0_NONSECURE_CLR (*(volatile uint32_t *)0x40033204)
+#define IO_QSPI_IRQSUMMARY_PROC1_SECURE_CLR (*(volatile uint32_t *)0x40033208)
+#define IO_QSPI_IRQSUMMARY_PROC1_NONSECURE_CLR (*(volatile uint32_t *)0x4003320c)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_SECURE_CLR (*(volatile uint32_t *)0x40033210)
+#define IO_QSPI_IRQSUMMARY_DORMANT_WAKE_NONSECURE_CLR (*(volatile uint32_t *)0x40033214)
+#define IO_QSPI_INTR_CLR (*(volatile uint32_t *)0x40033218)
+#define IO_QSPI_PROC0_INTE_CLR (*(volatile uint32_t *)0x4003321c)
+#define IO_QSPI_PROC0_INTF_CLR (*(volatile uint32_t *)0x40033220)
+#define IO_QSPI_PROC0_INTS_CLR (*(volatile uint32_t *)0x40033224)
+#define IO_QSPI_PROC1_INTE_CLR (*(volatile uint32_t *)0x40033228)
+#define IO_QSPI_PROC1_INTF_CLR (*(volatile uint32_t *)0x4003322c)
+#define IO_QSPI_PROC1_INTS_CLR (*(volatile uint32_t *)0x40033230)
+#define IO_QSPI_DORMANT_WAKE_INTE_CLR (*(volatile uint32_t *)0x40033234)
+#define IO_QSPI_DORMANT_WAKE_INTF_CLR (*(volatile uint32_t *)0x40033238)
+#define IO_QSPI_DORMANT_WAKE_INTS_CLR (*(volatile uint32_t *)0x4003323c)
 
 /*USBPHY_DP_STATUS Register macros*/
 

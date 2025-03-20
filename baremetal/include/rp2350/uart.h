@@ -56,81 +56,81 @@ typedef struct{
 		uint32_t uartpcellid1;
 		uint32_t uartpcellid2;
 		uint32_t uartpcellid3;
-		uint32_t xor_uartdr;
-		uint32_t xor_uartrsr;
+		uint32_t uartdr_xor;
+		uint32_t uartrsr_xor;
 		uint32_t RSVDxor_0[4];
-		uint32_t xor_uartfr;
+		uint32_t uartfr_xor;
 		uint32_t RSVDxor_1;
-		uint32_t xor_uartilpr;
-		uint32_t xor_uartibrd;
-		uint32_t xor_uartfbrd;
-		uint32_t xor_uartlcr_h;
-		uint32_t xor_uartcr;
-		uint32_t xor_uartifls;
-		uint32_t xor_uartimsc;
-		uint32_t xor_uartris;
-		uint32_t xor_uartmis;
-		uint32_t xor_uarticr;
-		uint32_t xor_uartdmacr;
+		uint32_t uartilpr_xor;
+		uint32_t uartibrd_xor;
+		uint32_t uartfbrd_xor;
+		uint32_t uartlcr_h_xor;
+		uint32_t uartcr_xor;
+		uint32_t uartifls_xor;
+		uint32_t uartimsc_xor;
+		uint32_t uartris_xor;
+		uint32_t uartmis_xor;
+		uint32_t uarticr_xor;
+		uint32_t uartdmacr_xor;
 		uint32_t RSVDxor_2[997];
-		uint32_t xor_uartperiphid0;
-		uint32_t xor_uartperiphid1;
-		uint32_t xor_uartperiphid2;
-		uint32_t xor_uartperiphid3;
-		uint32_t xor_uartpcellid0;
-		uint32_t xor_uartpcellid1;
-		uint32_t xor_uartpcellid2;
-		uint32_t xor_uartpcellid3;
-		uint32_t set_uartdr;
-		uint32_t set_uartrsr;
+		uint32_t uartperiphid0_xor;
+		uint32_t uartperiphid1_xor;
+		uint32_t uartperiphid2_xor;
+		uint32_t uartperiphid3_xor;
+		uint32_t uartpcellid0_xor;
+		uint32_t uartpcellid1_xor;
+		uint32_t uartpcellid2_xor;
+		uint32_t uartpcellid3_xor;
+		uint32_t uartdr_set;
+		uint32_t uartrsr_set;
 		uint32_t RSVDset_0[4];
-		uint32_t set_uartfr;
+		uint32_t uartfr_set;
 		uint32_t RSVDset_1;
-		uint32_t set_uartilpr;
-		uint32_t set_uartibrd;
-		uint32_t set_uartfbrd;
-		uint32_t set_uartlcr_h;
-		uint32_t set_uartcr;
-		uint32_t set_uartifls;
-		uint32_t set_uartimsc;
-		uint32_t set_uartris;
-		uint32_t set_uartmis;
-		uint32_t set_uarticr;
-		uint32_t set_uartdmacr;
+		uint32_t uartilpr_set;
+		uint32_t uartibrd_set;
+		uint32_t uartfbrd_set;
+		uint32_t uartlcr_h_set;
+		uint32_t uartcr_set;
+		uint32_t uartifls_set;
+		uint32_t uartimsc_set;
+		uint32_t uartris_set;
+		uint32_t uartmis_set;
+		uint32_t uarticr_set;
+		uint32_t uartdmacr_set;
 		uint32_t RSVDset_2[997];
-		uint32_t set_uartperiphid0;
-		uint32_t set_uartperiphid1;
-		uint32_t set_uartperiphid2;
-		uint32_t set_uartperiphid3;
-		uint32_t set_uartpcellid0;
-		uint32_t set_uartpcellid1;
-		uint32_t set_uartpcellid2;
-		uint32_t set_uartpcellid3;
-		uint32_t clr_uartdr;
-		uint32_t clr_uartrsr;
+		uint32_t uartperiphid0_set;
+		uint32_t uartperiphid1_set;
+		uint32_t uartperiphid2_set;
+		uint32_t uartperiphid3_set;
+		uint32_t uartpcellid0_set;
+		uint32_t uartpcellid1_set;
+		uint32_t uartpcellid2_set;
+		uint32_t uartpcellid3_set;
+		uint32_t uartdr_clr;
+		uint32_t uartrsr_clr;
 		uint32_t RSVDclr_0[4];
-		uint32_t clr_uartfr;
+		uint32_t uartfr_clr;
 		uint32_t RSVDclr_1;
-		uint32_t clr_uartilpr;
-		uint32_t clr_uartibrd;
-		uint32_t clr_uartfbrd;
-		uint32_t clr_uartlcr_h;
-		uint32_t clr_uartcr;
-		uint32_t clr_uartifls;
-		uint32_t clr_uartimsc;
-		uint32_t clr_uartris;
-		uint32_t clr_uartmis;
-		uint32_t clr_uarticr;
-		uint32_t clr_uartdmacr;
+		uint32_t uartilpr_clr;
+		uint32_t uartibrd_clr;
+		uint32_t uartfbrd_clr;
+		uint32_t uartlcr_h_clr;
+		uint32_t uartcr_clr;
+		uint32_t uartifls_clr;
+		uint32_t uartimsc_clr;
+		uint32_t uartris_clr;
+		uint32_t uartmis_clr;
+		uint32_t uarticr_clr;
+		uint32_t uartdmacr_clr;
 		uint32_t RSVDclr_2[997];
-		uint32_t clr_uartperiphid0;
-		uint32_t clr_uartperiphid1;
-		uint32_t clr_uartperiphid2;
-		uint32_t clr_uartperiphid3;
-		uint32_t clr_uartpcellid0;
-		uint32_t clr_uartpcellid1;
-		uint32_t clr_uartpcellid2;
-		uint32_t clr_uartpcellid3;
+		uint32_t uartperiphid0_clr;
+		uint32_t uartperiphid1_clr;
+		uint32_t uartperiphid2_clr;
+		uint32_t uartperiphid3_clr;
+		uint32_t uartpcellid0_clr;
+		uint32_t uartpcellid1_clr;
+		uint32_t uartpcellid2_clr;
+		uint32_t uartpcellid3_clr;
 } UART0_REG_BLOCKS;
 typedef struct{
 		uint32_t uartdr;
@@ -158,81 +158,81 @@ typedef struct{
 		uint32_t uartpcellid1;
 		uint32_t uartpcellid2;
 		uint32_t uartpcellid3;
-		uint32_t xor_uartdr;
-		uint32_t xor_uartrsr;
+		uint32_t uartdr_xor;
+		uint32_t uartrsr_xor;
 		uint32_t RSVDxor_0[4];
-		uint32_t xor_uartfr;
+		uint32_t uartfr_xor;
 		uint32_t RSVDxor_1;
-		uint32_t xor_uartilpr;
-		uint32_t xor_uartibrd;
-		uint32_t xor_uartfbrd;
-		uint32_t xor_uartlcr_h;
-		uint32_t xor_uartcr;
-		uint32_t xor_uartifls;
-		uint32_t xor_uartimsc;
-		uint32_t xor_uartris;
-		uint32_t xor_uartmis;
-		uint32_t xor_uarticr;
-		uint32_t xor_uartdmacr;
+		uint32_t uartilpr_xor;
+		uint32_t uartibrd_xor;
+		uint32_t uartfbrd_xor;
+		uint32_t uartlcr_h_xor;
+		uint32_t uartcr_xor;
+		uint32_t uartifls_xor;
+		uint32_t uartimsc_xor;
+		uint32_t uartris_xor;
+		uint32_t uartmis_xor;
+		uint32_t uarticr_xor;
+		uint32_t uartdmacr_xor;
 		uint32_t RSVDxor_2[997];
-		uint32_t xor_uartperiphid0;
-		uint32_t xor_uartperiphid1;
-		uint32_t xor_uartperiphid2;
-		uint32_t xor_uartperiphid3;
-		uint32_t xor_uartpcellid0;
-		uint32_t xor_uartpcellid1;
-		uint32_t xor_uartpcellid2;
-		uint32_t xor_uartpcellid3;
-		uint32_t set_uartdr;
-		uint32_t set_uartrsr;
+		uint32_t uartperiphid0_xor;
+		uint32_t uartperiphid1_xor;
+		uint32_t uartperiphid2_xor;
+		uint32_t uartperiphid3_xor;
+		uint32_t uartpcellid0_xor;
+		uint32_t uartpcellid1_xor;
+		uint32_t uartpcellid2_xor;
+		uint32_t uartpcellid3_xor;
+		uint32_t uartdr_set;
+		uint32_t uartrsr_set;
 		uint32_t RSVDset_0[4];
-		uint32_t set_uartfr;
+		uint32_t uartfr_set;
 		uint32_t RSVDset_1;
-		uint32_t set_uartilpr;
-		uint32_t set_uartibrd;
-		uint32_t set_uartfbrd;
-		uint32_t set_uartlcr_h;
-		uint32_t set_uartcr;
-		uint32_t set_uartifls;
-		uint32_t set_uartimsc;
-		uint32_t set_uartris;
-		uint32_t set_uartmis;
-		uint32_t set_uarticr;
-		uint32_t set_uartdmacr;
+		uint32_t uartilpr_set;
+		uint32_t uartibrd_set;
+		uint32_t uartfbrd_set;
+		uint32_t uartlcr_h_set;
+		uint32_t uartcr_set;
+		uint32_t uartifls_set;
+		uint32_t uartimsc_set;
+		uint32_t uartris_set;
+		uint32_t uartmis_set;
+		uint32_t uarticr_set;
+		uint32_t uartdmacr_set;
 		uint32_t RSVDset_2[997];
-		uint32_t set_uartperiphid0;
-		uint32_t set_uartperiphid1;
-		uint32_t set_uartperiphid2;
-		uint32_t set_uartperiphid3;
-		uint32_t set_uartpcellid0;
-		uint32_t set_uartpcellid1;
-		uint32_t set_uartpcellid2;
-		uint32_t set_uartpcellid3;
-		uint32_t clr_uartdr;
-		uint32_t clr_uartrsr;
+		uint32_t uartperiphid0_set;
+		uint32_t uartperiphid1_set;
+		uint32_t uartperiphid2_set;
+		uint32_t uartperiphid3_set;
+		uint32_t uartpcellid0_set;
+		uint32_t uartpcellid1_set;
+		uint32_t uartpcellid2_set;
+		uint32_t uartpcellid3_set;
+		uint32_t uartdr_clr;
+		uint32_t uartrsr_clr;
 		uint32_t RSVDclr_0[4];
-		uint32_t clr_uartfr;
+		uint32_t uartfr_clr;
 		uint32_t RSVDclr_1;
-		uint32_t clr_uartilpr;
-		uint32_t clr_uartibrd;
-		uint32_t clr_uartfbrd;
-		uint32_t clr_uartlcr_h;
-		uint32_t clr_uartcr;
-		uint32_t clr_uartifls;
-		uint32_t clr_uartimsc;
-		uint32_t clr_uartris;
-		uint32_t clr_uartmis;
-		uint32_t clr_uarticr;
-		uint32_t clr_uartdmacr;
+		uint32_t uartilpr_clr;
+		uint32_t uartibrd_clr;
+		uint32_t uartfbrd_clr;
+		uint32_t uartlcr_h_clr;
+		uint32_t uartcr_clr;
+		uint32_t uartifls_clr;
+		uint32_t uartimsc_clr;
+		uint32_t uartris_clr;
+		uint32_t uartmis_clr;
+		uint32_t uarticr_clr;
+		uint32_t uartdmacr_clr;
 		uint32_t RSVDclr_2[997];
-		uint32_t clr_uartperiphid0;
-		uint32_t clr_uartperiphid1;
-		uint32_t clr_uartperiphid2;
-		uint32_t clr_uartperiphid3;
-		uint32_t clr_uartpcellid0;
-		uint32_t clr_uartpcellid1;
-		uint32_t clr_uartpcellid2;
-		uint32_t clr_uartpcellid3;
+		uint32_t uartperiphid0_clr;
+		uint32_t uartperiphid1_clr;
+		uint32_t uartperiphid2_clr;
+		uint32_t uartperiphid3_clr;
+		uint32_t uartpcellid0_clr;
+		uint32_t uartpcellid1_clr;
+		uint32_t uartpcellid2_clr;
+		uint32_t uartpcellid3_clr;
 } UART1_REG_BLOCKS;
 
 
@@ -269,72 +269,72 @@ typedef struct{
 #define UART0_UARTPCELLID1 (*(volatile uint32_t *)0x40070ff4)
 #define UART0_UARTPCELLID2 (*(volatile uint32_t *)0x40070ff8)
 #define UART0_UARTPCELLID3 (*(volatile uint32_t *)0x40070ffc)
-#define UART0_XOR_UARTDR (*(volatile uint32_t *)0x40071000)
-#define UART0_XOR_UARTRSR (*(volatile uint32_t *)0x40071004)
-#define UART0_XOR_UARTFR (*(volatile uint32_t *)0x40071018)
-#define UART0_XOR_UARTILPR (*(volatile uint32_t *)0x40071020)
-#define UART0_XOR_UARTIBRD (*(volatile uint32_t *)0x40071024)
-#define UART0_XOR_UARTFBRD (*(volatile uint32_t *)0x40071028)
-#define UART0_XOR_UARTLCR_H (*(volatile uint32_t *)0x4007102c)
-#define UART0_XOR_UARTCR (*(volatile uint32_t *)0x40071030)
-#define UART0_XOR_UARTIFLS (*(volatile uint32_t *)0x40071034)
-#define UART0_XOR_UARTIMSC (*(volatile uint32_t *)0x40071038)
-#define UART0_XOR_UARTRIS (*(volatile uint32_t *)0x4007103c)
-#define UART0_XOR_UARTMIS (*(volatile uint32_t *)0x40071040)
-#define UART0_XOR_UARTICR (*(volatile uint32_t *)0x40071044)
-#define UART0_XOR_UARTDMACR (*(volatile uint32_t *)0x40071048)
-#define UART0_XOR_UARTPERIPHID0 (*(volatile uint32_t *)0x40071fe0)
-#define UART0_XOR_UARTPERIPHID1 (*(volatile uint32_t *)0x40071fe4)
-#define UART0_XOR_UARTPERIPHID2 (*(volatile uint32_t *)0x40071fe8)
-#define UART0_XOR_UARTPERIPHID3 (*(volatile uint32_t *)0x40071fec)
-#define UART0_XOR_UARTPCELLID0 (*(volatile uint32_t *)0x40071ff0)
-#define UART0_XOR_UARTPCELLID1 (*(volatile uint32_t *)0x40071ff4)
-#define UART0_XOR_UARTPCELLID2 (*(volatile uint32_t *)0x40071ff8)
-#define UART0_XOR_UARTPCELLID3 (*(volatile uint32_t *)0x40071ffc)
-#define UART0_SET_UARTDR (*(volatile uint32_t *)0x40072000)
-#define UART0_SET_UARTRSR (*(volatile uint32_t *)0x40072004)
-#define UART0_SET_UARTFR (*(volatile uint32_t *)0x40072018)
-#define UART0_SET_UARTILPR (*(volatile uint32_t *)0x40072020)
-#define UART0_SET_UARTIBRD (*(volatile uint32_t *)0x40072024)
-#define UART0_SET_UARTFBRD (*(volatile uint32_t *)0x40072028)
-#define UART0_SET_UARTLCR_H (*(volatile uint32_t *)0x4007202c)
-#define UART0_SET_UARTCR (*(volatile uint32_t *)0x40072030)
-#define UART0_SET_UARTIFLS (*(volatile uint32_t *)0x40072034)
-#define UART0_SET_UARTIMSC (*(volatile uint32_t *)0x40072038)
-#define UART0_SET_UARTRIS (*(volatile uint32_t *)0x4007203c)
-#define UART0_SET_UARTMIS (*(volatile uint32_t *)0x40072040)
-#define UART0_SET_UARTICR (*(volatile uint32_t *)0x40072044)
-#define UART0_SET_UARTDMACR (*(volatile uint32_t *)0x40072048)
-#define UART0_SET_UARTPERIPHID0 (*(volatile uint32_t *)0x40072fe0)
-#define UART0_SET_UARTPERIPHID1 (*(volatile uint32_t *)0x40072fe4)
-#define UART0_SET_UARTPERIPHID2 (*(volatile uint32_t *)0x40072fe8)
-#define UART0_SET_UARTPERIPHID3 (*(volatile uint32_t *)0x40072fec)
-#define UART0_SET_UARTPCELLID0 (*(volatile uint32_t *)0x40072ff0)
-#define UART0_SET_UARTPCELLID1 (*(volatile uint32_t *)0x40072ff4)
-#define UART0_SET_UARTPCELLID2 (*(volatile uint32_t *)0x40072ff8)
-#define UART0_SET_UARTPCELLID3 (*(volatile uint32_t *)0x40072ffc)
-#define UART0_CLR_UARTDR (*(volatile uint32_t *)0x40073000)
-#define UART0_CLR_UARTRSR (*(volatile uint32_t *)0x40073004)
-#define UART0_CLR_UARTFR (*(volatile uint32_t *)0x40073018)
-#define UART0_CLR_UARTILPR (*(volatile uint32_t *)0x40073020)
-#define UART0_CLR_UARTIBRD (*(volatile uint32_t *)0x40073024)
-#define UART0_CLR_UARTFBRD (*(volatile uint32_t *)0x40073028)
-#define UART0_CLR_UARTLCR_H (*(volatile uint32_t *)0x4007302c)
-#define UART0_CLR_UARTCR (*(volatile uint32_t *)0x40073030)
-#define UART0_CLR_UARTIFLS (*(volatile uint32_t *)0x40073034)
-#define UART0_CLR_UARTIMSC (*(volatile uint32_t *)0x40073038)
-#define UART0_CLR_UARTRIS (*(volatile uint32_t *)0x4007303c)
-#define UART0_CLR_UARTMIS (*(volatile uint32_t *)0x40073040)
-#define UART0_CLR_UARTICR (*(volatile uint32_t *)0x40073044)
-#define UART0_CLR_UARTDMACR (*(volatile uint32_t *)0x40073048)
-#define UART0_CLR_UARTPERIPHID0 (*(volatile uint32_t *)0x40073fe0)
-#define UART0_CLR_UARTPERIPHID1 (*(volatile uint32_t *)0x40073fe4)
-#define UART0_CLR_UARTPERIPHID2 (*(volatile uint32_t *)0x40073fe8)
-#define UART0_CLR_UARTPERIPHID3 (*(volatile uint32_t *)0x40073fec)
-#define UART0_CLR_UARTPCELLID0 (*(volatile uint32_t *)0x40073ff0)
-#define UART0_CLR_UARTPCELLID1 (*(volatile uint32_t *)0x40073ff4)
-#define UART0_CLR_UARTPCELLID2 (*(volatile uint32_t *)0x40073ff8)
-#define UART0_CLR_UARTPCELLID3 (*(volatile uint32_t *)0x40073ffc)
+#define UART0_UARTDR_XOR (*(volatile uint32_t *)0x40071000)
+#define UART0_UARTRSR_XOR (*(volatile uint32_t *)0x40071004)
+#define UART0_UARTFR_XOR (*(volatile uint32_t *)0x40071018)
+#define UART0_UARTILPR_XOR (*(volatile uint32_t *)0x40071020)
+#define UART0_UARTIBRD_XOR (*(volatile uint32_t *)0x40071024)
+#define UART0_UARTFBRD_XOR (*(volatile uint32_t *)0x40071028)
+#define UART0_UARTLCR_H_XOR (*(volatile uint32_t *)0x4007102c)
+#define UART0_UARTCR_XOR (*(volatile uint32_t *)0x40071030)
+#define UART0_UARTIFLS_XOR (*(volatile uint32_t *)0x40071034)
+#define UART0_UARTIMSC_XOR (*(volatile uint32_t *)0x40071038)
+#define UART0_UARTRIS_XOR (*(volatile uint32_t *)0x4007103c)
+#define UART0_UARTMIS_XOR (*(volatile uint32_t *)0x40071040)
+#define UART0_UARTICR_XOR (*(volatile uint32_t *)0x40071044)
+#define UART0_UARTDMACR_XOR (*(volatile uint32_t *)0x40071048)
+#define UART0_UARTPERIPHID0_XOR (*(volatile uint32_t *)0x40071fe0)
+#define UART0_UARTPERIPHID1_XOR (*(volatile uint32_t *)0x40071fe4)
+#define UART0_UARTPERIPHID2_XOR (*(volatile uint32_t *)0x40071fe8)
+#define UART0_UARTPERIPHID3_XOR (*(volatile uint32_t *)0x40071fec)
+#define UART0_UARTPCELLID0_XOR (*(volatile uint32_t *)0x40071ff0)
+#define UART0_UARTPCELLID1_XOR (*(volatile uint32_t *)0x40071ff4)
+#define UART0_UARTPCELLID2_XOR (*(volatile uint32_t *)0x40071ff8)
+#define UART0_UARTPCELLID3_XOR (*(volatile uint32_t *)0x40071ffc)
+#define UART0_UARTDR_SET (*(volatile uint32_t *)0x40072000)
+#define UART0_UARTRSR_SET (*(volatile uint32_t *)0x40072004)
+#define UART0_UARTFR_SET (*(volatile uint32_t *)0x40072018)
+#define UART0_UARTILPR_SET (*(volatile uint32_t *)0x40072020)
+#define UART0_UARTIBRD_SET (*(volatile uint32_t *)0x40072024)
+#define UART0_UARTFBRD_SET (*(volatile uint32_t *)0x40072028)
+#define UART0_UARTLCR_H_SET (*(volatile uint32_t *)0x4007202c)
+#define UART0_UARTCR_SET (*(volatile uint32_t *)0x40072030)
+#define UART0_UARTIFLS_SET (*(volatile uint32_t *)0x40072034)
+#define UART0_UARTIMSC_SET (*(volatile uint32_t *)0x40072038)
+#define UART0_UARTRIS_SET (*(volatile uint32_t *)0x4007203c)
+#define UART0_UARTMIS_SET (*(volatile uint32_t *)0x40072040)
+#define UART0_UARTICR_SET (*(volatile uint32_t *)0x40072044)
+#define UART0_UARTDMACR_SET (*(volatile uint32_t *)0x40072048)
+#define UART0_UARTPERIPHID0_SET (*(volatile uint32_t *)0x40072fe0)
+#define UART0_UARTPERIPHID1_SET (*(volatile uint32_t *)0x40072fe4)
+#define UART0_UARTPERIPHID2_SET (*(volatile uint32_t *)0x40072fe8)
+#define UART0_UARTPERIPHID3_SET (*(volatile uint32_t *)0x40072fec)
+#define UART0_UARTPCELLID0_SET (*(volatile uint32_t *)0x40072ff0)
+#define UART0_UARTPCELLID1_SET (*(volatile uint32_t *)0x40072ff4)
+#define UART0_UARTPCELLID2_SET (*(volatile uint32_t *)0x40072ff8)
+#define UART0_UARTPCELLID3_SET (*(volatile uint32_t *)0x40072ffc)
+#define UART0_UARTDR_CLR (*(volatile uint32_t *)0x40073000)
+#define UART0_UARTRSR_CLR (*(volatile uint32_t *)0x40073004)
+#define UART0_UARTFR_CLR (*(volatile uint32_t *)0x40073018)
+#define UART0_UARTILPR_CLR (*(volatile uint32_t *)0x40073020)
+#define UART0_UARTIBRD_CLR (*(volatile uint32_t *)0x40073024)
+#define UART0_UARTFBRD_CLR (*(volatile uint32_t *)0x40073028)
+#define UART0_UARTLCR_H_CLR (*(volatile uint32_t *)0x4007302c)
+#define UART0_UARTCR_CLR (*(volatile uint32_t *)0x40073030)
+#define UART0_UARTIFLS_CLR (*(volatile uint32_t *)0x40073034)
+#define UART0_UARTIMSC_CLR (*(volatile uint32_t *)0x40073038)
+#define UART0_UARTRIS_CLR (*(volatile uint32_t *)0x4007303c)
+#define UART0_UARTMIS_CLR (*(volatile uint32_t *)0x40073040)
+#define UART0_UARTICR_CLR (*(volatile uint32_t *)0x40073044)
+#define UART0_UARTDMACR_CLR (*(volatile uint32_t *)0x40073048)
+#define UART0_UARTPERIPHID0_CLR (*(volatile uint32_t *)0x40073fe0)
+#define UART0_UARTPERIPHID1_CLR (*(volatile uint32_t *)0x40073fe4)
+#define UART0_UARTPERIPHID2_CLR (*(volatile uint32_t *)0x40073fe8)
+#define UART0_UARTPERIPHID3_CLR (*(volatile uint32_t *)0x40073fec)
+#define UART0_UARTPCELLID0_CLR (*(volatile uint32_t *)0x40073ff0)
+#define UART0_UARTPCELLID1_CLR (*(volatile uint32_t *)0x40073ff4)
+#define UART0_UARTPCELLID2_CLR (*(volatile uint32_t *)0x40073ff8)
+#define UART0_UARTPCELLID3_CLR (*(volatile uint32_t *)0x40073ffc)
 #define UART1_UARTDR (*(volatile uint32_t *)0x40078000)
 #define UART1_UARTRSR (*(volatile uint32_t *)0x40078004)
 #define UART1_UARTFR (*(volatile uint32_t *)0x40078018)
@@ -357,72 +357,72 @@ typedef struct{
 #define UART1_UARTPCELLID1 (*(volatile uint32_t *)0x40078ff4)
 #define UART1_UARTPCELLID2 (*(volatile uint32_t *)0x40078ff8)
 #define UART1_UARTPCELLID3 (*(volatile uint32_t *)0x40078ffc)
-#define UART1_XOR_UARTDR (*(volatile uint32_t *)0x40079000)
-#define UART1_XOR_UARTRSR (*(volatile uint32_t *)0x40079004)
-#define UART1_XOR_UARTFR (*(volatile uint32_t *)0x40079018)
-#define UART1_XOR_UARTILPR (*(volatile uint32_t *)0x40079020)
-#define UART1_XOR_UARTIBRD (*(volatile uint32_t *)0x40079024)
-#define UART1_XOR_UARTFBRD (*(volatile uint32_t *)0x40079028)
-#define UART1_XOR_UARTLCR_H (*(volatile uint32_t *)0x4007902c)
-#define UART1_XOR_UARTCR (*(volatile uint32_t *)0x40079030)
-#define UART1_XOR_UARTIFLS (*(volatile uint32_t *)0x40079034)
-#define UART1_XOR_UARTIMSC (*(volatile uint32_t *)0x40079038)
-#define UART1_XOR_UARTRIS (*(volatile uint32_t *)0x4007903c)
-#define UART1_XOR_UARTMIS (*(volatile uint32_t *)0x40079040)
-#define UART1_XOR_UARTICR (*(volatile uint32_t *)0x40079044)
-#define UART1_XOR_UARTDMACR (*(volatile uint32_t *)0x40079048)
-#define UART1_XOR_UARTPERIPHID0 (*(volatile uint32_t *)0x40079fe0)
-#define UART1_XOR_UARTPERIPHID1 (*(volatile uint32_t *)0x40079fe4)
-#define UART1_XOR_UARTPERIPHID2 (*(volatile uint32_t *)0x40079fe8)
-#define UART1_XOR_UARTPERIPHID3 (*(volatile uint32_t *)0x40079fec)
-#define UART1_XOR_UARTPCELLID0 (*(volatile uint32_t *)0x40079ff0)
-#define UART1_XOR_UARTPCELLID1 (*(volatile uint32_t *)0x40079ff4)
-#define UART1_XOR_UARTPCELLID2 (*(volatile uint32_t *)0x40079ff8)
-#define UART1_XOR_UARTPCELLID3 (*(volatile uint32_t *)0x40079ffc)
-#define UART1_SET_UARTDR (*(volatile uint32_t *)0x4007a000)
-#define UART1_SET_UARTRSR (*(volatile uint32_t *)0x4007a004)
-#define UART1_SET_UARTFR (*(volatile uint32_t *)0x4007a018)
-#define UART1_SET_UARTILPR (*(volatile uint32_t *)0x4007a020)
-#define UART1_SET_UARTIBRD (*(volatile uint32_t *)0x4007a024)
-#define UART1_SET_UARTFBRD (*(volatile uint32_t *)0x4007a028)
-#define UART1_SET_UARTLCR_H (*(volatile uint32_t *)0x4007a02c)
-#define UART1_SET_UARTCR (*(volatile uint32_t *)0x4007a030)
-#define UART1_SET_UARTIFLS (*(volatile uint32_t *)0x4007a034)
-#define UART1_SET_UARTIMSC (*(volatile uint32_t *)0x4007a038)
-#define UART1_SET_UARTRIS (*(volatile uint32_t *)0x4007a03c)
-#define UART1_SET_UARTMIS (*(volatile uint32_t *)0x4007a040)
-#define UART1_SET_UARTICR (*(volatile uint32_t *)0x4007a044)
-#define UART1_SET_UARTDMACR (*(volatile uint32_t *)0x4007a048)
-#define UART1_SET_UARTPERIPHID0 (*(volatile uint32_t *)0x4007afe0)
-#define UART1_SET_UARTPERIPHID1 (*(volatile uint32_t *)0x4007afe4)
-#define UART1_SET_UARTPERIPHID2 (*(volatile uint32_t *)0x4007afe8)
-#define UART1_SET_UARTPERIPHID3 (*(volatile uint32_t *)0x4007afec)
-#define UART1_SET_UARTPCELLID0 (*(volatile uint32_t *)0x4007aff0)
-#define UART1_SET_UARTPCELLID1 (*(volatile uint32_t *)0x4007aff4)
-#define UART1_SET_UARTPCELLID2 (*(volatile uint32_t *)0x4007aff8)
-#define UART1_SET_UARTPCELLID3 (*(volatile uint32_t *)0x4007affc)
-#define UART1_CLR_UARTDR (*(volatile uint32_t *)0x4007b000)
-#define UART1_CLR_UARTRSR (*(volatile uint32_t *)0x4007b004)
-#define UART1_CLR_UARTFR (*(volatile uint32_t *)0x4007b018)
-#define UART1_CLR_UARTILPR (*(volatile uint32_t *)0x4007b020)
-#define UART1_CLR_UARTIBRD (*(volatile uint32_t *)0x4007b024)
-#define UART1_CLR_UARTFBRD (*(volatile uint32_t *)0x4007b028)
-#define UART1_CLR_UARTLCR_H (*(volatile uint32_t *)0x4007b02c)
-#define UART1_CLR_UARTCR (*(volatile uint32_t *)0x4007b030)
-#define UART1_CLR_UARTIFLS (*(volatile uint32_t *)0x4007b034)
-#define UART1_CLR_UARTIMSC (*(volatile uint32_t *)0x4007b038)
-#define UART1_CLR_UARTRIS (*(volatile uint32_t *)0x4007b03c)
-#define UART1_CLR_UARTMIS (*(volatile uint32_t *)0x4007b040)
-#define UART1_CLR_UARTICR (*(volatile uint32_t *)0x4007b044)
-#define UART1_CLR_UARTDMACR (*(volatile uint32_t *)0x4007b048)
-#define UART1_CLR_UARTPERIPHID0 (*(volatile uint32_t *)0x4007bfe0)
-#define UART1_CLR_UARTPERIPHID1 (*(volatile uint32_t *)0x4007bfe4)
-#define UART1_CLR_UARTPERIPHID2 (*(volatile uint32_t *)0x4007bfe8)
-#define UART1_CLR_UARTPERIPHID3 (*(volatile uint32_t *)0x4007bfec)
-#define UART1_CLR_UARTPCELLID0 (*(volatile uint32_t *)0x4007bff0)
-#define UART1_CLR_UARTPCELLID1 (*(volatile uint32_t *)0x4007bff4)
-#define UART1_CLR_UARTPCELLID2 (*(volatile uint32_t *)0x4007bff8)
-#define UART1_CLR_UARTPCELLID3 (*(volatile uint32_t *)0x4007bffc)
+#define UART1_UARTDR_XOR (*(volatile uint32_t *)0x40079000)
+#define UART1_UARTRSR_XOR (*(volatile uint32_t *)0x40079004)
+#define UART1_UARTFR_XOR (*(volatile uint32_t *)0x40079018)
+#define UART1_UARTILPR_XOR (*(volatile uint32_t *)0x40079020)
+#define UART1_UARTIBRD_XOR (*(volatile uint32_t *)0x40079024)
+#define UART1_UARTFBRD_XOR (*(volatile uint32_t *)0x40079028)
+#define UART1_UARTLCR_H_XOR (*(volatile uint32_t *)0x4007902c)
+#define UART1_UARTCR_XOR (*(volatile uint32_t *)0x40079030)
+#define UART1_UARTIFLS_XOR (*(volatile uint32_t *)0x40079034)
+#define UART1_UARTIMSC_XOR (*(volatile uint32_t *)0x40079038)
+#define UART1_UARTRIS_XOR (*(volatile uint32_t *)0x4007903c)
+#define UART1_UARTMIS_XOR (*(volatile uint32_t *)0x40079040)
+#define UART1_UARTICR_XOR (*(volatile uint32_t *)0x40079044)
+#define UART1_UARTDMACR_XOR (*(volatile uint32_t *)0x40079048)
+#define UART1_UARTPERIPHID0_XOR (*(volatile uint32_t *)0x40079fe0)
+#define UART1_UARTPERIPHID1_XOR (*(volatile uint32_t *)0x40079fe4)
+#define UART1_UARTPERIPHID2_XOR (*(volatile uint32_t *)0x40079fe8)
+#define UART1_UARTPERIPHID3_XOR (*(volatile uint32_t *)0x40079fec)
+#define UART1_UARTPCELLID0_XOR (*(volatile uint32_t *)0x40079ff0)
+#define UART1_UARTPCELLID1_XOR (*(volatile uint32_t *)0x40079ff4)
+#define UART1_UARTPCELLID2_XOR (*(volatile uint32_t *)0x40079ff8)
+#define UART1_UARTPCELLID3_XOR (*(volatile uint32_t *)0x40079ffc)
+#define UART1_UARTDR_SET (*(volatile uint32_t *)0x4007a000)
+#define UART1_UARTRSR_SET (*(volatile uint32_t *)0x4007a004)
+#define UART1_UARTFR_SET (*(volatile uint32_t *)0x4007a018)
+#define UART1_UARTILPR_SET (*(volatile uint32_t *)0x4007a020)
+#define UART1_UARTIBRD_SET (*(volatile uint32_t *)0x4007a024)
+#define UART1_UARTFBRD_SET (*(volatile uint32_t *)0x4007a028)
+#define UART1_UARTLCR_H_SET (*(volatile uint32_t *)0x4007a02c)
+#define UART1_UARTCR_SET (*(volatile uint32_t *)0x4007a030)
+#define UART1_UARTIFLS_SET (*(volatile uint32_t *)0x4007a034)
+#define UART1_UARTIMSC_SET (*(volatile uint32_t *)0x4007a038)
+#define UART1_UARTRIS_SET (*(volatile uint32_t *)0x4007a03c)
+#define UART1_UARTMIS_SET (*(volatile uint32_t *)0x4007a040)
+#define UART1_UARTICR_SET (*(volatile uint32_t *)0x4007a044)
+#define UART1_UARTDMACR_SET (*(volatile uint32_t *)0x4007a048)
+#define UART1_UARTPERIPHID0_SET (*(volatile uint32_t *)0x4007afe0)
+#define UART1_UARTPERIPHID1_SET (*(volatile uint32_t *)0x4007afe4)
+#define UART1_UARTPERIPHID2_SET (*(volatile uint32_t *)0x4007afe8)
+#define UART1_UARTPERIPHID3_SET (*(volatile uint32_t *)0x4007afec)
+#define UART1_UARTPCELLID0_SET (*(volatile uint32_t *)0x4007aff0)
+#define UART1_UARTPCELLID1_SET (*(volatile uint32_t *)0x4007aff4)
+#define UART1_UARTPCELLID2_SET (*(volatile uint32_t *)0x4007aff8)
+#define UART1_UARTPCELLID3_SET (*(volatile uint32_t *)0x4007affc)
+#define UART1_UARTDR_CLR (*(volatile uint32_t *)0x4007b000)
+#define UART1_UARTRSR_CLR (*(volatile uint32_t *)0x4007b004)
+#define UART1_UARTFR_CLR (*(volatile uint32_t *)0x4007b018)
+#define UART1_UARTILPR_CLR (*(volatile uint32_t *)0x4007b020)
+#define UART1_UARTIBRD_CLR (*(volatile uint32_t *)0x4007b024)
+#define UART1_UARTFBRD_CLR (*(volatile uint32_t *)0x4007b028)
+#define UART1_UARTLCR_H_CLR (*(volatile uint32_t *)0x4007b02c)
+#define UART1_UARTCR_CLR (*(volatile uint32_t *)0x4007b030)
+#define UART1_UARTIFLS_CLR (*(volatile uint32_t *)0x4007b034)
+#define UART1_UARTIMSC_CLR (*(volatile uint32_t *)0x4007b038)
+#define UART1_UARTRIS_CLR (*(volatile uint32_t *)0x4007b03c)
+#define UART1_UARTMIS_CLR (*(volatile uint32_t *)0x4007b040)
+#define UART1_UARTICR_CLR (*(volatile uint32_t *)0x4007b044)
+#define UART1_UARTDMACR_CLR (*(volatile uint32_t *)0x4007b048)
+#define UART1_UARTPERIPHID0_CLR (*(volatile uint32_t *)0x4007bfe0)
+#define UART1_UARTPERIPHID1_CLR (*(volatile uint32_t *)0x4007bfe4)
+#define UART1_UARTPERIPHID2_CLR (*(volatile uint32_t *)0x4007bfe8)
+#define UART1_UARTPERIPHID3_CLR (*(volatile uint32_t *)0x4007bfec)
+#define UART1_UARTPCELLID0_CLR (*(volatile uint32_t *)0x4007bff0)
+#define UART1_UARTPCELLID1_CLR (*(volatile uint32_t *)0x4007bff4)
+#define UART1_UARTPCELLID2_CLR (*(volatile uint32_t *)0x4007bff8)
+#define UART1_UARTPCELLID3_CLR (*(volatile uint32_t *)0x4007bffc)
 
 /*UARTDR Register macros*/
 

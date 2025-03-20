@@ -403,1121 +403,1121 @@ typedef struct{
 		uint32_t ch15_dbg_ctdreq;
 		uint32_t ch15_dbg_tcr;
 		uint32_t RSVD22[270];
-		uint32_t xor_ch0_read_addr;
-		uint32_t xor_ch0_write_addr;
-		uint32_t xor_ch0_trans_count;
-		uint32_t xor_ch0_ctrl_trig;
-		uint32_t xor_ch0_al1_ctrl;
-		uint32_t xor_ch0_al1_read_addr;
-		uint32_t xor_ch0_al1_write_addr;
-		uint32_t xor_ch0_al1_trans_count_trig;
-		uint32_t xor_ch0_al2_ctrl;
-		uint32_t xor_ch0_al2_trans_count;
-		uint32_t xor_ch0_al2_read_addr;
-		uint32_t xor_ch0_al2_write_addr_trig;
-		uint32_t xor_ch0_al3_ctrl;
-		uint32_t xor_ch0_al3_write_addr;
-		uint32_t xor_ch0_al3_trans_count;
-		uint32_t xor_ch0_al3_read_addr_trig;
-		uint32_t xor_ch1_read_addr;
-		uint32_t xor_ch1_write_addr;
-		uint32_t xor_ch1_trans_count;
-		uint32_t xor_ch1_ctrl_trig;
-		uint32_t xor_ch1_al1_ctrl;
-		uint32_t xor_ch1_al1_read_addr;
-		uint32_t xor_ch1_al1_write_addr;
-		uint32_t xor_ch1_al1_trans_count_trig;
-		uint32_t xor_ch1_al2_ctrl;
-		uint32_t xor_ch1_al2_trans_count;
-		uint32_t xor_ch1_al2_read_addr;
-		uint32_t xor_ch1_al2_write_addr_trig;
-		uint32_t xor_ch1_al3_ctrl;
-		uint32_t xor_ch1_al3_write_addr;
-		uint32_t xor_ch1_al3_trans_count;
-		uint32_t xor_ch1_al3_read_addr_trig;
-		uint32_t xor_ch2_read_addr;
-		uint32_t xor_ch2_write_addr;
-		uint32_t xor_ch2_trans_count;
-		uint32_t xor_ch2_ctrl_trig;
-		uint32_t xor_ch2_al1_ctrl;
-		uint32_t xor_ch2_al1_read_addr;
-		uint32_t xor_ch2_al1_write_addr;
-		uint32_t xor_ch2_al1_trans_count_trig;
-		uint32_t xor_ch2_al2_ctrl;
-		uint32_t xor_ch2_al2_trans_count;
-		uint32_t xor_ch2_al2_read_addr;
-		uint32_t xor_ch2_al2_write_addr_trig;
-		uint32_t xor_ch2_al3_ctrl;
-		uint32_t xor_ch2_al3_write_addr;
-		uint32_t xor_ch2_al3_trans_count;
-		uint32_t xor_ch2_al3_read_addr_trig;
-		uint32_t xor_ch3_read_addr;
-		uint32_t xor_ch3_write_addr;
-		uint32_t xor_ch3_trans_count;
-		uint32_t xor_ch3_ctrl_trig;
-		uint32_t xor_ch3_al1_ctrl;
-		uint32_t xor_ch3_al1_read_addr;
-		uint32_t xor_ch3_al1_write_addr;
-		uint32_t xor_ch3_al1_trans_count_trig;
-		uint32_t xor_ch3_al2_ctrl;
-		uint32_t xor_ch3_al2_trans_count;
-		uint32_t xor_ch3_al2_read_addr;
-		uint32_t xor_ch3_al2_write_addr_trig;
-		uint32_t xor_ch3_al3_ctrl;
-		uint32_t xor_ch3_al3_write_addr;
-		uint32_t xor_ch3_al3_trans_count;
-		uint32_t xor_ch3_al3_read_addr_trig;
-		uint32_t xor_ch4_read_addr;
-		uint32_t xor_ch4_write_addr;
-		uint32_t xor_ch4_trans_count;
-		uint32_t xor_ch4_ctrl_trig;
-		uint32_t xor_ch4_al1_ctrl;
-		uint32_t xor_ch4_al1_read_addr;
-		uint32_t xor_ch4_al1_write_addr;
-		uint32_t xor_ch4_al1_trans_count_trig;
-		uint32_t xor_ch4_al2_ctrl;
-		uint32_t xor_ch4_al2_trans_count;
-		uint32_t xor_ch4_al2_read_addr;
-		uint32_t xor_ch4_al2_write_addr_trig;
-		uint32_t xor_ch4_al3_ctrl;
-		uint32_t xor_ch4_al3_write_addr;
-		uint32_t xor_ch4_al3_trans_count;
-		uint32_t xor_ch4_al3_read_addr_trig;
-		uint32_t xor_ch5_read_addr;
-		uint32_t xor_ch5_write_addr;
-		uint32_t xor_ch5_trans_count;
-		uint32_t xor_ch5_ctrl_trig;
-		uint32_t xor_ch5_al1_ctrl;
-		uint32_t xor_ch5_al1_read_addr;
-		uint32_t xor_ch5_al1_write_addr;
-		uint32_t xor_ch5_al1_trans_count_trig;
-		uint32_t xor_ch5_al2_ctrl;
-		uint32_t xor_ch5_al2_trans_count;
-		uint32_t xor_ch5_al2_read_addr;
-		uint32_t xor_ch5_al2_write_addr_trig;
-		uint32_t xor_ch5_al3_ctrl;
-		uint32_t xor_ch5_al3_write_addr;
-		uint32_t xor_ch5_al3_trans_count;
-		uint32_t xor_ch5_al3_read_addr_trig;
-		uint32_t xor_ch6_read_addr;
-		uint32_t xor_ch6_write_addr;
-		uint32_t xor_ch6_trans_count;
-		uint32_t xor_ch6_ctrl_trig;
-		uint32_t xor_ch6_al1_ctrl;
-		uint32_t xor_ch6_al1_read_addr;
-		uint32_t xor_ch6_al1_write_addr;
-		uint32_t xor_ch6_al1_trans_count_trig;
-		uint32_t xor_ch6_al2_ctrl;
-		uint32_t xor_ch6_al2_trans_count;
-		uint32_t xor_ch6_al2_read_addr;
-		uint32_t xor_ch6_al2_write_addr_trig;
-		uint32_t xor_ch6_al3_ctrl;
-		uint32_t xor_ch6_al3_write_addr;
-		uint32_t xor_ch6_al3_trans_count;
-		uint32_t xor_ch6_al3_read_addr_trig;
-		uint32_t xor_ch7_read_addr;
-		uint32_t xor_ch7_write_addr;
-		uint32_t xor_ch7_trans_count;
-		uint32_t xor_ch7_ctrl_trig;
-		uint32_t xor_ch7_al1_ctrl;
-		uint32_t xor_ch7_al1_read_addr;
-		uint32_t xor_ch7_al1_write_addr;
-		uint32_t xor_ch7_al1_trans_count_trig;
-		uint32_t xor_ch7_al2_ctrl;
-		uint32_t xor_ch7_al2_trans_count;
-		uint32_t xor_ch7_al2_read_addr;
-		uint32_t xor_ch7_al2_write_addr_trig;
-		uint32_t xor_ch7_al3_ctrl;
-		uint32_t xor_ch7_al3_write_addr;
-		uint32_t xor_ch7_al3_trans_count;
-		uint32_t xor_ch7_al3_read_addr_trig;
-		uint32_t xor_ch8_read_addr;
-		uint32_t xor_ch8_write_addr;
-		uint32_t xor_ch8_trans_count;
-		uint32_t xor_ch8_ctrl_trig;
-		uint32_t xor_ch8_al1_ctrl;
-		uint32_t xor_ch8_al1_read_addr;
-		uint32_t xor_ch8_al1_write_addr;
-		uint32_t xor_ch8_al1_trans_count_trig;
-		uint32_t xor_ch8_al2_ctrl;
-		uint32_t xor_ch8_al2_trans_count;
-		uint32_t xor_ch8_al2_read_addr;
-		uint32_t xor_ch8_al2_write_addr_trig;
-		uint32_t xor_ch8_al3_ctrl;
-		uint32_t xor_ch8_al3_write_addr;
-		uint32_t xor_ch8_al3_trans_count;
-		uint32_t xor_ch8_al3_read_addr_trig;
-		uint32_t xor_ch9_read_addr;
-		uint32_t xor_ch9_write_addr;
-		uint32_t xor_ch9_trans_count;
-		uint32_t xor_ch9_ctrl_trig;
-		uint32_t xor_ch9_al1_ctrl;
-		uint32_t xor_ch9_al1_read_addr;
-		uint32_t xor_ch9_al1_write_addr;
-		uint32_t xor_ch9_al1_trans_count_trig;
-		uint32_t xor_ch9_al2_ctrl;
-		uint32_t xor_ch9_al2_trans_count;
-		uint32_t xor_ch9_al2_read_addr;
-		uint32_t xor_ch9_al2_write_addr_trig;
-		uint32_t xor_ch9_al3_ctrl;
-		uint32_t xor_ch9_al3_write_addr;
-		uint32_t xor_ch9_al3_trans_count;
-		uint32_t xor_ch9_al3_read_addr_trig;
-		uint32_t xor_ch10_read_addr;
-		uint32_t xor_ch10_write_addr;
-		uint32_t xor_ch10_trans_count;
-		uint32_t xor_ch10_ctrl_trig;
-		uint32_t xor_ch10_al1_ctrl;
-		uint32_t xor_ch10_al1_read_addr;
-		uint32_t xor_ch10_al1_write_addr;
-		uint32_t xor_ch10_al1_trans_count_trig;
-		uint32_t xor_ch10_al2_ctrl;
-		uint32_t xor_ch10_al2_trans_count;
-		uint32_t xor_ch10_al2_read_addr;
-		uint32_t xor_ch10_al2_write_addr_trig;
-		uint32_t xor_ch10_al3_ctrl;
-		uint32_t xor_ch10_al3_write_addr;
-		uint32_t xor_ch10_al3_trans_count;
-		uint32_t xor_ch10_al3_read_addr_trig;
-		uint32_t xor_ch11_read_addr;
-		uint32_t xor_ch11_write_addr;
-		uint32_t xor_ch11_trans_count;
-		uint32_t xor_ch11_ctrl_trig;
-		uint32_t xor_ch11_al1_ctrl;
-		uint32_t xor_ch11_al1_read_addr;
-		uint32_t xor_ch11_al1_write_addr;
-		uint32_t xor_ch11_al1_trans_count_trig;
-		uint32_t xor_ch11_al2_ctrl;
-		uint32_t xor_ch11_al2_trans_count;
-		uint32_t xor_ch11_al2_read_addr;
-		uint32_t xor_ch11_al2_write_addr_trig;
-		uint32_t xor_ch11_al3_ctrl;
-		uint32_t xor_ch11_al3_write_addr;
-		uint32_t xor_ch11_al3_trans_count;
-		uint32_t xor_ch11_al3_read_addr_trig;
-		uint32_t xor_ch12_read_addr;
-		uint32_t xor_ch12_write_addr;
-		uint32_t xor_ch12_trans_count;
-		uint32_t xor_ch12_ctrl_trig;
-		uint32_t xor_ch12_al1_ctrl;
-		uint32_t xor_ch12_al1_read_addr;
-		uint32_t xor_ch12_al1_write_addr;
-		uint32_t xor_ch12_al1_trans_count_trig;
-		uint32_t xor_ch12_al2_ctrl;
-		uint32_t xor_ch12_al2_trans_count;
-		uint32_t xor_ch12_al2_read_addr;
-		uint32_t xor_ch12_al2_write_addr_trig;
-		uint32_t xor_ch12_al3_ctrl;
-		uint32_t xor_ch12_al3_write_addr;
-		uint32_t xor_ch12_al3_trans_count;
-		uint32_t xor_ch12_al3_read_addr_trig;
-		uint32_t xor_ch13_read_addr;
-		uint32_t xor_ch13_write_addr;
-		uint32_t xor_ch13_trans_count;
-		uint32_t xor_ch13_ctrl_trig;
-		uint32_t xor_ch13_al1_ctrl;
-		uint32_t xor_ch13_al1_read_addr;
-		uint32_t xor_ch13_al1_write_addr;
-		uint32_t xor_ch13_al1_trans_count_trig;
-		uint32_t xor_ch13_al2_ctrl;
-		uint32_t xor_ch13_al2_trans_count;
-		uint32_t xor_ch13_al2_read_addr;
-		uint32_t xor_ch13_al2_write_addr_trig;
-		uint32_t xor_ch13_al3_ctrl;
-		uint32_t xor_ch13_al3_write_addr;
-		uint32_t xor_ch13_al3_trans_count;
-		uint32_t xor_ch13_al3_read_addr_trig;
-		uint32_t xor_ch14_read_addr;
-		uint32_t xor_ch14_write_addr;
-		uint32_t xor_ch14_trans_count;
-		uint32_t xor_ch14_ctrl_trig;
-		uint32_t xor_ch14_al1_ctrl;
-		uint32_t xor_ch14_al1_read_addr;
-		uint32_t xor_ch14_al1_write_addr;
-		uint32_t xor_ch14_al1_trans_count_trig;
-		uint32_t xor_ch14_al2_ctrl;
-		uint32_t xor_ch14_al2_trans_count;
-		uint32_t xor_ch14_al2_read_addr;
-		uint32_t xor_ch14_al2_write_addr_trig;
-		uint32_t xor_ch14_al3_ctrl;
-		uint32_t xor_ch14_al3_write_addr;
-		uint32_t xor_ch14_al3_trans_count;
-		uint32_t xor_ch14_al3_read_addr_trig;
-		uint32_t xor_ch15_read_addr;
-		uint32_t xor_ch15_write_addr;
-		uint32_t xor_ch15_trans_count;
-		uint32_t xor_ch15_ctrl_trig;
-		uint32_t xor_ch15_al1_ctrl;
-		uint32_t xor_ch15_al1_read_addr;
-		uint32_t xor_ch15_al1_write_addr;
-		uint32_t xor_ch15_al1_trans_count_trig;
-		uint32_t xor_ch15_al2_ctrl;
-		uint32_t xor_ch15_al2_trans_count;
-		uint32_t xor_ch15_al2_read_addr;
-		uint32_t xor_ch15_al2_write_addr_trig;
-		uint32_t xor_ch15_al3_ctrl;
-		uint32_t xor_ch15_al3_write_addr;
-		uint32_t xor_ch15_al3_trans_count;
-		uint32_t xor_ch15_al3_read_addr_trig;
-		uint32_t xor_intr;
-		uint32_t xor_inte0;
-		uint32_t xor_intf0;
-		uint32_t xor_ints0;
+		uint32_t ch0_read_addr_xor;
+		uint32_t ch0_write_addr_xor;
+		uint32_t ch0_trans_count_xor;
+		uint32_t ch0_ctrl_trig_xor;
+		uint32_t ch0_al1_ctrl_xor;
+		uint32_t ch0_al1_read_addr_xor;
+		uint32_t ch0_al1_write_addr_xor;
+		uint32_t ch0_al1_trans_count_trig_xor;
+		uint32_t ch0_al2_ctrl_xor;
+		uint32_t ch0_al2_trans_count_xor;
+		uint32_t ch0_al2_read_addr_xor;
+		uint32_t ch0_al2_write_addr_trig_xor;
+		uint32_t ch0_al3_ctrl_xor;
+		uint32_t ch0_al3_write_addr_xor;
+		uint32_t ch0_al3_trans_count_xor;
+		uint32_t ch0_al3_read_addr_trig_xor;
+		uint32_t ch1_read_addr_xor;
+		uint32_t ch1_write_addr_xor;
+		uint32_t ch1_trans_count_xor;
+		uint32_t ch1_ctrl_trig_xor;
+		uint32_t ch1_al1_ctrl_xor;
+		uint32_t ch1_al1_read_addr_xor;
+		uint32_t ch1_al1_write_addr_xor;
+		uint32_t ch1_al1_trans_count_trig_xor;
+		uint32_t ch1_al2_ctrl_xor;
+		uint32_t ch1_al2_trans_count_xor;
+		uint32_t ch1_al2_read_addr_xor;
+		uint32_t ch1_al2_write_addr_trig_xor;
+		uint32_t ch1_al3_ctrl_xor;
+		uint32_t ch1_al3_write_addr_xor;
+		uint32_t ch1_al3_trans_count_xor;
+		uint32_t ch1_al3_read_addr_trig_xor;
+		uint32_t ch2_read_addr_xor;
+		uint32_t ch2_write_addr_xor;
+		uint32_t ch2_trans_count_xor;
+		uint32_t ch2_ctrl_trig_xor;
+		uint32_t ch2_al1_ctrl_xor;
+		uint32_t ch2_al1_read_addr_xor;
+		uint32_t ch2_al1_write_addr_xor;
+		uint32_t ch2_al1_trans_count_trig_xor;
+		uint32_t ch2_al2_ctrl_xor;
+		uint32_t ch2_al2_trans_count_xor;
+		uint32_t ch2_al2_read_addr_xor;
+		uint32_t ch2_al2_write_addr_trig_xor;
+		uint32_t ch2_al3_ctrl_xor;
+		uint32_t ch2_al3_write_addr_xor;
+		uint32_t ch2_al3_trans_count_xor;
+		uint32_t ch2_al3_read_addr_trig_xor;
+		uint32_t ch3_read_addr_xor;
+		uint32_t ch3_write_addr_xor;
+		uint32_t ch3_trans_count_xor;
+		uint32_t ch3_ctrl_trig_xor;
+		uint32_t ch3_al1_ctrl_xor;
+		uint32_t ch3_al1_read_addr_xor;
+		uint32_t ch3_al1_write_addr_xor;
+		uint32_t ch3_al1_trans_count_trig_xor;
+		uint32_t ch3_al2_ctrl_xor;
+		uint32_t ch3_al2_trans_count_xor;
+		uint32_t ch3_al2_read_addr_xor;
+		uint32_t ch3_al2_write_addr_trig_xor;
+		uint32_t ch3_al3_ctrl_xor;
+		uint32_t ch3_al3_write_addr_xor;
+		uint32_t ch3_al3_trans_count_xor;
+		uint32_t ch3_al3_read_addr_trig_xor;
+		uint32_t ch4_read_addr_xor;
+		uint32_t ch4_write_addr_xor;
+		uint32_t ch4_trans_count_xor;
+		uint32_t ch4_ctrl_trig_xor;
+		uint32_t ch4_al1_ctrl_xor;
+		uint32_t ch4_al1_read_addr_xor;
+		uint32_t ch4_al1_write_addr_xor;
+		uint32_t ch4_al1_trans_count_trig_xor;
+		uint32_t ch4_al2_ctrl_xor;
+		uint32_t ch4_al2_trans_count_xor;
+		uint32_t ch4_al2_read_addr_xor;
+		uint32_t ch4_al2_write_addr_trig_xor;
+		uint32_t ch4_al3_ctrl_xor;
+		uint32_t ch4_al3_write_addr_xor;
+		uint32_t ch4_al3_trans_count_xor;
+		uint32_t ch4_al3_read_addr_trig_xor;
+		uint32_t ch5_read_addr_xor;
+		uint32_t ch5_write_addr_xor;
+		uint32_t ch5_trans_count_xor;
+		uint32_t ch5_ctrl_trig_xor;
+		uint32_t ch5_al1_ctrl_xor;
+		uint32_t ch5_al1_read_addr_xor;
+		uint32_t ch5_al1_write_addr_xor;
+		uint32_t ch5_al1_trans_count_trig_xor;
+		uint32_t ch5_al2_ctrl_xor;
+		uint32_t ch5_al2_trans_count_xor;
+		uint32_t ch5_al2_read_addr_xor;
+		uint32_t ch5_al2_write_addr_trig_xor;
+		uint32_t ch5_al3_ctrl_xor;
+		uint32_t ch5_al3_write_addr_xor;
+		uint32_t ch5_al3_trans_count_xor;
+		uint32_t ch5_al3_read_addr_trig_xor;
+		uint32_t ch6_read_addr_xor;
+		uint32_t ch6_write_addr_xor;
+		uint32_t ch6_trans_count_xor;
+		uint32_t ch6_ctrl_trig_xor;
+		uint32_t ch6_al1_ctrl_xor;
+		uint32_t ch6_al1_read_addr_xor;
+		uint32_t ch6_al1_write_addr_xor;
+		uint32_t ch6_al1_trans_count_trig_xor;
+		uint32_t ch6_al2_ctrl_xor;
+		uint32_t ch6_al2_trans_count_xor;
+		uint32_t ch6_al2_read_addr_xor;
+		uint32_t ch6_al2_write_addr_trig_xor;
+		uint32_t ch6_al3_ctrl_xor;
+		uint32_t ch6_al3_write_addr_xor;
+		uint32_t ch6_al3_trans_count_xor;
+		uint32_t ch6_al3_read_addr_trig_xor;
+		uint32_t ch7_read_addr_xor;
+		uint32_t ch7_write_addr_xor;
+		uint32_t ch7_trans_count_xor;
+		uint32_t ch7_ctrl_trig_xor;
+		uint32_t ch7_al1_ctrl_xor;
+		uint32_t ch7_al1_read_addr_xor;
+		uint32_t ch7_al1_write_addr_xor;
+		uint32_t ch7_al1_trans_count_trig_xor;
+		uint32_t ch7_al2_ctrl_xor;
+		uint32_t ch7_al2_trans_count_xor;
+		uint32_t ch7_al2_read_addr_xor;
+		uint32_t ch7_al2_write_addr_trig_xor;
+		uint32_t ch7_al3_ctrl_xor;
+		uint32_t ch7_al3_write_addr_xor;
+		uint32_t ch7_al3_trans_count_xor;
+		uint32_t ch7_al3_read_addr_trig_xor;
+		uint32_t ch8_read_addr_xor;
+		uint32_t ch8_write_addr_xor;
+		uint32_t ch8_trans_count_xor;
+		uint32_t ch8_ctrl_trig_xor;
+		uint32_t ch8_al1_ctrl_xor;
+		uint32_t ch8_al1_read_addr_xor;
+		uint32_t ch8_al1_write_addr_xor;
+		uint32_t ch8_al1_trans_count_trig_xor;
+		uint32_t ch8_al2_ctrl_xor;
+		uint32_t ch8_al2_trans_count_xor;
+		uint32_t ch8_al2_read_addr_xor;
+		uint32_t ch8_al2_write_addr_trig_xor;
+		uint32_t ch8_al3_ctrl_xor;
+		uint32_t ch8_al3_write_addr_xor;
+		uint32_t ch8_al3_trans_count_xor;
+		uint32_t ch8_al3_read_addr_trig_xor;
+		uint32_t ch9_read_addr_xor;
+		uint32_t ch9_write_addr_xor;
+		uint32_t ch9_trans_count_xor;
+		uint32_t ch9_ctrl_trig_xor;
+		uint32_t ch9_al1_ctrl_xor;
+		uint32_t ch9_al1_read_addr_xor;
+		uint32_t ch9_al1_write_addr_xor;
+		uint32_t ch9_al1_trans_count_trig_xor;
+		uint32_t ch9_al2_ctrl_xor;
+		uint32_t ch9_al2_trans_count_xor;
+		uint32_t ch9_al2_read_addr_xor;
+		uint32_t ch9_al2_write_addr_trig_xor;
+		uint32_t ch9_al3_ctrl_xor;
+		uint32_t ch9_al3_write_addr_xor;
+		uint32_t ch9_al3_trans_count_xor;
+		uint32_t ch9_al3_read_addr_trig_xor;
+		uint32_t ch10_read_addr_xor;
+		uint32_t ch10_write_addr_xor;
+		uint32_t ch10_trans_count_xor;
+		uint32_t ch10_ctrl_trig_xor;
+		uint32_t ch10_al1_ctrl_xor;
+		uint32_t ch10_al1_read_addr_xor;
+		uint32_t ch10_al1_write_addr_xor;
+		uint32_t ch10_al1_trans_count_trig_xor;
+		uint32_t ch10_al2_ctrl_xor;
+		uint32_t ch10_al2_trans_count_xor;
+		uint32_t ch10_al2_read_addr_xor;
+		uint32_t ch10_al2_write_addr_trig_xor;
+		uint32_t ch10_al3_ctrl_xor;
+		uint32_t ch10_al3_write_addr_xor;
+		uint32_t ch10_al3_trans_count_xor;
+		uint32_t ch10_al3_read_addr_trig_xor;
+		uint32_t ch11_read_addr_xor;
+		uint32_t ch11_write_addr_xor;
+		uint32_t ch11_trans_count_xor;
+		uint32_t ch11_ctrl_trig_xor;
+		uint32_t ch11_al1_ctrl_xor;
+		uint32_t ch11_al1_read_addr_xor;
+		uint32_t ch11_al1_write_addr_xor;
+		uint32_t ch11_al1_trans_count_trig_xor;
+		uint32_t ch11_al2_ctrl_xor;
+		uint32_t ch11_al2_trans_count_xor;
+		uint32_t ch11_al2_read_addr_xor;
+		uint32_t ch11_al2_write_addr_trig_xor;
+		uint32_t ch11_al3_ctrl_xor;
+		uint32_t ch11_al3_write_addr_xor;
+		uint32_t ch11_al3_trans_count_xor;
+		uint32_t ch11_al3_read_addr_trig_xor;
+		uint32_t ch12_read_addr_xor;
+		uint32_t ch12_write_addr_xor;
+		uint32_t ch12_trans_count_xor;
+		uint32_t ch12_ctrl_trig_xor;
+		uint32_t ch12_al1_ctrl_xor;
+		uint32_t ch12_al1_read_addr_xor;
+		uint32_t ch12_al1_write_addr_xor;
+		uint32_t ch12_al1_trans_count_trig_xor;
+		uint32_t ch12_al2_ctrl_xor;
+		uint32_t ch12_al2_trans_count_xor;
+		uint32_t ch12_al2_read_addr_xor;
+		uint32_t ch12_al2_write_addr_trig_xor;
+		uint32_t ch12_al3_ctrl_xor;
+		uint32_t ch12_al3_write_addr_xor;
+		uint32_t ch12_al3_trans_count_xor;
+		uint32_t ch12_al3_read_addr_trig_xor;
+		uint32_t ch13_read_addr_xor;
+		uint32_t ch13_write_addr_xor;
+		uint32_t ch13_trans_count_xor;
+		uint32_t ch13_ctrl_trig_xor;
+		uint32_t ch13_al1_ctrl_xor;
+		uint32_t ch13_al1_read_addr_xor;
+		uint32_t ch13_al1_write_addr_xor;
+		uint32_t ch13_al1_trans_count_trig_xor;
+		uint32_t ch13_al2_ctrl_xor;
+		uint32_t ch13_al2_trans_count_xor;
+		uint32_t ch13_al2_read_addr_xor;
+		uint32_t ch13_al2_write_addr_trig_xor;
+		uint32_t ch13_al3_ctrl_xor;
+		uint32_t ch13_al3_write_addr_xor;
+		uint32_t ch13_al3_trans_count_xor;
+		uint32_t ch13_al3_read_addr_trig_xor;
+		uint32_t ch14_read_addr_xor;
+		uint32_t ch14_write_addr_xor;
+		uint32_t ch14_trans_count_xor;
+		uint32_t ch14_ctrl_trig_xor;
+		uint32_t ch14_al1_ctrl_xor;
+		uint32_t ch14_al1_read_addr_xor;
+		uint32_t ch14_al1_write_addr_xor;
+		uint32_t ch14_al1_trans_count_trig_xor;
+		uint32_t ch14_al2_ctrl_xor;
+		uint32_t ch14_al2_trans_count_xor;
+		uint32_t ch14_al2_read_addr_xor;
+		uint32_t ch14_al2_write_addr_trig_xor;
+		uint32_t ch14_al3_ctrl_xor;
+		uint32_t ch14_al3_write_addr_xor;
+		uint32_t ch14_al3_trans_count_xor;
+		uint32_t ch14_al3_read_addr_trig_xor;
+		uint32_t ch15_read_addr_xor;
+		uint32_t ch15_write_addr_xor;
+		uint32_t ch15_trans_count_xor;
+		uint32_t ch15_ctrl_trig_xor;
+		uint32_t ch15_al1_ctrl_xor;
+		uint32_t ch15_al1_read_addr_xor;
+		uint32_t ch15_al1_write_addr_xor;
+		uint32_t ch15_al1_trans_count_trig_xor;
+		uint32_t ch15_al2_ctrl_xor;
+		uint32_t ch15_al2_trans_count_xor;
+		uint32_t ch15_al2_read_addr_xor;
+		uint32_t ch15_al2_write_addr_trig_xor;
+		uint32_t ch15_al3_ctrl_xor;
+		uint32_t ch15_al3_write_addr_xor;
+		uint32_t ch15_al3_trans_count_xor;
+		uint32_t ch15_al3_read_addr_trig_xor;
+		uint32_t intr_xor;
+		uint32_t inte0_xor;
+		uint32_t intf0_xor;
+		uint32_t ints0_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_inte1;
-		uint32_t xor_intf1;
-		uint32_t xor_ints1;
+		uint32_t inte1_xor;
+		uint32_t intf1_xor;
+		uint32_t ints1_xor;
 		uint32_t RSVDxor_1;
-		uint32_t xor_inte2;
-		uint32_t xor_intf2;
-		uint32_t xor_ints2;
+		uint32_t inte2_xor;
+		uint32_t intf2_xor;
+		uint32_t ints2_xor;
 		uint32_t RSVDxor_2;
-		uint32_t xor_inte3;
-		uint32_t xor_intf3;
-		uint32_t xor_ints3;
-		uint32_t xor_timer0;
-		uint32_t xor_timer1;
-		uint32_t xor_timer2;
-		uint32_t xor_timer3;
-		uint32_t xor_multi_chan_trigger;
-		uint32_t xor_sniff_ctrl;
-		uint32_t xor_sniff_data;
+		uint32_t inte3_xor;
+		uint32_t intf3_xor;
+		uint32_t ints3_xor;
+		uint32_t timer0_xor;
+		uint32_t timer1_xor;
+		uint32_t timer2_xor;
+		uint32_t timer3_xor;
+		uint32_t multi_chan_trigger_xor;
+		uint32_t sniff_ctrl_xor;
+		uint32_t sniff_data_xor;
 		uint32_t RSVDxor_3;
-		uint32_t xor_fifo_levels;
-		uint32_t xor_chan_abort;
-		uint32_t xor_n_channels;
+		uint32_t fifo_levels_xor;
+		uint32_t chan_abort_xor;
+		uint32_t n_channels_xor;
 		uint32_t RSVDxor_4[5];
-		uint32_t xor_seccfg_ch0;
-		uint32_t xor_seccfg_ch1;
-		uint32_t xor_seccfg_ch2;
-		uint32_t xor_seccfg_ch3;
-		uint32_t xor_seccfg_ch4;
-		uint32_t xor_seccfg_ch5;
-		uint32_t xor_seccfg_ch6;
-		uint32_t xor_seccfg_ch7;
-		uint32_t xor_seccfg_ch8;
-		uint32_t xor_seccfg_ch9;
-		uint32_t xor_seccfg_ch10;
-		uint32_t xor_seccfg_ch11;
-		uint32_t xor_seccfg_ch12;
-		uint32_t xor_seccfg_ch13;
-		uint32_t xor_seccfg_ch14;
-		uint32_t xor_seccfg_ch15;
-		uint32_t xor_seccfg_irq0;
-		uint32_t xor_seccfg_irq1;
-		uint32_t xor_seccfg_irq2;
-		uint32_t xor_seccfg_irq3;
-		uint32_t xor_seccfg_misc;
+		uint32_t seccfg_ch0_xor;
+		uint32_t seccfg_ch1_xor;
+		uint32_t seccfg_ch2_xor;
+		uint32_t seccfg_ch3_xor;
+		uint32_t seccfg_ch4_xor;
+		uint32_t seccfg_ch5_xor;
+		uint32_t seccfg_ch6_xor;
+		uint32_t seccfg_ch7_xor;
+		uint32_t seccfg_ch8_xor;
+		uint32_t seccfg_ch9_xor;
+		uint32_t seccfg_ch10_xor;
+		uint32_t seccfg_ch11_xor;
+		uint32_t seccfg_ch12_xor;
+		uint32_t seccfg_ch13_xor;
+		uint32_t seccfg_ch14_xor;
+		uint32_t seccfg_ch15_xor;
+		uint32_t seccfg_irq0_xor;
+		uint32_t seccfg_irq1_xor;
+		uint32_t seccfg_irq2_xor;
+		uint32_t seccfg_irq3_xor;
+		uint32_t seccfg_misc_xor;
 		uint32_t RSVDxor_5[11];
-		uint32_t xor_mpu_ctrl;
-		uint32_t xor_mpu_bar0;
-		uint32_t xor_mpu_lar0;
-		uint32_t xor_mpu_bar1;
-		uint32_t xor_mpu_lar1;
-		uint32_t xor_mpu_bar2;
-		uint32_t xor_mpu_lar2;
-		uint32_t xor_mpu_bar3;
-		uint32_t xor_mpu_lar3;
-		uint32_t xor_mpu_bar4;
-		uint32_t xor_mpu_lar4;
-		uint32_t xor_mpu_bar5;
-		uint32_t xor_mpu_lar5;
-		uint32_t xor_mpu_bar6;
-		uint32_t xor_mpu_lar6;
-		uint32_t xor_mpu_bar7;
-		uint32_t xor_mpu_lar7;
+		uint32_t mpu_ctrl_xor;
+		uint32_t mpu_bar0_xor;
+		uint32_t mpu_lar0_xor;
+		uint32_t mpu_bar1_xor;
+		uint32_t mpu_lar1_xor;
+		uint32_t mpu_bar2_xor;
+		uint32_t mpu_lar2_xor;
+		uint32_t mpu_bar3_xor;
+		uint32_t mpu_lar3_xor;
+		uint32_t mpu_bar4_xor;
+		uint32_t mpu_lar4_xor;
+		uint32_t mpu_bar5_xor;
+		uint32_t mpu_lar5_xor;
+		uint32_t mpu_bar6_xor;
+		uint32_t mpu_lar6_xor;
+		uint32_t mpu_bar7_xor;
+		uint32_t mpu_lar7_xor;
 		uint32_t RSVDxor_6[175];
-		uint32_t xor_ch0_dbg_ctdreq;
-		uint32_t xor_ch0_dbg_tcr;
+		uint32_t ch0_dbg_ctdreq_xor;
+		uint32_t ch0_dbg_tcr_xor;
 		uint32_t RSVDxor_7[14];
-		uint32_t xor_ch1_dbg_ctdreq;
-		uint32_t xor_ch1_dbg_tcr;
+		uint32_t ch1_dbg_ctdreq_xor;
+		uint32_t ch1_dbg_tcr_xor;
 		uint32_t RSVDxor_8[14];
-		uint32_t xor_ch2_dbg_ctdreq;
-		uint32_t xor_ch2_dbg_tcr;
+		uint32_t ch2_dbg_ctdreq_xor;
+		uint32_t ch2_dbg_tcr_xor;
 		uint32_t RSVDxor_9[14];
-		uint32_t xor_ch3_dbg_ctdreq;
-		uint32_t xor_ch3_dbg_tcr;
+		uint32_t ch3_dbg_ctdreq_xor;
+		uint32_t ch3_dbg_tcr_xor;
 		uint32_t RSVDxor_10[14];
-		uint32_t xor_ch4_dbg_ctdreq;
-		uint32_t xor_ch4_dbg_tcr;
+		uint32_t ch4_dbg_ctdreq_xor;
+		uint32_t ch4_dbg_tcr_xor;
 		uint32_t RSVDxor_11[14];
-		uint32_t xor_ch5_dbg_ctdreq;
-		uint32_t xor_ch5_dbg_tcr;
+		uint32_t ch5_dbg_ctdreq_xor;
+		uint32_t ch5_dbg_tcr_xor;
 		uint32_t RSVDxor_12[14];
-		uint32_t xor_ch6_dbg_ctdreq;
-		uint32_t xor_ch6_dbg_tcr;
+		uint32_t ch6_dbg_ctdreq_xor;
+		uint32_t ch6_dbg_tcr_xor;
 		uint32_t RSVDxor_13[14];
-		uint32_t xor_ch7_dbg_ctdreq;
-		uint32_t xor_ch7_dbg_tcr;
+		uint32_t ch7_dbg_ctdreq_xor;
+		uint32_t ch7_dbg_tcr_xor;
 		uint32_t RSVDxor_14[14];
-		uint32_t xor_ch8_dbg_ctdreq;
-		uint32_t xor_ch8_dbg_tcr;
+		uint32_t ch8_dbg_ctdreq_xor;
+		uint32_t ch8_dbg_tcr_xor;
 		uint32_t RSVDxor_15[14];
-		uint32_t xor_ch9_dbg_ctdreq;
-		uint32_t xor_ch9_dbg_tcr;
+		uint32_t ch9_dbg_ctdreq_xor;
+		uint32_t ch9_dbg_tcr_xor;
 		uint32_t RSVDxor_16[14];
-		uint32_t xor_ch10_dbg_ctdreq;
-		uint32_t xor_ch10_dbg_tcr;
+		uint32_t ch10_dbg_ctdreq_xor;
+		uint32_t ch10_dbg_tcr_xor;
 		uint32_t RSVDxor_17[14];
-		uint32_t xor_ch11_dbg_ctdreq;
-		uint32_t xor_ch11_dbg_tcr;
+		uint32_t ch11_dbg_ctdreq_xor;
+		uint32_t ch11_dbg_tcr_xor;
 		uint32_t RSVDxor_18[14];
-		uint32_t xor_ch12_dbg_ctdreq;
-		uint32_t xor_ch12_dbg_tcr;
+		uint32_t ch12_dbg_ctdreq_xor;
+		uint32_t ch12_dbg_tcr_xor;
 		uint32_t RSVDxor_19[14];
-		uint32_t xor_ch13_dbg_ctdreq;
-		uint32_t xor_ch13_dbg_tcr;
+		uint32_t ch13_dbg_ctdreq_xor;
+		uint32_t ch13_dbg_tcr_xor;
 		uint32_t RSVDxor_20[14];
-		uint32_t xor_ch14_dbg_ctdreq;
-		uint32_t xor_ch14_dbg_tcr;
+		uint32_t ch14_dbg_ctdreq_xor;
+		uint32_t ch14_dbg_tcr_xor;
 		uint32_t RSVDxor_21[14];
-		uint32_t xor_ch15_dbg_ctdreq;
-		uint32_t xor_ch15_dbg_tcr;
+		uint32_t ch15_dbg_ctdreq_xor;
+		uint32_t ch15_dbg_tcr_xor;
 		uint32_t RSVDxor_22[270];
-		uint32_t set_ch0_read_addr;
-		uint32_t set_ch0_write_addr;
-		uint32_t set_ch0_trans_count;
-		uint32_t set_ch0_ctrl_trig;
-		uint32_t set_ch0_al1_ctrl;
-		uint32_t set_ch0_al1_read_addr;
-		uint32_t set_ch0_al1_write_addr;
-		uint32_t set_ch0_al1_trans_count_trig;
-		uint32_t set_ch0_al2_ctrl;
-		uint32_t set_ch0_al2_trans_count;
-		uint32_t set_ch0_al2_read_addr;
-		uint32_t set_ch0_al2_write_addr_trig;
-		uint32_t set_ch0_al3_ctrl;
-		uint32_t set_ch0_al3_write_addr;
-		uint32_t set_ch0_al3_trans_count;
-		uint32_t set_ch0_al3_read_addr_trig;
-		uint32_t set_ch1_read_addr;
-		uint32_t set_ch1_write_addr;
-		uint32_t set_ch1_trans_count;
-		uint32_t set_ch1_ctrl_trig;
-		uint32_t set_ch1_al1_ctrl;
-		uint32_t set_ch1_al1_read_addr;
-		uint32_t set_ch1_al1_write_addr;
-		uint32_t set_ch1_al1_trans_count_trig;
-		uint32_t set_ch1_al2_ctrl;
-		uint32_t set_ch1_al2_trans_count;
-		uint32_t set_ch1_al2_read_addr;
-		uint32_t set_ch1_al2_write_addr_trig;
-		uint32_t set_ch1_al3_ctrl;
-		uint32_t set_ch1_al3_write_addr;
-		uint32_t set_ch1_al3_trans_count;
-		uint32_t set_ch1_al3_read_addr_trig;
-		uint32_t set_ch2_read_addr;
-		uint32_t set_ch2_write_addr;
-		uint32_t set_ch2_trans_count;
-		uint32_t set_ch2_ctrl_trig;
-		uint32_t set_ch2_al1_ctrl;
-		uint32_t set_ch2_al1_read_addr;
-		uint32_t set_ch2_al1_write_addr;
-		uint32_t set_ch2_al1_trans_count_trig;
-		uint32_t set_ch2_al2_ctrl;
-		uint32_t set_ch2_al2_trans_count;
-		uint32_t set_ch2_al2_read_addr;
-		uint32_t set_ch2_al2_write_addr_trig;
-		uint32_t set_ch2_al3_ctrl;
-		uint32_t set_ch2_al3_write_addr;
-		uint32_t set_ch2_al3_trans_count;
-		uint32_t set_ch2_al3_read_addr_trig;
-		uint32_t set_ch3_read_addr;
-		uint32_t set_ch3_write_addr;
-		uint32_t set_ch3_trans_count;
-		uint32_t set_ch3_ctrl_trig;
-		uint32_t set_ch3_al1_ctrl;
-		uint32_t set_ch3_al1_read_addr;
-		uint32_t set_ch3_al1_write_addr;
-		uint32_t set_ch3_al1_trans_count_trig;
-		uint32_t set_ch3_al2_ctrl;
-		uint32_t set_ch3_al2_trans_count;
-		uint32_t set_ch3_al2_read_addr;
-		uint32_t set_ch3_al2_write_addr_trig;
-		uint32_t set_ch3_al3_ctrl;
-		uint32_t set_ch3_al3_write_addr;
-		uint32_t set_ch3_al3_trans_count;
-		uint32_t set_ch3_al3_read_addr_trig;
-		uint32_t set_ch4_read_addr;
-		uint32_t set_ch4_write_addr;
-		uint32_t set_ch4_trans_count;
-		uint32_t set_ch4_ctrl_trig;
-		uint32_t set_ch4_al1_ctrl;
-		uint32_t set_ch4_al1_read_addr;
-		uint32_t set_ch4_al1_write_addr;
-		uint32_t set_ch4_al1_trans_count_trig;
-		uint32_t set_ch4_al2_ctrl;
-		uint32_t set_ch4_al2_trans_count;
-		uint32_t set_ch4_al2_read_addr;
-		uint32_t set_ch4_al2_write_addr_trig;
-		uint32_t set_ch4_al3_ctrl;
-		uint32_t set_ch4_al3_write_addr;
-		uint32_t set_ch4_al3_trans_count;
-		uint32_t set_ch4_al3_read_addr_trig;
-		uint32_t set_ch5_read_addr;
-		uint32_t set_ch5_write_addr;
-		uint32_t set_ch5_trans_count;
-		uint32_t set_ch5_ctrl_trig;
-		uint32_t set_ch5_al1_ctrl;
-		uint32_t set_ch5_al1_read_addr;
-		uint32_t set_ch5_al1_write_addr;
-		uint32_t set_ch5_al1_trans_count_trig;
-		uint32_t set_ch5_al2_ctrl;
-		uint32_t set_ch5_al2_trans_count;
-		uint32_t set_ch5_al2_read_addr;
-		uint32_t set_ch5_al2_write_addr_trig;
-		uint32_t set_ch5_al3_ctrl;
-		uint32_t set_ch5_al3_write_addr;
-		uint32_t set_ch5_al3_trans_count;
-		uint32_t set_ch5_al3_read_addr_trig;
-		uint32_t set_ch6_read_addr;
-		uint32_t set_ch6_write_addr;
-		uint32_t set_ch6_trans_count;
-		uint32_t set_ch6_ctrl_trig;
-		uint32_t set_ch6_al1_ctrl;
-		uint32_t set_ch6_al1_read_addr;
-		uint32_t set_ch6_al1_write_addr;
-		uint32_t set_ch6_al1_trans_count_trig;
-		uint32_t set_ch6_al2_ctrl;
-		uint32_t set_ch6_al2_trans_count;
-		uint32_t set_ch6_al2_read_addr;
-		uint32_t set_ch6_al2_write_addr_trig;
-		uint32_t set_ch6_al3_ctrl;
-		uint32_t set_ch6_al3_write_addr;
-		uint32_t set_ch6_al3_trans_count;
-		uint32_t set_ch6_al3_read_addr_trig;
-		uint32_t set_ch7_read_addr;
-		uint32_t set_ch7_write_addr;
-		uint32_t set_ch7_trans_count;
-		uint32_t set_ch7_ctrl_trig;
-		uint32_t set_ch7_al1_ctrl;
-		uint32_t set_ch7_al1_read_addr;
-		uint32_t set_ch7_al1_write_addr;
-		uint32_t set_ch7_al1_trans_count_trig;
-		uint32_t set_ch7_al2_ctrl;
-		uint32_t set_ch7_al2_trans_count;
-		uint32_t set_ch7_al2_read_addr;
-		uint32_t set_ch7_al2_write_addr_trig;
-		uint32_t set_ch7_al3_ctrl;
-		uint32_t set_ch7_al3_write_addr;
-		uint32_t set_ch7_al3_trans_count;
-		uint32_t set_ch7_al3_read_addr_trig;
-		uint32_t set_ch8_read_addr;
-		uint32_t set_ch8_write_addr;
-		uint32_t set_ch8_trans_count;
-		uint32_t set_ch8_ctrl_trig;
-		uint32_t set_ch8_al1_ctrl;
-		uint32_t set_ch8_al1_read_addr;
-		uint32_t set_ch8_al1_write_addr;
-		uint32_t set_ch8_al1_trans_count_trig;
-		uint32_t set_ch8_al2_ctrl;
-		uint32_t set_ch8_al2_trans_count;
-		uint32_t set_ch8_al2_read_addr;
-		uint32_t set_ch8_al2_write_addr_trig;
-		uint32_t set_ch8_al3_ctrl;
-		uint32_t set_ch8_al3_write_addr;
-		uint32_t set_ch8_al3_trans_count;
-		uint32_t set_ch8_al3_read_addr_trig;
-		uint32_t set_ch9_read_addr;
-		uint32_t set_ch9_write_addr;
-		uint32_t set_ch9_trans_count;
-		uint32_t set_ch9_ctrl_trig;
-		uint32_t set_ch9_al1_ctrl;
-		uint32_t set_ch9_al1_read_addr;
-		uint32_t set_ch9_al1_write_addr;
-		uint32_t set_ch9_al1_trans_count_trig;
-		uint32_t set_ch9_al2_ctrl;
-		uint32_t set_ch9_al2_trans_count;
-		uint32_t set_ch9_al2_read_addr;
-		uint32_t set_ch9_al2_write_addr_trig;
-		uint32_t set_ch9_al3_ctrl;
-		uint32_t set_ch9_al3_write_addr;
-		uint32_t set_ch9_al3_trans_count;
-		uint32_t set_ch9_al3_read_addr_trig;
-		uint32_t set_ch10_read_addr;
-		uint32_t set_ch10_write_addr;
-		uint32_t set_ch10_trans_count;
-		uint32_t set_ch10_ctrl_trig;
-		uint32_t set_ch10_al1_ctrl;
-		uint32_t set_ch10_al1_read_addr;
-		uint32_t set_ch10_al1_write_addr;
-		uint32_t set_ch10_al1_trans_count_trig;
-		uint32_t set_ch10_al2_ctrl;
-		uint32_t set_ch10_al2_trans_count;
-		uint32_t set_ch10_al2_read_addr;
-		uint32_t set_ch10_al2_write_addr_trig;
-		uint32_t set_ch10_al3_ctrl;
-		uint32_t set_ch10_al3_write_addr;
-		uint32_t set_ch10_al3_trans_count;
-		uint32_t set_ch10_al3_read_addr_trig;
-		uint32_t set_ch11_read_addr;
-		uint32_t set_ch11_write_addr;
-		uint32_t set_ch11_trans_count;
-		uint32_t set_ch11_ctrl_trig;
-		uint32_t set_ch11_al1_ctrl;
-		uint32_t set_ch11_al1_read_addr;
-		uint32_t set_ch11_al1_write_addr;
-		uint32_t set_ch11_al1_trans_count_trig;
-		uint32_t set_ch11_al2_ctrl;
-		uint32_t set_ch11_al2_trans_count;
-		uint32_t set_ch11_al2_read_addr;
-		uint32_t set_ch11_al2_write_addr_trig;
-		uint32_t set_ch11_al3_ctrl;
-		uint32_t set_ch11_al3_write_addr;
-		uint32_t set_ch11_al3_trans_count;
-		uint32_t set_ch11_al3_read_addr_trig;
-		uint32_t set_ch12_read_addr;
-		uint32_t set_ch12_write_addr;
-		uint32_t set_ch12_trans_count;
-		uint32_t set_ch12_ctrl_trig;
-		uint32_t set_ch12_al1_ctrl;
-		uint32_t set_ch12_al1_read_addr;
-		uint32_t set_ch12_al1_write_addr;
-		uint32_t set_ch12_al1_trans_count_trig;
-		uint32_t set_ch12_al2_ctrl;
-		uint32_t set_ch12_al2_trans_count;
-		uint32_t set_ch12_al2_read_addr;
-		uint32_t set_ch12_al2_write_addr_trig;
-		uint32_t set_ch12_al3_ctrl;
-		uint32_t set_ch12_al3_write_addr;
-		uint32_t set_ch12_al3_trans_count;
-		uint32_t set_ch12_al3_read_addr_trig;
-		uint32_t set_ch13_read_addr;
-		uint32_t set_ch13_write_addr;
-		uint32_t set_ch13_trans_count;
-		uint32_t set_ch13_ctrl_trig;
-		uint32_t set_ch13_al1_ctrl;
-		uint32_t set_ch13_al1_read_addr;
-		uint32_t set_ch13_al1_write_addr;
-		uint32_t set_ch13_al1_trans_count_trig;
-		uint32_t set_ch13_al2_ctrl;
-		uint32_t set_ch13_al2_trans_count;
-		uint32_t set_ch13_al2_read_addr;
-		uint32_t set_ch13_al2_write_addr_trig;
-		uint32_t set_ch13_al3_ctrl;
-		uint32_t set_ch13_al3_write_addr;
-		uint32_t set_ch13_al3_trans_count;
-		uint32_t set_ch13_al3_read_addr_trig;
-		uint32_t set_ch14_read_addr;
-		uint32_t set_ch14_write_addr;
-		uint32_t set_ch14_trans_count;
-		uint32_t set_ch14_ctrl_trig;
-		uint32_t set_ch14_al1_ctrl;
-		uint32_t set_ch14_al1_read_addr;
-		uint32_t set_ch14_al1_write_addr;
-		uint32_t set_ch14_al1_trans_count_trig;
-		uint32_t set_ch14_al2_ctrl;
-		uint32_t set_ch14_al2_trans_count;
-		uint32_t set_ch14_al2_read_addr;
-		uint32_t set_ch14_al2_write_addr_trig;
-		uint32_t set_ch14_al3_ctrl;
-		uint32_t set_ch14_al3_write_addr;
-		uint32_t set_ch14_al3_trans_count;
-		uint32_t set_ch14_al3_read_addr_trig;
-		uint32_t set_ch15_read_addr;
-		uint32_t set_ch15_write_addr;
-		uint32_t set_ch15_trans_count;
-		uint32_t set_ch15_ctrl_trig;
-		uint32_t set_ch15_al1_ctrl;
-		uint32_t set_ch15_al1_read_addr;
-		uint32_t set_ch15_al1_write_addr;
-		uint32_t set_ch15_al1_trans_count_trig;
-		uint32_t set_ch15_al2_ctrl;
-		uint32_t set_ch15_al2_trans_count;
-		uint32_t set_ch15_al2_read_addr;
-		uint32_t set_ch15_al2_write_addr_trig;
-		uint32_t set_ch15_al3_ctrl;
-		uint32_t set_ch15_al3_write_addr;
-		uint32_t set_ch15_al3_trans_count;
-		uint32_t set_ch15_al3_read_addr_trig;
-		uint32_t set_intr;
-		uint32_t set_inte0;
-		uint32_t set_intf0;
-		uint32_t set_ints0;
+		uint32_t ch0_read_addr_set;
+		uint32_t ch0_write_addr_set;
+		uint32_t ch0_trans_count_set;
+		uint32_t ch0_ctrl_trig_set;
+		uint32_t ch0_al1_ctrl_set;
+		uint32_t ch0_al1_read_addr_set;
+		uint32_t ch0_al1_write_addr_set;
+		uint32_t ch0_al1_trans_count_trig_set;
+		uint32_t ch0_al2_ctrl_set;
+		uint32_t ch0_al2_trans_count_set;
+		uint32_t ch0_al2_read_addr_set;
+		uint32_t ch0_al2_write_addr_trig_set;
+		uint32_t ch0_al3_ctrl_set;
+		uint32_t ch0_al3_write_addr_set;
+		uint32_t ch0_al3_trans_count_set;
+		uint32_t ch0_al3_read_addr_trig_set;
+		uint32_t ch1_read_addr_set;
+		uint32_t ch1_write_addr_set;
+		uint32_t ch1_trans_count_set;
+		uint32_t ch1_ctrl_trig_set;
+		uint32_t ch1_al1_ctrl_set;
+		uint32_t ch1_al1_read_addr_set;
+		uint32_t ch1_al1_write_addr_set;
+		uint32_t ch1_al1_trans_count_trig_set;
+		uint32_t ch1_al2_ctrl_set;
+		uint32_t ch1_al2_trans_count_set;
+		uint32_t ch1_al2_read_addr_set;
+		uint32_t ch1_al2_write_addr_trig_set;
+		uint32_t ch1_al3_ctrl_set;
+		uint32_t ch1_al3_write_addr_set;
+		uint32_t ch1_al3_trans_count_set;
+		uint32_t ch1_al3_read_addr_trig_set;
+		uint32_t ch2_read_addr_set;
+		uint32_t ch2_write_addr_set;
+		uint32_t ch2_trans_count_set;
+		uint32_t ch2_ctrl_trig_set;
+		uint32_t ch2_al1_ctrl_set;
+		uint32_t ch2_al1_read_addr_set;
+		uint32_t ch2_al1_write_addr_set;
+		uint32_t ch2_al1_trans_count_trig_set;
+		uint32_t ch2_al2_ctrl_set;
+		uint32_t ch2_al2_trans_count_set;
+		uint32_t ch2_al2_read_addr_set;
+		uint32_t ch2_al2_write_addr_trig_set;
+		uint32_t ch2_al3_ctrl_set;
+		uint32_t ch2_al3_write_addr_set;
+		uint32_t ch2_al3_trans_count_set;
+		uint32_t ch2_al3_read_addr_trig_set;
+		uint32_t ch3_read_addr_set;
+		uint32_t ch3_write_addr_set;
+		uint32_t ch3_trans_count_set;
+		uint32_t ch3_ctrl_trig_set;
+		uint32_t ch3_al1_ctrl_set;
+		uint32_t ch3_al1_read_addr_set;
+		uint32_t ch3_al1_write_addr_set;
+		uint32_t ch3_al1_trans_count_trig_set;
+		uint32_t ch3_al2_ctrl_set;
+		uint32_t ch3_al2_trans_count_set;
+		uint32_t ch3_al2_read_addr_set;
+		uint32_t ch3_al2_write_addr_trig_set;
+		uint32_t ch3_al3_ctrl_set;
+		uint32_t ch3_al3_write_addr_set;
+		uint32_t ch3_al3_trans_count_set;
+		uint32_t ch3_al3_read_addr_trig_set;
+		uint32_t ch4_read_addr_set;
+		uint32_t ch4_write_addr_set;
+		uint32_t ch4_trans_count_set;
+		uint32_t ch4_ctrl_trig_set;
+		uint32_t ch4_al1_ctrl_set;
+		uint32_t ch4_al1_read_addr_set;
+		uint32_t ch4_al1_write_addr_set;
+		uint32_t ch4_al1_trans_count_trig_set;
+		uint32_t ch4_al2_ctrl_set;
+		uint32_t ch4_al2_trans_count_set;
+		uint32_t ch4_al2_read_addr_set;
+		uint32_t ch4_al2_write_addr_trig_set;
+		uint32_t ch4_al3_ctrl_set;
+		uint32_t ch4_al3_write_addr_set;
+		uint32_t ch4_al3_trans_count_set;
+		uint32_t ch4_al3_read_addr_trig_set;
+		uint32_t ch5_read_addr_set;
+		uint32_t ch5_write_addr_set;
+		uint32_t ch5_trans_count_set;
+		uint32_t ch5_ctrl_trig_set;
+		uint32_t ch5_al1_ctrl_set;
+		uint32_t ch5_al1_read_addr_set;
+		uint32_t ch5_al1_write_addr_set;
+		uint32_t ch5_al1_trans_count_trig_set;
+		uint32_t ch5_al2_ctrl_set;
+		uint32_t ch5_al2_trans_count_set;
+		uint32_t ch5_al2_read_addr_set;
+		uint32_t ch5_al2_write_addr_trig_set;
+		uint32_t ch5_al3_ctrl_set;
+		uint32_t ch5_al3_write_addr_set;
+		uint32_t ch5_al3_trans_count_set;
+		uint32_t ch5_al3_read_addr_trig_set;
+		uint32_t ch6_read_addr_set;
+		uint32_t ch6_write_addr_set;
+		uint32_t ch6_trans_count_set;
+		uint32_t ch6_ctrl_trig_set;
+		uint32_t ch6_al1_ctrl_set;
+		uint32_t ch6_al1_read_addr_set;
+		uint32_t ch6_al1_write_addr_set;
+		uint32_t ch6_al1_trans_count_trig_set;
+		uint32_t ch6_al2_ctrl_set;
+		uint32_t ch6_al2_trans_count_set;
+		uint32_t ch6_al2_read_addr_set;
+		uint32_t ch6_al2_write_addr_trig_set;
+		uint32_t ch6_al3_ctrl_set;
+		uint32_t ch6_al3_write_addr_set;
+		uint32_t ch6_al3_trans_count_set;
+		uint32_t ch6_al3_read_addr_trig_set;
+		uint32_t ch7_read_addr_set;
+		uint32_t ch7_write_addr_set;
+		uint32_t ch7_trans_count_set;
+		uint32_t ch7_ctrl_trig_set;
+		uint32_t ch7_al1_ctrl_set;
+		uint32_t ch7_al1_read_addr_set;
+		uint32_t ch7_al1_write_addr_set;
+		uint32_t ch7_al1_trans_count_trig_set;
+		uint32_t ch7_al2_ctrl_set;
+		uint32_t ch7_al2_trans_count_set;
+		uint32_t ch7_al2_read_addr_set;
+		uint32_t ch7_al2_write_addr_trig_set;
+		uint32_t ch7_al3_ctrl_set;
+		uint32_t ch7_al3_write_addr_set;
+		uint32_t ch7_al3_trans_count_set;
+		uint32_t ch7_al3_read_addr_trig_set;
+		uint32_t ch8_read_addr_set;
+		uint32_t ch8_write_addr_set;
+		uint32_t ch8_trans_count_set;
+		uint32_t ch8_ctrl_trig_set;
+		uint32_t ch8_al1_ctrl_set;
+		uint32_t ch8_al1_read_addr_set;
+		uint32_t ch8_al1_write_addr_set;
+		uint32_t ch8_al1_trans_count_trig_set;
+		uint32_t ch8_al2_ctrl_set;
+		uint32_t ch8_al2_trans_count_set;
+		uint32_t ch8_al2_read_addr_set;
+		uint32_t ch8_al2_write_addr_trig_set;
+		uint32_t ch8_al3_ctrl_set;
+		uint32_t ch8_al3_write_addr_set;
+		uint32_t ch8_al3_trans_count_set;
+		uint32_t ch8_al3_read_addr_trig_set;
+		uint32_t ch9_read_addr_set;
+		uint32_t ch9_write_addr_set;
+		uint32_t ch9_trans_count_set;
+		uint32_t ch9_ctrl_trig_set;
+		uint32_t ch9_al1_ctrl_set;
+		uint32_t ch9_al1_read_addr_set;
+		uint32_t ch9_al1_write_addr_set;
+		uint32_t ch9_al1_trans_count_trig_set;
+		uint32_t ch9_al2_ctrl_set;
+		uint32_t ch9_al2_trans_count_set;
+		uint32_t ch9_al2_read_addr_set;
+		uint32_t ch9_al2_write_addr_trig_set;
+		uint32_t ch9_al3_ctrl_set;
+		uint32_t ch9_al3_write_addr_set;
+		uint32_t ch9_al3_trans_count_set;
+		uint32_t ch9_al3_read_addr_trig_set;
+		uint32_t ch10_read_addr_set;
+		uint32_t ch10_write_addr_set;
+		uint32_t ch10_trans_count_set;
+		uint32_t ch10_ctrl_trig_set;
+		uint32_t ch10_al1_ctrl_set;
+		uint32_t ch10_al1_read_addr_set;
+		uint32_t ch10_al1_write_addr_set;
+		uint32_t ch10_al1_trans_count_trig_set;
+		uint32_t ch10_al2_ctrl_set;
+		uint32_t ch10_al2_trans_count_set;
+		uint32_t ch10_al2_read_addr_set;
+		uint32_t ch10_al2_write_addr_trig_set;
+		uint32_t ch10_al3_ctrl_set;
+		uint32_t ch10_al3_write_addr_set;
+		uint32_t ch10_al3_trans_count_set;
+		uint32_t ch10_al3_read_addr_trig_set;
+		uint32_t ch11_read_addr_set;
+		uint32_t ch11_write_addr_set;
+		uint32_t ch11_trans_count_set;
+		uint32_t ch11_ctrl_trig_set;
+		uint32_t ch11_al1_ctrl_set;
+		uint32_t ch11_al1_read_addr_set;
+		uint32_t ch11_al1_write_addr_set;
+		uint32_t ch11_al1_trans_count_trig_set;
+		uint32_t ch11_al2_ctrl_set;
+		uint32_t ch11_al2_trans_count_set;
+		uint32_t ch11_al2_read_addr_set;
+		uint32_t ch11_al2_write_addr_trig_set;
+		uint32_t ch11_al3_ctrl_set;
+		uint32_t ch11_al3_write_addr_set;
+		uint32_t ch11_al3_trans_count_set;
+		uint32_t ch11_al3_read_addr_trig_set;
+		uint32_t ch12_read_addr_set;
+		uint32_t ch12_write_addr_set;
+		uint32_t ch12_trans_count_set;
+		uint32_t ch12_ctrl_trig_set;
+		uint32_t ch12_al1_ctrl_set;
+		uint32_t ch12_al1_read_addr_set;
+		uint32_t ch12_al1_write_addr_set;
+		uint32_t ch12_al1_trans_count_trig_set;
+		uint32_t ch12_al2_ctrl_set;
+		uint32_t ch12_al2_trans_count_set;
+		uint32_t ch12_al2_read_addr_set;
+		uint32_t ch12_al2_write_addr_trig_set;
+		uint32_t ch12_al3_ctrl_set;
+		uint32_t ch12_al3_write_addr_set;
+		uint32_t ch12_al3_trans_count_set;
+		uint32_t ch12_al3_read_addr_trig_set;
+		uint32_t ch13_read_addr_set;
+		uint32_t ch13_write_addr_set;
+		uint32_t ch13_trans_count_set;
+		uint32_t ch13_ctrl_trig_set;
+		uint32_t ch13_al1_ctrl_set;
+		uint32_t ch13_al1_read_addr_set;
+		uint32_t ch13_al1_write_addr_set;
+		uint32_t ch13_al1_trans_count_trig_set;
+		uint32_t ch13_al2_ctrl_set;
+		uint32_t ch13_al2_trans_count_set;
+		uint32_t ch13_al2_read_addr_set;
+		uint32_t ch13_al2_write_addr_trig_set;
+		uint32_t ch13_al3_ctrl_set;
+		uint32_t ch13_al3_write_addr_set;
+		uint32_t ch13_al3_trans_count_set;
+		uint32_t ch13_al3_read_addr_trig_set;
+		uint32_t ch14_read_addr_set;
+		uint32_t ch14_write_addr_set;
+		uint32_t ch14_trans_count_set;
+		uint32_t ch14_ctrl_trig_set;
+		uint32_t ch14_al1_ctrl_set;
+		uint32_t ch14_al1_read_addr_set;
+		uint32_t ch14_al1_write_addr_set;
+		uint32_t ch14_al1_trans_count_trig_set;
+		uint32_t ch14_al2_ctrl_set;
+		uint32_t ch14_al2_trans_count_set;
+		uint32_t ch14_al2_read_addr_set;
+		uint32_t ch14_al2_write_addr_trig_set;
+		uint32_t ch14_al3_ctrl_set;
+		uint32_t ch14_al3_write_addr_set;
+		uint32_t ch14_al3_trans_count_set;
+		uint32_t ch14_al3_read_addr_trig_set;
+		uint32_t ch15_read_addr_set;
+		uint32_t ch15_write_addr_set;
+		uint32_t ch15_trans_count_set;
+		uint32_t ch15_ctrl_trig_set;
+		uint32_t ch15_al1_ctrl_set;
+		uint32_t ch15_al1_read_addr_set;
+		uint32_t ch15_al1_write_addr_set;
+		uint32_t ch15_al1_trans_count_trig_set;
+		uint32_t ch15_al2_ctrl_set;
+		uint32_t ch15_al2_trans_count_set;
+		uint32_t ch15_al2_read_addr_set;
+		uint32_t ch15_al2_write_addr_trig_set;
+		uint32_t ch15_al3_ctrl_set;
+		uint32_t ch15_al3_write_addr_set;
+		uint32_t ch15_al3_trans_count_set;
+		uint32_t ch15_al3_read_addr_trig_set;
+		uint32_t intr_set;
+		uint32_t inte0_set;
+		uint32_t intf0_set;
+		uint32_t ints0_set;
 		uint32_t RSVDset_0;
-		uint32_t set_inte1;
-		uint32_t set_intf1;
-		uint32_t set_ints1;
+		uint32_t inte1_set;
+		uint32_t intf1_set;
+		uint32_t ints1_set;
 		uint32_t RSVDset_1;
-		uint32_t set_inte2;
-		uint32_t set_intf2;
-		uint32_t set_ints2;
+		uint32_t inte2_set;
+		uint32_t intf2_set;
+		uint32_t ints2_set;
 		uint32_t RSVDset_2;
-		uint32_t set_inte3;
-		uint32_t set_intf3;
-		uint32_t set_ints3;
-		uint32_t set_timer0;
-		uint32_t set_timer1;
-		uint32_t set_timer2;
-		uint32_t set_timer3;
-		uint32_t set_multi_chan_trigger;
-		uint32_t set_sniff_ctrl;
-		uint32_t set_sniff_data;
+		uint32_t inte3_set;
+		uint32_t intf3_set;
+		uint32_t ints3_set;
+		uint32_t timer0_set;
+		uint32_t timer1_set;
+		uint32_t timer2_set;
+		uint32_t timer3_set;
+		uint32_t multi_chan_trigger_set;
+		uint32_t sniff_ctrl_set;
+		uint32_t sniff_data_set;
 		uint32_t RSVDset_3;
-		uint32_t set_fifo_levels;
-		uint32_t set_chan_abort;
-		uint32_t set_n_channels;
+		uint32_t fifo_levels_set;
+		uint32_t chan_abort_set;
+		uint32_t n_channels_set;
 		uint32_t RSVDset_4[5];
-		uint32_t set_seccfg_ch0;
-		uint32_t set_seccfg_ch1;
-		uint32_t set_seccfg_ch2;
-		uint32_t set_seccfg_ch3;
-		uint32_t set_seccfg_ch4;
-		uint32_t set_seccfg_ch5;
-		uint32_t set_seccfg_ch6;
-		uint32_t set_seccfg_ch7;
-		uint32_t set_seccfg_ch8;
-		uint32_t set_seccfg_ch9;
-		uint32_t set_seccfg_ch10;
-		uint32_t set_seccfg_ch11;
-		uint32_t set_seccfg_ch12;
-		uint32_t set_seccfg_ch13;
-		uint32_t set_seccfg_ch14;
-		uint32_t set_seccfg_ch15;
-		uint32_t set_seccfg_irq0;
-		uint32_t set_seccfg_irq1;
-		uint32_t set_seccfg_irq2;
-		uint32_t set_seccfg_irq3;
-		uint32_t set_seccfg_misc;
+		uint32_t seccfg_ch0_set;
+		uint32_t seccfg_ch1_set;
+		uint32_t seccfg_ch2_set;
+		uint32_t seccfg_ch3_set;
+		uint32_t seccfg_ch4_set;
+		uint32_t seccfg_ch5_set;
+		uint32_t seccfg_ch6_set;
+		uint32_t seccfg_ch7_set;
+		uint32_t seccfg_ch8_set;
+		uint32_t seccfg_ch9_set;
+		uint32_t seccfg_ch10_set;
+		uint32_t seccfg_ch11_set;
+		uint32_t seccfg_ch12_set;
+		uint32_t seccfg_ch13_set;
+		uint32_t seccfg_ch14_set;
+		uint32_t seccfg_ch15_set;
+		uint32_t seccfg_irq0_set;
+		uint32_t seccfg_irq1_set;
+		uint32_t seccfg_irq2_set;
+		uint32_t seccfg_irq3_set;
+		uint32_t seccfg_misc_set;
 		uint32_t RSVDset_5[11];
-		uint32_t set_mpu_ctrl;
-		uint32_t set_mpu_bar0;
-		uint32_t set_mpu_lar0;
-		uint32_t set_mpu_bar1;
-		uint32_t set_mpu_lar1;
-		uint32_t set_mpu_bar2;
-		uint32_t set_mpu_lar2;
-		uint32_t set_mpu_bar3;
-		uint32_t set_mpu_lar3;
-		uint32_t set_mpu_bar4;
-		uint32_t set_mpu_lar4;
-		uint32_t set_mpu_bar5;
-		uint32_t set_mpu_lar5;
-		uint32_t set_mpu_bar6;
-		uint32_t set_mpu_lar6;
-		uint32_t set_mpu_bar7;
-		uint32_t set_mpu_lar7;
+		uint32_t mpu_ctrl_set;
+		uint32_t mpu_bar0_set;
+		uint32_t mpu_lar0_set;
+		uint32_t mpu_bar1_set;
+		uint32_t mpu_lar1_set;
+		uint32_t mpu_bar2_set;
+		uint32_t mpu_lar2_set;
+		uint32_t mpu_bar3_set;
+		uint32_t mpu_lar3_set;
+		uint32_t mpu_bar4_set;
+		uint32_t mpu_lar4_set;
+		uint32_t mpu_bar5_set;
+		uint32_t mpu_lar5_set;
+		uint32_t mpu_bar6_set;
+		uint32_t mpu_lar6_set;
+		uint32_t mpu_bar7_set;
+		uint32_t mpu_lar7_set;
 		uint32_t RSVDset_6[175];
-		uint32_t set_ch0_dbg_ctdreq;
-		uint32_t set_ch0_dbg_tcr;
+		uint32_t ch0_dbg_ctdreq_set;
+		uint32_t ch0_dbg_tcr_set;
 		uint32_t RSVDset_7[14];
-		uint32_t set_ch1_dbg_ctdreq;
-		uint32_t set_ch1_dbg_tcr;
+		uint32_t ch1_dbg_ctdreq_set;
+		uint32_t ch1_dbg_tcr_set;
 		uint32_t RSVDset_8[14];
-		uint32_t set_ch2_dbg_ctdreq;
-		uint32_t set_ch2_dbg_tcr;
+		uint32_t ch2_dbg_ctdreq_set;
+		uint32_t ch2_dbg_tcr_set;
 		uint32_t RSVDset_9[14];
-		uint32_t set_ch3_dbg_ctdreq;
-		uint32_t set_ch3_dbg_tcr;
+		uint32_t ch3_dbg_ctdreq_set;
+		uint32_t ch3_dbg_tcr_set;
 		uint32_t RSVDset_10[14];
-		uint32_t set_ch4_dbg_ctdreq;
-		uint32_t set_ch4_dbg_tcr;
+		uint32_t ch4_dbg_ctdreq_set;
+		uint32_t ch4_dbg_tcr_set;
 		uint32_t RSVDset_11[14];
-		uint32_t set_ch5_dbg_ctdreq;
-		uint32_t set_ch5_dbg_tcr;
+		uint32_t ch5_dbg_ctdreq_set;
+		uint32_t ch5_dbg_tcr_set;
 		uint32_t RSVDset_12[14];
-		uint32_t set_ch6_dbg_ctdreq;
-		uint32_t set_ch6_dbg_tcr;
+		uint32_t ch6_dbg_ctdreq_set;
+		uint32_t ch6_dbg_tcr_set;
 		uint32_t RSVDset_13[14];
-		uint32_t set_ch7_dbg_ctdreq;
-		uint32_t set_ch7_dbg_tcr;
+		uint32_t ch7_dbg_ctdreq_set;
+		uint32_t ch7_dbg_tcr_set;
 		uint32_t RSVDset_14[14];
-		uint32_t set_ch8_dbg_ctdreq;
-		uint32_t set_ch8_dbg_tcr;
+		uint32_t ch8_dbg_ctdreq_set;
+		uint32_t ch8_dbg_tcr_set;
 		uint32_t RSVDset_15[14];
-		uint32_t set_ch9_dbg_ctdreq;
-		uint32_t set_ch9_dbg_tcr;
+		uint32_t ch9_dbg_ctdreq_set;
+		uint32_t ch9_dbg_tcr_set;
 		uint32_t RSVDset_16[14];
-		uint32_t set_ch10_dbg_ctdreq;
-		uint32_t set_ch10_dbg_tcr;
+		uint32_t ch10_dbg_ctdreq_set;
+		uint32_t ch10_dbg_tcr_set;
 		uint32_t RSVDset_17[14];
-		uint32_t set_ch11_dbg_ctdreq;
-		uint32_t set_ch11_dbg_tcr;
+		uint32_t ch11_dbg_ctdreq_set;
+		uint32_t ch11_dbg_tcr_set;
 		uint32_t RSVDset_18[14];
-		uint32_t set_ch12_dbg_ctdreq;
-		uint32_t set_ch12_dbg_tcr;
+		uint32_t ch12_dbg_ctdreq_set;
+		uint32_t ch12_dbg_tcr_set;
 		uint32_t RSVDset_19[14];
-		uint32_t set_ch13_dbg_ctdreq;
-		uint32_t set_ch13_dbg_tcr;
+		uint32_t ch13_dbg_ctdreq_set;
+		uint32_t ch13_dbg_tcr_set;
 		uint32_t RSVDset_20[14];
-		uint32_t set_ch14_dbg_ctdreq;
-		uint32_t set_ch14_dbg_tcr;
+		uint32_t ch14_dbg_ctdreq_set;
+		uint32_t ch14_dbg_tcr_set;
 		uint32_t RSVDset_21[14];
-		uint32_t set_ch15_dbg_ctdreq;
-		uint32_t set_ch15_dbg_tcr;
+		uint32_t ch15_dbg_ctdreq_set;
+		uint32_t ch15_dbg_tcr_set;
 		uint32_t RSVDset_22[270];
-		uint32_t clr_ch0_read_addr;
-		uint32_t clr_ch0_write_addr;
-		uint32_t clr_ch0_trans_count;
-		uint32_t clr_ch0_ctrl_trig;
-		uint32_t clr_ch0_al1_ctrl;
-		uint32_t clr_ch0_al1_read_addr;
-		uint32_t clr_ch0_al1_write_addr;
-		uint32_t clr_ch0_al1_trans_count_trig;
-		uint32_t clr_ch0_al2_ctrl;
-		uint32_t clr_ch0_al2_trans_count;
-		uint32_t clr_ch0_al2_read_addr;
-		uint32_t clr_ch0_al2_write_addr_trig;
-		uint32_t clr_ch0_al3_ctrl;
-		uint32_t clr_ch0_al3_write_addr;
-		uint32_t clr_ch0_al3_trans_count;
-		uint32_t clr_ch0_al3_read_addr_trig;
-		uint32_t clr_ch1_read_addr;
-		uint32_t clr_ch1_write_addr;
-		uint32_t clr_ch1_trans_count;
-		uint32_t clr_ch1_ctrl_trig;
-		uint32_t clr_ch1_al1_ctrl;
-		uint32_t clr_ch1_al1_read_addr;
-		uint32_t clr_ch1_al1_write_addr;
-		uint32_t clr_ch1_al1_trans_count_trig;
-		uint32_t clr_ch1_al2_ctrl;
-		uint32_t clr_ch1_al2_trans_count;
-		uint32_t clr_ch1_al2_read_addr;
-		uint32_t clr_ch1_al2_write_addr_trig;
-		uint32_t clr_ch1_al3_ctrl;
-		uint32_t clr_ch1_al3_write_addr;
-		uint32_t clr_ch1_al3_trans_count;
-		uint32_t clr_ch1_al3_read_addr_trig;
-		uint32_t clr_ch2_read_addr;
-		uint32_t clr_ch2_write_addr;
-		uint32_t clr_ch2_trans_count;
-		uint32_t clr_ch2_ctrl_trig;
-		uint32_t clr_ch2_al1_ctrl;
-		uint32_t clr_ch2_al1_read_addr;
-		uint32_t clr_ch2_al1_write_addr;
-		uint32_t clr_ch2_al1_trans_count_trig;
-		uint32_t clr_ch2_al2_ctrl;
-		uint32_t clr_ch2_al2_trans_count;
-		uint32_t clr_ch2_al2_read_addr;
-		uint32_t clr_ch2_al2_write_addr_trig;
-		uint32_t clr_ch2_al3_ctrl;
-		uint32_t clr_ch2_al3_write_addr;
-		uint32_t clr_ch2_al3_trans_count;
-		uint32_t clr_ch2_al3_read_addr_trig;
-		uint32_t clr_ch3_read_addr;
-		uint32_t clr_ch3_write_addr;
-		uint32_t clr_ch3_trans_count;
-		uint32_t clr_ch3_ctrl_trig;
-		uint32_t clr_ch3_al1_ctrl;
-		uint32_t clr_ch3_al1_read_addr;
-		uint32_t clr_ch3_al1_write_addr;
-		uint32_t clr_ch3_al1_trans_count_trig;
-		uint32_t clr_ch3_al2_ctrl;
-		uint32_t clr_ch3_al2_trans_count;
-		uint32_t clr_ch3_al2_read_addr;
-		uint32_t clr_ch3_al2_write_addr_trig;
-		uint32_t clr_ch3_al3_ctrl;
-		uint32_t clr_ch3_al3_write_addr;
-		uint32_t clr_ch3_al3_trans_count;
-		uint32_t clr_ch3_al3_read_addr_trig;
-		uint32_t clr_ch4_read_addr;
-		uint32_t clr_ch4_write_addr;
-		uint32_t clr_ch4_trans_count;
-		uint32_t clr_ch4_ctrl_trig;
-		uint32_t clr_ch4_al1_ctrl;
-		uint32_t clr_ch4_al1_read_addr;
-		uint32_t clr_ch4_al1_write_addr;
-		uint32_t clr_ch4_al1_trans_count_trig;
-		uint32_t clr_ch4_al2_ctrl;
-		uint32_t clr_ch4_al2_trans_count;
-		uint32_t clr_ch4_al2_read_addr;
-		uint32_t clr_ch4_al2_write_addr_trig;
-		uint32_t clr_ch4_al3_ctrl;
-		uint32_t clr_ch4_al3_write_addr;
-		uint32_t clr_ch4_al3_trans_count;
-		uint32_t clr_ch4_al3_read_addr_trig;
-		uint32_t clr_ch5_read_addr;
-		uint32_t clr_ch5_write_addr;
-		uint32_t clr_ch5_trans_count;
-		uint32_t clr_ch5_ctrl_trig;
-		uint32_t clr_ch5_al1_ctrl;
-		uint32_t clr_ch5_al1_read_addr;
-		uint32_t clr_ch5_al1_write_addr;
-		uint32_t clr_ch5_al1_trans_count_trig;
-		uint32_t clr_ch5_al2_ctrl;
-		uint32_t clr_ch5_al2_trans_count;
-		uint32_t clr_ch5_al2_read_addr;
-		uint32_t clr_ch5_al2_write_addr_trig;
-		uint32_t clr_ch5_al3_ctrl;
-		uint32_t clr_ch5_al3_write_addr;
-		uint32_t clr_ch5_al3_trans_count;
-		uint32_t clr_ch5_al3_read_addr_trig;
-		uint32_t clr_ch6_read_addr;
-		uint32_t clr_ch6_write_addr;
-		uint32_t clr_ch6_trans_count;
-		uint32_t clr_ch6_ctrl_trig;
-		uint32_t clr_ch6_al1_ctrl;
-		uint32_t clr_ch6_al1_read_addr;
-		uint32_t clr_ch6_al1_write_addr;
-		uint32_t clr_ch6_al1_trans_count_trig;
-		uint32_t clr_ch6_al2_ctrl;
-		uint32_t clr_ch6_al2_trans_count;
-		uint32_t clr_ch6_al2_read_addr;
-		uint32_t clr_ch6_al2_write_addr_trig;
-		uint32_t clr_ch6_al3_ctrl;
-		uint32_t clr_ch6_al3_write_addr;
-		uint32_t clr_ch6_al3_trans_count;
-		uint32_t clr_ch6_al3_read_addr_trig;
-		uint32_t clr_ch7_read_addr;
-		uint32_t clr_ch7_write_addr;
-		uint32_t clr_ch7_trans_count;
-		uint32_t clr_ch7_ctrl_trig;
-		uint32_t clr_ch7_al1_ctrl;
-		uint32_t clr_ch7_al1_read_addr;
-		uint32_t clr_ch7_al1_write_addr;
-		uint32_t clr_ch7_al1_trans_count_trig;
-		uint32_t clr_ch7_al2_ctrl;
-		uint32_t clr_ch7_al2_trans_count;
-		uint32_t clr_ch7_al2_read_addr;
-		uint32_t clr_ch7_al2_write_addr_trig;
-		uint32_t clr_ch7_al3_ctrl;
-		uint32_t clr_ch7_al3_write_addr;
-		uint32_t clr_ch7_al3_trans_count;
-		uint32_t clr_ch7_al3_read_addr_trig;
-		uint32_t clr_ch8_read_addr;
-		uint32_t clr_ch8_write_addr;
-		uint32_t clr_ch8_trans_count;
-		uint32_t clr_ch8_ctrl_trig;
-		uint32_t clr_ch8_al1_ctrl;
-		uint32_t clr_ch8_al1_read_addr;
-		uint32_t clr_ch8_al1_write_addr;
-		uint32_t clr_ch8_al1_trans_count_trig;
-		uint32_t clr_ch8_al2_ctrl;
-		uint32_t clr_ch8_al2_trans_count;
-		uint32_t clr_ch8_al2_read_addr;
-		uint32_t clr_ch8_al2_write_addr_trig;
-		uint32_t clr_ch8_al3_ctrl;
-		uint32_t clr_ch8_al3_write_addr;
-		uint32_t clr_ch8_al3_trans_count;
-		uint32_t clr_ch8_al3_read_addr_trig;
-		uint32_t clr_ch9_read_addr;
-		uint32_t clr_ch9_write_addr;
-		uint32_t clr_ch9_trans_count;
-		uint32_t clr_ch9_ctrl_trig;
-		uint32_t clr_ch9_al1_ctrl;
-		uint32_t clr_ch9_al1_read_addr;
-		uint32_t clr_ch9_al1_write_addr;
-		uint32_t clr_ch9_al1_trans_count_trig;
-		uint32_t clr_ch9_al2_ctrl;
-		uint32_t clr_ch9_al2_trans_count;
-		uint32_t clr_ch9_al2_read_addr;
-		uint32_t clr_ch9_al2_write_addr_trig;
-		uint32_t clr_ch9_al3_ctrl;
-		uint32_t clr_ch9_al3_write_addr;
-		uint32_t clr_ch9_al3_trans_count;
-		uint32_t clr_ch9_al3_read_addr_trig;
-		uint32_t clr_ch10_read_addr;
-		uint32_t clr_ch10_write_addr;
-		uint32_t clr_ch10_trans_count;
-		uint32_t clr_ch10_ctrl_trig;
-		uint32_t clr_ch10_al1_ctrl;
-		uint32_t clr_ch10_al1_read_addr;
-		uint32_t clr_ch10_al1_write_addr;
-		uint32_t clr_ch10_al1_trans_count_trig;
-		uint32_t clr_ch10_al2_ctrl;
-		uint32_t clr_ch10_al2_trans_count;
-		uint32_t clr_ch10_al2_read_addr;
-		uint32_t clr_ch10_al2_write_addr_trig;
-		uint32_t clr_ch10_al3_ctrl;
-		uint32_t clr_ch10_al3_write_addr;
-		uint32_t clr_ch10_al3_trans_count;
-		uint32_t clr_ch10_al3_read_addr_trig;
-		uint32_t clr_ch11_read_addr;
-		uint32_t clr_ch11_write_addr;
-		uint32_t clr_ch11_trans_count;
-		uint32_t clr_ch11_ctrl_trig;
-		uint32_t clr_ch11_al1_ctrl;
-		uint32_t clr_ch11_al1_read_addr;
-		uint32_t clr_ch11_al1_write_addr;
-		uint32_t clr_ch11_al1_trans_count_trig;
-		uint32_t clr_ch11_al2_ctrl;
-		uint32_t clr_ch11_al2_trans_count;
-		uint32_t clr_ch11_al2_read_addr;
-		uint32_t clr_ch11_al2_write_addr_trig;
-		uint32_t clr_ch11_al3_ctrl;
-		uint32_t clr_ch11_al3_write_addr;
-		uint32_t clr_ch11_al3_trans_count;
-		uint32_t clr_ch11_al3_read_addr_trig;
-		uint32_t clr_ch12_read_addr;
-		uint32_t clr_ch12_write_addr;
-		uint32_t clr_ch12_trans_count;
-		uint32_t clr_ch12_ctrl_trig;
-		uint32_t clr_ch12_al1_ctrl;
-		uint32_t clr_ch12_al1_read_addr;
-		uint32_t clr_ch12_al1_write_addr;
-		uint32_t clr_ch12_al1_trans_count_trig;
-		uint32_t clr_ch12_al2_ctrl;
-		uint32_t clr_ch12_al2_trans_count;
-		uint32_t clr_ch12_al2_read_addr;
-		uint32_t clr_ch12_al2_write_addr_trig;
-		uint32_t clr_ch12_al3_ctrl;
-		uint32_t clr_ch12_al3_write_addr;
-		uint32_t clr_ch12_al3_trans_count;
-		uint32_t clr_ch12_al3_read_addr_trig;
-		uint32_t clr_ch13_read_addr;
-		uint32_t clr_ch13_write_addr;
-		uint32_t clr_ch13_trans_count;
-		uint32_t clr_ch13_ctrl_trig;
-		uint32_t clr_ch13_al1_ctrl;
-		uint32_t clr_ch13_al1_read_addr;
-		uint32_t clr_ch13_al1_write_addr;
-		uint32_t clr_ch13_al1_trans_count_trig;
-		uint32_t clr_ch13_al2_ctrl;
-		uint32_t clr_ch13_al2_trans_count;
-		uint32_t clr_ch13_al2_read_addr;
-		uint32_t clr_ch13_al2_write_addr_trig;
-		uint32_t clr_ch13_al3_ctrl;
-		uint32_t clr_ch13_al3_write_addr;
-		uint32_t clr_ch13_al3_trans_count;
-		uint32_t clr_ch13_al3_read_addr_trig;
-		uint32_t clr_ch14_read_addr;
-		uint32_t clr_ch14_write_addr;
-		uint32_t clr_ch14_trans_count;
-		uint32_t clr_ch14_ctrl_trig;
-		uint32_t clr_ch14_al1_ctrl;
-		uint32_t clr_ch14_al1_read_addr;
-		uint32_t clr_ch14_al1_write_addr;
-		uint32_t clr_ch14_al1_trans_count_trig;
-		uint32_t clr_ch14_al2_ctrl;
-		uint32_t clr_ch14_al2_trans_count;
-		uint32_t clr_ch14_al2_read_addr;
-		uint32_t clr_ch14_al2_write_addr_trig;
-		uint32_t clr_ch14_al3_ctrl;
-		uint32_t clr_ch14_al3_write_addr;
-		uint32_t clr_ch14_al3_trans_count;
-		uint32_t clr_ch14_al3_read_addr_trig;
-		uint32_t clr_ch15_read_addr;
-		uint32_t clr_ch15_write_addr;
-		uint32_t clr_ch15_trans_count;
-		uint32_t clr_ch15_ctrl_trig;
-		uint32_t clr_ch15_al1_ctrl;
-		uint32_t clr_ch15_al1_read_addr;
-		uint32_t clr_ch15_al1_write_addr;
-		uint32_t clr_ch15_al1_trans_count_trig;
-		uint32_t clr_ch15_al2_ctrl;
-		uint32_t clr_ch15_al2_trans_count;
-		uint32_t clr_ch15_al2_read_addr;
-		uint32_t clr_ch15_al2_write_addr_trig;
-		uint32_t clr_ch15_al3_ctrl;
-		uint32_t clr_ch15_al3_write_addr;
-		uint32_t clr_ch15_al3_trans_count;
-		uint32_t clr_ch15_al3_read_addr_trig;
-		uint32_t clr_intr;
-		uint32_t clr_inte0;
-		uint32_t clr_intf0;
-		uint32_t clr_ints0;
+		uint32_t ch0_read_addr_clr;
+		uint32_t ch0_write_addr_clr;
+		uint32_t ch0_trans_count_clr;
+		uint32_t ch0_ctrl_trig_clr;
+		uint32_t ch0_al1_ctrl_clr;
+		uint32_t ch0_al1_read_addr_clr;
+		uint32_t ch0_al1_write_addr_clr;
+		uint32_t ch0_al1_trans_count_trig_clr;
+		uint32_t ch0_al2_ctrl_clr;
+		uint32_t ch0_al2_trans_count_clr;
+		uint32_t ch0_al2_read_addr_clr;
+		uint32_t ch0_al2_write_addr_trig_clr;
+		uint32_t ch0_al3_ctrl_clr;
+		uint32_t ch0_al3_write_addr_clr;
+		uint32_t ch0_al3_trans_count_clr;
+		uint32_t ch0_al3_read_addr_trig_clr;
+		uint32_t ch1_read_addr_clr;
+		uint32_t ch1_write_addr_clr;
+		uint32_t ch1_trans_count_clr;
+		uint32_t ch1_ctrl_trig_clr;
+		uint32_t ch1_al1_ctrl_clr;
+		uint32_t ch1_al1_read_addr_clr;
+		uint32_t ch1_al1_write_addr_clr;
+		uint32_t ch1_al1_trans_count_trig_clr;
+		uint32_t ch1_al2_ctrl_clr;
+		uint32_t ch1_al2_trans_count_clr;
+		uint32_t ch1_al2_read_addr_clr;
+		uint32_t ch1_al2_write_addr_trig_clr;
+		uint32_t ch1_al3_ctrl_clr;
+		uint32_t ch1_al3_write_addr_clr;
+		uint32_t ch1_al3_trans_count_clr;
+		uint32_t ch1_al3_read_addr_trig_clr;
+		uint32_t ch2_read_addr_clr;
+		uint32_t ch2_write_addr_clr;
+		uint32_t ch2_trans_count_clr;
+		uint32_t ch2_ctrl_trig_clr;
+		uint32_t ch2_al1_ctrl_clr;
+		uint32_t ch2_al1_read_addr_clr;
+		uint32_t ch2_al1_write_addr_clr;
+		uint32_t ch2_al1_trans_count_trig_clr;
+		uint32_t ch2_al2_ctrl_clr;
+		uint32_t ch2_al2_trans_count_clr;
+		uint32_t ch2_al2_read_addr_clr;
+		uint32_t ch2_al2_write_addr_trig_clr;
+		uint32_t ch2_al3_ctrl_clr;
+		uint32_t ch2_al3_write_addr_clr;
+		uint32_t ch2_al3_trans_count_clr;
+		uint32_t ch2_al3_read_addr_trig_clr;
+		uint32_t ch3_read_addr_clr;
+		uint32_t ch3_write_addr_clr;
+		uint32_t ch3_trans_count_clr;
+		uint32_t ch3_ctrl_trig_clr;
+		uint32_t ch3_al1_ctrl_clr;
+		uint32_t ch3_al1_read_addr_clr;
+		uint32_t ch3_al1_write_addr_clr;
+		uint32_t ch3_al1_trans_count_trig_clr;
+		uint32_t ch3_al2_ctrl_clr;
+		uint32_t ch3_al2_trans_count_clr;
+		uint32_t ch3_al2_read_addr_clr;
+		uint32_t ch3_al2_write_addr_trig_clr;
+		uint32_t ch3_al3_ctrl_clr;
+		uint32_t ch3_al3_write_addr_clr;
+		uint32_t ch3_al3_trans_count_clr;
+		uint32_t ch3_al3_read_addr_trig_clr;
+		uint32_t ch4_read_addr_clr;
+		uint32_t ch4_write_addr_clr;
+		uint32_t ch4_trans_count_clr;
+		uint32_t ch4_ctrl_trig_clr;
+		uint32_t ch4_al1_ctrl_clr;
+		uint32_t ch4_al1_read_addr_clr;
+		uint32_t ch4_al1_write_addr_clr;
+		uint32_t ch4_al1_trans_count_trig_clr;
+		uint32_t ch4_al2_ctrl_clr;
+		uint32_t ch4_al2_trans_count_clr;
+		uint32_t ch4_al2_read_addr_clr;
+		uint32_t ch4_al2_write_addr_trig_clr;
+		uint32_t ch4_al3_ctrl_clr;
+		uint32_t ch4_al3_write_addr_clr;
+		uint32_t ch4_al3_trans_count_clr;
+		uint32_t ch4_al3_read_addr_trig_clr;
+		uint32_t ch5_read_addr_clr;
+		uint32_t ch5_write_addr_clr;
+		uint32_t ch5_trans_count_clr;
+		uint32_t ch5_ctrl_trig_clr;
+		uint32_t ch5_al1_ctrl_clr;
+		uint32_t ch5_al1_read_addr_clr;
+		uint32_t ch5_al1_write_addr_clr;
+		uint32_t ch5_al1_trans_count_trig_clr;
+		uint32_t ch5_al2_ctrl_clr;
+		uint32_t ch5_al2_trans_count_clr;
+		uint32_t ch5_al2_read_addr_clr;
+		uint32_t ch5_al2_write_addr_trig_clr;
+		uint32_t ch5_al3_ctrl_clr;
+		uint32_t ch5_al3_write_addr_clr;
+		uint32_t ch5_al3_trans_count_clr;
+		uint32_t ch5_al3_read_addr_trig_clr;
+		uint32_t ch6_read_addr_clr;
+		uint32_t ch6_write_addr_clr;
+		uint32_t ch6_trans_count_clr;
+		uint32_t ch6_ctrl_trig_clr;
+		uint32_t ch6_al1_ctrl_clr;
+		uint32_t ch6_al1_read_addr_clr;
+		uint32_t ch6_al1_write_addr_clr;
+		uint32_t ch6_al1_trans_count_trig_clr;
+		uint32_t ch6_al2_ctrl_clr;
+		uint32_t ch6_al2_trans_count_clr;
+		uint32_t ch6_al2_read_addr_clr;
+		uint32_t ch6_al2_write_addr_trig_clr;
+		uint32_t ch6_al3_ctrl_clr;
+		uint32_t ch6_al3_write_addr_clr;
+		uint32_t ch6_al3_trans_count_clr;
+		uint32_t ch6_al3_read_addr_trig_clr;
+		uint32_t ch7_read_addr_clr;
+		uint32_t ch7_write_addr_clr;
+		uint32_t ch7_trans_count_clr;
+		uint32_t ch7_ctrl_trig_clr;
+		uint32_t ch7_al1_ctrl_clr;
+		uint32_t ch7_al1_read_addr_clr;
+		uint32_t ch7_al1_write_addr_clr;
+		uint32_t ch7_al1_trans_count_trig_clr;
+		uint32_t ch7_al2_ctrl_clr;
+		uint32_t ch7_al2_trans_count_clr;
+		uint32_t ch7_al2_read_addr_clr;
+		uint32_t ch7_al2_write_addr_trig_clr;
+		uint32_t ch7_al3_ctrl_clr;
+		uint32_t ch7_al3_write_addr_clr;
+		uint32_t ch7_al3_trans_count_clr;
+		uint32_t ch7_al3_read_addr_trig_clr;
+		uint32_t ch8_read_addr_clr;
+		uint32_t ch8_write_addr_clr;
+		uint32_t ch8_trans_count_clr;
+		uint32_t ch8_ctrl_trig_clr;
+		uint32_t ch8_al1_ctrl_clr;
+		uint32_t ch8_al1_read_addr_clr;
+		uint32_t ch8_al1_write_addr_clr;
+		uint32_t ch8_al1_trans_count_trig_clr;
+		uint32_t ch8_al2_ctrl_clr;
+		uint32_t ch8_al2_trans_count_clr;
+		uint32_t ch8_al2_read_addr_clr;
+		uint32_t ch8_al2_write_addr_trig_clr;
+		uint32_t ch8_al3_ctrl_clr;
+		uint32_t ch8_al3_write_addr_clr;
+		uint32_t ch8_al3_trans_count_clr;
+		uint32_t ch8_al3_read_addr_trig_clr;
+		uint32_t ch9_read_addr_clr;
+		uint32_t ch9_write_addr_clr;
+		uint32_t ch9_trans_count_clr;
+		uint32_t ch9_ctrl_trig_clr;
+		uint32_t ch9_al1_ctrl_clr;
+		uint32_t ch9_al1_read_addr_clr;
+		uint32_t ch9_al1_write_addr_clr;
+		uint32_t ch9_al1_trans_count_trig_clr;
+		uint32_t ch9_al2_ctrl_clr;
+		uint32_t ch9_al2_trans_count_clr;
+		uint32_t ch9_al2_read_addr_clr;
+		uint32_t ch9_al2_write_addr_trig_clr;
+		uint32_t ch9_al3_ctrl_clr;
+		uint32_t ch9_al3_write_addr_clr;
+		uint32_t ch9_al3_trans_count_clr;
+		uint32_t ch9_al3_read_addr_trig_clr;
+		uint32_t ch10_read_addr_clr;
+		uint32_t ch10_write_addr_clr;
+		uint32_t ch10_trans_count_clr;
+		uint32_t ch10_ctrl_trig_clr;
+		uint32_t ch10_al1_ctrl_clr;
+		uint32_t ch10_al1_read_addr_clr;
+		uint32_t ch10_al1_write_addr_clr;
+		uint32_t ch10_al1_trans_count_trig_clr;
+		uint32_t ch10_al2_ctrl_clr;
+		uint32_t ch10_al2_trans_count_clr;
+		uint32_t ch10_al2_read_addr_clr;
+		uint32_t ch10_al2_write_addr_trig_clr;
+		uint32_t ch10_al3_ctrl_clr;
+		uint32_t ch10_al3_write_addr_clr;
+		uint32_t ch10_al3_trans_count_clr;
+		uint32_t ch10_al3_read_addr_trig_clr;
+		uint32_t ch11_read_addr_clr;
+		uint32_t ch11_write_addr_clr;
+		uint32_t ch11_trans_count_clr;
+		uint32_t ch11_ctrl_trig_clr;
+		uint32_t ch11_al1_ctrl_clr;
+		uint32_t ch11_al1_read_addr_clr;
+		uint32_t ch11_al1_write_addr_clr;
+		uint32_t ch11_al1_trans_count_trig_clr;
+		uint32_t ch11_al2_ctrl_clr;
+		uint32_t ch11_al2_trans_count_clr;
+		uint32_t ch11_al2_read_addr_clr;
+		uint32_t ch11_al2_write_addr_trig_clr;
+		uint32_t ch11_al3_ctrl_clr;
+		uint32_t ch11_al3_write_addr_clr;
+		uint32_t ch11_al3_trans_count_clr;
+		uint32_t ch11_al3_read_addr_trig_clr;
+		uint32_t ch12_read_addr_clr;
+		uint32_t ch12_write_addr_clr;
+		uint32_t ch12_trans_count_clr;
+		uint32_t ch12_ctrl_trig_clr;
+		uint32_t ch12_al1_ctrl_clr;
+		uint32_t ch12_al1_read_addr_clr;
+		uint32_t ch12_al1_write_addr_clr;
+		uint32_t ch12_al1_trans_count_trig_clr;
+		uint32_t ch12_al2_ctrl_clr;
+		uint32_t ch12_al2_trans_count_clr;
+		uint32_t ch12_al2_read_addr_clr;
+		uint32_t ch12_al2_write_addr_trig_clr;
+		uint32_t ch12_al3_ctrl_clr;
+		uint32_t ch12_al3_write_addr_clr;
+		uint32_t ch12_al3_trans_count_clr;
+		uint32_t ch12_al3_read_addr_trig_clr;
+		uint32_t ch13_read_addr_clr;
+		uint32_t ch13_write_addr_clr;
+		uint32_t ch13_trans_count_clr;
+		uint32_t ch13_ctrl_trig_clr;
+		uint32_t ch13_al1_ctrl_clr;
+		uint32_t ch13_al1_read_addr_clr;
+		uint32_t ch13_al1_write_addr_clr;
+		uint32_t ch13_al1_trans_count_trig_clr;
+		uint32_t ch13_al2_ctrl_clr;
+		uint32_t ch13_al2_trans_count_clr;
+		uint32_t ch13_al2_read_addr_clr;
+		uint32_t ch13_al2_write_addr_trig_clr;
+		uint32_t ch13_al3_ctrl_clr;
+		uint32_t ch13_al3_write_addr_clr;
+		uint32_t ch13_al3_trans_count_clr;
+		uint32_t ch13_al3_read_addr_trig_clr;
+		uint32_t ch14_read_addr_clr;
+		uint32_t ch14_write_addr_clr;
+		uint32_t ch14_trans_count_clr;
+		uint32_t ch14_ctrl_trig_clr;
+		uint32_t ch14_al1_ctrl_clr;
+		uint32_t ch14_al1_read_addr_clr;
+		uint32_t ch14_al1_write_addr_clr;
+		uint32_t ch14_al1_trans_count_trig_clr;
+		uint32_t ch14_al2_ctrl_clr;
+		uint32_t ch14_al2_trans_count_clr;
+		uint32_t ch14_al2_read_addr_clr;
+		uint32_t ch14_al2_write_addr_trig_clr;
+		uint32_t ch14_al3_ctrl_clr;
+		uint32_t ch14_al3_write_addr_clr;
+		uint32_t ch14_al3_trans_count_clr;
+		uint32_t ch14_al3_read_addr_trig_clr;
+		uint32_t ch15_read_addr_clr;
+		uint32_t ch15_write_addr_clr;
+		uint32_t ch15_trans_count_clr;
+		uint32_t ch15_ctrl_trig_clr;
+		uint32_t ch15_al1_ctrl_clr;
+		uint32_t ch15_al1_read_addr_clr;
+		uint32_t ch15_al1_write_addr_clr;
+		uint32_t ch15_al1_trans_count_trig_clr;
+		uint32_t ch15_al2_ctrl_clr;
+		uint32_t ch15_al2_trans_count_clr;
+		uint32_t ch15_al2_read_addr_clr;
+		uint32_t ch15_al2_write_addr_trig_clr;
+		uint32_t ch15_al3_ctrl_clr;
+		uint32_t ch15_al3_write_addr_clr;
+		uint32_t ch15_al3_trans_count_clr;
+		uint32_t ch15_al3_read_addr_trig_clr;
+		uint32_t intr_clr;
+		uint32_t inte0_clr;
+		uint32_t intf0_clr;
+		uint32_t ints0_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_inte1;
-		uint32_t clr_intf1;
-		uint32_t clr_ints1;
+		uint32_t inte1_clr;
+		uint32_t intf1_clr;
+		uint32_t ints1_clr;
 		uint32_t RSVDclr_1;
-		uint32_t clr_inte2;
-		uint32_t clr_intf2;
-		uint32_t clr_ints2;
+		uint32_t inte2_clr;
+		uint32_t intf2_clr;
+		uint32_t ints2_clr;
 		uint32_t RSVDclr_2;
-		uint32_t clr_inte3;
-		uint32_t clr_intf3;
-		uint32_t clr_ints3;
-		uint32_t clr_timer0;
-		uint32_t clr_timer1;
-		uint32_t clr_timer2;
-		uint32_t clr_timer3;
-		uint32_t clr_multi_chan_trigger;
-		uint32_t clr_sniff_ctrl;
-		uint32_t clr_sniff_data;
+		uint32_t inte3_clr;
+		uint32_t intf3_clr;
+		uint32_t ints3_clr;
+		uint32_t timer0_clr;
+		uint32_t timer1_clr;
+		uint32_t timer2_clr;
+		uint32_t timer3_clr;
+		uint32_t multi_chan_trigger_clr;
+		uint32_t sniff_ctrl_clr;
+		uint32_t sniff_data_clr;
 		uint32_t RSVDclr_3;
-		uint32_t clr_fifo_levels;
-		uint32_t clr_chan_abort;
-		uint32_t clr_n_channels;
+		uint32_t fifo_levels_clr;
+		uint32_t chan_abort_clr;
+		uint32_t n_channels_clr;
 		uint32_t RSVDclr_4[5];
-		uint32_t clr_seccfg_ch0;
-		uint32_t clr_seccfg_ch1;
-		uint32_t clr_seccfg_ch2;
-		uint32_t clr_seccfg_ch3;
-		uint32_t clr_seccfg_ch4;
-		uint32_t clr_seccfg_ch5;
-		uint32_t clr_seccfg_ch6;
-		uint32_t clr_seccfg_ch7;
-		uint32_t clr_seccfg_ch8;
-		uint32_t clr_seccfg_ch9;
-		uint32_t clr_seccfg_ch10;
-		uint32_t clr_seccfg_ch11;
-		uint32_t clr_seccfg_ch12;
-		uint32_t clr_seccfg_ch13;
-		uint32_t clr_seccfg_ch14;
-		uint32_t clr_seccfg_ch15;
-		uint32_t clr_seccfg_irq0;
-		uint32_t clr_seccfg_irq1;
-		uint32_t clr_seccfg_irq2;
-		uint32_t clr_seccfg_irq3;
-		uint32_t clr_seccfg_misc;
+		uint32_t seccfg_ch0_clr;
+		uint32_t seccfg_ch1_clr;
+		uint32_t seccfg_ch2_clr;
+		uint32_t seccfg_ch3_clr;
+		uint32_t seccfg_ch4_clr;
+		uint32_t seccfg_ch5_clr;
+		uint32_t seccfg_ch6_clr;
+		uint32_t seccfg_ch7_clr;
+		uint32_t seccfg_ch8_clr;
+		uint32_t seccfg_ch9_clr;
+		uint32_t seccfg_ch10_clr;
+		uint32_t seccfg_ch11_clr;
+		uint32_t seccfg_ch12_clr;
+		uint32_t seccfg_ch13_clr;
+		uint32_t seccfg_ch14_clr;
+		uint32_t seccfg_ch15_clr;
+		uint32_t seccfg_irq0_clr;
+		uint32_t seccfg_irq1_clr;
+		uint32_t seccfg_irq2_clr;
+		uint32_t seccfg_irq3_clr;
+		uint32_t seccfg_misc_clr;
 		uint32_t RSVDclr_5[11];
-		uint32_t clr_mpu_ctrl;
-		uint32_t clr_mpu_bar0;
-		uint32_t clr_mpu_lar0;
-		uint32_t clr_mpu_bar1;
-		uint32_t clr_mpu_lar1;
-		uint32_t clr_mpu_bar2;
-		uint32_t clr_mpu_lar2;
-		uint32_t clr_mpu_bar3;
-		uint32_t clr_mpu_lar3;
-		uint32_t clr_mpu_bar4;
-		uint32_t clr_mpu_lar4;
-		uint32_t clr_mpu_bar5;
-		uint32_t clr_mpu_lar5;
-		uint32_t clr_mpu_bar6;
-		uint32_t clr_mpu_lar6;
-		uint32_t clr_mpu_bar7;
-		uint32_t clr_mpu_lar7;
+		uint32_t mpu_ctrl_clr;
+		uint32_t mpu_bar0_clr;
+		uint32_t mpu_lar0_clr;
+		uint32_t mpu_bar1_clr;
+		uint32_t mpu_lar1_clr;
+		uint32_t mpu_bar2_clr;
+		uint32_t mpu_lar2_clr;
+		uint32_t mpu_bar3_clr;
+		uint32_t mpu_lar3_clr;
+		uint32_t mpu_bar4_clr;
+		uint32_t mpu_lar4_clr;
+		uint32_t mpu_bar5_clr;
+		uint32_t mpu_lar5_clr;
+		uint32_t mpu_bar6_clr;
+		uint32_t mpu_lar6_clr;
+		uint32_t mpu_bar7_clr;
+		uint32_t mpu_lar7_clr;
 		uint32_t RSVDclr_6[175];
-		uint32_t clr_ch0_dbg_ctdreq;
-		uint32_t clr_ch0_dbg_tcr;
+		uint32_t ch0_dbg_ctdreq_clr;
+		uint32_t ch0_dbg_tcr_clr;
 		uint32_t RSVDclr_7[14];
-		uint32_t clr_ch1_dbg_ctdreq;
-		uint32_t clr_ch1_dbg_tcr;
+		uint32_t ch1_dbg_ctdreq_clr;
+		uint32_t ch1_dbg_tcr_clr;
 		uint32_t RSVDclr_8[14];
-		uint32_t clr_ch2_dbg_ctdreq;
-		uint32_t clr_ch2_dbg_tcr;
+		uint32_t ch2_dbg_ctdreq_clr;
+		uint32_t ch2_dbg_tcr_clr;
 		uint32_t RSVDclr_9[14];
-		uint32_t clr_ch3_dbg_ctdreq;
-		uint32_t clr_ch3_dbg_tcr;
+		uint32_t ch3_dbg_ctdreq_clr;
+		uint32_t ch3_dbg_tcr_clr;
 		uint32_t RSVDclr_10[14];
-		uint32_t clr_ch4_dbg_ctdreq;
-		uint32_t clr_ch4_dbg_tcr;
+		uint32_t ch4_dbg_ctdreq_clr;
+		uint32_t ch4_dbg_tcr_clr;
 		uint32_t RSVDclr_11[14];
-		uint32_t clr_ch5_dbg_ctdreq;
-		uint32_t clr_ch5_dbg_tcr;
+		uint32_t ch5_dbg_ctdreq_clr;
+		uint32_t ch5_dbg_tcr_clr;
 		uint32_t RSVDclr_12[14];
-		uint32_t clr_ch6_dbg_ctdreq;
-		uint32_t clr_ch6_dbg_tcr;
+		uint32_t ch6_dbg_ctdreq_clr;
+		uint32_t ch6_dbg_tcr_clr;
 		uint32_t RSVDclr_13[14];
-		uint32_t clr_ch7_dbg_ctdreq;
-		uint32_t clr_ch7_dbg_tcr;
+		uint32_t ch7_dbg_ctdreq_clr;
+		uint32_t ch7_dbg_tcr_clr;
 		uint32_t RSVDclr_14[14];
-		uint32_t clr_ch8_dbg_ctdreq;
-		uint32_t clr_ch8_dbg_tcr;
+		uint32_t ch8_dbg_ctdreq_clr;
+		uint32_t ch8_dbg_tcr_clr;
 		uint32_t RSVDclr_15[14];
-		uint32_t clr_ch9_dbg_ctdreq;
-		uint32_t clr_ch9_dbg_tcr;
+		uint32_t ch9_dbg_ctdreq_clr;
+		uint32_t ch9_dbg_tcr_clr;
 		uint32_t RSVDclr_16[14];
-		uint32_t clr_ch10_dbg_ctdreq;
-		uint32_t clr_ch10_dbg_tcr;
+		uint32_t ch10_dbg_ctdreq_clr;
+		uint32_t ch10_dbg_tcr_clr;
 		uint32_t RSVDclr_17[14];
-		uint32_t clr_ch11_dbg_ctdreq;
-		uint32_t clr_ch11_dbg_tcr;
+		uint32_t ch11_dbg_ctdreq_clr;
+		uint32_t ch11_dbg_tcr_clr;
 		uint32_t RSVDclr_18[14];
-		uint32_t clr_ch12_dbg_ctdreq;
-		uint32_t clr_ch12_dbg_tcr;
+		uint32_t ch12_dbg_ctdreq_clr;
+		uint32_t ch12_dbg_tcr_clr;
 		uint32_t RSVDclr_19[14];
-		uint32_t clr_ch13_dbg_ctdreq;
-		uint32_t clr_ch13_dbg_tcr;
+		uint32_t ch13_dbg_ctdreq_clr;
+		uint32_t ch13_dbg_tcr_clr;
 		uint32_t RSVDclr_20[14];
-		uint32_t clr_ch14_dbg_ctdreq;
-		uint32_t clr_ch14_dbg_tcr;
+		uint32_t ch14_dbg_ctdreq_clr;
+		uint32_t ch14_dbg_tcr_clr;
 		uint32_t RSVDclr_21[14];
-		uint32_t clr_ch15_dbg_ctdreq;
-		uint32_t clr_ch15_dbg_tcr;
+		uint32_t ch15_dbg_ctdreq_clr;
+		uint32_t ch15_dbg_tcr_clr;
 		uint32_t RSVDclr_22[270];
 } DMA_REG_BLOCKS;
 
@@ -1878,1053 +1878,1053 @@ typedef struct{
 #define DMA_CH14_DBG_TCR (*(volatile uint32_t *)0x50000b84)
 #define DMA_CH15_DBG_CTDREQ (*(volatile uint32_t *)0x50000bc0)
 #define DMA_CH15_DBG_TCR (*(volatile uint32_t *)0x50000bc4)
-#define DMA_XOR_CH0_READ_ADDR (*(volatile uint32_t *)0x50001000)
-#define DMA_XOR_CH0_WRITE_ADDR (*(volatile uint32_t *)0x50001004)
-#define DMA_XOR_CH0_TRANS_COUNT (*(volatile uint32_t *)0x50001008)
-#define DMA_XOR_CH0_CTRL_TRIG (*(volatile uint32_t *)0x5000100c)
-#define DMA_XOR_CH0_AL1_CTRL (*(volatile uint32_t *)0x50001010)
-#define DMA_XOR_CH0_AL1_READ_ADDR (*(volatile uint32_t *)0x50001014)
-#define DMA_XOR_CH0_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001018)
-#define DMA_XOR_CH0_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000101c)
-#define DMA_XOR_CH0_AL2_CTRL (*(volatile uint32_t *)0x50001020)
-#define DMA_XOR_CH0_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001024)
-#define DMA_XOR_CH0_AL2_READ_ADDR (*(volatile uint32_t *)0x50001028)
-#define DMA_XOR_CH0_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000102c)
-#define DMA_XOR_CH0_AL3_CTRL (*(volatile uint32_t *)0x50001030)
-#define DMA_XOR_CH0_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001034)
-#define DMA_XOR_CH0_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001038)
-#define DMA_XOR_CH0_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000103c)
-#define DMA_XOR_CH1_READ_ADDR (*(volatile uint32_t *)0x50001040)
-#define DMA_XOR_CH1_WRITE_ADDR (*(volatile uint32_t *)0x50001044)
-#define DMA_XOR_CH1_TRANS_COUNT (*(volatile uint32_t *)0x50001048)
-#define DMA_XOR_CH1_CTRL_TRIG (*(volatile uint32_t *)0x5000104c)
-#define DMA_XOR_CH1_AL1_CTRL (*(volatile uint32_t *)0x50001050)
-#define DMA_XOR_CH1_AL1_READ_ADDR (*(volatile uint32_t *)0x50001054)
-#define DMA_XOR_CH1_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001058)
-#define DMA_XOR_CH1_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000105c)
-#define DMA_XOR_CH1_AL2_CTRL (*(volatile uint32_t *)0x50001060)
-#define DMA_XOR_CH1_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001064)
-#define DMA_XOR_CH1_AL2_READ_ADDR (*(volatile uint32_t *)0x50001068)
-#define DMA_XOR_CH1_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000106c)
-#define DMA_XOR_CH1_AL3_CTRL (*(volatile uint32_t *)0x50001070)
-#define DMA_XOR_CH1_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001074)
-#define DMA_XOR_CH1_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001078)
-#define DMA_XOR_CH1_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000107c)
-#define DMA_XOR_CH2_READ_ADDR (*(volatile uint32_t *)0x50001080)
-#define DMA_XOR_CH2_WRITE_ADDR (*(volatile uint32_t *)0x50001084)
-#define DMA_XOR_CH2_TRANS_COUNT (*(volatile uint32_t *)0x50001088)
-#define DMA_XOR_CH2_CTRL_TRIG (*(volatile uint32_t *)0x5000108c)
-#define DMA_XOR_CH2_AL1_CTRL (*(volatile uint32_t *)0x50001090)
-#define DMA_XOR_CH2_AL1_READ_ADDR (*(volatile uint32_t *)0x50001094)
-#define DMA_XOR_CH2_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001098)
-#define DMA_XOR_CH2_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000109c)
-#define DMA_XOR_CH2_AL2_CTRL (*(volatile uint32_t *)0x500010a0)
-#define DMA_XOR_CH2_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500010a4)
-#define DMA_XOR_CH2_AL2_READ_ADDR (*(volatile uint32_t *)0x500010a8)
-#define DMA_XOR_CH2_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500010ac)
-#define DMA_XOR_CH2_AL3_CTRL (*(volatile uint32_t *)0x500010b0)
-#define DMA_XOR_CH2_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500010b4)
-#define DMA_XOR_CH2_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500010b8)
-#define DMA_XOR_CH2_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500010bc)
-#define DMA_XOR_CH3_READ_ADDR (*(volatile uint32_t *)0x500010c0)
-#define DMA_XOR_CH3_WRITE_ADDR (*(volatile uint32_t *)0x500010c4)
-#define DMA_XOR_CH3_TRANS_COUNT (*(volatile uint32_t *)0x500010c8)
-#define DMA_XOR_CH3_CTRL_TRIG (*(volatile uint32_t *)0x500010cc)
-#define DMA_XOR_CH3_AL1_CTRL (*(volatile uint32_t *)0x500010d0)
-#define DMA_XOR_CH3_AL1_READ_ADDR (*(volatile uint32_t *)0x500010d4)
-#define DMA_XOR_CH3_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500010d8)
-#define DMA_XOR_CH3_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500010dc)
-#define DMA_XOR_CH3_AL2_CTRL (*(volatile uint32_t *)0x500010e0)
-#define DMA_XOR_CH3_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500010e4)
-#define DMA_XOR_CH3_AL2_READ_ADDR (*(volatile uint32_t *)0x500010e8)
-#define DMA_XOR_CH3_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500010ec)
-#define DMA_XOR_CH3_AL3_CTRL (*(volatile uint32_t *)0x500010f0)
-#define DMA_XOR_CH3_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500010f4)
-#define DMA_XOR_CH3_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500010f8)
-#define DMA_XOR_CH3_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500010fc)
-#define DMA_XOR_CH4_READ_ADDR (*(volatile uint32_t *)0x50001100)
-#define DMA_XOR_CH4_WRITE_ADDR (*(volatile uint32_t *)0x50001104)
-#define DMA_XOR_CH4_TRANS_COUNT (*(volatile uint32_t *)0x50001108)
-#define DMA_XOR_CH4_CTRL_TRIG (*(volatile uint32_t *)0x5000110c)
-#define DMA_XOR_CH4_AL1_CTRL (*(volatile uint32_t *)0x50001110)
-#define DMA_XOR_CH4_AL1_READ_ADDR (*(volatile uint32_t *)0x50001114)
-#define DMA_XOR_CH4_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001118)
-#define DMA_XOR_CH4_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000111c)
-#define DMA_XOR_CH4_AL2_CTRL (*(volatile uint32_t *)0x50001120)
-#define DMA_XOR_CH4_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001124)
-#define DMA_XOR_CH4_AL2_READ_ADDR (*(volatile uint32_t *)0x50001128)
-#define DMA_XOR_CH4_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000112c)
-#define DMA_XOR_CH4_AL3_CTRL (*(volatile uint32_t *)0x50001130)
-#define DMA_XOR_CH4_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001134)
-#define DMA_XOR_CH4_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001138)
-#define DMA_XOR_CH4_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000113c)
-#define DMA_XOR_CH5_READ_ADDR (*(volatile uint32_t *)0x50001140)
-#define DMA_XOR_CH5_WRITE_ADDR (*(volatile uint32_t *)0x50001144)
-#define DMA_XOR_CH5_TRANS_COUNT (*(volatile uint32_t *)0x50001148)
-#define DMA_XOR_CH5_CTRL_TRIG (*(volatile uint32_t *)0x5000114c)
-#define DMA_XOR_CH5_AL1_CTRL (*(volatile uint32_t *)0x50001150)
-#define DMA_XOR_CH5_AL1_READ_ADDR (*(volatile uint32_t *)0x50001154)
-#define DMA_XOR_CH5_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001158)
-#define DMA_XOR_CH5_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000115c)
-#define DMA_XOR_CH5_AL2_CTRL (*(volatile uint32_t *)0x50001160)
-#define DMA_XOR_CH5_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001164)
-#define DMA_XOR_CH5_AL2_READ_ADDR (*(volatile uint32_t *)0x50001168)
-#define DMA_XOR_CH5_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000116c)
-#define DMA_XOR_CH5_AL3_CTRL (*(volatile uint32_t *)0x50001170)
-#define DMA_XOR_CH5_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001174)
-#define DMA_XOR_CH5_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001178)
-#define DMA_XOR_CH5_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000117c)
-#define DMA_XOR_CH6_READ_ADDR (*(volatile uint32_t *)0x50001180)
-#define DMA_XOR_CH6_WRITE_ADDR (*(volatile uint32_t *)0x50001184)
-#define DMA_XOR_CH6_TRANS_COUNT (*(volatile uint32_t *)0x50001188)
-#define DMA_XOR_CH6_CTRL_TRIG (*(volatile uint32_t *)0x5000118c)
-#define DMA_XOR_CH6_AL1_CTRL (*(volatile uint32_t *)0x50001190)
-#define DMA_XOR_CH6_AL1_READ_ADDR (*(volatile uint32_t *)0x50001194)
-#define DMA_XOR_CH6_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001198)
-#define DMA_XOR_CH6_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000119c)
-#define DMA_XOR_CH6_AL2_CTRL (*(volatile uint32_t *)0x500011a0)
-#define DMA_XOR_CH6_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500011a4)
-#define DMA_XOR_CH6_AL2_READ_ADDR (*(volatile uint32_t *)0x500011a8)
-#define DMA_XOR_CH6_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500011ac)
-#define DMA_XOR_CH6_AL3_CTRL (*(volatile uint32_t *)0x500011b0)
-#define DMA_XOR_CH6_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500011b4)
-#define DMA_XOR_CH6_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500011b8)
-#define DMA_XOR_CH6_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500011bc)
-#define DMA_XOR_CH7_READ_ADDR (*(volatile uint32_t *)0x500011c0)
-#define DMA_XOR_CH7_WRITE_ADDR (*(volatile uint32_t *)0x500011c4)
-#define DMA_XOR_CH7_TRANS_COUNT (*(volatile uint32_t *)0x500011c8)
-#define DMA_XOR_CH7_CTRL_TRIG (*(volatile uint32_t *)0x500011cc)
-#define DMA_XOR_CH7_AL1_CTRL (*(volatile uint32_t *)0x500011d0)
-#define DMA_XOR_CH7_AL1_READ_ADDR (*(volatile uint32_t *)0x500011d4)
-#define DMA_XOR_CH7_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500011d8)
-#define DMA_XOR_CH7_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500011dc)
-#define DMA_XOR_CH7_AL2_CTRL (*(volatile uint32_t *)0x500011e0)
-#define DMA_XOR_CH7_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500011e4)
-#define DMA_XOR_CH7_AL2_READ_ADDR (*(volatile uint32_t *)0x500011e8)
-#define DMA_XOR_CH7_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500011ec)
-#define DMA_XOR_CH7_AL3_CTRL (*(volatile uint32_t *)0x500011f0)
-#define DMA_XOR_CH7_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500011f4)
-#define DMA_XOR_CH7_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500011f8)
-#define DMA_XOR_CH7_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500011fc)
-#define DMA_XOR_CH8_READ_ADDR (*(volatile uint32_t *)0x50001200)
-#define DMA_XOR_CH8_WRITE_ADDR (*(volatile uint32_t *)0x50001204)
-#define DMA_XOR_CH8_TRANS_COUNT (*(volatile uint32_t *)0x50001208)
-#define DMA_XOR_CH8_CTRL_TRIG (*(volatile uint32_t *)0x5000120c)
-#define DMA_XOR_CH8_AL1_CTRL (*(volatile uint32_t *)0x50001210)
-#define DMA_XOR_CH8_AL1_READ_ADDR (*(volatile uint32_t *)0x50001214)
-#define DMA_XOR_CH8_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001218)
-#define DMA_XOR_CH8_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000121c)
-#define DMA_XOR_CH8_AL2_CTRL (*(volatile uint32_t *)0x50001220)
-#define DMA_XOR_CH8_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001224)
-#define DMA_XOR_CH8_AL2_READ_ADDR (*(volatile uint32_t *)0x50001228)
-#define DMA_XOR_CH8_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000122c)
-#define DMA_XOR_CH8_AL3_CTRL (*(volatile uint32_t *)0x50001230)
-#define DMA_XOR_CH8_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001234)
-#define DMA_XOR_CH8_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001238)
-#define DMA_XOR_CH8_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000123c)
-#define DMA_XOR_CH9_READ_ADDR (*(volatile uint32_t *)0x50001240)
-#define DMA_XOR_CH9_WRITE_ADDR (*(volatile uint32_t *)0x50001244)
-#define DMA_XOR_CH9_TRANS_COUNT (*(volatile uint32_t *)0x50001248)
-#define DMA_XOR_CH9_CTRL_TRIG (*(volatile uint32_t *)0x5000124c)
-#define DMA_XOR_CH9_AL1_CTRL (*(volatile uint32_t *)0x50001250)
-#define DMA_XOR_CH9_AL1_READ_ADDR (*(volatile uint32_t *)0x50001254)
-#define DMA_XOR_CH9_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001258)
-#define DMA_XOR_CH9_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000125c)
-#define DMA_XOR_CH9_AL2_CTRL (*(volatile uint32_t *)0x50001260)
-#define DMA_XOR_CH9_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001264)
-#define DMA_XOR_CH9_AL2_READ_ADDR (*(volatile uint32_t *)0x50001268)
-#define DMA_XOR_CH9_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000126c)
-#define DMA_XOR_CH9_AL3_CTRL (*(volatile uint32_t *)0x50001270)
-#define DMA_XOR_CH9_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001274)
-#define DMA_XOR_CH9_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001278)
-#define DMA_XOR_CH9_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000127c)
-#define DMA_XOR_CH10_READ_ADDR (*(volatile uint32_t *)0x50001280)
-#define DMA_XOR_CH10_WRITE_ADDR (*(volatile uint32_t *)0x50001284)
-#define DMA_XOR_CH10_TRANS_COUNT (*(volatile uint32_t *)0x50001288)
-#define DMA_XOR_CH10_CTRL_TRIG (*(volatile uint32_t *)0x5000128c)
-#define DMA_XOR_CH10_AL1_CTRL (*(volatile uint32_t *)0x50001290)
-#define DMA_XOR_CH10_AL1_READ_ADDR (*(volatile uint32_t *)0x50001294)
-#define DMA_XOR_CH10_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001298)
-#define DMA_XOR_CH10_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000129c)
-#define DMA_XOR_CH10_AL2_CTRL (*(volatile uint32_t *)0x500012a0)
-#define DMA_XOR_CH10_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500012a4)
-#define DMA_XOR_CH10_AL2_READ_ADDR (*(volatile uint32_t *)0x500012a8)
-#define DMA_XOR_CH10_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500012ac)
-#define DMA_XOR_CH10_AL3_CTRL (*(volatile uint32_t *)0x500012b0)
-#define DMA_XOR_CH10_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500012b4)
-#define DMA_XOR_CH10_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500012b8)
-#define DMA_XOR_CH10_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500012bc)
-#define DMA_XOR_CH11_READ_ADDR (*(volatile uint32_t *)0x500012c0)
-#define DMA_XOR_CH11_WRITE_ADDR (*(volatile uint32_t *)0x500012c4)
-#define DMA_XOR_CH11_TRANS_COUNT (*(volatile uint32_t *)0x500012c8)
-#define DMA_XOR_CH11_CTRL_TRIG (*(volatile uint32_t *)0x500012cc)
-#define DMA_XOR_CH11_AL1_CTRL (*(volatile uint32_t *)0x500012d0)
-#define DMA_XOR_CH11_AL1_READ_ADDR (*(volatile uint32_t *)0x500012d4)
-#define DMA_XOR_CH11_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500012d8)
-#define DMA_XOR_CH11_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500012dc)
-#define DMA_XOR_CH11_AL2_CTRL (*(volatile uint32_t *)0x500012e0)
-#define DMA_XOR_CH11_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500012e4)
-#define DMA_XOR_CH11_AL2_READ_ADDR (*(volatile uint32_t *)0x500012e8)
-#define DMA_XOR_CH11_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500012ec)
-#define DMA_XOR_CH11_AL3_CTRL (*(volatile uint32_t *)0x500012f0)
-#define DMA_XOR_CH11_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500012f4)
-#define DMA_XOR_CH11_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500012f8)
-#define DMA_XOR_CH11_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500012fc)
-#define DMA_XOR_CH12_READ_ADDR (*(volatile uint32_t *)0x50001300)
-#define DMA_XOR_CH12_WRITE_ADDR (*(volatile uint32_t *)0x50001304)
-#define DMA_XOR_CH12_TRANS_COUNT (*(volatile uint32_t *)0x50001308)
-#define DMA_XOR_CH12_CTRL_TRIG (*(volatile uint32_t *)0x5000130c)
-#define DMA_XOR_CH12_AL1_CTRL (*(volatile uint32_t *)0x50001310)
-#define DMA_XOR_CH12_AL1_READ_ADDR (*(volatile uint32_t *)0x50001314)
-#define DMA_XOR_CH12_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001318)
-#define DMA_XOR_CH12_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000131c)
-#define DMA_XOR_CH12_AL2_CTRL (*(volatile uint32_t *)0x50001320)
-#define DMA_XOR_CH12_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001324)
-#define DMA_XOR_CH12_AL2_READ_ADDR (*(volatile uint32_t *)0x50001328)
-#define DMA_XOR_CH12_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000132c)
-#define DMA_XOR_CH12_AL3_CTRL (*(volatile uint32_t *)0x50001330)
-#define DMA_XOR_CH12_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001334)
-#define DMA_XOR_CH12_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001338)
-#define DMA_XOR_CH12_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000133c)
-#define DMA_XOR_CH13_READ_ADDR (*(volatile uint32_t *)0x50001340)
-#define DMA_XOR_CH13_WRITE_ADDR (*(volatile uint32_t *)0x50001344)
-#define DMA_XOR_CH13_TRANS_COUNT (*(volatile uint32_t *)0x50001348)
-#define DMA_XOR_CH13_CTRL_TRIG (*(volatile uint32_t *)0x5000134c)
-#define DMA_XOR_CH13_AL1_CTRL (*(volatile uint32_t *)0x50001350)
-#define DMA_XOR_CH13_AL1_READ_ADDR (*(volatile uint32_t *)0x50001354)
-#define DMA_XOR_CH13_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001358)
-#define DMA_XOR_CH13_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000135c)
-#define DMA_XOR_CH13_AL2_CTRL (*(volatile uint32_t *)0x50001360)
-#define DMA_XOR_CH13_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50001364)
-#define DMA_XOR_CH13_AL2_READ_ADDR (*(volatile uint32_t *)0x50001368)
-#define DMA_XOR_CH13_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000136c)
-#define DMA_XOR_CH13_AL3_CTRL (*(volatile uint32_t *)0x50001370)
-#define DMA_XOR_CH13_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50001374)
-#define DMA_XOR_CH13_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50001378)
-#define DMA_XOR_CH13_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000137c)
-#define DMA_XOR_CH14_READ_ADDR (*(volatile uint32_t *)0x50001380)
-#define DMA_XOR_CH14_WRITE_ADDR (*(volatile uint32_t *)0x50001384)
-#define DMA_XOR_CH14_TRANS_COUNT (*(volatile uint32_t *)0x50001388)
-#define DMA_XOR_CH14_CTRL_TRIG (*(volatile uint32_t *)0x5000138c)
-#define DMA_XOR_CH14_AL1_CTRL (*(volatile uint32_t *)0x50001390)
-#define DMA_XOR_CH14_AL1_READ_ADDR (*(volatile uint32_t *)0x50001394)
-#define DMA_XOR_CH14_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50001398)
-#define DMA_XOR_CH14_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000139c)
-#define DMA_XOR_CH14_AL2_CTRL (*(volatile uint32_t *)0x500013a0)
-#define DMA_XOR_CH14_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500013a4)
-#define DMA_XOR_CH14_AL2_READ_ADDR (*(volatile uint32_t *)0x500013a8)
-#define DMA_XOR_CH14_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500013ac)
-#define DMA_XOR_CH14_AL3_CTRL (*(volatile uint32_t *)0x500013b0)
-#define DMA_XOR_CH14_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500013b4)
-#define DMA_XOR_CH14_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500013b8)
-#define DMA_XOR_CH14_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500013bc)
-#define DMA_XOR_CH15_READ_ADDR (*(volatile uint32_t *)0x500013c0)
-#define DMA_XOR_CH15_WRITE_ADDR (*(volatile uint32_t *)0x500013c4)
-#define DMA_XOR_CH15_TRANS_COUNT (*(volatile uint32_t *)0x500013c8)
-#define DMA_XOR_CH15_CTRL_TRIG (*(volatile uint32_t *)0x500013cc)
-#define DMA_XOR_CH15_AL1_CTRL (*(volatile uint32_t *)0x500013d0)
-#define DMA_XOR_CH15_AL1_READ_ADDR (*(volatile uint32_t *)0x500013d4)
-#define DMA_XOR_CH15_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500013d8)
-#define DMA_XOR_CH15_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500013dc)
-#define DMA_XOR_CH15_AL2_CTRL (*(volatile uint32_t *)0x500013e0)
-#define DMA_XOR_CH15_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500013e4)
-#define DMA_XOR_CH15_AL2_READ_ADDR (*(volatile uint32_t *)0x500013e8)
-#define DMA_XOR_CH15_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500013ec)
-#define DMA_XOR_CH15_AL3_CTRL (*(volatile uint32_t *)0x500013f0)
-#define DMA_XOR_CH15_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500013f4)
-#define DMA_XOR_CH15_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500013f8)
-#define DMA_XOR_CH15_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500013fc)
-#define DMA_XOR_INTR (*(volatile uint32_t *)0x50001400)
-#define DMA_XOR_INTE0 (*(volatile uint32_t *)0x50001404)
-#define DMA_XOR_INTF0 (*(volatile uint32_t *)0x50001408)
-#define DMA_XOR_INTS0 (*(volatile uint32_t *)0x5000140c)
-#define DMA_XOR_INTE1 (*(volatile uint32_t *)0x50001414)
-#define DMA_XOR_INTF1 (*(volatile uint32_t *)0x50001418)
-#define DMA_XOR_INTS1 (*(volatile uint32_t *)0x5000141c)
-#define DMA_XOR_INTE2 (*(volatile uint32_t *)0x50001424)
-#define DMA_XOR_INTF2 (*(volatile uint32_t *)0x50001428)
-#define DMA_XOR_INTS2 (*(volatile uint32_t *)0x5000142c)
-#define DMA_XOR_INTE3 (*(volatile uint32_t *)0x50001434)
-#define DMA_XOR_INTF3 (*(volatile uint32_t *)0x50001438)
-#define DMA_XOR_INTS3 (*(volatile uint32_t *)0x5000143c)
-#define DMA_XOR_TIMER0 (*(volatile uint32_t *)0x50001440)
-#define DMA_XOR_TIMER1 (*(volatile uint32_t *)0x50001444)
-#define DMA_XOR_TIMER2 (*(volatile uint32_t *)0x50001448)
-#define DMA_XOR_TIMER3 (*(volatile uint32_t *)0x5000144c)
-#define DMA_XOR_MULTI_CHAN_TRIGGER (*(volatile uint32_t *)0x50001450)
-#define DMA_XOR_SNIFF_CTRL (*(volatile uint32_t *)0x50001454)
-#define DMA_XOR_SNIFF_DATA (*(volatile uint32_t *)0x50001458)
-#define DMA_XOR_FIFO_LEVELS (*(volatile uint32_t *)0x50001460)
-#define DMA_XOR_CHAN_ABORT (*(volatile uint32_t *)0x50001464)
-#define DMA_XOR_N_CHANNELS (*(volatile uint32_t *)0x50001468)
-#define DMA_XOR_SECCFG_CH0 (*(volatile uint32_t *)0x50001480)
-#define DMA_XOR_SECCFG_CH1 (*(volatile uint32_t *)0x50001484)
-#define DMA_XOR_SECCFG_CH2 (*(volatile uint32_t *)0x50001488)
-#define DMA_XOR_SECCFG_CH3 (*(volatile uint32_t *)0x5000148c)
-#define DMA_XOR_SECCFG_CH4 (*(volatile uint32_t *)0x50001490)
-#define DMA_XOR_SECCFG_CH5 (*(volatile uint32_t *)0x50001494)
-#define DMA_XOR_SECCFG_CH6 (*(volatile uint32_t *)0x50001498)
-#define DMA_XOR_SECCFG_CH7 (*(volatile uint32_t *)0x5000149c)
-#define DMA_XOR_SECCFG_CH8 (*(volatile uint32_t *)0x500014a0)
-#define DMA_XOR_SECCFG_CH9 (*(volatile uint32_t *)0x500014a4)
-#define DMA_XOR_SECCFG_CH10 (*(volatile uint32_t *)0x500014a8)
-#define DMA_XOR_SECCFG_CH11 (*(volatile uint32_t *)0x500014ac)
-#define DMA_XOR_SECCFG_CH12 (*(volatile uint32_t *)0x500014b0)
-#define DMA_XOR_SECCFG_CH13 (*(volatile uint32_t *)0x500014b4)
-#define DMA_XOR_SECCFG_CH14 (*(volatile uint32_t *)0x500014b8)
-#define DMA_XOR_SECCFG_CH15 (*(volatile uint32_t *)0x500014bc)
-#define DMA_XOR_SECCFG_IRQ0 (*(volatile uint32_t *)0x500014c0)
-#define DMA_XOR_SECCFG_IRQ1 (*(volatile uint32_t *)0x500014c4)
-#define DMA_XOR_SECCFG_IRQ2 (*(volatile uint32_t *)0x500014c8)
-#define DMA_XOR_SECCFG_IRQ3 (*(volatile uint32_t *)0x500014cc)
-#define DMA_XOR_SECCFG_MISC (*(volatile uint32_t *)0x500014d0)
-#define DMA_XOR_MPU_CTRL (*(volatile uint32_t *)0x50001500)
-#define DMA_XOR_MPU_BAR0 (*(volatile uint32_t *)0x50001504)
-#define DMA_XOR_MPU_LAR0 (*(volatile uint32_t *)0x50001508)
-#define DMA_XOR_MPU_BAR1 (*(volatile uint32_t *)0x5000150c)
-#define DMA_XOR_MPU_LAR1 (*(volatile uint32_t *)0x50001510)
-#define DMA_XOR_MPU_BAR2 (*(volatile uint32_t *)0x50001514)
-#define DMA_XOR_MPU_LAR2 (*(volatile uint32_t *)0x50001518)
-#define DMA_XOR_MPU_BAR3 (*(volatile uint32_t *)0x5000151c)
-#define DMA_XOR_MPU_LAR3 (*(volatile uint32_t *)0x50001520)
-#define DMA_XOR_MPU_BAR4 (*(volatile uint32_t *)0x50001524)
-#define DMA_XOR_MPU_LAR4 (*(volatile uint32_t *)0x50001528)
-#define DMA_XOR_MPU_BAR5 (*(volatile uint32_t *)0x5000152c)
-#define DMA_XOR_MPU_LAR5 (*(volatile uint32_t *)0x50001530)
-#define DMA_XOR_MPU_BAR6 (*(volatile uint32_t *)0x50001534)
-#define DMA_XOR_MPU_LAR6 (*(volatile uint32_t *)0x50001538)
-#define DMA_XOR_MPU_BAR7 (*(volatile uint32_t *)0x5000153c)
-#define DMA_XOR_MPU_LAR7 (*(volatile uint32_t *)0x50001540)
-#define DMA_XOR_CH0_DBG_CTDREQ (*(volatile uint32_t *)0x50001800)
-#define DMA_XOR_CH0_DBG_TCR (*(volatile uint32_t *)0x50001804)
-#define DMA_XOR_CH1_DBG_CTDREQ (*(volatile uint32_t *)0x50001840)
-#define DMA_XOR_CH1_DBG_TCR (*(volatile uint32_t *)0x50001844)
-#define DMA_XOR_CH2_DBG_CTDREQ (*(volatile uint32_t *)0x50001880)
-#define DMA_XOR_CH2_DBG_TCR (*(volatile uint32_t *)0x50001884)
-#define DMA_XOR_CH3_DBG_CTDREQ (*(volatile uint32_t *)0x500018c0)
-#define DMA_XOR_CH3_DBG_TCR (*(volatile uint32_t *)0x500018c4)
-#define DMA_XOR_CH4_DBG_CTDREQ (*(volatile uint32_t *)0x50001900)
-#define DMA_XOR_CH4_DBG_TCR (*(volatile uint32_t *)0x50001904)
-#define DMA_XOR_CH5_DBG_CTDREQ (*(volatile uint32_t *)0x50001940)
-#define DMA_XOR_CH5_DBG_TCR (*(volatile uint32_t *)0x50001944)
-#define DMA_XOR_CH6_DBG_CTDREQ (*(volatile uint32_t *)0x50001980)
-#define DMA_XOR_CH6_DBG_TCR (*(volatile uint32_t *)0x50001984)
-#define DMA_XOR_CH7_DBG_CTDREQ (*(volatile uint32_t *)0x500019c0)
-#define DMA_XOR_CH7_DBG_TCR (*(volatile uint32_t *)0x500019c4)
-#define DMA_XOR_CH8_DBG_CTDREQ (*(volatile uint32_t *)0x50001a00)
-#define DMA_XOR_CH8_DBG_TCR (*(volatile uint32_t *)0x50001a04)
-#define DMA_XOR_CH9_DBG_CTDREQ (*(volatile uint32_t *)0x50001a40)
-#define DMA_XOR_CH9_DBG_TCR (*(volatile uint32_t *)0x50001a44)
-#define DMA_XOR_CH10_DBG_CTDREQ (*(volatile uint32_t *)0x50001a80)
-#define DMA_XOR_CH10_DBG_TCR (*(volatile uint32_t *)0x50001a84)
-#define DMA_XOR_CH11_DBG_CTDREQ (*(volatile uint32_t *)0x50001ac0)
-#define DMA_XOR_CH11_DBG_TCR (*(volatile uint32_t *)0x50001ac4)
-#define DMA_XOR_CH12_DBG_CTDREQ (*(volatile uint32_t *)0x50001b00)
-#define DMA_XOR_CH12_DBG_TCR (*(volatile uint32_t *)0x50001b04)
-#define DMA_XOR_CH13_DBG_CTDREQ (*(volatile uint32_t *)0x50001b40)
-#define DMA_XOR_CH13_DBG_TCR (*(volatile uint32_t *)0x50001b44)
-#define DMA_XOR_CH14_DBG_CTDREQ (*(volatile uint32_t *)0x50001b80)
-#define DMA_XOR_CH14_DBG_TCR (*(volatile uint32_t *)0x50001b84)
-#define DMA_XOR_CH15_DBG_CTDREQ (*(volatile uint32_t *)0x50001bc0)
-#define DMA_XOR_CH15_DBG_TCR (*(volatile uint32_t *)0x50001bc4)
-#define DMA_SET_CH0_READ_ADDR (*(volatile uint32_t *)0x50002000)
-#define DMA_SET_CH0_WRITE_ADDR (*(volatile uint32_t *)0x50002004)
-#define DMA_SET_CH0_TRANS_COUNT (*(volatile uint32_t *)0x50002008)
-#define DMA_SET_CH0_CTRL_TRIG (*(volatile uint32_t *)0x5000200c)
-#define DMA_SET_CH0_AL1_CTRL (*(volatile uint32_t *)0x50002010)
-#define DMA_SET_CH0_AL1_READ_ADDR (*(volatile uint32_t *)0x50002014)
-#define DMA_SET_CH0_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002018)
-#define DMA_SET_CH0_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000201c)
-#define DMA_SET_CH0_AL2_CTRL (*(volatile uint32_t *)0x50002020)
-#define DMA_SET_CH0_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002024)
-#define DMA_SET_CH0_AL2_READ_ADDR (*(volatile uint32_t *)0x50002028)
-#define DMA_SET_CH0_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000202c)
-#define DMA_SET_CH0_AL3_CTRL (*(volatile uint32_t *)0x50002030)
-#define DMA_SET_CH0_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002034)
-#define DMA_SET_CH0_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002038)
-#define DMA_SET_CH0_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000203c)
-#define DMA_SET_CH1_READ_ADDR (*(volatile uint32_t *)0x50002040)
-#define DMA_SET_CH1_WRITE_ADDR (*(volatile uint32_t *)0x50002044)
-#define DMA_SET_CH1_TRANS_COUNT (*(volatile uint32_t *)0x50002048)
-#define DMA_SET_CH1_CTRL_TRIG (*(volatile uint32_t *)0x5000204c)
-#define DMA_SET_CH1_AL1_CTRL (*(volatile uint32_t *)0x50002050)
-#define DMA_SET_CH1_AL1_READ_ADDR (*(volatile uint32_t *)0x50002054)
-#define DMA_SET_CH1_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002058)
-#define DMA_SET_CH1_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000205c)
-#define DMA_SET_CH1_AL2_CTRL (*(volatile uint32_t *)0x50002060)
-#define DMA_SET_CH1_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002064)
-#define DMA_SET_CH1_AL2_READ_ADDR (*(volatile uint32_t *)0x50002068)
-#define DMA_SET_CH1_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000206c)
-#define DMA_SET_CH1_AL3_CTRL (*(volatile uint32_t *)0x50002070)
-#define DMA_SET_CH1_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002074)
-#define DMA_SET_CH1_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002078)
-#define DMA_SET_CH1_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000207c)
-#define DMA_SET_CH2_READ_ADDR (*(volatile uint32_t *)0x50002080)
-#define DMA_SET_CH2_WRITE_ADDR (*(volatile uint32_t *)0x50002084)
-#define DMA_SET_CH2_TRANS_COUNT (*(volatile uint32_t *)0x50002088)
-#define DMA_SET_CH2_CTRL_TRIG (*(volatile uint32_t *)0x5000208c)
-#define DMA_SET_CH2_AL1_CTRL (*(volatile uint32_t *)0x50002090)
-#define DMA_SET_CH2_AL1_READ_ADDR (*(volatile uint32_t *)0x50002094)
-#define DMA_SET_CH2_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002098)
-#define DMA_SET_CH2_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000209c)
-#define DMA_SET_CH2_AL2_CTRL (*(volatile uint32_t *)0x500020a0)
-#define DMA_SET_CH2_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500020a4)
-#define DMA_SET_CH2_AL2_READ_ADDR (*(volatile uint32_t *)0x500020a8)
-#define DMA_SET_CH2_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500020ac)
-#define DMA_SET_CH2_AL3_CTRL (*(volatile uint32_t *)0x500020b0)
-#define DMA_SET_CH2_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500020b4)
-#define DMA_SET_CH2_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500020b8)
-#define DMA_SET_CH2_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500020bc)
-#define DMA_SET_CH3_READ_ADDR (*(volatile uint32_t *)0x500020c0)
-#define DMA_SET_CH3_WRITE_ADDR (*(volatile uint32_t *)0x500020c4)
-#define DMA_SET_CH3_TRANS_COUNT (*(volatile uint32_t *)0x500020c8)
-#define DMA_SET_CH3_CTRL_TRIG (*(volatile uint32_t *)0x500020cc)
-#define DMA_SET_CH3_AL1_CTRL (*(volatile uint32_t *)0x500020d0)
-#define DMA_SET_CH3_AL1_READ_ADDR (*(volatile uint32_t *)0x500020d4)
-#define DMA_SET_CH3_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500020d8)
-#define DMA_SET_CH3_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500020dc)
-#define DMA_SET_CH3_AL2_CTRL (*(volatile uint32_t *)0x500020e0)
-#define DMA_SET_CH3_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500020e4)
-#define DMA_SET_CH3_AL2_READ_ADDR (*(volatile uint32_t *)0x500020e8)
-#define DMA_SET_CH3_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500020ec)
-#define DMA_SET_CH3_AL3_CTRL (*(volatile uint32_t *)0x500020f0)
-#define DMA_SET_CH3_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500020f4)
-#define DMA_SET_CH3_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500020f8)
-#define DMA_SET_CH3_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500020fc)
-#define DMA_SET_CH4_READ_ADDR (*(volatile uint32_t *)0x50002100)
-#define DMA_SET_CH4_WRITE_ADDR (*(volatile uint32_t *)0x50002104)
-#define DMA_SET_CH4_TRANS_COUNT (*(volatile uint32_t *)0x50002108)
-#define DMA_SET_CH4_CTRL_TRIG (*(volatile uint32_t *)0x5000210c)
-#define DMA_SET_CH4_AL1_CTRL (*(volatile uint32_t *)0x50002110)
-#define DMA_SET_CH4_AL1_READ_ADDR (*(volatile uint32_t *)0x50002114)
-#define DMA_SET_CH4_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002118)
-#define DMA_SET_CH4_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000211c)
-#define DMA_SET_CH4_AL2_CTRL (*(volatile uint32_t *)0x50002120)
-#define DMA_SET_CH4_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002124)
-#define DMA_SET_CH4_AL2_READ_ADDR (*(volatile uint32_t *)0x50002128)
-#define DMA_SET_CH4_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000212c)
-#define DMA_SET_CH4_AL3_CTRL (*(volatile uint32_t *)0x50002130)
-#define DMA_SET_CH4_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002134)
-#define DMA_SET_CH4_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002138)
-#define DMA_SET_CH4_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000213c)
-#define DMA_SET_CH5_READ_ADDR (*(volatile uint32_t *)0x50002140)
-#define DMA_SET_CH5_WRITE_ADDR (*(volatile uint32_t *)0x50002144)
-#define DMA_SET_CH5_TRANS_COUNT (*(volatile uint32_t *)0x50002148)
-#define DMA_SET_CH5_CTRL_TRIG (*(volatile uint32_t *)0x5000214c)
-#define DMA_SET_CH5_AL1_CTRL (*(volatile uint32_t *)0x50002150)
-#define DMA_SET_CH5_AL1_READ_ADDR (*(volatile uint32_t *)0x50002154)
-#define DMA_SET_CH5_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002158)
-#define DMA_SET_CH5_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000215c)
-#define DMA_SET_CH5_AL2_CTRL (*(volatile uint32_t *)0x50002160)
-#define DMA_SET_CH5_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002164)
-#define DMA_SET_CH5_AL2_READ_ADDR (*(volatile uint32_t *)0x50002168)
-#define DMA_SET_CH5_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000216c)
-#define DMA_SET_CH5_AL3_CTRL (*(volatile uint32_t *)0x50002170)
-#define DMA_SET_CH5_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002174)
-#define DMA_SET_CH5_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002178)
-#define DMA_SET_CH5_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000217c)
-#define DMA_SET_CH6_READ_ADDR (*(volatile uint32_t *)0x50002180)
-#define DMA_SET_CH6_WRITE_ADDR (*(volatile uint32_t *)0x50002184)
-#define DMA_SET_CH6_TRANS_COUNT (*(volatile uint32_t *)0x50002188)
-#define DMA_SET_CH6_CTRL_TRIG (*(volatile uint32_t *)0x5000218c)
-#define DMA_SET_CH6_AL1_CTRL (*(volatile uint32_t *)0x50002190)
-#define DMA_SET_CH6_AL1_READ_ADDR (*(volatile uint32_t *)0x50002194)
-#define DMA_SET_CH6_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002198)
-#define DMA_SET_CH6_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000219c)
-#define DMA_SET_CH6_AL2_CTRL (*(volatile uint32_t *)0x500021a0)
-#define DMA_SET_CH6_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500021a4)
-#define DMA_SET_CH6_AL2_READ_ADDR (*(volatile uint32_t *)0x500021a8)
-#define DMA_SET_CH6_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500021ac)
-#define DMA_SET_CH6_AL3_CTRL (*(volatile uint32_t *)0x500021b0)
-#define DMA_SET_CH6_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500021b4)
-#define DMA_SET_CH6_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500021b8)
-#define DMA_SET_CH6_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500021bc)
-#define DMA_SET_CH7_READ_ADDR (*(volatile uint32_t *)0x500021c0)
-#define DMA_SET_CH7_WRITE_ADDR (*(volatile uint32_t *)0x500021c4)
-#define DMA_SET_CH7_TRANS_COUNT (*(volatile uint32_t *)0x500021c8)
-#define DMA_SET_CH7_CTRL_TRIG (*(volatile uint32_t *)0x500021cc)
-#define DMA_SET_CH7_AL1_CTRL (*(volatile uint32_t *)0x500021d0)
-#define DMA_SET_CH7_AL1_READ_ADDR (*(volatile uint32_t *)0x500021d4)
-#define DMA_SET_CH7_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500021d8)
-#define DMA_SET_CH7_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500021dc)
-#define DMA_SET_CH7_AL2_CTRL (*(volatile uint32_t *)0x500021e0)
-#define DMA_SET_CH7_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500021e4)
-#define DMA_SET_CH7_AL2_READ_ADDR (*(volatile uint32_t *)0x500021e8)
-#define DMA_SET_CH7_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500021ec)
-#define DMA_SET_CH7_AL3_CTRL (*(volatile uint32_t *)0x500021f0)
-#define DMA_SET_CH7_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500021f4)
-#define DMA_SET_CH7_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500021f8)
-#define DMA_SET_CH7_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500021fc)
-#define DMA_SET_CH8_READ_ADDR (*(volatile uint32_t *)0x50002200)
-#define DMA_SET_CH8_WRITE_ADDR (*(volatile uint32_t *)0x50002204)
-#define DMA_SET_CH8_TRANS_COUNT (*(volatile uint32_t *)0x50002208)
-#define DMA_SET_CH8_CTRL_TRIG (*(volatile uint32_t *)0x5000220c)
-#define DMA_SET_CH8_AL1_CTRL (*(volatile uint32_t *)0x50002210)
-#define DMA_SET_CH8_AL1_READ_ADDR (*(volatile uint32_t *)0x50002214)
-#define DMA_SET_CH8_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002218)
-#define DMA_SET_CH8_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000221c)
-#define DMA_SET_CH8_AL2_CTRL (*(volatile uint32_t *)0x50002220)
-#define DMA_SET_CH8_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002224)
-#define DMA_SET_CH8_AL2_READ_ADDR (*(volatile uint32_t *)0x50002228)
-#define DMA_SET_CH8_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000222c)
-#define DMA_SET_CH8_AL3_CTRL (*(volatile uint32_t *)0x50002230)
-#define DMA_SET_CH8_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002234)
-#define DMA_SET_CH8_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002238)
-#define DMA_SET_CH8_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000223c)
-#define DMA_SET_CH9_READ_ADDR (*(volatile uint32_t *)0x50002240)
-#define DMA_SET_CH9_WRITE_ADDR (*(volatile uint32_t *)0x50002244)
-#define DMA_SET_CH9_TRANS_COUNT (*(volatile uint32_t *)0x50002248)
-#define DMA_SET_CH9_CTRL_TRIG (*(volatile uint32_t *)0x5000224c)
-#define DMA_SET_CH9_AL1_CTRL (*(volatile uint32_t *)0x50002250)
-#define DMA_SET_CH9_AL1_READ_ADDR (*(volatile uint32_t *)0x50002254)
-#define DMA_SET_CH9_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002258)
-#define DMA_SET_CH9_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000225c)
-#define DMA_SET_CH9_AL2_CTRL (*(volatile uint32_t *)0x50002260)
-#define DMA_SET_CH9_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002264)
-#define DMA_SET_CH9_AL2_READ_ADDR (*(volatile uint32_t *)0x50002268)
-#define DMA_SET_CH9_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000226c)
-#define DMA_SET_CH9_AL3_CTRL (*(volatile uint32_t *)0x50002270)
-#define DMA_SET_CH9_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002274)
-#define DMA_SET_CH9_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002278)
-#define DMA_SET_CH9_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000227c)
-#define DMA_SET_CH10_READ_ADDR (*(volatile uint32_t *)0x50002280)
-#define DMA_SET_CH10_WRITE_ADDR (*(volatile uint32_t *)0x50002284)
-#define DMA_SET_CH10_TRANS_COUNT (*(volatile uint32_t *)0x50002288)
-#define DMA_SET_CH10_CTRL_TRIG (*(volatile uint32_t *)0x5000228c)
-#define DMA_SET_CH10_AL1_CTRL (*(volatile uint32_t *)0x50002290)
-#define DMA_SET_CH10_AL1_READ_ADDR (*(volatile uint32_t *)0x50002294)
-#define DMA_SET_CH10_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002298)
-#define DMA_SET_CH10_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000229c)
-#define DMA_SET_CH10_AL2_CTRL (*(volatile uint32_t *)0x500022a0)
-#define DMA_SET_CH10_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500022a4)
-#define DMA_SET_CH10_AL2_READ_ADDR (*(volatile uint32_t *)0x500022a8)
-#define DMA_SET_CH10_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500022ac)
-#define DMA_SET_CH10_AL3_CTRL (*(volatile uint32_t *)0x500022b0)
-#define DMA_SET_CH10_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500022b4)
-#define DMA_SET_CH10_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500022b8)
-#define DMA_SET_CH10_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500022bc)
-#define DMA_SET_CH11_READ_ADDR (*(volatile uint32_t *)0x500022c0)
-#define DMA_SET_CH11_WRITE_ADDR (*(volatile uint32_t *)0x500022c4)
-#define DMA_SET_CH11_TRANS_COUNT (*(volatile uint32_t *)0x500022c8)
-#define DMA_SET_CH11_CTRL_TRIG (*(volatile uint32_t *)0x500022cc)
-#define DMA_SET_CH11_AL1_CTRL (*(volatile uint32_t *)0x500022d0)
-#define DMA_SET_CH11_AL1_READ_ADDR (*(volatile uint32_t *)0x500022d4)
-#define DMA_SET_CH11_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500022d8)
-#define DMA_SET_CH11_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500022dc)
-#define DMA_SET_CH11_AL2_CTRL (*(volatile uint32_t *)0x500022e0)
-#define DMA_SET_CH11_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500022e4)
-#define DMA_SET_CH11_AL2_READ_ADDR (*(volatile uint32_t *)0x500022e8)
-#define DMA_SET_CH11_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500022ec)
-#define DMA_SET_CH11_AL3_CTRL (*(volatile uint32_t *)0x500022f0)
-#define DMA_SET_CH11_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500022f4)
-#define DMA_SET_CH11_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500022f8)
-#define DMA_SET_CH11_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500022fc)
-#define DMA_SET_CH12_READ_ADDR (*(volatile uint32_t *)0x50002300)
-#define DMA_SET_CH12_WRITE_ADDR (*(volatile uint32_t *)0x50002304)
-#define DMA_SET_CH12_TRANS_COUNT (*(volatile uint32_t *)0x50002308)
-#define DMA_SET_CH12_CTRL_TRIG (*(volatile uint32_t *)0x5000230c)
-#define DMA_SET_CH12_AL1_CTRL (*(volatile uint32_t *)0x50002310)
-#define DMA_SET_CH12_AL1_READ_ADDR (*(volatile uint32_t *)0x50002314)
-#define DMA_SET_CH12_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002318)
-#define DMA_SET_CH12_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000231c)
-#define DMA_SET_CH12_AL2_CTRL (*(volatile uint32_t *)0x50002320)
-#define DMA_SET_CH12_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002324)
-#define DMA_SET_CH12_AL2_READ_ADDR (*(volatile uint32_t *)0x50002328)
-#define DMA_SET_CH12_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000232c)
-#define DMA_SET_CH12_AL3_CTRL (*(volatile uint32_t *)0x50002330)
-#define DMA_SET_CH12_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002334)
-#define DMA_SET_CH12_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002338)
-#define DMA_SET_CH12_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000233c)
-#define DMA_SET_CH13_READ_ADDR (*(volatile uint32_t *)0x50002340)
-#define DMA_SET_CH13_WRITE_ADDR (*(volatile uint32_t *)0x50002344)
-#define DMA_SET_CH13_TRANS_COUNT (*(volatile uint32_t *)0x50002348)
-#define DMA_SET_CH13_CTRL_TRIG (*(volatile uint32_t *)0x5000234c)
-#define DMA_SET_CH13_AL1_CTRL (*(volatile uint32_t *)0x50002350)
-#define DMA_SET_CH13_AL1_READ_ADDR (*(volatile uint32_t *)0x50002354)
-#define DMA_SET_CH13_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002358)
-#define DMA_SET_CH13_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000235c)
-#define DMA_SET_CH13_AL2_CTRL (*(volatile uint32_t *)0x50002360)
-#define DMA_SET_CH13_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50002364)
-#define DMA_SET_CH13_AL2_READ_ADDR (*(volatile uint32_t *)0x50002368)
-#define DMA_SET_CH13_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000236c)
-#define DMA_SET_CH13_AL3_CTRL (*(volatile uint32_t *)0x50002370)
-#define DMA_SET_CH13_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50002374)
-#define DMA_SET_CH13_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50002378)
-#define DMA_SET_CH13_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000237c)
-#define DMA_SET_CH14_READ_ADDR (*(volatile uint32_t *)0x50002380)
-#define DMA_SET_CH14_WRITE_ADDR (*(volatile uint32_t *)0x50002384)
-#define DMA_SET_CH14_TRANS_COUNT (*(volatile uint32_t *)0x50002388)
-#define DMA_SET_CH14_CTRL_TRIG (*(volatile uint32_t *)0x5000238c)
-#define DMA_SET_CH14_AL1_CTRL (*(volatile uint32_t *)0x50002390)
-#define DMA_SET_CH14_AL1_READ_ADDR (*(volatile uint32_t *)0x50002394)
-#define DMA_SET_CH14_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50002398)
-#define DMA_SET_CH14_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000239c)
-#define DMA_SET_CH14_AL2_CTRL (*(volatile uint32_t *)0x500023a0)
-#define DMA_SET_CH14_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500023a4)
-#define DMA_SET_CH14_AL2_READ_ADDR (*(volatile uint32_t *)0x500023a8)
-#define DMA_SET_CH14_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500023ac)
-#define DMA_SET_CH14_AL3_CTRL (*(volatile uint32_t *)0x500023b0)
-#define DMA_SET_CH14_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500023b4)
-#define DMA_SET_CH14_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500023b8)
-#define DMA_SET_CH14_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500023bc)
-#define DMA_SET_CH15_READ_ADDR (*(volatile uint32_t *)0x500023c0)
-#define DMA_SET_CH15_WRITE_ADDR (*(volatile uint32_t *)0x500023c4)
-#define DMA_SET_CH15_TRANS_COUNT (*(volatile uint32_t *)0x500023c8)
-#define DMA_SET_CH15_CTRL_TRIG (*(volatile uint32_t *)0x500023cc)
-#define DMA_SET_CH15_AL1_CTRL (*(volatile uint32_t *)0x500023d0)
-#define DMA_SET_CH15_AL1_READ_ADDR (*(volatile uint32_t *)0x500023d4)
-#define DMA_SET_CH15_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500023d8)
-#define DMA_SET_CH15_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500023dc)
-#define DMA_SET_CH15_AL2_CTRL (*(volatile uint32_t *)0x500023e0)
-#define DMA_SET_CH15_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500023e4)
-#define DMA_SET_CH15_AL2_READ_ADDR (*(volatile uint32_t *)0x500023e8)
-#define DMA_SET_CH15_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500023ec)
-#define DMA_SET_CH15_AL3_CTRL (*(volatile uint32_t *)0x500023f0)
-#define DMA_SET_CH15_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500023f4)
-#define DMA_SET_CH15_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500023f8)
-#define DMA_SET_CH15_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500023fc)
-#define DMA_SET_INTR (*(volatile uint32_t *)0x50002400)
-#define DMA_SET_INTE0 (*(volatile uint32_t *)0x50002404)
-#define DMA_SET_INTF0 (*(volatile uint32_t *)0x50002408)
-#define DMA_SET_INTS0 (*(volatile uint32_t *)0x5000240c)
-#define DMA_SET_INTE1 (*(volatile uint32_t *)0x50002414)
-#define DMA_SET_INTF1 (*(volatile uint32_t *)0x50002418)
-#define DMA_SET_INTS1 (*(volatile uint32_t *)0x5000241c)
-#define DMA_SET_INTE2 (*(volatile uint32_t *)0x50002424)
-#define DMA_SET_INTF2 (*(volatile uint32_t *)0x50002428)
-#define DMA_SET_INTS2 (*(volatile uint32_t *)0x5000242c)
-#define DMA_SET_INTE3 (*(volatile uint32_t *)0x50002434)
-#define DMA_SET_INTF3 (*(volatile uint32_t *)0x50002438)
-#define DMA_SET_INTS3 (*(volatile uint32_t *)0x5000243c)
-#define DMA_SET_TIMER0 (*(volatile uint32_t *)0x50002440)
-#define DMA_SET_TIMER1 (*(volatile uint32_t *)0x50002444)
-#define DMA_SET_TIMER2 (*(volatile uint32_t *)0x50002448)
-#define DMA_SET_TIMER3 (*(volatile uint32_t *)0x5000244c)
-#define DMA_SET_MULTI_CHAN_TRIGGER (*(volatile uint32_t *)0x50002450)
-#define DMA_SET_SNIFF_CTRL (*(volatile uint32_t *)0x50002454)
-#define DMA_SET_SNIFF_DATA (*(volatile uint32_t *)0x50002458)
-#define DMA_SET_FIFO_LEVELS (*(volatile uint32_t *)0x50002460)
-#define DMA_SET_CHAN_ABORT (*(volatile uint32_t *)0x50002464)
-#define DMA_SET_N_CHANNELS (*(volatile uint32_t *)0x50002468)
-#define DMA_SET_SECCFG_CH0 (*(volatile uint32_t *)0x50002480)
-#define DMA_SET_SECCFG_CH1 (*(volatile uint32_t *)0x50002484)
-#define DMA_SET_SECCFG_CH2 (*(volatile uint32_t *)0x50002488)
-#define DMA_SET_SECCFG_CH3 (*(volatile uint32_t *)0x5000248c)
-#define DMA_SET_SECCFG_CH4 (*(volatile uint32_t *)0x50002490)
-#define DMA_SET_SECCFG_CH5 (*(volatile uint32_t *)0x50002494)
-#define DMA_SET_SECCFG_CH6 (*(volatile uint32_t *)0x50002498)
-#define DMA_SET_SECCFG_CH7 (*(volatile uint32_t *)0x5000249c)
-#define DMA_SET_SECCFG_CH8 (*(volatile uint32_t *)0x500024a0)
-#define DMA_SET_SECCFG_CH9 (*(volatile uint32_t *)0x500024a4)
-#define DMA_SET_SECCFG_CH10 (*(volatile uint32_t *)0x500024a8)
-#define DMA_SET_SECCFG_CH11 (*(volatile uint32_t *)0x500024ac)
-#define DMA_SET_SECCFG_CH12 (*(volatile uint32_t *)0x500024b0)
-#define DMA_SET_SECCFG_CH13 (*(volatile uint32_t *)0x500024b4)
-#define DMA_SET_SECCFG_CH14 (*(volatile uint32_t *)0x500024b8)
-#define DMA_SET_SECCFG_CH15 (*(volatile uint32_t *)0x500024bc)
-#define DMA_SET_SECCFG_IRQ0 (*(volatile uint32_t *)0x500024c0)
-#define DMA_SET_SECCFG_IRQ1 (*(volatile uint32_t *)0x500024c4)
-#define DMA_SET_SECCFG_IRQ2 (*(volatile uint32_t *)0x500024c8)
-#define DMA_SET_SECCFG_IRQ3 (*(volatile uint32_t *)0x500024cc)
-#define DMA_SET_SECCFG_MISC (*(volatile uint32_t *)0x500024d0)
-#define DMA_SET_MPU_CTRL (*(volatile uint32_t *)0x50002500)
-#define DMA_SET_MPU_BAR0 (*(volatile uint32_t *)0x50002504)
-#define DMA_SET_MPU_LAR0 (*(volatile uint32_t *)0x50002508)
-#define DMA_SET_MPU_BAR1 (*(volatile uint32_t *)0x5000250c)
-#define DMA_SET_MPU_LAR1 (*(volatile uint32_t *)0x50002510)
-#define DMA_SET_MPU_BAR2 (*(volatile uint32_t *)0x50002514)
-#define DMA_SET_MPU_LAR2 (*(volatile uint32_t *)0x50002518)
-#define DMA_SET_MPU_BAR3 (*(volatile uint32_t *)0x5000251c)
-#define DMA_SET_MPU_LAR3 (*(volatile uint32_t *)0x50002520)
-#define DMA_SET_MPU_BAR4 (*(volatile uint32_t *)0x50002524)
-#define DMA_SET_MPU_LAR4 (*(volatile uint32_t *)0x50002528)
-#define DMA_SET_MPU_BAR5 (*(volatile uint32_t *)0x5000252c)
-#define DMA_SET_MPU_LAR5 (*(volatile uint32_t *)0x50002530)
-#define DMA_SET_MPU_BAR6 (*(volatile uint32_t *)0x50002534)
-#define DMA_SET_MPU_LAR6 (*(volatile uint32_t *)0x50002538)
-#define DMA_SET_MPU_BAR7 (*(volatile uint32_t *)0x5000253c)
-#define DMA_SET_MPU_LAR7 (*(volatile uint32_t *)0x50002540)
-#define DMA_SET_CH0_DBG_CTDREQ (*(volatile uint32_t *)0x50002800)
-#define DMA_SET_CH0_DBG_TCR (*(volatile uint32_t *)0x50002804)
-#define DMA_SET_CH1_DBG_CTDREQ (*(volatile uint32_t *)0x50002840)
-#define DMA_SET_CH1_DBG_TCR (*(volatile uint32_t *)0x50002844)
-#define DMA_SET_CH2_DBG_CTDREQ (*(volatile uint32_t *)0x50002880)
-#define DMA_SET_CH2_DBG_TCR (*(volatile uint32_t *)0x50002884)
-#define DMA_SET_CH3_DBG_CTDREQ (*(volatile uint32_t *)0x500028c0)
-#define DMA_SET_CH3_DBG_TCR (*(volatile uint32_t *)0x500028c4)
-#define DMA_SET_CH4_DBG_CTDREQ (*(volatile uint32_t *)0x50002900)
-#define DMA_SET_CH4_DBG_TCR (*(volatile uint32_t *)0x50002904)
-#define DMA_SET_CH5_DBG_CTDREQ (*(volatile uint32_t *)0x50002940)
-#define DMA_SET_CH5_DBG_TCR (*(volatile uint32_t *)0x50002944)
-#define DMA_SET_CH6_DBG_CTDREQ (*(volatile uint32_t *)0x50002980)
-#define DMA_SET_CH6_DBG_TCR (*(volatile uint32_t *)0x50002984)
-#define DMA_SET_CH7_DBG_CTDREQ (*(volatile uint32_t *)0x500029c0)
-#define DMA_SET_CH7_DBG_TCR (*(volatile uint32_t *)0x500029c4)
-#define DMA_SET_CH8_DBG_CTDREQ (*(volatile uint32_t *)0x50002a00)
-#define DMA_SET_CH8_DBG_TCR (*(volatile uint32_t *)0x50002a04)
-#define DMA_SET_CH9_DBG_CTDREQ (*(volatile uint32_t *)0x50002a40)
-#define DMA_SET_CH9_DBG_TCR (*(volatile uint32_t *)0x50002a44)
-#define DMA_SET_CH10_DBG_CTDREQ (*(volatile uint32_t *)0x50002a80)
-#define DMA_SET_CH10_DBG_TCR (*(volatile uint32_t *)0x50002a84)
-#define DMA_SET_CH11_DBG_CTDREQ (*(volatile uint32_t *)0x50002ac0)
-#define DMA_SET_CH11_DBG_TCR (*(volatile uint32_t *)0x50002ac4)
-#define DMA_SET_CH12_DBG_CTDREQ (*(volatile uint32_t *)0x50002b00)
-#define DMA_SET_CH12_DBG_TCR (*(volatile uint32_t *)0x50002b04)
-#define DMA_SET_CH13_DBG_CTDREQ (*(volatile uint32_t *)0x50002b40)
-#define DMA_SET_CH13_DBG_TCR (*(volatile uint32_t *)0x50002b44)
-#define DMA_SET_CH14_DBG_CTDREQ (*(volatile uint32_t *)0x50002b80)
-#define DMA_SET_CH14_DBG_TCR (*(volatile uint32_t *)0x50002b84)
-#define DMA_SET_CH15_DBG_CTDREQ (*(volatile uint32_t *)0x50002bc0)
-#define DMA_SET_CH15_DBG_TCR (*(volatile uint32_t *)0x50002bc4)
-#define DMA_CLR_CH0_READ_ADDR (*(volatile uint32_t *)0x50003000)
-#define DMA_CLR_CH0_WRITE_ADDR (*(volatile uint32_t *)0x50003004)
-#define DMA_CLR_CH0_TRANS_COUNT (*(volatile uint32_t *)0x50003008)
-#define DMA_CLR_CH0_CTRL_TRIG (*(volatile uint32_t *)0x5000300c)
-#define DMA_CLR_CH0_AL1_CTRL (*(volatile uint32_t *)0x50003010)
-#define DMA_CLR_CH0_AL1_READ_ADDR (*(volatile uint32_t *)0x50003014)
-#define DMA_CLR_CH0_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003018)
-#define DMA_CLR_CH0_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000301c)
-#define DMA_CLR_CH0_AL2_CTRL (*(volatile uint32_t *)0x50003020)
-#define DMA_CLR_CH0_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003024)
-#define DMA_CLR_CH0_AL2_READ_ADDR (*(volatile uint32_t *)0x50003028)
-#define DMA_CLR_CH0_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000302c)
-#define DMA_CLR_CH0_AL3_CTRL (*(volatile uint32_t *)0x50003030)
-#define DMA_CLR_CH0_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003034)
-#define DMA_CLR_CH0_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003038)
-#define DMA_CLR_CH0_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000303c)
-#define DMA_CLR_CH1_READ_ADDR (*(volatile uint32_t *)0x50003040)
-#define DMA_CLR_CH1_WRITE_ADDR (*(volatile uint32_t *)0x50003044)
-#define DMA_CLR_CH1_TRANS_COUNT (*(volatile uint32_t *)0x50003048)
-#define DMA_CLR_CH1_CTRL_TRIG (*(volatile uint32_t *)0x5000304c)
-#define DMA_CLR_CH1_AL1_CTRL (*(volatile uint32_t *)0x50003050)
-#define DMA_CLR_CH1_AL1_READ_ADDR (*(volatile uint32_t *)0x50003054)
-#define DMA_CLR_CH1_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003058)
-#define DMA_CLR_CH1_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000305c)
-#define DMA_CLR_CH1_AL2_CTRL (*(volatile uint32_t *)0x50003060)
-#define DMA_CLR_CH1_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003064)
-#define DMA_CLR_CH1_AL2_READ_ADDR (*(volatile uint32_t *)0x50003068)
-#define DMA_CLR_CH1_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000306c)
-#define DMA_CLR_CH1_AL3_CTRL (*(volatile uint32_t *)0x50003070)
-#define DMA_CLR_CH1_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003074)
-#define DMA_CLR_CH1_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003078)
-#define DMA_CLR_CH1_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000307c)
-#define DMA_CLR_CH2_READ_ADDR (*(volatile uint32_t *)0x50003080)
-#define DMA_CLR_CH2_WRITE_ADDR (*(volatile uint32_t *)0x50003084)
-#define DMA_CLR_CH2_TRANS_COUNT (*(volatile uint32_t *)0x50003088)
-#define DMA_CLR_CH2_CTRL_TRIG (*(volatile uint32_t *)0x5000308c)
-#define DMA_CLR_CH2_AL1_CTRL (*(volatile uint32_t *)0x50003090)
-#define DMA_CLR_CH2_AL1_READ_ADDR (*(volatile uint32_t *)0x50003094)
-#define DMA_CLR_CH2_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003098)
-#define DMA_CLR_CH2_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000309c)
-#define DMA_CLR_CH2_AL2_CTRL (*(volatile uint32_t *)0x500030a0)
-#define DMA_CLR_CH2_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500030a4)
-#define DMA_CLR_CH2_AL2_READ_ADDR (*(volatile uint32_t *)0x500030a8)
-#define DMA_CLR_CH2_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500030ac)
-#define DMA_CLR_CH2_AL3_CTRL (*(volatile uint32_t *)0x500030b0)
-#define DMA_CLR_CH2_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500030b4)
-#define DMA_CLR_CH2_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500030b8)
-#define DMA_CLR_CH2_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500030bc)
-#define DMA_CLR_CH3_READ_ADDR (*(volatile uint32_t *)0x500030c0)
-#define DMA_CLR_CH3_WRITE_ADDR (*(volatile uint32_t *)0x500030c4)
-#define DMA_CLR_CH3_TRANS_COUNT (*(volatile uint32_t *)0x500030c8)
-#define DMA_CLR_CH3_CTRL_TRIG (*(volatile uint32_t *)0x500030cc)
-#define DMA_CLR_CH3_AL1_CTRL (*(volatile uint32_t *)0x500030d0)
-#define DMA_CLR_CH3_AL1_READ_ADDR (*(volatile uint32_t *)0x500030d4)
-#define DMA_CLR_CH3_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500030d8)
-#define DMA_CLR_CH3_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500030dc)
-#define DMA_CLR_CH3_AL2_CTRL (*(volatile uint32_t *)0x500030e0)
-#define DMA_CLR_CH3_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500030e4)
-#define DMA_CLR_CH3_AL2_READ_ADDR (*(volatile uint32_t *)0x500030e8)
-#define DMA_CLR_CH3_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500030ec)
-#define DMA_CLR_CH3_AL3_CTRL (*(volatile uint32_t *)0x500030f0)
-#define DMA_CLR_CH3_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500030f4)
-#define DMA_CLR_CH3_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500030f8)
-#define DMA_CLR_CH3_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500030fc)
-#define DMA_CLR_CH4_READ_ADDR (*(volatile uint32_t *)0x50003100)
-#define DMA_CLR_CH4_WRITE_ADDR (*(volatile uint32_t *)0x50003104)
-#define DMA_CLR_CH4_TRANS_COUNT (*(volatile uint32_t *)0x50003108)
-#define DMA_CLR_CH4_CTRL_TRIG (*(volatile uint32_t *)0x5000310c)
-#define DMA_CLR_CH4_AL1_CTRL (*(volatile uint32_t *)0x50003110)
-#define DMA_CLR_CH4_AL1_READ_ADDR (*(volatile uint32_t *)0x50003114)
-#define DMA_CLR_CH4_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003118)
-#define DMA_CLR_CH4_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000311c)
-#define DMA_CLR_CH4_AL2_CTRL (*(volatile uint32_t *)0x50003120)
-#define DMA_CLR_CH4_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003124)
-#define DMA_CLR_CH4_AL2_READ_ADDR (*(volatile uint32_t *)0x50003128)
-#define DMA_CLR_CH4_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000312c)
-#define DMA_CLR_CH4_AL3_CTRL (*(volatile uint32_t *)0x50003130)
-#define DMA_CLR_CH4_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003134)
-#define DMA_CLR_CH4_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003138)
-#define DMA_CLR_CH4_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000313c)
-#define DMA_CLR_CH5_READ_ADDR (*(volatile uint32_t *)0x50003140)
-#define DMA_CLR_CH5_WRITE_ADDR (*(volatile uint32_t *)0x50003144)
-#define DMA_CLR_CH5_TRANS_COUNT (*(volatile uint32_t *)0x50003148)
-#define DMA_CLR_CH5_CTRL_TRIG (*(volatile uint32_t *)0x5000314c)
-#define DMA_CLR_CH5_AL1_CTRL (*(volatile uint32_t *)0x50003150)
-#define DMA_CLR_CH5_AL1_READ_ADDR (*(volatile uint32_t *)0x50003154)
-#define DMA_CLR_CH5_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003158)
-#define DMA_CLR_CH5_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000315c)
-#define DMA_CLR_CH5_AL2_CTRL (*(volatile uint32_t *)0x50003160)
-#define DMA_CLR_CH5_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003164)
-#define DMA_CLR_CH5_AL2_READ_ADDR (*(volatile uint32_t *)0x50003168)
-#define DMA_CLR_CH5_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000316c)
-#define DMA_CLR_CH5_AL3_CTRL (*(volatile uint32_t *)0x50003170)
-#define DMA_CLR_CH5_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003174)
-#define DMA_CLR_CH5_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003178)
-#define DMA_CLR_CH5_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000317c)
-#define DMA_CLR_CH6_READ_ADDR (*(volatile uint32_t *)0x50003180)
-#define DMA_CLR_CH6_WRITE_ADDR (*(volatile uint32_t *)0x50003184)
-#define DMA_CLR_CH6_TRANS_COUNT (*(volatile uint32_t *)0x50003188)
-#define DMA_CLR_CH6_CTRL_TRIG (*(volatile uint32_t *)0x5000318c)
-#define DMA_CLR_CH6_AL1_CTRL (*(volatile uint32_t *)0x50003190)
-#define DMA_CLR_CH6_AL1_READ_ADDR (*(volatile uint32_t *)0x50003194)
-#define DMA_CLR_CH6_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003198)
-#define DMA_CLR_CH6_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000319c)
-#define DMA_CLR_CH6_AL2_CTRL (*(volatile uint32_t *)0x500031a0)
-#define DMA_CLR_CH6_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500031a4)
-#define DMA_CLR_CH6_AL2_READ_ADDR (*(volatile uint32_t *)0x500031a8)
-#define DMA_CLR_CH6_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500031ac)
-#define DMA_CLR_CH6_AL3_CTRL (*(volatile uint32_t *)0x500031b0)
-#define DMA_CLR_CH6_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500031b4)
-#define DMA_CLR_CH6_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500031b8)
-#define DMA_CLR_CH6_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500031bc)
-#define DMA_CLR_CH7_READ_ADDR (*(volatile uint32_t *)0x500031c0)
-#define DMA_CLR_CH7_WRITE_ADDR (*(volatile uint32_t *)0x500031c4)
-#define DMA_CLR_CH7_TRANS_COUNT (*(volatile uint32_t *)0x500031c8)
-#define DMA_CLR_CH7_CTRL_TRIG (*(volatile uint32_t *)0x500031cc)
-#define DMA_CLR_CH7_AL1_CTRL (*(volatile uint32_t *)0x500031d0)
-#define DMA_CLR_CH7_AL1_READ_ADDR (*(volatile uint32_t *)0x500031d4)
-#define DMA_CLR_CH7_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500031d8)
-#define DMA_CLR_CH7_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500031dc)
-#define DMA_CLR_CH7_AL2_CTRL (*(volatile uint32_t *)0x500031e0)
-#define DMA_CLR_CH7_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500031e4)
-#define DMA_CLR_CH7_AL2_READ_ADDR (*(volatile uint32_t *)0x500031e8)
-#define DMA_CLR_CH7_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500031ec)
-#define DMA_CLR_CH7_AL3_CTRL (*(volatile uint32_t *)0x500031f0)
-#define DMA_CLR_CH7_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500031f4)
-#define DMA_CLR_CH7_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500031f8)
-#define DMA_CLR_CH7_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500031fc)
-#define DMA_CLR_CH8_READ_ADDR (*(volatile uint32_t *)0x50003200)
-#define DMA_CLR_CH8_WRITE_ADDR (*(volatile uint32_t *)0x50003204)
-#define DMA_CLR_CH8_TRANS_COUNT (*(volatile uint32_t *)0x50003208)
-#define DMA_CLR_CH8_CTRL_TRIG (*(volatile uint32_t *)0x5000320c)
-#define DMA_CLR_CH8_AL1_CTRL (*(volatile uint32_t *)0x50003210)
-#define DMA_CLR_CH8_AL1_READ_ADDR (*(volatile uint32_t *)0x50003214)
-#define DMA_CLR_CH8_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003218)
-#define DMA_CLR_CH8_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000321c)
-#define DMA_CLR_CH8_AL2_CTRL (*(volatile uint32_t *)0x50003220)
-#define DMA_CLR_CH8_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003224)
-#define DMA_CLR_CH8_AL2_READ_ADDR (*(volatile uint32_t *)0x50003228)
-#define DMA_CLR_CH8_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000322c)
-#define DMA_CLR_CH8_AL3_CTRL (*(volatile uint32_t *)0x50003230)
-#define DMA_CLR_CH8_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003234)
-#define DMA_CLR_CH8_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003238)
-#define DMA_CLR_CH8_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000323c)
-#define DMA_CLR_CH9_READ_ADDR (*(volatile uint32_t *)0x50003240)
-#define DMA_CLR_CH9_WRITE_ADDR (*(volatile uint32_t *)0x50003244)
-#define DMA_CLR_CH9_TRANS_COUNT (*(volatile uint32_t *)0x50003248)
-#define DMA_CLR_CH9_CTRL_TRIG (*(volatile uint32_t *)0x5000324c)
-#define DMA_CLR_CH9_AL1_CTRL (*(volatile uint32_t *)0x50003250)
-#define DMA_CLR_CH9_AL1_READ_ADDR (*(volatile uint32_t *)0x50003254)
-#define DMA_CLR_CH9_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003258)
-#define DMA_CLR_CH9_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000325c)
-#define DMA_CLR_CH9_AL2_CTRL (*(volatile uint32_t *)0x50003260)
-#define DMA_CLR_CH9_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003264)
-#define DMA_CLR_CH9_AL2_READ_ADDR (*(volatile uint32_t *)0x50003268)
-#define DMA_CLR_CH9_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000326c)
-#define DMA_CLR_CH9_AL3_CTRL (*(volatile uint32_t *)0x50003270)
-#define DMA_CLR_CH9_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003274)
-#define DMA_CLR_CH9_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003278)
-#define DMA_CLR_CH9_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000327c)
-#define DMA_CLR_CH10_READ_ADDR (*(volatile uint32_t *)0x50003280)
-#define DMA_CLR_CH10_WRITE_ADDR (*(volatile uint32_t *)0x50003284)
-#define DMA_CLR_CH10_TRANS_COUNT (*(volatile uint32_t *)0x50003288)
-#define DMA_CLR_CH10_CTRL_TRIG (*(volatile uint32_t *)0x5000328c)
-#define DMA_CLR_CH10_AL1_CTRL (*(volatile uint32_t *)0x50003290)
-#define DMA_CLR_CH10_AL1_READ_ADDR (*(volatile uint32_t *)0x50003294)
-#define DMA_CLR_CH10_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003298)
-#define DMA_CLR_CH10_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000329c)
-#define DMA_CLR_CH10_AL2_CTRL (*(volatile uint32_t *)0x500032a0)
-#define DMA_CLR_CH10_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500032a4)
-#define DMA_CLR_CH10_AL2_READ_ADDR (*(volatile uint32_t *)0x500032a8)
-#define DMA_CLR_CH10_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500032ac)
-#define DMA_CLR_CH10_AL3_CTRL (*(volatile uint32_t *)0x500032b0)
-#define DMA_CLR_CH10_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500032b4)
-#define DMA_CLR_CH10_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500032b8)
-#define DMA_CLR_CH10_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500032bc)
-#define DMA_CLR_CH11_READ_ADDR (*(volatile uint32_t *)0x500032c0)
-#define DMA_CLR_CH11_WRITE_ADDR (*(volatile uint32_t *)0x500032c4)
-#define DMA_CLR_CH11_TRANS_COUNT (*(volatile uint32_t *)0x500032c8)
-#define DMA_CLR_CH11_CTRL_TRIG (*(volatile uint32_t *)0x500032cc)
-#define DMA_CLR_CH11_AL1_CTRL (*(volatile uint32_t *)0x500032d0)
-#define DMA_CLR_CH11_AL1_READ_ADDR (*(volatile uint32_t *)0x500032d4)
-#define DMA_CLR_CH11_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500032d8)
-#define DMA_CLR_CH11_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500032dc)
-#define DMA_CLR_CH11_AL2_CTRL (*(volatile uint32_t *)0x500032e0)
-#define DMA_CLR_CH11_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500032e4)
-#define DMA_CLR_CH11_AL2_READ_ADDR (*(volatile uint32_t *)0x500032e8)
-#define DMA_CLR_CH11_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500032ec)
-#define DMA_CLR_CH11_AL3_CTRL (*(volatile uint32_t *)0x500032f0)
-#define DMA_CLR_CH11_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500032f4)
-#define DMA_CLR_CH11_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500032f8)
-#define DMA_CLR_CH11_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500032fc)
-#define DMA_CLR_CH12_READ_ADDR (*(volatile uint32_t *)0x50003300)
-#define DMA_CLR_CH12_WRITE_ADDR (*(volatile uint32_t *)0x50003304)
-#define DMA_CLR_CH12_TRANS_COUNT (*(volatile uint32_t *)0x50003308)
-#define DMA_CLR_CH12_CTRL_TRIG (*(volatile uint32_t *)0x5000330c)
-#define DMA_CLR_CH12_AL1_CTRL (*(volatile uint32_t *)0x50003310)
-#define DMA_CLR_CH12_AL1_READ_ADDR (*(volatile uint32_t *)0x50003314)
-#define DMA_CLR_CH12_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003318)
-#define DMA_CLR_CH12_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000331c)
-#define DMA_CLR_CH12_AL2_CTRL (*(volatile uint32_t *)0x50003320)
-#define DMA_CLR_CH12_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003324)
-#define DMA_CLR_CH12_AL2_READ_ADDR (*(volatile uint32_t *)0x50003328)
-#define DMA_CLR_CH12_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000332c)
-#define DMA_CLR_CH12_AL3_CTRL (*(volatile uint32_t *)0x50003330)
-#define DMA_CLR_CH12_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003334)
-#define DMA_CLR_CH12_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003338)
-#define DMA_CLR_CH12_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000333c)
-#define DMA_CLR_CH13_READ_ADDR (*(volatile uint32_t *)0x50003340)
-#define DMA_CLR_CH13_WRITE_ADDR (*(volatile uint32_t *)0x50003344)
-#define DMA_CLR_CH13_TRANS_COUNT (*(volatile uint32_t *)0x50003348)
-#define DMA_CLR_CH13_CTRL_TRIG (*(volatile uint32_t *)0x5000334c)
-#define DMA_CLR_CH13_AL1_CTRL (*(volatile uint32_t *)0x50003350)
-#define DMA_CLR_CH13_AL1_READ_ADDR (*(volatile uint32_t *)0x50003354)
-#define DMA_CLR_CH13_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003358)
-#define DMA_CLR_CH13_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000335c)
-#define DMA_CLR_CH13_AL2_CTRL (*(volatile uint32_t *)0x50003360)
-#define DMA_CLR_CH13_AL2_TRANS_COUNT (*(volatile uint32_t *)0x50003364)
-#define DMA_CLR_CH13_AL2_READ_ADDR (*(volatile uint32_t *)0x50003368)
-#define DMA_CLR_CH13_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x5000336c)
-#define DMA_CLR_CH13_AL3_CTRL (*(volatile uint32_t *)0x50003370)
-#define DMA_CLR_CH13_AL3_WRITE_ADDR (*(volatile uint32_t *)0x50003374)
-#define DMA_CLR_CH13_AL3_TRANS_COUNT (*(volatile uint32_t *)0x50003378)
-#define DMA_CLR_CH13_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x5000337c)
-#define DMA_CLR_CH14_READ_ADDR (*(volatile uint32_t *)0x50003380)
-#define DMA_CLR_CH14_WRITE_ADDR (*(volatile uint32_t *)0x50003384)
-#define DMA_CLR_CH14_TRANS_COUNT (*(volatile uint32_t *)0x50003388)
-#define DMA_CLR_CH14_CTRL_TRIG (*(volatile uint32_t *)0x5000338c)
-#define DMA_CLR_CH14_AL1_CTRL (*(volatile uint32_t *)0x50003390)
-#define DMA_CLR_CH14_AL1_READ_ADDR (*(volatile uint32_t *)0x50003394)
-#define DMA_CLR_CH14_AL1_WRITE_ADDR (*(volatile uint32_t *)0x50003398)
-#define DMA_CLR_CH14_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x5000339c)
-#define DMA_CLR_CH14_AL2_CTRL (*(volatile uint32_t *)0x500033a0)
-#define DMA_CLR_CH14_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500033a4)
-#define DMA_CLR_CH14_AL2_READ_ADDR (*(volatile uint32_t *)0x500033a8)
-#define DMA_CLR_CH14_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500033ac)
-#define DMA_CLR_CH14_AL3_CTRL (*(volatile uint32_t *)0x500033b0)
-#define DMA_CLR_CH14_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500033b4)
-#define DMA_CLR_CH14_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500033b8)
-#define DMA_CLR_CH14_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500033bc)
-#define DMA_CLR_CH15_READ_ADDR (*(volatile uint32_t *)0x500033c0)
-#define DMA_CLR_CH15_WRITE_ADDR (*(volatile uint32_t *)0x500033c4)
-#define DMA_CLR_CH15_TRANS_COUNT (*(volatile uint32_t *)0x500033c8)
-#define DMA_CLR_CH15_CTRL_TRIG (*(volatile uint32_t *)0x500033cc)
-#define DMA_CLR_CH15_AL1_CTRL (*(volatile uint32_t *)0x500033d0)
-#define DMA_CLR_CH15_AL1_READ_ADDR (*(volatile uint32_t *)0x500033d4)
-#define DMA_CLR_CH15_AL1_WRITE_ADDR (*(volatile uint32_t *)0x500033d8)
-#define DMA_CLR_CH15_AL1_TRANS_COUNT_TRIG (*(volatile uint32_t *)0x500033dc)
-#define DMA_CLR_CH15_AL2_CTRL (*(volatile uint32_t *)0x500033e0)
-#define DMA_CLR_CH15_AL2_TRANS_COUNT (*(volatile uint32_t *)0x500033e4)
-#define DMA_CLR_CH15_AL2_READ_ADDR (*(volatile uint32_t *)0x500033e8)
-#define DMA_CLR_CH15_AL2_WRITE_ADDR_TRIG (*(volatile uint32_t *)0x500033ec)
-#define DMA_CLR_CH15_AL3_CTRL (*(volatile uint32_t *)0x500033f0)
-#define DMA_CLR_CH15_AL3_WRITE_ADDR (*(volatile uint32_t *)0x500033f4)
-#define DMA_CLR_CH15_AL3_TRANS_COUNT (*(volatile uint32_t *)0x500033f8)
-#define DMA_CLR_CH15_AL3_READ_ADDR_TRIG (*(volatile uint32_t *)0x500033fc)
-#define DMA_CLR_INTR (*(volatile uint32_t *)0x50003400)
-#define DMA_CLR_INTE0 (*(volatile uint32_t *)0x50003404)
-#define DMA_CLR_INTF0 (*(volatile uint32_t *)0x50003408)
-#define DMA_CLR_INTS0 (*(volatile uint32_t *)0x5000340c)
-#define DMA_CLR_INTE1 (*(volatile uint32_t *)0x50003414)
-#define DMA_CLR_INTF1 (*(volatile uint32_t *)0x50003418)
-#define DMA_CLR_INTS1 (*(volatile uint32_t *)0x5000341c)
-#define DMA_CLR_INTE2 (*(volatile uint32_t *)0x50003424)
-#define DMA_CLR_INTF2 (*(volatile uint32_t *)0x50003428)
-#define DMA_CLR_INTS2 (*(volatile uint32_t *)0x5000342c)
-#define DMA_CLR_INTE3 (*(volatile uint32_t *)0x50003434)
-#define DMA_CLR_INTF3 (*(volatile uint32_t *)0x50003438)
-#define DMA_CLR_INTS3 (*(volatile uint32_t *)0x5000343c)
-#define DMA_CLR_TIMER0 (*(volatile uint32_t *)0x50003440)
-#define DMA_CLR_TIMER1 (*(volatile uint32_t *)0x50003444)
-#define DMA_CLR_TIMER2 (*(volatile uint32_t *)0x50003448)
-#define DMA_CLR_TIMER3 (*(volatile uint32_t *)0x5000344c)
-#define DMA_CLR_MULTI_CHAN_TRIGGER (*(volatile uint32_t *)0x50003450)
-#define DMA_CLR_SNIFF_CTRL (*(volatile uint32_t *)0x50003454)
-#define DMA_CLR_SNIFF_DATA (*(volatile uint32_t *)0x50003458)
-#define DMA_CLR_FIFO_LEVELS (*(volatile uint32_t *)0x50003460)
-#define DMA_CLR_CHAN_ABORT (*(volatile uint32_t *)0x50003464)
-#define DMA_CLR_N_CHANNELS (*(volatile uint32_t *)0x50003468)
-#define DMA_CLR_SECCFG_CH0 (*(volatile uint32_t *)0x50003480)
-#define DMA_CLR_SECCFG_CH1 (*(volatile uint32_t *)0x50003484)
-#define DMA_CLR_SECCFG_CH2 (*(volatile uint32_t *)0x50003488)
-#define DMA_CLR_SECCFG_CH3 (*(volatile uint32_t *)0x5000348c)
-#define DMA_CLR_SECCFG_CH4 (*(volatile uint32_t *)0x50003490)
-#define DMA_CLR_SECCFG_CH5 (*(volatile uint32_t *)0x50003494)
-#define DMA_CLR_SECCFG_CH6 (*(volatile uint32_t *)0x50003498)
-#define DMA_CLR_SECCFG_CH7 (*(volatile uint32_t *)0x5000349c)
-#define DMA_CLR_SECCFG_CH8 (*(volatile uint32_t *)0x500034a0)
-#define DMA_CLR_SECCFG_CH9 (*(volatile uint32_t *)0x500034a4)
-#define DMA_CLR_SECCFG_CH10 (*(volatile uint32_t *)0x500034a8)
-#define DMA_CLR_SECCFG_CH11 (*(volatile uint32_t *)0x500034ac)
-#define DMA_CLR_SECCFG_CH12 (*(volatile uint32_t *)0x500034b0)
-#define DMA_CLR_SECCFG_CH13 (*(volatile uint32_t *)0x500034b4)
-#define DMA_CLR_SECCFG_CH14 (*(volatile uint32_t *)0x500034b8)
-#define DMA_CLR_SECCFG_CH15 (*(volatile uint32_t *)0x500034bc)
-#define DMA_CLR_SECCFG_IRQ0 (*(volatile uint32_t *)0x500034c0)
-#define DMA_CLR_SECCFG_IRQ1 (*(volatile uint32_t *)0x500034c4)
-#define DMA_CLR_SECCFG_IRQ2 (*(volatile uint32_t *)0x500034c8)
-#define DMA_CLR_SECCFG_IRQ3 (*(volatile uint32_t *)0x500034cc)
-#define DMA_CLR_SECCFG_MISC (*(volatile uint32_t *)0x500034d0)
-#define DMA_CLR_MPU_CTRL (*(volatile uint32_t *)0x50003500)
-#define DMA_CLR_MPU_BAR0 (*(volatile uint32_t *)0x50003504)
-#define DMA_CLR_MPU_LAR0 (*(volatile uint32_t *)0x50003508)
-#define DMA_CLR_MPU_BAR1 (*(volatile uint32_t *)0x5000350c)
-#define DMA_CLR_MPU_LAR1 (*(volatile uint32_t *)0x50003510)
-#define DMA_CLR_MPU_BAR2 (*(volatile uint32_t *)0x50003514)
-#define DMA_CLR_MPU_LAR2 (*(volatile uint32_t *)0x50003518)
-#define DMA_CLR_MPU_BAR3 (*(volatile uint32_t *)0x5000351c)
-#define DMA_CLR_MPU_LAR3 (*(volatile uint32_t *)0x50003520)
-#define DMA_CLR_MPU_BAR4 (*(volatile uint32_t *)0x50003524)
-#define DMA_CLR_MPU_LAR4 (*(volatile uint32_t *)0x50003528)
-#define DMA_CLR_MPU_BAR5 (*(volatile uint32_t *)0x5000352c)
-#define DMA_CLR_MPU_LAR5 (*(volatile uint32_t *)0x50003530)
-#define DMA_CLR_MPU_BAR6 (*(volatile uint32_t *)0x50003534)
-#define DMA_CLR_MPU_LAR6 (*(volatile uint32_t *)0x50003538)
-#define DMA_CLR_MPU_BAR7 (*(volatile uint32_t *)0x5000353c)
-#define DMA_CLR_MPU_LAR7 (*(volatile uint32_t *)0x50003540)
-#define DMA_CLR_CH0_DBG_CTDREQ (*(volatile uint32_t *)0x50003800)
-#define DMA_CLR_CH0_DBG_TCR (*(volatile uint32_t *)0x50003804)
-#define DMA_CLR_CH1_DBG_CTDREQ (*(volatile uint32_t *)0x50003840)
-#define DMA_CLR_CH1_DBG_TCR (*(volatile uint32_t *)0x50003844)
-#define DMA_CLR_CH2_DBG_CTDREQ (*(volatile uint32_t *)0x50003880)
-#define DMA_CLR_CH2_DBG_TCR (*(volatile uint32_t *)0x50003884)
-#define DMA_CLR_CH3_DBG_CTDREQ (*(volatile uint32_t *)0x500038c0)
-#define DMA_CLR_CH3_DBG_TCR (*(volatile uint32_t *)0x500038c4)
-#define DMA_CLR_CH4_DBG_CTDREQ (*(volatile uint32_t *)0x50003900)
-#define DMA_CLR_CH4_DBG_TCR (*(volatile uint32_t *)0x50003904)
-#define DMA_CLR_CH5_DBG_CTDREQ (*(volatile uint32_t *)0x50003940)
-#define DMA_CLR_CH5_DBG_TCR (*(volatile uint32_t *)0x50003944)
-#define DMA_CLR_CH6_DBG_CTDREQ (*(volatile uint32_t *)0x50003980)
-#define DMA_CLR_CH6_DBG_TCR (*(volatile uint32_t *)0x50003984)
-#define DMA_CLR_CH7_DBG_CTDREQ (*(volatile uint32_t *)0x500039c0)
-#define DMA_CLR_CH7_DBG_TCR (*(volatile uint32_t *)0x500039c4)
-#define DMA_CLR_CH8_DBG_CTDREQ (*(volatile uint32_t *)0x50003a00)
-#define DMA_CLR_CH8_DBG_TCR (*(volatile uint32_t *)0x50003a04)
-#define DMA_CLR_CH9_DBG_CTDREQ (*(volatile uint32_t *)0x50003a40)
-#define DMA_CLR_CH9_DBG_TCR (*(volatile uint32_t *)0x50003a44)
-#define DMA_CLR_CH10_DBG_CTDREQ (*(volatile uint32_t *)0x50003a80)
-#define DMA_CLR_CH10_DBG_TCR (*(volatile uint32_t *)0x50003a84)
-#define DMA_CLR_CH11_DBG_CTDREQ (*(volatile uint32_t *)0x50003ac0)
-#define DMA_CLR_CH11_DBG_TCR (*(volatile uint32_t *)0x50003ac4)
-#define DMA_CLR_CH12_DBG_CTDREQ (*(volatile uint32_t *)0x50003b00)
-#define DMA_CLR_CH12_DBG_TCR (*(volatile uint32_t *)0x50003b04)
-#define DMA_CLR_CH13_DBG_CTDREQ (*(volatile uint32_t *)0x50003b40)
-#define DMA_CLR_CH13_DBG_TCR (*(volatile uint32_t *)0x50003b44)
-#define DMA_CLR_CH14_DBG_CTDREQ (*(volatile uint32_t *)0x50003b80)
-#define DMA_CLR_CH14_DBG_TCR (*(volatile uint32_t *)0x50003b84)
-#define DMA_CLR_CH15_DBG_CTDREQ (*(volatile uint32_t *)0x50003bc0)
-#define DMA_CLR_CH15_DBG_TCR (*(volatile uint32_t *)0x50003bc4)
+#define DMA_CH0_READ_ADDR_XOR (*(volatile uint32_t *)0x50001000)
+#define DMA_CH0_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001004)
+#define DMA_CH0_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001008)
+#define DMA_CH0_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000100c)
+#define DMA_CH0_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001010)
+#define DMA_CH0_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001014)
+#define DMA_CH0_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001018)
+#define DMA_CH0_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000101c)
+#define DMA_CH0_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001020)
+#define DMA_CH0_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001024)
+#define DMA_CH0_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001028)
+#define DMA_CH0_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000102c)
+#define DMA_CH0_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001030)
+#define DMA_CH0_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001034)
+#define DMA_CH0_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001038)
+#define DMA_CH0_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000103c)
+#define DMA_CH1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001040)
+#define DMA_CH1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001044)
+#define DMA_CH1_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001048)
+#define DMA_CH1_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000104c)
+#define DMA_CH1_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001050)
+#define DMA_CH1_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001054)
+#define DMA_CH1_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001058)
+#define DMA_CH1_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000105c)
+#define DMA_CH1_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001060)
+#define DMA_CH1_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001064)
+#define DMA_CH1_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001068)
+#define DMA_CH1_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000106c)
+#define DMA_CH1_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001070)
+#define DMA_CH1_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001074)
+#define DMA_CH1_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001078)
+#define DMA_CH1_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000107c)
+#define DMA_CH2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001080)
+#define DMA_CH2_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001084)
+#define DMA_CH2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001088)
+#define DMA_CH2_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000108c)
+#define DMA_CH2_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001090)
+#define DMA_CH2_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001094)
+#define DMA_CH2_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001098)
+#define DMA_CH2_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000109c)
+#define DMA_CH2_AL2_CTRL_XOR (*(volatile uint32_t *)0x500010a0)
+#define DMA_CH2_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500010a4)
+#define DMA_CH2_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500010a8)
+#define DMA_CH2_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500010ac)
+#define DMA_CH2_AL3_CTRL_XOR (*(volatile uint32_t *)0x500010b0)
+#define DMA_CH2_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500010b4)
+#define DMA_CH2_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500010b8)
+#define DMA_CH2_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500010bc)
+#define DMA_CH3_READ_ADDR_XOR (*(volatile uint32_t *)0x500010c0)
+#define DMA_CH3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500010c4)
+#define DMA_CH3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500010c8)
+#define DMA_CH3_CTRL_TRIG_XOR (*(volatile uint32_t *)0x500010cc)
+#define DMA_CH3_AL1_CTRL_XOR (*(volatile uint32_t *)0x500010d0)
+#define DMA_CH3_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x500010d4)
+#define DMA_CH3_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500010d8)
+#define DMA_CH3_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x500010dc)
+#define DMA_CH3_AL2_CTRL_XOR (*(volatile uint32_t *)0x500010e0)
+#define DMA_CH3_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500010e4)
+#define DMA_CH3_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500010e8)
+#define DMA_CH3_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500010ec)
+#define DMA_CH3_AL3_CTRL_XOR (*(volatile uint32_t *)0x500010f0)
+#define DMA_CH3_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500010f4)
+#define DMA_CH3_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500010f8)
+#define DMA_CH3_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500010fc)
+#define DMA_CH4_READ_ADDR_XOR (*(volatile uint32_t *)0x50001100)
+#define DMA_CH4_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001104)
+#define DMA_CH4_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001108)
+#define DMA_CH4_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000110c)
+#define DMA_CH4_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001110)
+#define DMA_CH4_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001114)
+#define DMA_CH4_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001118)
+#define DMA_CH4_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000111c)
+#define DMA_CH4_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001120)
+#define DMA_CH4_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001124)
+#define DMA_CH4_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001128)
+#define DMA_CH4_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000112c)
+#define DMA_CH4_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001130)
+#define DMA_CH4_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001134)
+#define DMA_CH4_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001138)
+#define DMA_CH4_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000113c)
+#define DMA_CH5_READ_ADDR_XOR (*(volatile uint32_t *)0x50001140)
+#define DMA_CH5_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001144)
+#define DMA_CH5_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001148)
+#define DMA_CH5_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000114c)
+#define DMA_CH5_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001150)
+#define DMA_CH5_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001154)
+#define DMA_CH5_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001158)
+#define DMA_CH5_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000115c)
+#define DMA_CH5_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001160)
+#define DMA_CH5_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001164)
+#define DMA_CH5_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001168)
+#define DMA_CH5_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000116c)
+#define DMA_CH5_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001170)
+#define DMA_CH5_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001174)
+#define DMA_CH5_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001178)
+#define DMA_CH5_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000117c)
+#define DMA_CH6_READ_ADDR_XOR (*(volatile uint32_t *)0x50001180)
+#define DMA_CH6_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001184)
+#define DMA_CH6_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001188)
+#define DMA_CH6_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000118c)
+#define DMA_CH6_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001190)
+#define DMA_CH6_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001194)
+#define DMA_CH6_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001198)
+#define DMA_CH6_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000119c)
+#define DMA_CH6_AL2_CTRL_XOR (*(volatile uint32_t *)0x500011a0)
+#define DMA_CH6_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500011a4)
+#define DMA_CH6_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500011a8)
+#define DMA_CH6_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500011ac)
+#define DMA_CH6_AL3_CTRL_XOR (*(volatile uint32_t *)0x500011b0)
+#define DMA_CH6_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500011b4)
+#define DMA_CH6_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500011b8)
+#define DMA_CH6_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500011bc)
+#define DMA_CH7_READ_ADDR_XOR (*(volatile uint32_t *)0x500011c0)
+#define DMA_CH7_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500011c4)
+#define DMA_CH7_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500011c8)
+#define DMA_CH7_CTRL_TRIG_XOR (*(volatile uint32_t *)0x500011cc)
+#define DMA_CH7_AL1_CTRL_XOR (*(volatile uint32_t *)0x500011d0)
+#define DMA_CH7_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x500011d4)
+#define DMA_CH7_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500011d8)
+#define DMA_CH7_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x500011dc)
+#define DMA_CH7_AL2_CTRL_XOR (*(volatile uint32_t *)0x500011e0)
+#define DMA_CH7_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500011e4)
+#define DMA_CH7_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500011e8)
+#define DMA_CH7_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500011ec)
+#define DMA_CH7_AL3_CTRL_XOR (*(volatile uint32_t *)0x500011f0)
+#define DMA_CH7_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500011f4)
+#define DMA_CH7_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500011f8)
+#define DMA_CH7_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500011fc)
+#define DMA_CH8_READ_ADDR_XOR (*(volatile uint32_t *)0x50001200)
+#define DMA_CH8_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001204)
+#define DMA_CH8_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001208)
+#define DMA_CH8_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000120c)
+#define DMA_CH8_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001210)
+#define DMA_CH8_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001214)
+#define DMA_CH8_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001218)
+#define DMA_CH8_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000121c)
+#define DMA_CH8_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001220)
+#define DMA_CH8_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001224)
+#define DMA_CH8_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001228)
+#define DMA_CH8_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000122c)
+#define DMA_CH8_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001230)
+#define DMA_CH8_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001234)
+#define DMA_CH8_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001238)
+#define DMA_CH8_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000123c)
+#define DMA_CH9_READ_ADDR_XOR (*(volatile uint32_t *)0x50001240)
+#define DMA_CH9_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001244)
+#define DMA_CH9_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001248)
+#define DMA_CH9_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000124c)
+#define DMA_CH9_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001250)
+#define DMA_CH9_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001254)
+#define DMA_CH9_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001258)
+#define DMA_CH9_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000125c)
+#define DMA_CH9_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001260)
+#define DMA_CH9_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001264)
+#define DMA_CH9_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001268)
+#define DMA_CH9_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000126c)
+#define DMA_CH9_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001270)
+#define DMA_CH9_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001274)
+#define DMA_CH9_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001278)
+#define DMA_CH9_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000127c)
+#define DMA_CH10_READ_ADDR_XOR (*(volatile uint32_t *)0x50001280)
+#define DMA_CH10_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001284)
+#define DMA_CH10_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001288)
+#define DMA_CH10_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000128c)
+#define DMA_CH10_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001290)
+#define DMA_CH10_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001294)
+#define DMA_CH10_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001298)
+#define DMA_CH10_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000129c)
+#define DMA_CH10_AL2_CTRL_XOR (*(volatile uint32_t *)0x500012a0)
+#define DMA_CH10_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500012a4)
+#define DMA_CH10_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500012a8)
+#define DMA_CH10_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500012ac)
+#define DMA_CH10_AL3_CTRL_XOR (*(volatile uint32_t *)0x500012b0)
+#define DMA_CH10_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500012b4)
+#define DMA_CH10_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500012b8)
+#define DMA_CH10_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500012bc)
+#define DMA_CH11_READ_ADDR_XOR (*(volatile uint32_t *)0x500012c0)
+#define DMA_CH11_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500012c4)
+#define DMA_CH11_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500012c8)
+#define DMA_CH11_CTRL_TRIG_XOR (*(volatile uint32_t *)0x500012cc)
+#define DMA_CH11_AL1_CTRL_XOR (*(volatile uint32_t *)0x500012d0)
+#define DMA_CH11_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x500012d4)
+#define DMA_CH11_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500012d8)
+#define DMA_CH11_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x500012dc)
+#define DMA_CH11_AL2_CTRL_XOR (*(volatile uint32_t *)0x500012e0)
+#define DMA_CH11_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500012e4)
+#define DMA_CH11_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500012e8)
+#define DMA_CH11_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500012ec)
+#define DMA_CH11_AL3_CTRL_XOR (*(volatile uint32_t *)0x500012f0)
+#define DMA_CH11_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500012f4)
+#define DMA_CH11_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500012f8)
+#define DMA_CH11_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500012fc)
+#define DMA_CH12_READ_ADDR_XOR (*(volatile uint32_t *)0x50001300)
+#define DMA_CH12_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001304)
+#define DMA_CH12_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001308)
+#define DMA_CH12_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000130c)
+#define DMA_CH12_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001310)
+#define DMA_CH12_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001314)
+#define DMA_CH12_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001318)
+#define DMA_CH12_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000131c)
+#define DMA_CH12_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001320)
+#define DMA_CH12_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001324)
+#define DMA_CH12_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001328)
+#define DMA_CH12_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000132c)
+#define DMA_CH12_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001330)
+#define DMA_CH12_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001334)
+#define DMA_CH12_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001338)
+#define DMA_CH12_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000133c)
+#define DMA_CH13_READ_ADDR_XOR (*(volatile uint32_t *)0x50001340)
+#define DMA_CH13_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001344)
+#define DMA_CH13_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001348)
+#define DMA_CH13_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000134c)
+#define DMA_CH13_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001350)
+#define DMA_CH13_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001354)
+#define DMA_CH13_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001358)
+#define DMA_CH13_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000135c)
+#define DMA_CH13_AL2_CTRL_XOR (*(volatile uint32_t *)0x50001360)
+#define DMA_CH13_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001364)
+#define DMA_CH13_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x50001368)
+#define DMA_CH13_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000136c)
+#define DMA_CH13_AL3_CTRL_XOR (*(volatile uint32_t *)0x50001370)
+#define DMA_CH13_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001374)
+#define DMA_CH13_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001378)
+#define DMA_CH13_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x5000137c)
+#define DMA_CH14_READ_ADDR_XOR (*(volatile uint32_t *)0x50001380)
+#define DMA_CH14_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001384)
+#define DMA_CH14_TRANS_COUNT_XOR (*(volatile uint32_t *)0x50001388)
+#define DMA_CH14_CTRL_TRIG_XOR (*(volatile uint32_t *)0x5000138c)
+#define DMA_CH14_AL1_CTRL_XOR (*(volatile uint32_t *)0x50001390)
+#define DMA_CH14_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x50001394)
+#define DMA_CH14_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x50001398)
+#define DMA_CH14_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x5000139c)
+#define DMA_CH14_AL2_CTRL_XOR (*(volatile uint32_t *)0x500013a0)
+#define DMA_CH14_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500013a4)
+#define DMA_CH14_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500013a8)
+#define DMA_CH14_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500013ac)
+#define DMA_CH14_AL3_CTRL_XOR (*(volatile uint32_t *)0x500013b0)
+#define DMA_CH14_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500013b4)
+#define DMA_CH14_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500013b8)
+#define DMA_CH14_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500013bc)
+#define DMA_CH15_READ_ADDR_XOR (*(volatile uint32_t *)0x500013c0)
+#define DMA_CH15_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500013c4)
+#define DMA_CH15_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500013c8)
+#define DMA_CH15_CTRL_TRIG_XOR (*(volatile uint32_t *)0x500013cc)
+#define DMA_CH15_AL1_CTRL_XOR (*(volatile uint32_t *)0x500013d0)
+#define DMA_CH15_AL1_READ_ADDR_XOR (*(volatile uint32_t *)0x500013d4)
+#define DMA_CH15_AL1_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500013d8)
+#define DMA_CH15_AL1_TRANS_COUNT_TRIG_XOR (*(volatile uint32_t *)0x500013dc)
+#define DMA_CH15_AL2_CTRL_XOR (*(volatile uint32_t *)0x500013e0)
+#define DMA_CH15_AL2_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500013e4)
+#define DMA_CH15_AL2_READ_ADDR_XOR (*(volatile uint32_t *)0x500013e8)
+#define DMA_CH15_AL2_WRITE_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500013ec)
+#define DMA_CH15_AL3_CTRL_XOR (*(volatile uint32_t *)0x500013f0)
+#define DMA_CH15_AL3_WRITE_ADDR_XOR (*(volatile uint32_t *)0x500013f4)
+#define DMA_CH15_AL3_TRANS_COUNT_XOR (*(volatile uint32_t *)0x500013f8)
+#define DMA_CH15_AL3_READ_ADDR_TRIG_XOR (*(volatile uint32_t *)0x500013fc)
+#define DMA_INTR_XOR (*(volatile uint32_t *)0x50001400)
+#define DMA_INTE0_XOR (*(volatile uint32_t *)0x50001404)
+#define DMA_INTF0_XOR (*(volatile uint32_t *)0x50001408)
+#define DMA_INTS0_XOR (*(volatile uint32_t *)0x5000140c)
+#define DMA_INTE1_XOR (*(volatile uint32_t *)0x50001414)
+#define DMA_INTF1_XOR (*(volatile uint32_t *)0x50001418)
+#define DMA_INTS1_XOR (*(volatile uint32_t *)0x5000141c)
+#define DMA_INTE2_XOR (*(volatile uint32_t *)0x50001424)
+#define DMA_INTF2_XOR (*(volatile uint32_t *)0x50001428)
+#define DMA_INTS2_XOR (*(volatile uint32_t *)0x5000142c)
+#define DMA_INTE3_XOR (*(volatile uint32_t *)0x50001434)
+#define DMA_INTF3_XOR (*(volatile uint32_t *)0x50001438)
+#define DMA_INTS3_XOR (*(volatile uint32_t *)0x5000143c)
+#define DMA_TIMER0_XOR (*(volatile uint32_t *)0x50001440)
+#define DMA_TIMER1_XOR (*(volatile uint32_t *)0x50001444)
+#define DMA_TIMER2_XOR (*(volatile uint32_t *)0x50001448)
+#define DMA_TIMER3_XOR (*(volatile uint32_t *)0x5000144c)
+#define DMA_MULTI_CHAN_TRIGGER_XOR (*(volatile uint32_t *)0x50001450)
+#define DMA_SNIFF_CTRL_XOR (*(volatile uint32_t *)0x50001454)
+#define DMA_SNIFF_DATA_XOR (*(volatile uint32_t *)0x50001458)
+#define DMA_FIFO_LEVELS_XOR (*(volatile uint32_t *)0x50001460)
+#define DMA_CHAN_ABORT_XOR (*(volatile uint32_t *)0x50001464)
+#define DMA_N_CHANNELS_XOR (*(volatile uint32_t *)0x50001468)
+#define DMA_SECCFG_CH0_XOR (*(volatile uint32_t *)0x50001480)
+#define DMA_SECCFG_CH1_XOR (*(volatile uint32_t *)0x50001484)
+#define DMA_SECCFG_CH2_XOR (*(volatile uint32_t *)0x50001488)
+#define DMA_SECCFG_CH3_XOR (*(volatile uint32_t *)0x5000148c)
+#define DMA_SECCFG_CH4_XOR (*(volatile uint32_t *)0x50001490)
+#define DMA_SECCFG_CH5_XOR (*(volatile uint32_t *)0x50001494)
+#define DMA_SECCFG_CH6_XOR (*(volatile uint32_t *)0x50001498)
+#define DMA_SECCFG_CH7_XOR (*(volatile uint32_t *)0x5000149c)
+#define DMA_SECCFG_CH8_XOR (*(volatile uint32_t *)0x500014a0)
+#define DMA_SECCFG_CH9_XOR (*(volatile uint32_t *)0x500014a4)
+#define DMA_SECCFG_CH10_XOR (*(volatile uint32_t *)0x500014a8)
+#define DMA_SECCFG_CH11_XOR (*(volatile uint32_t *)0x500014ac)
+#define DMA_SECCFG_CH12_XOR (*(volatile uint32_t *)0x500014b0)
+#define DMA_SECCFG_CH13_XOR (*(volatile uint32_t *)0x500014b4)
+#define DMA_SECCFG_CH14_XOR (*(volatile uint32_t *)0x500014b8)
+#define DMA_SECCFG_CH15_XOR (*(volatile uint32_t *)0x500014bc)
+#define DMA_SECCFG_IRQ0_XOR (*(volatile uint32_t *)0x500014c0)
+#define DMA_SECCFG_IRQ1_XOR (*(volatile uint32_t *)0x500014c4)
+#define DMA_SECCFG_IRQ2_XOR (*(volatile uint32_t *)0x500014c8)
+#define DMA_SECCFG_IRQ3_XOR (*(volatile uint32_t *)0x500014cc)
+#define DMA_SECCFG_MISC_XOR (*(volatile uint32_t *)0x500014d0)
+#define DMA_MPU_CTRL_XOR (*(volatile uint32_t *)0x50001500)
+#define DMA_MPU_BAR0_XOR (*(volatile uint32_t *)0x50001504)
+#define DMA_MPU_LAR0_XOR (*(volatile uint32_t *)0x50001508)
+#define DMA_MPU_BAR1_XOR (*(volatile uint32_t *)0x5000150c)
+#define DMA_MPU_LAR1_XOR (*(volatile uint32_t *)0x50001510)
+#define DMA_MPU_BAR2_XOR (*(volatile uint32_t *)0x50001514)
+#define DMA_MPU_LAR2_XOR (*(volatile uint32_t *)0x50001518)
+#define DMA_MPU_BAR3_XOR (*(volatile uint32_t *)0x5000151c)
+#define DMA_MPU_LAR3_XOR (*(volatile uint32_t *)0x50001520)
+#define DMA_MPU_BAR4_XOR (*(volatile uint32_t *)0x50001524)
+#define DMA_MPU_LAR4_XOR (*(volatile uint32_t *)0x50001528)
+#define DMA_MPU_BAR5_XOR (*(volatile uint32_t *)0x5000152c)
+#define DMA_MPU_LAR5_XOR (*(volatile uint32_t *)0x50001530)
+#define DMA_MPU_BAR6_XOR (*(volatile uint32_t *)0x50001534)
+#define DMA_MPU_LAR6_XOR (*(volatile uint32_t *)0x50001538)
+#define DMA_MPU_BAR7_XOR (*(volatile uint32_t *)0x5000153c)
+#define DMA_MPU_LAR7_XOR (*(volatile uint32_t *)0x50001540)
+#define DMA_CH0_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001800)
+#define DMA_CH0_DBG_TCR_XOR (*(volatile uint32_t *)0x50001804)
+#define DMA_CH1_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001840)
+#define DMA_CH1_DBG_TCR_XOR (*(volatile uint32_t *)0x50001844)
+#define DMA_CH2_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001880)
+#define DMA_CH2_DBG_TCR_XOR (*(volatile uint32_t *)0x50001884)
+#define DMA_CH3_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x500018c0)
+#define DMA_CH3_DBG_TCR_XOR (*(volatile uint32_t *)0x500018c4)
+#define DMA_CH4_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001900)
+#define DMA_CH4_DBG_TCR_XOR (*(volatile uint32_t *)0x50001904)
+#define DMA_CH5_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001940)
+#define DMA_CH5_DBG_TCR_XOR (*(volatile uint32_t *)0x50001944)
+#define DMA_CH6_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001980)
+#define DMA_CH6_DBG_TCR_XOR (*(volatile uint32_t *)0x50001984)
+#define DMA_CH7_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x500019c0)
+#define DMA_CH7_DBG_TCR_XOR (*(volatile uint32_t *)0x500019c4)
+#define DMA_CH8_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001a00)
+#define DMA_CH8_DBG_TCR_XOR (*(volatile uint32_t *)0x50001a04)
+#define DMA_CH9_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001a40)
+#define DMA_CH9_DBG_TCR_XOR (*(volatile uint32_t *)0x50001a44)
+#define DMA_CH10_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001a80)
+#define DMA_CH10_DBG_TCR_XOR (*(volatile uint32_t *)0x50001a84)
+#define DMA_CH11_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001ac0)
+#define DMA_CH11_DBG_TCR_XOR (*(volatile uint32_t *)0x50001ac4)
+#define DMA_CH12_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001b00)
+#define DMA_CH12_DBG_TCR_XOR (*(volatile uint32_t *)0x50001b04)
+#define DMA_CH13_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001b40)
+#define DMA_CH13_DBG_TCR_XOR (*(volatile uint32_t *)0x50001b44)
+#define DMA_CH14_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001b80)
+#define DMA_CH14_DBG_TCR_XOR (*(volatile uint32_t *)0x50001b84)
+#define DMA_CH15_DBG_CTDREQ_XOR (*(volatile uint32_t *)0x50001bc0)
+#define DMA_CH15_DBG_TCR_XOR (*(volatile uint32_t *)0x50001bc4)
+#define DMA_CH0_READ_ADDR_SET (*(volatile uint32_t *)0x50002000)
+#define DMA_CH0_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002004)
+#define DMA_CH0_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002008)
+#define DMA_CH0_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000200c)
+#define DMA_CH0_AL1_CTRL_SET (*(volatile uint32_t *)0x50002010)
+#define DMA_CH0_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002014)
+#define DMA_CH0_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002018)
+#define DMA_CH0_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000201c)
+#define DMA_CH0_AL2_CTRL_SET (*(volatile uint32_t *)0x50002020)
+#define DMA_CH0_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002024)
+#define DMA_CH0_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002028)
+#define DMA_CH0_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000202c)
+#define DMA_CH0_AL3_CTRL_SET (*(volatile uint32_t *)0x50002030)
+#define DMA_CH0_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002034)
+#define DMA_CH0_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002038)
+#define DMA_CH0_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000203c)
+#define DMA_CH1_READ_ADDR_SET (*(volatile uint32_t *)0x50002040)
+#define DMA_CH1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002044)
+#define DMA_CH1_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002048)
+#define DMA_CH1_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000204c)
+#define DMA_CH1_AL1_CTRL_SET (*(volatile uint32_t *)0x50002050)
+#define DMA_CH1_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002054)
+#define DMA_CH1_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002058)
+#define DMA_CH1_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000205c)
+#define DMA_CH1_AL2_CTRL_SET (*(volatile uint32_t *)0x50002060)
+#define DMA_CH1_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002064)
+#define DMA_CH1_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002068)
+#define DMA_CH1_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000206c)
+#define DMA_CH1_AL3_CTRL_SET (*(volatile uint32_t *)0x50002070)
+#define DMA_CH1_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002074)
+#define DMA_CH1_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002078)
+#define DMA_CH1_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000207c)
+#define DMA_CH2_READ_ADDR_SET (*(volatile uint32_t *)0x50002080)
+#define DMA_CH2_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002084)
+#define DMA_CH2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002088)
+#define DMA_CH2_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000208c)
+#define DMA_CH2_AL1_CTRL_SET (*(volatile uint32_t *)0x50002090)
+#define DMA_CH2_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002094)
+#define DMA_CH2_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002098)
+#define DMA_CH2_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000209c)
+#define DMA_CH2_AL2_CTRL_SET (*(volatile uint32_t *)0x500020a0)
+#define DMA_CH2_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500020a4)
+#define DMA_CH2_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500020a8)
+#define DMA_CH2_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500020ac)
+#define DMA_CH2_AL3_CTRL_SET (*(volatile uint32_t *)0x500020b0)
+#define DMA_CH2_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500020b4)
+#define DMA_CH2_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500020b8)
+#define DMA_CH2_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500020bc)
+#define DMA_CH3_READ_ADDR_SET (*(volatile uint32_t *)0x500020c0)
+#define DMA_CH3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500020c4)
+#define DMA_CH3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500020c8)
+#define DMA_CH3_CTRL_TRIG_SET (*(volatile uint32_t *)0x500020cc)
+#define DMA_CH3_AL1_CTRL_SET (*(volatile uint32_t *)0x500020d0)
+#define DMA_CH3_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x500020d4)
+#define DMA_CH3_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x500020d8)
+#define DMA_CH3_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x500020dc)
+#define DMA_CH3_AL2_CTRL_SET (*(volatile uint32_t *)0x500020e0)
+#define DMA_CH3_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500020e4)
+#define DMA_CH3_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500020e8)
+#define DMA_CH3_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500020ec)
+#define DMA_CH3_AL3_CTRL_SET (*(volatile uint32_t *)0x500020f0)
+#define DMA_CH3_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500020f4)
+#define DMA_CH3_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500020f8)
+#define DMA_CH3_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500020fc)
+#define DMA_CH4_READ_ADDR_SET (*(volatile uint32_t *)0x50002100)
+#define DMA_CH4_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002104)
+#define DMA_CH4_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002108)
+#define DMA_CH4_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000210c)
+#define DMA_CH4_AL1_CTRL_SET (*(volatile uint32_t *)0x50002110)
+#define DMA_CH4_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002114)
+#define DMA_CH4_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002118)
+#define DMA_CH4_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000211c)
+#define DMA_CH4_AL2_CTRL_SET (*(volatile uint32_t *)0x50002120)
+#define DMA_CH4_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002124)
+#define DMA_CH4_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002128)
+#define DMA_CH4_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000212c)
+#define DMA_CH4_AL3_CTRL_SET (*(volatile uint32_t *)0x50002130)
+#define DMA_CH4_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002134)
+#define DMA_CH4_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002138)
+#define DMA_CH4_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000213c)
+#define DMA_CH5_READ_ADDR_SET (*(volatile uint32_t *)0x50002140)
+#define DMA_CH5_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002144)
+#define DMA_CH5_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002148)
+#define DMA_CH5_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000214c)
+#define DMA_CH5_AL1_CTRL_SET (*(volatile uint32_t *)0x50002150)
+#define DMA_CH5_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002154)
+#define DMA_CH5_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002158)
+#define DMA_CH5_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000215c)
+#define DMA_CH5_AL2_CTRL_SET (*(volatile uint32_t *)0x50002160)
+#define DMA_CH5_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002164)
+#define DMA_CH5_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002168)
+#define DMA_CH5_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000216c)
+#define DMA_CH5_AL3_CTRL_SET (*(volatile uint32_t *)0x50002170)
+#define DMA_CH5_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002174)
+#define DMA_CH5_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002178)
+#define DMA_CH5_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000217c)
+#define DMA_CH6_READ_ADDR_SET (*(volatile uint32_t *)0x50002180)
+#define DMA_CH6_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002184)
+#define DMA_CH6_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002188)
+#define DMA_CH6_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000218c)
+#define DMA_CH6_AL1_CTRL_SET (*(volatile uint32_t *)0x50002190)
+#define DMA_CH6_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002194)
+#define DMA_CH6_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002198)
+#define DMA_CH6_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000219c)
+#define DMA_CH6_AL2_CTRL_SET (*(volatile uint32_t *)0x500021a0)
+#define DMA_CH6_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500021a4)
+#define DMA_CH6_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500021a8)
+#define DMA_CH6_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500021ac)
+#define DMA_CH6_AL3_CTRL_SET (*(volatile uint32_t *)0x500021b0)
+#define DMA_CH6_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500021b4)
+#define DMA_CH6_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500021b8)
+#define DMA_CH6_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500021bc)
+#define DMA_CH7_READ_ADDR_SET (*(volatile uint32_t *)0x500021c0)
+#define DMA_CH7_WRITE_ADDR_SET (*(volatile uint32_t *)0x500021c4)
+#define DMA_CH7_TRANS_COUNT_SET (*(volatile uint32_t *)0x500021c8)
+#define DMA_CH7_CTRL_TRIG_SET (*(volatile uint32_t *)0x500021cc)
+#define DMA_CH7_AL1_CTRL_SET (*(volatile uint32_t *)0x500021d0)
+#define DMA_CH7_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x500021d4)
+#define DMA_CH7_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x500021d8)
+#define DMA_CH7_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x500021dc)
+#define DMA_CH7_AL2_CTRL_SET (*(volatile uint32_t *)0x500021e0)
+#define DMA_CH7_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500021e4)
+#define DMA_CH7_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500021e8)
+#define DMA_CH7_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500021ec)
+#define DMA_CH7_AL3_CTRL_SET (*(volatile uint32_t *)0x500021f0)
+#define DMA_CH7_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500021f4)
+#define DMA_CH7_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500021f8)
+#define DMA_CH7_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500021fc)
+#define DMA_CH8_READ_ADDR_SET (*(volatile uint32_t *)0x50002200)
+#define DMA_CH8_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002204)
+#define DMA_CH8_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002208)
+#define DMA_CH8_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000220c)
+#define DMA_CH8_AL1_CTRL_SET (*(volatile uint32_t *)0x50002210)
+#define DMA_CH8_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002214)
+#define DMA_CH8_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002218)
+#define DMA_CH8_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000221c)
+#define DMA_CH8_AL2_CTRL_SET (*(volatile uint32_t *)0x50002220)
+#define DMA_CH8_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002224)
+#define DMA_CH8_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002228)
+#define DMA_CH8_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000222c)
+#define DMA_CH8_AL3_CTRL_SET (*(volatile uint32_t *)0x50002230)
+#define DMA_CH8_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002234)
+#define DMA_CH8_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002238)
+#define DMA_CH8_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000223c)
+#define DMA_CH9_READ_ADDR_SET (*(volatile uint32_t *)0x50002240)
+#define DMA_CH9_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002244)
+#define DMA_CH9_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002248)
+#define DMA_CH9_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000224c)
+#define DMA_CH9_AL1_CTRL_SET (*(volatile uint32_t *)0x50002250)
+#define DMA_CH9_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002254)
+#define DMA_CH9_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002258)
+#define DMA_CH9_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000225c)
+#define DMA_CH9_AL2_CTRL_SET (*(volatile uint32_t *)0x50002260)
+#define DMA_CH9_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002264)
+#define DMA_CH9_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002268)
+#define DMA_CH9_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000226c)
+#define DMA_CH9_AL3_CTRL_SET (*(volatile uint32_t *)0x50002270)
+#define DMA_CH9_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002274)
+#define DMA_CH9_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002278)
+#define DMA_CH9_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000227c)
+#define DMA_CH10_READ_ADDR_SET (*(volatile uint32_t *)0x50002280)
+#define DMA_CH10_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002284)
+#define DMA_CH10_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002288)
+#define DMA_CH10_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000228c)
+#define DMA_CH10_AL1_CTRL_SET (*(volatile uint32_t *)0x50002290)
+#define DMA_CH10_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002294)
+#define DMA_CH10_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002298)
+#define DMA_CH10_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000229c)
+#define DMA_CH10_AL2_CTRL_SET (*(volatile uint32_t *)0x500022a0)
+#define DMA_CH10_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500022a4)
+#define DMA_CH10_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500022a8)
+#define DMA_CH10_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500022ac)
+#define DMA_CH10_AL3_CTRL_SET (*(volatile uint32_t *)0x500022b0)
+#define DMA_CH10_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500022b4)
+#define DMA_CH10_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500022b8)
+#define DMA_CH10_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500022bc)
+#define DMA_CH11_READ_ADDR_SET (*(volatile uint32_t *)0x500022c0)
+#define DMA_CH11_WRITE_ADDR_SET (*(volatile uint32_t *)0x500022c4)
+#define DMA_CH11_TRANS_COUNT_SET (*(volatile uint32_t *)0x500022c8)
+#define DMA_CH11_CTRL_TRIG_SET (*(volatile uint32_t *)0x500022cc)
+#define DMA_CH11_AL1_CTRL_SET (*(volatile uint32_t *)0x500022d0)
+#define DMA_CH11_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x500022d4)
+#define DMA_CH11_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x500022d8)
+#define DMA_CH11_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x500022dc)
+#define DMA_CH11_AL2_CTRL_SET (*(volatile uint32_t *)0x500022e0)
+#define DMA_CH11_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500022e4)
+#define DMA_CH11_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500022e8)
+#define DMA_CH11_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500022ec)
+#define DMA_CH11_AL3_CTRL_SET (*(volatile uint32_t *)0x500022f0)
+#define DMA_CH11_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500022f4)
+#define DMA_CH11_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500022f8)
+#define DMA_CH11_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500022fc)
+#define DMA_CH12_READ_ADDR_SET (*(volatile uint32_t *)0x50002300)
+#define DMA_CH12_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002304)
+#define DMA_CH12_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002308)
+#define DMA_CH12_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000230c)
+#define DMA_CH12_AL1_CTRL_SET (*(volatile uint32_t *)0x50002310)
+#define DMA_CH12_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002314)
+#define DMA_CH12_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002318)
+#define DMA_CH12_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000231c)
+#define DMA_CH12_AL2_CTRL_SET (*(volatile uint32_t *)0x50002320)
+#define DMA_CH12_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002324)
+#define DMA_CH12_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002328)
+#define DMA_CH12_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000232c)
+#define DMA_CH12_AL3_CTRL_SET (*(volatile uint32_t *)0x50002330)
+#define DMA_CH12_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002334)
+#define DMA_CH12_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002338)
+#define DMA_CH12_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000233c)
+#define DMA_CH13_READ_ADDR_SET (*(volatile uint32_t *)0x50002340)
+#define DMA_CH13_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002344)
+#define DMA_CH13_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002348)
+#define DMA_CH13_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000234c)
+#define DMA_CH13_AL1_CTRL_SET (*(volatile uint32_t *)0x50002350)
+#define DMA_CH13_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002354)
+#define DMA_CH13_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002358)
+#define DMA_CH13_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000235c)
+#define DMA_CH13_AL2_CTRL_SET (*(volatile uint32_t *)0x50002360)
+#define DMA_CH13_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002364)
+#define DMA_CH13_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x50002368)
+#define DMA_CH13_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000236c)
+#define DMA_CH13_AL3_CTRL_SET (*(volatile uint32_t *)0x50002370)
+#define DMA_CH13_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002374)
+#define DMA_CH13_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002378)
+#define DMA_CH13_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x5000237c)
+#define DMA_CH14_READ_ADDR_SET (*(volatile uint32_t *)0x50002380)
+#define DMA_CH14_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002384)
+#define DMA_CH14_TRANS_COUNT_SET (*(volatile uint32_t *)0x50002388)
+#define DMA_CH14_CTRL_TRIG_SET (*(volatile uint32_t *)0x5000238c)
+#define DMA_CH14_AL1_CTRL_SET (*(volatile uint32_t *)0x50002390)
+#define DMA_CH14_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x50002394)
+#define DMA_CH14_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x50002398)
+#define DMA_CH14_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x5000239c)
+#define DMA_CH14_AL2_CTRL_SET (*(volatile uint32_t *)0x500023a0)
+#define DMA_CH14_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500023a4)
+#define DMA_CH14_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500023a8)
+#define DMA_CH14_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500023ac)
+#define DMA_CH14_AL3_CTRL_SET (*(volatile uint32_t *)0x500023b0)
+#define DMA_CH14_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500023b4)
+#define DMA_CH14_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500023b8)
+#define DMA_CH14_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500023bc)
+#define DMA_CH15_READ_ADDR_SET (*(volatile uint32_t *)0x500023c0)
+#define DMA_CH15_WRITE_ADDR_SET (*(volatile uint32_t *)0x500023c4)
+#define DMA_CH15_TRANS_COUNT_SET (*(volatile uint32_t *)0x500023c8)
+#define DMA_CH15_CTRL_TRIG_SET (*(volatile uint32_t *)0x500023cc)
+#define DMA_CH15_AL1_CTRL_SET (*(volatile uint32_t *)0x500023d0)
+#define DMA_CH15_AL1_READ_ADDR_SET (*(volatile uint32_t *)0x500023d4)
+#define DMA_CH15_AL1_WRITE_ADDR_SET (*(volatile uint32_t *)0x500023d8)
+#define DMA_CH15_AL1_TRANS_COUNT_TRIG_SET (*(volatile uint32_t *)0x500023dc)
+#define DMA_CH15_AL2_CTRL_SET (*(volatile uint32_t *)0x500023e0)
+#define DMA_CH15_AL2_TRANS_COUNT_SET (*(volatile uint32_t *)0x500023e4)
+#define DMA_CH15_AL2_READ_ADDR_SET (*(volatile uint32_t *)0x500023e8)
+#define DMA_CH15_AL2_WRITE_ADDR_TRIG_SET (*(volatile uint32_t *)0x500023ec)
+#define DMA_CH15_AL3_CTRL_SET (*(volatile uint32_t *)0x500023f0)
+#define DMA_CH15_AL3_WRITE_ADDR_SET (*(volatile uint32_t *)0x500023f4)
+#define DMA_CH15_AL3_TRANS_COUNT_SET (*(volatile uint32_t *)0x500023f8)
+#define DMA_CH15_AL3_READ_ADDR_TRIG_SET (*(volatile uint32_t *)0x500023fc)
+#define DMA_INTR_SET (*(volatile uint32_t *)0x50002400)
+#define DMA_INTE0_SET (*(volatile uint32_t *)0x50002404)
+#define DMA_INTF0_SET (*(volatile uint32_t *)0x50002408)
+#define DMA_INTS0_SET (*(volatile uint32_t *)0x5000240c)
+#define DMA_INTE1_SET (*(volatile uint32_t *)0x50002414)
+#define DMA_INTF1_SET (*(volatile uint32_t *)0x50002418)
+#define DMA_INTS1_SET (*(volatile uint32_t *)0x5000241c)
+#define DMA_INTE2_SET (*(volatile uint32_t *)0x50002424)
+#define DMA_INTF2_SET (*(volatile uint32_t *)0x50002428)
+#define DMA_INTS2_SET (*(volatile uint32_t *)0x5000242c)
+#define DMA_INTE3_SET (*(volatile uint32_t *)0x50002434)
+#define DMA_INTF3_SET (*(volatile uint32_t *)0x50002438)
+#define DMA_INTS3_SET (*(volatile uint32_t *)0x5000243c)
+#define DMA_TIMER0_SET (*(volatile uint32_t *)0x50002440)
+#define DMA_TIMER1_SET (*(volatile uint32_t *)0x50002444)
+#define DMA_TIMER2_SET (*(volatile uint32_t *)0x50002448)
+#define DMA_TIMER3_SET (*(volatile uint32_t *)0x5000244c)
+#define DMA_MULTI_CHAN_TRIGGER_SET (*(volatile uint32_t *)0x50002450)
+#define DMA_SNIFF_CTRL_SET (*(volatile uint32_t *)0x50002454)
+#define DMA_SNIFF_DATA_SET (*(volatile uint32_t *)0x50002458)
+#define DMA_FIFO_LEVELS_SET (*(volatile uint32_t *)0x50002460)
+#define DMA_CHAN_ABORT_SET (*(volatile uint32_t *)0x50002464)
+#define DMA_N_CHANNELS_SET (*(volatile uint32_t *)0x50002468)
+#define DMA_SECCFG_CH0_SET (*(volatile uint32_t *)0x50002480)
+#define DMA_SECCFG_CH1_SET (*(volatile uint32_t *)0x50002484)
+#define DMA_SECCFG_CH2_SET (*(volatile uint32_t *)0x50002488)
+#define DMA_SECCFG_CH3_SET (*(volatile uint32_t *)0x5000248c)
+#define DMA_SECCFG_CH4_SET (*(volatile uint32_t *)0x50002490)
+#define DMA_SECCFG_CH5_SET (*(volatile uint32_t *)0x50002494)
+#define DMA_SECCFG_CH6_SET (*(volatile uint32_t *)0x50002498)
+#define DMA_SECCFG_CH7_SET (*(volatile uint32_t *)0x5000249c)
+#define DMA_SECCFG_CH8_SET (*(volatile uint32_t *)0x500024a0)
+#define DMA_SECCFG_CH9_SET (*(volatile uint32_t *)0x500024a4)
+#define DMA_SECCFG_CH10_SET (*(volatile uint32_t *)0x500024a8)
+#define DMA_SECCFG_CH11_SET (*(volatile uint32_t *)0x500024ac)
+#define DMA_SECCFG_CH12_SET (*(volatile uint32_t *)0x500024b0)
+#define DMA_SECCFG_CH13_SET (*(volatile uint32_t *)0x500024b4)
+#define DMA_SECCFG_CH14_SET (*(volatile uint32_t *)0x500024b8)
+#define DMA_SECCFG_CH15_SET (*(volatile uint32_t *)0x500024bc)
+#define DMA_SECCFG_IRQ0_SET (*(volatile uint32_t *)0x500024c0)
+#define DMA_SECCFG_IRQ1_SET (*(volatile uint32_t *)0x500024c4)
+#define DMA_SECCFG_IRQ2_SET (*(volatile uint32_t *)0x500024c8)
+#define DMA_SECCFG_IRQ3_SET (*(volatile uint32_t *)0x500024cc)
+#define DMA_SECCFG_MISC_SET (*(volatile uint32_t *)0x500024d0)
+#define DMA_MPU_CTRL_SET (*(volatile uint32_t *)0x50002500)
+#define DMA_MPU_BAR0_SET (*(volatile uint32_t *)0x50002504)
+#define DMA_MPU_LAR0_SET (*(volatile uint32_t *)0x50002508)
+#define DMA_MPU_BAR1_SET (*(volatile uint32_t *)0x5000250c)
+#define DMA_MPU_LAR1_SET (*(volatile uint32_t *)0x50002510)
+#define DMA_MPU_BAR2_SET (*(volatile uint32_t *)0x50002514)
+#define DMA_MPU_LAR2_SET (*(volatile uint32_t *)0x50002518)
+#define DMA_MPU_BAR3_SET (*(volatile uint32_t *)0x5000251c)
+#define DMA_MPU_LAR3_SET (*(volatile uint32_t *)0x50002520)
+#define DMA_MPU_BAR4_SET (*(volatile uint32_t *)0x50002524)
+#define DMA_MPU_LAR4_SET (*(volatile uint32_t *)0x50002528)
+#define DMA_MPU_BAR5_SET (*(volatile uint32_t *)0x5000252c)
+#define DMA_MPU_LAR5_SET (*(volatile uint32_t *)0x50002530)
+#define DMA_MPU_BAR6_SET (*(volatile uint32_t *)0x50002534)
+#define DMA_MPU_LAR6_SET (*(volatile uint32_t *)0x50002538)
+#define DMA_MPU_BAR7_SET (*(volatile uint32_t *)0x5000253c)
+#define DMA_MPU_LAR7_SET (*(volatile uint32_t *)0x50002540)
+#define DMA_CH0_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002800)
+#define DMA_CH0_DBG_TCR_SET (*(volatile uint32_t *)0x50002804)
+#define DMA_CH1_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002840)
+#define DMA_CH1_DBG_TCR_SET (*(volatile uint32_t *)0x50002844)
+#define DMA_CH2_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002880)
+#define DMA_CH2_DBG_TCR_SET (*(volatile uint32_t *)0x50002884)
+#define DMA_CH3_DBG_CTDREQ_SET (*(volatile uint32_t *)0x500028c0)
+#define DMA_CH3_DBG_TCR_SET (*(volatile uint32_t *)0x500028c4)
+#define DMA_CH4_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002900)
+#define DMA_CH4_DBG_TCR_SET (*(volatile uint32_t *)0x50002904)
+#define DMA_CH5_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002940)
+#define DMA_CH5_DBG_TCR_SET (*(volatile uint32_t *)0x50002944)
+#define DMA_CH6_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002980)
+#define DMA_CH6_DBG_TCR_SET (*(volatile uint32_t *)0x50002984)
+#define DMA_CH7_DBG_CTDREQ_SET (*(volatile uint32_t *)0x500029c0)
+#define DMA_CH7_DBG_TCR_SET (*(volatile uint32_t *)0x500029c4)
+#define DMA_CH8_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002a00)
+#define DMA_CH8_DBG_TCR_SET (*(volatile uint32_t *)0x50002a04)
+#define DMA_CH9_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002a40)
+#define DMA_CH9_DBG_TCR_SET (*(volatile uint32_t *)0x50002a44)
+#define DMA_CH10_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002a80)
+#define DMA_CH10_DBG_TCR_SET (*(volatile uint32_t *)0x50002a84)
+#define DMA_CH11_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002ac0)
+#define DMA_CH11_DBG_TCR_SET (*(volatile uint32_t *)0x50002ac4)
+#define DMA_CH12_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002b00)
+#define DMA_CH12_DBG_TCR_SET (*(volatile uint32_t *)0x50002b04)
+#define DMA_CH13_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002b40)
+#define DMA_CH13_DBG_TCR_SET (*(volatile uint32_t *)0x50002b44)
+#define DMA_CH14_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002b80)
+#define DMA_CH14_DBG_TCR_SET (*(volatile uint32_t *)0x50002b84)
+#define DMA_CH15_DBG_CTDREQ_SET (*(volatile uint32_t *)0x50002bc0)
+#define DMA_CH15_DBG_TCR_SET (*(volatile uint32_t *)0x50002bc4)
+#define DMA_CH0_READ_ADDR_CLR (*(volatile uint32_t *)0x50003000)
+#define DMA_CH0_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003004)
+#define DMA_CH0_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003008)
+#define DMA_CH0_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000300c)
+#define DMA_CH0_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003010)
+#define DMA_CH0_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003014)
+#define DMA_CH0_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003018)
+#define DMA_CH0_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000301c)
+#define DMA_CH0_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003020)
+#define DMA_CH0_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003024)
+#define DMA_CH0_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003028)
+#define DMA_CH0_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000302c)
+#define DMA_CH0_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003030)
+#define DMA_CH0_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003034)
+#define DMA_CH0_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003038)
+#define DMA_CH0_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000303c)
+#define DMA_CH1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003040)
+#define DMA_CH1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003044)
+#define DMA_CH1_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003048)
+#define DMA_CH1_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000304c)
+#define DMA_CH1_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003050)
+#define DMA_CH1_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003054)
+#define DMA_CH1_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003058)
+#define DMA_CH1_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000305c)
+#define DMA_CH1_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003060)
+#define DMA_CH1_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003064)
+#define DMA_CH1_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003068)
+#define DMA_CH1_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000306c)
+#define DMA_CH1_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003070)
+#define DMA_CH1_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003074)
+#define DMA_CH1_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003078)
+#define DMA_CH1_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000307c)
+#define DMA_CH2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003080)
+#define DMA_CH2_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003084)
+#define DMA_CH2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003088)
+#define DMA_CH2_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000308c)
+#define DMA_CH2_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003090)
+#define DMA_CH2_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003094)
+#define DMA_CH2_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003098)
+#define DMA_CH2_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000309c)
+#define DMA_CH2_AL2_CTRL_CLR (*(volatile uint32_t *)0x500030a0)
+#define DMA_CH2_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500030a4)
+#define DMA_CH2_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500030a8)
+#define DMA_CH2_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500030ac)
+#define DMA_CH2_AL3_CTRL_CLR (*(volatile uint32_t *)0x500030b0)
+#define DMA_CH2_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500030b4)
+#define DMA_CH2_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500030b8)
+#define DMA_CH2_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500030bc)
+#define DMA_CH3_READ_ADDR_CLR (*(volatile uint32_t *)0x500030c0)
+#define DMA_CH3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500030c4)
+#define DMA_CH3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500030c8)
+#define DMA_CH3_CTRL_TRIG_CLR (*(volatile uint32_t *)0x500030cc)
+#define DMA_CH3_AL1_CTRL_CLR (*(volatile uint32_t *)0x500030d0)
+#define DMA_CH3_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x500030d4)
+#define DMA_CH3_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500030d8)
+#define DMA_CH3_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x500030dc)
+#define DMA_CH3_AL2_CTRL_CLR (*(volatile uint32_t *)0x500030e0)
+#define DMA_CH3_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500030e4)
+#define DMA_CH3_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500030e8)
+#define DMA_CH3_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500030ec)
+#define DMA_CH3_AL3_CTRL_CLR (*(volatile uint32_t *)0x500030f0)
+#define DMA_CH3_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500030f4)
+#define DMA_CH3_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500030f8)
+#define DMA_CH3_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500030fc)
+#define DMA_CH4_READ_ADDR_CLR (*(volatile uint32_t *)0x50003100)
+#define DMA_CH4_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003104)
+#define DMA_CH4_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003108)
+#define DMA_CH4_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000310c)
+#define DMA_CH4_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003110)
+#define DMA_CH4_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003114)
+#define DMA_CH4_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003118)
+#define DMA_CH4_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000311c)
+#define DMA_CH4_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003120)
+#define DMA_CH4_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003124)
+#define DMA_CH4_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003128)
+#define DMA_CH4_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000312c)
+#define DMA_CH4_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003130)
+#define DMA_CH4_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003134)
+#define DMA_CH4_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003138)
+#define DMA_CH4_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000313c)
+#define DMA_CH5_READ_ADDR_CLR (*(volatile uint32_t *)0x50003140)
+#define DMA_CH5_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003144)
+#define DMA_CH5_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003148)
+#define DMA_CH5_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000314c)
+#define DMA_CH5_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003150)
+#define DMA_CH5_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003154)
+#define DMA_CH5_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003158)
+#define DMA_CH5_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000315c)
+#define DMA_CH5_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003160)
+#define DMA_CH5_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003164)
+#define DMA_CH5_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003168)
+#define DMA_CH5_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000316c)
+#define DMA_CH5_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003170)
+#define DMA_CH5_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003174)
+#define DMA_CH5_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003178)
+#define DMA_CH5_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000317c)
+#define DMA_CH6_READ_ADDR_CLR (*(volatile uint32_t *)0x50003180)
+#define DMA_CH6_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003184)
+#define DMA_CH6_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003188)
+#define DMA_CH6_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000318c)
+#define DMA_CH6_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003190)
+#define DMA_CH6_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003194)
+#define DMA_CH6_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003198)
+#define DMA_CH6_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000319c)
+#define DMA_CH6_AL2_CTRL_CLR (*(volatile uint32_t *)0x500031a0)
+#define DMA_CH6_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500031a4)
+#define DMA_CH6_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500031a8)
+#define DMA_CH6_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500031ac)
+#define DMA_CH6_AL3_CTRL_CLR (*(volatile uint32_t *)0x500031b0)
+#define DMA_CH6_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500031b4)
+#define DMA_CH6_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500031b8)
+#define DMA_CH6_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500031bc)
+#define DMA_CH7_READ_ADDR_CLR (*(volatile uint32_t *)0x500031c0)
+#define DMA_CH7_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500031c4)
+#define DMA_CH7_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500031c8)
+#define DMA_CH7_CTRL_TRIG_CLR (*(volatile uint32_t *)0x500031cc)
+#define DMA_CH7_AL1_CTRL_CLR (*(volatile uint32_t *)0x500031d0)
+#define DMA_CH7_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x500031d4)
+#define DMA_CH7_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500031d8)
+#define DMA_CH7_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x500031dc)
+#define DMA_CH7_AL2_CTRL_CLR (*(volatile uint32_t *)0x500031e0)
+#define DMA_CH7_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500031e4)
+#define DMA_CH7_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500031e8)
+#define DMA_CH7_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500031ec)
+#define DMA_CH7_AL3_CTRL_CLR (*(volatile uint32_t *)0x500031f0)
+#define DMA_CH7_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500031f4)
+#define DMA_CH7_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500031f8)
+#define DMA_CH7_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500031fc)
+#define DMA_CH8_READ_ADDR_CLR (*(volatile uint32_t *)0x50003200)
+#define DMA_CH8_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003204)
+#define DMA_CH8_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003208)
+#define DMA_CH8_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000320c)
+#define DMA_CH8_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003210)
+#define DMA_CH8_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003214)
+#define DMA_CH8_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003218)
+#define DMA_CH8_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000321c)
+#define DMA_CH8_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003220)
+#define DMA_CH8_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003224)
+#define DMA_CH8_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003228)
+#define DMA_CH8_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000322c)
+#define DMA_CH8_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003230)
+#define DMA_CH8_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003234)
+#define DMA_CH8_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003238)
+#define DMA_CH8_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000323c)
+#define DMA_CH9_READ_ADDR_CLR (*(volatile uint32_t *)0x50003240)
+#define DMA_CH9_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003244)
+#define DMA_CH9_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003248)
+#define DMA_CH9_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000324c)
+#define DMA_CH9_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003250)
+#define DMA_CH9_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003254)
+#define DMA_CH9_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003258)
+#define DMA_CH9_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000325c)
+#define DMA_CH9_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003260)
+#define DMA_CH9_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003264)
+#define DMA_CH9_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003268)
+#define DMA_CH9_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000326c)
+#define DMA_CH9_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003270)
+#define DMA_CH9_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003274)
+#define DMA_CH9_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003278)
+#define DMA_CH9_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000327c)
+#define DMA_CH10_READ_ADDR_CLR (*(volatile uint32_t *)0x50003280)
+#define DMA_CH10_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003284)
+#define DMA_CH10_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003288)
+#define DMA_CH10_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000328c)
+#define DMA_CH10_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003290)
+#define DMA_CH10_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003294)
+#define DMA_CH10_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003298)
+#define DMA_CH10_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000329c)
+#define DMA_CH10_AL2_CTRL_CLR (*(volatile uint32_t *)0x500032a0)
+#define DMA_CH10_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500032a4)
+#define DMA_CH10_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500032a8)
+#define DMA_CH10_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500032ac)
+#define DMA_CH10_AL3_CTRL_CLR (*(volatile uint32_t *)0x500032b0)
+#define DMA_CH10_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500032b4)
+#define DMA_CH10_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500032b8)
+#define DMA_CH10_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500032bc)
+#define DMA_CH11_READ_ADDR_CLR (*(volatile uint32_t *)0x500032c0)
+#define DMA_CH11_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500032c4)
+#define DMA_CH11_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500032c8)
+#define DMA_CH11_CTRL_TRIG_CLR (*(volatile uint32_t *)0x500032cc)
+#define DMA_CH11_AL1_CTRL_CLR (*(volatile uint32_t *)0x500032d0)
+#define DMA_CH11_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x500032d4)
+#define DMA_CH11_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500032d8)
+#define DMA_CH11_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x500032dc)
+#define DMA_CH11_AL2_CTRL_CLR (*(volatile uint32_t *)0x500032e0)
+#define DMA_CH11_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500032e4)
+#define DMA_CH11_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500032e8)
+#define DMA_CH11_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500032ec)
+#define DMA_CH11_AL3_CTRL_CLR (*(volatile uint32_t *)0x500032f0)
+#define DMA_CH11_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500032f4)
+#define DMA_CH11_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500032f8)
+#define DMA_CH11_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500032fc)
+#define DMA_CH12_READ_ADDR_CLR (*(volatile uint32_t *)0x50003300)
+#define DMA_CH12_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003304)
+#define DMA_CH12_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003308)
+#define DMA_CH12_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000330c)
+#define DMA_CH12_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003310)
+#define DMA_CH12_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003314)
+#define DMA_CH12_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003318)
+#define DMA_CH12_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000331c)
+#define DMA_CH12_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003320)
+#define DMA_CH12_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003324)
+#define DMA_CH12_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003328)
+#define DMA_CH12_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000332c)
+#define DMA_CH12_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003330)
+#define DMA_CH12_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003334)
+#define DMA_CH12_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003338)
+#define DMA_CH12_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000333c)
+#define DMA_CH13_READ_ADDR_CLR (*(volatile uint32_t *)0x50003340)
+#define DMA_CH13_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003344)
+#define DMA_CH13_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003348)
+#define DMA_CH13_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000334c)
+#define DMA_CH13_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003350)
+#define DMA_CH13_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003354)
+#define DMA_CH13_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003358)
+#define DMA_CH13_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000335c)
+#define DMA_CH13_AL2_CTRL_CLR (*(volatile uint32_t *)0x50003360)
+#define DMA_CH13_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003364)
+#define DMA_CH13_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x50003368)
+#define DMA_CH13_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000336c)
+#define DMA_CH13_AL3_CTRL_CLR (*(volatile uint32_t *)0x50003370)
+#define DMA_CH13_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003374)
+#define DMA_CH13_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003378)
+#define DMA_CH13_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x5000337c)
+#define DMA_CH14_READ_ADDR_CLR (*(volatile uint32_t *)0x50003380)
+#define DMA_CH14_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003384)
+#define DMA_CH14_TRANS_COUNT_CLR (*(volatile uint32_t *)0x50003388)
+#define DMA_CH14_CTRL_TRIG_CLR (*(volatile uint32_t *)0x5000338c)
+#define DMA_CH14_AL1_CTRL_CLR (*(volatile uint32_t *)0x50003390)
+#define DMA_CH14_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x50003394)
+#define DMA_CH14_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x50003398)
+#define DMA_CH14_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x5000339c)
+#define DMA_CH14_AL2_CTRL_CLR (*(volatile uint32_t *)0x500033a0)
+#define DMA_CH14_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500033a4)
+#define DMA_CH14_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500033a8)
+#define DMA_CH14_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500033ac)
+#define DMA_CH14_AL3_CTRL_CLR (*(volatile uint32_t *)0x500033b0)
+#define DMA_CH14_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500033b4)
+#define DMA_CH14_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500033b8)
+#define DMA_CH14_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500033bc)
+#define DMA_CH15_READ_ADDR_CLR (*(volatile uint32_t *)0x500033c0)
+#define DMA_CH15_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500033c4)
+#define DMA_CH15_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500033c8)
+#define DMA_CH15_CTRL_TRIG_CLR (*(volatile uint32_t *)0x500033cc)
+#define DMA_CH15_AL1_CTRL_CLR (*(volatile uint32_t *)0x500033d0)
+#define DMA_CH15_AL1_READ_ADDR_CLR (*(volatile uint32_t *)0x500033d4)
+#define DMA_CH15_AL1_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500033d8)
+#define DMA_CH15_AL1_TRANS_COUNT_TRIG_CLR (*(volatile uint32_t *)0x500033dc)
+#define DMA_CH15_AL2_CTRL_CLR (*(volatile uint32_t *)0x500033e0)
+#define DMA_CH15_AL2_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500033e4)
+#define DMA_CH15_AL2_READ_ADDR_CLR (*(volatile uint32_t *)0x500033e8)
+#define DMA_CH15_AL2_WRITE_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500033ec)
+#define DMA_CH15_AL3_CTRL_CLR (*(volatile uint32_t *)0x500033f0)
+#define DMA_CH15_AL3_WRITE_ADDR_CLR (*(volatile uint32_t *)0x500033f4)
+#define DMA_CH15_AL3_TRANS_COUNT_CLR (*(volatile uint32_t *)0x500033f8)
+#define DMA_CH15_AL3_READ_ADDR_TRIG_CLR (*(volatile uint32_t *)0x500033fc)
+#define DMA_INTR_CLR (*(volatile uint32_t *)0x50003400)
+#define DMA_INTE0_CLR (*(volatile uint32_t *)0x50003404)
+#define DMA_INTF0_CLR (*(volatile uint32_t *)0x50003408)
+#define DMA_INTS0_CLR (*(volatile uint32_t *)0x5000340c)
+#define DMA_INTE1_CLR (*(volatile uint32_t *)0x50003414)
+#define DMA_INTF1_CLR (*(volatile uint32_t *)0x50003418)
+#define DMA_INTS1_CLR (*(volatile uint32_t *)0x5000341c)
+#define DMA_INTE2_CLR (*(volatile uint32_t *)0x50003424)
+#define DMA_INTF2_CLR (*(volatile uint32_t *)0x50003428)
+#define DMA_INTS2_CLR (*(volatile uint32_t *)0x5000342c)
+#define DMA_INTE3_CLR (*(volatile uint32_t *)0x50003434)
+#define DMA_INTF3_CLR (*(volatile uint32_t *)0x50003438)
+#define DMA_INTS3_CLR (*(volatile uint32_t *)0x5000343c)
+#define DMA_TIMER0_CLR (*(volatile uint32_t *)0x50003440)
+#define DMA_TIMER1_CLR (*(volatile uint32_t *)0x50003444)
+#define DMA_TIMER2_CLR (*(volatile uint32_t *)0x50003448)
+#define DMA_TIMER3_CLR (*(volatile uint32_t *)0x5000344c)
+#define DMA_MULTI_CHAN_TRIGGER_CLR (*(volatile uint32_t *)0x50003450)
+#define DMA_SNIFF_CTRL_CLR (*(volatile uint32_t *)0x50003454)
+#define DMA_SNIFF_DATA_CLR (*(volatile uint32_t *)0x50003458)
+#define DMA_FIFO_LEVELS_CLR (*(volatile uint32_t *)0x50003460)
+#define DMA_CHAN_ABORT_CLR (*(volatile uint32_t *)0x50003464)
+#define DMA_N_CHANNELS_CLR (*(volatile uint32_t *)0x50003468)
+#define DMA_SECCFG_CH0_CLR (*(volatile uint32_t *)0x50003480)
+#define DMA_SECCFG_CH1_CLR (*(volatile uint32_t *)0x50003484)
+#define DMA_SECCFG_CH2_CLR (*(volatile uint32_t *)0x50003488)
+#define DMA_SECCFG_CH3_CLR (*(volatile uint32_t *)0x5000348c)
+#define DMA_SECCFG_CH4_CLR (*(volatile uint32_t *)0x50003490)
+#define DMA_SECCFG_CH5_CLR (*(volatile uint32_t *)0x50003494)
+#define DMA_SECCFG_CH6_CLR (*(volatile uint32_t *)0x50003498)
+#define DMA_SECCFG_CH7_CLR (*(volatile uint32_t *)0x5000349c)
+#define DMA_SECCFG_CH8_CLR (*(volatile uint32_t *)0x500034a0)
+#define DMA_SECCFG_CH9_CLR (*(volatile uint32_t *)0x500034a4)
+#define DMA_SECCFG_CH10_CLR (*(volatile uint32_t *)0x500034a8)
+#define DMA_SECCFG_CH11_CLR (*(volatile uint32_t *)0x500034ac)
+#define DMA_SECCFG_CH12_CLR (*(volatile uint32_t *)0x500034b0)
+#define DMA_SECCFG_CH13_CLR (*(volatile uint32_t *)0x500034b4)
+#define DMA_SECCFG_CH14_CLR (*(volatile uint32_t *)0x500034b8)
+#define DMA_SECCFG_CH15_CLR (*(volatile uint32_t *)0x500034bc)
+#define DMA_SECCFG_IRQ0_CLR (*(volatile uint32_t *)0x500034c0)
+#define DMA_SECCFG_IRQ1_CLR (*(volatile uint32_t *)0x500034c4)
+#define DMA_SECCFG_IRQ2_CLR (*(volatile uint32_t *)0x500034c8)
+#define DMA_SECCFG_IRQ3_CLR (*(volatile uint32_t *)0x500034cc)
+#define DMA_SECCFG_MISC_CLR (*(volatile uint32_t *)0x500034d0)
+#define DMA_MPU_CTRL_CLR (*(volatile uint32_t *)0x50003500)
+#define DMA_MPU_BAR0_CLR (*(volatile uint32_t *)0x50003504)
+#define DMA_MPU_LAR0_CLR (*(volatile uint32_t *)0x50003508)
+#define DMA_MPU_BAR1_CLR (*(volatile uint32_t *)0x5000350c)
+#define DMA_MPU_LAR1_CLR (*(volatile uint32_t *)0x50003510)
+#define DMA_MPU_BAR2_CLR (*(volatile uint32_t *)0x50003514)
+#define DMA_MPU_LAR2_CLR (*(volatile uint32_t *)0x50003518)
+#define DMA_MPU_BAR3_CLR (*(volatile uint32_t *)0x5000351c)
+#define DMA_MPU_LAR3_CLR (*(volatile uint32_t *)0x50003520)
+#define DMA_MPU_BAR4_CLR (*(volatile uint32_t *)0x50003524)
+#define DMA_MPU_LAR4_CLR (*(volatile uint32_t *)0x50003528)
+#define DMA_MPU_BAR5_CLR (*(volatile uint32_t *)0x5000352c)
+#define DMA_MPU_LAR5_CLR (*(volatile uint32_t *)0x50003530)
+#define DMA_MPU_BAR6_CLR (*(volatile uint32_t *)0x50003534)
+#define DMA_MPU_LAR6_CLR (*(volatile uint32_t *)0x50003538)
+#define DMA_MPU_BAR7_CLR (*(volatile uint32_t *)0x5000353c)
+#define DMA_MPU_LAR7_CLR (*(volatile uint32_t *)0x50003540)
+#define DMA_CH0_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003800)
+#define DMA_CH0_DBG_TCR_CLR (*(volatile uint32_t *)0x50003804)
+#define DMA_CH1_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003840)
+#define DMA_CH1_DBG_TCR_CLR (*(volatile uint32_t *)0x50003844)
+#define DMA_CH2_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003880)
+#define DMA_CH2_DBG_TCR_CLR (*(volatile uint32_t *)0x50003884)
+#define DMA_CH3_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x500038c0)
+#define DMA_CH3_DBG_TCR_CLR (*(volatile uint32_t *)0x500038c4)
+#define DMA_CH4_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003900)
+#define DMA_CH4_DBG_TCR_CLR (*(volatile uint32_t *)0x50003904)
+#define DMA_CH5_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003940)
+#define DMA_CH5_DBG_TCR_CLR (*(volatile uint32_t *)0x50003944)
+#define DMA_CH6_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003980)
+#define DMA_CH6_DBG_TCR_CLR (*(volatile uint32_t *)0x50003984)
+#define DMA_CH7_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x500039c0)
+#define DMA_CH7_DBG_TCR_CLR (*(volatile uint32_t *)0x500039c4)
+#define DMA_CH8_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003a00)
+#define DMA_CH8_DBG_TCR_CLR (*(volatile uint32_t *)0x50003a04)
+#define DMA_CH9_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003a40)
+#define DMA_CH9_DBG_TCR_CLR (*(volatile uint32_t *)0x50003a44)
+#define DMA_CH10_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003a80)
+#define DMA_CH10_DBG_TCR_CLR (*(volatile uint32_t *)0x50003a84)
+#define DMA_CH11_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003ac0)
+#define DMA_CH11_DBG_TCR_CLR (*(volatile uint32_t *)0x50003ac4)
+#define DMA_CH12_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003b00)
+#define DMA_CH12_DBG_TCR_CLR (*(volatile uint32_t *)0x50003b04)
+#define DMA_CH13_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003b40)
+#define DMA_CH13_DBG_TCR_CLR (*(volatile uint32_t *)0x50003b44)
+#define DMA_CH14_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003b80)
+#define DMA_CH14_DBG_TCR_CLR (*(volatile uint32_t *)0x50003b84)
+#define DMA_CH15_DBG_CTDREQ_CLR (*(volatile uint32_t *)0x50003bc0)
+#define DMA_CH15_DBG_TCR_CLR (*(volatile uint32_t *)0x50003bc4)
 
 /*CH0_READ_ADDR Register macros*/
 

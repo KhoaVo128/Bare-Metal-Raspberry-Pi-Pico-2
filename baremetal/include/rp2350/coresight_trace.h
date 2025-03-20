@@ -34,14 +34,14 @@ typedef struct{
 		uint32_t ctrl_status;
 		uint32_t trace_capture_fifo;
 		uint32_t RSVD0[1022];
-		uint32_t xor_ctrl_status;
-		uint32_t xor_trace_capture_fifo;
+		uint32_t ctrl_status_xor;
+		uint32_t trace_capture_fifo_xor;
 		uint32_t RSVDxor_0[1022];
-		uint32_t set_ctrl_status;
-		uint32_t set_trace_capture_fifo;
+		uint32_t ctrl_status_set;
+		uint32_t trace_capture_fifo_set;
 		uint32_t RSVDset_0[1022];
-		uint32_t clr_ctrl_status;
-		uint32_t clr_trace_capture_fifo;
+		uint32_t ctrl_status_clr;
+		uint32_t trace_capture_fifo_clr;
 		uint32_t RSVDclr_0[1022];
 } CORESIGHT_TRACE_REG_BLOCKS;
 
@@ -55,12 +55,12 @@ typedef struct{
 
 #define CORESIGHT_TRACE_CTRL_STATUS (*(volatile uint32_t *)0x50700000)
 #define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50700004)
-#define CORESIGHT_TRACE_XOR_CTRL_STATUS (*(volatile uint32_t *)0x50701000)
-#define CORESIGHT_TRACE_XOR_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50701004)
-#define CORESIGHT_TRACE_SET_CTRL_STATUS (*(volatile uint32_t *)0x50702000)
-#define CORESIGHT_TRACE_SET_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50702004)
-#define CORESIGHT_TRACE_CLR_CTRL_STATUS (*(volatile uint32_t *)0x50703000)
-#define CORESIGHT_TRACE_CLR_TRACE_CAPTURE_FIFO (*(volatile uint32_t *)0x50703004)
+#define CORESIGHT_TRACE_CTRL_STATUS_XOR (*(volatile uint32_t *)0x50701000)
+#define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO_XOR (*(volatile uint32_t *)0x50701004)
+#define CORESIGHT_TRACE_CTRL_STATUS_SET (*(volatile uint32_t *)0x50702000)
+#define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO_SET (*(volatile uint32_t *)0x50702004)
+#define CORESIGHT_TRACE_CTRL_STATUS_CLR (*(volatile uint32_t *)0x50703000)
+#define CORESIGHT_TRACE_TRACE_CAPTURE_FIFO_CLR (*(volatile uint32_t *)0x50703004)
 
 /*CTRL_STATUS Register macros*/
 

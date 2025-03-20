@@ -43,41 +43,41 @@ typedef struct{
 		uint32_t perfctr3;
 		uint32_t perfsel3;
 		uint32_t RSVD0[1013];
-		uint32_t xor_bus_priority;
-		uint32_t xor_bus_priority_ack;
-		uint32_t xor_perfctr_en;
-		uint32_t xor_perfctr0;
-		uint32_t xor_perfsel0;
-		uint32_t xor_perfctr1;
-		uint32_t xor_perfsel1;
-		uint32_t xor_perfctr2;
-		uint32_t xor_perfsel2;
-		uint32_t xor_perfctr3;
-		uint32_t xor_perfsel3;
+		uint32_t bus_priority_xor;
+		uint32_t bus_priority_ack_xor;
+		uint32_t perfctr_en_xor;
+		uint32_t perfctr0_xor;
+		uint32_t perfsel0_xor;
+		uint32_t perfctr1_xor;
+		uint32_t perfsel1_xor;
+		uint32_t perfctr2_xor;
+		uint32_t perfsel2_xor;
+		uint32_t perfctr3_xor;
+		uint32_t perfsel3_xor;
 		uint32_t RSVDxor_0[1013];
-		uint32_t set_bus_priority;
-		uint32_t set_bus_priority_ack;
-		uint32_t set_perfctr_en;
-		uint32_t set_perfctr0;
-		uint32_t set_perfsel0;
-		uint32_t set_perfctr1;
-		uint32_t set_perfsel1;
-		uint32_t set_perfctr2;
-		uint32_t set_perfsel2;
-		uint32_t set_perfctr3;
-		uint32_t set_perfsel3;
+		uint32_t bus_priority_set;
+		uint32_t bus_priority_ack_set;
+		uint32_t perfctr_en_set;
+		uint32_t perfctr0_set;
+		uint32_t perfsel0_set;
+		uint32_t perfctr1_set;
+		uint32_t perfsel1_set;
+		uint32_t perfctr2_set;
+		uint32_t perfsel2_set;
+		uint32_t perfctr3_set;
+		uint32_t perfsel3_set;
 		uint32_t RSVDset_0[1013];
-		uint32_t clr_bus_priority;
-		uint32_t clr_bus_priority_ack;
-		uint32_t clr_perfctr_en;
-		uint32_t clr_perfctr0;
-		uint32_t clr_perfsel0;
-		uint32_t clr_perfctr1;
-		uint32_t clr_perfsel1;
-		uint32_t clr_perfctr2;
-		uint32_t clr_perfsel2;
-		uint32_t clr_perfctr3;
-		uint32_t clr_perfsel3;
+		uint32_t bus_priority_clr;
+		uint32_t bus_priority_ack_clr;
+		uint32_t perfctr_en_clr;
+		uint32_t perfctr0_clr;
+		uint32_t perfsel0_clr;
+		uint32_t perfctr1_clr;
+		uint32_t perfsel1_clr;
+		uint32_t perfctr2_clr;
+		uint32_t perfsel2_clr;
+		uint32_t perfctr3_clr;
+		uint32_t perfsel3_clr;
 		uint32_t RSVDclr_0[1013];
 } BUSCTRL_REG_BLOCKS;
 
@@ -100,39 +100,39 @@ typedef struct{
 #define BUSCTRL_PERFSEL2 (*(volatile uint32_t *)0x40068020)
 #define BUSCTRL_PERFCTR3 (*(volatile uint32_t *)0x40068024)
 #define BUSCTRL_PERFSEL3 (*(volatile uint32_t *)0x40068028)
-#define BUSCTRL_XOR_BUS_PRIORITY (*(volatile uint32_t *)0x40069000)
-#define BUSCTRL_XOR_BUS_PRIORITY_ACK (*(volatile uint32_t *)0x40069004)
-#define BUSCTRL_XOR_PERFCTR_EN (*(volatile uint32_t *)0x40069008)
-#define BUSCTRL_XOR_PERFCTR0 (*(volatile uint32_t *)0x4006900c)
-#define BUSCTRL_XOR_PERFSEL0 (*(volatile uint32_t *)0x40069010)
-#define BUSCTRL_XOR_PERFCTR1 (*(volatile uint32_t *)0x40069014)
-#define BUSCTRL_XOR_PERFSEL1 (*(volatile uint32_t *)0x40069018)
-#define BUSCTRL_XOR_PERFCTR2 (*(volatile uint32_t *)0x4006901c)
-#define BUSCTRL_XOR_PERFSEL2 (*(volatile uint32_t *)0x40069020)
-#define BUSCTRL_XOR_PERFCTR3 (*(volatile uint32_t *)0x40069024)
-#define BUSCTRL_XOR_PERFSEL3 (*(volatile uint32_t *)0x40069028)
-#define BUSCTRL_SET_BUS_PRIORITY (*(volatile uint32_t *)0x4006a000)
-#define BUSCTRL_SET_BUS_PRIORITY_ACK (*(volatile uint32_t *)0x4006a004)
-#define BUSCTRL_SET_PERFCTR_EN (*(volatile uint32_t *)0x4006a008)
-#define BUSCTRL_SET_PERFCTR0 (*(volatile uint32_t *)0x4006a00c)
-#define BUSCTRL_SET_PERFSEL0 (*(volatile uint32_t *)0x4006a010)
-#define BUSCTRL_SET_PERFCTR1 (*(volatile uint32_t *)0x4006a014)
-#define BUSCTRL_SET_PERFSEL1 (*(volatile uint32_t *)0x4006a018)
-#define BUSCTRL_SET_PERFCTR2 (*(volatile uint32_t *)0x4006a01c)
-#define BUSCTRL_SET_PERFSEL2 (*(volatile uint32_t *)0x4006a020)
-#define BUSCTRL_SET_PERFCTR3 (*(volatile uint32_t *)0x4006a024)
-#define BUSCTRL_SET_PERFSEL3 (*(volatile uint32_t *)0x4006a028)
-#define BUSCTRL_CLR_BUS_PRIORITY (*(volatile uint32_t *)0x4006b000)
-#define BUSCTRL_CLR_BUS_PRIORITY_ACK (*(volatile uint32_t *)0x4006b004)
-#define BUSCTRL_CLR_PERFCTR_EN (*(volatile uint32_t *)0x4006b008)
-#define BUSCTRL_CLR_PERFCTR0 (*(volatile uint32_t *)0x4006b00c)
-#define BUSCTRL_CLR_PERFSEL0 (*(volatile uint32_t *)0x4006b010)
-#define BUSCTRL_CLR_PERFCTR1 (*(volatile uint32_t *)0x4006b014)
-#define BUSCTRL_CLR_PERFSEL1 (*(volatile uint32_t *)0x4006b018)
-#define BUSCTRL_CLR_PERFCTR2 (*(volatile uint32_t *)0x4006b01c)
-#define BUSCTRL_CLR_PERFSEL2 (*(volatile uint32_t *)0x4006b020)
-#define BUSCTRL_CLR_PERFCTR3 (*(volatile uint32_t *)0x4006b024)
-#define BUSCTRL_CLR_PERFSEL3 (*(volatile uint32_t *)0x4006b028)
+#define BUSCTRL_BUS_PRIORITY_XOR (*(volatile uint32_t *)0x40069000)
+#define BUSCTRL_BUS_PRIORITY_ACK_XOR (*(volatile uint32_t *)0x40069004)
+#define BUSCTRL_PERFCTR_EN_XOR (*(volatile uint32_t *)0x40069008)
+#define BUSCTRL_PERFCTR0_XOR (*(volatile uint32_t *)0x4006900c)
+#define BUSCTRL_PERFSEL0_XOR (*(volatile uint32_t *)0x40069010)
+#define BUSCTRL_PERFCTR1_XOR (*(volatile uint32_t *)0x40069014)
+#define BUSCTRL_PERFSEL1_XOR (*(volatile uint32_t *)0x40069018)
+#define BUSCTRL_PERFCTR2_XOR (*(volatile uint32_t *)0x4006901c)
+#define BUSCTRL_PERFSEL2_XOR (*(volatile uint32_t *)0x40069020)
+#define BUSCTRL_PERFCTR3_XOR (*(volatile uint32_t *)0x40069024)
+#define BUSCTRL_PERFSEL3_XOR (*(volatile uint32_t *)0x40069028)
+#define BUSCTRL_BUS_PRIORITY_SET (*(volatile uint32_t *)0x4006a000)
+#define BUSCTRL_BUS_PRIORITY_ACK_SET (*(volatile uint32_t *)0x4006a004)
+#define BUSCTRL_PERFCTR_EN_SET (*(volatile uint32_t *)0x4006a008)
+#define BUSCTRL_PERFCTR0_SET (*(volatile uint32_t *)0x4006a00c)
+#define BUSCTRL_PERFSEL0_SET (*(volatile uint32_t *)0x4006a010)
+#define BUSCTRL_PERFCTR1_SET (*(volatile uint32_t *)0x4006a014)
+#define BUSCTRL_PERFSEL1_SET (*(volatile uint32_t *)0x4006a018)
+#define BUSCTRL_PERFCTR2_SET (*(volatile uint32_t *)0x4006a01c)
+#define BUSCTRL_PERFSEL2_SET (*(volatile uint32_t *)0x4006a020)
+#define BUSCTRL_PERFCTR3_SET (*(volatile uint32_t *)0x4006a024)
+#define BUSCTRL_PERFSEL3_SET (*(volatile uint32_t *)0x4006a028)
+#define BUSCTRL_BUS_PRIORITY_CLR (*(volatile uint32_t *)0x4006b000)
+#define BUSCTRL_BUS_PRIORITY_ACK_CLR (*(volatile uint32_t *)0x4006b004)
+#define BUSCTRL_PERFCTR_EN_CLR (*(volatile uint32_t *)0x4006b008)
+#define BUSCTRL_PERFCTR0_CLR (*(volatile uint32_t *)0x4006b00c)
+#define BUSCTRL_PERFSEL0_CLR (*(volatile uint32_t *)0x4006b010)
+#define BUSCTRL_PERFCTR1_CLR (*(volatile uint32_t *)0x4006b014)
+#define BUSCTRL_PERFSEL1_CLR (*(volatile uint32_t *)0x4006b018)
+#define BUSCTRL_PERFCTR2_CLR (*(volatile uint32_t *)0x4006b01c)
+#define BUSCTRL_PERFSEL2_CLR (*(volatile uint32_t *)0x4006b020)
+#define BUSCTRL_PERFCTR3_CLR (*(volatile uint32_t *)0x4006b024)
+#define BUSCTRL_PERFSEL3_CLR (*(volatile uint32_t *)0x4006b028)
 
 /*BUS_PRIORITY Register macros*/
 

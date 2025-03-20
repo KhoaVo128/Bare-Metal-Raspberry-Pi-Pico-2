@@ -500,8 +500,8 @@ void USBCTRL_IRQ_Handler()
 	//prepare an out packet if necessary and enumerated
 	prepare_out_to_host();
 	//Everything has been handled so ACK IRQ 
-	usbctrl.clr_buff_status = 0xFFFFFFFF;
-	usbctrl.clr_sie_status = 0xFFFFFFFF;
+	usbctrl.buff_status_clr = 0xFFFFFFFF;
+	usbctrl.sie_status_clr = 0xFFFFFFFF;
 }
 
 void configure_usbcdc()
@@ -510,7 +510,7 @@ void configure_usbcdc()
 	 * Configure USB PLL.  
 	 */
 	//un-reset USB PLL and poll until reset is deasserted
-	resets.clr_reset  =  RESETS_RESET_PLL_USB_MASK;
+	resets.reset_clr  =  RESETS_RESET_PLL_USB_MASK;
 	while(!(resets.reset_done & RESETS_RESET_DONE_PLL_USB_MASK))
 		continue;
 	//config for 12x48MHz, disable power bits to start, and wait for lock
@@ -543,7 +543,7 @@ void configure_usbcdc()
 	 */
 
 	//Pull USB out of reset and wait until deasserted
-	resets.clr_reset = RESETS_RESET_USBCTRL_MASK;
+	resets.reset_clr = RESETS_RESET_USBCTRL_MASK;
 
 	while(! (resets.reset_done & RESETS_RESET_USBCTRL_MASK))
 		continue;
@@ -572,7 +572,7 @@ void configure_usbcdc()
 	usbctrl.sie_ctrl = USBCTRL_SIE_CTRL_EP0_INT_1BUF(1)
 		| USBCTRL_SIE_CTRL_RPU_OPT_MASK;
 
-	usbctrl.set_inte = 
+	usbctrl.inte_set = 
 		 USBCTRL_INTE_BUS_RESET(1)
 	 	|USBCTRL_INTE_SETUP_REQ(1)
 		|USBCTRL_INTE_BUFF_STATUS(1);
@@ -621,7 +621,7 @@ void configure_usbcdc()
 	usbram.ep_state[3].buffer = (uint8_t *) usbram.data_buffer[2];
 
 	//enable pull-ups to signal connect to host
-	usbctrl.set_sie_ctrl = USBCTRL_SIE_CTRL_PULLUP_EN(1);
+	usbctrl.sie_ctrl_set = USBCTRL_SIE_CTRL_PULLUP_EN(1);
 }
 
 int usbcdc_getchar(char *c)

@@ -7,7 +7,7 @@
 #define LED_RESETS (RESETS_RESET_IO_BANK0_MASK | RESETS_RESET_PADS_BANK0_MASK)
 void configure_led( void )
 {
-    resets.clr_reset = LED_RESETS;
+    resets.reset_clr = LED_RESETS;
 
     while((resets.reset_done & LED_RESETS ) != LED_RESETS )
     	continue;

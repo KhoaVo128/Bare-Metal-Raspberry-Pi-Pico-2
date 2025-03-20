@@ -40,32 +40,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_REG_BLOCKS;
 typedef struct{
@@ -78,32 +78,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_SRAM_REG_BLOCKS;
 typedef struct{
@@ -116,32 +116,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_NOCACHE_NOALLOC_REG_BLOCKS;
 typedef struct{
@@ -154,32 +154,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_MAINTENANCE_REG_BLOCKS;
 typedef struct{
@@ -192,32 +192,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_NOCACHE_NOALLOC_NOTRANSLATE_REG_BLOCKS;
 typedef struct{
@@ -230,32 +230,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_CTRL_REG_BLOCKS;
 typedef struct{
@@ -268,32 +268,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_QMI_REG_BLOCKS;
 typedef struct{
@@ -306,32 +306,32 @@ typedef struct{
 		uint32_t stream_ctr;
 		uint32_t stream_fifo;
 		uint32_t RSVD1[1016];
-		uint32_t xor_ctrl;
+		uint32_t ctrl_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_stat;
-		uint32_t xor_ctr_hit;
-		uint32_t xor_ctr_acc;
-		uint32_t xor_stream_addr;
-		uint32_t xor_stream_ctr;
-		uint32_t xor_stream_fifo;
+		uint32_t stat_xor;
+		uint32_t ctr_hit_xor;
+		uint32_t ctr_acc_xor;
+		uint32_t stream_addr_xor;
+		uint32_t stream_ctr_xor;
+		uint32_t stream_fifo_xor;
 		uint32_t RSVDxor_1[1016];
-		uint32_t set_ctrl;
+		uint32_t ctrl_set;
 		uint32_t RSVDset_0;
-		uint32_t set_stat;
-		uint32_t set_ctr_hit;
-		uint32_t set_ctr_acc;
-		uint32_t set_stream_addr;
-		uint32_t set_stream_ctr;
-		uint32_t set_stream_fifo;
+		uint32_t stat_set;
+		uint32_t ctr_hit_set;
+		uint32_t ctr_acc_set;
+		uint32_t stream_addr_set;
+		uint32_t stream_ctr_set;
+		uint32_t stream_fifo_set;
 		uint32_t RSVDset_1[1016];
-		uint32_t clr_ctrl;
+		uint32_t ctrl_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_stat;
-		uint32_t clr_ctr_hit;
-		uint32_t clr_ctr_acc;
-		uint32_t clr_stream_addr;
-		uint32_t clr_stream_ctr;
-		uint32_t clr_stream_fifo;
+		uint32_t stat_clr;
+		uint32_t ctr_hit_clr;
+		uint32_t ctr_acc_clr;
+		uint32_t stream_addr_clr;
+		uint32_t stream_ctr_clr;
+		uint32_t stream_fifo_clr;
 		uint32_t RSVDclr_1[1016];
 } XIP_AUX_REG_BLOCKS;
 
@@ -378,27 +378,27 @@ typedef struct{
 #define XIP_STREAM_ADDR (*(volatile uint32_t *)0x10000014)
 #define XIP_STREAM_CTR (*(volatile uint32_t *)0x10000018)
 #define XIP_STREAM_FIFO (*(volatile uint32_t *)0x1000001c)
-#define XIP_XOR_CTRL (*(volatile uint32_t *)0x10001000)
-#define XIP_XOR_STAT (*(volatile uint32_t *)0x10001008)
-#define XIP_XOR_CTR_HIT (*(volatile uint32_t *)0x1000100c)
-#define XIP_XOR_CTR_ACC (*(volatile uint32_t *)0x10001010)
-#define XIP_XOR_STREAM_ADDR (*(volatile uint32_t *)0x10001014)
-#define XIP_XOR_STREAM_CTR (*(volatile uint32_t *)0x10001018)
-#define XIP_XOR_STREAM_FIFO (*(volatile uint32_t *)0x1000101c)
-#define XIP_SET_CTRL (*(volatile uint32_t *)0x10002000)
-#define XIP_SET_STAT (*(volatile uint32_t *)0x10002008)
-#define XIP_SET_CTR_HIT (*(volatile uint32_t *)0x1000200c)
-#define XIP_SET_CTR_ACC (*(volatile uint32_t *)0x10002010)
-#define XIP_SET_STREAM_ADDR (*(volatile uint32_t *)0x10002014)
-#define XIP_SET_STREAM_CTR (*(volatile uint32_t *)0x10002018)
-#define XIP_SET_STREAM_FIFO (*(volatile uint32_t *)0x1000201c)
-#define XIP_CLR_CTRL (*(volatile uint32_t *)0x10003000)
-#define XIP_CLR_STAT (*(volatile uint32_t *)0x10003008)
-#define XIP_CLR_CTR_HIT (*(volatile uint32_t *)0x1000300c)
-#define XIP_CLR_CTR_ACC (*(volatile uint32_t *)0x10003010)
-#define XIP_CLR_STREAM_ADDR (*(volatile uint32_t *)0x10003014)
-#define XIP_CLR_STREAM_CTR (*(volatile uint32_t *)0x10003018)
-#define XIP_CLR_STREAM_FIFO (*(volatile uint32_t *)0x1000301c)
+#define XIP_CTRL_XOR (*(volatile uint32_t *)0x10001000)
+#define XIP_STAT_XOR (*(volatile uint32_t *)0x10001008)
+#define XIP_CTR_HIT_XOR (*(volatile uint32_t *)0x1000100c)
+#define XIP_CTR_ACC_XOR (*(volatile uint32_t *)0x10001010)
+#define XIP_STREAM_ADDR_XOR (*(volatile uint32_t *)0x10001014)
+#define XIP_STREAM_CTR_XOR (*(volatile uint32_t *)0x10001018)
+#define XIP_STREAM_FIFO_XOR (*(volatile uint32_t *)0x1000101c)
+#define XIP_CTRL_SET (*(volatile uint32_t *)0x10002000)
+#define XIP_STAT_SET (*(volatile uint32_t *)0x10002008)
+#define XIP_CTR_HIT_SET (*(volatile uint32_t *)0x1000200c)
+#define XIP_CTR_ACC_SET (*(volatile uint32_t *)0x10002010)
+#define XIP_STREAM_ADDR_SET (*(volatile uint32_t *)0x10002014)
+#define XIP_STREAM_CTR_SET (*(volatile uint32_t *)0x10002018)
+#define XIP_STREAM_FIFO_SET (*(volatile uint32_t *)0x1000201c)
+#define XIP_CTRL_CLR (*(volatile uint32_t *)0x10003000)
+#define XIP_STAT_CLR (*(volatile uint32_t *)0x10003008)
+#define XIP_CTR_HIT_CLR (*(volatile uint32_t *)0x1000300c)
+#define XIP_CTR_ACC_CLR (*(volatile uint32_t *)0x10003010)
+#define XIP_STREAM_ADDR_CLR (*(volatile uint32_t *)0x10003014)
+#define XIP_STREAM_CTR_CLR (*(volatile uint32_t *)0x10003018)
+#define XIP_STREAM_FIFO_CLR (*(volatile uint32_t *)0x1000301c)
 #define XIP_SRAM_CTRL (*(volatile uint32_t *)0x13ffc000)
 #define XIP_SRAM_STAT (*(volatile uint32_t *)0x13ffc008)
 #define XIP_SRAM_CTR_HIT (*(volatile uint32_t *)0x13ffc00c)
@@ -406,27 +406,27 @@ typedef struct{
 #define XIP_SRAM_STREAM_ADDR (*(volatile uint32_t *)0x13ffc014)
 #define XIP_SRAM_STREAM_CTR (*(volatile uint32_t *)0x13ffc018)
 #define XIP_SRAM_STREAM_FIFO (*(volatile uint32_t *)0x13ffc01c)
-#define XIP_SRAM_XOR_CTRL (*(volatile uint32_t *)0x13ffd000)
-#define XIP_SRAM_XOR_STAT (*(volatile uint32_t *)0x13ffd008)
-#define XIP_SRAM_XOR_CTR_HIT (*(volatile uint32_t *)0x13ffd00c)
-#define XIP_SRAM_XOR_CTR_ACC (*(volatile uint32_t *)0x13ffd010)
-#define XIP_SRAM_XOR_STREAM_ADDR (*(volatile uint32_t *)0x13ffd014)
-#define XIP_SRAM_XOR_STREAM_CTR (*(volatile uint32_t *)0x13ffd018)
-#define XIP_SRAM_XOR_STREAM_FIFO (*(volatile uint32_t *)0x13ffd01c)
-#define XIP_SRAM_SET_CTRL (*(volatile uint32_t *)0x13ffe000)
-#define XIP_SRAM_SET_STAT (*(volatile uint32_t *)0x13ffe008)
-#define XIP_SRAM_SET_CTR_HIT (*(volatile uint32_t *)0x13ffe00c)
-#define XIP_SRAM_SET_CTR_ACC (*(volatile uint32_t *)0x13ffe010)
-#define XIP_SRAM_SET_STREAM_ADDR (*(volatile uint32_t *)0x13ffe014)
-#define XIP_SRAM_SET_STREAM_CTR (*(volatile uint32_t *)0x13ffe018)
-#define XIP_SRAM_SET_STREAM_FIFO (*(volatile uint32_t *)0x13ffe01c)
-#define XIP_SRAM_CLR_CTRL (*(volatile uint32_t *)0x13fff000)
-#define XIP_SRAM_CLR_STAT (*(volatile uint32_t *)0x13fff008)
-#define XIP_SRAM_CLR_CTR_HIT (*(volatile uint32_t *)0x13fff00c)
-#define XIP_SRAM_CLR_CTR_ACC (*(volatile uint32_t *)0x13fff010)
-#define XIP_SRAM_CLR_STREAM_ADDR (*(volatile uint32_t *)0x13fff014)
-#define XIP_SRAM_CLR_STREAM_CTR (*(volatile uint32_t *)0x13fff018)
-#define XIP_SRAM_CLR_STREAM_FIFO (*(volatile uint32_t *)0x13fff01c)
+#define XIP_SRAM_CTRL_XOR (*(volatile uint32_t *)0x13ffd000)
+#define XIP_SRAM_STAT_XOR (*(volatile uint32_t *)0x13ffd008)
+#define XIP_SRAM_CTR_HIT_XOR (*(volatile uint32_t *)0x13ffd00c)
+#define XIP_SRAM_CTR_ACC_XOR (*(volatile uint32_t *)0x13ffd010)
+#define XIP_SRAM_STREAM_ADDR_XOR (*(volatile uint32_t *)0x13ffd014)
+#define XIP_SRAM_STREAM_CTR_XOR (*(volatile uint32_t *)0x13ffd018)
+#define XIP_SRAM_STREAM_FIFO_XOR (*(volatile uint32_t *)0x13ffd01c)
+#define XIP_SRAM_CTRL_SET (*(volatile uint32_t *)0x13ffe000)
+#define XIP_SRAM_STAT_SET (*(volatile uint32_t *)0x13ffe008)
+#define XIP_SRAM_CTR_HIT_SET (*(volatile uint32_t *)0x13ffe00c)
+#define XIP_SRAM_CTR_ACC_SET (*(volatile uint32_t *)0x13ffe010)
+#define XIP_SRAM_STREAM_ADDR_SET (*(volatile uint32_t *)0x13ffe014)
+#define XIP_SRAM_STREAM_CTR_SET (*(volatile uint32_t *)0x13ffe018)
+#define XIP_SRAM_STREAM_FIFO_SET (*(volatile uint32_t *)0x13ffe01c)
+#define XIP_SRAM_CTRL_CLR (*(volatile uint32_t *)0x13fff000)
+#define XIP_SRAM_STAT_CLR (*(volatile uint32_t *)0x13fff008)
+#define XIP_SRAM_CTR_HIT_CLR (*(volatile uint32_t *)0x13fff00c)
+#define XIP_SRAM_CTR_ACC_CLR (*(volatile uint32_t *)0x13fff010)
+#define XIP_SRAM_STREAM_ADDR_CLR (*(volatile uint32_t *)0x13fff014)
+#define XIP_SRAM_STREAM_CTR_CLR (*(volatile uint32_t *)0x13fff018)
+#define XIP_SRAM_STREAM_FIFO_CLR (*(volatile uint32_t *)0x13fff01c)
 #define XIP_NOCACHE_NOALLOC_CTRL (*(volatile uint32_t *)0x14000000)
 #define XIP_NOCACHE_NOALLOC_STAT (*(volatile uint32_t *)0x14000008)
 #define XIP_NOCACHE_NOALLOC_CTR_HIT (*(volatile uint32_t *)0x1400000c)
@@ -434,27 +434,27 @@ typedef struct{
 #define XIP_NOCACHE_NOALLOC_STREAM_ADDR (*(volatile uint32_t *)0x14000014)
 #define XIP_NOCACHE_NOALLOC_STREAM_CTR (*(volatile uint32_t *)0x14000018)
 #define XIP_NOCACHE_NOALLOC_STREAM_FIFO (*(volatile uint32_t *)0x1400001c)
-#define XIP_NOCACHE_NOALLOC_XOR_CTRL (*(volatile uint32_t *)0x14001000)
-#define XIP_NOCACHE_NOALLOC_XOR_STAT (*(volatile uint32_t *)0x14001008)
-#define XIP_NOCACHE_NOALLOC_XOR_CTR_HIT (*(volatile uint32_t *)0x1400100c)
-#define XIP_NOCACHE_NOALLOC_XOR_CTR_ACC (*(volatile uint32_t *)0x14001010)
-#define XIP_NOCACHE_NOALLOC_XOR_STREAM_ADDR (*(volatile uint32_t *)0x14001014)
-#define XIP_NOCACHE_NOALLOC_XOR_STREAM_CTR (*(volatile uint32_t *)0x14001018)
-#define XIP_NOCACHE_NOALLOC_XOR_STREAM_FIFO (*(volatile uint32_t *)0x1400101c)
-#define XIP_NOCACHE_NOALLOC_SET_CTRL (*(volatile uint32_t *)0x14002000)
-#define XIP_NOCACHE_NOALLOC_SET_STAT (*(volatile uint32_t *)0x14002008)
-#define XIP_NOCACHE_NOALLOC_SET_CTR_HIT (*(volatile uint32_t *)0x1400200c)
-#define XIP_NOCACHE_NOALLOC_SET_CTR_ACC (*(volatile uint32_t *)0x14002010)
-#define XIP_NOCACHE_NOALLOC_SET_STREAM_ADDR (*(volatile uint32_t *)0x14002014)
-#define XIP_NOCACHE_NOALLOC_SET_STREAM_CTR (*(volatile uint32_t *)0x14002018)
-#define XIP_NOCACHE_NOALLOC_SET_STREAM_FIFO (*(volatile uint32_t *)0x1400201c)
-#define XIP_NOCACHE_NOALLOC_CLR_CTRL (*(volatile uint32_t *)0x14003000)
-#define XIP_NOCACHE_NOALLOC_CLR_STAT (*(volatile uint32_t *)0x14003008)
-#define XIP_NOCACHE_NOALLOC_CLR_CTR_HIT (*(volatile uint32_t *)0x1400300c)
-#define XIP_NOCACHE_NOALLOC_CLR_CTR_ACC (*(volatile uint32_t *)0x14003010)
-#define XIP_NOCACHE_NOALLOC_CLR_STREAM_ADDR (*(volatile uint32_t *)0x14003014)
-#define XIP_NOCACHE_NOALLOC_CLR_STREAM_CTR (*(volatile uint32_t *)0x14003018)
-#define XIP_NOCACHE_NOALLOC_CLR_STREAM_FIFO (*(volatile uint32_t *)0x1400301c)
+#define XIP_NOCACHE_NOALLOC_CTRL_XOR (*(volatile uint32_t *)0x14001000)
+#define XIP_NOCACHE_NOALLOC_STAT_XOR (*(volatile uint32_t *)0x14001008)
+#define XIP_NOCACHE_NOALLOC_CTR_HIT_XOR (*(volatile uint32_t *)0x1400100c)
+#define XIP_NOCACHE_NOALLOC_CTR_ACC_XOR (*(volatile uint32_t *)0x14001010)
+#define XIP_NOCACHE_NOALLOC_STREAM_ADDR_XOR (*(volatile uint32_t *)0x14001014)
+#define XIP_NOCACHE_NOALLOC_STREAM_CTR_XOR (*(volatile uint32_t *)0x14001018)
+#define XIP_NOCACHE_NOALLOC_STREAM_FIFO_XOR (*(volatile uint32_t *)0x1400101c)
+#define XIP_NOCACHE_NOALLOC_CTRL_SET (*(volatile uint32_t *)0x14002000)
+#define XIP_NOCACHE_NOALLOC_STAT_SET (*(volatile uint32_t *)0x14002008)
+#define XIP_NOCACHE_NOALLOC_CTR_HIT_SET (*(volatile uint32_t *)0x1400200c)
+#define XIP_NOCACHE_NOALLOC_CTR_ACC_SET (*(volatile uint32_t *)0x14002010)
+#define XIP_NOCACHE_NOALLOC_STREAM_ADDR_SET (*(volatile uint32_t *)0x14002014)
+#define XIP_NOCACHE_NOALLOC_STREAM_CTR_SET (*(volatile uint32_t *)0x14002018)
+#define XIP_NOCACHE_NOALLOC_STREAM_FIFO_SET (*(volatile uint32_t *)0x1400201c)
+#define XIP_NOCACHE_NOALLOC_CTRL_CLR (*(volatile uint32_t *)0x14003000)
+#define XIP_NOCACHE_NOALLOC_STAT_CLR (*(volatile uint32_t *)0x14003008)
+#define XIP_NOCACHE_NOALLOC_CTR_HIT_CLR (*(volatile uint32_t *)0x1400300c)
+#define XIP_NOCACHE_NOALLOC_CTR_ACC_CLR (*(volatile uint32_t *)0x14003010)
+#define XIP_NOCACHE_NOALLOC_STREAM_ADDR_CLR (*(volatile uint32_t *)0x14003014)
+#define XIP_NOCACHE_NOALLOC_STREAM_CTR_CLR (*(volatile uint32_t *)0x14003018)
+#define XIP_NOCACHE_NOALLOC_STREAM_FIFO_CLR (*(volatile uint32_t *)0x1400301c)
 #define XIP_MAINTENANCE_CTRL (*(volatile uint32_t *)0x18000000)
 #define XIP_MAINTENANCE_STAT (*(volatile uint32_t *)0x18000008)
 #define XIP_MAINTENANCE_CTR_HIT (*(volatile uint32_t *)0x1800000c)
@@ -462,27 +462,27 @@ typedef struct{
 #define XIP_MAINTENANCE_STREAM_ADDR (*(volatile uint32_t *)0x18000014)
 #define XIP_MAINTENANCE_STREAM_CTR (*(volatile uint32_t *)0x18000018)
 #define XIP_MAINTENANCE_STREAM_FIFO (*(volatile uint32_t *)0x1800001c)
-#define XIP_MAINTENANCE_XOR_CTRL (*(volatile uint32_t *)0x18001000)
-#define XIP_MAINTENANCE_XOR_STAT (*(volatile uint32_t *)0x18001008)
-#define XIP_MAINTENANCE_XOR_CTR_HIT (*(volatile uint32_t *)0x1800100c)
-#define XIP_MAINTENANCE_XOR_CTR_ACC (*(volatile uint32_t *)0x18001010)
-#define XIP_MAINTENANCE_XOR_STREAM_ADDR (*(volatile uint32_t *)0x18001014)
-#define XIP_MAINTENANCE_XOR_STREAM_CTR (*(volatile uint32_t *)0x18001018)
-#define XIP_MAINTENANCE_XOR_STREAM_FIFO (*(volatile uint32_t *)0x1800101c)
-#define XIP_MAINTENANCE_SET_CTRL (*(volatile uint32_t *)0x18002000)
-#define XIP_MAINTENANCE_SET_STAT (*(volatile uint32_t *)0x18002008)
-#define XIP_MAINTENANCE_SET_CTR_HIT (*(volatile uint32_t *)0x1800200c)
-#define XIP_MAINTENANCE_SET_CTR_ACC (*(volatile uint32_t *)0x18002010)
-#define XIP_MAINTENANCE_SET_STREAM_ADDR (*(volatile uint32_t *)0x18002014)
-#define XIP_MAINTENANCE_SET_STREAM_CTR (*(volatile uint32_t *)0x18002018)
-#define XIP_MAINTENANCE_SET_STREAM_FIFO (*(volatile uint32_t *)0x1800201c)
-#define XIP_MAINTENANCE_CLR_CTRL (*(volatile uint32_t *)0x18003000)
-#define XIP_MAINTENANCE_CLR_STAT (*(volatile uint32_t *)0x18003008)
-#define XIP_MAINTENANCE_CLR_CTR_HIT (*(volatile uint32_t *)0x1800300c)
-#define XIP_MAINTENANCE_CLR_CTR_ACC (*(volatile uint32_t *)0x18003010)
-#define XIP_MAINTENANCE_CLR_STREAM_ADDR (*(volatile uint32_t *)0x18003014)
-#define XIP_MAINTENANCE_CLR_STREAM_CTR (*(volatile uint32_t *)0x18003018)
-#define XIP_MAINTENANCE_CLR_STREAM_FIFO (*(volatile uint32_t *)0x1800301c)
+#define XIP_MAINTENANCE_CTRL_XOR (*(volatile uint32_t *)0x18001000)
+#define XIP_MAINTENANCE_STAT_XOR (*(volatile uint32_t *)0x18001008)
+#define XIP_MAINTENANCE_CTR_HIT_XOR (*(volatile uint32_t *)0x1800100c)
+#define XIP_MAINTENANCE_CTR_ACC_XOR (*(volatile uint32_t *)0x18001010)
+#define XIP_MAINTENANCE_STREAM_ADDR_XOR (*(volatile uint32_t *)0x18001014)
+#define XIP_MAINTENANCE_STREAM_CTR_XOR (*(volatile uint32_t *)0x18001018)
+#define XIP_MAINTENANCE_STREAM_FIFO_XOR (*(volatile uint32_t *)0x1800101c)
+#define XIP_MAINTENANCE_CTRL_SET (*(volatile uint32_t *)0x18002000)
+#define XIP_MAINTENANCE_STAT_SET (*(volatile uint32_t *)0x18002008)
+#define XIP_MAINTENANCE_CTR_HIT_SET (*(volatile uint32_t *)0x1800200c)
+#define XIP_MAINTENANCE_CTR_ACC_SET (*(volatile uint32_t *)0x18002010)
+#define XIP_MAINTENANCE_STREAM_ADDR_SET (*(volatile uint32_t *)0x18002014)
+#define XIP_MAINTENANCE_STREAM_CTR_SET (*(volatile uint32_t *)0x18002018)
+#define XIP_MAINTENANCE_STREAM_FIFO_SET (*(volatile uint32_t *)0x1800201c)
+#define XIP_MAINTENANCE_CTRL_CLR (*(volatile uint32_t *)0x18003000)
+#define XIP_MAINTENANCE_STAT_CLR (*(volatile uint32_t *)0x18003008)
+#define XIP_MAINTENANCE_CTR_HIT_CLR (*(volatile uint32_t *)0x1800300c)
+#define XIP_MAINTENANCE_CTR_ACC_CLR (*(volatile uint32_t *)0x18003010)
+#define XIP_MAINTENANCE_STREAM_ADDR_CLR (*(volatile uint32_t *)0x18003014)
+#define XIP_MAINTENANCE_STREAM_CTR_CLR (*(volatile uint32_t *)0x18003018)
+#define XIP_MAINTENANCE_STREAM_FIFO_CLR (*(volatile uint32_t *)0x1800301c)
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTRL (*(volatile uint32_t *)0x1c000000)
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STAT (*(volatile uint32_t *)0x1c000008)
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_HIT (*(volatile uint32_t *)0x1c00000c)
@@ -490,27 +490,27 @@ typedef struct{
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_ADDR (*(volatile uint32_t *)0x1c000014)
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_CTR (*(volatile uint32_t *)0x1c000018)
 #define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_FIFO (*(volatile uint32_t *)0x1c00001c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_CTRL (*(volatile uint32_t *)0x1c001000)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_STAT (*(volatile uint32_t *)0x1c001008)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_CTR_HIT (*(volatile uint32_t *)0x1c00100c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_CTR_ACC (*(volatile uint32_t *)0x1c001010)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_STREAM_ADDR (*(volatile uint32_t *)0x1c001014)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_STREAM_CTR (*(volatile uint32_t *)0x1c001018)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_XOR_STREAM_FIFO (*(volatile uint32_t *)0x1c00101c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_CTRL (*(volatile uint32_t *)0x1c002000)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_STAT (*(volatile uint32_t *)0x1c002008)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_CTR_HIT (*(volatile uint32_t *)0x1c00200c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_CTR_ACC (*(volatile uint32_t *)0x1c002010)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_STREAM_ADDR (*(volatile uint32_t *)0x1c002014)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_STREAM_CTR (*(volatile uint32_t *)0x1c002018)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_SET_STREAM_FIFO (*(volatile uint32_t *)0x1c00201c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_CTRL (*(volatile uint32_t *)0x1c003000)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_STAT (*(volatile uint32_t *)0x1c003008)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_CTR_HIT (*(volatile uint32_t *)0x1c00300c)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_CTR_ACC (*(volatile uint32_t *)0x1c003010)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_STREAM_ADDR (*(volatile uint32_t *)0x1c003014)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_STREAM_CTR (*(volatile uint32_t *)0x1c003018)
-#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CLR_STREAM_FIFO (*(volatile uint32_t *)0x1c00301c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTRL_XOR (*(volatile uint32_t *)0x1c001000)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STAT_XOR (*(volatile uint32_t *)0x1c001008)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_HIT_XOR (*(volatile uint32_t *)0x1c00100c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_ACC_XOR (*(volatile uint32_t *)0x1c001010)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_ADDR_XOR (*(volatile uint32_t *)0x1c001014)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_CTR_XOR (*(volatile uint32_t *)0x1c001018)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_FIFO_XOR (*(volatile uint32_t *)0x1c00101c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTRL_SET (*(volatile uint32_t *)0x1c002000)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STAT_SET (*(volatile uint32_t *)0x1c002008)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_HIT_SET (*(volatile uint32_t *)0x1c00200c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_ACC_SET (*(volatile uint32_t *)0x1c002010)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_ADDR_SET (*(volatile uint32_t *)0x1c002014)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_CTR_SET (*(volatile uint32_t *)0x1c002018)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_FIFO_SET (*(volatile uint32_t *)0x1c00201c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTRL_CLR (*(volatile uint32_t *)0x1c003000)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STAT_CLR (*(volatile uint32_t *)0x1c003008)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_HIT_CLR (*(volatile uint32_t *)0x1c00300c)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_CTR_ACC_CLR (*(volatile uint32_t *)0x1c003010)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_ADDR_CLR (*(volatile uint32_t *)0x1c003014)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_CTR_CLR (*(volatile uint32_t *)0x1c003018)
+#define XIP_NOCACHE_NOALLOC_NOTRANSLATE_STREAM_FIFO_CLR (*(volatile uint32_t *)0x1c00301c)
 #define XIP_CTRL_CTRL (*(volatile uint32_t *)0x400c8000)
 #define XIP_CTRL_STAT (*(volatile uint32_t *)0x400c8008)
 #define XIP_CTRL_CTR_HIT (*(volatile uint32_t *)0x400c800c)
@@ -518,27 +518,27 @@ typedef struct{
 #define XIP_CTRL_STREAM_ADDR (*(volatile uint32_t *)0x400c8014)
 #define XIP_CTRL_STREAM_CTR (*(volatile uint32_t *)0x400c8018)
 #define XIP_CTRL_STREAM_FIFO (*(volatile uint32_t *)0x400c801c)
-#define XIP_CTRL_XOR_CTRL (*(volatile uint32_t *)0x400c9000)
-#define XIP_CTRL_XOR_STAT (*(volatile uint32_t *)0x400c9008)
-#define XIP_CTRL_XOR_CTR_HIT (*(volatile uint32_t *)0x400c900c)
-#define XIP_CTRL_XOR_CTR_ACC (*(volatile uint32_t *)0x400c9010)
-#define XIP_CTRL_XOR_STREAM_ADDR (*(volatile uint32_t *)0x400c9014)
-#define XIP_CTRL_XOR_STREAM_CTR (*(volatile uint32_t *)0x400c9018)
-#define XIP_CTRL_XOR_STREAM_FIFO (*(volatile uint32_t *)0x400c901c)
-#define XIP_CTRL_SET_CTRL (*(volatile uint32_t *)0x400ca000)
-#define XIP_CTRL_SET_STAT (*(volatile uint32_t *)0x400ca008)
-#define XIP_CTRL_SET_CTR_HIT (*(volatile uint32_t *)0x400ca00c)
-#define XIP_CTRL_SET_CTR_ACC (*(volatile uint32_t *)0x400ca010)
-#define XIP_CTRL_SET_STREAM_ADDR (*(volatile uint32_t *)0x400ca014)
-#define XIP_CTRL_SET_STREAM_CTR (*(volatile uint32_t *)0x400ca018)
-#define XIP_CTRL_SET_STREAM_FIFO (*(volatile uint32_t *)0x400ca01c)
-#define XIP_CTRL_CLR_CTRL (*(volatile uint32_t *)0x400cb000)
-#define XIP_CTRL_CLR_STAT (*(volatile uint32_t *)0x400cb008)
-#define XIP_CTRL_CLR_CTR_HIT (*(volatile uint32_t *)0x400cb00c)
-#define XIP_CTRL_CLR_CTR_ACC (*(volatile uint32_t *)0x400cb010)
-#define XIP_CTRL_CLR_STREAM_ADDR (*(volatile uint32_t *)0x400cb014)
-#define XIP_CTRL_CLR_STREAM_CTR (*(volatile uint32_t *)0x400cb018)
-#define XIP_CTRL_CLR_STREAM_FIFO (*(volatile uint32_t *)0x400cb01c)
+#define XIP_CTRL_CTRL_XOR (*(volatile uint32_t *)0x400c9000)
+#define XIP_CTRL_STAT_XOR (*(volatile uint32_t *)0x400c9008)
+#define XIP_CTRL_CTR_HIT_XOR (*(volatile uint32_t *)0x400c900c)
+#define XIP_CTRL_CTR_ACC_XOR (*(volatile uint32_t *)0x400c9010)
+#define XIP_CTRL_STREAM_ADDR_XOR (*(volatile uint32_t *)0x400c9014)
+#define XIP_CTRL_STREAM_CTR_XOR (*(volatile uint32_t *)0x400c9018)
+#define XIP_CTRL_STREAM_FIFO_XOR (*(volatile uint32_t *)0x400c901c)
+#define XIP_CTRL_CTRL_SET (*(volatile uint32_t *)0x400ca000)
+#define XIP_CTRL_STAT_SET (*(volatile uint32_t *)0x400ca008)
+#define XIP_CTRL_CTR_HIT_SET (*(volatile uint32_t *)0x400ca00c)
+#define XIP_CTRL_CTR_ACC_SET (*(volatile uint32_t *)0x400ca010)
+#define XIP_CTRL_STREAM_ADDR_SET (*(volatile uint32_t *)0x400ca014)
+#define XIP_CTRL_STREAM_CTR_SET (*(volatile uint32_t *)0x400ca018)
+#define XIP_CTRL_STREAM_FIFO_SET (*(volatile uint32_t *)0x400ca01c)
+#define XIP_CTRL_CTRL_CLR (*(volatile uint32_t *)0x400cb000)
+#define XIP_CTRL_STAT_CLR (*(volatile uint32_t *)0x400cb008)
+#define XIP_CTRL_CTR_HIT_CLR (*(volatile uint32_t *)0x400cb00c)
+#define XIP_CTRL_CTR_ACC_CLR (*(volatile uint32_t *)0x400cb010)
+#define XIP_CTRL_STREAM_ADDR_CLR (*(volatile uint32_t *)0x400cb014)
+#define XIP_CTRL_STREAM_CTR_CLR (*(volatile uint32_t *)0x400cb018)
+#define XIP_CTRL_STREAM_FIFO_CLR (*(volatile uint32_t *)0x400cb01c)
 #define XIP_QMI_CTRL (*(volatile uint32_t *)0x400d0000)
 #define XIP_QMI_STAT (*(volatile uint32_t *)0x400d0008)
 #define XIP_QMI_CTR_HIT (*(volatile uint32_t *)0x400d000c)
@@ -546,27 +546,27 @@ typedef struct{
 #define XIP_QMI_STREAM_ADDR (*(volatile uint32_t *)0x400d0014)
 #define XIP_QMI_STREAM_CTR (*(volatile uint32_t *)0x400d0018)
 #define XIP_QMI_STREAM_FIFO (*(volatile uint32_t *)0x400d001c)
-#define XIP_QMI_XOR_CTRL (*(volatile uint32_t *)0x400d1000)
-#define XIP_QMI_XOR_STAT (*(volatile uint32_t *)0x400d1008)
-#define XIP_QMI_XOR_CTR_HIT (*(volatile uint32_t *)0x400d100c)
-#define XIP_QMI_XOR_CTR_ACC (*(volatile uint32_t *)0x400d1010)
-#define XIP_QMI_XOR_STREAM_ADDR (*(volatile uint32_t *)0x400d1014)
-#define XIP_QMI_XOR_STREAM_CTR (*(volatile uint32_t *)0x400d1018)
-#define XIP_QMI_XOR_STREAM_FIFO (*(volatile uint32_t *)0x400d101c)
-#define XIP_QMI_SET_CTRL (*(volatile uint32_t *)0x400d2000)
-#define XIP_QMI_SET_STAT (*(volatile uint32_t *)0x400d2008)
-#define XIP_QMI_SET_CTR_HIT (*(volatile uint32_t *)0x400d200c)
-#define XIP_QMI_SET_CTR_ACC (*(volatile uint32_t *)0x400d2010)
-#define XIP_QMI_SET_STREAM_ADDR (*(volatile uint32_t *)0x400d2014)
-#define XIP_QMI_SET_STREAM_CTR (*(volatile uint32_t *)0x400d2018)
-#define XIP_QMI_SET_STREAM_FIFO (*(volatile uint32_t *)0x400d201c)
-#define XIP_QMI_CLR_CTRL (*(volatile uint32_t *)0x400d3000)
-#define XIP_QMI_CLR_STAT (*(volatile uint32_t *)0x400d3008)
-#define XIP_QMI_CLR_CTR_HIT (*(volatile uint32_t *)0x400d300c)
-#define XIP_QMI_CLR_CTR_ACC (*(volatile uint32_t *)0x400d3010)
-#define XIP_QMI_CLR_STREAM_ADDR (*(volatile uint32_t *)0x400d3014)
-#define XIP_QMI_CLR_STREAM_CTR (*(volatile uint32_t *)0x400d3018)
-#define XIP_QMI_CLR_STREAM_FIFO (*(volatile uint32_t *)0x400d301c)
+#define XIP_QMI_CTRL_XOR (*(volatile uint32_t *)0x400d1000)
+#define XIP_QMI_STAT_XOR (*(volatile uint32_t *)0x400d1008)
+#define XIP_QMI_CTR_HIT_XOR (*(volatile uint32_t *)0x400d100c)
+#define XIP_QMI_CTR_ACC_XOR (*(volatile uint32_t *)0x400d1010)
+#define XIP_QMI_STREAM_ADDR_XOR (*(volatile uint32_t *)0x400d1014)
+#define XIP_QMI_STREAM_CTR_XOR (*(volatile uint32_t *)0x400d1018)
+#define XIP_QMI_STREAM_FIFO_XOR (*(volatile uint32_t *)0x400d101c)
+#define XIP_QMI_CTRL_SET (*(volatile uint32_t *)0x400d2000)
+#define XIP_QMI_STAT_SET (*(volatile uint32_t *)0x400d2008)
+#define XIP_QMI_CTR_HIT_SET (*(volatile uint32_t *)0x400d200c)
+#define XIP_QMI_CTR_ACC_SET (*(volatile uint32_t *)0x400d2010)
+#define XIP_QMI_STREAM_ADDR_SET (*(volatile uint32_t *)0x400d2014)
+#define XIP_QMI_STREAM_CTR_SET (*(volatile uint32_t *)0x400d2018)
+#define XIP_QMI_STREAM_FIFO_SET (*(volatile uint32_t *)0x400d201c)
+#define XIP_QMI_CTRL_CLR (*(volatile uint32_t *)0x400d3000)
+#define XIP_QMI_STAT_CLR (*(volatile uint32_t *)0x400d3008)
+#define XIP_QMI_CTR_HIT_CLR (*(volatile uint32_t *)0x400d300c)
+#define XIP_QMI_CTR_ACC_CLR (*(volatile uint32_t *)0x400d3010)
+#define XIP_QMI_STREAM_ADDR_CLR (*(volatile uint32_t *)0x400d3014)
+#define XIP_QMI_STREAM_CTR_CLR (*(volatile uint32_t *)0x400d3018)
+#define XIP_QMI_STREAM_FIFO_CLR (*(volatile uint32_t *)0x400d301c)
 #define XIP_AUX_CTRL (*(volatile uint32_t *)0x50500000)
 #define XIP_AUX_STAT (*(volatile uint32_t *)0x50500008)
 #define XIP_AUX_CTR_HIT (*(volatile uint32_t *)0x5050000c)
@@ -574,27 +574,27 @@ typedef struct{
 #define XIP_AUX_STREAM_ADDR (*(volatile uint32_t *)0x50500014)
 #define XIP_AUX_STREAM_CTR (*(volatile uint32_t *)0x50500018)
 #define XIP_AUX_STREAM_FIFO (*(volatile uint32_t *)0x5050001c)
-#define XIP_AUX_XOR_CTRL (*(volatile uint32_t *)0x50501000)
-#define XIP_AUX_XOR_STAT (*(volatile uint32_t *)0x50501008)
-#define XIP_AUX_XOR_CTR_HIT (*(volatile uint32_t *)0x5050100c)
-#define XIP_AUX_XOR_CTR_ACC (*(volatile uint32_t *)0x50501010)
-#define XIP_AUX_XOR_STREAM_ADDR (*(volatile uint32_t *)0x50501014)
-#define XIP_AUX_XOR_STREAM_CTR (*(volatile uint32_t *)0x50501018)
-#define XIP_AUX_XOR_STREAM_FIFO (*(volatile uint32_t *)0x5050101c)
-#define XIP_AUX_SET_CTRL (*(volatile uint32_t *)0x50502000)
-#define XIP_AUX_SET_STAT (*(volatile uint32_t *)0x50502008)
-#define XIP_AUX_SET_CTR_HIT (*(volatile uint32_t *)0x5050200c)
-#define XIP_AUX_SET_CTR_ACC (*(volatile uint32_t *)0x50502010)
-#define XIP_AUX_SET_STREAM_ADDR (*(volatile uint32_t *)0x50502014)
-#define XIP_AUX_SET_STREAM_CTR (*(volatile uint32_t *)0x50502018)
-#define XIP_AUX_SET_STREAM_FIFO (*(volatile uint32_t *)0x5050201c)
-#define XIP_AUX_CLR_CTRL (*(volatile uint32_t *)0x50503000)
-#define XIP_AUX_CLR_STAT (*(volatile uint32_t *)0x50503008)
-#define XIP_AUX_CLR_CTR_HIT (*(volatile uint32_t *)0x5050300c)
-#define XIP_AUX_CLR_CTR_ACC (*(volatile uint32_t *)0x50503010)
-#define XIP_AUX_CLR_STREAM_ADDR (*(volatile uint32_t *)0x50503014)
-#define XIP_AUX_CLR_STREAM_CTR (*(volatile uint32_t *)0x50503018)
-#define XIP_AUX_CLR_STREAM_FIFO (*(volatile uint32_t *)0x5050301c)
+#define XIP_AUX_CTRL_XOR (*(volatile uint32_t *)0x50501000)
+#define XIP_AUX_STAT_XOR (*(volatile uint32_t *)0x50501008)
+#define XIP_AUX_CTR_HIT_XOR (*(volatile uint32_t *)0x5050100c)
+#define XIP_AUX_CTR_ACC_XOR (*(volatile uint32_t *)0x50501010)
+#define XIP_AUX_STREAM_ADDR_XOR (*(volatile uint32_t *)0x50501014)
+#define XIP_AUX_STREAM_CTR_XOR (*(volatile uint32_t *)0x50501018)
+#define XIP_AUX_STREAM_FIFO_XOR (*(volatile uint32_t *)0x5050101c)
+#define XIP_AUX_CTRL_SET (*(volatile uint32_t *)0x50502000)
+#define XIP_AUX_STAT_SET (*(volatile uint32_t *)0x50502008)
+#define XIP_AUX_CTR_HIT_SET (*(volatile uint32_t *)0x5050200c)
+#define XIP_AUX_CTR_ACC_SET (*(volatile uint32_t *)0x50502010)
+#define XIP_AUX_STREAM_ADDR_SET (*(volatile uint32_t *)0x50502014)
+#define XIP_AUX_STREAM_CTR_SET (*(volatile uint32_t *)0x50502018)
+#define XIP_AUX_STREAM_FIFO_SET (*(volatile uint32_t *)0x5050201c)
+#define XIP_AUX_CTRL_CLR (*(volatile uint32_t *)0x50503000)
+#define XIP_AUX_STAT_CLR (*(volatile uint32_t *)0x50503008)
+#define XIP_AUX_CTR_HIT_CLR (*(volatile uint32_t *)0x5050300c)
+#define XIP_AUX_CTR_ACC_CLR (*(volatile uint32_t *)0x50503010)
+#define XIP_AUX_STREAM_ADDR_CLR (*(volatile uint32_t *)0x50503014)
+#define XIP_AUX_STREAM_CTR_CLR (*(volatile uint32_t *)0x50503018)
+#define XIP_AUX_STREAM_FIFO_CLR (*(volatile uint32_t *)0x5050301c)
 
 /*CTRL Register macros*/
 

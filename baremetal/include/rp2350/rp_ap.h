@@ -42,38 +42,38 @@ typedef struct{
 		uint32_t RSVD0[887];
 		uint32_t idr;
 		uint32_t RSVD1[128];
-		uint32_t xor_ctrl;
-		uint32_t xor_dbgkey;
-		uint32_t xor_dbg_pow_state_swcore;
-		uint32_t xor_dbg_pow_state_xip;
-		uint32_t xor_dbg_pow_state_sram0;
-		uint32_t xor_dbg_pow_state_sram1;
-		uint32_t xor_dbg_pow_ovrd;
-		uint32_t xor_dbg_pow_output_to_gpio;
+		uint32_t ctrl_xor;
+		uint32_t dbgkey_xor;
+		uint32_t dbg_pow_state_swcore_xor;
+		uint32_t dbg_pow_state_xip_xor;
+		uint32_t dbg_pow_state_sram0_xor;
+		uint32_t dbg_pow_state_sram1_xor;
+		uint32_t dbg_pow_ovrd_xor;
+		uint32_t dbg_pow_output_to_gpio_xor;
 		uint32_t RSVDxor_0[887];
-		uint32_t xor_idr;
+		uint32_t idr_xor;
 		uint32_t RSVDxor_1[128];
-		uint32_t set_ctrl;
-		uint32_t set_dbgkey;
-		uint32_t set_dbg_pow_state_swcore;
-		uint32_t set_dbg_pow_state_xip;
-		uint32_t set_dbg_pow_state_sram0;
-		uint32_t set_dbg_pow_state_sram1;
-		uint32_t set_dbg_pow_ovrd;
-		uint32_t set_dbg_pow_output_to_gpio;
+		uint32_t ctrl_set;
+		uint32_t dbgkey_set;
+		uint32_t dbg_pow_state_swcore_set;
+		uint32_t dbg_pow_state_xip_set;
+		uint32_t dbg_pow_state_sram0_set;
+		uint32_t dbg_pow_state_sram1_set;
+		uint32_t dbg_pow_ovrd_set;
+		uint32_t dbg_pow_output_to_gpio_set;
 		uint32_t RSVDset_0[887];
-		uint32_t set_idr;
+		uint32_t idr_set;
 		uint32_t RSVDset_1[128];
-		uint32_t clr_ctrl;
-		uint32_t clr_dbgkey;
-		uint32_t clr_dbg_pow_state_swcore;
-		uint32_t clr_dbg_pow_state_xip;
-		uint32_t clr_dbg_pow_state_sram0;
-		uint32_t clr_dbg_pow_state_sram1;
-		uint32_t clr_dbg_pow_ovrd;
-		uint32_t clr_dbg_pow_output_to_gpio;
+		uint32_t ctrl_clr;
+		uint32_t dbgkey_clr;
+		uint32_t dbg_pow_state_swcore_clr;
+		uint32_t dbg_pow_state_xip_clr;
+		uint32_t dbg_pow_state_sram0_clr;
+		uint32_t dbg_pow_state_sram1_clr;
+		uint32_t dbg_pow_ovrd_clr;
+		uint32_t dbg_pow_output_to_gpio_clr;
 		uint32_t RSVDclr_0[887];
-		uint32_t clr_idr;
+		uint32_t idr_clr;
 		uint32_t RSVDclr_1[128];
 } RP_AP_REG_BLOCKS;
 
@@ -94,33 +94,33 @@ typedef struct{
 #define RP_AP_DBG_POW_OVRD (*(volatile uint32_t *)0x50700018)
 #define RP_AP_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070001c)
 #define RP_AP_IDR (*(volatile uint32_t *)0x50700dfc)
-#define RP_AP_XOR_CTRL (*(volatile uint32_t *)0x50701000)
-#define RP_AP_XOR_DBGKEY (*(volatile uint32_t *)0x50701004)
-#define RP_AP_XOR_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50701008)
-#define RP_AP_XOR_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070100c)
-#define RP_AP_XOR_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50701010)
-#define RP_AP_XOR_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50701014)
-#define RP_AP_XOR_DBG_POW_OVRD (*(volatile uint32_t *)0x50701018)
-#define RP_AP_XOR_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070101c)
-#define RP_AP_XOR_IDR (*(volatile uint32_t *)0x50701dfc)
-#define RP_AP_SET_CTRL (*(volatile uint32_t *)0x50702000)
-#define RP_AP_SET_DBGKEY (*(volatile uint32_t *)0x50702004)
-#define RP_AP_SET_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50702008)
-#define RP_AP_SET_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070200c)
-#define RP_AP_SET_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50702010)
-#define RP_AP_SET_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50702014)
-#define RP_AP_SET_DBG_POW_OVRD (*(volatile uint32_t *)0x50702018)
-#define RP_AP_SET_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070201c)
-#define RP_AP_SET_IDR (*(volatile uint32_t *)0x50702dfc)
-#define RP_AP_CLR_CTRL (*(volatile uint32_t *)0x50703000)
-#define RP_AP_CLR_DBGKEY (*(volatile uint32_t *)0x50703004)
-#define RP_AP_CLR_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50703008)
-#define RP_AP_CLR_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070300c)
-#define RP_AP_CLR_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50703010)
-#define RP_AP_CLR_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50703014)
-#define RP_AP_CLR_DBG_POW_OVRD (*(volatile uint32_t *)0x50703018)
-#define RP_AP_CLR_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070301c)
-#define RP_AP_CLR_IDR (*(volatile uint32_t *)0x50703dfc)
+#define RP_AP_CTRL_XOR (*(volatile uint32_t *)0x50701000)
+#define RP_AP_DBGKEY_XOR (*(volatile uint32_t *)0x50701004)
+#define RP_AP_DBG_POW_STATE_SWCORE_XOR (*(volatile uint32_t *)0x50701008)
+#define RP_AP_DBG_POW_STATE_XIP_XOR (*(volatile uint32_t *)0x5070100c)
+#define RP_AP_DBG_POW_STATE_SRAM0_XOR (*(volatile uint32_t *)0x50701010)
+#define RP_AP_DBG_POW_STATE_SRAM1_XOR (*(volatile uint32_t *)0x50701014)
+#define RP_AP_DBG_POW_OVRD_XOR (*(volatile uint32_t *)0x50701018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_XOR (*(volatile uint32_t *)0x5070101c)
+#define RP_AP_IDR_XOR (*(volatile uint32_t *)0x50701dfc)
+#define RP_AP_CTRL_SET (*(volatile uint32_t *)0x50702000)
+#define RP_AP_DBGKEY_SET (*(volatile uint32_t *)0x50702004)
+#define RP_AP_DBG_POW_STATE_SWCORE_SET (*(volatile uint32_t *)0x50702008)
+#define RP_AP_DBG_POW_STATE_XIP_SET (*(volatile uint32_t *)0x5070200c)
+#define RP_AP_DBG_POW_STATE_SRAM0_SET (*(volatile uint32_t *)0x50702010)
+#define RP_AP_DBG_POW_STATE_SRAM1_SET (*(volatile uint32_t *)0x50702014)
+#define RP_AP_DBG_POW_OVRD_SET (*(volatile uint32_t *)0x50702018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_SET (*(volatile uint32_t *)0x5070201c)
+#define RP_AP_IDR_SET (*(volatile uint32_t *)0x50702dfc)
+#define RP_AP_CTRL_CLR (*(volatile uint32_t *)0x50703000)
+#define RP_AP_DBGKEY_CLR (*(volatile uint32_t *)0x50703004)
+#define RP_AP_DBG_POW_STATE_SWCORE_CLR (*(volatile uint32_t *)0x50703008)
+#define RP_AP_DBG_POW_STATE_XIP_CLR (*(volatile uint32_t *)0x5070300c)
+#define RP_AP_DBG_POW_STATE_SRAM0_CLR (*(volatile uint32_t *)0x50703010)
+#define RP_AP_DBG_POW_STATE_SRAM1_CLR (*(volatile uint32_t *)0x50703014)
+#define RP_AP_DBG_POW_OVRD_CLR (*(volatile uint32_t *)0x50703018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_CLR (*(volatile uint32_t *)0x5070301c)
+#define RP_AP_IDR_CLR (*(volatile uint32_t *)0x50703dfc)
 
 /*CTRL Register macros*/
 

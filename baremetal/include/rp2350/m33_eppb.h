@@ -35,17 +35,17 @@ typedef struct{
 		uint32_t nmi_mask1;
 		uint32_t sleepctrl;
 		uint32_t RSVD0[1021];
-		uint32_t xor_nmi_mask0;
-		uint32_t xor_nmi_mask1;
-		uint32_t xor_sleepctrl;
+		uint32_t nmi_mask0_xor;
+		uint32_t nmi_mask1_xor;
+		uint32_t sleepctrl_xor;
 		uint32_t RSVDxor_0[1021];
-		uint32_t set_nmi_mask0;
-		uint32_t set_nmi_mask1;
-		uint32_t set_sleepctrl;
+		uint32_t nmi_mask0_set;
+		uint32_t nmi_mask1_set;
+		uint32_t sleepctrl_set;
 		uint32_t RSVDset_0[1021];
-		uint32_t clr_nmi_mask0;
-		uint32_t clr_nmi_mask1;
-		uint32_t clr_sleepctrl;
+		uint32_t nmi_mask0_clr;
+		uint32_t nmi_mask1_clr;
+		uint32_t sleepctrl_clr;
 		uint32_t RSVDclr_0[1021];
 } M33_EPPB_REG_BLOCKS;
 
@@ -60,15 +60,15 @@ typedef struct{
 #define M33_EPPB_NMI_MASK0 (*(volatile uint32_t *)0xe0000000)
 #define M33_EPPB_NMI_MASK1 (*(volatile uint32_t *)0xe0000004)
 #define M33_EPPB_SLEEPCTRL (*(volatile uint32_t *)0xe0000008)
-#define M33_EPPB_XOR_NMI_MASK0 (*(volatile uint32_t *)0xe0001000)
-#define M33_EPPB_XOR_NMI_MASK1 (*(volatile uint32_t *)0xe0001004)
-#define M33_EPPB_XOR_SLEEPCTRL (*(volatile uint32_t *)0xe0001008)
-#define M33_EPPB_SET_NMI_MASK0 (*(volatile uint32_t *)0xe0002000)
-#define M33_EPPB_SET_NMI_MASK1 (*(volatile uint32_t *)0xe0002004)
-#define M33_EPPB_SET_SLEEPCTRL (*(volatile uint32_t *)0xe0002008)
-#define M33_EPPB_CLR_NMI_MASK0 (*(volatile uint32_t *)0xe0003000)
-#define M33_EPPB_CLR_NMI_MASK1 (*(volatile uint32_t *)0xe0003004)
-#define M33_EPPB_CLR_SLEEPCTRL (*(volatile uint32_t *)0xe0003008)
+#define M33_EPPB_NMI_MASK0_XOR (*(volatile uint32_t *)0xe0001000)
+#define M33_EPPB_NMI_MASK1_XOR (*(volatile uint32_t *)0xe0001004)
+#define M33_EPPB_SLEEPCTRL_XOR (*(volatile uint32_t *)0xe0001008)
+#define M33_EPPB_NMI_MASK0_SET (*(volatile uint32_t *)0xe0002000)
+#define M33_EPPB_NMI_MASK1_SET (*(volatile uint32_t *)0xe0002004)
+#define M33_EPPB_SLEEPCTRL_SET (*(volatile uint32_t *)0xe0002008)
+#define M33_EPPB_NMI_MASK0_CLR (*(volatile uint32_t *)0xe0003000)
+#define M33_EPPB_NMI_MASK1_CLR (*(volatile uint32_t *)0xe0003004)
+#define M33_EPPB_SLEEPCTRL_CLR (*(volatile uint32_t *)0xe0003008)
 
 /*NMI_MASK0 Register macros*/
 

@@ -38,26 +38,26 @@ typedef struct{
 		uint32_t trig_status;
 		uint32_t trig_force;
 		uint32_t RSVD0[1018];
-		uint32_t xor_arm;
-		uint32_t xor_disarm;
-		uint32_t xor_sensitivity;
-		uint32_t xor_lock;
-		uint32_t xor_trig_status;
-		uint32_t xor_trig_force;
+		uint32_t arm_xor;
+		uint32_t disarm_xor;
+		uint32_t sensitivity_xor;
+		uint32_t lock_xor;
+		uint32_t trig_status_xor;
+		uint32_t trig_force_xor;
 		uint32_t RSVDxor_0[1018];
-		uint32_t set_arm;
-		uint32_t set_disarm;
-		uint32_t set_sensitivity;
-		uint32_t set_lock;
-		uint32_t set_trig_status;
-		uint32_t set_trig_force;
+		uint32_t arm_set;
+		uint32_t disarm_set;
+		uint32_t sensitivity_set;
+		uint32_t lock_set;
+		uint32_t trig_status_set;
+		uint32_t trig_force_set;
 		uint32_t RSVDset_0[1018];
-		uint32_t clr_arm;
-		uint32_t clr_disarm;
-		uint32_t clr_sensitivity;
-		uint32_t clr_lock;
-		uint32_t clr_trig_status;
-		uint32_t clr_trig_force;
+		uint32_t arm_clr;
+		uint32_t disarm_clr;
+		uint32_t sensitivity_clr;
+		uint32_t lock_clr;
+		uint32_t trig_status_clr;
+		uint32_t trig_force_clr;
 		uint32_t RSVDclr_0[1018];
 } GLITCH_DETECTOR_REG_BLOCKS;
 
@@ -75,24 +75,24 @@ typedef struct{
 #define GLITCH_DETECTOR_LOCK (*(volatile uint32_t *)0x4015800c)
 #define GLITCH_DETECTOR_TRIG_STATUS (*(volatile uint32_t *)0x40158010)
 #define GLITCH_DETECTOR_TRIG_FORCE (*(volatile uint32_t *)0x40158014)
-#define GLITCH_DETECTOR_XOR_ARM (*(volatile uint32_t *)0x40159000)
-#define GLITCH_DETECTOR_XOR_DISARM (*(volatile uint32_t *)0x40159004)
-#define GLITCH_DETECTOR_XOR_SENSITIVITY (*(volatile uint32_t *)0x40159008)
-#define GLITCH_DETECTOR_XOR_LOCK (*(volatile uint32_t *)0x4015900c)
-#define GLITCH_DETECTOR_XOR_TRIG_STATUS (*(volatile uint32_t *)0x40159010)
-#define GLITCH_DETECTOR_XOR_TRIG_FORCE (*(volatile uint32_t *)0x40159014)
-#define GLITCH_DETECTOR_SET_ARM (*(volatile uint32_t *)0x4015a000)
-#define GLITCH_DETECTOR_SET_DISARM (*(volatile uint32_t *)0x4015a004)
-#define GLITCH_DETECTOR_SET_SENSITIVITY (*(volatile uint32_t *)0x4015a008)
-#define GLITCH_DETECTOR_SET_LOCK (*(volatile uint32_t *)0x4015a00c)
-#define GLITCH_DETECTOR_SET_TRIG_STATUS (*(volatile uint32_t *)0x4015a010)
-#define GLITCH_DETECTOR_SET_TRIG_FORCE (*(volatile uint32_t *)0x4015a014)
-#define GLITCH_DETECTOR_CLR_ARM (*(volatile uint32_t *)0x4015b000)
-#define GLITCH_DETECTOR_CLR_DISARM (*(volatile uint32_t *)0x4015b004)
-#define GLITCH_DETECTOR_CLR_SENSITIVITY (*(volatile uint32_t *)0x4015b008)
-#define GLITCH_DETECTOR_CLR_LOCK (*(volatile uint32_t *)0x4015b00c)
-#define GLITCH_DETECTOR_CLR_TRIG_STATUS (*(volatile uint32_t *)0x4015b010)
-#define GLITCH_DETECTOR_CLR_TRIG_FORCE (*(volatile uint32_t *)0x4015b014)
+#define GLITCH_DETECTOR_ARM_XOR (*(volatile uint32_t *)0x40159000)
+#define GLITCH_DETECTOR_DISARM_XOR (*(volatile uint32_t *)0x40159004)
+#define GLITCH_DETECTOR_SENSITIVITY_XOR (*(volatile uint32_t *)0x40159008)
+#define GLITCH_DETECTOR_LOCK_XOR (*(volatile uint32_t *)0x4015900c)
+#define GLITCH_DETECTOR_TRIG_STATUS_XOR (*(volatile uint32_t *)0x40159010)
+#define GLITCH_DETECTOR_TRIG_FORCE_XOR (*(volatile uint32_t *)0x40159014)
+#define GLITCH_DETECTOR_ARM_SET (*(volatile uint32_t *)0x4015a000)
+#define GLITCH_DETECTOR_DISARM_SET (*(volatile uint32_t *)0x4015a004)
+#define GLITCH_DETECTOR_SENSITIVITY_SET (*(volatile uint32_t *)0x4015a008)
+#define GLITCH_DETECTOR_LOCK_SET (*(volatile uint32_t *)0x4015a00c)
+#define GLITCH_DETECTOR_TRIG_STATUS_SET (*(volatile uint32_t *)0x4015a010)
+#define GLITCH_DETECTOR_TRIG_FORCE_SET (*(volatile uint32_t *)0x4015a014)
+#define GLITCH_DETECTOR_ARM_CLR (*(volatile uint32_t *)0x4015b000)
+#define GLITCH_DETECTOR_DISARM_CLR (*(volatile uint32_t *)0x4015b004)
+#define GLITCH_DETECTOR_SENSITIVITY_CLR (*(volatile uint32_t *)0x4015b008)
+#define GLITCH_DETECTOR_LOCK_CLR (*(volatile uint32_t *)0x4015b00c)
+#define GLITCH_DETECTOR_TRIG_STATUS_CLR (*(volatile uint32_t *)0x4015b010)
+#define GLITCH_DETECTOR_TRIG_FORCE_CLR (*(volatile uint32_t *)0x4015b014)
 
 /*ARM Register macros*/
 

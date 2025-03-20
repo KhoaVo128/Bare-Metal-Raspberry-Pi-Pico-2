@@ -100,212 +100,212 @@ typedef struct{
 		uint32_t irq1_intf;
 		uint32_t irq1_ints;
 		uint32_t RSVD0[956];
-		uint32_t xor_ch0_csr;
-		uint32_t xor_ch0_div;
-		uint32_t xor_ch0_ctr;
-		uint32_t xor_ch0_cc;
-		uint32_t xor_ch0_top;
-		uint32_t xor_ch1_csr;
-		uint32_t xor_ch1_div;
-		uint32_t xor_ch1_ctr;
-		uint32_t xor_ch1_cc;
-		uint32_t xor_ch1_top;
-		uint32_t xor_ch2_csr;
-		uint32_t xor_ch2_div;
-		uint32_t xor_ch2_ctr;
-		uint32_t xor_ch2_cc;
-		uint32_t xor_ch2_top;
-		uint32_t xor_ch3_csr;
-		uint32_t xor_ch3_div;
-		uint32_t xor_ch3_ctr;
-		uint32_t xor_ch3_cc;
-		uint32_t xor_ch3_top;
-		uint32_t xor_ch4_csr;
-		uint32_t xor_ch4_div;
-		uint32_t xor_ch4_ctr;
-		uint32_t xor_ch4_cc;
-		uint32_t xor_ch4_top;
-		uint32_t xor_ch5_csr;
-		uint32_t xor_ch5_div;
-		uint32_t xor_ch5_ctr;
-		uint32_t xor_ch5_cc;
-		uint32_t xor_ch5_top;
-		uint32_t xor_ch6_csr;
-		uint32_t xor_ch6_div;
-		uint32_t xor_ch6_ctr;
-		uint32_t xor_ch6_cc;
-		uint32_t xor_ch6_top;
-		uint32_t xor_ch7_csr;
-		uint32_t xor_ch7_div;
-		uint32_t xor_ch7_ctr;
-		uint32_t xor_ch7_cc;
-		uint32_t xor_ch7_top;
-		uint32_t xor_ch8_csr;
-		uint32_t xor_ch8_div;
-		uint32_t xor_ch8_ctr;
-		uint32_t xor_ch8_cc;
-		uint32_t xor_ch8_top;
-		uint32_t xor_ch9_csr;
-		uint32_t xor_ch9_div;
-		uint32_t xor_ch9_ctr;
-		uint32_t xor_ch9_cc;
-		uint32_t xor_ch9_top;
-		uint32_t xor_ch10_csr;
-		uint32_t xor_ch10_div;
-		uint32_t xor_ch10_ctr;
-		uint32_t xor_ch10_cc;
-		uint32_t xor_ch10_top;
-		uint32_t xor_ch11_csr;
-		uint32_t xor_ch11_div;
-		uint32_t xor_ch11_ctr;
-		uint32_t xor_ch11_cc;
-		uint32_t xor_ch11_top;
-		uint32_t xor_en;
-		uint32_t xor_intr;
-		uint32_t xor_irq0_inte;
-		uint32_t xor_irq0_intf;
-		uint32_t xor_irq0_ints;
-		uint32_t xor_irq1_inte;
-		uint32_t xor_irq1_intf;
-		uint32_t xor_irq1_ints;
+		uint32_t ch0_csr_xor;
+		uint32_t ch0_div_xor;
+		uint32_t ch0_ctr_xor;
+		uint32_t ch0_cc_xor;
+		uint32_t ch0_top_xor;
+		uint32_t ch1_csr_xor;
+		uint32_t ch1_div_xor;
+		uint32_t ch1_ctr_xor;
+		uint32_t ch1_cc_xor;
+		uint32_t ch1_top_xor;
+		uint32_t ch2_csr_xor;
+		uint32_t ch2_div_xor;
+		uint32_t ch2_ctr_xor;
+		uint32_t ch2_cc_xor;
+		uint32_t ch2_top_xor;
+		uint32_t ch3_csr_xor;
+		uint32_t ch3_div_xor;
+		uint32_t ch3_ctr_xor;
+		uint32_t ch3_cc_xor;
+		uint32_t ch3_top_xor;
+		uint32_t ch4_csr_xor;
+		uint32_t ch4_div_xor;
+		uint32_t ch4_ctr_xor;
+		uint32_t ch4_cc_xor;
+		uint32_t ch4_top_xor;
+		uint32_t ch5_csr_xor;
+		uint32_t ch5_div_xor;
+		uint32_t ch5_ctr_xor;
+		uint32_t ch5_cc_xor;
+		uint32_t ch5_top_xor;
+		uint32_t ch6_csr_xor;
+		uint32_t ch6_div_xor;
+		uint32_t ch6_ctr_xor;
+		uint32_t ch6_cc_xor;
+		uint32_t ch6_top_xor;
+		uint32_t ch7_csr_xor;
+		uint32_t ch7_div_xor;
+		uint32_t ch7_ctr_xor;
+		uint32_t ch7_cc_xor;
+		uint32_t ch7_top_xor;
+		uint32_t ch8_csr_xor;
+		uint32_t ch8_div_xor;
+		uint32_t ch8_ctr_xor;
+		uint32_t ch8_cc_xor;
+		uint32_t ch8_top_xor;
+		uint32_t ch9_csr_xor;
+		uint32_t ch9_div_xor;
+		uint32_t ch9_ctr_xor;
+		uint32_t ch9_cc_xor;
+		uint32_t ch9_top_xor;
+		uint32_t ch10_csr_xor;
+		uint32_t ch10_div_xor;
+		uint32_t ch10_ctr_xor;
+		uint32_t ch10_cc_xor;
+		uint32_t ch10_top_xor;
+		uint32_t ch11_csr_xor;
+		uint32_t ch11_div_xor;
+		uint32_t ch11_ctr_xor;
+		uint32_t ch11_cc_xor;
+		uint32_t ch11_top_xor;
+		uint32_t en_xor;
+		uint32_t intr_xor;
+		uint32_t irq0_inte_xor;
+		uint32_t irq0_intf_xor;
+		uint32_t irq0_ints_xor;
+		uint32_t irq1_inte_xor;
+		uint32_t irq1_intf_xor;
+		uint32_t irq1_ints_xor;
 		uint32_t RSVDxor_0[956];
-		uint32_t set_ch0_csr;
-		uint32_t set_ch0_div;
-		uint32_t set_ch0_ctr;
-		uint32_t set_ch0_cc;
-		uint32_t set_ch0_top;
-		uint32_t set_ch1_csr;
-		uint32_t set_ch1_div;
-		uint32_t set_ch1_ctr;
-		uint32_t set_ch1_cc;
-		uint32_t set_ch1_top;
-		uint32_t set_ch2_csr;
-		uint32_t set_ch2_div;
-		uint32_t set_ch2_ctr;
-		uint32_t set_ch2_cc;
-		uint32_t set_ch2_top;
-		uint32_t set_ch3_csr;
-		uint32_t set_ch3_div;
-		uint32_t set_ch3_ctr;
-		uint32_t set_ch3_cc;
-		uint32_t set_ch3_top;
-		uint32_t set_ch4_csr;
-		uint32_t set_ch4_div;
-		uint32_t set_ch4_ctr;
-		uint32_t set_ch4_cc;
-		uint32_t set_ch4_top;
-		uint32_t set_ch5_csr;
-		uint32_t set_ch5_div;
-		uint32_t set_ch5_ctr;
-		uint32_t set_ch5_cc;
-		uint32_t set_ch5_top;
-		uint32_t set_ch6_csr;
-		uint32_t set_ch6_div;
-		uint32_t set_ch6_ctr;
-		uint32_t set_ch6_cc;
-		uint32_t set_ch6_top;
-		uint32_t set_ch7_csr;
-		uint32_t set_ch7_div;
-		uint32_t set_ch7_ctr;
-		uint32_t set_ch7_cc;
-		uint32_t set_ch7_top;
-		uint32_t set_ch8_csr;
-		uint32_t set_ch8_div;
-		uint32_t set_ch8_ctr;
-		uint32_t set_ch8_cc;
-		uint32_t set_ch8_top;
-		uint32_t set_ch9_csr;
-		uint32_t set_ch9_div;
-		uint32_t set_ch9_ctr;
-		uint32_t set_ch9_cc;
-		uint32_t set_ch9_top;
-		uint32_t set_ch10_csr;
-		uint32_t set_ch10_div;
-		uint32_t set_ch10_ctr;
-		uint32_t set_ch10_cc;
-		uint32_t set_ch10_top;
-		uint32_t set_ch11_csr;
-		uint32_t set_ch11_div;
-		uint32_t set_ch11_ctr;
-		uint32_t set_ch11_cc;
-		uint32_t set_ch11_top;
-		uint32_t set_en;
-		uint32_t set_intr;
-		uint32_t set_irq0_inte;
-		uint32_t set_irq0_intf;
-		uint32_t set_irq0_ints;
-		uint32_t set_irq1_inte;
-		uint32_t set_irq1_intf;
-		uint32_t set_irq1_ints;
+		uint32_t ch0_csr_set;
+		uint32_t ch0_div_set;
+		uint32_t ch0_ctr_set;
+		uint32_t ch0_cc_set;
+		uint32_t ch0_top_set;
+		uint32_t ch1_csr_set;
+		uint32_t ch1_div_set;
+		uint32_t ch1_ctr_set;
+		uint32_t ch1_cc_set;
+		uint32_t ch1_top_set;
+		uint32_t ch2_csr_set;
+		uint32_t ch2_div_set;
+		uint32_t ch2_ctr_set;
+		uint32_t ch2_cc_set;
+		uint32_t ch2_top_set;
+		uint32_t ch3_csr_set;
+		uint32_t ch3_div_set;
+		uint32_t ch3_ctr_set;
+		uint32_t ch3_cc_set;
+		uint32_t ch3_top_set;
+		uint32_t ch4_csr_set;
+		uint32_t ch4_div_set;
+		uint32_t ch4_ctr_set;
+		uint32_t ch4_cc_set;
+		uint32_t ch4_top_set;
+		uint32_t ch5_csr_set;
+		uint32_t ch5_div_set;
+		uint32_t ch5_ctr_set;
+		uint32_t ch5_cc_set;
+		uint32_t ch5_top_set;
+		uint32_t ch6_csr_set;
+		uint32_t ch6_div_set;
+		uint32_t ch6_ctr_set;
+		uint32_t ch6_cc_set;
+		uint32_t ch6_top_set;
+		uint32_t ch7_csr_set;
+		uint32_t ch7_div_set;
+		uint32_t ch7_ctr_set;
+		uint32_t ch7_cc_set;
+		uint32_t ch7_top_set;
+		uint32_t ch8_csr_set;
+		uint32_t ch8_div_set;
+		uint32_t ch8_ctr_set;
+		uint32_t ch8_cc_set;
+		uint32_t ch8_top_set;
+		uint32_t ch9_csr_set;
+		uint32_t ch9_div_set;
+		uint32_t ch9_ctr_set;
+		uint32_t ch9_cc_set;
+		uint32_t ch9_top_set;
+		uint32_t ch10_csr_set;
+		uint32_t ch10_div_set;
+		uint32_t ch10_ctr_set;
+		uint32_t ch10_cc_set;
+		uint32_t ch10_top_set;
+		uint32_t ch11_csr_set;
+		uint32_t ch11_div_set;
+		uint32_t ch11_ctr_set;
+		uint32_t ch11_cc_set;
+		uint32_t ch11_top_set;
+		uint32_t en_set;
+		uint32_t intr_set;
+		uint32_t irq0_inte_set;
+		uint32_t irq0_intf_set;
+		uint32_t irq0_ints_set;
+		uint32_t irq1_inte_set;
+		uint32_t irq1_intf_set;
+		uint32_t irq1_ints_set;
 		uint32_t RSVDset_0[956];
-		uint32_t clr_ch0_csr;
-		uint32_t clr_ch0_div;
-		uint32_t clr_ch0_ctr;
-		uint32_t clr_ch0_cc;
-		uint32_t clr_ch0_top;
-		uint32_t clr_ch1_csr;
-		uint32_t clr_ch1_div;
-		uint32_t clr_ch1_ctr;
-		uint32_t clr_ch1_cc;
-		uint32_t clr_ch1_top;
-		uint32_t clr_ch2_csr;
-		uint32_t clr_ch2_div;
-		uint32_t clr_ch2_ctr;
-		uint32_t clr_ch2_cc;
-		uint32_t clr_ch2_top;
-		uint32_t clr_ch3_csr;
-		uint32_t clr_ch3_div;
-		uint32_t clr_ch3_ctr;
-		uint32_t clr_ch3_cc;
-		uint32_t clr_ch3_top;
-		uint32_t clr_ch4_csr;
-		uint32_t clr_ch4_div;
-		uint32_t clr_ch4_ctr;
-		uint32_t clr_ch4_cc;
-		uint32_t clr_ch4_top;
-		uint32_t clr_ch5_csr;
-		uint32_t clr_ch5_div;
-		uint32_t clr_ch5_ctr;
-		uint32_t clr_ch5_cc;
-		uint32_t clr_ch5_top;
-		uint32_t clr_ch6_csr;
-		uint32_t clr_ch6_div;
-		uint32_t clr_ch6_ctr;
-		uint32_t clr_ch6_cc;
-		uint32_t clr_ch6_top;
-		uint32_t clr_ch7_csr;
-		uint32_t clr_ch7_div;
-		uint32_t clr_ch7_ctr;
-		uint32_t clr_ch7_cc;
-		uint32_t clr_ch7_top;
-		uint32_t clr_ch8_csr;
-		uint32_t clr_ch8_div;
-		uint32_t clr_ch8_ctr;
-		uint32_t clr_ch8_cc;
-		uint32_t clr_ch8_top;
-		uint32_t clr_ch9_csr;
-		uint32_t clr_ch9_div;
-		uint32_t clr_ch9_ctr;
-		uint32_t clr_ch9_cc;
-		uint32_t clr_ch9_top;
-		uint32_t clr_ch10_csr;
-		uint32_t clr_ch10_div;
-		uint32_t clr_ch10_ctr;
-		uint32_t clr_ch10_cc;
-		uint32_t clr_ch10_top;
-		uint32_t clr_ch11_csr;
-		uint32_t clr_ch11_div;
-		uint32_t clr_ch11_ctr;
-		uint32_t clr_ch11_cc;
-		uint32_t clr_ch11_top;
-		uint32_t clr_en;
-		uint32_t clr_intr;
-		uint32_t clr_irq0_inte;
-		uint32_t clr_irq0_intf;
-		uint32_t clr_irq0_ints;
-		uint32_t clr_irq1_inte;
-		uint32_t clr_irq1_intf;
-		uint32_t clr_irq1_ints;
+		uint32_t ch0_csr_clr;
+		uint32_t ch0_div_clr;
+		uint32_t ch0_ctr_clr;
+		uint32_t ch0_cc_clr;
+		uint32_t ch0_top_clr;
+		uint32_t ch1_csr_clr;
+		uint32_t ch1_div_clr;
+		uint32_t ch1_ctr_clr;
+		uint32_t ch1_cc_clr;
+		uint32_t ch1_top_clr;
+		uint32_t ch2_csr_clr;
+		uint32_t ch2_div_clr;
+		uint32_t ch2_ctr_clr;
+		uint32_t ch2_cc_clr;
+		uint32_t ch2_top_clr;
+		uint32_t ch3_csr_clr;
+		uint32_t ch3_div_clr;
+		uint32_t ch3_ctr_clr;
+		uint32_t ch3_cc_clr;
+		uint32_t ch3_top_clr;
+		uint32_t ch4_csr_clr;
+		uint32_t ch4_div_clr;
+		uint32_t ch4_ctr_clr;
+		uint32_t ch4_cc_clr;
+		uint32_t ch4_top_clr;
+		uint32_t ch5_csr_clr;
+		uint32_t ch5_div_clr;
+		uint32_t ch5_ctr_clr;
+		uint32_t ch5_cc_clr;
+		uint32_t ch5_top_clr;
+		uint32_t ch6_csr_clr;
+		uint32_t ch6_div_clr;
+		uint32_t ch6_ctr_clr;
+		uint32_t ch6_cc_clr;
+		uint32_t ch6_top_clr;
+		uint32_t ch7_csr_clr;
+		uint32_t ch7_div_clr;
+		uint32_t ch7_ctr_clr;
+		uint32_t ch7_cc_clr;
+		uint32_t ch7_top_clr;
+		uint32_t ch8_csr_clr;
+		uint32_t ch8_div_clr;
+		uint32_t ch8_ctr_clr;
+		uint32_t ch8_cc_clr;
+		uint32_t ch8_top_clr;
+		uint32_t ch9_csr_clr;
+		uint32_t ch9_div_clr;
+		uint32_t ch9_ctr_clr;
+		uint32_t ch9_cc_clr;
+		uint32_t ch9_top_clr;
+		uint32_t ch10_csr_clr;
+		uint32_t ch10_div_clr;
+		uint32_t ch10_ctr_clr;
+		uint32_t ch10_cc_clr;
+		uint32_t ch10_top_clr;
+		uint32_t ch11_csr_clr;
+		uint32_t ch11_div_clr;
+		uint32_t ch11_ctr_clr;
+		uint32_t ch11_cc_clr;
+		uint32_t ch11_top_clr;
+		uint32_t en_clr;
+		uint32_t intr_clr;
+		uint32_t irq0_inte_clr;
+		uint32_t irq0_intf_clr;
+		uint32_t irq0_ints_clr;
+		uint32_t irq1_inte_clr;
+		uint32_t irq1_intf_clr;
+		uint32_t irq1_ints_clr;
 		uint32_t RSVDclr_0[956];
 } PWM_REG_BLOCKS;
 
@@ -385,210 +385,210 @@ typedef struct{
 #define PWM_IRQ1_INTE (*(volatile uint32_t *)0x400a8104)
 #define PWM_IRQ1_INTF (*(volatile uint32_t *)0x400a8108)
 #define PWM_IRQ1_INTS (*(volatile uint32_t *)0x400a810c)
-#define PWM_XOR_CH0_CSR (*(volatile uint32_t *)0x400a9000)
-#define PWM_XOR_CH0_DIV (*(volatile uint32_t *)0x400a9004)
-#define PWM_XOR_CH0_CTR (*(volatile uint32_t *)0x400a9008)
-#define PWM_XOR_CH0_CC (*(volatile uint32_t *)0x400a900c)
-#define PWM_XOR_CH0_TOP (*(volatile uint32_t *)0x400a9010)
-#define PWM_XOR_CH1_CSR (*(volatile uint32_t *)0x400a9014)
-#define PWM_XOR_CH1_DIV (*(volatile uint32_t *)0x400a9018)
-#define PWM_XOR_CH1_CTR (*(volatile uint32_t *)0x400a901c)
-#define PWM_XOR_CH1_CC (*(volatile uint32_t *)0x400a9020)
-#define PWM_XOR_CH1_TOP (*(volatile uint32_t *)0x400a9024)
-#define PWM_XOR_CH2_CSR (*(volatile uint32_t *)0x400a9028)
-#define PWM_XOR_CH2_DIV (*(volatile uint32_t *)0x400a902c)
-#define PWM_XOR_CH2_CTR (*(volatile uint32_t *)0x400a9030)
-#define PWM_XOR_CH2_CC (*(volatile uint32_t *)0x400a9034)
-#define PWM_XOR_CH2_TOP (*(volatile uint32_t *)0x400a9038)
-#define PWM_XOR_CH3_CSR (*(volatile uint32_t *)0x400a903c)
-#define PWM_XOR_CH3_DIV (*(volatile uint32_t *)0x400a9040)
-#define PWM_XOR_CH3_CTR (*(volatile uint32_t *)0x400a9044)
-#define PWM_XOR_CH3_CC (*(volatile uint32_t *)0x400a9048)
-#define PWM_XOR_CH3_TOP (*(volatile uint32_t *)0x400a904c)
-#define PWM_XOR_CH4_CSR (*(volatile uint32_t *)0x400a9050)
-#define PWM_XOR_CH4_DIV (*(volatile uint32_t *)0x400a9054)
-#define PWM_XOR_CH4_CTR (*(volatile uint32_t *)0x400a9058)
-#define PWM_XOR_CH4_CC (*(volatile uint32_t *)0x400a905c)
-#define PWM_XOR_CH4_TOP (*(volatile uint32_t *)0x400a9060)
-#define PWM_XOR_CH5_CSR (*(volatile uint32_t *)0x400a9064)
-#define PWM_XOR_CH5_DIV (*(volatile uint32_t *)0x400a9068)
-#define PWM_XOR_CH5_CTR (*(volatile uint32_t *)0x400a906c)
-#define PWM_XOR_CH5_CC (*(volatile uint32_t *)0x400a9070)
-#define PWM_XOR_CH5_TOP (*(volatile uint32_t *)0x400a9074)
-#define PWM_XOR_CH6_CSR (*(volatile uint32_t *)0x400a9078)
-#define PWM_XOR_CH6_DIV (*(volatile uint32_t *)0x400a907c)
-#define PWM_XOR_CH6_CTR (*(volatile uint32_t *)0x400a9080)
-#define PWM_XOR_CH6_CC (*(volatile uint32_t *)0x400a9084)
-#define PWM_XOR_CH6_TOP (*(volatile uint32_t *)0x400a9088)
-#define PWM_XOR_CH7_CSR (*(volatile uint32_t *)0x400a908c)
-#define PWM_XOR_CH7_DIV (*(volatile uint32_t *)0x400a9090)
-#define PWM_XOR_CH7_CTR (*(volatile uint32_t *)0x400a9094)
-#define PWM_XOR_CH7_CC (*(volatile uint32_t *)0x400a9098)
-#define PWM_XOR_CH7_TOP (*(volatile uint32_t *)0x400a909c)
-#define PWM_XOR_CH8_CSR (*(volatile uint32_t *)0x400a90a0)
-#define PWM_XOR_CH8_DIV (*(volatile uint32_t *)0x400a90a4)
-#define PWM_XOR_CH8_CTR (*(volatile uint32_t *)0x400a90a8)
-#define PWM_XOR_CH8_CC (*(volatile uint32_t *)0x400a90ac)
-#define PWM_XOR_CH8_TOP (*(volatile uint32_t *)0x400a90b0)
-#define PWM_XOR_CH9_CSR (*(volatile uint32_t *)0x400a90b4)
-#define PWM_XOR_CH9_DIV (*(volatile uint32_t *)0x400a90b8)
-#define PWM_XOR_CH9_CTR (*(volatile uint32_t *)0x400a90bc)
-#define PWM_XOR_CH9_CC (*(volatile uint32_t *)0x400a90c0)
-#define PWM_XOR_CH9_TOP (*(volatile uint32_t *)0x400a90c4)
-#define PWM_XOR_CH10_CSR (*(volatile uint32_t *)0x400a90c8)
-#define PWM_XOR_CH10_DIV (*(volatile uint32_t *)0x400a90cc)
-#define PWM_XOR_CH10_CTR (*(volatile uint32_t *)0x400a90d0)
-#define PWM_XOR_CH10_CC (*(volatile uint32_t *)0x400a90d4)
-#define PWM_XOR_CH10_TOP (*(volatile uint32_t *)0x400a90d8)
-#define PWM_XOR_CH11_CSR (*(volatile uint32_t *)0x400a90dc)
-#define PWM_XOR_CH11_DIV (*(volatile uint32_t *)0x400a90e0)
-#define PWM_XOR_CH11_CTR (*(volatile uint32_t *)0x400a90e4)
-#define PWM_XOR_CH11_CC (*(volatile uint32_t *)0x400a90e8)
-#define PWM_XOR_CH11_TOP (*(volatile uint32_t *)0x400a90ec)
-#define PWM_XOR_EN (*(volatile uint32_t *)0x400a90f0)
-#define PWM_XOR_INTR (*(volatile uint32_t *)0x400a90f4)
-#define PWM_XOR_IRQ0_INTE (*(volatile uint32_t *)0x400a90f8)
-#define PWM_XOR_IRQ0_INTF (*(volatile uint32_t *)0x400a90fc)
-#define PWM_XOR_IRQ0_INTS (*(volatile uint32_t *)0x400a9100)
-#define PWM_XOR_IRQ1_INTE (*(volatile uint32_t *)0x400a9104)
-#define PWM_XOR_IRQ1_INTF (*(volatile uint32_t *)0x400a9108)
-#define PWM_XOR_IRQ1_INTS (*(volatile uint32_t *)0x400a910c)
-#define PWM_SET_CH0_CSR (*(volatile uint32_t *)0x400aa000)
-#define PWM_SET_CH0_DIV (*(volatile uint32_t *)0x400aa004)
-#define PWM_SET_CH0_CTR (*(volatile uint32_t *)0x400aa008)
-#define PWM_SET_CH0_CC (*(volatile uint32_t *)0x400aa00c)
-#define PWM_SET_CH0_TOP (*(volatile uint32_t *)0x400aa010)
-#define PWM_SET_CH1_CSR (*(volatile uint32_t *)0x400aa014)
-#define PWM_SET_CH1_DIV (*(volatile uint32_t *)0x400aa018)
-#define PWM_SET_CH1_CTR (*(volatile uint32_t *)0x400aa01c)
-#define PWM_SET_CH1_CC (*(volatile uint32_t *)0x400aa020)
-#define PWM_SET_CH1_TOP (*(volatile uint32_t *)0x400aa024)
-#define PWM_SET_CH2_CSR (*(volatile uint32_t *)0x400aa028)
-#define PWM_SET_CH2_DIV (*(volatile uint32_t *)0x400aa02c)
-#define PWM_SET_CH2_CTR (*(volatile uint32_t *)0x400aa030)
-#define PWM_SET_CH2_CC (*(volatile uint32_t *)0x400aa034)
-#define PWM_SET_CH2_TOP (*(volatile uint32_t *)0x400aa038)
-#define PWM_SET_CH3_CSR (*(volatile uint32_t *)0x400aa03c)
-#define PWM_SET_CH3_DIV (*(volatile uint32_t *)0x400aa040)
-#define PWM_SET_CH3_CTR (*(volatile uint32_t *)0x400aa044)
-#define PWM_SET_CH3_CC (*(volatile uint32_t *)0x400aa048)
-#define PWM_SET_CH3_TOP (*(volatile uint32_t *)0x400aa04c)
-#define PWM_SET_CH4_CSR (*(volatile uint32_t *)0x400aa050)
-#define PWM_SET_CH4_DIV (*(volatile uint32_t *)0x400aa054)
-#define PWM_SET_CH4_CTR (*(volatile uint32_t *)0x400aa058)
-#define PWM_SET_CH4_CC (*(volatile uint32_t *)0x400aa05c)
-#define PWM_SET_CH4_TOP (*(volatile uint32_t *)0x400aa060)
-#define PWM_SET_CH5_CSR (*(volatile uint32_t *)0x400aa064)
-#define PWM_SET_CH5_DIV (*(volatile uint32_t *)0x400aa068)
-#define PWM_SET_CH5_CTR (*(volatile uint32_t *)0x400aa06c)
-#define PWM_SET_CH5_CC (*(volatile uint32_t *)0x400aa070)
-#define PWM_SET_CH5_TOP (*(volatile uint32_t *)0x400aa074)
-#define PWM_SET_CH6_CSR (*(volatile uint32_t *)0x400aa078)
-#define PWM_SET_CH6_DIV (*(volatile uint32_t *)0x400aa07c)
-#define PWM_SET_CH6_CTR (*(volatile uint32_t *)0x400aa080)
-#define PWM_SET_CH6_CC (*(volatile uint32_t *)0x400aa084)
-#define PWM_SET_CH6_TOP (*(volatile uint32_t *)0x400aa088)
-#define PWM_SET_CH7_CSR (*(volatile uint32_t *)0x400aa08c)
-#define PWM_SET_CH7_DIV (*(volatile uint32_t *)0x400aa090)
-#define PWM_SET_CH7_CTR (*(volatile uint32_t *)0x400aa094)
-#define PWM_SET_CH7_CC (*(volatile uint32_t *)0x400aa098)
-#define PWM_SET_CH7_TOP (*(volatile uint32_t *)0x400aa09c)
-#define PWM_SET_CH8_CSR (*(volatile uint32_t *)0x400aa0a0)
-#define PWM_SET_CH8_DIV (*(volatile uint32_t *)0x400aa0a4)
-#define PWM_SET_CH8_CTR (*(volatile uint32_t *)0x400aa0a8)
-#define PWM_SET_CH8_CC (*(volatile uint32_t *)0x400aa0ac)
-#define PWM_SET_CH8_TOP (*(volatile uint32_t *)0x400aa0b0)
-#define PWM_SET_CH9_CSR (*(volatile uint32_t *)0x400aa0b4)
-#define PWM_SET_CH9_DIV (*(volatile uint32_t *)0x400aa0b8)
-#define PWM_SET_CH9_CTR (*(volatile uint32_t *)0x400aa0bc)
-#define PWM_SET_CH9_CC (*(volatile uint32_t *)0x400aa0c0)
-#define PWM_SET_CH9_TOP (*(volatile uint32_t *)0x400aa0c4)
-#define PWM_SET_CH10_CSR (*(volatile uint32_t *)0x400aa0c8)
-#define PWM_SET_CH10_DIV (*(volatile uint32_t *)0x400aa0cc)
-#define PWM_SET_CH10_CTR (*(volatile uint32_t *)0x400aa0d0)
-#define PWM_SET_CH10_CC (*(volatile uint32_t *)0x400aa0d4)
-#define PWM_SET_CH10_TOP (*(volatile uint32_t *)0x400aa0d8)
-#define PWM_SET_CH11_CSR (*(volatile uint32_t *)0x400aa0dc)
-#define PWM_SET_CH11_DIV (*(volatile uint32_t *)0x400aa0e0)
-#define PWM_SET_CH11_CTR (*(volatile uint32_t *)0x400aa0e4)
-#define PWM_SET_CH11_CC (*(volatile uint32_t *)0x400aa0e8)
-#define PWM_SET_CH11_TOP (*(volatile uint32_t *)0x400aa0ec)
-#define PWM_SET_EN (*(volatile uint32_t *)0x400aa0f0)
-#define PWM_SET_INTR (*(volatile uint32_t *)0x400aa0f4)
-#define PWM_SET_IRQ0_INTE (*(volatile uint32_t *)0x400aa0f8)
-#define PWM_SET_IRQ0_INTF (*(volatile uint32_t *)0x400aa0fc)
-#define PWM_SET_IRQ0_INTS (*(volatile uint32_t *)0x400aa100)
-#define PWM_SET_IRQ1_INTE (*(volatile uint32_t *)0x400aa104)
-#define PWM_SET_IRQ1_INTF (*(volatile uint32_t *)0x400aa108)
-#define PWM_SET_IRQ1_INTS (*(volatile uint32_t *)0x400aa10c)
-#define PWM_CLR_CH0_CSR (*(volatile uint32_t *)0x400ab000)
-#define PWM_CLR_CH0_DIV (*(volatile uint32_t *)0x400ab004)
-#define PWM_CLR_CH0_CTR (*(volatile uint32_t *)0x400ab008)
-#define PWM_CLR_CH0_CC (*(volatile uint32_t *)0x400ab00c)
-#define PWM_CLR_CH0_TOP (*(volatile uint32_t *)0x400ab010)
-#define PWM_CLR_CH1_CSR (*(volatile uint32_t *)0x400ab014)
-#define PWM_CLR_CH1_DIV (*(volatile uint32_t *)0x400ab018)
-#define PWM_CLR_CH1_CTR (*(volatile uint32_t *)0x400ab01c)
-#define PWM_CLR_CH1_CC (*(volatile uint32_t *)0x400ab020)
-#define PWM_CLR_CH1_TOP (*(volatile uint32_t *)0x400ab024)
-#define PWM_CLR_CH2_CSR (*(volatile uint32_t *)0x400ab028)
-#define PWM_CLR_CH2_DIV (*(volatile uint32_t *)0x400ab02c)
-#define PWM_CLR_CH2_CTR (*(volatile uint32_t *)0x400ab030)
-#define PWM_CLR_CH2_CC (*(volatile uint32_t *)0x400ab034)
-#define PWM_CLR_CH2_TOP (*(volatile uint32_t *)0x400ab038)
-#define PWM_CLR_CH3_CSR (*(volatile uint32_t *)0x400ab03c)
-#define PWM_CLR_CH3_DIV (*(volatile uint32_t *)0x400ab040)
-#define PWM_CLR_CH3_CTR (*(volatile uint32_t *)0x400ab044)
-#define PWM_CLR_CH3_CC (*(volatile uint32_t *)0x400ab048)
-#define PWM_CLR_CH3_TOP (*(volatile uint32_t *)0x400ab04c)
-#define PWM_CLR_CH4_CSR (*(volatile uint32_t *)0x400ab050)
-#define PWM_CLR_CH4_DIV (*(volatile uint32_t *)0x400ab054)
-#define PWM_CLR_CH4_CTR (*(volatile uint32_t *)0x400ab058)
-#define PWM_CLR_CH4_CC (*(volatile uint32_t *)0x400ab05c)
-#define PWM_CLR_CH4_TOP (*(volatile uint32_t *)0x400ab060)
-#define PWM_CLR_CH5_CSR (*(volatile uint32_t *)0x400ab064)
-#define PWM_CLR_CH5_DIV (*(volatile uint32_t *)0x400ab068)
-#define PWM_CLR_CH5_CTR (*(volatile uint32_t *)0x400ab06c)
-#define PWM_CLR_CH5_CC (*(volatile uint32_t *)0x400ab070)
-#define PWM_CLR_CH5_TOP (*(volatile uint32_t *)0x400ab074)
-#define PWM_CLR_CH6_CSR (*(volatile uint32_t *)0x400ab078)
-#define PWM_CLR_CH6_DIV (*(volatile uint32_t *)0x400ab07c)
-#define PWM_CLR_CH6_CTR (*(volatile uint32_t *)0x400ab080)
-#define PWM_CLR_CH6_CC (*(volatile uint32_t *)0x400ab084)
-#define PWM_CLR_CH6_TOP (*(volatile uint32_t *)0x400ab088)
-#define PWM_CLR_CH7_CSR (*(volatile uint32_t *)0x400ab08c)
-#define PWM_CLR_CH7_DIV (*(volatile uint32_t *)0x400ab090)
-#define PWM_CLR_CH7_CTR (*(volatile uint32_t *)0x400ab094)
-#define PWM_CLR_CH7_CC (*(volatile uint32_t *)0x400ab098)
-#define PWM_CLR_CH7_TOP (*(volatile uint32_t *)0x400ab09c)
-#define PWM_CLR_CH8_CSR (*(volatile uint32_t *)0x400ab0a0)
-#define PWM_CLR_CH8_DIV (*(volatile uint32_t *)0x400ab0a4)
-#define PWM_CLR_CH8_CTR (*(volatile uint32_t *)0x400ab0a8)
-#define PWM_CLR_CH8_CC (*(volatile uint32_t *)0x400ab0ac)
-#define PWM_CLR_CH8_TOP (*(volatile uint32_t *)0x400ab0b0)
-#define PWM_CLR_CH9_CSR (*(volatile uint32_t *)0x400ab0b4)
-#define PWM_CLR_CH9_DIV (*(volatile uint32_t *)0x400ab0b8)
-#define PWM_CLR_CH9_CTR (*(volatile uint32_t *)0x400ab0bc)
-#define PWM_CLR_CH9_CC (*(volatile uint32_t *)0x400ab0c0)
-#define PWM_CLR_CH9_TOP (*(volatile uint32_t *)0x400ab0c4)
-#define PWM_CLR_CH10_CSR (*(volatile uint32_t *)0x400ab0c8)
-#define PWM_CLR_CH10_DIV (*(volatile uint32_t *)0x400ab0cc)
-#define PWM_CLR_CH10_CTR (*(volatile uint32_t *)0x400ab0d0)
-#define PWM_CLR_CH10_CC (*(volatile uint32_t *)0x400ab0d4)
-#define PWM_CLR_CH10_TOP (*(volatile uint32_t *)0x400ab0d8)
-#define PWM_CLR_CH11_CSR (*(volatile uint32_t *)0x400ab0dc)
-#define PWM_CLR_CH11_DIV (*(volatile uint32_t *)0x400ab0e0)
-#define PWM_CLR_CH11_CTR (*(volatile uint32_t *)0x400ab0e4)
-#define PWM_CLR_CH11_CC (*(volatile uint32_t *)0x400ab0e8)
-#define PWM_CLR_CH11_TOP (*(volatile uint32_t *)0x400ab0ec)
-#define PWM_CLR_EN (*(volatile uint32_t *)0x400ab0f0)
-#define PWM_CLR_INTR (*(volatile uint32_t *)0x400ab0f4)
-#define PWM_CLR_IRQ0_INTE (*(volatile uint32_t *)0x400ab0f8)
-#define PWM_CLR_IRQ0_INTF (*(volatile uint32_t *)0x400ab0fc)
-#define PWM_CLR_IRQ0_INTS (*(volatile uint32_t *)0x400ab100)
-#define PWM_CLR_IRQ1_INTE (*(volatile uint32_t *)0x400ab104)
-#define PWM_CLR_IRQ1_INTF (*(volatile uint32_t *)0x400ab108)
-#define PWM_CLR_IRQ1_INTS (*(volatile uint32_t *)0x400ab10c)
+#define PWM_CH0_CSR_XOR (*(volatile uint32_t *)0x400a9000)
+#define PWM_CH0_DIV_XOR (*(volatile uint32_t *)0x400a9004)
+#define PWM_CH0_CTR_XOR (*(volatile uint32_t *)0x400a9008)
+#define PWM_CH0_CC_XOR (*(volatile uint32_t *)0x400a900c)
+#define PWM_CH0_TOP_XOR (*(volatile uint32_t *)0x400a9010)
+#define PWM_CH1_CSR_XOR (*(volatile uint32_t *)0x400a9014)
+#define PWM_CH1_DIV_XOR (*(volatile uint32_t *)0x400a9018)
+#define PWM_CH1_CTR_XOR (*(volatile uint32_t *)0x400a901c)
+#define PWM_CH1_CC_XOR (*(volatile uint32_t *)0x400a9020)
+#define PWM_CH1_TOP_XOR (*(volatile uint32_t *)0x400a9024)
+#define PWM_CH2_CSR_XOR (*(volatile uint32_t *)0x400a9028)
+#define PWM_CH2_DIV_XOR (*(volatile uint32_t *)0x400a902c)
+#define PWM_CH2_CTR_XOR (*(volatile uint32_t *)0x400a9030)
+#define PWM_CH2_CC_XOR (*(volatile uint32_t *)0x400a9034)
+#define PWM_CH2_TOP_XOR (*(volatile uint32_t *)0x400a9038)
+#define PWM_CH3_CSR_XOR (*(volatile uint32_t *)0x400a903c)
+#define PWM_CH3_DIV_XOR (*(volatile uint32_t *)0x400a9040)
+#define PWM_CH3_CTR_XOR (*(volatile uint32_t *)0x400a9044)
+#define PWM_CH3_CC_XOR (*(volatile uint32_t *)0x400a9048)
+#define PWM_CH3_TOP_XOR (*(volatile uint32_t *)0x400a904c)
+#define PWM_CH4_CSR_XOR (*(volatile uint32_t *)0x400a9050)
+#define PWM_CH4_DIV_XOR (*(volatile uint32_t *)0x400a9054)
+#define PWM_CH4_CTR_XOR (*(volatile uint32_t *)0x400a9058)
+#define PWM_CH4_CC_XOR (*(volatile uint32_t *)0x400a905c)
+#define PWM_CH4_TOP_XOR (*(volatile uint32_t *)0x400a9060)
+#define PWM_CH5_CSR_XOR (*(volatile uint32_t *)0x400a9064)
+#define PWM_CH5_DIV_XOR (*(volatile uint32_t *)0x400a9068)
+#define PWM_CH5_CTR_XOR (*(volatile uint32_t *)0x400a906c)
+#define PWM_CH5_CC_XOR (*(volatile uint32_t *)0x400a9070)
+#define PWM_CH5_TOP_XOR (*(volatile uint32_t *)0x400a9074)
+#define PWM_CH6_CSR_XOR (*(volatile uint32_t *)0x400a9078)
+#define PWM_CH6_DIV_XOR (*(volatile uint32_t *)0x400a907c)
+#define PWM_CH6_CTR_XOR (*(volatile uint32_t *)0x400a9080)
+#define PWM_CH6_CC_XOR (*(volatile uint32_t *)0x400a9084)
+#define PWM_CH6_TOP_XOR (*(volatile uint32_t *)0x400a9088)
+#define PWM_CH7_CSR_XOR (*(volatile uint32_t *)0x400a908c)
+#define PWM_CH7_DIV_XOR (*(volatile uint32_t *)0x400a9090)
+#define PWM_CH7_CTR_XOR (*(volatile uint32_t *)0x400a9094)
+#define PWM_CH7_CC_XOR (*(volatile uint32_t *)0x400a9098)
+#define PWM_CH7_TOP_XOR (*(volatile uint32_t *)0x400a909c)
+#define PWM_CH8_CSR_XOR (*(volatile uint32_t *)0x400a90a0)
+#define PWM_CH8_DIV_XOR (*(volatile uint32_t *)0x400a90a4)
+#define PWM_CH8_CTR_XOR (*(volatile uint32_t *)0x400a90a8)
+#define PWM_CH8_CC_XOR (*(volatile uint32_t *)0x400a90ac)
+#define PWM_CH8_TOP_XOR (*(volatile uint32_t *)0x400a90b0)
+#define PWM_CH9_CSR_XOR (*(volatile uint32_t *)0x400a90b4)
+#define PWM_CH9_DIV_XOR (*(volatile uint32_t *)0x400a90b8)
+#define PWM_CH9_CTR_XOR (*(volatile uint32_t *)0x400a90bc)
+#define PWM_CH9_CC_XOR (*(volatile uint32_t *)0x400a90c0)
+#define PWM_CH9_TOP_XOR (*(volatile uint32_t *)0x400a90c4)
+#define PWM_CH10_CSR_XOR (*(volatile uint32_t *)0x400a90c8)
+#define PWM_CH10_DIV_XOR (*(volatile uint32_t *)0x400a90cc)
+#define PWM_CH10_CTR_XOR (*(volatile uint32_t *)0x400a90d0)
+#define PWM_CH10_CC_XOR (*(volatile uint32_t *)0x400a90d4)
+#define PWM_CH10_TOP_XOR (*(volatile uint32_t *)0x400a90d8)
+#define PWM_CH11_CSR_XOR (*(volatile uint32_t *)0x400a90dc)
+#define PWM_CH11_DIV_XOR (*(volatile uint32_t *)0x400a90e0)
+#define PWM_CH11_CTR_XOR (*(volatile uint32_t *)0x400a90e4)
+#define PWM_CH11_CC_XOR (*(volatile uint32_t *)0x400a90e8)
+#define PWM_CH11_TOP_XOR (*(volatile uint32_t *)0x400a90ec)
+#define PWM_EN_XOR (*(volatile uint32_t *)0x400a90f0)
+#define PWM_INTR_XOR (*(volatile uint32_t *)0x400a90f4)
+#define PWM_IRQ0_INTE_XOR (*(volatile uint32_t *)0x400a90f8)
+#define PWM_IRQ0_INTF_XOR (*(volatile uint32_t *)0x400a90fc)
+#define PWM_IRQ0_INTS_XOR (*(volatile uint32_t *)0x400a9100)
+#define PWM_IRQ1_INTE_XOR (*(volatile uint32_t *)0x400a9104)
+#define PWM_IRQ1_INTF_XOR (*(volatile uint32_t *)0x400a9108)
+#define PWM_IRQ1_INTS_XOR (*(volatile uint32_t *)0x400a910c)
+#define PWM_CH0_CSR_SET (*(volatile uint32_t *)0x400aa000)
+#define PWM_CH0_DIV_SET (*(volatile uint32_t *)0x400aa004)
+#define PWM_CH0_CTR_SET (*(volatile uint32_t *)0x400aa008)
+#define PWM_CH0_CC_SET (*(volatile uint32_t *)0x400aa00c)
+#define PWM_CH0_TOP_SET (*(volatile uint32_t *)0x400aa010)
+#define PWM_CH1_CSR_SET (*(volatile uint32_t *)0x400aa014)
+#define PWM_CH1_DIV_SET (*(volatile uint32_t *)0x400aa018)
+#define PWM_CH1_CTR_SET (*(volatile uint32_t *)0x400aa01c)
+#define PWM_CH1_CC_SET (*(volatile uint32_t *)0x400aa020)
+#define PWM_CH1_TOP_SET (*(volatile uint32_t *)0x400aa024)
+#define PWM_CH2_CSR_SET (*(volatile uint32_t *)0x400aa028)
+#define PWM_CH2_DIV_SET (*(volatile uint32_t *)0x400aa02c)
+#define PWM_CH2_CTR_SET (*(volatile uint32_t *)0x400aa030)
+#define PWM_CH2_CC_SET (*(volatile uint32_t *)0x400aa034)
+#define PWM_CH2_TOP_SET (*(volatile uint32_t *)0x400aa038)
+#define PWM_CH3_CSR_SET (*(volatile uint32_t *)0x400aa03c)
+#define PWM_CH3_DIV_SET (*(volatile uint32_t *)0x400aa040)
+#define PWM_CH3_CTR_SET (*(volatile uint32_t *)0x400aa044)
+#define PWM_CH3_CC_SET (*(volatile uint32_t *)0x400aa048)
+#define PWM_CH3_TOP_SET (*(volatile uint32_t *)0x400aa04c)
+#define PWM_CH4_CSR_SET (*(volatile uint32_t *)0x400aa050)
+#define PWM_CH4_DIV_SET (*(volatile uint32_t *)0x400aa054)
+#define PWM_CH4_CTR_SET (*(volatile uint32_t *)0x400aa058)
+#define PWM_CH4_CC_SET (*(volatile uint32_t *)0x400aa05c)
+#define PWM_CH4_TOP_SET (*(volatile uint32_t *)0x400aa060)
+#define PWM_CH5_CSR_SET (*(volatile uint32_t *)0x400aa064)
+#define PWM_CH5_DIV_SET (*(volatile uint32_t *)0x400aa068)
+#define PWM_CH5_CTR_SET (*(volatile uint32_t *)0x400aa06c)
+#define PWM_CH5_CC_SET (*(volatile uint32_t *)0x400aa070)
+#define PWM_CH5_TOP_SET (*(volatile uint32_t *)0x400aa074)
+#define PWM_CH6_CSR_SET (*(volatile uint32_t *)0x400aa078)
+#define PWM_CH6_DIV_SET (*(volatile uint32_t *)0x400aa07c)
+#define PWM_CH6_CTR_SET (*(volatile uint32_t *)0x400aa080)
+#define PWM_CH6_CC_SET (*(volatile uint32_t *)0x400aa084)
+#define PWM_CH6_TOP_SET (*(volatile uint32_t *)0x400aa088)
+#define PWM_CH7_CSR_SET (*(volatile uint32_t *)0x400aa08c)
+#define PWM_CH7_DIV_SET (*(volatile uint32_t *)0x400aa090)
+#define PWM_CH7_CTR_SET (*(volatile uint32_t *)0x400aa094)
+#define PWM_CH7_CC_SET (*(volatile uint32_t *)0x400aa098)
+#define PWM_CH7_TOP_SET (*(volatile uint32_t *)0x400aa09c)
+#define PWM_CH8_CSR_SET (*(volatile uint32_t *)0x400aa0a0)
+#define PWM_CH8_DIV_SET (*(volatile uint32_t *)0x400aa0a4)
+#define PWM_CH8_CTR_SET (*(volatile uint32_t *)0x400aa0a8)
+#define PWM_CH8_CC_SET (*(volatile uint32_t *)0x400aa0ac)
+#define PWM_CH8_TOP_SET (*(volatile uint32_t *)0x400aa0b0)
+#define PWM_CH9_CSR_SET (*(volatile uint32_t *)0x400aa0b4)
+#define PWM_CH9_DIV_SET (*(volatile uint32_t *)0x400aa0b8)
+#define PWM_CH9_CTR_SET (*(volatile uint32_t *)0x400aa0bc)
+#define PWM_CH9_CC_SET (*(volatile uint32_t *)0x400aa0c0)
+#define PWM_CH9_TOP_SET (*(volatile uint32_t *)0x400aa0c4)
+#define PWM_CH10_CSR_SET (*(volatile uint32_t *)0x400aa0c8)
+#define PWM_CH10_DIV_SET (*(volatile uint32_t *)0x400aa0cc)
+#define PWM_CH10_CTR_SET (*(volatile uint32_t *)0x400aa0d0)
+#define PWM_CH10_CC_SET (*(volatile uint32_t *)0x400aa0d4)
+#define PWM_CH10_TOP_SET (*(volatile uint32_t *)0x400aa0d8)
+#define PWM_CH11_CSR_SET (*(volatile uint32_t *)0x400aa0dc)
+#define PWM_CH11_DIV_SET (*(volatile uint32_t *)0x400aa0e0)
+#define PWM_CH11_CTR_SET (*(volatile uint32_t *)0x400aa0e4)
+#define PWM_CH11_CC_SET (*(volatile uint32_t *)0x400aa0e8)
+#define PWM_CH11_TOP_SET (*(volatile uint32_t *)0x400aa0ec)
+#define PWM_EN_SET (*(volatile uint32_t *)0x400aa0f0)
+#define PWM_INTR_SET (*(volatile uint32_t *)0x400aa0f4)
+#define PWM_IRQ0_INTE_SET (*(volatile uint32_t *)0x400aa0f8)
+#define PWM_IRQ0_INTF_SET (*(volatile uint32_t *)0x400aa0fc)
+#define PWM_IRQ0_INTS_SET (*(volatile uint32_t *)0x400aa100)
+#define PWM_IRQ1_INTE_SET (*(volatile uint32_t *)0x400aa104)
+#define PWM_IRQ1_INTF_SET (*(volatile uint32_t *)0x400aa108)
+#define PWM_IRQ1_INTS_SET (*(volatile uint32_t *)0x400aa10c)
+#define PWM_CH0_CSR_CLR (*(volatile uint32_t *)0x400ab000)
+#define PWM_CH0_DIV_CLR (*(volatile uint32_t *)0x400ab004)
+#define PWM_CH0_CTR_CLR (*(volatile uint32_t *)0x400ab008)
+#define PWM_CH0_CC_CLR (*(volatile uint32_t *)0x400ab00c)
+#define PWM_CH0_TOP_CLR (*(volatile uint32_t *)0x400ab010)
+#define PWM_CH1_CSR_CLR (*(volatile uint32_t *)0x400ab014)
+#define PWM_CH1_DIV_CLR (*(volatile uint32_t *)0x400ab018)
+#define PWM_CH1_CTR_CLR (*(volatile uint32_t *)0x400ab01c)
+#define PWM_CH1_CC_CLR (*(volatile uint32_t *)0x400ab020)
+#define PWM_CH1_TOP_CLR (*(volatile uint32_t *)0x400ab024)
+#define PWM_CH2_CSR_CLR (*(volatile uint32_t *)0x400ab028)
+#define PWM_CH2_DIV_CLR (*(volatile uint32_t *)0x400ab02c)
+#define PWM_CH2_CTR_CLR (*(volatile uint32_t *)0x400ab030)
+#define PWM_CH2_CC_CLR (*(volatile uint32_t *)0x400ab034)
+#define PWM_CH2_TOP_CLR (*(volatile uint32_t *)0x400ab038)
+#define PWM_CH3_CSR_CLR (*(volatile uint32_t *)0x400ab03c)
+#define PWM_CH3_DIV_CLR (*(volatile uint32_t *)0x400ab040)
+#define PWM_CH3_CTR_CLR (*(volatile uint32_t *)0x400ab044)
+#define PWM_CH3_CC_CLR (*(volatile uint32_t *)0x400ab048)
+#define PWM_CH3_TOP_CLR (*(volatile uint32_t *)0x400ab04c)
+#define PWM_CH4_CSR_CLR (*(volatile uint32_t *)0x400ab050)
+#define PWM_CH4_DIV_CLR (*(volatile uint32_t *)0x400ab054)
+#define PWM_CH4_CTR_CLR (*(volatile uint32_t *)0x400ab058)
+#define PWM_CH4_CC_CLR (*(volatile uint32_t *)0x400ab05c)
+#define PWM_CH4_TOP_CLR (*(volatile uint32_t *)0x400ab060)
+#define PWM_CH5_CSR_CLR (*(volatile uint32_t *)0x400ab064)
+#define PWM_CH5_DIV_CLR (*(volatile uint32_t *)0x400ab068)
+#define PWM_CH5_CTR_CLR (*(volatile uint32_t *)0x400ab06c)
+#define PWM_CH5_CC_CLR (*(volatile uint32_t *)0x400ab070)
+#define PWM_CH5_TOP_CLR (*(volatile uint32_t *)0x400ab074)
+#define PWM_CH6_CSR_CLR (*(volatile uint32_t *)0x400ab078)
+#define PWM_CH6_DIV_CLR (*(volatile uint32_t *)0x400ab07c)
+#define PWM_CH6_CTR_CLR (*(volatile uint32_t *)0x400ab080)
+#define PWM_CH6_CC_CLR (*(volatile uint32_t *)0x400ab084)
+#define PWM_CH6_TOP_CLR (*(volatile uint32_t *)0x400ab088)
+#define PWM_CH7_CSR_CLR (*(volatile uint32_t *)0x400ab08c)
+#define PWM_CH7_DIV_CLR (*(volatile uint32_t *)0x400ab090)
+#define PWM_CH7_CTR_CLR (*(volatile uint32_t *)0x400ab094)
+#define PWM_CH7_CC_CLR (*(volatile uint32_t *)0x400ab098)
+#define PWM_CH7_TOP_CLR (*(volatile uint32_t *)0x400ab09c)
+#define PWM_CH8_CSR_CLR (*(volatile uint32_t *)0x400ab0a0)
+#define PWM_CH8_DIV_CLR (*(volatile uint32_t *)0x400ab0a4)
+#define PWM_CH8_CTR_CLR (*(volatile uint32_t *)0x400ab0a8)
+#define PWM_CH8_CC_CLR (*(volatile uint32_t *)0x400ab0ac)
+#define PWM_CH8_TOP_CLR (*(volatile uint32_t *)0x400ab0b0)
+#define PWM_CH9_CSR_CLR (*(volatile uint32_t *)0x400ab0b4)
+#define PWM_CH9_DIV_CLR (*(volatile uint32_t *)0x400ab0b8)
+#define PWM_CH9_CTR_CLR (*(volatile uint32_t *)0x400ab0bc)
+#define PWM_CH9_CC_CLR (*(volatile uint32_t *)0x400ab0c0)
+#define PWM_CH9_TOP_CLR (*(volatile uint32_t *)0x400ab0c4)
+#define PWM_CH10_CSR_CLR (*(volatile uint32_t *)0x400ab0c8)
+#define PWM_CH10_DIV_CLR (*(volatile uint32_t *)0x400ab0cc)
+#define PWM_CH10_CTR_CLR (*(volatile uint32_t *)0x400ab0d0)
+#define PWM_CH10_CC_CLR (*(volatile uint32_t *)0x400ab0d4)
+#define PWM_CH10_TOP_CLR (*(volatile uint32_t *)0x400ab0d8)
+#define PWM_CH11_CSR_CLR (*(volatile uint32_t *)0x400ab0dc)
+#define PWM_CH11_DIV_CLR (*(volatile uint32_t *)0x400ab0e0)
+#define PWM_CH11_CTR_CLR (*(volatile uint32_t *)0x400ab0e4)
+#define PWM_CH11_CC_CLR (*(volatile uint32_t *)0x400ab0e8)
+#define PWM_CH11_TOP_CLR (*(volatile uint32_t *)0x400ab0ec)
+#define PWM_EN_CLR (*(volatile uint32_t *)0x400ab0f0)
+#define PWM_INTR_CLR (*(volatile uint32_t *)0x400ab0f4)
+#define PWM_IRQ0_INTE_CLR (*(volatile uint32_t *)0x400ab0f8)
+#define PWM_IRQ0_INTF_CLR (*(volatile uint32_t *)0x400ab0fc)
+#define PWM_IRQ0_INTS_CLR (*(volatile uint32_t *)0x400ab100)
+#define PWM_IRQ1_INTE_CLR (*(volatile uint32_t *)0x400ab104)
+#define PWM_IRQ1_INTF_CLR (*(volatile uint32_t *)0x400ab108)
+#define PWM_IRQ1_INTS_CLR (*(volatile uint32_t *)0x400ab10c)
 
 /*CH0_CSR Register macros*/
 

@@ -35,17 +35,17 @@ typedef struct{
 		uint32_t qmi_direct_tx;
 		uint32_t qmi_direct_rx;
 		uint32_t RSVD0[1021];
-		uint32_t xor_stream;
-		uint32_t xor_qmi_direct_tx;
-		uint32_t xor_qmi_direct_rx;
+		uint32_t stream_xor;
+		uint32_t qmi_direct_tx_xor;
+		uint32_t qmi_direct_rx_xor;
 		uint32_t RSVDxor_0[1021];
-		uint32_t set_stream;
-		uint32_t set_qmi_direct_tx;
-		uint32_t set_qmi_direct_rx;
+		uint32_t stream_set;
+		uint32_t qmi_direct_tx_set;
+		uint32_t qmi_direct_rx_set;
 		uint32_t RSVDset_0[1021];
-		uint32_t clr_stream;
-		uint32_t clr_qmi_direct_tx;
-		uint32_t clr_qmi_direct_rx;
+		uint32_t stream_clr;
+		uint32_t qmi_direct_tx_clr;
+		uint32_t qmi_direct_rx_clr;
 		uint32_t RSVDclr_0[1021];
 } XIP_AUX_REG_BLOCKS;
 
@@ -60,15 +60,15 @@ typedef struct{
 #define XIP_AUX_STREAM (*(volatile uint32_t *)0x50500000)
 #define XIP_AUX_QMI_DIRECT_TX (*(volatile uint32_t *)0x50500004)
 #define XIP_AUX_QMI_DIRECT_RX (*(volatile uint32_t *)0x50500008)
-#define XIP_AUX_XOR_STREAM (*(volatile uint32_t *)0x50501000)
-#define XIP_AUX_XOR_QMI_DIRECT_TX (*(volatile uint32_t *)0x50501004)
-#define XIP_AUX_XOR_QMI_DIRECT_RX (*(volatile uint32_t *)0x50501008)
-#define XIP_AUX_SET_STREAM (*(volatile uint32_t *)0x50502000)
-#define XIP_AUX_SET_QMI_DIRECT_TX (*(volatile uint32_t *)0x50502004)
-#define XIP_AUX_SET_QMI_DIRECT_RX (*(volatile uint32_t *)0x50502008)
-#define XIP_AUX_CLR_STREAM (*(volatile uint32_t *)0x50503000)
-#define XIP_AUX_CLR_QMI_DIRECT_TX (*(volatile uint32_t *)0x50503004)
-#define XIP_AUX_CLR_QMI_DIRECT_RX (*(volatile uint32_t *)0x50503008)
+#define XIP_AUX_STREAM_XOR (*(volatile uint32_t *)0x50501000)
+#define XIP_AUX_QMI_DIRECT_TX_XOR (*(volatile uint32_t *)0x50501004)
+#define XIP_AUX_QMI_DIRECT_RX_XOR (*(volatile uint32_t *)0x50501008)
+#define XIP_AUX_STREAM_SET (*(volatile uint32_t *)0x50502000)
+#define XIP_AUX_QMI_DIRECT_TX_SET (*(volatile uint32_t *)0x50502004)
+#define XIP_AUX_QMI_DIRECT_RX_SET (*(volatile uint32_t *)0x50502008)
+#define XIP_AUX_STREAM_CLR (*(volatile uint32_t *)0x50503000)
+#define XIP_AUX_QMI_DIRECT_TX_CLR (*(volatile uint32_t *)0x50503004)
+#define XIP_AUX_QMI_DIRECT_RX_CLR (*(volatile uint32_t *)0x50503008)
 
 /*STREAM Register macros*/
 

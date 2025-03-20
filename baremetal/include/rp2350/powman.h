@@ -55,10 +55,10 @@ typedef struct{
 		uint32_t lposc_freq_khz_frac;
 		uint32_t xosc_freq_khz_int;
 		uint32_t xosc_freq_khz_frac;
-		uint32_t set_time_63to48;
-		uint32_t set_time_47to32;
-		uint32_t set_time_31to16;
-		uint32_t set_time_15to0;
+		uint32_t time_63to48_set;
+		uint32_t time_47to32_set;
+		uint32_t time_31to16_set;
+		uint32_t time_15to0_set;
 		uint32_t read_time_upper;
 		uint32_t read_time_lower;
 		uint32_t alarm_time_63to48;
@@ -92,188 +92,188 @@ typedef struct{
 		uint32_t intf;
 		uint32_t ints;
 		uint32_t RSVD0[964];
-		uint32_t xor_badpasswd;
-		uint32_t xor_vreg_ctrl;
-		uint32_t xor_vreg_sts;
-		uint32_t xor_vreg;
-		uint32_t xor_vreg_lp_entry;
-		uint32_t xor_vreg_lp_exit;
-		uint32_t xor_bod_ctrl;
-		uint32_t xor_bod;
-		uint32_t xor_bod_lp_entry;
-		uint32_t xor_bod_lp_exit;
-		uint32_t xor_lposc;
-		uint32_t xor_chip_reset;
-		uint32_t xor_wdsel;
-		uint32_t xor_seq_cfg;
-		uint32_t xor_state;
-		uint32_t xor_pow_fastdiv;
-		uint32_t xor_pow_delay;
-		uint32_t xor_ext_ctrl0;
-		uint32_t xor_ext_ctrl1;
-		uint32_t xor_ext_time_ref;
-		uint32_t xor_lposc_freq_khz_int;
-		uint32_t xor_lposc_freq_khz_frac;
-		uint32_t xor_xosc_freq_khz_int;
-		uint32_t xor_xosc_freq_khz_frac;
-		uint32_t xor_set_time_63to48;
-		uint32_t xor_set_time_47to32;
-		uint32_t xor_set_time_31to16;
-		uint32_t xor_set_time_15to0;
-		uint32_t xor_read_time_upper;
-		uint32_t xor_read_time_lower;
-		uint32_t xor_alarm_time_63to48;
-		uint32_t xor_alarm_time_47to32;
-		uint32_t xor_alarm_time_31to16;
-		uint32_t xor_alarm_time_15to0;
-		uint32_t xor_timer;
-		uint32_t xor_pwrup0;
-		uint32_t xor_pwrup1;
-		uint32_t xor_pwrup2;
-		uint32_t xor_pwrup3;
-		uint32_t xor_current_pwrup_req;
-		uint32_t xor_last_swcore_pwrup;
-		uint32_t xor_dbg_pwrcfg;
-		uint32_t xor_bootdis;
-		uint32_t xor_dbgconfig;
-		uint32_t xor_scratch0;
-		uint32_t xor_scratch1;
-		uint32_t xor_scratch2;
-		uint32_t xor_scratch3;
-		uint32_t xor_scratch4;
-		uint32_t xor_scratch5;
-		uint32_t xor_scratch6;
-		uint32_t xor_scratch7;
-		uint32_t xor_boot0;
-		uint32_t xor_boot1;
-		uint32_t xor_boot2;
-		uint32_t xor_boot3;
-		uint32_t xor_intr;
-		uint32_t xor_inte;
-		uint32_t xor_intf;
-		uint32_t xor_ints;
+		uint32_t badpasswd_xor;
+		uint32_t vreg_ctrl_xor;
+		uint32_t vreg_sts_xor;
+		uint32_t vreg_xor;
+		uint32_t vreg_lp_entry_xor;
+		uint32_t vreg_lp_exit_xor;
+		uint32_t bod_ctrl_xor;
+		uint32_t bod_xor;
+		uint32_t bod_lp_entry_xor;
+		uint32_t bod_lp_exit_xor;
+		uint32_t lposc_xor;
+		uint32_t chip_reset_xor;
+		uint32_t wdsel_xor;
+		uint32_t seq_cfg_xor;
+		uint32_t state_xor;
+		uint32_t pow_fastdiv_xor;
+		uint32_t pow_delay_xor;
+		uint32_t ext_ctrl0_xor;
+		uint32_t ext_ctrl1_xor;
+		uint32_t ext_time_ref_xor;
+		uint32_t lposc_freq_khz_int_xor;
+		uint32_t lposc_freq_khz_frac_xor;
+		uint32_t xosc_freq_khz_int_xor;
+		uint32_t xosc_freq_khz_frac_xor;
+		uint32_t set_time_63to48_xor;
+		uint32_t set_time_47to32_xor;
+		uint32_t set_time_31to16_xor;
+		uint32_t set_time_15to0_xor;
+		uint32_t read_time_upper_xor;
+		uint32_t read_time_lower_xor;
+		uint32_t alarm_time_63to48_xor;
+		uint32_t alarm_time_47to32_xor;
+		uint32_t alarm_time_31to16_xor;
+		uint32_t alarm_time_15to0_xor;
+		uint32_t timer_xor;
+		uint32_t pwrup0_xor;
+		uint32_t pwrup1_xor;
+		uint32_t pwrup2_xor;
+		uint32_t pwrup3_xor;
+		uint32_t current_pwrup_req_xor;
+		uint32_t last_swcore_pwrup_xor;
+		uint32_t dbg_pwrcfg_xor;
+		uint32_t bootdis_xor;
+		uint32_t dbgconfig_xor;
+		uint32_t scratch0_xor;
+		uint32_t scratch1_xor;
+		uint32_t scratch2_xor;
+		uint32_t scratch3_xor;
+		uint32_t scratch4_xor;
+		uint32_t scratch5_xor;
+		uint32_t scratch6_xor;
+		uint32_t scratch7_xor;
+		uint32_t boot0_xor;
+		uint32_t boot1_xor;
+		uint32_t boot2_xor;
+		uint32_t boot3_xor;
+		uint32_t intr_xor;
+		uint32_t inte_xor;
+		uint32_t intf_xor;
+		uint32_t ints_xor;
 		uint32_t RSVDxor_0[964];
-		uint32_t set_badpasswd;
-		uint32_t set_vreg_ctrl;
-		uint32_t set_vreg_sts;
-		uint32_t set_vreg;
-		uint32_t set_vreg_lp_entry;
-		uint32_t set_vreg_lp_exit;
-		uint32_t set_bod_ctrl;
-		uint32_t set_bod;
-		uint32_t set_bod_lp_entry;
-		uint32_t set_bod_lp_exit;
-		uint32_t set_lposc;
-		uint32_t set_chip_reset;
-		uint32_t set_wdsel;
-		uint32_t set_seq_cfg;
-		uint32_t set_state;
-		uint32_t set_pow_fastdiv;
-		uint32_t set_pow_delay;
-		uint32_t set_ext_ctrl0;
-		uint32_t set_ext_ctrl1;
-		uint32_t set_ext_time_ref;
-		uint32_t set_lposc_freq_khz_int;
-		uint32_t set_lposc_freq_khz_frac;
-		uint32_t set_xosc_freq_khz_int;
-		uint32_t set_xosc_freq_khz_frac;
-		uint32_t set_set_time_63to48;
-		uint32_t set_set_time_47to32;
-		uint32_t set_set_time_31to16;
-		uint32_t set_set_time_15to0;
-		uint32_t set_read_time_upper;
-		uint32_t set_read_time_lower;
-		uint32_t set_alarm_time_63to48;
-		uint32_t set_alarm_time_47to32;
-		uint32_t set_alarm_time_31to16;
-		uint32_t set_alarm_time_15to0;
-		uint32_t set_timer;
-		uint32_t set_pwrup0;
-		uint32_t set_pwrup1;
-		uint32_t set_pwrup2;
-		uint32_t set_pwrup3;
-		uint32_t set_current_pwrup_req;
-		uint32_t set_last_swcore_pwrup;
-		uint32_t set_dbg_pwrcfg;
-		uint32_t set_bootdis;
-		uint32_t set_dbgconfig;
-		uint32_t set_scratch0;
-		uint32_t set_scratch1;
-		uint32_t set_scratch2;
-		uint32_t set_scratch3;
-		uint32_t set_scratch4;
-		uint32_t set_scratch5;
-		uint32_t set_scratch6;
-		uint32_t set_scratch7;
-		uint32_t set_boot0;
-		uint32_t set_boot1;
-		uint32_t set_boot2;
-		uint32_t set_boot3;
-		uint32_t set_intr;
-		uint32_t set_inte;
-		uint32_t set_intf;
-		uint32_t set_ints;
+		uint32_t badpasswd_set;
+		uint32_t vreg_ctrl_set;
+		uint32_t vreg_sts_set;
+		uint32_t vreg_set;
+		uint32_t vreg_lp_entry_set;
+		uint32_t vreg_lp_exit_set;
+		uint32_t bod_ctrl_set;
+		uint32_t bod_set;
+		uint32_t bod_lp_entry_set;
+		uint32_t bod_lp_exit_set;
+		uint32_t lposc_set;
+		uint32_t chip_reset_set;
+		uint32_t wdsel_set;
+		uint32_t seq_cfg_set;
+		uint32_t state_set;
+		uint32_t pow_fastdiv_set;
+		uint32_t pow_delay_set;
+		uint32_t ext_ctrl0_set;
+		uint32_t ext_ctrl1_set;
+		uint32_t ext_time_ref_set;
+		uint32_t lposc_freq_khz_int_set;
+		uint32_t lposc_freq_khz_frac_set;
+		uint32_t xosc_freq_khz_int_set;
+		uint32_t xosc_freq_khz_frac_set;
+		uint32_t set_time_63to48_set;
+		uint32_t set_time_47to32_set;
+		uint32_t set_time_31to16_set;
+		uint32_t set_time_15to0_set;
+		uint32_t read_time_upper_set;
+		uint32_t read_time_lower_set;
+		uint32_t alarm_time_63to48_set;
+		uint32_t alarm_time_47to32_set;
+		uint32_t alarm_time_31to16_set;
+		uint32_t alarm_time_15to0_set;
+		uint32_t timer_set;
+		uint32_t pwrup0_set;
+		uint32_t pwrup1_set;
+		uint32_t pwrup2_set;
+		uint32_t pwrup3_set;
+		uint32_t current_pwrup_req_set;
+		uint32_t last_swcore_pwrup_set;
+		uint32_t dbg_pwrcfg_set;
+		uint32_t bootdis_set;
+		uint32_t dbgconfig_set;
+		uint32_t scratch0_set;
+		uint32_t scratch1_set;
+		uint32_t scratch2_set;
+		uint32_t scratch3_set;
+		uint32_t scratch4_set;
+		uint32_t scratch5_set;
+		uint32_t scratch6_set;
+		uint32_t scratch7_set;
+		uint32_t boot0_set;
+		uint32_t boot1_set;
+		uint32_t boot2_set;
+		uint32_t boot3_set;
+		uint32_t intr_set;
+		uint32_t inte_set;
+		uint32_t intf_set;
+		uint32_t ints_set;
 		uint32_t RSVDset_0[964];
-		uint32_t clr_badpasswd;
-		uint32_t clr_vreg_ctrl;
-		uint32_t clr_vreg_sts;
-		uint32_t clr_vreg;
-		uint32_t clr_vreg_lp_entry;
-		uint32_t clr_vreg_lp_exit;
-		uint32_t clr_bod_ctrl;
-		uint32_t clr_bod;
-		uint32_t clr_bod_lp_entry;
-		uint32_t clr_bod_lp_exit;
-		uint32_t clr_lposc;
-		uint32_t clr_chip_reset;
-		uint32_t clr_wdsel;
-		uint32_t clr_seq_cfg;
-		uint32_t clr_state;
-		uint32_t clr_pow_fastdiv;
-		uint32_t clr_pow_delay;
-		uint32_t clr_ext_ctrl0;
-		uint32_t clr_ext_ctrl1;
-		uint32_t clr_ext_time_ref;
-		uint32_t clr_lposc_freq_khz_int;
-		uint32_t clr_lposc_freq_khz_frac;
-		uint32_t clr_xosc_freq_khz_int;
-		uint32_t clr_xosc_freq_khz_frac;
-		uint32_t clr_set_time_63to48;
-		uint32_t clr_set_time_47to32;
-		uint32_t clr_set_time_31to16;
-		uint32_t clr_set_time_15to0;
-		uint32_t clr_read_time_upper;
-		uint32_t clr_read_time_lower;
-		uint32_t clr_alarm_time_63to48;
-		uint32_t clr_alarm_time_47to32;
-		uint32_t clr_alarm_time_31to16;
-		uint32_t clr_alarm_time_15to0;
-		uint32_t clr_timer;
-		uint32_t clr_pwrup0;
-		uint32_t clr_pwrup1;
-		uint32_t clr_pwrup2;
-		uint32_t clr_pwrup3;
-		uint32_t clr_current_pwrup_req;
-		uint32_t clr_last_swcore_pwrup;
-		uint32_t clr_dbg_pwrcfg;
-		uint32_t clr_bootdis;
-		uint32_t clr_dbgconfig;
-		uint32_t clr_scratch0;
-		uint32_t clr_scratch1;
-		uint32_t clr_scratch2;
-		uint32_t clr_scratch3;
-		uint32_t clr_scratch4;
-		uint32_t clr_scratch5;
-		uint32_t clr_scratch6;
-		uint32_t clr_scratch7;
-		uint32_t clr_boot0;
-		uint32_t clr_boot1;
-		uint32_t clr_boot2;
-		uint32_t clr_boot3;
-		uint32_t clr_intr;
-		uint32_t clr_inte;
-		uint32_t clr_intf;
-		uint32_t clr_ints;
+		uint32_t badpasswd_clr;
+		uint32_t vreg_ctrl_clr;
+		uint32_t vreg_sts_clr;
+		uint32_t vreg_clr;
+		uint32_t vreg_lp_entry_clr;
+		uint32_t vreg_lp_exit_clr;
+		uint32_t bod_ctrl_clr;
+		uint32_t bod_clr;
+		uint32_t bod_lp_entry_clr;
+		uint32_t bod_lp_exit_clr;
+		uint32_t lposc_clr;
+		uint32_t chip_reset_clr;
+		uint32_t wdsel_clr;
+		uint32_t seq_cfg_clr;
+		uint32_t state_clr;
+		uint32_t pow_fastdiv_clr;
+		uint32_t pow_delay_clr;
+		uint32_t ext_ctrl0_clr;
+		uint32_t ext_ctrl1_clr;
+		uint32_t ext_time_ref_clr;
+		uint32_t lposc_freq_khz_int_clr;
+		uint32_t lposc_freq_khz_frac_clr;
+		uint32_t xosc_freq_khz_int_clr;
+		uint32_t xosc_freq_khz_frac_clr;
+		uint32_t set_time_63to48_clr;
+		uint32_t set_time_47to32_clr;
+		uint32_t set_time_31to16_clr;
+		uint32_t set_time_15to0_clr;
+		uint32_t read_time_upper_clr;
+		uint32_t read_time_lower_clr;
+		uint32_t alarm_time_63to48_clr;
+		uint32_t alarm_time_47to32_clr;
+		uint32_t alarm_time_31to16_clr;
+		uint32_t alarm_time_15to0_clr;
+		uint32_t timer_clr;
+		uint32_t pwrup0_clr;
+		uint32_t pwrup1_clr;
+		uint32_t pwrup2_clr;
+		uint32_t pwrup3_clr;
+		uint32_t current_pwrup_req_clr;
+		uint32_t last_swcore_pwrup_clr;
+		uint32_t dbg_pwrcfg_clr;
+		uint32_t bootdis_clr;
+		uint32_t dbgconfig_clr;
+		uint32_t scratch0_clr;
+		uint32_t scratch1_clr;
+		uint32_t scratch2_clr;
+		uint32_t scratch3_clr;
+		uint32_t scratch4_clr;
+		uint32_t scratch5_clr;
+		uint32_t scratch6_clr;
+		uint32_t scratch7_clr;
+		uint32_t boot0_clr;
+		uint32_t boot1_clr;
+		uint32_t boot2_clr;
+		uint32_t boot3_clr;
+		uint32_t intr_clr;
+		uint32_t inte_clr;
+		uint32_t intf_clr;
+		uint32_t ints_clr;
 		uint32_t RSVDclr_0[964];
 } POWMAN_REG_BLOCKS;
 
@@ -309,10 +309,10 @@ typedef struct{
 #define POWMAN_LPOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x40100054)
 #define POWMAN_XOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40100058)
 #define POWMAN_XOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x4010005c)
-#define POWMAN_SET_TIME_63TO48 (*(volatile uint32_t *)0x40100060)
-#define POWMAN_SET_TIME_47TO32 (*(volatile uint32_t *)0x40100064)
-#define POWMAN_SET_TIME_31TO16 (*(volatile uint32_t *)0x40100068)
-#define POWMAN_SET_TIME_15TO0 (*(volatile uint32_t *)0x4010006c)
+#define POWMAN_TIME_63TO48_SET (*(volatile uint32_t *)0x40100060)
+#define POWMAN_TIME_47TO32_SET (*(volatile uint32_t *)0x40100064)
+#define POWMAN_TIME_31TO16_SET (*(volatile uint32_t *)0x40100068)
+#define POWMAN_TIME_15TO0_SET (*(volatile uint32_t *)0x4010006c)
 #define POWMAN_READ_TIME_UPPER (*(volatile uint32_t *)0x40100070)
 #define POWMAN_READ_TIME_LOWER (*(volatile uint32_t *)0x40100074)
 #define POWMAN_ALARM_TIME_63TO48 (*(volatile uint32_t *)0x40100078)
@@ -345,186 +345,186 @@ typedef struct{
 #define POWMAN_INTE (*(volatile uint32_t *)0x401000e4)
 #define POWMAN_INTF (*(volatile uint32_t *)0x401000e8)
 #define POWMAN_INTS (*(volatile uint32_t *)0x401000ec)
-#define POWMAN_XOR_BADPASSWD (*(volatile uint32_t *)0x40101000)
-#define POWMAN_XOR_VREG_CTRL (*(volatile uint32_t *)0x40101004)
-#define POWMAN_XOR_VREG_STS (*(volatile uint32_t *)0x40101008)
-#define POWMAN_XOR_VREG (*(volatile uint32_t *)0x4010100c)
-#define POWMAN_XOR_VREG_LP_ENTRY (*(volatile uint32_t *)0x40101010)
-#define POWMAN_XOR_VREG_LP_EXIT (*(volatile uint32_t *)0x40101014)
-#define POWMAN_XOR_BOD_CTRL (*(volatile uint32_t *)0x40101018)
-#define POWMAN_XOR_BOD (*(volatile uint32_t *)0x4010101c)
-#define POWMAN_XOR_BOD_LP_ENTRY (*(volatile uint32_t *)0x40101020)
-#define POWMAN_XOR_BOD_LP_EXIT (*(volatile uint32_t *)0x40101024)
-#define POWMAN_XOR_LPOSC (*(volatile uint32_t *)0x40101028)
-#define POWMAN_XOR_CHIP_RESET (*(volatile uint32_t *)0x4010102c)
-#define POWMAN_XOR_WDSEL (*(volatile uint32_t *)0x40101030)
-#define POWMAN_XOR_SEQ_CFG (*(volatile uint32_t *)0x40101034)
-#define POWMAN_XOR_STATE (*(volatile uint32_t *)0x40101038)
-#define POWMAN_XOR_POW_FASTDIV (*(volatile uint32_t *)0x4010103c)
-#define POWMAN_XOR_POW_DELAY (*(volatile uint32_t *)0x40101040)
-#define POWMAN_XOR_EXT_CTRL0 (*(volatile uint32_t *)0x40101044)
-#define POWMAN_XOR_EXT_CTRL1 (*(volatile uint32_t *)0x40101048)
-#define POWMAN_XOR_EXT_TIME_REF (*(volatile uint32_t *)0x4010104c)
-#define POWMAN_XOR_LPOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40101050)
-#define POWMAN_XOR_LPOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x40101054)
-#define POWMAN_XOR_XOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40101058)
-#define POWMAN_XOR_XOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x4010105c)
-#define POWMAN_XOR_SET_TIME_63TO48 (*(volatile uint32_t *)0x40101060)
-#define POWMAN_XOR_SET_TIME_47TO32 (*(volatile uint32_t *)0x40101064)
-#define POWMAN_XOR_SET_TIME_31TO16 (*(volatile uint32_t *)0x40101068)
-#define POWMAN_XOR_SET_TIME_15TO0 (*(volatile uint32_t *)0x4010106c)
-#define POWMAN_XOR_READ_TIME_UPPER (*(volatile uint32_t *)0x40101070)
-#define POWMAN_XOR_READ_TIME_LOWER (*(volatile uint32_t *)0x40101074)
-#define POWMAN_XOR_ALARM_TIME_63TO48 (*(volatile uint32_t *)0x40101078)
-#define POWMAN_XOR_ALARM_TIME_47TO32 (*(volatile uint32_t *)0x4010107c)
-#define POWMAN_XOR_ALARM_TIME_31TO16 (*(volatile uint32_t *)0x40101080)
-#define POWMAN_XOR_ALARM_TIME_15TO0 (*(volatile uint32_t *)0x40101084)
-#define POWMAN_XOR_TIMER (*(volatile uint32_t *)0x40101088)
-#define POWMAN_XOR_PWRUP0 (*(volatile uint32_t *)0x4010108c)
-#define POWMAN_XOR_PWRUP1 (*(volatile uint32_t *)0x40101090)
-#define POWMAN_XOR_PWRUP2 (*(volatile uint32_t *)0x40101094)
-#define POWMAN_XOR_PWRUP3 (*(volatile uint32_t *)0x40101098)
-#define POWMAN_XOR_CURRENT_PWRUP_REQ (*(volatile uint32_t *)0x4010109c)
-#define POWMAN_XOR_LAST_SWCORE_PWRUP (*(volatile uint32_t *)0x401010a0)
-#define POWMAN_XOR_DBG_PWRCFG (*(volatile uint32_t *)0x401010a4)
-#define POWMAN_XOR_BOOTDIS (*(volatile uint32_t *)0x401010a8)
-#define POWMAN_XOR_DBGCONFIG (*(volatile uint32_t *)0x401010ac)
-#define POWMAN_XOR_SCRATCH0 (*(volatile uint32_t *)0x401010b0)
-#define POWMAN_XOR_SCRATCH1 (*(volatile uint32_t *)0x401010b4)
-#define POWMAN_XOR_SCRATCH2 (*(volatile uint32_t *)0x401010b8)
-#define POWMAN_XOR_SCRATCH3 (*(volatile uint32_t *)0x401010bc)
-#define POWMAN_XOR_SCRATCH4 (*(volatile uint32_t *)0x401010c0)
-#define POWMAN_XOR_SCRATCH5 (*(volatile uint32_t *)0x401010c4)
-#define POWMAN_XOR_SCRATCH6 (*(volatile uint32_t *)0x401010c8)
-#define POWMAN_XOR_SCRATCH7 (*(volatile uint32_t *)0x401010cc)
-#define POWMAN_XOR_BOOT0 (*(volatile uint32_t *)0x401010d0)
-#define POWMAN_XOR_BOOT1 (*(volatile uint32_t *)0x401010d4)
-#define POWMAN_XOR_BOOT2 (*(volatile uint32_t *)0x401010d8)
-#define POWMAN_XOR_BOOT3 (*(volatile uint32_t *)0x401010dc)
-#define POWMAN_XOR_INTR (*(volatile uint32_t *)0x401010e0)
-#define POWMAN_XOR_INTE (*(volatile uint32_t *)0x401010e4)
-#define POWMAN_XOR_INTF (*(volatile uint32_t *)0x401010e8)
-#define POWMAN_XOR_INTS (*(volatile uint32_t *)0x401010ec)
-#define POWMAN_SET_BADPASSWD (*(volatile uint32_t *)0x40102000)
-#define POWMAN_SET_VREG_CTRL (*(volatile uint32_t *)0x40102004)
-#define POWMAN_SET_VREG_STS (*(volatile uint32_t *)0x40102008)
-#define POWMAN_SET_VREG (*(volatile uint32_t *)0x4010200c)
-#define POWMAN_SET_VREG_LP_ENTRY (*(volatile uint32_t *)0x40102010)
-#define POWMAN_SET_VREG_LP_EXIT (*(volatile uint32_t *)0x40102014)
-#define POWMAN_SET_BOD_CTRL (*(volatile uint32_t *)0x40102018)
-#define POWMAN_SET_BOD (*(volatile uint32_t *)0x4010201c)
-#define POWMAN_SET_BOD_LP_ENTRY (*(volatile uint32_t *)0x40102020)
-#define POWMAN_SET_BOD_LP_EXIT (*(volatile uint32_t *)0x40102024)
-#define POWMAN_SET_LPOSC (*(volatile uint32_t *)0x40102028)
-#define POWMAN_SET_CHIP_RESET (*(volatile uint32_t *)0x4010202c)
-#define POWMAN_SET_WDSEL (*(volatile uint32_t *)0x40102030)
-#define POWMAN_SET_SEQ_CFG (*(volatile uint32_t *)0x40102034)
-#define POWMAN_SET_STATE (*(volatile uint32_t *)0x40102038)
-#define POWMAN_SET_POW_FASTDIV (*(volatile uint32_t *)0x4010203c)
-#define POWMAN_SET_POW_DELAY (*(volatile uint32_t *)0x40102040)
-#define POWMAN_SET_EXT_CTRL0 (*(volatile uint32_t *)0x40102044)
-#define POWMAN_SET_EXT_CTRL1 (*(volatile uint32_t *)0x40102048)
-#define POWMAN_SET_EXT_TIME_REF (*(volatile uint32_t *)0x4010204c)
-#define POWMAN_SET_LPOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40102050)
-#define POWMAN_SET_LPOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x40102054)
-#define POWMAN_SET_XOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40102058)
-#define POWMAN_SET_XOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x4010205c)
-#define POWMAN_SET_SET_TIME_63TO48 (*(volatile uint32_t *)0x40102060)
-#define POWMAN_SET_SET_TIME_47TO32 (*(volatile uint32_t *)0x40102064)
-#define POWMAN_SET_SET_TIME_31TO16 (*(volatile uint32_t *)0x40102068)
-#define POWMAN_SET_SET_TIME_15TO0 (*(volatile uint32_t *)0x4010206c)
-#define POWMAN_SET_READ_TIME_UPPER (*(volatile uint32_t *)0x40102070)
-#define POWMAN_SET_READ_TIME_LOWER (*(volatile uint32_t *)0x40102074)
-#define POWMAN_SET_ALARM_TIME_63TO48 (*(volatile uint32_t *)0x40102078)
-#define POWMAN_SET_ALARM_TIME_47TO32 (*(volatile uint32_t *)0x4010207c)
-#define POWMAN_SET_ALARM_TIME_31TO16 (*(volatile uint32_t *)0x40102080)
-#define POWMAN_SET_ALARM_TIME_15TO0 (*(volatile uint32_t *)0x40102084)
-#define POWMAN_SET_TIMER (*(volatile uint32_t *)0x40102088)
-#define POWMAN_SET_PWRUP0 (*(volatile uint32_t *)0x4010208c)
-#define POWMAN_SET_PWRUP1 (*(volatile uint32_t *)0x40102090)
-#define POWMAN_SET_PWRUP2 (*(volatile uint32_t *)0x40102094)
-#define POWMAN_SET_PWRUP3 (*(volatile uint32_t *)0x40102098)
-#define POWMAN_SET_CURRENT_PWRUP_REQ (*(volatile uint32_t *)0x4010209c)
-#define POWMAN_SET_LAST_SWCORE_PWRUP (*(volatile uint32_t *)0x401020a0)
-#define POWMAN_SET_DBG_PWRCFG (*(volatile uint32_t *)0x401020a4)
-#define POWMAN_SET_BOOTDIS (*(volatile uint32_t *)0x401020a8)
-#define POWMAN_SET_DBGCONFIG (*(volatile uint32_t *)0x401020ac)
-#define POWMAN_SET_SCRATCH0 (*(volatile uint32_t *)0x401020b0)
-#define POWMAN_SET_SCRATCH1 (*(volatile uint32_t *)0x401020b4)
-#define POWMAN_SET_SCRATCH2 (*(volatile uint32_t *)0x401020b8)
-#define POWMAN_SET_SCRATCH3 (*(volatile uint32_t *)0x401020bc)
-#define POWMAN_SET_SCRATCH4 (*(volatile uint32_t *)0x401020c0)
-#define POWMAN_SET_SCRATCH5 (*(volatile uint32_t *)0x401020c4)
-#define POWMAN_SET_SCRATCH6 (*(volatile uint32_t *)0x401020c8)
-#define POWMAN_SET_SCRATCH7 (*(volatile uint32_t *)0x401020cc)
-#define POWMAN_SET_BOOT0 (*(volatile uint32_t *)0x401020d0)
-#define POWMAN_SET_BOOT1 (*(volatile uint32_t *)0x401020d4)
-#define POWMAN_SET_BOOT2 (*(volatile uint32_t *)0x401020d8)
-#define POWMAN_SET_BOOT3 (*(volatile uint32_t *)0x401020dc)
-#define POWMAN_SET_INTR (*(volatile uint32_t *)0x401020e0)
-#define POWMAN_SET_INTE (*(volatile uint32_t *)0x401020e4)
-#define POWMAN_SET_INTF (*(volatile uint32_t *)0x401020e8)
-#define POWMAN_SET_INTS (*(volatile uint32_t *)0x401020ec)
-#define POWMAN_CLR_BADPASSWD (*(volatile uint32_t *)0x40103000)
-#define POWMAN_CLR_VREG_CTRL (*(volatile uint32_t *)0x40103004)
-#define POWMAN_CLR_VREG_STS (*(volatile uint32_t *)0x40103008)
-#define POWMAN_CLR_VREG (*(volatile uint32_t *)0x4010300c)
-#define POWMAN_CLR_VREG_LP_ENTRY (*(volatile uint32_t *)0x40103010)
-#define POWMAN_CLR_VREG_LP_EXIT (*(volatile uint32_t *)0x40103014)
-#define POWMAN_CLR_BOD_CTRL (*(volatile uint32_t *)0x40103018)
-#define POWMAN_CLR_BOD (*(volatile uint32_t *)0x4010301c)
-#define POWMAN_CLR_BOD_LP_ENTRY (*(volatile uint32_t *)0x40103020)
-#define POWMAN_CLR_BOD_LP_EXIT (*(volatile uint32_t *)0x40103024)
-#define POWMAN_CLR_LPOSC (*(volatile uint32_t *)0x40103028)
-#define POWMAN_CLR_CHIP_RESET (*(volatile uint32_t *)0x4010302c)
-#define POWMAN_CLR_WDSEL (*(volatile uint32_t *)0x40103030)
-#define POWMAN_CLR_SEQ_CFG (*(volatile uint32_t *)0x40103034)
-#define POWMAN_CLR_STATE (*(volatile uint32_t *)0x40103038)
-#define POWMAN_CLR_POW_FASTDIV (*(volatile uint32_t *)0x4010303c)
-#define POWMAN_CLR_POW_DELAY (*(volatile uint32_t *)0x40103040)
-#define POWMAN_CLR_EXT_CTRL0 (*(volatile uint32_t *)0x40103044)
-#define POWMAN_CLR_EXT_CTRL1 (*(volatile uint32_t *)0x40103048)
-#define POWMAN_CLR_EXT_TIME_REF (*(volatile uint32_t *)0x4010304c)
-#define POWMAN_CLR_LPOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40103050)
-#define POWMAN_CLR_LPOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x40103054)
-#define POWMAN_CLR_XOSC_FREQ_KHZ_INT (*(volatile uint32_t *)0x40103058)
-#define POWMAN_CLR_XOSC_FREQ_KHZ_FRAC (*(volatile uint32_t *)0x4010305c)
-#define POWMAN_CLR_SET_TIME_63TO48 (*(volatile uint32_t *)0x40103060)
-#define POWMAN_CLR_SET_TIME_47TO32 (*(volatile uint32_t *)0x40103064)
-#define POWMAN_CLR_SET_TIME_31TO16 (*(volatile uint32_t *)0x40103068)
-#define POWMAN_CLR_SET_TIME_15TO0 (*(volatile uint32_t *)0x4010306c)
-#define POWMAN_CLR_READ_TIME_UPPER (*(volatile uint32_t *)0x40103070)
-#define POWMAN_CLR_READ_TIME_LOWER (*(volatile uint32_t *)0x40103074)
-#define POWMAN_CLR_ALARM_TIME_63TO48 (*(volatile uint32_t *)0x40103078)
-#define POWMAN_CLR_ALARM_TIME_47TO32 (*(volatile uint32_t *)0x4010307c)
-#define POWMAN_CLR_ALARM_TIME_31TO16 (*(volatile uint32_t *)0x40103080)
-#define POWMAN_CLR_ALARM_TIME_15TO0 (*(volatile uint32_t *)0x40103084)
-#define POWMAN_CLR_TIMER (*(volatile uint32_t *)0x40103088)
-#define POWMAN_CLR_PWRUP0 (*(volatile uint32_t *)0x4010308c)
-#define POWMAN_CLR_PWRUP1 (*(volatile uint32_t *)0x40103090)
-#define POWMAN_CLR_PWRUP2 (*(volatile uint32_t *)0x40103094)
-#define POWMAN_CLR_PWRUP3 (*(volatile uint32_t *)0x40103098)
-#define POWMAN_CLR_CURRENT_PWRUP_REQ (*(volatile uint32_t *)0x4010309c)
-#define POWMAN_CLR_LAST_SWCORE_PWRUP (*(volatile uint32_t *)0x401030a0)
-#define POWMAN_CLR_DBG_PWRCFG (*(volatile uint32_t *)0x401030a4)
-#define POWMAN_CLR_BOOTDIS (*(volatile uint32_t *)0x401030a8)
-#define POWMAN_CLR_DBGCONFIG (*(volatile uint32_t *)0x401030ac)
-#define POWMAN_CLR_SCRATCH0 (*(volatile uint32_t *)0x401030b0)
-#define POWMAN_CLR_SCRATCH1 (*(volatile uint32_t *)0x401030b4)
-#define POWMAN_CLR_SCRATCH2 (*(volatile uint32_t *)0x401030b8)
-#define POWMAN_CLR_SCRATCH3 (*(volatile uint32_t *)0x401030bc)
-#define POWMAN_CLR_SCRATCH4 (*(volatile uint32_t *)0x401030c0)
-#define POWMAN_CLR_SCRATCH5 (*(volatile uint32_t *)0x401030c4)
-#define POWMAN_CLR_SCRATCH6 (*(volatile uint32_t *)0x401030c8)
-#define POWMAN_CLR_SCRATCH7 (*(volatile uint32_t *)0x401030cc)
-#define POWMAN_CLR_BOOT0 (*(volatile uint32_t *)0x401030d0)
-#define POWMAN_CLR_BOOT1 (*(volatile uint32_t *)0x401030d4)
-#define POWMAN_CLR_BOOT2 (*(volatile uint32_t *)0x401030d8)
-#define POWMAN_CLR_BOOT3 (*(volatile uint32_t *)0x401030dc)
-#define POWMAN_CLR_INTR (*(volatile uint32_t *)0x401030e0)
-#define POWMAN_CLR_INTE (*(volatile uint32_t *)0x401030e4)
-#define POWMAN_CLR_INTF (*(volatile uint32_t *)0x401030e8)
-#define POWMAN_CLR_INTS (*(volatile uint32_t *)0x401030ec)
+#define POWMAN_BADPASSWD_XOR (*(volatile uint32_t *)0x40101000)
+#define POWMAN_VREG_CTRL_XOR (*(volatile uint32_t *)0x40101004)
+#define POWMAN_VREG_STS_XOR (*(volatile uint32_t *)0x40101008)
+#define POWMAN_VREG_XOR (*(volatile uint32_t *)0x4010100c)
+#define POWMAN_VREG_LP_ENTRY_XOR (*(volatile uint32_t *)0x40101010)
+#define POWMAN_VREG_LP_EXIT_XOR (*(volatile uint32_t *)0x40101014)
+#define POWMAN_BOD_CTRL_XOR (*(volatile uint32_t *)0x40101018)
+#define POWMAN_BOD_XOR (*(volatile uint32_t *)0x4010101c)
+#define POWMAN_BOD_LP_ENTRY_XOR (*(volatile uint32_t *)0x40101020)
+#define POWMAN_BOD_LP_EXIT_XOR (*(volatile uint32_t *)0x40101024)
+#define POWMAN_LPOSC_XOR (*(volatile uint32_t *)0x40101028)
+#define POWMAN_CHIP_RESET_XOR (*(volatile uint32_t *)0x4010102c)
+#define POWMAN_WDSEL_XOR (*(volatile uint32_t *)0x40101030)
+#define POWMAN_SEQ_CFG_XOR (*(volatile uint32_t *)0x40101034)
+#define POWMAN_STATE_XOR (*(volatile uint32_t *)0x40101038)
+#define POWMAN_POW_FASTDIV_XOR (*(volatile uint32_t *)0x4010103c)
+#define POWMAN_POW_DELAY_XOR (*(volatile uint32_t *)0x40101040)
+#define POWMAN_EXT_CTRL0_XOR (*(volatile uint32_t *)0x40101044)
+#define POWMAN_EXT_CTRL1_XOR (*(volatile uint32_t *)0x40101048)
+#define POWMAN_EXT_TIME_REF_XOR (*(volatile uint32_t *)0x4010104c)
+#define POWMAN_LPOSC_FREQ_KHZ_INT_XOR (*(volatile uint32_t *)0x40101050)
+#define POWMAN_LPOSC_FREQ_KHZ_FRAC_XOR (*(volatile uint32_t *)0x40101054)
+#define POWMAN_XOSC_FREQ_KHZ_INT_XOR (*(volatile uint32_t *)0x40101058)
+#define POWMAN_XOSC_FREQ_KHZ_FRAC_XOR (*(volatile uint32_t *)0x4010105c)
+#define POWMAN_SET_TIME_63TO48_XOR (*(volatile uint32_t *)0x40101060)
+#define POWMAN_SET_TIME_47TO32_XOR (*(volatile uint32_t *)0x40101064)
+#define POWMAN_SET_TIME_31TO16_XOR (*(volatile uint32_t *)0x40101068)
+#define POWMAN_SET_TIME_15TO0_XOR (*(volatile uint32_t *)0x4010106c)
+#define POWMAN_READ_TIME_UPPER_XOR (*(volatile uint32_t *)0x40101070)
+#define POWMAN_READ_TIME_LOWER_XOR (*(volatile uint32_t *)0x40101074)
+#define POWMAN_ALARM_TIME_63TO48_XOR (*(volatile uint32_t *)0x40101078)
+#define POWMAN_ALARM_TIME_47TO32_XOR (*(volatile uint32_t *)0x4010107c)
+#define POWMAN_ALARM_TIME_31TO16_XOR (*(volatile uint32_t *)0x40101080)
+#define POWMAN_ALARM_TIME_15TO0_XOR (*(volatile uint32_t *)0x40101084)
+#define POWMAN_TIMER_XOR (*(volatile uint32_t *)0x40101088)
+#define POWMAN_PWRUP0_XOR (*(volatile uint32_t *)0x4010108c)
+#define POWMAN_PWRUP1_XOR (*(volatile uint32_t *)0x40101090)
+#define POWMAN_PWRUP2_XOR (*(volatile uint32_t *)0x40101094)
+#define POWMAN_PWRUP3_XOR (*(volatile uint32_t *)0x40101098)
+#define POWMAN_CURRENT_PWRUP_REQ_XOR (*(volatile uint32_t *)0x4010109c)
+#define POWMAN_LAST_SWCORE_PWRUP_XOR (*(volatile uint32_t *)0x401010a0)
+#define POWMAN_DBG_PWRCFG_XOR (*(volatile uint32_t *)0x401010a4)
+#define POWMAN_BOOTDIS_XOR (*(volatile uint32_t *)0x401010a8)
+#define POWMAN_DBGCONFIG_XOR (*(volatile uint32_t *)0x401010ac)
+#define POWMAN_SCRATCH0_XOR (*(volatile uint32_t *)0x401010b0)
+#define POWMAN_SCRATCH1_XOR (*(volatile uint32_t *)0x401010b4)
+#define POWMAN_SCRATCH2_XOR (*(volatile uint32_t *)0x401010b8)
+#define POWMAN_SCRATCH3_XOR (*(volatile uint32_t *)0x401010bc)
+#define POWMAN_SCRATCH4_XOR (*(volatile uint32_t *)0x401010c0)
+#define POWMAN_SCRATCH5_XOR (*(volatile uint32_t *)0x401010c4)
+#define POWMAN_SCRATCH6_XOR (*(volatile uint32_t *)0x401010c8)
+#define POWMAN_SCRATCH7_XOR (*(volatile uint32_t *)0x401010cc)
+#define POWMAN_BOOT0_XOR (*(volatile uint32_t *)0x401010d0)
+#define POWMAN_BOOT1_XOR (*(volatile uint32_t *)0x401010d4)
+#define POWMAN_BOOT2_XOR (*(volatile uint32_t *)0x401010d8)
+#define POWMAN_BOOT3_XOR (*(volatile uint32_t *)0x401010dc)
+#define POWMAN_INTR_XOR (*(volatile uint32_t *)0x401010e0)
+#define POWMAN_INTE_XOR (*(volatile uint32_t *)0x401010e4)
+#define POWMAN_INTF_XOR (*(volatile uint32_t *)0x401010e8)
+#define POWMAN_INTS_XOR (*(volatile uint32_t *)0x401010ec)
+#define POWMAN_BADPASSWD_SET (*(volatile uint32_t *)0x40102000)
+#define POWMAN_VREG_CTRL_SET (*(volatile uint32_t *)0x40102004)
+#define POWMAN_VREG_STS_SET (*(volatile uint32_t *)0x40102008)
+#define POWMAN_VREG_SET (*(volatile uint32_t *)0x4010200c)
+#define POWMAN_VREG_LP_ENTRY_SET (*(volatile uint32_t *)0x40102010)
+#define POWMAN_VREG_LP_EXIT_SET (*(volatile uint32_t *)0x40102014)
+#define POWMAN_BOD_CTRL_SET (*(volatile uint32_t *)0x40102018)
+#define POWMAN_BOD_SET (*(volatile uint32_t *)0x4010201c)
+#define POWMAN_BOD_LP_ENTRY_SET (*(volatile uint32_t *)0x40102020)
+#define POWMAN_BOD_LP_EXIT_SET (*(volatile uint32_t *)0x40102024)
+#define POWMAN_LPOSC_SET (*(volatile uint32_t *)0x40102028)
+#define POWMAN_CHIP_RESET_SET (*(volatile uint32_t *)0x4010202c)
+#define POWMAN_WDSEL_SET (*(volatile uint32_t *)0x40102030)
+#define POWMAN_SEQ_CFG_SET (*(volatile uint32_t *)0x40102034)
+#define POWMAN_STATE_SET (*(volatile uint32_t *)0x40102038)
+#define POWMAN_POW_FASTDIV_SET (*(volatile uint32_t *)0x4010203c)
+#define POWMAN_POW_DELAY_SET (*(volatile uint32_t *)0x40102040)
+#define POWMAN_EXT_CTRL0_SET (*(volatile uint32_t *)0x40102044)
+#define POWMAN_EXT_CTRL1_SET (*(volatile uint32_t *)0x40102048)
+#define POWMAN_EXT_TIME_REF_SET (*(volatile uint32_t *)0x4010204c)
+#define POWMAN_LPOSC_FREQ_KHZ_INT_SET (*(volatile uint32_t *)0x40102050)
+#define POWMAN_LPOSC_FREQ_KHZ_FRAC_SET (*(volatile uint32_t *)0x40102054)
+#define POWMAN_XOSC_FREQ_KHZ_INT_SET (*(volatile uint32_t *)0x40102058)
+#define POWMAN_XOSC_FREQ_KHZ_FRAC_SET (*(volatile uint32_t *)0x4010205c)
+#define POWMAN_SET_TIME_63TO48_SET (*(volatile uint32_t *)0x40102060)
+#define POWMAN_SET_TIME_47TO32_SET (*(volatile uint32_t *)0x40102064)
+#define POWMAN_SET_TIME_31TO16_SET (*(volatile uint32_t *)0x40102068)
+#define POWMAN_SET_TIME_15TO0_SET (*(volatile uint32_t *)0x4010206c)
+#define POWMAN_READ_TIME_UPPER_SET (*(volatile uint32_t *)0x40102070)
+#define POWMAN_READ_TIME_LOWER_SET (*(volatile uint32_t *)0x40102074)
+#define POWMAN_ALARM_TIME_63TO48_SET (*(volatile uint32_t *)0x40102078)
+#define POWMAN_ALARM_TIME_47TO32_SET (*(volatile uint32_t *)0x4010207c)
+#define POWMAN_ALARM_TIME_31TO16_SET (*(volatile uint32_t *)0x40102080)
+#define POWMAN_ALARM_TIME_15TO0_SET (*(volatile uint32_t *)0x40102084)
+#define POWMAN_TIMER_SET (*(volatile uint32_t *)0x40102088)
+#define POWMAN_PWRUP0_SET (*(volatile uint32_t *)0x4010208c)
+#define POWMAN_PWRUP1_SET (*(volatile uint32_t *)0x40102090)
+#define POWMAN_PWRUP2_SET (*(volatile uint32_t *)0x40102094)
+#define POWMAN_PWRUP3_SET (*(volatile uint32_t *)0x40102098)
+#define POWMAN_CURRENT_PWRUP_REQ_SET (*(volatile uint32_t *)0x4010209c)
+#define POWMAN_LAST_SWCORE_PWRUP_SET (*(volatile uint32_t *)0x401020a0)
+#define POWMAN_DBG_PWRCFG_SET (*(volatile uint32_t *)0x401020a4)
+#define POWMAN_BOOTDIS_SET (*(volatile uint32_t *)0x401020a8)
+#define POWMAN_DBGCONFIG_SET (*(volatile uint32_t *)0x401020ac)
+#define POWMAN_SCRATCH0_SET (*(volatile uint32_t *)0x401020b0)
+#define POWMAN_SCRATCH1_SET (*(volatile uint32_t *)0x401020b4)
+#define POWMAN_SCRATCH2_SET (*(volatile uint32_t *)0x401020b8)
+#define POWMAN_SCRATCH3_SET (*(volatile uint32_t *)0x401020bc)
+#define POWMAN_SCRATCH4_SET (*(volatile uint32_t *)0x401020c0)
+#define POWMAN_SCRATCH5_SET (*(volatile uint32_t *)0x401020c4)
+#define POWMAN_SCRATCH6_SET (*(volatile uint32_t *)0x401020c8)
+#define POWMAN_SCRATCH7_SET (*(volatile uint32_t *)0x401020cc)
+#define POWMAN_BOOT0_SET (*(volatile uint32_t *)0x401020d0)
+#define POWMAN_BOOT1_SET (*(volatile uint32_t *)0x401020d4)
+#define POWMAN_BOOT2_SET (*(volatile uint32_t *)0x401020d8)
+#define POWMAN_BOOT3_SET (*(volatile uint32_t *)0x401020dc)
+#define POWMAN_INTR_SET (*(volatile uint32_t *)0x401020e0)
+#define POWMAN_INTE_SET (*(volatile uint32_t *)0x401020e4)
+#define POWMAN_INTF_SET (*(volatile uint32_t *)0x401020e8)
+#define POWMAN_INTS_SET (*(volatile uint32_t *)0x401020ec)
+#define POWMAN_BADPASSWD_CLR (*(volatile uint32_t *)0x40103000)
+#define POWMAN_VREG_CTRL_CLR (*(volatile uint32_t *)0x40103004)
+#define POWMAN_VREG_STS_CLR (*(volatile uint32_t *)0x40103008)
+#define POWMAN_VREG_CLR (*(volatile uint32_t *)0x4010300c)
+#define POWMAN_VREG_LP_ENTRY_CLR (*(volatile uint32_t *)0x40103010)
+#define POWMAN_VREG_LP_EXIT_CLR (*(volatile uint32_t *)0x40103014)
+#define POWMAN_BOD_CTRL_CLR (*(volatile uint32_t *)0x40103018)
+#define POWMAN_BOD_CLR (*(volatile uint32_t *)0x4010301c)
+#define POWMAN_BOD_LP_ENTRY_CLR (*(volatile uint32_t *)0x40103020)
+#define POWMAN_BOD_LP_EXIT_CLR (*(volatile uint32_t *)0x40103024)
+#define POWMAN_LPOSC_CLR (*(volatile uint32_t *)0x40103028)
+#define POWMAN_CHIP_RESET_CLR (*(volatile uint32_t *)0x4010302c)
+#define POWMAN_WDSEL_CLR (*(volatile uint32_t *)0x40103030)
+#define POWMAN_SEQ_CFG_CLR (*(volatile uint32_t *)0x40103034)
+#define POWMAN_STATE_CLR (*(volatile uint32_t *)0x40103038)
+#define POWMAN_POW_FASTDIV_CLR (*(volatile uint32_t *)0x4010303c)
+#define POWMAN_POW_DELAY_CLR (*(volatile uint32_t *)0x40103040)
+#define POWMAN_EXT_CTRL0_CLR (*(volatile uint32_t *)0x40103044)
+#define POWMAN_EXT_CTRL1_CLR (*(volatile uint32_t *)0x40103048)
+#define POWMAN_EXT_TIME_REF_CLR (*(volatile uint32_t *)0x4010304c)
+#define POWMAN_LPOSC_FREQ_KHZ_INT_CLR (*(volatile uint32_t *)0x40103050)
+#define POWMAN_LPOSC_FREQ_KHZ_FRAC_CLR (*(volatile uint32_t *)0x40103054)
+#define POWMAN_XOSC_FREQ_KHZ_INT_CLR (*(volatile uint32_t *)0x40103058)
+#define POWMAN_XOSC_FREQ_KHZ_FRAC_CLR (*(volatile uint32_t *)0x4010305c)
+#define POWMAN_SET_TIME_63TO48_CLR (*(volatile uint32_t *)0x40103060)
+#define POWMAN_SET_TIME_47TO32_CLR (*(volatile uint32_t *)0x40103064)
+#define POWMAN_SET_TIME_31TO16_CLR (*(volatile uint32_t *)0x40103068)
+#define POWMAN_SET_TIME_15TO0_CLR (*(volatile uint32_t *)0x4010306c)
+#define POWMAN_READ_TIME_UPPER_CLR (*(volatile uint32_t *)0x40103070)
+#define POWMAN_READ_TIME_LOWER_CLR (*(volatile uint32_t *)0x40103074)
+#define POWMAN_ALARM_TIME_63TO48_CLR (*(volatile uint32_t *)0x40103078)
+#define POWMAN_ALARM_TIME_47TO32_CLR (*(volatile uint32_t *)0x4010307c)
+#define POWMAN_ALARM_TIME_31TO16_CLR (*(volatile uint32_t *)0x40103080)
+#define POWMAN_ALARM_TIME_15TO0_CLR (*(volatile uint32_t *)0x40103084)
+#define POWMAN_TIMER_CLR (*(volatile uint32_t *)0x40103088)
+#define POWMAN_PWRUP0_CLR (*(volatile uint32_t *)0x4010308c)
+#define POWMAN_PWRUP1_CLR (*(volatile uint32_t *)0x40103090)
+#define POWMAN_PWRUP2_CLR (*(volatile uint32_t *)0x40103094)
+#define POWMAN_PWRUP3_CLR (*(volatile uint32_t *)0x40103098)
+#define POWMAN_CURRENT_PWRUP_REQ_CLR (*(volatile uint32_t *)0x4010309c)
+#define POWMAN_LAST_SWCORE_PWRUP_CLR (*(volatile uint32_t *)0x401030a0)
+#define POWMAN_DBG_PWRCFG_CLR (*(volatile uint32_t *)0x401030a4)
+#define POWMAN_BOOTDIS_CLR (*(volatile uint32_t *)0x401030a8)
+#define POWMAN_DBGCONFIG_CLR (*(volatile uint32_t *)0x401030ac)
+#define POWMAN_SCRATCH0_CLR (*(volatile uint32_t *)0x401030b0)
+#define POWMAN_SCRATCH1_CLR (*(volatile uint32_t *)0x401030b4)
+#define POWMAN_SCRATCH2_CLR (*(volatile uint32_t *)0x401030b8)
+#define POWMAN_SCRATCH3_CLR (*(volatile uint32_t *)0x401030bc)
+#define POWMAN_SCRATCH4_CLR (*(volatile uint32_t *)0x401030c0)
+#define POWMAN_SCRATCH5_CLR (*(volatile uint32_t *)0x401030c4)
+#define POWMAN_SCRATCH6_CLR (*(volatile uint32_t *)0x401030c8)
+#define POWMAN_SCRATCH7_CLR (*(volatile uint32_t *)0x401030cc)
+#define POWMAN_BOOT0_CLR (*(volatile uint32_t *)0x401030d0)
+#define POWMAN_BOOT1_CLR (*(volatile uint32_t *)0x401030d4)
+#define POWMAN_BOOT2_CLR (*(volatile uint32_t *)0x401030d8)
+#define POWMAN_BOOT3_CLR (*(volatile uint32_t *)0x401030dc)
+#define POWMAN_INTR_CLR (*(volatile uint32_t *)0x401030e0)
+#define POWMAN_INTE_CLR (*(volatile uint32_t *)0x401030e4)
+#define POWMAN_INTF_CLR (*(volatile uint32_t *)0x401030e8)
+#define POWMAN_INTS_CLR (*(volatile uint32_t *)0x401030ec)
 
 /*BADPASSWD Register macros*/
 

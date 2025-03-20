@@ -34,14 +34,14 @@ typedef struct{
 		uint32_t stat;
 		uint32_t fifo;
 		uint32_t RSVD0[1022];
-		uint32_t xor_stat;
-		uint32_t xor_fifo;
+		uint32_t stat_xor;
+		uint32_t fifo_xor;
 		uint32_t RSVDxor_0[1022];
-		uint32_t set_stat;
-		uint32_t set_fifo;
+		uint32_t stat_set;
+		uint32_t fifo_set;
 		uint32_t RSVDset_0[1022];
-		uint32_t clr_stat;
-		uint32_t clr_fifo;
+		uint32_t stat_clr;
+		uint32_t fifo_clr;
 		uint32_t RSVDclr_0[1022];
 } HSTX_FIFO_REG_BLOCKS;
 
@@ -55,12 +55,12 @@ typedef struct{
 
 #define HSTX_FIFO_STAT (*(volatile uint32_t *)0x50600000)
 #define HSTX_FIFO_FIFO (*(volatile uint32_t *)0x50600004)
-#define HSTX_FIFO_XOR_STAT (*(volatile uint32_t *)0x50601000)
-#define HSTX_FIFO_XOR_FIFO (*(volatile uint32_t *)0x50601004)
-#define HSTX_FIFO_SET_STAT (*(volatile uint32_t *)0x50602000)
-#define HSTX_FIFO_SET_FIFO (*(volatile uint32_t *)0x50602004)
-#define HSTX_FIFO_CLR_STAT (*(volatile uint32_t *)0x50603000)
-#define HSTX_FIFO_CLR_FIFO (*(volatile uint32_t *)0x50603004)
+#define HSTX_FIFO_STAT_XOR (*(volatile uint32_t *)0x50601000)
+#define HSTX_FIFO_FIFO_XOR (*(volatile uint32_t *)0x50601004)
+#define HSTX_FIFO_STAT_SET (*(volatile uint32_t *)0x50602000)
+#define HSTX_FIFO_FIFO_SET (*(volatile uint32_t *)0x50602004)
+#define HSTX_FIFO_STAT_CLR (*(volatile uint32_t *)0x50603000)
+#define HSTX_FIFO_FIFO_CLR (*(volatile uint32_t *)0x50603004)
 
 /*STAT Register macros*/
 

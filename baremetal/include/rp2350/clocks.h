@@ -85,167 +85,167 @@ typedef struct{
 		uint32_t intf;
 		uint32_t ints;
 		uint32_t RSVD0[971];
-		uint32_t xor_clk_gpout0_ctrl;
-		uint32_t xor_clk_gpout0_div;
-		uint32_t xor_clk_gpout0_selected;
-		uint32_t xor_clk_gpout1_ctrl;
-		uint32_t xor_clk_gpout1_div;
-		uint32_t xor_clk_gpout1_selected;
-		uint32_t xor_clk_gpout2_ctrl;
-		uint32_t xor_clk_gpout2_div;
-		uint32_t xor_clk_gpout2_selected;
-		uint32_t xor_clk_gpout3_ctrl;
-		uint32_t xor_clk_gpout3_div;
-		uint32_t xor_clk_gpout3_selected;
-		uint32_t xor_clk_ref_ctrl;
-		uint32_t xor_clk_ref_div;
-		uint32_t xor_clk_ref_selected;
-		uint32_t xor_clk_sys_ctrl;
-		uint32_t xor_clk_sys_div;
-		uint32_t xor_clk_sys_selected;
-		uint32_t xor_clk_peri_ctrl;
-		uint32_t xor_clk_peri_div;
-		uint32_t xor_clk_peri_selected;
-		uint32_t xor_clk_hstx_ctrl;
-		uint32_t xor_clk_hstx_div;
-		uint32_t xor_clk_hstx_selected;
-		uint32_t xor_clk_usb_ctrl;
-		uint32_t xor_clk_usb_div;
-		uint32_t xor_clk_usb_selected;
-		uint32_t xor_clk_adc_ctrl;
-		uint32_t xor_clk_adc_div;
-		uint32_t xor_clk_adc_selected;
-		uint32_t xor_dftclk_xosc_ctrl;
-		uint32_t xor_dftclk_rosc_ctrl;
-		uint32_t xor_dftclk_lposc_ctrl;
-		uint32_t xor_clk_sys_resus_ctrl;
-		uint32_t xor_clk_sys_resus_status;
-		uint32_t xor_fc0_ref_khz;
-		uint32_t xor_fc0_min_khz;
-		uint32_t xor_fc0_max_khz;
-		uint32_t xor_fc0_delay;
-		uint32_t xor_fc0_interval;
-		uint32_t xor_fc0_src;
-		uint32_t xor_fc0_status;
-		uint32_t xor_fc0_result;
-		uint32_t xor_wake_en0;
-		uint32_t xor_wake_en1;
-		uint32_t xor_sleep_en0;
-		uint32_t xor_sleep_en1;
-		uint32_t xor_enabled0;
-		uint32_t xor_enabled1;
-		uint32_t xor_intr;
-		uint32_t xor_inte;
-		uint32_t xor_intf;
-		uint32_t xor_ints;
+		uint32_t clk_gpout0_ctrl_xor;
+		uint32_t clk_gpout0_div_xor;
+		uint32_t clk_gpout0_selected_xor;
+		uint32_t clk_gpout1_ctrl_xor;
+		uint32_t clk_gpout1_div_xor;
+		uint32_t clk_gpout1_selected_xor;
+		uint32_t clk_gpout2_ctrl_xor;
+		uint32_t clk_gpout2_div_xor;
+		uint32_t clk_gpout2_selected_xor;
+		uint32_t clk_gpout3_ctrl_xor;
+		uint32_t clk_gpout3_div_xor;
+		uint32_t clk_gpout3_selected_xor;
+		uint32_t clk_ref_ctrl_xor;
+		uint32_t clk_ref_div_xor;
+		uint32_t clk_ref_selected_xor;
+		uint32_t clk_sys_ctrl_xor;
+		uint32_t clk_sys_div_xor;
+		uint32_t clk_sys_selected_xor;
+		uint32_t clk_peri_ctrl_xor;
+		uint32_t clk_peri_div_xor;
+		uint32_t clk_peri_selected_xor;
+		uint32_t clk_hstx_ctrl_xor;
+		uint32_t clk_hstx_div_xor;
+		uint32_t clk_hstx_selected_xor;
+		uint32_t clk_usb_ctrl_xor;
+		uint32_t clk_usb_div_xor;
+		uint32_t clk_usb_selected_xor;
+		uint32_t clk_adc_ctrl_xor;
+		uint32_t clk_adc_div_xor;
+		uint32_t clk_adc_selected_xor;
+		uint32_t dftclk_xosc_ctrl_xor;
+		uint32_t dftclk_rosc_ctrl_xor;
+		uint32_t dftclk_lposc_ctrl_xor;
+		uint32_t clk_sys_resus_ctrl_xor;
+		uint32_t clk_sys_resus_status_xor;
+		uint32_t fc0_ref_khz_xor;
+		uint32_t fc0_min_khz_xor;
+		uint32_t fc0_max_khz_xor;
+		uint32_t fc0_delay_xor;
+		uint32_t fc0_interval_xor;
+		uint32_t fc0_src_xor;
+		uint32_t fc0_status_xor;
+		uint32_t fc0_result_xor;
+		uint32_t wake_en0_xor;
+		uint32_t wake_en1_xor;
+		uint32_t sleep_en0_xor;
+		uint32_t sleep_en1_xor;
+		uint32_t enabled0_xor;
+		uint32_t enabled1_xor;
+		uint32_t intr_xor;
+		uint32_t inte_xor;
+		uint32_t intf_xor;
+		uint32_t ints_xor;
 		uint32_t RSVDxor_0[971];
-		uint32_t set_clk_gpout0_ctrl;
-		uint32_t set_clk_gpout0_div;
-		uint32_t set_clk_gpout0_selected;
-		uint32_t set_clk_gpout1_ctrl;
-		uint32_t set_clk_gpout1_div;
-		uint32_t set_clk_gpout1_selected;
-		uint32_t set_clk_gpout2_ctrl;
-		uint32_t set_clk_gpout2_div;
-		uint32_t set_clk_gpout2_selected;
-		uint32_t set_clk_gpout3_ctrl;
-		uint32_t set_clk_gpout3_div;
-		uint32_t set_clk_gpout3_selected;
-		uint32_t set_clk_ref_ctrl;
-		uint32_t set_clk_ref_div;
-		uint32_t set_clk_ref_selected;
-		uint32_t set_clk_sys_ctrl;
-		uint32_t set_clk_sys_div;
-		uint32_t set_clk_sys_selected;
-		uint32_t set_clk_peri_ctrl;
-		uint32_t set_clk_peri_div;
-		uint32_t set_clk_peri_selected;
-		uint32_t set_clk_hstx_ctrl;
-		uint32_t set_clk_hstx_div;
-		uint32_t set_clk_hstx_selected;
-		uint32_t set_clk_usb_ctrl;
-		uint32_t set_clk_usb_div;
-		uint32_t set_clk_usb_selected;
-		uint32_t set_clk_adc_ctrl;
-		uint32_t set_clk_adc_div;
-		uint32_t set_clk_adc_selected;
-		uint32_t set_dftclk_xosc_ctrl;
-		uint32_t set_dftclk_rosc_ctrl;
-		uint32_t set_dftclk_lposc_ctrl;
-		uint32_t set_clk_sys_resus_ctrl;
-		uint32_t set_clk_sys_resus_status;
-		uint32_t set_fc0_ref_khz;
-		uint32_t set_fc0_min_khz;
-		uint32_t set_fc0_max_khz;
-		uint32_t set_fc0_delay;
-		uint32_t set_fc0_interval;
-		uint32_t set_fc0_src;
-		uint32_t set_fc0_status;
-		uint32_t set_fc0_result;
-		uint32_t set_wake_en0;
-		uint32_t set_wake_en1;
-		uint32_t set_sleep_en0;
-		uint32_t set_sleep_en1;
-		uint32_t set_enabled0;
-		uint32_t set_enabled1;
-		uint32_t set_intr;
-		uint32_t set_inte;
-		uint32_t set_intf;
-		uint32_t set_ints;
+		uint32_t clk_gpout0_ctrl_set;
+		uint32_t clk_gpout0_div_set;
+		uint32_t clk_gpout0_selected_set;
+		uint32_t clk_gpout1_ctrl_set;
+		uint32_t clk_gpout1_div_set;
+		uint32_t clk_gpout1_selected_set;
+		uint32_t clk_gpout2_ctrl_set;
+		uint32_t clk_gpout2_div_set;
+		uint32_t clk_gpout2_selected_set;
+		uint32_t clk_gpout3_ctrl_set;
+		uint32_t clk_gpout3_div_set;
+		uint32_t clk_gpout3_selected_set;
+		uint32_t clk_ref_ctrl_set;
+		uint32_t clk_ref_div_set;
+		uint32_t clk_ref_selected_set;
+		uint32_t clk_sys_ctrl_set;
+		uint32_t clk_sys_div_set;
+		uint32_t clk_sys_selected_set;
+		uint32_t clk_peri_ctrl_set;
+		uint32_t clk_peri_div_set;
+		uint32_t clk_peri_selected_set;
+		uint32_t clk_hstx_ctrl_set;
+		uint32_t clk_hstx_div_set;
+		uint32_t clk_hstx_selected_set;
+		uint32_t clk_usb_ctrl_set;
+		uint32_t clk_usb_div_set;
+		uint32_t clk_usb_selected_set;
+		uint32_t clk_adc_ctrl_set;
+		uint32_t clk_adc_div_set;
+		uint32_t clk_adc_selected_set;
+		uint32_t dftclk_xosc_ctrl_set;
+		uint32_t dftclk_rosc_ctrl_set;
+		uint32_t dftclk_lposc_ctrl_set;
+		uint32_t clk_sys_resus_ctrl_set;
+		uint32_t clk_sys_resus_status_set;
+		uint32_t fc0_ref_khz_set;
+		uint32_t fc0_min_khz_set;
+		uint32_t fc0_max_khz_set;
+		uint32_t fc0_delay_set;
+		uint32_t fc0_interval_set;
+		uint32_t fc0_src_set;
+		uint32_t fc0_status_set;
+		uint32_t fc0_result_set;
+		uint32_t wake_en0_set;
+		uint32_t wake_en1_set;
+		uint32_t sleep_en0_set;
+		uint32_t sleep_en1_set;
+		uint32_t enabled0_set;
+		uint32_t enabled1_set;
+		uint32_t intr_set;
+		uint32_t inte_set;
+		uint32_t intf_set;
+		uint32_t ints_set;
 		uint32_t RSVDset_0[971];
-		uint32_t clr_clk_gpout0_ctrl;
-		uint32_t clr_clk_gpout0_div;
-		uint32_t clr_clk_gpout0_selected;
-		uint32_t clr_clk_gpout1_ctrl;
-		uint32_t clr_clk_gpout1_div;
-		uint32_t clr_clk_gpout1_selected;
-		uint32_t clr_clk_gpout2_ctrl;
-		uint32_t clr_clk_gpout2_div;
-		uint32_t clr_clk_gpout2_selected;
-		uint32_t clr_clk_gpout3_ctrl;
-		uint32_t clr_clk_gpout3_div;
-		uint32_t clr_clk_gpout3_selected;
-		uint32_t clr_clk_ref_ctrl;
-		uint32_t clr_clk_ref_div;
-		uint32_t clr_clk_ref_selected;
-		uint32_t clr_clk_sys_ctrl;
-		uint32_t clr_clk_sys_div;
-		uint32_t clr_clk_sys_selected;
-		uint32_t clr_clk_peri_ctrl;
-		uint32_t clr_clk_peri_div;
-		uint32_t clr_clk_peri_selected;
-		uint32_t clr_clk_hstx_ctrl;
-		uint32_t clr_clk_hstx_div;
-		uint32_t clr_clk_hstx_selected;
-		uint32_t clr_clk_usb_ctrl;
-		uint32_t clr_clk_usb_div;
-		uint32_t clr_clk_usb_selected;
-		uint32_t clr_clk_adc_ctrl;
-		uint32_t clr_clk_adc_div;
-		uint32_t clr_clk_adc_selected;
-		uint32_t clr_dftclk_xosc_ctrl;
-		uint32_t clr_dftclk_rosc_ctrl;
-		uint32_t clr_dftclk_lposc_ctrl;
-		uint32_t clr_clk_sys_resus_ctrl;
-		uint32_t clr_clk_sys_resus_status;
-		uint32_t clr_fc0_ref_khz;
-		uint32_t clr_fc0_min_khz;
-		uint32_t clr_fc0_max_khz;
-		uint32_t clr_fc0_delay;
-		uint32_t clr_fc0_interval;
-		uint32_t clr_fc0_src;
-		uint32_t clr_fc0_status;
-		uint32_t clr_fc0_result;
-		uint32_t clr_wake_en0;
-		uint32_t clr_wake_en1;
-		uint32_t clr_sleep_en0;
-		uint32_t clr_sleep_en1;
-		uint32_t clr_enabled0;
-		uint32_t clr_enabled1;
-		uint32_t clr_intr;
-		uint32_t clr_inte;
-		uint32_t clr_intf;
-		uint32_t clr_ints;
+		uint32_t clk_gpout0_ctrl_clr;
+		uint32_t clk_gpout0_div_clr;
+		uint32_t clk_gpout0_selected_clr;
+		uint32_t clk_gpout1_ctrl_clr;
+		uint32_t clk_gpout1_div_clr;
+		uint32_t clk_gpout1_selected_clr;
+		uint32_t clk_gpout2_ctrl_clr;
+		uint32_t clk_gpout2_div_clr;
+		uint32_t clk_gpout2_selected_clr;
+		uint32_t clk_gpout3_ctrl_clr;
+		uint32_t clk_gpout3_div_clr;
+		uint32_t clk_gpout3_selected_clr;
+		uint32_t clk_ref_ctrl_clr;
+		uint32_t clk_ref_div_clr;
+		uint32_t clk_ref_selected_clr;
+		uint32_t clk_sys_ctrl_clr;
+		uint32_t clk_sys_div_clr;
+		uint32_t clk_sys_selected_clr;
+		uint32_t clk_peri_ctrl_clr;
+		uint32_t clk_peri_div_clr;
+		uint32_t clk_peri_selected_clr;
+		uint32_t clk_hstx_ctrl_clr;
+		uint32_t clk_hstx_div_clr;
+		uint32_t clk_hstx_selected_clr;
+		uint32_t clk_usb_ctrl_clr;
+		uint32_t clk_usb_div_clr;
+		uint32_t clk_usb_selected_clr;
+		uint32_t clk_adc_ctrl_clr;
+		uint32_t clk_adc_div_clr;
+		uint32_t clk_adc_selected_clr;
+		uint32_t dftclk_xosc_ctrl_clr;
+		uint32_t dftclk_rosc_ctrl_clr;
+		uint32_t dftclk_lposc_ctrl_clr;
+		uint32_t clk_sys_resus_ctrl_clr;
+		uint32_t clk_sys_resus_status_clr;
+		uint32_t fc0_ref_khz_clr;
+		uint32_t fc0_min_khz_clr;
+		uint32_t fc0_max_khz_clr;
+		uint32_t fc0_delay_clr;
+		uint32_t fc0_interval_clr;
+		uint32_t fc0_src_clr;
+		uint32_t fc0_status_clr;
+		uint32_t fc0_result_clr;
+		uint32_t wake_en0_clr;
+		uint32_t wake_en1_clr;
+		uint32_t sleep_en0_clr;
+		uint32_t sleep_en1_clr;
+		uint32_t enabled0_clr;
+		uint32_t enabled1_clr;
+		uint32_t intr_clr;
+		uint32_t inte_clr;
+		uint32_t intf_clr;
+		uint32_t ints_clr;
 		uint32_t RSVDclr_0[971];
 } CLOCKS_REG_BLOCKS;
 
@@ -310,165 +310,165 @@ typedef struct{
 #define CLOCKS_INTE (*(volatile uint32_t *)0x400100c8)
 #define CLOCKS_INTF (*(volatile uint32_t *)0x400100cc)
 #define CLOCKS_INTS (*(volatile uint32_t *)0x400100d0)
-#define CLOCKS_XOR_CLK_GPOUT0_CTRL (*(volatile uint32_t *)0x40011000)
-#define CLOCKS_XOR_CLK_GPOUT0_DIV (*(volatile uint32_t *)0x40011004)
-#define CLOCKS_XOR_CLK_GPOUT0_SELECTED (*(volatile uint32_t *)0x40011008)
-#define CLOCKS_XOR_CLK_GPOUT1_CTRL (*(volatile uint32_t *)0x4001100c)
-#define CLOCKS_XOR_CLK_GPOUT1_DIV (*(volatile uint32_t *)0x40011010)
-#define CLOCKS_XOR_CLK_GPOUT1_SELECTED (*(volatile uint32_t *)0x40011014)
-#define CLOCKS_XOR_CLK_GPOUT2_CTRL (*(volatile uint32_t *)0x40011018)
-#define CLOCKS_XOR_CLK_GPOUT2_DIV (*(volatile uint32_t *)0x4001101c)
-#define CLOCKS_XOR_CLK_GPOUT2_SELECTED (*(volatile uint32_t *)0x40011020)
-#define CLOCKS_XOR_CLK_GPOUT3_CTRL (*(volatile uint32_t *)0x40011024)
-#define CLOCKS_XOR_CLK_GPOUT3_DIV (*(volatile uint32_t *)0x40011028)
-#define CLOCKS_XOR_CLK_GPOUT3_SELECTED (*(volatile uint32_t *)0x4001102c)
-#define CLOCKS_XOR_CLK_REF_CTRL (*(volatile uint32_t *)0x40011030)
-#define CLOCKS_XOR_CLK_REF_DIV (*(volatile uint32_t *)0x40011034)
-#define CLOCKS_XOR_CLK_REF_SELECTED (*(volatile uint32_t *)0x40011038)
-#define CLOCKS_XOR_CLK_SYS_CTRL (*(volatile uint32_t *)0x4001103c)
-#define CLOCKS_XOR_CLK_SYS_DIV (*(volatile uint32_t *)0x40011040)
-#define CLOCKS_XOR_CLK_SYS_SELECTED (*(volatile uint32_t *)0x40011044)
-#define CLOCKS_XOR_CLK_PERI_CTRL (*(volatile uint32_t *)0x40011048)
-#define CLOCKS_XOR_CLK_PERI_DIV (*(volatile uint32_t *)0x4001104c)
-#define CLOCKS_XOR_CLK_PERI_SELECTED (*(volatile uint32_t *)0x40011050)
-#define CLOCKS_XOR_CLK_HSTX_CTRL (*(volatile uint32_t *)0x40011054)
-#define CLOCKS_XOR_CLK_HSTX_DIV (*(volatile uint32_t *)0x40011058)
-#define CLOCKS_XOR_CLK_HSTX_SELECTED (*(volatile uint32_t *)0x4001105c)
-#define CLOCKS_XOR_CLK_USB_CTRL (*(volatile uint32_t *)0x40011060)
-#define CLOCKS_XOR_CLK_USB_DIV (*(volatile uint32_t *)0x40011064)
-#define CLOCKS_XOR_CLK_USB_SELECTED (*(volatile uint32_t *)0x40011068)
-#define CLOCKS_XOR_CLK_ADC_CTRL (*(volatile uint32_t *)0x4001106c)
-#define CLOCKS_XOR_CLK_ADC_DIV (*(volatile uint32_t *)0x40011070)
-#define CLOCKS_XOR_CLK_ADC_SELECTED (*(volatile uint32_t *)0x40011074)
-#define CLOCKS_XOR_DFTCLK_XOSC_CTRL (*(volatile uint32_t *)0x40011078)
-#define CLOCKS_XOR_DFTCLK_ROSC_CTRL (*(volatile uint32_t *)0x4001107c)
-#define CLOCKS_XOR_DFTCLK_LPOSC_CTRL (*(volatile uint32_t *)0x40011080)
-#define CLOCKS_XOR_CLK_SYS_RESUS_CTRL (*(volatile uint32_t *)0x40011084)
-#define CLOCKS_XOR_CLK_SYS_RESUS_STATUS (*(volatile uint32_t *)0x40011088)
-#define CLOCKS_XOR_FC0_REF_KHZ (*(volatile uint32_t *)0x4001108c)
-#define CLOCKS_XOR_FC0_MIN_KHZ (*(volatile uint32_t *)0x40011090)
-#define CLOCKS_XOR_FC0_MAX_KHZ (*(volatile uint32_t *)0x40011094)
-#define CLOCKS_XOR_FC0_DELAY (*(volatile uint32_t *)0x40011098)
-#define CLOCKS_XOR_FC0_INTERVAL (*(volatile uint32_t *)0x4001109c)
-#define CLOCKS_XOR_FC0_SRC (*(volatile uint32_t *)0x400110a0)
-#define CLOCKS_XOR_FC0_STATUS (*(volatile uint32_t *)0x400110a4)
-#define CLOCKS_XOR_FC0_RESULT (*(volatile uint32_t *)0x400110a8)
-#define CLOCKS_XOR_WAKE_EN0 (*(volatile uint32_t *)0x400110ac)
-#define CLOCKS_XOR_WAKE_EN1 (*(volatile uint32_t *)0x400110b0)
-#define CLOCKS_XOR_SLEEP_EN0 (*(volatile uint32_t *)0x400110b4)
-#define CLOCKS_XOR_SLEEP_EN1 (*(volatile uint32_t *)0x400110b8)
-#define CLOCKS_XOR_ENABLED0 (*(volatile uint32_t *)0x400110bc)
-#define CLOCKS_XOR_ENABLED1 (*(volatile uint32_t *)0x400110c0)
-#define CLOCKS_XOR_INTR (*(volatile uint32_t *)0x400110c4)
-#define CLOCKS_XOR_INTE (*(volatile uint32_t *)0x400110c8)
-#define CLOCKS_XOR_INTF (*(volatile uint32_t *)0x400110cc)
-#define CLOCKS_XOR_INTS (*(volatile uint32_t *)0x400110d0)
-#define CLOCKS_SET_CLK_GPOUT0_CTRL (*(volatile uint32_t *)0x40012000)
-#define CLOCKS_SET_CLK_GPOUT0_DIV (*(volatile uint32_t *)0x40012004)
-#define CLOCKS_SET_CLK_GPOUT0_SELECTED (*(volatile uint32_t *)0x40012008)
-#define CLOCKS_SET_CLK_GPOUT1_CTRL (*(volatile uint32_t *)0x4001200c)
-#define CLOCKS_SET_CLK_GPOUT1_DIV (*(volatile uint32_t *)0x40012010)
-#define CLOCKS_SET_CLK_GPOUT1_SELECTED (*(volatile uint32_t *)0x40012014)
-#define CLOCKS_SET_CLK_GPOUT2_CTRL (*(volatile uint32_t *)0x40012018)
-#define CLOCKS_SET_CLK_GPOUT2_DIV (*(volatile uint32_t *)0x4001201c)
-#define CLOCKS_SET_CLK_GPOUT2_SELECTED (*(volatile uint32_t *)0x40012020)
-#define CLOCKS_SET_CLK_GPOUT3_CTRL (*(volatile uint32_t *)0x40012024)
-#define CLOCKS_SET_CLK_GPOUT3_DIV (*(volatile uint32_t *)0x40012028)
-#define CLOCKS_SET_CLK_GPOUT3_SELECTED (*(volatile uint32_t *)0x4001202c)
-#define CLOCKS_SET_CLK_REF_CTRL (*(volatile uint32_t *)0x40012030)
-#define CLOCKS_SET_CLK_REF_DIV (*(volatile uint32_t *)0x40012034)
-#define CLOCKS_SET_CLK_REF_SELECTED (*(volatile uint32_t *)0x40012038)
-#define CLOCKS_SET_CLK_SYS_CTRL (*(volatile uint32_t *)0x4001203c)
-#define CLOCKS_SET_CLK_SYS_DIV (*(volatile uint32_t *)0x40012040)
-#define CLOCKS_SET_CLK_SYS_SELECTED (*(volatile uint32_t *)0x40012044)
-#define CLOCKS_SET_CLK_PERI_CTRL (*(volatile uint32_t *)0x40012048)
-#define CLOCKS_SET_CLK_PERI_DIV (*(volatile uint32_t *)0x4001204c)
-#define CLOCKS_SET_CLK_PERI_SELECTED (*(volatile uint32_t *)0x40012050)
-#define CLOCKS_SET_CLK_HSTX_CTRL (*(volatile uint32_t *)0x40012054)
-#define CLOCKS_SET_CLK_HSTX_DIV (*(volatile uint32_t *)0x40012058)
-#define CLOCKS_SET_CLK_HSTX_SELECTED (*(volatile uint32_t *)0x4001205c)
-#define CLOCKS_SET_CLK_USB_CTRL (*(volatile uint32_t *)0x40012060)
-#define CLOCKS_SET_CLK_USB_DIV (*(volatile uint32_t *)0x40012064)
-#define CLOCKS_SET_CLK_USB_SELECTED (*(volatile uint32_t *)0x40012068)
-#define CLOCKS_SET_CLK_ADC_CTRL (*(volatile uint32_t *)0x4001206c)
-#define CLOCKS_SET_CLK_ADC_DIV (*(volatile uint32_t *)0x40012070)
-#define CLOCKS_SET_CLK_ADC_SELECTED (*(volatile uint32_t *)0x40012074)
-#define CLOCKS_SET_DFTCLK_XOSC_CTRL (*(volatile uint32_t *)0x40012078)
-#define CLOCKS_SET_DFTCLK_ROSC_CTRL (*(volatile uint32_t *)0x4001207c)
-#define CLOCKS_SET_DFTCLK_LPOSC_CTRL (*(volatile uint32_t *)0x40012080)
-#define CLOCKS_SET_CLK_SYS_RESUS_CTRL (*(volatile uint32_t *)0x40012084)
-#define CLOCKS_SET_CLK_SYS_RESUS_STATUS (*(volatile uint32_t *)0x40012088)
-#define CLOCKS_SET_FC0_REF_KHZ (*(volatile uint32_t *)0x4001208c)
-#define CLOCKS_SET_FC0_MIN_KHZ (*(volatile uint32_t *)0x40012090)
-#define CLOCKS_SET_FC0_MAX_KHZ (*(volatile uint32_t *)0x40012094)
-#define CLOCKS_SET_FC0_DELAY (*(volatile uint32_t *)0x40012098)
-#define CLOCKS_SET_FC0_INTERVAL (*(volatile uint32_t *)0x4001209c)
-#define CLOCKS_SET_FC0_SRC (*(volatile uint32_t *)0x400120a0)
-#define CLOCKS_SET_FC0_STATUS (*(volatile uint32_t *)0x400120a4)
-#define CLOCKS_SET_FC0_RESULT (*(volatile uint32_t *)0x400120a8)
-#define CLOCKS_SET_WAKE_EN0 (*(volatile uint32_t *)0x400120ac)
-#define CLOCKS_SET_WAKE_EN1 (*(volatile uint32_t *)0x400120b0)
-#define CLOCKS_SET_SLEEP_EN0 (*(volatile uint32_t *)0x400120b4)
-#define CLOCKS_SET_SLEEP_EN1 (*(volatile uint32_t *)0x400120b8)
-#define CLOCKS_SET_ENABLED0 (*(volatile uint32_t *)0x400120bc)
-#define CLOCKS_SET_ENABLED1 (*(volatile uint32_t *)0x400120c0)
-#define CLOCKS_SET_INTR (*(volatile uint32_t *)0x400120c4)
-#define CLOCKS_SET_INTE (*(volatile uint32_t *)0x400120c8)
-#define CLOCKS_SET_INTF (*(volatile uint32_t *)0x400120cc)
-#define CLOCKS_SET_INTS (*(volatile uint32_t *)0x400120d0)
-#define CLOCKS_CLR_CLK_GPOUT0_CTRL (*(volatile uint32_t *)0x40013000)
-#define CLOCKS_CLR_CLK_GPOUT0_DIV (*(volatile uint32_t *)0x40013004)
-#define CLOCKS_CLR_CLK_GPOUT0_SELECTED (*(volatile uint32_t *)0x40013008)
-#define CLOCKS_CLR_CLK_GPOUT1_CTRL (*(volatile uint32_t *)0x4001300c)
-#define CLOCKS_CLR_CLK_GPOUT1_DIV (*(volatile uint32_t *)0x40013010)
-#define CLOCKS_CLR_CLK_GPOUT1_SELECTED (*(volatile uint32_t *)0x40013014)
-#define CLOCKS_CLR_CLK_GPOUT2_CTRL (*(volatile uint32_t *)0x40013018)
-#define CLOCKS_CLR_CLK_GPOUT2_DIV (*(volatile uint32_t *)0x4001301c)
-#define CLOCKS_CLR_CLK_GPOUT2_SELECTED (*(volatile uint32_t *)0x40013020)
-#define CLOCKS_CLR_CLK_GPOUT3_CTRL (*(volatile uint32_t *)0x40013024)
-#define CLOCKS_CLR_CLK_GPOUT3_DIV (*(volatile uint32_t *)0x40013028)
-#define CLOCKS_CLR_CLK_GPOUT3_SELECTED (*(volatile uint32_t *)0x4001302c)
-#define CLOCKS_CLR_CLK_REF_CTRL (*(volatile uint32_t *)0x40013030)
-#define CLOCKS_CLR_CLK_REF_DIV (*(volatile uint32_t *)0x40013034)
-#define CLOCKS_CLR_CLK_REF_SELECTED (*(volatile uint32_t *)0x40013038)
-#define CLOCKS_CLR_CLK_SYS_CTRL (*(volatile uint32_t *)0x4001303c)
-#define CLOCKS_CLR_CLK_SYS_DIV (*(volatile uint32_t *)0x40013040)
-#define CLOCKS_CLR_CLK_SYS_SELECTED (*(volatile uint32_t *)0x40013044)
-#define CLOCKS_CLR_CLK_PERI_CTRL (*(volatile uint32_t *)0x40013048)
-#define CLOCKS_CLR_CLK_PERI_DIV (*(volatile uint32_t *)0x4001304c)
-#define CLOCKS_CLR_CLK_PERI_SELECTED (*(volatile uint32_t *)0x40013050)
-#define CLOCKS_CLR_CLK_HSTX_CTRL (*(volatile uint32_t *)0x40013054)
-#define CLOCKS_CLR_CLK_HSTX_DIV (*(volatile uint32_t *)0x40013058)
-#define CLOCKS_CLR_CLK_HSTX_SELECTED (*(volatile uint32_t *)0x4001305c)
-#define CLOCKS_CLR_CLK_USB_CTRL (*(volatile uint32_t *)0x40013060)
-#define CLOCKS_CLR_CLK_USB_DIV (*(volatile uint32_t *)0x40013064)
-#define CLOCKS_CLR_CLK_USB_SELECTED (*(volatile uint32_t *)0x40013068)
-#define CLOCKS_CLR_CLK_ADC_CTRL (*(volatile uint32_t *)0x4001306c)
-#define CLOCKS_CLR_CLK_ADC_DIV (*(volatile uint32_t *)0x40013070)
-#define CLOCKS_CLR_CLK_ADC_SELECTED (*(volatile uint32_t *)0x40013074)
-#define CLOCKS_CLR_DFTCLK_XOSC_CTRL (*(volatile uint32_t *)0x40013078)
-#define CLOCKS_CLR_DFTCLK_ROSC_CTRL (*(volatile uint32_t *)0x4001307c)
-#define CLOCKS_CLR_DFTCLK_LPOSC_CTRL (*(volatile uint32_t *)0x40013080)
-#define CLOCKS_CLR_CLK_SYS_RESUS_CTRL (*(volatile uint32_t *)0x40013084)
-#define CLOCKS_CLR_CLK_SYS_RESUS_STATUS (*(volatile uint32_t *)0x40013088)
-#define CLOCKS_CLR_FC0_REF_KHZ (*(volatile uint32_t *)0x4001308c)
-#define CLOCKS_CLR_FC0_MIN_KHZ (*(volatile uint32_t *)0x40013090)
-#define CLOCKS_CLR_FC0_MAX_KHZ (*(volatile uint32_t *)0x40013094)
-#define CLOCKS_CLR_FC0_DELAY (*(volatile uint32_t *)0x40013098)
-#define CLOCKS_CLR_FC0_INTERVAL (*(volatile uint32_t *)0x4001309c)
-#define CLOCKS_CLR_FC0_SRC (*(volatile uint32_t *)0x400130a0)
-#define CLOCKS_CLR_FC0_STATUS (*(volatile uint32_t *)0x400130a4)
-#define CLOCKS_CLR_FC0_RESULT (*(volatile uint32_t *)0x400130a8)
-#define CLOCKS_CLR_WAKE_EN0 (*(volatile uint32_t *)0x400130ac)
-#define CLOCKS_CLR_WAKE_EN1 (*(volatile uint32_t *)0x400130b0)
-#define CLOCKS_CLR_SLEEP_EN0 (*(volatile uint32_t *)0x400130b4)
-#define CLOCKS_CLR_SLEEP_EN1 (*(volatile uint32_t *)0x400130b8)
-#define CLOCKS_CLR_ENABLED0 (*(volatile uint32_t *)0x400130bc)
-#define CLOCKS_CLR_ENABLED1 (*(volatile uint32_t *)0x400130c0)
-#define CLOCKS_CLR_INTR (*(volatile uint32_t *)0x400130c4)
-#define CLOCKS_CLR_INTE (*(volatile uint32_t *)0x400130c8)
-#define CLOCKS_CLR_INTF (*(volatile uint32_t *)0x400130cc)
-#define CLOCKS_CLR_INTS (*(volatile uint32_t *)0x400130d0)
+#define CLOCKS_CLK_GPOUT0_CTRL_XOR (*(volatile uint32_t *)0x40011000)
+#define CLOCKS_CLK_GPOUT0_DIV_XOR (*(volatile uint32_t *)0x40011004)
+#define CLOCKS_CLK_GPOUT0_SELECTED_XOR (*(volatile uint32_t *)0x40011008)
+#define CLOCKS_CLK_GPOUT1_CTRL_XOR (*(volatile uint32_t *)0x4001100c)
+#define CLOCKS_CLK_GPOUT1_DIV_XOR (*(volatile uint32_t *)0x40011010)
+#define CLOCKS_CLK_GPOUT1_SELECTED_XOR (*(volatile uint32_t *)0x40011014)
+#define CLOCKS_CLK_GPOUT2_CTRL_XOR (*(volatile uint32_t *)0x40011018)
+#define CLOCKS_CLK_GPOUT2_DIV_XOR (*(volatile uint32_t *)0x4001101c)
+#define CLOCKS_CLK_GPOUT2_SELECTED_XOR (*(volatile uint32_t *)0x40011020)
+#define CLOCKS_CLK_GPOUT3_CTRL_XOR (*(volatile uint32_t *)0x40011024)
+#define CLOCKS_CLK_GPOUT3_DIV_XOR (*(volatile uint32_t *)0x40011028)
+#define CLOCKS_CLK_GPOUT3_SELECTED_XOR (*(volatile uint32_t *)0x4001102c)
+#define CLOCKS_CLK_REF_CTRL_XOR (*(volatile uint32_t *)0x40011030)
+#define CLOCKS_CLK_REF_DIV_XOR (*(volatile uint32_t *)0x40011034)
+#define CLOCKS_CLK_REF_SELECTED_XOR (*(volatile uint32_t *)0x40011038)
+#define CLOCKS_CLK_SYS_CTRL_XOR (*(volatile uint32_t *)0x4001103c)
+#define CLOCKS_CLK_SYS_DIV_XOR (*(volatile uint32_t *)0x40011040)
+#define CLOCKS_CLK_SYS_SELECTED_XOR (*(volatile uint32_t *)0x40011044)
+#define CLOCKS_CLK_PERI_CTRL_XOR (*(volatile uint32_t *)0x40011048)
+#define CLOCKS_CLK_PERI_DIV_XOR (*(volatile uint32_t *)0x4001104c)
+#define CLOCKS_CLK_PERI_SELECTED_XOR (*(volatile uint32_t *)0x40011050)
+#define CLOCKS_CLK_HSTX_CTRL_XOR (*(volatile uint32_t *)0x40011054)
+#define CLOCKS_CLK_HSTX_DIV_XOR (*(volatile uint32_t *)0x40011058)
+#define CLOCKS_CLK_HSTX_SELECTED_XOR (*(volatile uint32_t *)0x4001105c)
+#define CLOCKS_CLK_USB_CTRL_XOR (*(volatile uint32_t *)0x40011060)
+#define CLOCKS_CLK_USB_DIV_XOR (*(volatile uint32_t *)0x40011064)
+#define CLOCKS_CLK_USB_SELECTED_XOR (*(volatile uint32_t *)0x40011068)
+#define CLOCKS_CLK_ADC_CTRL_XOR (*(volatile uint32_t *)0x4001106c)
+#define CLOCKS_CLK_ADC_DIV_XOR (*(volatile uint32_t *)0x40011070)
+#define CLOCKS_CLK_ADC_SELECTED_XOR (*(volatile uint32_t *)0x40011074)
+#define CLOCKS_DFTCLK_XOSC_CTRL_XOR (*(volatile uint32_t *)0x40011078)
+#define CLOCKS_DFTCLK_ROSC_CTRL_XOR (*(volatile uint32_t *)0x4001107c)
+#define CLOCKS_DFTCLK_LPOSC_CTRL_XOR (*(volatile uint32_t *)0x40011080)
+#define CLOCKS_CLK_SYS_RESUS_CTRL_XOR (*(volatile uint32_t *)0x40011084)
+#define CLOCKS_CLK_SYS_RESUS_STATUS_XOR (*(volatile uint32_t *)0x40011088)
+#define CLOCKS_FC0_REF_KHZ_XOR (*(volatile uint32_t *)0x4001108c)
+#define CLOCKS_FC0_MIN_KHZ_XOR (*(volatile uint32_t *)0x40011090)
+#define CLOCKS_FC0_MAX_KHZ_XOR (*(volatile uint32_t *)0x40011094)
+#define CLOCKS_FC0_DELAY_XOR (*(volatile uint32_t *)0x40011098)
+#define CLOCKS_FC0_INTERVAL_XOR (*(volatile uint32_t *)0x4001109c)
+#define CLOCKS_FC0_SRC_XOR (*(volatile uint32_t *)0x400110a0)
+#define CLOCKS_FC0_STATUS_XOR (*(volatile uint32_t *)0x400110a4)
+#define CLOCKS_FC0_RESULT_XOR (*(volatile uint32_t *)0x400110a8)
+#define CLOCKS_WAKE_EN0_XOR (*(volatile uint32_t *)0x400110ac)
+#define CLOCKS_WAKE_EN1_XOR (*(volatile uint32_t *)0x400110b0)
+#define CLOCKS_SLEEP_EN0_XOR (*(volatile uint32_t *)0x400110b4)
+#define CLOCKS_SLEEP_EN1_XOR (*(volatile uint32_t *)0x400110b8)
+#define CLOCKS_ENABLED0_XOR (*(volatile uint32_t *)0x400110bc)
+#define CLOCKS_ENABLED1_XOR (*(volatile uint32_t *)0x400110c0)
+#define CLOCKS_INTR_XOR (*(volatile uint32_t *)0x400110c4)
+#define CLOCKS_INTE_XOR (*(volatile uint32_t *)0x400110c8)
+#define CLOCKS_INTF_XOR (*(volatile uint32_t *)0x400110cc)
+#define CLOCKS_INTS_XOR (*(volatile uint32_t *)0x400110d0)
+#define CLOCKS_CLK_GPOUT0_CTRL_SET (*(volatile uint32_t *)0x40012000)
+#define CLOCKS_CLK_GPOUT0_DIV_SET (*(volatile uint32_t *)0x40012004)
+#define CLOCKS_CLK_GPOUT0_SELECTED_SET (*(volatile uint32_t *)0x40012008)
+#define CLOCKS_CLK_GPOUT1_CTRL_SET (*(volatile uint32_t *)0x4001200c)
+#define CLOCKS_CLK_GPOUT1_DIV_SET (*(volatile uint32_t *)0x40012010)
+#define CLOCKS_CLK_GPOUT1_SELECTED_SET (*(volatile uint32_t *)0x40012014)
+#define CLOCKS_CLK_GPOUT2_CTRL_SET (*(volatile uint32_t *)0x40012018)
+#define CLOCKS_CLK_GPOUT2_DIV_SET (*(volatile uint32_t *)0x4001201c)
+#define CLOCKS_CLK_GPOUT2_SELECTED_SET (*(volatile uint32_t *)0x40012020)
+#define CLOCKS_CLK_GPOUT3_CTRL_SET (*(volatile uint32_t *)0x40012024)
+#define CLOCKS_CLK_GPOUT3_DIV_SET (*(volatile uint32_t *)0x40012028)
+#define CLOCKS_CLK_GPOUT3_SELECTED_SET (*(volatile uint32_t *)0x4001202c)
+#define CLOCKS_CLK_REF_CTRL_SET (*(volatile uint32_t *)0x40012030)
+#define CLOCKS_CLK_REF_DIV_SET (*(volatile uint32_t *)0x40012034)
+#define CLOCKS_CLK_REF_SELECTED_SET (*(volatile uint32_t *)0x40012038)
+#define CLOCKS_CLK_SYS_CTRL_SET (*(volatile uint32_t *)0x4001203c)
+#define CLOCKS_CLK_SYS_DIV_SET (*(volatile uint32_t *)0x40012040)
+#define CLOCKS_CLK_SYS_SELECTED_SET (*(volatile uint32_t *)0x40012044)
+#define CLOCKS_CLK_PERI_CTRL_SET (*(volatile uint32_t *)0x40012048)
+#define CLOCKS_CLK_PERI_DIV_SET (*(volatile uint32_t *)0x4001204c)
+#define CLOCKS_CLK_PERI_SELECTED_SET (*(volatile uint32_t *)0x40012050)
+#define CLOCKS_CLK_HSTX_CTRL_SET (*(volatile uint32_t *)0x40012054)
+#define CLOCKS_CLK_HSTX_DIV_SET (*(volatile uint32_t *)0x40012058)
+#define CLOCKS_CLK_HSTX_SELECTED_SET (*(volatile uint32_t *)0x4001205c)
+#define CLOCKS_CLK_USB_CTRL_SET (*(volatile uint32_t *)0x40012060)
+#define CLOCKS_CLK_USB_DIV_SET (*(volatile uint32_t *)0x40012064)
+#define CLOCKS_CLK_USB_SELECTED_SET (*(volatile uint32_t *)0x40012068)
+#define CLOCKS_CLK_ADC_CTRL_SET (*(volatile uint32_t *)0x4001206c)
+#define CLOCKS_CLK_ADC_DIV_SET (*(volatile uint32_t *)0x40012070)
+#define CLOCKS_CLK_ADC_SELECTED_SET (*(volatile uint32_t *)0x40012074)
+#define CLOCKS_DFTCLK_XOSC_CTRL_SET (*(volatile uint32_t *)0x40012078)
+#define CLOCKS_DFTCLK_ROSC_CTRL_SET (*(volatile uint32_t *)0x4001207c)
+#define CLOCKS_DFTCLK_LPOSC_CTRL_SET (*(volatile uint32_t *)0x40012080)
+#define CLOCKS_CLK_SYS_RESUS_CTRL_SET (*(volatile uint32_t *)0x40012084)
+#define CLOCKS_CLK_SYS_RESUS_STATUS_SET (*(volatile uint32_t *)0x40012088)
+#define CLOCKS_FC0_REF_KHZ_SET (*(volatile uint32_t *)0x4001208c)
+#define CLOCKS_FC0_MIN_KHZ_SET (*(volatile uint32_t *)0x40012090)
+#define CLOCKS_FC0_MAX_KHZ_SET (*(volatile uint32_t *)0x40012094)
+#define CLOCKS_FC0_DELAY_SET (*(volatile uint32_t *)0x40012098)
+#define CLOCKS_FC0_INTERVAL_SET (*(volatile uint32_t *)0x4001209c)
+#define CLOCKS_FC0_SRC_SET (*(volatile uint32_t *)0x400120a0)
+#define CLOCKS_FC0_STATUS_SET (*(volatile uint32_t *)0x400120a4)
+#define CLOCKS_FC0_RESULT_SET (*(volatile uint32_t *)0x400120a8)
+#define CLOCKS_WAKE_EN0_SET (*(volatile uint32_t *)0x400120ac)
+#define CLOCKS_WAKE_EN1_SET (*(volatile uint32_t *)0x400120b0)
+#define CLOCKS_SLEEP_EN0_SET (*(volatile uint32_t *)0x400120b4)
+#define CLOCKS_SLEEP_EN1_SET (*(volatile uint32_t *)0x400120b8)
+#define CLOCKS_ENABLED0_SET (*(volatile uint32_t *)0x400120bc)
+#define CLOCKS_ENABLED1_SET (*(volatile uint32_t *)0x400120c0)
+#define CLOCKS_INTR_SET (*(volatile uint32_t *)0x400120c4)
+#define CLOCKS_INTE_SET (*(volatile uint32_t *)0x400120c8)
+#define CLOCKS_INTF_SET (*(volatile uint32_t *)0x400120cc)
+#define CLOCKS_INTS_SET (*(volatile uint32_t *)0x400120d0)
+#define CLOCKS_CLK_GPOUT0_CTRL_CLR (*(volatile uint32_t *)0x40013000)
+#define CLOCKS_CLK_GPOUT0_DIV_CLR (*(volatile uint32_t *)0x40013004)
+#define CLOCKS_CLK_GPOUT0_SELECTED_CLR (*(volatile uint32_t *)0x40013008)
+#define CLOCKS_CLK_GPOUT1_CTRL_CLR (*(volatile uint32_t *)0x4001300c)
+#define CLOCKS_CLK_GPOUT1_DIV_CLR (*(volatile uint32_t *)0x40013010)
+#define CLOCKS_CLK_GPOUT1_SELECTED_CLR (*(volatile uint32_t *)0x40013014)
+#define CLOCKS_CLK_GPOUT2_CTRL_CLR (*(volatile uint32_t *)0x40013018)
+#define CLOCKS_CLK_GPOUT2_DIV_CLR (*(volatile uint32_t *)0x4001301c)
+#define CLOCKS_CLK_GPOUT2_SELECTED_CLR (*(volatile uint32_t *)0x40013020)
+#define CLOCKS_CLK_GPOUT3_CTRL_CLR (*(volatile uint32_t *)0x40013024)
+#define CLOCKS_CLK_GPOUT3_DIV_CLR (*(volatile uint32_t *)0x40013028)
+#define CLOCKS_CLK_GPOUT3_SELECTED_CLR (*(volatile uint32_t *)0x4001302c)
+#define CLOCKS_CLK_REF_CTRL_CLR (*(volatile uint32_t *)0x40013030)
+#define CLOCKS_CLK_REF_DIV_CLR (*(volatile uint32_t *)0x40013034)
+#define CLOCKS_CLK_REF_SELECTED_CLR (*(volatile uint32_t *)0x40013038)
+#define CLOCKS_CLK_SYS_CTRL_CLR (*(volatile uint32_t *)0x4001303c)
+#define CLOCKS_CLK_SYS_DIV_CLR (*(volatile uint32_t *)0x40013040)
+#define CLOCKS_CLK_SYS_SELECTED_CLR (*(volatile uint32_t *)0x40013044)
+#define CLOCKS_CLK_PERI_CTRL_CLR (*(volatile uint32_t *)0x40013048)
+#define CLOCKS_CLK_PERI_DIV_CLR (*(volatile uint32_t *)0x4001304c)
+#define CLOCKS_CLK_PERI_SELECTED_CLR (*(volatile uint32_t *)0x40013050)
+#define CLOCKS_CLK_HSTX_CTRL_CLR (*(volatile uint32_t *)0x40013054)
+#define CLOCKS_CLK_HSTX_DIV_CLR (*(volatile uint32_t *)0x40013058)
+#define CLOCKS_CLK_HSTX_SELECTED_CLR (*(volatile uint32_t *)0x4001305c)
+#define CLOCKS_CLK_USB_CTRL_CLR (*(volatile uint32_t *)0x40013060)
+#define CLOCKS_CLK_USB_DIV_CLR (*(volatile uint32_t *)0x40013064)
+#define CLOCKS_CLK_USB_SELECTED_CLR (*(volatile uint32_t *)0x40013068)
+#define CLOCKS_CLK_ADC_CTRL_CLR (*(volatile uint32_t *)0x4001306c)
+#define CLOCKS_CLK_ADC_DIV_CLR (*(volatile uint32_t *)0x40013070)
+#define CLOCKS_CLK_ADC_SELECTED_CLR (*(volatile uint32_t *)0x40013074)
+#define CLOCKS_DFTCLK_XOSC_CTRL_CLR (*(volatile uint32_t *)0x40013078)
+#define CLOCKS_DFTCLK_ROSC_CTRL_CLR (*(volatile uint32_t *)0x4001307c)
+#define CLOCKS_DFTCLK_LPOSC_CTRL_CLR (*(volatile uint32_t *)0x40013080)
+#define CLOCKS_CLK_SYS_RESUS_CTRL_CLR (*(volatile uint32_t *)0x40013084)
+#define CLOCKS_CLK_SYS_RESUS_STATUS_CLR (*(volatile uint32_t *)0x40013088)
+#define CLOCKS_FC0_REF_KHZ_CLR (*(volatile uint32_t *)0x4001308c)
+#define CLOCKS_FC0_MIN_KHZ_CLR (*(volatile uint32_t *)0x40013090)
+#define CLOCKS_FC0_MAX_KHZ_CLR (*(volatile uint32_t *)0x40013094)
+#define CLOCKS_FC0_DELAY_CLR (*(volatile uint32_t *)0x40013098)
+#define CLOCKS_FC0_INTERVAL_CLR (*(volatile uint32_t *)0x4001309c)
+#define CLOCKS_FC0_SRC_CLR (*(volatile uint32_t *)0x400130a0)
+#define CLOCKS_FC0_STATUS_CLR (*(volatile uint32_t *)0x400130a4)
+#define CLOCKS_FC0_RESULT_CLR (*(volatile uint32_t *)0x400130a8)
+#define CLOCKS_WAKE_EN0_CLR (*(volatile uint32_t *)0x400130ac)
+#define CLOCKS_WAKE_EN1_CLR (*(volatile uint32_t *)0x400130b0)
+#define CLOCKS_SLEEP_EN0_CLR (*(volatile uint32_t *)0x400130b4)
+#define CLOCKS_SLEEP_EN1_CLR (*(volatile uint32_t *)0x400130b8)
+#define CLOCKS_ENABLED0_CLR (*(volatile uint32_t *)0x400130bc)
+#define CLOCKS_ENABLED1_CLR (*(volatile uint32_t *)0x400130c0)
+#define CLOCKS_INTR_CLR (*(volatile uint32_t *)0x400130c4)
+#define CLOCKS_INTE_CLR (*(volatile uint32_t *)0x400130c8)
+#define CLOCKS_INTF_CLR (*(volatile uint32_t *)0x400130cc)
+#define CLOCKS_INTS_CLR (*(volatile uint32_t *)0x400130d0)
 
 /*CLK_GPOUT0_CTRL Register macros*/
 

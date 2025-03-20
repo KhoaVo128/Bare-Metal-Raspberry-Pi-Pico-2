@@ -36,20 +36,20 @@ typedef struct{
 		uint32_t wdsel;
 		uint32_t done;
 		uint32_t RSVD0[1020];
-		uint32_t xor_frce_on;
-		uint32_t xor_frce_off;
-		uint32_t xor_wdsel;
-		uint32_t xor_done;
+		uint32_t frce_on_xor;
+		uint32_t frce_off_xor;
+		uint32_t wdsel_xor;
+		uint32_t done_xor;
 		uint32_t RSVDxor_0[1020];
-		uint32_t set_frce_on;
-		uint32_t set_frce_off;
-		uint32_t set_wdsel;
-		uint32_t set_done;
+		uint32_t frce_on_set;
+		uint32_t frce_off_set;
+		uint32_t wdsel_set;
+		uint32_t done_set;
 		uint32_t RSVDset_0[1020];
-		uint32_t clr_frce_on;
-		uint32_t clr_frce_off;
-		uint32_t clr_wdsel;
-		uint32_t clr_done;
+		uint32_t frce_on_clr;
+		uint32_t frce_off_clr;
+		uint32_t wdsel_clr;
+		uint32_t done_clr;
 		uint32_t RSVDclr_0[1020];
 } PSM_REG_BLOCKS;
 
@@ -65,18 +65,18 @@ typedef struct{
 #define PSM_FRCE_OFF (*(volatile uint32_t *)0x40018004)
 #define PSM_WDSEL (*(volatile uint32_t *)0x40018008)
 #define PSM_DONE (*(volatile uint32_t *)0x4001800c)
-#define PSM_XOR_FRCE_ON (*(volatile uint32_t *)0x40019000)
-#define PSM_XOR_FRCE_OFF (*(volatile uint32_t *)0x40019004)
-#define PSM_XOR_WDSEL (*(volatile uint32_t *)0x40019008)
-#define PSM_XOR_DONE (*(volatile uint32_t *)0x4001900c)
-#define PSM_SET_FRCE_ON (*(volatile uint32_t *)0x4001a000)
-#define PSM_SET_FRCE_OFF (*(volatile uint32_t *)0x4001a004)
-#define PSM_SET_WDSEL (*(volatile uint32_t *)0x4001a008)
-#define PSM_SET_DONE (*(volatile uint32_t *)0x4001a00c)
-#define PSM_CLR_FRCE_ON (*(volatile uint32_t *)0x4001b000)
-#define PSM_CLR_FRCE_OFF (*(volatile uint32_t *)0x4001b004)
-#define PSM_CLR_WDSEL (*(volatile uint32_t *)0x4001b008)
-#define PSM_CLR_DONE (*(volatile uint32_t *)0x4001b00c)
+#define PSM_FRCE_ON_XOR (*(volatile uint32_t *)0x40019000)
+#define PSM_FRCE_OFF_XOR (*(volatile uint32_t *)0x40019004)
+#define PSM_WDSEL_XOR (*(volatile uint32_t *)0x40019008)
+#define PSM_DONE_XOR (*(volatile uint32_t *)0x4001900c)
+#define PSM_FRCE_ON_SET (*(volatile uint32_t *)0x4001a000)
+#define PSM_FRCE_OFF_SET (*(volatile uint32_t *)0x4001a004)
+#define PSM_WDSEL_SET (*(volatile uint32_t *)0x4001a008)
+#define PSM_DONE_SET (*(volatile uint32_t *)0x4001a00c)
+#define PSM_FRCE_ON_CLR (*(volatile uint32_t *)0x4001b000)
+#define PSM_FRCE_OFF_CLR (*(volatile uint32_t *)0x4001b004)
+#define PSM_WDSEL_CLR (*(volatile uint32_t *)0x4001b008)
+#define PSM_DONE_CLR (*(volatile uint32_t *)0x4001b00c)
 
 /*FRCE_ON Register macros*/
 

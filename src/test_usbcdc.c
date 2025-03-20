@@ -4,9 +4,9 @@ int main()
 	char c;
 	char prompt[]="Program will echo back each typed key\n\n\r";
 
-	asm volatile ("cpsid i");
+	__asm__ volatile ("cpsid i");
 	configure_usbcdc();
-	asm volatile ("cpsie i");
+	__asm__ volatile ("cpsie i");
 
 	while(!usbcdc_getchar(&c) )
 		continue;

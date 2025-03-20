@@ -91,185 +91,185 @@ typedef struct{
 		uint32_t xip_qmi;
 		uint32_t xip_aux;
 		uint32_t RSVD0[965];
-		uint32_t xor_lock;
-		uint32_t xor_force_core_ns;
-		uint32_t xor_cfgreset;
-		uint32_t xor_gpio_nsmask0;
-		uint32_t xor_gpio_nsmask1;
-		uint32_t xor_rom;
-		uint32_t xor_xip_main;
-		uint32_t xor_sram0;
-		uint32_t xor_sram1;
-		uint32_t xor_sram2;
-		uint32_t xor_sram3;
-		uint32_t xor_sram4;
-		uint32_t xor_sram5;
-		uint32_t xor_sram6;
-		uint32_t xor_sram7;
-		uint32_t xor_sram8;
-		uint32_t xor_sram9;
-		uint32_t xor_dma;
-		uint32_t xor_usbctrl;
-		uint32_t xor_pio0;
-		uint32_t xor_pio1;
-		uint32_t xor_pio2;
-		uint32_t xor_coresight_trace;
-		uint32_t xor_coresight_periph;
-		uint32_t xor_sysinfo;
-		uint32_t xor_resets;
-		uint32_t xor_io_bank0;
-		uint32_t xor_io_bank1;
-		uint32_t xor_pads_bank0;
-		uint32_t xor_pads_qspi;
-		uint32_t xor_busctrl;
-		uint32_t xor_adc0;
-		uint32_t xor_hstx;
-		uint32_t xor_i2c0;
-		uint32_t xor_i2c1;
-		uint32_t xor_pwm;
-		uint32_t xor_spi0;
-		uint32_t xor_spi1;
-		uint32_t xor_timer0;
-		uint32_t xor_timer1;
-		uint32_t xor_uart0;
-		uint32_t xor_uart1;
-		uint32_t xor_otp;
-		uint32_t xor_tbman;
-		uint32_t xor_powman;
-		uint32_t xor_trng;
-		uint32_t xor_sha256;
-		uint32_t xor_syscfg;
-		uint32_t xor_clocks;
-		uint32_t xor_xosc;
-		uint32_t xor_rosc;
-		uint32_t xor_pll_sys;
-		uint32_t xor_pll_usb;
-		uint32_t xor_ticks;
-		uint32_t xor_watchdog;
-		uint32_t xor_rsm;
-		uint32_t xor_xip_ctrl;
-		uint32_t xor_xip_qmi;
-		uint32_t xor_xip_aux;
+		uint32_t lock_xor;
+		uint32_t force_core_ns_xor;
+		uint32_t cfgreset_xor;
+		uint32_t gpio_nsmask0_xor;
+		uint32_t gpio_nsmask1_xor;
+		uint32_t rom_xor;
+		uint32_t xip_main_xor;
+		uint32_t sram0_xor;
+		uint32_t sram1_xor;
+		uint32_t sram2_xor;
+		uint32_t sram3_xor;
+		uint32_t sram4_xor;
+		uint32_t sram5_xor;
+		uint32_t sram6_xor;
+		uint32_t sram7_xor;
+		uint32_t sram8_xor;
+		uint32_t sram9_xor;
+		uint32_t dma_xor;
+		uint32_t usbctrl_xor;
+		uint32_t pio0_xor;
+		uint32_t pio1_xor;
+		uint32_t pio2_xor;
+		uint32_t coresight_trace_xor;
+		uint32_t coresight_periph_xor;
+		uint32_t sysinfo_xor;
+		uint32_t resets_xor;
+		uint32_t io_bank0_xor;
+		uint32_t io_bank1_xor;
+		uint32_t pads_bank0_xor;
+		uint32_t pads_qspi_xor;
+		uint32_t busctrl_xor;
+		uint32_t adc0_xor;
+		uint32_t hstx_xor;
+		uint32_t i2c0_xor;
+		uint32_t i2c1_xor;
+		uint32_t pwm_xor;
+		uint32_t spi0_xor;
+		uint32_t spi1_xor;
+		uint32_t timer0_xor;
+		uint32_t timer1_xor;
+		uint32_t uart0_xor;
+		uint32_t uart1_xor;
+		uint32_t otp_xor;
+		uint32_t tbman_xor;
+		uint32_t powman_xor;
+		uint32_t trng_xor;
+		uint32_t sha256_xor;
+		uint32_t syscfg_xor;
+		uint32_t clocks_xor;
+		uint32_t xosc_xor;
+		uint32_t rosc_xor;
+		uint32_t pll_sys_xor;
+		uint32_t pll_usb_xor;
+		uint32_t ticks_xor;
+		uint32_t watchdog_xor;
+		uint32_t rsm_xor;
+		uint32_t xip_ctrl_xor;
+		uint32_t xip_qmi_xor;
+		uint32_t xip_aux_xor;
 		uint32_t RSVDxor_0[965];
-		uint32_t set_lock;
-		uint32_t set_force_core_ns;
-		uint32_t set_cfgreset;
-		uint32_t set_gpio_nsmask0;
-		uint32_t set_gpio_nsmask1;
-		uint32_t set_rom;
-		uint32_t set_xip_main;
-		uint32_t set_sram0;
-		uint32_t set_sram1;
-		uint32_t set_sram2;
-		uint32_t set_sram3;
-		uint32_t set_sram4;
-		uint32_t set_sram5;
-		uint32_t set_sram6;
-		uint32_t set_sram7;
-		uint32_t set_sram8;
-		uint32_t set_sram9;
-		uint32_t set_dma;
-		uint32_t set_usbctrl;
-		uint32_t set_pio0;
-		uint32_t set_pio1;
-		uint32_t set_pio2;
-		uint32_t set_coresight_trace;
-		uint32_t set_coresight_periph;
-		uint32_t set_sysinfo;
-		uint32_t set_resets;
-		uint32_t set_io_bank0;
-		uint32_t set_io_bank1;
-		uint32_t set_pads_bank0;
-		uint32_t set_pads_qspi;
-		uint32_t set_busctrl;
-		uint32_t set_adc0;
-		uint32_t set_hstx;
-		uint32_t set_i2c0;
-		uint32_t set_i2c1;
-		uint32_t set_pwm;
-		uint32_t set_spi0;
-		uint32_t set_spi1;
-		uint32_t set_timer0;
-		uint32_t set_timer1;
-		uint32_t set_uart0;
-		uint32_t set_uart1;
-		uint32_t set_otp;
-		uint32_t set_tbman;
-		uint32_t set_powman;
-		uint32_t set_trng;
-		uint32_t set_sha256;
-		uint32_t set_syscfg;
-		uint32_t set_clocks;
-		uint32_t set_xosc;
-		uint32_t set_rosc;
-		uint32_t set_pll_sys;
-		uint32_t set_pll_usb;
-		uint32_t set_ticks;
-		uint32_t set_watchdog;
-		uint32_t set_rsm;
-		uint32_t set_xip_ctrl;
-		uint32_t set_xip_qmi;
-		uint32_t set_xip_aux;
+		uint32_t lock_set;
+		uint32_t force_core_ns_set;
+		uint32_t cfgreset_set;
+		uint32_t gpio_nsmask0_set;
+		uint32_t gpio_nsmask1_set;
+		uint32_t rom_set;
+		uint32_t xip_main_set;
+		uint32_t sram0_set;
+		uint32_t sram1_set;
+		uint32_t sram2_set;
+		uint32_t sram3_set;
+		uint32_t sram4_set;
+		uint32_t sram5_set;
+		uint32_t sram6_set;
+		uint32_t sram7_set;
+		uint32_t sram8_set;
+		uint32_t sram9_set;
+		uint32_t dma_set;
+		uint32_t usbctrl_set;
+		uint32_t pio0_set;
+		uint32_t pio1_set;
+		uint32_t pio2_set;
+		uint32_t coresight_trace_set;
+		uint32_t coresight_periph_set;
+		uint32_t sysinfo_set;
+		uint32_t resets_set;
+		uint32_t io_bank0_set;
+		uint32_t io_bank1_set;
+		uint32_t pads_bank0_set;
+		uint32_t pads_qspi_set;
+		uint32_t busctrl_set;
+		uint32_t adc0_set;
+		uint32_t hstx_set;
+		uint32_t i2c0_set;
+		uint32_t i2c1_set;
+		uint32_t pwm_set;
+		uint32_t spi0_set;
+		uint32_t spi1_set;
+		uint32_t timer0_set;
+		uint32_t timer1_set;
+		uint32_t uart0_set;
+		uint32_t uart1_set;
+		uint32_t otp_set;
+		uint32_t tbman_set;
+		uint32_t powman_set;
+		uint32_t trng_set;
+		uint32_t sha256_set;
+		uint32_t syscfg_set;
+		uint32_t clocks_set;
+		uint32_t xosc_set;
+		uint32_t rosc_set;
+		uint32_t pll_sys_set;
+		uint32_t pll_usb_set;
+		uint32_t ticks_set;
+		uint32_t watchdog_set;
+		uint32_t rsm_set;
+		uint32_t xip_ctrl_set;
+		uint32_t xip_qmi_set;
+		uint32_t xip_aux_set;
 		uint32_t RSVDset_0[965];
-		uint32_t clr_lock;
-		uint32_t clr_force_core_ns;
-		uint32_t clr_cfgreset;
-		uint32_t clr_gpio_nsmask0;
-		uint32_t clr_gpio_nsmask1;
-		uint32_t clr_rom;
-		uint32_t clr_xip_main;
-		uint32_t clr_sram0;
-		uint32_t clr_sram1;
-		uint32_t clr_sram2;
-		uint32_t clr_sram3;
-		uint32_t clr_sram4;
-		uint32_t clr_sram5;
-		uint32_t clr_sram6;
-		uint32_t clr_sram7;
-		uint32_t clr_sram8;
-		uint32_t clr_sram9;
-		uint32_t clr_dma;
-		uint32_t clr_usbctrl;
-		uint32_t clr_pio0;
-		uint32_t clr_pio1;
-		uint32_t clr_pio2;
-		uint32_t clr_coresight_trace;
-		uint32_t clr_coresight_periph;
-		uint32_t clr_sysinfo;
-		uint32_t clr_resets;
-		uint32_t clr_io_bank0;
-		uint32_t clr_io_bank1;
-		uint32_t clr_pads_bank0;
-		uint32_t clr_pads_qspi;
-		uint32_t clr_busctrl;
-		uint32_t clr_adc0;
-		uint32_t clr_hstx;
-		uint32_t clr_i2c0;
-		uint32_t clr_i2c1;
-		uint32_t clr_pwm;
-		uint32_t clr_spi0;
-		uint32_t clr_spi1;
-		uint32_t clr_timer0;
-		uint32_t clr_timer1;
-		uint32_t clr_uart0;
-		uint32_t clr_uart1;
-		uint32_t clr_otp;
-		uint32_t clr_tbman;
-		uint32_t clr_powman;
-		uint32_t clr_trng;
-		uint32_t clr_sha256;
-		uint32_t clr_syscfg;
-		uint32_t clr_clocks;
-		uint32_t clr_xosc;
-		uint32_t clr_rosc;
-		uint32_t clr_pll_sys;
-		uint32_t clr_pll_usb;
-		uint32_t clr_ticks;
-		uint32_t clr_watchdog;
-		uint32_t clr_rsm;
-		uint32_t clr_xip_ctrl;
-		uint32_t clr_xip_qmi;
-		uint32_t clr_xip_aux;
+		uint32_t lock_clr;
+		uint32_t force_core_ns_clr;
+		uint32_t cfgreset_clr;
+		uint32_t gpio_nsmask0_clr;
+		uint32_t gpio_nsmask1_clr;
+		uint32_t rom_clr;
+		uint32_t xip_main_clr;
+		uint32_t sram0_clr;
+		uint32_t sram1_clr;
+		uint32_t sram2_clr;
+		uint32_t sram3_clr;
+		uint32_t sram4_clr;
+		uint32_t sram5_clr;
+		uint32_t sram6_clr;
+		uint32_t sram7_clr;
+		uint32_t sram8_clr;
+		uint32_t sram9_clr;
+		uint32_t dma_clr;
+		uint32_t usbctrl_clr;
+		uint32_t pio0_clr;
+		uint32_t pio1_clr;
+		uint32_t pio2_clr;
+		uint32_t coresight_trace_clr;
+		uint32_t coresight_periph_clr;
+		uint32_t sysinfo_clr;
+		uint32_t resets_clr;
+		uint32_t io_bank0_clr;
+		uint32_t io_bank1_clr;
+		uint32_t pads_bank0_clr;
+		uint32_t pads_qspi_clr;
+		uint32_t busctrl_clr;
+		uint32_t adc0_clr;
+		uint32_t hstx_clr;
+		uint32_t i2c0_clr;
+		uint32_t i2c1_clr;
+		uint32_t pwm_clr;
+		uint32_t spi0_clr;
+		uint32_t spi1_clr;
+		uint32_t timer0_clr;
+		uint32_t timer1_clr;
+		uint32_t uart0_clr;
+		uint32_t uart1_clr;
+		uint32_t otp_clr;
+		uint32_t tbman_clr;
+		uint32_t powman_clr;
+		uint32_t trng_clr;
+		uint32_t sha256_clr;
+		uint32_t syscfg_clr;
+		uint32_t clocks_clr;
+		uint32_t xosc_clr;
+		uint32_t rosc_clr;
+		uint32_t pll_sys_clr;
+		uint32_t pll_usb_clr;
+		uint32_t ticks_clr;
+		uint32_t watchdog_clr;
+		uint32_t rsm_clr;
+		uint32_t xip_ctrl_clr;
+		uint32_t xip_qmi_clr;
+		uint32_t xip_aux_clr;
 		uint32_t RSVDclr_0[965];
 } ACCESSCTRL_REG_BLOCKS;
 
@@ -340,183 +340,183 @@ typedef struct{
 #define ACCESSCTRL_XIP_CTRL (*(volatile uint32_t *)0x400600e0)
 #define ACCESSCTRL_XIP_QMI (*(volatile uint32_t *)0x400600e4)
 #define ACCESSCTRL_XIP_AUX (*(volatile uint32_t *)0x400600e8)
-#define ACCESSCTRL_XOR_LOCK (*(volatile uint32_t *)0x40061000)
-#define ACCESSCTRL_XOR_FORCE_CORE_NS (*(volatile uint32_t *)0x40061004)
-#define ACCESSCTRL_XOR_CFGRESET (*(volatile uint32_t *)0x40061008)
-#define ACCESSCTRL_XOR_GPIO_NSMASK0 (*(volatile uint32_t *)0x4006100c)
-#define ACCESSCTRL_XOR_GPIO_NSMASK1 (*(volatile uint32_t *)0x40061010)
-#define ACCESSCTRL_XOR_ROM (*(volatile uint32_t *)0x40061014)
-#define ACCESSCTRL_XOR_XIP_MAIN (*(volatile uint32_t *)0x40061018)
-#define ACCESSCTRL_XOR_SRAM0 (*(volatile uint32_t *)0x4006101c)
-#define ACCESSCTRL_XOR_SRAM1 (*(volatile uint32_t *)0x40061020)
-#define ACCESSCTRL_XOR_SRAM2 (*(volatile uint32_t *)0x40061024)
-#define ACCESSCTRL_XOR_SRAM3 (*(volatile uint32_t *)0x40061028)
-#define ACCESSCTRL_XOR_SRAM4 (*(volatile uint32_t *)0x4006102c)
-#define ACCESSCTRL_XOR_SRAM5 (*(volatile uint32_t *)0x40061030)
-#define ACCESSCTRL_XOR_SRAM6 (*(volatile uint32_t *)0x40061034)
-#define ACCESSCTRL_XOR_SRAM7 (*(volatile uint32_t *)0x40061038)
-#define ACCESSCTRL_XOR_SRAM8 (*(volatile uint32_t *)0x4006103c)
-#define ACCESSCTRL_XOR_SRAM9 (*(volatile uint32_t *)0x40061040)
-#define ACCESSCTRL_XOR_DMA (*(volatile uint32_t *)0x40061044)
-#define ACCESSCTRL_XOR_USBCTRL (*(volatile uint32_t *)0x40061048)
-#define ACCESSCTRL_XOR_PIO0 (*(volatile uint32_t *)0x4006104c)
-#define ACCESSCTRL_XOR_PIO1 (*(volatile uint32_t *)0x40061050)
-#define ACCESSCTRL_XOR_PIO2 (*(volatile uint32_t *)0x40061054)
-#define ACCESSCTRL_XOR_CORESIGHT_TRACE (*(volatile uint32_t *)0x40061058)
-#define ACCESSCTRL_XOR_CORESIGHT_PERIPH (*(volatile uint32_t *)0x4006105c)
-#define ACCESSCTRL_XOR_SYSINFO (*(volatile uint32_t *)0x40061060)
-#define ACCESSCTRL_XOR_RESETS (*(volatile uint32_t *)0x40061064)
-#define ACCESSCTRL_XOR_IO_BANK0 (*(volatile uint32_t *)0x40061068)
-#define ACCESSCTRL_XOR_IO_BANK1 (*(volatile uint32_t *)0x4006106c)
-#define ACCESSCTRL_XOR_PADS_BANK0 (*(volatile uint32_t *)0x40061070)
-#define ACCESSCTRL_XOR_PADS_QSPI (*(volatile uint32_t *)0x40061074)
-#define ACCESSCTRL_XOR_BUSCTRL (*(volatile uint32_t *)0x40061078)
-#define ACCESSCTRL_XOR_ADC0 (*(volatile uint32_t *)0x4006107c)
-#define ACCESSCTRL_XOR_HSTX (*(volatile uint32_t *)0x40061080)
-#define ACCESSCTRL_XOR_I2C0 (*(volatile uint32_t *)0x40061084)
-#define ACCESSCTRL_XOR_I2C1 (*(volatile uint32_t *)0x40061088)
-#define ACCESSCTRL_XOR_PWM (*(volatile uint32_t *)0x4006108c)
-#define ACCESSCTRL_XOR_SPI0 (*(volatile uint32_t *)0x40061090)
-#define ACCESSCTRL_XOR_SPI1 (*(volatile uint32_t *)0x40061094)
-#define ACCESSCTRL_XOR_TIMER0 (*(volatile uint32_t *)0x40061098)
-#define ACCESSCTRL_XOR_TIMER1 (*(volatile uint32_t *)0x4006109c)
-#define ACCESSCTRL_XOR_UART0 (*(volatile uint32_t *)0x400610a0)
-#define ACCESSCTRL_XOR_UART1 (*(volatile uint32_t *)0x400610a4)
-#define ACCESSCTRL_XOR_OTP (*(volatile uint32_t *)0x400610a8)
-#define ACCESSCTRL_XOR_TBMAN (*(volatile uint32_t *)0x400610ac)
-#define ACCESSCTRL_XOR_POWMAN (*(volatile uint32_t *)0x400610b0)
-#define ACCESSCTRL_XOR_TRNG (*(volatile uint32_t *)0x400610b4)
-#define ACCESSCTRL_XOR_SHA256 (*(volatile uint32_t *)0x400610b8)
-#define ACCESSCTRL_XOR_SYSCFG (*(volatile uint32_t *)0x400610bc)
-#define ACCESSCTRL_XOR_CLOCKS (*(volatile uint32_t *)0x400610c0)
-#define ACCESSCTRL_XOR_XOSC (*(volatile uint32_t *)0x400610c4)
-#define ACCESSCTRL_XOR_ROSC (*(volatile uint32_t *)0x400610c8)
-#define ACCESSCTRL_XOR_PLL_SYS (*(volatile uint32_t *)0x400610cc)
-#define ACCESSCTRL_XOR_PLL_USB (*(volatile uint32_t *)0x400610d0)
-#define ACCESSCTRL_XOR_TICKS (*(volatile uint32_t *)0x400610d4)
-#define ACCESSCTRL_XOR_WATCHDOG (*(volatile uint32_t *)0x400610d8)
-#define ACCESSCTRL_XOR_RSM (*(volatile uint32_t *)0x400610dc)
-#define ACCESSCTRL_XOR_XIP_CTRL (*(volatile uint32_t *)0x400610e0)
-#define ACCESSCTRL_XOR_XIP_QMI (*(volatile uint32_t *)0x400610e4)
-#define ACCESSCTRL_XOR_XIP_AUX (*(volatile uint32_t *)0x400610e8)
-#define ACCESSCTRL_SET_LOCK (*(volatile uint32_t *)0x40062000)
-#define ACCESSCTRL_SET_FORCE_CORE_NS (*(volatile uint32_t *)0x40062004)
-#define ACCESSCTRL_SET_CFGRESET (*(volatile uint32_t *)0x40062008)
-#define ACCESSCTRL_SET_GPIO_NSMASK0 (*(volatile uint32_t *)0x4006200c)
-#define ACCESSCTRL_SET_GPIO_NSMASK1 (*(volatile uint32_t *)0x40062010)
-#define ACCESSCTRL_SET_ROM (*(volatile uint32_t *)0x40062014)
-#define ACCESSCTRL_SET_XIP_MAIN (*(volatile uint32_t *)0x40062018)
-#define ACCESSCTRL_SET_SRAM0 (*(volatile uint32_t *)0x4006201c)
-#define ACCESSCTRL_SET_SRAM1 (*(volatile uint32_t *)0x40062020)
-#define ACCESSCTRL_SET_SRAM2 (*(volatile uint32_t *)0x40062024)
-#define ACCESSCTRL_SET_SRAM3 (*(volatile uint32_t *)0x40062028)
-#define ACCESSCTRL_SET_SRAM4 (*(volatile uint32_t *)0x4006202c)
-#define ACCESSCTRL_SET_SRAM5 (*(volatile uint32_t *)0x40062030)
-#define ACCESSCTRL_SET_SRAM6 (*(volatile uint32_t *)0x40062034)
-#define ACCESSCTRL_SET_SRAM7 (*(volatile uint32_t *)0x40062038)
-#define ACCESSCTRL_SET_SRAM8 (*(volatile uint32_t *)0x4006203c)
-#define ACCESSCTRL_SET_SRAM9 (*(volatile uint32_t *)0x40062040)
-#define ACCESSCTRL_SET_DMA (*(volatile uint32_t *)0x40062044)
-#define ACCESSCTRL_SET_USBCTRL (*(volatile uint32_t *)0x40062048)
-#define ACCESSCTRL_SET_PIO0 (*(volatile uint32_t *)0x4006204c)
-#define ACCESSCTRL_SET_PIO1 (*(volatile uint32_t *)0x40062050)
-#define ACCESSCTRL_SET_PIO2 (*(volatile uint32_t *)0x40062054)
-#define ACCESSCTRL_SET_CORESIGHT_TRACE (*(volatile uint32_t *)0x40062058)
-#define ACCESSCTRL_SET_CORESIGHT_PERIPH (*(volatile uint32_t *)0x4006205c)
-#define ACCESSCTRL_SET_SYSINFO (*(volatile uint32_t *)0x40062060)
-#define ACCESSCTRL_SET_RESETS (*(volatile uint32_t *)0x40062064)
-#define ACCESSCTRL_SET_IO_BANK0 (*(volatile uint32_t *)0x40062068)
-#define ACCESSCTRL_SET_IO_BANK1 (*(volatile uint32_t *)0x4006206c)
-#define ACCESSCTRL_SET_PADS_BANK0 (*(volatile uint32_t *)0x40062070)
-#define ACCESSCTRL_SET_PADS_QSPI (*(volatile uint32_t *)0x40062074)
-#define ACCESSCTRL_SET_BUSCTRL (*(volatile uint32_t *)0x40062078)
-#define ACCESSCTRL_SET_ADC0 (*(volatile uint32_t *)0x4006207c)
-#define ACCESSCTRL_SET_HSTX (*(volatile uint32_t *)0x40062080)
-#define ACCESSCTRL_SET_I2C0 (*(volatile uint32_t *)0x40062084)
-#define ACCESSCTRL_SET_I2C1 (*(volatile uint32_t *)0x40062088)
-#define ACCESSCTRL_SET_PWM (*(volatile uint32_t *)0x4006208c)
-#define ACCESSCTRL_SET_SPI0 (*(volatile uint32_t *)0x40062090)
-#define ACCESSCTRL_SET_SPI1 (*(volatile uint32_t *)0x40062094)
-#define ACCESSCTRL_SET_TIMER0 (*(volatile uint32_t *)0x40062098)
-#define ACCESSCTRL_SET_TIMER1 (*(volatile uint32_t *)0x4006209c)
-#define ACCESSCTRL_SET_UART0 (*(volatile uint32_t *)0x400620a0)
-#define ACCESSCTRL_SET_UART1 (*(volatile uint32_t *)0x400620a4)
-#define ACCESSCTRL_SET_OTP (*(volatile uint32_t *)0x400620a8)
-#define ACCESSCTRL_SET_TBMAN (*(volatile uint32_t *)0x400620ac)
-#define ACCESSCTRL_SET_POWMAN (*(volatile uint32_t *)0x400620b0)
-#define ACCESSCTRL_SET_TRNG (*(volatile uint32_t *)0x400620b4)
-#define ACCESSCTRL_SET_SHA256 (*(volatile uint32_t *)0x400620b8)
-#define ACCESSCTRL_SET_SYSCFG (*(volatile uint32_t *)0x400620bc)
-#define ACCESSCTRL_SET_CLOCKS (*(volatile uint32_t *)0x400620c0)
-#define ACCESSCTRL_SET_XOSC (*(volatile uint32_t *)0x400620c4)
-#define ACCESSCTRL_SET_ROSC (*(volatile uint32_t *)0x400620c8)
-#define ACCESSCTRL_SET_PLL_SYS (*(volatile uint32_t *)0x400620cc)
-#define ACCESSCTRL_SET_PLL_USB (*(volatile uint32_t *)0x400620d0)
-#define ACCESSCTRL_SET_TICKS (*(volatile uint32_t *)0x400620d4)
-#define ACCESSCTRL_SET_WATCHDOG (*(volatile uint32_t *)0x400620d8)
-#define ACCESSCTRL_SET_RSM (*(volatile uint32_t *)0x400620dc)
-#define ACCESSCTRL_SET_XIP_CTRL (*(volatile uint32_t *)0x400620e0)
-#define ACCESSCTRL_SET_XIP_QMI (*(volatile uint32_t *)0x400620e4)
-#define ACCESSCTRL_SET_XIP_AUX (*(volatile uint32_t *)0x400620e8)
-#define ACCESSCTRL_CLR_LOCK (*(volatile uint32_t *)0x40063000)
-#define ACCESSCTRL_CLR_FORCE_CORE_NS (*(volatile uint32_t *)0x40063004)
-#define ACCESSCTRL_CLR_CFGRESET (*(volatile uint32_t *)0x40063008)
-#define ACCESSCTRL_CLR_GPIO_NSMASK0 (*(volatile uint32_t *)0x4006300c)
-#define ACCESSCTRL_CLR_GPIO_NSMASK1 (*(volatile uint32_t *)0x40063010)
-#define ACCESSCTRL_CLR_ROM (*(volatile uint32_t *)0x40063014)
-#define ACCESSCTRL_CLR_XIP_MAIN (*(volatile uint32_t *)0x40063018)
-#define ACCESSCTRL_CLR_SRAM0 (*(volatile uint32_t *)0x4006301c)
-#define ACCESSCTRL_CLR_SRAM1 (*(volatile uint32_t *)0x40063020)
-#define ACCESSCTRL_CLR_SRAM2 (*(volatile uint32_t *)0x40063024)
-#define ACCESSCTRL_CLR_SRAM3 (*(volatile uint32_t *)0x40063028)
-#define ACCESSCTRL_CLR_SRAM4 (*(volatile uint32_t *)0x4006302c)
-#define ACCESSCTRL_CLR_SRAM5 (*(volatile uint32_t *)0x40063030)
-#define ACCESSCTRL_CLR_SRAM6 (*(volatile uint32_t *)0x40063034)
-#define ACCESSCTRL_CLR_SRAM7 (*(volatile uint32_t *)0x40063038)
-#define ACCESSCTRL_CLR_SRAM8 (*(volatile uint32_t *)0x4006303c)
-#define ACCESSCTRL_CLR_SRAM9 (*(volatile uint32_t *)0x40063040)
-#define ACCESSCTRL_CLR_DMA (*(volatile uint32_t *)0x40063044)
-#define ACCESSCTRL_CLR_USBCTRL (*(volatile uint32_t *)0x40063048)
-#define ACCESSCTRL_CLR_PIO0 (*(volatile uint32_t *)0x4006304c)
-#define ACCESSCTRL_CLR_PIO1 (*(volatile uint32_t *)0x40063050)
-#define ACCESSCTRL_CLR_PIO2 (*(volatile uint32_t *)0x40063054)
-#define ACCESSCTRL_CLR_CORESIGHT_TRACE (*(volatile uint32_t *)0x40063058)
-#define ACCESSCTRL_CLR_CORESIGHT_PERIPH (*(volatile uint32_t *)0x4006305c)
-#define ACCESSCTRL_CLR_SYSINFO (*(volatile uint32_t *)0x40063060)
-#define ACCESSCTRL_CLR_RESETS (*(volatile uint32_t *)0x40063064)
-#define ACCESSCTRL_CLR_IO_BANK0 (*(volatile uint32_t *)0x40063068)
-#define ACCESSCTRL_CLR_IO_BANK1 (*(volatile uint32_t *)0x4006306c)
-#define ACCESSCTRL_CLR_PADS_BANK0 (*(volatile uint32_t *)0x40063070)
-#define ACCESSCTRL_CLR_PADS_QSPI (*(volatile uint32_t *)0x40063074)
-#define ACCESSCTRL_CLR_BUSCTRL (*(volatile uint32_t *)0x40063078)
-#define ACCESSCTRL_CLR_ADC0 (*(volatile uint32_t *)0x4006307c)
-#define ACCESSCTRL_CLR_HSTX (*(volatile uint32_t *)0x40063080)
-#define ACCESSCTRL_CLR_I2C0 (*(volatile uint32_t *)0x40063084)
-#define ACCESSCTRL_CLR_I2C1 (*(volatile uint32_t *)0x40063088)
-#define ACCESSCTRL_CLR_PWM (*(volatile uint32_t *)0x4006308c)
-#define ACCESSCTRL_CLR_SPI0 (*(volatile uint32_t *)0x40063090)
-#define ACCESSCTRL_CLR_SPI1 (*(volatile uint32_t *)0x40063094)
-#define ACCESSCTRL_CLR_TIMER0 (*(volatile uint32_t *)0x40063098)
-#define ACCESSCTRL_CLR_TIMER1 (*(volatile uint32_t *)0x4006309c)
-#define ACCESSCTRL_CLR_UART0 (*(volatile uint32_t *)0x400630a0)
-#define ACCESSCTRL_CLR_UART1 (*(volatile uint32_t *)0x400630a4)
-#define ACCESSCTRL_CLR_OTP (*(volatile uint32_t *)0x400630a8)
-#define ACCESSCTRL_CLR_TBMAN (*(volatile uint32_t *)0x400630ac)
-#define ACCESSCTRL_CLR_POWMAN (*(volatile uint32_t *)0x400630b0)
-#define ACCESSCTRL_CLR_TRNG (*(volatile uint32_t *)0x400630b4)
-#define ACCESSCTRL_CLR_SHA256 (*(volatile uint32_t *)0x400630b8)
-#define ACCESSCTRL_CLR_SYSCFG (*(volatile uint32_t *)0x400630bc)
-#define ACCESSCTRL_CLR_CLOCKS (*(volatile uint32_t *)0x400630c0)
-#define ACCESSCTRL_CLR_XOSC (*(volatile uint32_t *)0x400630c4)
-#define ACCESSCTRL_CLR_ROSC (*(volatile uint32_t *)0x400630c8)
-#define ACCESSCTRL_CLR_PLL_SYS (*(volatile uint32_t *)0x400630cc)
-#define ACCESSCTRL_CLR_PLL_USB (*(volatile uint32_t *)0x400630d0)
-#define ACCESSCTRL_CLR_TICKS (*(volatile uint32_t *)0x400630d4)
-#define ACCESSCTRL_CLR_WATCHDOG (*(volatile uint32_t *)0x400630d8)
-#define ACCESSCTRL_CLR_RSM (*(volatile uint32_t *)0x400630dc)
-#define ACCESSCTRL_CLR_XIP_CTRL (*(volatile uint32_t *)0x400630e0)
-#define ACCESSCTRL_CLR_XIP_QMI (*(volatile uint32_t *)0x400630e4)
-#define ACCESSCTRL_CLR_XIP_AUX (*(volatile uint32_t *)0x400630e8)
+#define ACCESSCTRL_LOCK_XOR (*(volatile uint32_t *)0x40061000)
+#define ACCESSCTRL_FORCE_CORE_NS_XOR (*(volatile uint32_t *)0x40061004)
+#define ACCESSCTRL_CFGRESET_XOR (*(volatile uint32_t *)0x40061008)
+#define ACCESSCTRL_GPIO_NSMASK0_XOR (*(volatile uint32_t *)0x4006100c)
+#define ACCESSCTRL_GPIO_NSMASK1_XOR (*(volatile uint32_t *)0x40061010)
+#define ACCESSCTRL_ROM_XOR (*(volatile uint32_t *)0x40061014)
+#define ACCESSCTRL_XIP_MAIN_XOR (*(volatile uint32_t *)0x40061018)
+#define ACCESSCTRL_SRAM0_XOR (*(volatile uint32_t *)0x4006101c)
+#define ACCESSCTRL_SRAM1_XOR (*(volatile uint32_t *)0x40061020)
+#define ACCESSCTRL_SRAM2_XOR (*(volatile uint32_t *)0x40061024)
+#define ACCESSCTRL_SRAM3_XOR (*(volatile uint32_t *)0x40061028)
+#define ACCESSCTRL_SRAM4_XOR (*(volatile uint32_t *)0x4006102c)
+#define ACCESSCTRL_SRAM5_XOR (*(volatile uint32_t *)0x40061030)
+#define ACCESSCTRL_SRAM6_XOR (*(volatile uint32_t *)0x40061034)
+#define ACCESSCTRL_SRAM7_XOR (*(volatile uint32_t *)0x40061038)
+#define ACCESSCTRL_SRAM8_XOR (*(volatile uint32_t *)0x4006103c)
+#define ACCESSCTRL_SRAM9_XOR (*(volatile uint32_t *)0x40061040)
+#define ACCESSCTRL_DMA_XOR (*(volatile uint32_t *)0x40061044)
+#define ACCESSCTRL_USBCTRL_XOR (*(volatile uint32_t *)0x40061048)
+#define ACCESSCTRL_PIO0_XOR (*(volatile uint32_t *)0x4006104c)
+#define ACCESSCTRL_PIO1_XOR (*(volatile uint32_t *)0x40061050)
+#define ACCESSCTRL_PIO2_XOR (*(volatile uint32_t *)0x40061054)
+#define ACCESSCTRL_CORESIGHT_TRACE_XOR (*(volatile uint32_t *)0x40061058)
+#define ACCESSCTRL_CORESIGHT_PERIPH_XOR (*(volatile uint32_t *)0x4006105c)
+#define ACCESSCTRL_SYSINFO_XOR (*(volatile uint32_t *)0x40061060)
+#define ACCESSCTRL_RESETS_XOR (*(volatile uint32_t *)0x40061064)
+#define ACCESSCTRL_IO_BANK0_XOR (*(volatile uint32_t *)0x40061068)
+#define ACCESSCTRL_IO_BANK1_XOR (*(volatile uint32_t *)0x4006106c)
+#define ACCESSCTRL_PADS_BANK0_XOR (*(volatile uint32_t *)0x40061070)
+#define ACCESSCTRL_PADS_QSPI_XOR (*(volatile uint32_t *)0x40061074)
+#define ACCESSCTRL_BUSCTRL_XOR (*(volatile uint32_t *)0x40061078)
+#define ACCESSCTRL_ADC0_XOR (*(volatile uint32_t *)0x4006107c)
+#define ACCESSCTRL_HSTX_XOR (*(volatile uint32_t *)0x40061080)
+#define ACCESSCTRL_I2C0_XOR (*(volatile uint32_t *)0x40061084)
+#define ACCESSCTRL_I2C1_XOR (*(volatile uint32_t *)0x40061088)
+#define ACCESSCTRL_PWM_XOR (*(volatile uint32_t *)0x4006108c)
+#define ACCESSCTRL_SPI0_XOR (*(volatile uint32_t *)0x40061090)
+#define ACCESSCTRL_SPI1_XOR (*(volatile uint32_t *)0x40061094)
+#define ACCESSCTRL_TIMER0_XOR (*(volatile uint32_t *)0x40061098)
+#define ACCESSCTRL_TIMER1_XOR (*(volatile uint32_t *)0x4006109c)
+#define ACCESSCTRL_UART0_XOR (*(volatile uint32_t *)0x400610a0)
+#define ACCESSCTRL_UART1_XOR (*(volatile uint32_t *)0x400610a4)
+#define ACCESSCTRL_OTP_XOR (*(volatile uint32_t *)0x400610a8)
+#define ACCESSCTRL_TBMAN_XOR (*(volatile uint32_t *)0x400610ac)
+#define ACCESSCTRL_POWMAN_XOR (*(volatile uint32_t *)0x400610b0)
+#define ACCESSCTRL_TRNG_XOR (*(volatile uint32_t *)0x400610b4)
+#define ACCESSCTRL_SHA256_XOR (*(volatile uint32_t *)0x400610b8)
+#define ACCESSCTRL_SYSCFG_XOR (*(volatile uint32_t *)0x400610bc)
+#define ACCESSCTRL_CLOCKS_XOR (*(volatile uint32_t *)0x400610c0)
+#define ACCESSCTRL_XOSC_XOR (*(volatile uint32_t *)0x400610c4)
+#define ACCESSCTRL_ROSC_XOR (*(volatile uint32_t *)0x400610c8)
+#define ACCESSCTRL_PLL_SYS_XOR (*(volatile uint32_t *)0x400610cc)
+#define ACCESSCTRL_PLL_USB_XOR (*(volatile uint32_t *)0x400610d0)
+#define ACCESSCTRL_TICKS_XOR (*(volatile uint32_t *)0x400610d4)
+#define ACCESSCTRL_WATCHDOG_XOR (*(volatile uint32_t *)0x400610d8)
+#define ACCESSCTRL_RSM_XOR (*(volatile uint32_t *)0x400610dc)
+#define ACCESSCTRL_XIP_CTRL_XOR (*(volatile uint32_t *)0x400610e0)
+#define ACCESSCTRL_XIP_QMI_XOR (*(volatile uint32_t *)0x400610e4)
+#define ACCESSCTRL_XIP_AUX_XOR (*(volatile uint32_t *)0x400610e8)
+#define ACCESSCTRL_LOCK_SET (*(volatile uint32_t *)0x40062000)
+#define ACCESSCTRL_FORCE_CORE_NS_SET (*(volatile uint32_t *)0x40062004)
+#define ACCESSCTRL_CFGRESET_SET (*(volatile uint32_t *)0x40062008)
+#define ACCESSCTRL_GPIO_NSMASK0_SET (*(volatile uint32_t *)0x4006200c)
+#define ACCESSCTRL_GPIO_NSMASK1_SET (*(volatile uint32_t *)0x40062010)
+#define ACCESSCTRL_ROM_SET (*(volatile uint32_t *)0x40062014)
+#define ACCESSCTRL_XIP_MAIN_SET (*(volatile uint32_t *)0x40062018)
+#define ACCESSCTRL_SRAM0_SET (*(volatile uint32_t *)0x4006201c)
+#define ACCESSCTRL_SRAM1_SET (*(volatile uint32_t *)0x40062020)
+#define ACCESSCTRL_SRAM2_SET (*(volatile uint32_t *)0x40062024)
+#define ACCESSCTRL_SRAM3_SET (*(volatile uint32_t *)0x40062028)
+#define ACCESSCTRL_SRAM4_SET (*(volatile uint32_t *)0x4006202c)
+#define ACCESSCTRL_SRAM5_SET (*(volatile uint32_t *)0x40062030)
+#define ACCESSCTRL_SRAM6_SET (*(volatile uint32_t *)0x40062034)
+#define ACCESSCTRL_SRAM7_SET (*(volatile uint32_t *)0x40062038)
+#define ACCESSCTRL_SRAM8_SET (*(volatile uint32_t *)0x4006203c)
+#define ACCESSCTRL_SRAM9_SET (*(volatile uint32_t *)0x40062040)
+#define ACCESSCTRL_DMA_SET (*(volatile uint32_t *)0x40062044)
+#define ACCESSCTRL_USBCTRL_SET (*(volatile uint32_t *)0x40062048)
+#define ACCESSCTRL_PIO0_SET (*(volatile uint32_t *)0x4006204c)
+#define ACCESSCTRL_PIO1_SET (*(volatile uint32_t *)0x40062050)
+#define ACCESSCTRL_PIO2_SET (*(volatile uint32_t *)0x40062054)
+#define ACCESSCTRL_CORESIGHT_TRACE_SET (*(volatile uint32_t *)0x40062058)
+#define ACCESSCTRL_CORESIGHT_PERIPH_SET (*(volatile uint32_t *)0x4006205c)
+#define ACCESSCTRL_SYSINFO_SET (*(volatile uint32_t *)0x40062060)
+#define ACCESSCTRL_RESETS_SET (*(volatile uint32_t *)0x40062064)
+#define ACCESSCTRL_IO_BANK0_SET (*(volatile uint32_t *)0x40062068)
+#define ACCESSCTRL_IO_BANK1_SET (*(volatile uint32_t *)0x4006206c)
+#define ACCESSCTRL_PADS_BANK0_SET (*(volatile uint32_t *)0x40062070)
+#define ACCESSCTRL_PADS_QSPI_SET (*(volatile uint32_t *)0x40062074)
+#define ACCESSCTRL_BUSCTRL_SET (*(volatile uint32_t *)0x40062078)
+#define ACCESSCTRL_ADC0_SET (*(volatile uint32_t *)0x4006207c)
+#define ACCESSCTRL_HSTX_SET (*(volatile uint32_t *)0x40062080)
+#define ACCESSCTRL_I2C0_SET (*(volatile uint32_t *)0x40062084)
+#define ACCESSCTRL_I2C1_SET (*(volatile uint32_t *)0x40062088)
+#define ACCESSCTRL_PWM_SET (*(volatile uint32_t *)0x4006208c)
+#define ACCESSCTRL_SPI0_SET (*(volatile uint32_t *)0x40062090)
+#define ACCESSCTRL_SPI1_SET (*(volatile uint32_t *)0x40062094)
+#define ACCESSCTRL_TIMER0_SET (*(volatile uint32_t *)0x40062098)
+#define ACCESSCTRL_TIMER1_SET (*(volatile uint32_t *)0x4006209c)
+#define ACCESSCTRL_UART0_SET (*(volatile uint32_t *)0x400620a0)
+#define ACCESSCTRL_UART1_SET (*(volatile uint32_t *)0x400620a4)
+#define ACCESSCTRL_OTP_SET (*(volatile uint32_t *)0x400620a8)
+#define ACCESSCTRL_TBMAN_SET (*(volatile uint32_t *)0x400620ac)
+#define ACCESSCTRL_POWMAN_SET (*(volatile uint32_t *)0x400620b0)
+#define ACCESSCTRL_TRNG_SET (*(volatile uint32_t *)0x400620b4)
+#define ACCESSCTRL_SHA256_SET (*(volatile uint32_t *)0x400620b8)
+#define ACCESSCTRL_SYSCFG_SET (*(volatile uint32_t *)0x400620bc)
+#define ACCESSCTRL_CLOCKS_SET (*(volatile uint32_t *)0x400620c0)
+#define ACCESSCTRL_XOSC_SET (*(volatile uint32_t *)0x400620c4)
+#define ACCESSCTRL_ROSC_SET (*(volatile uint32_t *)0x400620c8)
+#define ACCESSCTRL_PLL_SYS_SET (*(volatile uint32_t *)0x400620cc)
+#define ACCESSCTRL_PLL_USB_SET (*(volatile uint32_t *)0x400620d0)
+#define ACCESSCTRL_TICKS_SET (*(volatile uint32_t *)0x400620d4)
+#define ACCESSCTRL_WATCHDOG_SET (*(volatile uint32_t *)0x400620d8)
+#define ACCESSCTRL_RSM_SET (*(volatile uint32_t *)0x400620dc)
+#define ACCESSCTRL_XIP_CTRL_SET (*(volatile uint32_t *)0x400620e0)
+#define ACCESSCTRL_XIP_QMI_SET (*(volatile uint32_t *)0x400620e4)
+#define ACCESSCTRL_XIP_AUX_SET (*(volatile uint32_t *)0x400620e8)
+#define ACCESSCTRL_LOCK_CLR (*(volatile uint32_t *)0x40063000)
+#define ACCESSCTRL_FORCE_CORE_NS_CLR (*(volatile uint32_t *)0x40063004)
+#define ACCESSCTRL_CFGRESET_CLR (*(volatile uint32_t *)0x40063008)
+#define ACCESSCTRL_GPIO_NSMASK0_CLR (*(volatile uint32_t *)0x4006300c)
+#define ACCESSCTRL_GPIO_NSMASK1_CLR (*(volatile uint32_t *)0x40063010)
+#define ACCESSCTRL_ROM_CLR (*(volatile uint32_t *)0x40063014)
+#define ACCESSCTRL_XIP_MAIN_CLR (*(volatile uint32_t *)0x40063018)
+#define ACCESSCTRL_SRAM0_CLR (*(volatile uint32_t *)0x4006301c)
+#define ACCESSCTRL_SRAM1_CLR (*(volatile uint32_t *)0x40063020)
+#define ACCESSCTRL_SRAM2_CLR (*(volatile uint32_t *)0x40063024)
+#define ACCESSCTRL_SRAM3_CLR (*(volatile uint32_t *)0x40063028)
+#define ACCESSCTRL_SRAM4_CLR (*(volatile uint32_t *)0x4006302c)
+#define ACCESSCTRL_SRAM5_CLR (*(volatile uint32_t *)0x40063030)
+#define ACCESSCTRL_SRAM6_CLR (*(volatile uint32_t *)0x40063034)
+#define ACCESSCTRL_SRAM7_CLR (*(volatile uint32_t *)0x40063038)
+#define ACCESSCTRL_SRAM8_CLR (*(volatile uint32_t *)0x4006303c)
+#define ACCESSCTRL_SRAM9_CLR (*(volatile uint32_t *)0x40063040)
+#define ACCESSCTRL_DMA_CLR (*(volatile uint32_t *)0x40063044)
+#define ACCESSCTRL_USBCTRL_CLR (*(volatile uint32_t *)0x40063048)
+#define ACCESSCTRL_PIO0_CLR (*(volatile uint32_t *)0x4006304c)
+#define ACCESSCTRL_PIO1_CLR (*(volatile uint32_t *)0x40063050)
+#define ACCESSCTRL_PIO2_CLR (*(volatile uint32_t *)0x40063054)
+#define ACCESSCTRL_CORESIGHT_TRACE_CLR (*(volatile uint32_t *)0x40063058)
+#define ACCESSCTRL_CORESIGHT_PERIPH_CLR (*(volatile uint32_t *)0x4006305c)
+#define ACCESSCTRL_SYSINFO_CLR (*(volatile uint32_t *)0x40063060)
+#define ACCESSCTRL_RESETS_CLR (*(volatile uint32_t *)0x40063064)
+#define ACCESSCTRL_IO_BANK0_CLR (*(volatile uint32_t *)0x40063068)
+#define ACCESSCTRL_IO_BANK1_CLR (*(volatile uint32_t *)0x4006306c)
+#define ACCESSCTRL_PADS_BANK0_CLR (*(volatile uint32_t *)0x40063070)
+#define ACCESSCTRL_PADS_QSPI_CLR (*(volatile uint32_t *)0x40063074)
+#define ACCESSCTRL_BUSCTRL_CLR (*(volatile uint32_t *)0x40063078)
+#define ACCESSCTRL_ADC0_CLR (*(volatile uint32_t *)0x4006307c)
+#define ACCESSCTRL_HSTX_CLR (*(volatile uint32_t *)0x40063080)
+#define ACCESSCTRL_I2C0_CLR (*(volatile uint32_t *)0x40063084)
+#define ACCESSCTRL_I2C1_CLR (*(volatile uint32_t *)0x40063088)
+#define ACCESSCTRL_PWM_CLR (*(volatile uint32_t *)0x4006308c)
+#define ACCESSCTRL_SPI0_CLR (*(volatile uint32_t *)0x40063090)
+#define ACCESSCTRL_SPI1_CLR (*(volatile uint32_t *)0x40063094)
+#define ACCESSCTRL_TIMER0_CLR (*(volatile uint32_t *)0x40063098)
+#define ACCESSCTRL_TIMER1_CLR (*(volatile uint32_t *)0x4006309c)
+#define ACCESSCTRL_UART0_CLR (*(volatile uint32_t *)0x400630a0)
+#define ACCESSCTRL_UART1_CLR (*(volatile uint32_t *)0x400630a4)
+#define ACCESSCTRL_OTP_CLR (*(volatile uint32_t *)0x400630a8)
+#define ACCESSCTRL_TBMAN_CLR (*(volatile uint32_t *)0x400630ac)
+#define ACCESSCTRL_POWMAN_CLR (*(volatile uint32_t *)0x400630b0)
+#define ACCESSCTRL_TRNG_CLR (*(volatile uint32_t *)0x400630b4)
+#define ACCESSCTRL_SHA256_CLR (*(volatile uint32_t *)0x400630b8)
+#define ACCESSCTRL_SYSCFG_CLR (*(volatile uint32_t *)0x400630bc)
+#define ACCESSCTRL_CLOCKS_CLR (*(volatile uint32_t *)0x400630c0)
+#define ACCESSCTRL_XOSC_CLR (*(volatile uint32_t *)0x400630c4)
+#define ACCESSCTRL_ROSC_CLR (*(volatile uint32_t *)0x400630c8)
+#define ACCESSCTRL_PLL_SYS_CLR (*(volatile uint32_t *)0x400630cc)
+#define ACCESSCTRL_PLL_USB_CLR (*(volatile uint32_t *)0x400630d0)
+#define ACCESSCTRL_TICKS_CLR (*(volatile uint32_t *)0x400630d4)
+#define ACCESSCTRL_WATCHDOG_CLR (*(volatile uint32_t *)0x400630d8)
+#define ACCESSCTRL_RSM_CLR (*(volatile uint32_t *)0x400630dc)
+#define ACCESSCTRL_XIP_CTRL_CLR (*(volatile uint32_t *)0x400630e0)
+#define ACCESSCTRL_XIP_QMI_CLR (*(volatile uint32_t *)0x400630e4)
+#define ACCESSCTRL_XIP_AUX_CLR (*(volatile uint32_t *)0x400630e8)
 
 /*LOCK Register macros*/
 

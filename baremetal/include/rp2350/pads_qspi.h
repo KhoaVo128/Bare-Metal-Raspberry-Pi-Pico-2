@@ -39,29 +39,29 @@ typedef struct{
 		uint32_t gpio_qspi_sd3;
 		uint32_t gpio_qspi_ss;
 		uint32_t RSVD0[1017];
-		uint32_t xor_voltage_select;
-		uint32_t xor_gpio_qspi_sclk;
-		uint32_t xor_gpio_qspi_sd0;
-		uint32_t xor_gpio_qspi_sd1;
-		uint32_t xor_gpio_qspi_sd2;
-		uint32_t xor_gpio_qspi_sd3;
-		uint32_t xor_gpio_qspi_ss;
+		uint32_t voltage_select_xor;
+		uint32_t gpio_qspi_sclk_xor;
+		uint32_t gpio_qspi_sd0_xor;
+		uint32_t gpio_qspi_sd1_xor;
+		uint32_t gpio_qspi_sd2_xor;
+		uint32_t gpio_qspi_sd3_xor;
+		uint32_t gpio_qspi_ss_xor;
 		uint32_t RSVDxor_0[1017];
-		uint32_t set_voltage_select;
-		uint32_t set_gpio_qspi_sclk;
-		uint32_t set_gpio_qspi_sd0;
-		uint32_t set_gpio_qspi_sd1;
-		uint32_t set_gpio_qspi_sd2;
-		uint32_t set_gpio_qspi_sd3;
-		uint32_t set_gpio_qspi_ss;
+		uint32_t voltage_select_set;
+		uint32_t gpio_qspi_sclk_set;
+		uint32_t gpio_qspi_sd0_set;
+		uint32_t gpio_qspi_sd1_set;
+		uint32_t gpio_qspi_sd2_set;
+		uint32_t gpio_qspi_sd3_set;
+		uint32_t gpio_qspi_ss_set;
 		uint32_t RSVDset_0[1017];
-		uint32_t clr_voltage_select;
-		uint32_t clr_gpio_qspi_sclk;
-		uint32_t clr_gpio_qspi_sd0;
-		uint32_t clr_gpio_qspi_sd1;
-		uint32_t clr_gpio_qspi_sd2;
-		uint32_t clr_gpio_qspi_sd3;
-		uint32_t clr_gpio_qspi_ss;
+		uint32_t voltage_select_clr;
+		uint32_t gpio_qspi_sclk_clr;
+		uint32_t gpio_qspi_sd0_clr;
+		uint32_t gpio_qspi_sd1_clr;
+		uint32_t gpio_qspi_sd2_clr;
+		uint32_t gpio_qspi_sd3_clr;
+		uint32_t gpio_qspi_ss_clr;
 		uint32_t RSVDclr_0[1017];
 } PADS_QSPI_REG_BLOCKS;
 
@@ -80,27 +80,27 @@ typedef struct{
 #define PADS_QSPI_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40040010)
 #define PADS_QSPI_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40040014)
 #define PADS_QSPI_GPIO_QSPI_SS (*(volatile uint32_t *)0x40040018)
-#define PADS_QSPI_XOR_VOLTAGE_SELECT (*(volatile uint32_t *)0x40041000)
-#define PADS_QSPI_XOR_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40041004)
-#define PADS_QSPI_XOR_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40041008)
-#define PADS_QSPI_XOR_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004100c)
-#define PADS_QSPI_XOR_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40041010)
-#define PADS_QSPI_XOR_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40041014)
-#define PADS_QSPI_XOR_GPIO_QSPI_SS (*(volatile uint32_t *)0x40041018)
-#define PADS_QSPI_SET_VOLTAGE_SELECT (*(volatile uint32_t *)0x40042000)
-#define PADS_QSPI_SET_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40042004)
-#define PADS_QSPI_SET_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40042008)
-#define PADS_QSPI_SET_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004200c)
-#define PADS_QSPI_SET_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40042010)
-#define PADS_QSPI_SET_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40042014)
-#define PADS_QSPI_SET_GPIO_QSPI_SS (*(volatile uint32_t *)0x40042018)
-#define PADS_QSPI_CLR_VOLTAGE_SELECT (*(volatile uint32_t *)0x40043000)
-#define PADS_QSPI_CLR_GPIO_QSPI_SCLK (*(volatile uint32_t *)0x40043004)
-#define PADS_QSPI_CLR_GPIO_QSPI_SD0 (*(volatile uint32_t *)0x40043008)
-#define PADS_QSPI_CLR_GPIO_QSPI_SD1 (*(volatile uint32_t *)0x4004300c)
-#define PADS_QSPI_CLR_GPIO_QSPI_SD2 (*(volatile uint32_t *)0x40043010)
-#define PADS_QSPI_CLR_GPIO_QSPI_SD3 (*(volatile uint32_t *)0x40043014)
-#define PADS_QSPI_CLR_GPIO_QSPI_SS (*(volatile uint32_t *)0x40043018)
+#define PADS_QSPI_VOLTAGE_SELECT_XOR (*(volatile uint32_t *)0x40041000)
+#define PADS_QSPI_GPIO_QSPI_SCLK_XOR (*(volatile uint32_t *)0x40041004)
+#define PADS_QSPI_GPIO_QSPI_SD0_XOR (*(volatile uint32_t *)0x40041008)
+#define PADS_QSPI_GPIO_QSPI_SD1_XOR (*(volatile uint32_t *)0x4004100c)
+#define PADS_QSPI_GPIO_QSPI_SD2_XOR (*(volatile uint32_t *)0x40041010)
+#define PADS_QSPI_GPIO_QSPI_SD3_XOR (*(volatile uint32_t *)0x40041014)
+#define PADS_QSPI_GPIO_QSPI_SS_XOR (*(volatile uint32_t *)0x40041018)
+#define PADS_QSPI_VOLTAGE_SELECT_SET (*(volatile uint32_t *)0x40042000)
+#define PADS_QSPI_GPIO_QSPI_SCLK_SET (*(volatile uint32_t *)0x40042004)
+#define PADS_QSPI_GPIO_QSPI_SD0_SET (*(volatile uint32_t *)0x40042008)
+#define PADS_QSPI_GPIO_QSPI_SD1_SET (*(volatile uint32_t *)0x4004200c)
+#define PADS_QSPI_GPIO_QSPI_SD2_SET (*(volatile uint32_t *)0x40042010)
+#define PADS_QSPI_GPIO_QSPI_SD3_SET (*(volatile uint32_t *)0x40042014)
+#define PADS_QSPI_GPIO_QSPI_SS_SET (*(volatile uint32_t *)0x40042018)
+#define PADS_QSPI_VOLTAGE_SELECT_CLR (*(volatile uint32_t *)0x40043000)
+#define PADS_QSPI_GPIO_QSPI_SCLK_CLR (*(volatile uint32_t *)0x40043004)
+#define PADS_QSPI_GPIO_QSPI_SD0_CLR (*(volatile uint32_t *)0x40043008)
+#define PADS_QSPI_GPIO_QSPI_SD1_CLR (*(volatile uint32_t *)0x4004300c)
+#define PADS_QSPI_GPIO_QSPI_SD2_CLR (*(volatile uint32_t *)0x40043010)
+#define PADS_QSPI_GPIO_QSPI_SD3_CLR (*(volatile uint32_t *)0x40043014)
+#define PADS_QSPI_GPIO_QSPI_SS_CLR (*(volatile uint32_t *)0x40043018)
 
 /*VOLTAGE_SELECT Register macros*/
 

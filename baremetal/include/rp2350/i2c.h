@@ -78,146 +78,146 @@ typedef struct{
 		uint32_t ic_comp_version;
 		uint32_t ic_comp_type;
 		uint32_t RSVD4[960];
-		uint32_t xor_ic_con;
-		uint32_t xor_ic_tar;
-		uint32_t xor_ic_sar;
+		uint32_t ic_con_xor;
+		uint32_t ic_tar_xor;
+		uint32_t ic_sar_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_ic_data_cmd;
-		uint32_t xor_ic_ss_scl_hcnt;
-		uint32_t xor_ic_ss_scl_lcnt;
-		uint32_t xor_ic_fs_scl_hcnt;
-		uint32_t xor_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_xor;
+		uint32_t ic_ss_scl_hcnt_xor;
+		uint32_t ic_ss_scl_lcnt_xor;
+		uint32_t ic_fs_scl_hcnt_xor;
+		uint32_t ic_fs_scl_lcnt_xor;
 		uint32_t RSVDxor_1[2];
-		uint32_t xor_ic_intr_stat;
-		uint32_t xor_ic_intr_mask;
-		uint32_t xor_ic_raw_intr_stat;
-		uint32_t xor_ic_rx_tl;
-		uint32_t xor_ic_tx_tl;
-		uint32_t xor_ic_clr_intr;
-		uint32_t xor_ic_clr_rx_under;
-		uint32_t xor_ic_clr_rx_over;
-		uint32_t xor_ic_clr_tx_over;
-		uint32_t xor_ic_clr_rd_req;
-		uint32_t xor_ic_clr_tx_abrt;
-		uint32_t xor_ic_clr_rx_done;
-		uint32_t xor_ic_clr_activity;
-		uint32_t xor_ic_clr_stop_det;
-		uint32_t xor_ic_clr_start_det;
-		uint32_t xor_ic_clr_gen_call;
-		uint32_t xor_ic_enable;
-		uint32_t xor_ic_status;
-		uint32_t xor_ic_txflr;
-		uint32_t xor_ic_rxflr;
-		uint32_t xor_ic_sda_hold;
-		uint32_t xor_ic_tx_abrt_source;
-		uint32_t xor_ic_slv_data_nack_only;
-		uint32_t xor_ic_dma_cr;
-		uint32_t xor_ic_dma_tdlr;
-		uint32_t xor_ic_dma_rdlr;
-		uint32_t xor_ic_sda_setup;
-		uint32_t xor_ic_ack_general_call;
-		uint32_t xor_ic_enable_status;
-		uint32_t xor_ic_fs_spklen;
+		uint32_t ic_intr_stat_xor;
+		uint32_t ic_intr_mask_xor;
+		uint32_t ic_raw_intr_stat_xor;
+		uint32_t ic_rx_tl_xor;
+		uint32_t ic_tx_tl_xor;
+		uint32_t ic_clr_intr_xor;
+		uint32_t ic_clr_rx_under_xor;
+		uint32_t ic_clr_rx_over_xor;
+		uint32_t ic_clr_tx_over_xor;
+		uint32_t ic_clr_rd_req_xor;
+		uint32_t ic_clr_tx_abrt_xor;
+		uint32_t ic_clr_rx_done_xor;
+		uint32_t ic_clr_activity_xor;
+		uint32_t ic_clr_stop_det_xor;
+		uint32_t ic_clr_start_det_xor;
+		uint32_t ic_clr_gen_call_xor;
+		uint32_t ic_enable_xor;
+		uint32_t ic_status_xor;
+		uint32_t ic_txflr_xor;
+		uint32_t ic_rxflr_xor;
+		uint32_t ic_sda_hold_xor;
+		uint32_t ic_tx_abrt_source_xor;
+		uint32_t ic_slv_data_nack_only_xor;
+		uint32_t ic_dma_cr_xor;
+		uint32_t ic_dma_tdlr_xor;
+		uint32_t ic_dma_rdlr_xor;
+		uint32_t ic_sda_setup_xor;
+		uint32_t ic_ack_general_call_xor;
+		uint32_t ic_enable_status_xor;
+		uint32_t ic_fs_spklen_xor;
 		uint32_t RSVDxor_2;
-		uint32_t xor_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_xor;
 		uint32_t RSVDxor_3[18];
-		uint32_t xor_ic_comp_param_1;
-		uint32_t xor_ic_comp_version;
-		uint32_t xor_ic_comp_type;
+		uint32_t ic_comp_param_1_xor;
+		uint32_t ic_comp_version_xor;
+		uint32_t ic_comp_type_xor;
 		uint32_t RSVDxor_4[960];
-		uint32_t set_ic_con;
-		uint32_t set_ic_tar;
-		uint32_t set_ic_sar;
+		uint32_t ic_con_set;
+		uint32_t ic_tar_set;
+		uint32_t ic_sar_set;
 		uint32_t RSVDset_0;
-		uint32_t set_ic_data_cmd;
-		uint32_t set_ic_ss_scl_hcnt;
-		uint32_t set_ic_ss_scl_lcnt;
-		uint32_t set_ic_fs_scl_hcnt;
-		uint32_t set_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_set;
+		uint32_t ic_ss_scl_hcnt_set;
+		uint32_t ic_ss_scl_lcnt_set;
+		uint32_t ic_fs_scl_hcnt_set;
+		uint32_t ic_fs_scl_lcnt_set;
 		uint32_t RSVDset_1[2];
-		uint32_t set_ic_intr_stat;
-		uint32_t set_ic_intr_mask;
-		uint32_t set_ic_raw_intr_stat;
-		uint32_t set_ic_rx_tl;
-		uint32_t set_ic_tx_tl;
-		uint32_t set_ic_clr_intr;
-		uint32_t set_ic_clr_rx_under;
-		uint32_t set_ic_clr_rx_over;
-		uint32_t set_ic_clr_tx_over;
-		uint32_t set_ic_clr_rd_req;
-		uint32_t set_ic_clr_tx_abrt;
-		uint32_t set_ic_clr_rx_done;
-		uint32_t set_ic_clr_activity;
-		uint32_t set_ic_clr_stop_det;
-		uint32_t set_ic_clr_start_det;
-		uint32_t set_ic_clr_gen_call;
-		uint32_t set_ic_enable;
-		uint32_t set_ic_status;
-		uint32_t set_ic_txflr;
-		uint32_t set_ic_rxflr;
-		uint32_t set_ic_sda_hold;
-		uint32_t set_ic_tx_abrt_source;
-		uint32_t set_ic_slv_data_nack_only;
-		uint32_t set_ic_dma_cr;
-		uint32_t set_ic_dma_tdlr;
-		uint32_t set_ic_dma_rdlr;
-		uint32_t set_ic_sda_setup;
-		uint32_t set_ic_ack_general_call;
-		uint32_t set_ic_enable_status;
-		uint32_t set_ic_fs_spklen;
+		uint32_t ic_intr_stat_set;
+		uint32_t ic_intr_mask_set;
+		uint32_t ic_raw_intr_stat_set;
+		uint32_t ic_rx_tl_set;
+		uint32_t ic_tx_tl_set;
+		uint32_t ic_clr_intr_set;
+		uint32_t ic_clr_rx_under_set;
+		uint32_t ic_clr_rx_over_set;
+		uint32_t ic_clr_tx_over_set;
+		uint32_t ic_clr_rd_req_set;
+		uint32_t ic_clr_tx_abrt_set;
+		uint32_t ic_clr_rx_done_set;
+		uint32_t ic_clr_activity_set;
+		uint32_t ic_clr_stop_det_set;
+		uint32_t ic_clr_start_det_set;
+		uint32_t ic_clr_gen_call_set;
+		uint32_t ic_enable_set;
+		uint32_t ic_status_set;
+		uint32_t ic_txflr_set;
+		uint32_t ic_rxflr_set;
+		uint32_t ic_sda_hold_set;
+		uint32_t ic_tx_abrt_source_set;
+		uint32_t ic_slv_data_nack_only_set;
+		uint32_t ic_dma_cr_set;
+		uint32_t ic_dma_tdlr_set;
+		uint32_t ic_dma_rdlr_set;
+		uint32_t ic_sda_setup_set;
+		uint32_t ic_ack_general_call_set;
+		uint32_t ic_enable_status_set;
+		uint32_t ic_fs_spklen_set;
 		uint32_t RSVDset_2;
-		uint32_t set_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_set;
 		uint32_t RSVDset_3[18];
-		uint32_t set_ic_comp_param_1;
-		uint32_t set_ic_comp_version;
-		uint32_t set_ic_comp_type;
+		uint32_t ic_comp_param_1_set;
+		uint32_t ic_comp_version_set;
+		uint32_t ic_comp_type_set;
 		uint32_t RSVDset_4[960];
-		uint32_t clr_ic_con;
-		uint32_t clr_ic_tar;
-		uint32_t clr_ic_sar;
+		uint32_t ic_con_clr;
+		uint32_t ic_tar_clr;
+		uint32_t ic_sar_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_ic_data_cmd;
-		uint32_t clr_ic_ss_scl_hcnt;
-		uint32_t clr_ic_ss_scl_lcnt;
-		uint32_t clr_ic_fs_scl_hcnt;
-		uint32_t clr_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_clr;
+		uint32_t ic_ss_scl_hcnt_clr;
+		uint32_t ic_ss_scl_lcnt_clr;
+		uint32_t ic_fs_scl_hcnt_clr;
+		uint32_t ic_fs_scl_lcnt_clr;
 		uint32_t RSVDclr_1[2];
-		uint32_t clr_ic_intr_stat;
-		uint32_t clr_ic_intr_mask;
-		uint32_t clr_ic_raw_intr_stat;
-		uint32_t clr_ic_rx_tl;
-		uint32_t clr_ic_tx_tl;
-		uint32_t clr_ic_clr_intr;
-		uint32_t clr_ic_clr_rx_under;
-		uint32_t clr_ic_clr_rx_over;
-		uint32_t clr_ic_clr_tx_over;
-		uint32_t clr_ic_clr_rd_req;
-		uint32_t clr_ic_clr_tx_abrt;
-		uint32_t clr_ic_clr_rx_done;
-		uint32_t clr_ic_clr_activity;
-		uint32_t clr_ic_clr_stop_det;
-		uint32_t clr_ic_clr_start_det;
-		uint32_t clr_ic_clr_gen_call;
-		uint32_t clr_ic_enable;
-		uint32_t clr_ic_status;
-		uint32_t clr_ic_txflr;
-		uint32_t clr_ic_rxflr;
-		uint32_t clr_ic_sda_hold;
-		uint32_t clr_ic_tx_abrt_source;
-		uint32_t clr_ic_slv_data_nack_only;
-		uint32_t clr_ic_dma_cr;
-		uint32_t clr_ic_dma_tdlr;
-		uint32_t clr_ic_dma_rdlr;
-		uint32_t clr_ic_sda_setup;
-		uint32_t clr_ic_ack_general_call;
-		uint32_t clr_ic_enable_status;
-		uint32_t clr_ic_fs_spklen;
+		uint32_t ic_intr_stat_clr;
+		uint32_t ic_intr_mask_clr;
+		uint32_t ic_raw_intr_stat_clr;
+		uint32_t ic_rx_tl_clr;
+		uint32_t ic_tx_tl_clr;
+		uint32_t ic_clr_intr_clr;
+		uint32_t ic_clr_rx_under_clr;
+		uint32_t ic_clr_rx_over_clr;
+		uint32_t ic_clr_tx_over_clr;
+		uint32_t ic_clr_rd_req_clr;
+		uint32_t ic_clr_tx_abrt_clr;
+		uint32_t ic_clr_rx_done_clr;
+		uint32_t ic_clr_activity_clr;
+		uint32_t ic_clr_stop_det_clr;
+		uint32_t ic_clr_start_det_clr;
+		uint32_t ic_clr_gen_call_clr;
+		uint32_t ic_enable_clr;
+		uint32_t ic_status_clr;
+		uint32_t ic_txflr_clr;
+		uint32_t ic_rxflr_clr;
+		uint32_t ic_sda_hold_clr;
+		uint32_t ic_tx_abrt_source_clr;
+		uint32_t ic_slv_data_nack_only_clr;
+		uint32_t ic_dma_cr_clr;
+		uint32_t ic_dma_tdlr_clr;
+		uint32_t ic_dma_rdlr_clr;
+		uint32_t ic_sda_setup_clr;
+		uint32_t ic_ack_general_call_clr;
+		uint32_t ic_enable_status_clr;
+		uint32_t ic_fs_spklen_clr;
 		uint32_t RSVDclr_2;
-		uint32_t clr_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_clr;
 		uint32_t RSVDclr_3[18];
-		uint32_t clr_ic_comp_param_1;
-		uint32_t clr_ic_comp_version;
-		uint32_t clr_ic_comp_type;
+		uint32_t ic_comp_param_1_clr;
+		uint32_t ic_comp_version_clr;
+		uint32_t ic_comp_type_clr;
 		uint32_t RSVDclr_4[960];
 } I2C0_REG_BLOCKS;
 typedef struct{
@@ -268,146 +268,146 @@ typedef struct{
 		uint32_t ic_comp_version;
 		uint32_t ic_comp_type;
 		uint32_t RSVD4[960];
-		uint32_t xor_ic_con;
-		uint32_t xor_ic_tar;
-		uint32_t xor_ic_sar;
+		uint32_t ic_con_xor;
+		uint32_t ic_tar_xor;
+		uint32_t ic_sar_xor;
 		uint32_t RSVDxor_0;
-		uint32_t xor_ic_data_cmd;
-		uint32_t xor_ic_ss_scl_hcnt;
-		uint32_t xor_ic_ss_scl_lcnt;
-		uint32_t xor_ic_fs_scl_hcnt;
-		uint32_t xor_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_xor;
+		uint32_t ic_ss_scl_hcnt_xor;
+		uint32_t ic_ss_scl_lcnt_xor;
+		uint32_t ic_fs_scl_hcnt_xor;
+		uint32_t ic_fs_scl_lcnt_xor;
 		uint32_t RSVDxor_1[2];
-		uint32_t xor_ic_intr_stat;
-		uint32_t xor_ic_intr_mask;
-		uint32_t xor_ic_raw_intr_stat;
-		uint32_t xor_ic_rx_tl;
-		uint32_t xor_ic_tx_tl;
-		uint32_t xor_ic_clr_intr;
-		uint32_t xor_ic_clr_rx_under;
-		uint32_t xor_ic_clr_rx_over;
-		uint32_t xor_ic_clr_tx_over;
-		uint32_t xor_ic_clr_rd_req;
-		uint32_t xor_ic_clr_tx_abrt;
-		uint32_t xor_ic_clr_rx_done;
-		uint32_t xor_ic_clr_activity;
-		uint32_t xor_ic_clr_stop_det;
-		uint32_t xor_ic_clr_start_det;
-		uint32_t xor_ic_clr_gen_call;
-		uint32_t xor_ic_enable;
-		uint32_t xor_ic_status;
-		uint32_t xor_ic_txflr;
-		uint32_t xor_ic_rxflr;
-		uint32_t xor_ic_sda_hold;
-		uint32_t xor_ic_tx_abrt_source;
-		uint32_t xor_ic_slv_data_nack_only;
-		uint32_t xor_ic_dma_cr;
-		uint32_t xor_ic_dma_tdlr;
-		uint32_t xor_ic_dma_rdlr;
-		uint32_t xor_ic_sda_setup;
-		uint32_t xor_ic_ack_general_call;
-		uint32_t xor_ic_enable_status;
-		uint32_t xor_ic_fs_spklen;
+		uint32_t ic_intr_stat_xor;
+		uint32_t ic_intr_mask_xor;
+		uint32_t ic_raw_intr_stat_xor;
+		uint32_t ic_rx_tl_xor;
+		uint32_t ic_tx_tl_xor;
+		uint32_t ic_clr_intr_xor;
+		uint32_t ic_clr_rx_under_xor;
+		uint32_t ic_clr_rx_over_xor;
+		uint32_t ic_clr_tx_over_xor;
+		uint32_t ic_clr_rd_req_xor;
+		uint32_t ic_clr_tx_abrt_xor;
+		uint32_t ic_clr_rx_done_xor;
+		uint32_t ic_clr_activity_xor;
+		uint32_t ic_clr_stop_det_xor;
+		uint32_t ic_clr_start_det_xor;
+		uint32_t ic_clr_gen_call_xor;
+		uint32_t ic_enable_xor;
+		uint32_t ic_status_xor;
+		uint32_t ic_txflr_xor;
+		uint32_t ic_rxflr_xor;
+		uint32_t ic_sda_hold_xor;
+		uint32_t ic_tx_abrt_source_xor;
+		uint32_t ic_slv_data_nack_only_xor;
+		uint32_t ic_dma_cr_xor;
+		uint32_t ic_dma_tdlr_xor;
+		uint32_t ic_dma_rdlr_xor;
+		uint32_t ic_sda_setup_xor;
+		uint32_t ic_ack_general_call_xor;
+		uint32_t ic_enable_status_xor;
+		uint32_t ic_fs_spklen_xor;
 		uint32_t RSVDxor_2;
-		uint32_t xor_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_xor;
 		uint32_t RSVDxor_3[18];
-		uint32_t xor_ic_comp_param_1;
-		uint32_t xor_ic_comp_version;
-		uint32_t xor_ic_comp_type;
+		uint32_t ic_comp_param_1_xor;
+		uint32_t ic_comp_version_xor;
+		uint32_t ic_comp_type_xor;
 		uint32_t RSVDxor_4[960];
-		uint32_t set_ic_con;
-		uint32_t set_ic_tar;
-		uint32_t set_ic_sar;
+		uint32_t ic_con_set;
+		uint32_t ic_tar_set;
+		uint32_t ic_sar_set;
 		uint32_t RSVDset_0;
-		uint32_t set_ic_data_cmd;
-		uint32_t set_ic_ss_scl_hcnt;
-		uint32_t set_ic_ss_scl_lcnt;
-		uint32_t set_ic_fs_scl_hcnt;
-		uint32_t set_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_set;
+		uint32_t ic_ss_scl_hcnt_set;
+		uint32_t ic_ss_scl_lcnt_set;
+		uint32_t ic_fs_scl_hcnt_set;
+		uint32_t ic_fs_scl_lcnt_set;
 		uint32_t RSVDset_1[2];
-		uint32_t set_ic_intr_stat;
-		uint32_t set_ic_intr_mask;
-		uint32_t set_ic_raw_intr_stat;
-		uint32_t set_ic_rx_tl;
-		uint32_t set_ic_tx_tl;
-		uint32_t set_ic_clr_intr;
-		uint32_t set_ic_clr_rx_under;
-		uint32_t set_ic_clr_rx_over;
-		uint32_t set_ic_clr_tx_over;
-		uint32_t set_ic_clr_rd_req;
-		uint32_t set_ic_clr_tx_abrt;
-		uint32_t set_ic_clr_rx_done;
-		uint32_t set_ic_clr_activity;
-		uint32_t set_ic_clr_stop_det;
-		uint32_t set_ic_clr_start_det;
-		uint32_t set_ic_clr_gen_call;
-		uint32_t set_ic_enable;
-		uint32_t set_ic_status;
-		uint32_t set_ic_txflr;
-		uint32_t set_ic_rxflr;
-		uint32_t set_ic_sda_hold;
-		uint32_t set_ic_tx_abrt_source;
-		uint32_t set_ic_slv_data_nack_only;
-		uint32_t set_ic_dma_cr;
-		uint32_t set_ic_dma_tdlr;
-		uint32_t set_ic_dma_rdlr;
-		uint32_t set_ic_sda_setup;
-		uint32_t set_ic_ack_general_call;
-		uint32_t set_ic_enable_status;
-		uint32_t set_ic_fs_spklen;
+		uint32_t ic_intr_stat_set;
+		uint32_t ic_intr_mask_set;
+		uint32_t ic_raw_intr_stat_set;
+		uint32_t ic_rx_tl_set;
+		uint32_t ic_tx_tl_set;
+		uint32_t ic_clr_intr_set;
+		uint32_t ic_clr_rx_under_set;
+		uint32_t ic_clr_rx_over_set;
+		uint32_t ic_clr_tx_over_set;
+		uint32_t ic_clr_rd_req_set;
+		uint32_t ic_clr_tx_abrt_set;
+		uint32_t ic_clr_rx_done_set;
+		uint32_t ic_clr_activity_set;
+		uint32_t ic_clr_stop_det_set;
+		uint32_t ic_clr_start_det_set;
+		uint32_t ic_clr_gen_call_set;
+		uint32_t ic_enable_set;
+		uint32_t ic_status_set;
+		uint32_t ic_txflr_set;
+		uint32_t ic_rxflr_set;
+		uint32_t ic_sda_hold_set;
+		uint32_t ic_tx_abrt_source_set;
+		uint32_t ic_slv_data_nack_only_set;
+		uint32_t ic_dma_cr_set;
+		uint32_t ic_dma_tdlr_set;
+		uint32_t ic_dma_rdlr_set;
+		uint32_t ic_sda_setup_set;
+		uint32_t ic_ack_general_call_set;
+		uint32_t ic_enable_status_set;
+		uint32_t ic_fs_spklen_set;
 		uint32_t RSVDset_2;
-		uint32_t set_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_set;
 		uint32_t RSVDset_3[18];
-		uint32_t set_ic_comp_param_1;
-		uint32_t set_ic_comp_version;
-		uint32_t set_ic_comp_type;
+		uint32_t ic_comp_param_1_set;
+		uint32_t ic_comp_version_set;
+		uint32_t ic_comp_type_set;
 		uint32_t RSVDset_4[960];
-		uint32_t clr_ic_con;
-		uint32_t clr_ic_tar;
-		uint32_t clr_ic_sar;
+		uint32_t ic_con_clr;
+		uint32_t ic_tar_clr;
+		uint32_t ic_sar_clr;
 		uint32_t RSVDclr_0;
-		uint32_t clr_ic_data_cmd;
-		uint32_t clr_ic_ss_scl_hcnt;
-		uint32_t clr_ic_ss_scl_lcnt;
-		uint32_t clr_ic_fs_scl_hcnt;
-		uint32_t clr_ic_fs_scl_lcnt;
+		uint32_t ic_data_cmd_clr;
+		uint32_t ic_ss_scl_hcnt_clr;
+		uint32_t ic_ss_scl_lcnt_clr;
+		uint32_t ic_fs_scl_hcnt_clr;
+		uint32_t ic_fs_scl_lcnt_clr;
 		uint32_t RSVDclr_1[2];
-		uint32_t clr_ic_intr_stat;
-		uint32_t clr_ic_intr_mask;
-		uint32_t clr_ic_raw_intr_stat;
-		uint32_t clr_ic_rx_tl;
-		uint32_t clr_ic_tx_tl;
-		uint32_t clr_ic_clr_intr;
-		uint32_t clr_ic_clr_rx_under;
-		uint32_t clr_ic_clr_rx_over;
-		uint32_t clr_ic_clr_tx_over;
-		uint32_t clr_ic_clr_rd_req;
-		uint32_t clr_ic_clr_tx_abrt;
-		uint32_t clr_ic_clr_rx_done;
-		uint32_t clr_ic_clr_activity;
-		uint32_t clr_ic_clr_stop_det;
-		uint32_t clr_ic_clr_start_det;
-		uint32_t clr_ic_clr_gen_call;
-		uint32_t clr_ic_enable;
-		uint32_t clr_ic_status;
-		uint32_t clr_ic_txflr;
-		uint32_t clr_ic_rxflr;
-		uint32_t clr_ic_sda_hold;
-		uint32_t clr_ic_tx_abrt_source;
-		uint32_t clr_ic_slv_data_nack_only;
-		uint32_t clr_ic_dma_cr;
-		uint32_t clr_ic_dma_tdlr;
-		uint32_t clr_ic_dma_rdlr;
-		uint32_t clr_ic_sda_setup;
-		uint32_t clr_ic_ack_general_call;
-		uint32_t clr_ic_enable_status;
-		uint32_t clr_ic_fs_spklen;
+		uint32_t ic_intr_stat_clr;
+		uint32_t ic_intr_mask_clr;
+		uint32_t ic_raw_intr_stat_clr;
+		uint32_t ic_rx_tl_clr;
+		uint32_t ic_tx_tl_clr;
+		uint32_t ic_clr_intr_clr;
+		uint32_t ic_clr_rx_under_clr;
+		uint32_t ic_clr_rx_over_clr;
+		uint32_t ic_clr_tx_over_clr;
+		uint32_t ic_clr_rd_req_clr;
+		uint32_t ic_clr_tx_abrt_clr;
+		uint32_t ic_clr_rx_done_clr;
+		uint32_t ic_clr_activity_clr;
+		uint32_t ic_clr_stop_det_clr;
+		uint32_t ic_clr_start_det_clr;
+		uint32_t ic_clr_gen_call_clr;
+		uint32_t ic_enable_clr;
+		uint32_t ic_status_clr;
+		uint32_t ic_txflr_clr;
+		uint32_t ic_rxflr_clr;
+		uint32_t ic_sda_hold_clr;
+		uint32_t ic_tx_abrt_source_clr;
+		uint32_t ic_slv_data_nack_only_clr;
+		uint32_t ic_dma_cr_clr;
+		uint32_t ic_dma_tdlr_clr;
+		uint32_t ic_dma_rdlr_clr;
+		uint32_t ic_sda_setup_clr;
+		uint32_t ic_ack_general_call_clr;
+		uint32_t ic_enable_status_clr;
+		uint32_t ic_fs_spklen_clr;
 		uint32_t RSVDclr_2;
-		uint32_t clr_ic_clr_restart_det;
+		uint32_t ic_clr_restart_det_clr;
 		uint32_t RSVDclr_3[18];
-		uint32_t clr_ic_comp_param_1;
-		uint32_t clr_ic_comp_version;
-		uint32_t clr_ic_comp_type;
+		uint32_t ic_comp_param_1_clr;
+		uint32_t ic_comp_version_clr;
+		uint32_t ic_comp_type_clr;
 		uint32_t RSVDclr_4[960];
 } I2C1_REG_BLOCKS;
 
@@ -465,132 +465,132 @@ typedef struct{
 #define I2C0_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400900f4)
 #define I2C0_IC_COMP_VERSION (*(volatile uint32_t *)0x400900f8)
 #define I2C0_IC_COMP_TYPE (*(volatile uint32_t *)0x400900fc)
-#define I2C0_XOR_IC_CON (*(volatile uint32_t *)0x40091000)
-#define I2C0_XOR_IC_TAR (*(volatile uint32_t *)0x40091004)
-#define I2C0_XOR_IC_SAR (*(volatile uint32_t *)0x40091008)
-#define I2C0_XOR_IC_DATA_CMD (*(volatile uint32_t *)0x40091010)
-#define I2C0_XOR_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x40091014)
-#define I2C0_XOR_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x40091018)
-#define I2C0_XOR_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009101c)
-#define I2C0_XOR_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x40091020)
-#define I2C0_XOR_IC_INTR_STAT (*(volatile uint32_t *)0x4009102c)
-#define I2C0_XOR_IC_INTR_MASK (*(volatile uint32_t *)0x40091030)
-#define I2C0_XOR_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x40091034)
-#define I2C0_XOR_IC_RX_TL (*(volatile uint32_t *)0x40091038)
-#define I2C0_XOR_IC_TX_TL (*(volatile uint32_t *)0x4009103c)
-#define I2C0_XOR_IC_CLR_INTR (*(volatile uint32_t *)0x40091040)
-#define I2C0_XOR_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x40091044)
-#define I2C0_XOR_IC_CLR_RX_OVER (*(volatile uint32_t *)0x40091048)
-#define I2C0_XOR_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009104c)
-#define I2C0_XOR_IC_CLR_RD_REQ (*(volatile uint32_t *)0x40091050)
-#define I2C0_XOR_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x40091054)
-#define I2C0_XOR_IC_CLR_RX_DONE (*(volatile uint32_t *)0x40091058)
-#define I2C0_XOR_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009105c)
-#define I2C0_XOR_IC_CLR_STOP_DET (*(volatile uint32_t *)0x40091060)
-#define I2C0_XOR_IC_CLR_START_DET (*(volatile uint32_t *)0x40091064)
-#define I2C0_XOR_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x40091068)
-#define I2C0_XOR_IC_ENABLE (*(volatile uint32_t *)0x4009106c)
-#define I2C0_XOR_IC_STATUS (*(volatile uint32_t *)0x40091070)
-#define I2C0_XOR_IC_TXFLR (*(volatile uint32_t *)0x40091074)
-#define I2C0_XOR_IC_RXFLR (*(volatile uint32_t *)0x40091078)
-#define I2C0_XOR_IC_SDA_HOLD (*(volatile uint32_t *)0x4009107c)
-#define I2C0_XOR_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x40091080)
-#define I2C0_XOR_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x40091084)
-#define I2C0_XOR_IC_DMA_CR (*(volatile uint32_t *)0x40091088)
-#define I2C0_XOR_IC_DMA_TDLR (*(volatile uint32_t *)0x4009108c)
-#define I2C0_XOR_IC_DMA_RDLR (*(volatile uint32_t *)0x40091090)
-#define I2C0_XOR_IC_SDA_SETUP (*(volatile uint32_t *)0x40091094)
-#define I2C0_XOR_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x40091098)
-#define I2C0_XOR_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009109c)
-#define I2C0_XOR_IC_FS_SPKLEN (*(volatile uint32_t *)0x400910a0)
-#define I2C0_XOR_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x400910a8)
-#define I2C0_XOR_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400910f4)
-#define I2C0_XOR_IC_COMP_VERSION (*(volatile uint32_t *)0x400910f8)
-#define I2C0_XOR_IC_COMP_TYPE (*(volatile uint32_t *)0x400910fc)
-#define I2C0_SET_IC_CON (*(volatile uint32_t *)0x40092000)
-#define I2C0_SET_IC_TAR (*(volatile uint32_t *)0x40092004)
-#define I2C0_SET_IC_SAR (*(volatile uint32_t *)0x40092008)
-#define I2C0_SET_IC_DATA_CMD (*(volatile uint32_t *)0x40092010)
-#define I2C0_SET_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x40092014)
-#define I2C0_SET_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x40092018)
-#define I2C0_SET_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009201c)
-#define I2C0_SET_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x40092020)
-#define I2C0_SET_IC_INTR_STAT (*(volatile uint32_t *)0x4009202c)
-#define I2C0_SET_IC_INTR_MASK (*(volatile uint32_t *)0x40092030)
-#define I2C0_SET_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x40092034)
-#define I2C0_SET_IC_RX_TL (*(volatile uint32_t *)0x40092038)
-#define I2C0_SET_IC_TX_TL (*(volatile uint32_t *)0x4009203c)
-#define I2C0_SET_IC_CLR_INTR (*(volatile uint32_t *)0x40092040)
-#define I2C0_SET_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x40092044)
-#define I2C0_SET_IC_CLR_RX_OVER (*(volatile uint32_t *)0x40092048)
-#define I2C0_SET_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009204c)
-#define I2C0_SET_IC_CLR_RD_REQ (*(volatile uint32_t *)0x40092050)
-#define I2C0_SET_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x40092054)
-#define I2C0_SET_IC_CLR_RX_DONE (*(volatile uint32_t *)0x40092058)
-#define I2C0_SET_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009205c)
-#define I2C0_SET_IC_CLR_STOP_DET (*(volatile uint32_t *)0x40092060)
-#define I2C0_SET_IC_CLR_START_DET (*(volatile uint32_t *)0x40092064)
-#define I2C0_SET_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x40092068)
-#define I2C0_SET_IC_ENABLE (*(volatile uint32_t *)0x4009206c)
-#define I2C0_SET_IC_STATUS (*(volatile uint32_t *)0x40092070)
-#define I2C0_SET_IC_TXFLR (*(volatile uint32_t *)0x40092074)
-#define I2C0_SET_IC_RXFLR (*(volatile uint32_t *)0x40092078)
-#define I2C0_SET_IC_SDA_HOLD (*(volatile uint32_t *)0x4009207c)
-#define I2C0_SET_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x40092080)
-#define I2C0_SET_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x40092084)
-#define I2C0_SET_IC_DMA_CR (*(volatile uint32_t *)0x40092088)
-#define I2C0_SET_IC_DMA_TDLR (*(volatile uint32_t *)0x4009208c)
-#define I2C0_SET_IC_DMA_RDLR (*(volatile uint32_t *)0x40092090)
-#define I2C0_SET_IC_SDA_SETUP (*(volatile uint32_t *)0x40092094)
-#define I2C0_SET_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x40092098)
-#define I2C0_SET_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009209c)
-#define I2C0_SET_IC_FS_SPKLEN (*(volatile uint32_t *)0x400920a0)
-#define I2C0_SET_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x400920a8)
-#define I2C0_SET_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400920f4)
-#define I2C0_SET_IC_COMP_VERSION (*(volatile uint32_t *)0x400920f8)
-#define I2C0_SET_IC_COMP_TYPE (*(volatile uint32_t *)0x400920fc)
-#define I2C0_CLR_IC_CON (*(volatile uint32_t *)0x40093000)
-#define I2C0_CLR_IC_TAR (*(volatile uint32_t *)0x40093004)
-#define I2C0_CLR_IC_SAR (*(volatile uint32_t *)0x40093008)
-#define I2C0_CLR_IC_DATA_CMD (*(volatile uint32_t *)0x40093010)
-#define I2C0_CLR_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x40093014)
-#define I2C0_CLR_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x40093018)
-#define I2C0_CLR_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009301c)
-#define I2C0_CLR_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x40093020)
-#define I2C0_CLR_IC_INTR_STAT (*(volatile uint32_t *)0x4009302c)
-#define I2C0_CLR_IC_INTR_MASK (*(volatile uint32_t *)0x40093030)
-#define I2C0_CLR_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x40093034)
-#define I2C0_CLR_IC_RX_TL (*(volatile uint32_t *)0x40093038)
-#define I2C0_CLR_IC_TX_TL (*(volatile uint32_t *)0x4009303c)
-#define I2C0_CLR_IC_CLR_INTR (*(volatile uint32_t *)0x40093040)
-#define I2C0_CLR_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x40093044)
-#define I2C0_CLR_IC_CLR_RX_OVER (*(volatile uint32_t *)0x40093048)
-#define I2C0_CLR_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009304c)
-#define I2C0_CLR_IC_CLR_RD_REQ (*(volatile uint32_t *)0x40093050)
-#define I2C0_CLR_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x40093054)
-#define I2C0_CLR_IC_CLR_RX_DONE (*(volatile uint32_t *)0x40093058)
-#define I2C0_CLR_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009305c)
-#define I2C0_CLR_IC_CLR_STOP_DET (*(volatile uint32_t *)0x40093060)
-#define I2C0_CLR_IC_CLR_START_DET (*(volatile uint32_t *)0x40093064)
-#define I2C0_CLR_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x40093068)
-#define I2C0_CLR_IC_ENABLE (*(volatile uint32_t *)0x4009306c)
-#define I2C0_CLR_IC_STATUS (*(volatile uint32_t *)0x40093070)
-#define I2C0_CLR_IC_TXFLR (*(volatile uint32_t *)0x40093074)
-#define I2C0_CLR_IC_RXFLR (*(volatile uint32_t *)0x40093078)
-#define I2C0_CLR_IC_SDA_HOLD (*(volatile uint32_t *)0x4009307c)
-#define I2C0_CLR_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x40093080)
-#define I2C0_CLR_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x40093084)
-#define I2C0_CLR_IC_DMA_CR (*(volatile uint32_t *)0x40093088)
-#define I2C0_CLR_IC_DMA_TDLR (*(volatile uint32_t *)0x4009308c)
-#define I2C0_CLR_IC_DMA_RDLR (*(volatile uint32_t *)0x40093090)
-#define I2C0_CLR_IC_SDA_SETUP (*(volatile uint32_t *)0x40093094)
-#define I2C0_CLR_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x40093098)
-#define I2C0_CLR_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009309c)
-#define I2C0_CLR_IC_FS_SPKLEN (*(volatile uint32_t *)0x400930a0)
-#define I2C0_CLR_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x400930a8)
-#define I2C0_CLR_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400930f4)
-#define I2C0_CLR_IC_COMP_VERSION (*(volatile uint32_t *)0x400930f8)
-#define I2C0_CLR_IC_COMP_TYPE (*(volatile uint32_t *)0x400930fc)
+#define I2C0_IC_CON_XOR (*(volatile uint32_t *)0x40091000)
+#define I2C0_IC_TAR_XOR (*(volatile uint32_t *)0x40091004)
+#define I2C0_IC_SAR_XOR (*(volatile uint32_t *)0x40091008)
+#define I2C0_IC_DATA_CMD_XOR (*(volatile uint32_t *)0x40091010)
+#define I2C0_IC_SS_SCL_HCNT_XOR (*(volatile uint32_t *)0x40091014)
+#define I2C0_IC_SS_SCL_LCNT_XOR (*(volatile uint32_t *)0x40091018)
+#define I2C0_IC_FS_SCL_HCNT_XOR (*(volatile uint32_t *)0x4009101c)
+#define I2C0_IC_FS_SCL_LCNT_XOR (*(volatile uint32_t *)0x40091020)
+#define I2C0_IC_INTR_STAT_XOR (*(volatile uint32_t *)0x4009102c)
+#define I2C0_IC_INTR_MASK_XOR (*(volatile uint32_t *)0x40091030)
+#define I2C0_IC_RAW_INTR_STAT_XOR (*(volatile uint32_t *)0x40091034)
+#define I2C0_IC_RX_TL_XOR (*(volatile uint32_t *)0x40091038)
+#define I2C0_IC_TX_TL_XOR (*(volatile uint32_t *)0x4009103c)
+#define I2C0_IC_CLR_INTR_XOR (*(volatile uint32_t *)0x40091040)
+#define I2C0_IC_CLR_RX_UNDER_XOR (*(volatile uint32_t *)0x40091044)
+#define I2C0_IC_CLR_RX_OVER_XOR (*(volatile uint32_t *)0x40091048)
+#define I2C0_IC_CLR_TX_OVER_XOR (*(volatile uint32_t *)0x4009104c)
+#define I2C0_IC_CLR_RD_REQ_XOR (*(volatile uint32_t *)0x40091050)
+#define I2C0_IC_CLR_TX_ABRT_XOR (*(volatile uint32_t *)0x40091054)
+#define I2C0_IC_CLR_RX_DONE_XOR (*(volatile uint32_t *)0x40091058)
+#define I2C0_IC_CLR_ACTIVITY_XOR (*(volatile uint32_t *)0x4009105c)
+#define I2C0_IC_CLR_STOP_DET_XOR (*(volatile uint32_t *)0x40091060)
+#define I2C0_IC_CLR_START_DET_XOR (*(volatile uint32_t *)0x40091064)
+#define I2C0_IC_CLR_GEN_CALL_XOR (*(volatile uint32_t *)0x40091068)
+#define I2C0_IC_ENABLE_XOR (*(volatile uint32_t *)0x4009106c)
+#define I2C0_IC_STATUS_XOR (*(volatile uint32_t *)0x40091070)
+#define I2C0_IC_TXFLR_XOR (*(volatile uint32_t *)0x40091074)
+#define I2C0_IC_RXFLR_XOR (*(volatile uint32_t *)0x40091078)
+#define I2C0_IC_SDA_HOLD_XOR (*(volatile uint32_t *)0x4009107c)
+#define I2C0_IC_TX_ABRT_SOURCE_XOR (*(volatile uint32_t *)0x40091080)
+#define I2C0_IC_SLV_DATA_NACK_ONLY_XOR (*(volatile uint32_t *)0x40091084)
+#define I2C0_IC_DMA_CR_XOR (*(volatile uint32_t *)0x40091088)
+#define I2C0_IC_DMA_TDLR_XOR (*(volatile uint32_t *)0x4009108c)
+#define I2C0_IC_DMA_RDLR_XOR (*(volatile uint32_t *)0x40091090)
+#define I2C0_IC_SDA_SETUP_XOR (*(volatile uint32_t *)0x40091094)
+#define I2C0_IC_ACK_GENERAL_CALL_XOR (*(volatile uint32_t *)0x40091098)
+#define I2C0_IC_ENABLE_STATUS_XOR (*(volatile uint32_t *)0x4009109c)
+#define I2C0_IC_FS_SPKLEN_XOR (*(volatile uint32_t *)0x400910a0)
+#define I2C0_IC_CLR_RESTART_DET_XOR (*(volatile uint32_t *)0x400910a8)
+#define I2C0_IC_COMP_PARAM_1_XOR (*(volatile uint32_t *)0x400910f4)
+#define I2C0_IC_COMP_VERSION_XOR (*(volatile uint32_t *)0x400910f8)
+#define I2C0_IC_COMP_TYPE_XOR (*(volatile uint32_t *)0x400910fc)
+#define I2C0_IC_CON_SET (*(volatile uint32_t *)0x40092000)
+#define I2C0_IC_TAR_SET (*(volatile uint32_t *)0x40092004)
+#define I2C0_IC_SAR_SET (*(volatile uint32_t *)0x40092008)
+#define I2C0_IC_DATA_CMD_SET (*(volatile uint32_t *)0x40092010)
+#define I2C0_IC_SS_SCL_HCNT_SET (*(volatile uint32_t *)0x40092014)
+#define I2C0_IC_SS_SCL_LCNT_SET (*(volatile uint32_t *)0x40092018)
+#define I2C0_IC_FS_SCL_HCNT_SET (*(volatile uint32_t *)0x4009201c)
+#define I2C0_IC_FS_SCL_LCNT_SET (*(volatile uint32_t *)0x40092020)
+#define I2C0_IC_INTR_STAT_SET (*(volatile uint32_t *)0x4009202c)
+#define I2C0_IC_INTR_MASK_SET (*(volatile uint32_t *)0x40092030)
+#define I2C0_IC_RAW_INTR_STAT_SET (*(volatile uint32_t *)0x40092034)
+#define I2C0_IC_RX_TL_SET (*(volatile uint32_t *)0x40092038)
+#define I2C0_IC_TX_TL_SET (*(volatile uint32_t *)0x4009203c)
+#define I2C0_IC_CLR_INTR_SET (*(volatile uint32_t *)0x40092040)
+#define I2C0_IC_CLR_RX_UNDER_SET (*(volatile uint32_t *)0x40092044)
+#define I2C0_IC_CLR_RX_OVER_SET (*(volatile uint32_t *)0x40092048)
+#define I2C0_IC_CLR_TX_OVER_SET (*(volatile uint32_t *)0x4009204c)
+#define I2C0_IC_CLR_RD_REQ_SET (*(volatile uint32_t *)0x40092050)
+#define I2C0_IC_CLR_TX_ABRT_SET (*(volatile uint32_t *)0x40092054)
+#define I2C0_IC_CLR_RX_DONE_SET (*(volatile uint32_t *)0x40092058)
+#define I2C0_IC_CLR_ACTIVITY_SET (*(volatile uint32_t *)0x4009205c)
+#define I2C0_IC_CLR_STOP_DET_SET (*(volatile uint32_t *)0x40092060)
+#define I2C0_IC_CLR_START_DET_SET (*(volatile uint32_t *)0x40092064)
+#define I2C0_IC_CLR_GEN_CALL_SET (*(volatile uint32_t *)0x40092068)
+#define I2C0_IC_ENABLE_SET (*(volatile uint32_t *)0x4009206c)
+#define I2C0_IC_STATUS_SET (*(volatile uint32_t *)0x40092070)
+#define I2C0_IC_TXFLR_SET (*(volatile uint32_t *)0x40092074)
+#define I2C0_IC_RXFLR_SET (*(volatile uint32_t *)0x40092078)
+#define I2C0_IC_SDA_HOLD_SET (*(volatile uint32_t *)0x4009207c)
+#define I2C0_IC_TX_ABRT_SOURCE_SET (*(volatile uint32_t *)0x40092080)
+#define I2C0_IC_SLV_DATA_NACK_ONLY_SET (*(volatile uint32_t *)0x40092084)
+#define I2C0_IC_DMA_CR_SET (*(volatile uint32_t *)0x40092088)
+#define I2C0_IC_DMA_TDLR_SET (*(volatile uint32_t *)0x4009208c)
+#define I2C0_IC_DMA_RDLR_SET (*(volatile uint32_t *)0x40092090)
+#define I2C0_IC_SDA_SETUP_SET (*(volatile uint32_t *)0x40092094)
+#define I2C0_IC_ACK_GENERAL_CALL_SET (*(volatile uint32_t *)0x40092098)
+#define I2C0_IC_ENABLE_STATUS_SET (*(volatile uint32_t *)0x4009209c)
+#define I2C0_IC_FS_SPKLEN_SET (*(volatile uint32_t *)0x400920a0)
+#define I2C0_IC_CLR_RESTART_DET_SET (*(volatile uint32_t *)0x400920a8)
+#define I2C0_IC_COMP_PARAM_1_SET (*(volatile uint32_t *)0x400920f4)
+#define I2C0_IC_COMP_VERSION_SET (*(volatile uint32_t *)0x400920f8)
+#define I2C0_IC_COMP_TYPE_SET (*(volatile uint32_t *)0x400920fc)
+#define I2C0_IC_CON_CLR (*(volatile uint32_t *)0x40093000)
+#define I2C0_IC_TAR_CLR (*(volatile uint32_t *)0x40093004)
+#define I2C0_IC_SAR_CLR (*(volatile uint32_t *)0x40093008)
+#define I2C0_IC_DATA_CMD_CLR (*(volatile uint32_t *)0x40093010)
+#define I2C0_IC_SS_SCL_HCNT_CLR (*(volatile uint32_t *)0x40093014)
+#define I2C0_IC_SS_SCL_LCNT_CLR (*(volatile uint32_t *)0x40093018)
+#define I2C0_IC_FS_SCL_HCNT_CLR (*(volatile uint32_t *)0x4009301c)
+#define I2C0_IC_FS_SCL_LCNT_CLR (*(volatile uint32_t *)0x40093020)
+#define I2C0_IC_INTR_STAT_CLR (*(volatile uint32_t *)0x4009302c)
+#define I2C0_IC_INTR_MASK_CLR (*(volatile uint32_t *)0x40093030)
+#define I2C0_IC_RAW_INTR_STAT_CLR (*(volatile uint32_t *)0x40093034)
+#define I2C0_IC_RX_TL_CLR (*(volatile uint32_t *)0x40093038)
+#define I2C0_IC_TX_TL_CLR (*(volatile uint32_t *)0x4009303c)
+#define I2C0_IC_CLR_INTR_CLR (*(volatile uint32_t *)0x40093040)
+#define I2C0_IC_CLR_RX_UNDER_CLR (*(volatile uint32_t *)0x40093044)
+#define I2C0_IC_CLR_RX_OVER_CLR (*(volatile uint32_t *)0x40093048)
+#define I2C0_IC_CLR_TX_OVER_CLR (*(volatile uint32_t *)0x4009304c)
+#define I2C0_IC_CLR_RD_REQ_CLR (*(volatile uint32_t *)0x40093050)
+#define I2C0_IC_CLR_TX_ABRT_CLR (*(volatile uint32_t *)0x40093054)
+#define I2C0_IC_CLR_RX_DONE_CLR (*(volatile uint32_t *)0x40093058)
+#define I2C0_IC_CLR_ACTIVITY_CLR (*(volatile uint32_t *)0x4009305c)
+#define I2C0_IC_CLR_STOP_DET_CLR (*(volatile uint32_t *)0x40093060)
+#define I2C0_IC_CLR_START_DET_CLR (*(volatile uint32_t *)0x40093064)
+#define I2C0_IC_CLR_GEN_CALL_CLR (*(volatile uint32_t *)0x40093068)
+#define I2C0_IC_ENABLE_CLR (*(volatile uint32_t *)0x4009306c)
+#define I2C0_IC_STATUS_CLR (*(volatile uint32_t *)0x40093070)
+#define I2C0_IC_TXFLR_CLR (*(volatile uint32_t *)0x40093074)
+#define I2C0_IC_RXFLR_CLR (*(volatile uint32_t *)0x40093078)
+#define I2C0_IC_SDA_HOLD_CLR (*(volatile uint32_t *)0x4009307c)
+#define I2C0_IC_TX_ABRT_SOURCE_CLR (*(volatile uint32_t *)0x40093080)
+#define I2C0_IC_SLV_DATA_NACK_ONLY_CLR (*(volatile uint32_t *)0x40093084)
+#define I2C0_IC_DMA_CR_CLR (*(volatile uint32_t *)0x40093088)
+#define I2C0_IC_DMA_TDLR_CLR (*(volatile uint32_t *)0x4009308c)
+#define I2C0_IC_DMA_RDLR_CLR (*(volatile uint32_t *)0x40093090)
+#define I2C0_IC_SDA_SETUP_CLR (*(volatile uint32_t *)0x40093094)
+#define I2C0_IC_ACK_GENERAL_CALL_CLR (*(volatile uint32_t *)0x40093098)
+#define I2C0_IC_ENABLE_STATUS_CLR (*(volatile uint32_t *)0x4009309c)
+#define I2C0_IC_FS_SPKLEN_CLR (*(volatile uint32_t *)0x400930a0)
+#define I2C0_IC_CLR_RESTART_DET_CLR (*(volatile uint32_t *)0x400930a8)
+#define I2C0_IC_COMP_PARAM_1_CLR (*(volatile uint32_t *)0x400930f4)
+#define I2C0_IC_COMP_VERSION_CLR (*(volatile uint32_t *)0x400930f8)
+#define I2C0_IC_COMP_TYPE_CLR (*(volatile uint32_t *)0x400930fc)
 #define I2C1_IC_CON (*(volatile uint32_t *)0x40098000)
 #define I2C1_IC_TAR (*(volatile uint32_t *)0x40098004)
 #define I2C1_IC_SAR (*(volatile uint32_t *)0x40098008)
@@ -633,132 +633,132 @@ typedef struct{
 #define I2C1_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400980f4)
 #define I2C1_IC_COMP_VERSION (*(volatile uint32_t *)0x400980f8)
 #define I2C1_IC_COMP_TYPE (*(volatile uint32_t *)0x400980fc)
-#define I2C1_XOR_IC_CON (*(volatile uint32_t *)0x40099000)
-#define I2C1_XOR_IC_TAR (*(volatile uint32_t *)0x40099004)
-#define I2C1_XOR_IC_SAR (*(volatile uint32_t *)0x40099008)
-#define I2C1_XOR_IC_DATA_CMD (*(volatile uint32_t *)0x40099010)
-#define I2C1_XOR_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x40099014)
-#define I2C1_XOR_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x40099018)
-#define I2C1_XOR_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009901c)
-#define I2C1_XOR_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x40099020)
-#define I2C1_XOR_IC_INTR_STAT (*(volatile uint32_t *)0x4009902c)
-#define I2C1_XOR_IC_INTR_MASK (*(volatile uint32_t *)0x40099030)
-#define I2C1_XOR_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x40099034)
-#define I2C1_XOR_IC_RX_TL (*(volatile uint32_t *)0x40099038)
-#define I2C1_XOR_IC_TX_TL (*(volatile uint32_t *)0x4009903c)
-#define I2C1_XOR_IC_CLR_INTR (*(volatile uint32_t *)0x40099040)
-#define I2C1_XOR_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x40099044)
-#define I2C1_XOR_IC_CLR_RX_OVER (*(volatile uint32_t *)0x40099048)
-#define I2C1_XOR_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009904c)
-#define I2C1_XOR_IC_CLR_RD_REQ (*(volatile uint32_t *)0x40099050)
-#define I2C1_XOR_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x40099054)
-#define I2C1_XOR_IC_CLR_RX_DONE (*(volatile uint32_t *)0x40099058)
-#define I2C1_XOR_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009905c)
-#define I2C1_XOR_IC_CLR_STOP_DET (*(volatile uint32_t *)0x40099060)
-#define I2C1_XOR_IC_CLR_START_DET (*(volatile uint32_t *)0x40099064)
-#define I2C1_XOR_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x40099068)
-#define I2C1_XOR_IC_ENABLE (*(volatile uint32_t *)0x4009906c)
-#define I2C1_XOR_IC_STATUS (*(volatile uint32_t *)0x40099070)
-#define I2C1_XOR_IC_TXFLR (*(volatile uint32_t *)0x40099074)
-#define I2C1_XOR_IC_RXFLR (*(volatile uint32_t *)0x40099078)
-#define I2C1_XOR_IC_SDA_HOLD (*(volatile uint32_t *)0x4009907c)
-#define I2C1_XOR_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x40099080)
-#define I2C1_XOR_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x40099084)
-#define I2C1_XOR_IC_DMA_CR (*(volatile uint32_t *)0x40099088)
-#define I2C1_XOR_IC_DMA_TDLR (*(volatile uint32_t *)0x4009908c)
-#define I2C1_XOR_IC_DMA_RDLR (*(volatile uint32_t *)0x40099090)
-#define I2C1_XOR_IC_SDA_SETUP (*(volatile uint32_t *)0x40099094)
-#define I2C1_XOR_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x40099098)
-#define I2C1_XOR_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009909c)
-#define I2C1_XOR_IC_FS_SPKLEN (*(volatile uint32_t *)0x400990a0)
-#define I2C1_XOR_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x400990a8)
-#define I2C1_XOR_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x400990f4)
-#define I2C1_XOR_IC_COMP_VERSION (*(volatile uint32_t *)0x400990f8)
-#define I2C1_XOR_IC_COMP_TYPE (*(volatile uint32_t *)0x400990fc)
-#define I2C1_SET_IC_CON (*(volatile uint32_t *)0x4009a000)
-#define I2C1_SET_IC_TAR (*(volatile uint32_t *)0x4009a004)
-#define I2C1_SET_IC_SAR (*(volatile uint32_t *)0x4009a008)
-#define I2C1_SET_IC_DATA_CMD (*(volatile uint32_t *)0x4009a010)
-#define I2C1_SET_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x4009a014)
-#define I2C1_SET_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x4009a018)
-#define I2C1_SET_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009a01c)
-#define I2C1_SET_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x4009a020)
-#define I2C1_SET_IC_INTR_STAT (*(volatile uint32_t *)0x4009a02c)
-#define I2C1_SET_IC_INTR_MASK (*(volatile uint32_t *)0x4009a030)
-#define I2C1_SET_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x4009a034)
-#define I2C1_SET_IC_RX_TL (*(volatile uint32_t *)0x4009a038)
-#define I2C1_SET_IC_TX_TL (*(volatile uint32_t *)0x4009a03c)
-#define I2C1_SET_IC_CLR_INTR (*(volatile uint32_t *)0x4009a040)
-#define I2C1_SET_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x4009a044)
-#define I2C1_SET_IC_CLR_RX_OVER (*(volatile uint32_t *)0x4009a048)
-#define I2C1_SET_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009a04c)
-#define I2C1_SET_IC_CLR_RD_REQ (*(volatile uint32_t *)0x4009a050)
-#define I2C1_SET_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x4009a054)
-#define I2C1_SET_IC_CLR_RX_DONE (*(volatile uint32_t *)0x4009a058)
-#define I2C1_SET_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009a05c)
-#define I2C1_SET_IC_CLR_STOP_DET (*(volatile uint32_t *)0x4009a060)
-#define I2C1_SET_IC_CLR_START_DET (*(volatile uint32_t *)0x4009a064)
-#define I2C1_SET_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x4009a068)
-#define I2C1_SET_IC_ENABLE (*(volatile uint32_t *)0x4009a06c)
-#define I2C1_SET_IC_STATUS (*(volatile uint32_t *)0x4009a070)
-#define I2C1_SET_IC_TXFLR (*(volatile uint32_t *)0x4009a074)
-#define I2C1_SET_IC_RXFLR (*(volatile uint32_t *)0x4009a078)
-#define I2C1_SET_IC_SDA_HOLD (*(volatile uint32_t *)0x4009a07c)
-#define I2C1_SET_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x4009a080)
-#define I2C1_SET_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x4009a084)
-#define I2C1_SET_IC_DMA_CR (*(volatile uint32_t *)0x4009a088)
-#define I2C1_SET_IC_DMA_TDLR (*(volatile uint32_t *)0x4009a08c)
-#define I2C1_SET_IC_DMA_RDLR (*(volatile uint32_t *)0x4009a090)
-#define I2C1_SET_IC_SDA_SETUP (*(volatile uint32_t *)0x4009a094)
-#define I2C1_SET_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x4009a098)
-#define I2C1_SET_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009a09c)
-#define I2C1_SET_IC_FS_SPKLEN (*(volatile uint32_t *)0x4009a0a0)
-#define I2C1_SET_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x4009a0a8)
-#define I2C1_SET_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x4009a0f4)
-#define I2C1_SET_IC_COMP_VERSION (*(volatile uint32_t *)0x4009a0f8)
-#define I2C1_SET_IC_COMP_TYPE (*(volatile uint32_t *)0x4009a0fc)
-#define I2C1_CLR_IC_CON (*(volatile uint32_t *)0x4009b000)
-#define I2C1_CLR_IC_TAR (*(volatile uint32_t *)0x4009b004)
-#define I2C1_CLR_IC_SAR (*(volatile uint32_t *)0x4009b008)
-#define I2C1_CLR_IC_DATA_CMD (*(volatile uint32_t *)0x4009b010)
-#define I2C1_CLR_IC_SS_SCL_HCNT (*(volatile uint32_t *)0x4009b014)
-#define I2C1_CLR_IC_SS_SCL_LCNT (*(volatile uint32_t *)0x4009b018)
-#define I2C1_CLR_IC_FS_SCL_HCNT (*(volatile uint32_t *)0x4009b01c)
-#define I2C1_CLR_IC_FS_SCL_LCNT (*(volatile uint32_t *)0x4009b020)
-#define I2C1_CLR_IC_INTR_STAT (*(volatile uint32_t *)0x4009b02c)
-#define I2C1_CLR_IC_INTR_MASK (*(volatile uint32_t *)0x4009b030)
-#define I2C1_CLR_IC_RAW_INTR_STAT (*(volatile uint32_t *)0x4009b034)
-#define I2C1_CLR_IC_RX_TL (*(volatile uint32_t *)0x4009b038)
-#define I2C1_CLR_IC_TX_TL (*(volatile uint32_t *)0x4009b03c)
-#define I2C1_CLR_IC_CLR_INTR (*(volatile uint32_t *)0x4009b040)
-#define I2C1_CLR_IC_CLR_RX_UNDER (*(volatile uint32_t *)0x4009b044)
-#define I2C1_CLR_IC_CLR_RX_OVER (*(volatile uint32_t *)0x4009b048)
-#define I2C1_CLR_IC_CLR_TX_OVER (*(volatile uint32_t *)0x4009b04c)
-#define I2C1_CLR_IC_CLR_RD_REQ (*(volatile uint32_t *)0x4009b050)
-#define I2C1_CLR_IC_CLR_TX_ABRT (*(volatile uint32_t *)0x4009b054)
-#define I2C1_CLR_IC_CLR_RX_DONE (*(volatile uint32_t *)0x4009b058)
-#define I2C1_CLR_IC_CLR_ACTIVITY (*(volatile uint32_t *)0x4009b05c)
-#define I2C1_CLR_IC_CLR_STOP_DET (*(volatile uint32_t *)0x4009b060)
-#define I2C1_CLR_IC_CLR_START_DET (*(volatile uint32_t *)0x4009b064)
-#define I2C1_CLR_IC_CLR_GEN_CALL (*(volatile uint32_t *)0x4009b068)
-#define I2C1_CLR_IC_ENABLE (*(volatile uint32_t *)0x4009b06c)
-#define I2C1_CLR_IC_STATUS (*(volatile uint32_t *)0x4009b070)
-#define I2C1_CLR_IC_TXFLR (*(volatile uint32_t *)0x4009b074)
-#define I2C1_CLR_IC_RXFLR (*(volatile uint32_t *)0x4009b078)
-#define I2C1_CLR_IC_SDA_HOLD (*(volatile uint32_t *)0x4009b07c)
-#define I2C1_CLR_IC_TX_ABRT_SOURCE (*(volatile uint32_t *)0x4009b080)
-#define I2C1_CLR_IC_SLV_DATA_NACK_ONLY (*(volatile uint32_t *)0x4009b084)
-#define I2C1_CLR_IC_DMA_CR (*(volatile uint32_t *)0x4009b088)
-#define I2C1_CLR_IC_DMA_TDLR (*(volatile uint32_t *)0x4009b08c)
-#define I2C1_CLR_IC_DMA_RDLR (*(volatile uint32_t *)0x4009b090)
-#define I2C1_CLR_IC_SDA_SETUP (*(volatile uint32_t *)0x4009b094)
-#define I2C1_CLR_IC_ACK_GENERAL_CALL (*(volatile uint32_t *)0x4009b098)
-#define I2C1_CLR_IC_ENABLE_STATUS (*(volatile uint32_t *)0x4009b09c)
-#define I2C1_CLR_IC_FS_SPKLEN (*(volatile uint32_t *)0x4009b0a0)
-#define I2C1_CLR_IC_CLR_RESTART_DET (*(volatile uint32_t *)0x4009b0a8)
-#define I2C1_CLR_IC_COMP_PARAM_1 (*(volatile uint32_t *)0x4009b0f4)
-#define I2C1_CLR_IC_COMP_VERSION (*(volatile uint32_t *)0x4009b0f8)
-#define I2C1_CLR_IC_COMP_TYPE (*(volatile uint32_t *)0x4009b0fc)
+#define I2C1_IC_CON_XOR (*(volatile uint32_t *)0x40099000)
+#define I2C1_IC_TAR_XOR (*(volatile uint32_t *)0x40099004)
+#define I2C1_IC_SAR_XOR (*(volatile uint32_t *)0x40099008)
+#define I2C1_IC_DATA_CMD_XOR (*(volatile uint32_t *)0x40099010)
+#define I2C1_IC_SS_SCL_HCNT_XOR (*(volatile uint32_t *)0x40099014)
+#define I2C1_IC_SS_SCL_LCNT_XOR (*(volatile uint32_t *)0x40099018)
+#define I2C1_IC_FS_SCL_HCNT_XOR (*(volatile uint32_t *)0x4009901c)
+#define I2C1_IC_FS_SCL_LCNT_XOR (*(volatile uint32_t *)0x40099020)
+#define I2C1_IC_INTR_STAT_XOR (*(volatile uint32_t *)0x4009902c)
+#define I2C1_IC_INTR_MASK_XOR (*(volatile uint32_t *)0x40099030)
+#define I2C1_IC_RAW_INTR_STAT_XOR (*(volatile uint32_t *)0x40099034)
+#define I2C1_IC_RX_TL_XOR (*(volatile uint32_t *)0x40099038)
+#define I2C1_IC_TX_TL_XOR (*(volatile uint32_t *)0x4009903c)
+#define I2C1_IC_CLR_INTR_XOR (*(volatile uint32_t *)0x40099040)
+#define I2C1_IC_CLR_RX_UNDER_XOR (*(volatile uint32_t *)0x40099044)
+#define I2C1_IC_CLR_RX_OVER_XOR (*(volatile uint32_t *)0x40099048)
+#define I2C1_IC_CLR_TX_OVER_XOR (*(volatile uint32_t *)0x4009904c)
+#define I2C1_IC_CLR_RD_REQ_XOR (*(volatile uint32_t *)0x40099050)
+#define I2C1_IC_CLR_TX_ABRT_XOR (*(volatile uint32_t *)0x40099054)
+#define I2C1_IC_CLR_RX_DONE_XOR (*(volatile uint32_t *)0x40099058)
+#define I2C1_IC_CLR_ACTIVITY_XOR (*(volatile uint32_t *)0x4009905c)
+#define I2C1_IC_CLR_STOP_DET_XOR (*(volatile uint32_t *)0x40099060)
+#define I2C1_IC_CLR_START_DET_XOR (*(volatile uint32_t *)0x40099064)
+#define I2C1_IC_CLR_GEN_CALL_XOR (*(volatile uint32_t *)0x40099068)
+#define I2C1_IC_ENABLE_XOR (*(volatile uint32_t *)0x4009906c)
+#define I2C1_IC_STATUS_XOR (*(volatile uint32_t *)0x40099070)
+#define I2C1_IC_TXFLR_XOR (*(volatile uint32_t *)0x40099074)
+#define I2C1_IC_RXFLR_XOR (*(volatile uint32_t *)0x40099078)
+#define I2C1_IC_SDA_HOLD_XOR (*(volatile uint32_t *)0x4009907c)
+#define I2C1_IC_TX_ABRT_SOURCE_XOR (*(volatile uint32_t *)0x40099080)
+#define I2C1_IC_SLV_DATA_NACK_ONLY_XOR (*(volatile uint32_t *)0x40099084)
+#define I2C1_IC_DMA_CR_XOR (*(volatile uint32_t *)0x40099088)
+#define I2C1_IC_DMA_TDLR_XOR (*(volatile uint32_t *)0x4009908c)
+#define I2C1_IC_DMA_RDLR_XOR (*(volatile uint32_t *)0x40099090)
+#define I2C1_IC_SDA_SETUP_XOR (*(volatile uint32_t *)0x40099094)
+#define I2C1_IC_ACK_GENERAL_CALL_XOR (*(volatile uint32_t *)0x40099098)
+#define I2C1_IC_ENABLE_STATUS_XOR (*(volatile uint32_t *)0x4009909c)
+#define I2C1_IC_FS_SPKLEN_XOR (*(volatile uint32_t *)0x400990a0)
+#define I2C1_IC_CLR_RESTART_DET_XOR (*(volatile uint32_t *)0x400990a8)
+#define I2C1_IC_COMP_PARAM_1_XOR (*(volatile uint32_t *)0x400990f4)
+#define I2C1_IC_COMP_VERSION_XOR (*(volatile uint32_t *)0x400990f8)
+#define I2C1_IC_COMP_TYPE_XOR (*(volatile uint32_t *)0x400990fc)
+#define I2C1_IC_CON_SET (*(volatile uint32_t *)0x4009a000)
+#define I2C1_IC_TAR_SET (*(volatile uint32_t *)0x4009a004)
+#define I2C1_IC_SAR_SET (*(volatile uint32_t *)0x4009a008)
+#define I2C1_IC_DATA_CMD_SET (*(volatile uint32_t *)0x4009a010)
+#define I2C1_IC_SS_SCL_HCNT_SET (*(volatile uint32_t *)0x4009a014)
+#define I2C1_IC_SS_SCL_LCNT_SET (*(volatile uint32_t *)0x4009a018)
+#define I2C1_IC_FS_SCL_HCNT_SET (*(volatile uint32_t *)0x4009a01c)
+#define I2C1_IC_FS_SCL_LCNT_SET (*(volatile uint32_t *)0x4009a020)
+#define I2C1_IC_INTR_STAT_SET (*(volatile uint32_t *)0x4009a02c)
+#define I2C1_IC_INTR_MASK_SET (*(volatile uint32_t *)0x4009a030)
+#define I2C1_IC_RAW_INTR_STAT_SET (*(volatile uint32_t *)0x4009a034)
+#define I2C1_IC_RX_TL_SET (*(volatile uint32_t *)0x4009a038)
+#define I2C1_IC_TX_TL_SET (*(volatile uint32_t *)0x4009a03c)
+#define I2C1_IC_CLR_INTR_SET (*(volatile uint32_t *)0x4009a040)
+#define I2C1_IC_CLR_RX_UNDER_SET (*(volatile uint32_t *)0x4009a044)
+#define I2C1_IC_CLR_RX_OVER_SET (*(volatile uint32_t *)0x4009a048)
+#define I2C1_IC_CLR_TX_OVER_SET (*(volatile uint32_t *)0x4009a04c)
+#define I2C1_IC_CLR_RD_REQ_SET (*(volatile uint32_t *)0x4009a050)
+#define I2C1_IC_CLR_TX_ABRT_SET (*(volatile uint32_t *)0x4009a054)
+#define I2C1_IC_CLR_RX_DONE_SET (*(volatile uint32_t *)0x4009a058)
+#define I2C1_IC_CLR_ACTIVITY_SET (*(volatile uint32_t *)0x4009a05c)
+#define I2C1_IC_CLR_STOP_DET_SET (*(volatile uint32_t *)0x4009a060)
+#define I2C1_IC_CLR_START_DET_SET (*(volatile uint32_t *)0x4009a064)
+#define I2C1_IC_CLR_GEN_CALL_SET (*(volatile uint32_t *)0x4009a068)
+#define I2C1_IC_ENABLE_SET (*(volatile uint32_t *)0x4009a06c)
+#define I2C1_IC_STATUS_SET (*(volatile uint32_t *)0x4009a070)
+#define I2C1_IC_TXFLR_SET (*(volatile uint32_t *)0x4009a074)
+#define I2C1_IC_RXFLR_SET (*(volatile uint32_t *)0x4009a078)
+#define I2C1_IC_SDA_HOLD_SET (*(volatile uint32_t *)0x4009a07c)
+#define I2C1_IC_TX_ABRT_SOURCE_SET (*(volatile uint32_t *)0x4009a080)
+#define I2C1_IC_SLV_DATA_NACK_ONLY_SET (*(volatile uint32_t *)0x4009a084)
+#define I2C1_IC_DMA_CR_SET (*(volatile uint32_t *)0x4009a088)
+#define I2C1_IC_DMA_TDLR_SET (*(volatile uint32_t *)0x4009a08c)
+#define I2C1_IC_DMA_RDLR_SET (*(volatile uint32_t *)0x4009a090)
+#define I2C1_IC_SDA_SETUP_SET (*(volatile uint32_t *)0x4009a094)
+#define I2C1_IC_ACK_GENERAL_CALL_SET (*(volatile uint32_t *)0x4009a098)
+#define I2C1_IC_ENABLE_STATUS_SET (*(volatile uint32_t *)0x4009a09c)
+#define I2C1_IC_FS_SPKLEN_SET (*(volatile uint32_t *)0x4009a0a0)
+#define I2C1_IC_CLR_RESTART_DET_SET (*(volatile uint32_t *)0x4009a0a8)
+#define I2C1_IC_COMP_PARAM_1_SET (*(volatile uint32_t *)0x4009a0f4)
+#define I2C1_IC_COMP_VERSION_SET (*(volatile uint32_t *)0x4009a0f8)
+#define I2C1_IC_COMP_TYPE_SET (*(volatile uint32_t *)0x4009a0fc)
+#define I2C1_IC_CON_CLR (*(volatile uint32_t *)0x4009b000)
+#define I2C1_IC_TAR_CLR (*(volatile uint32_t *)0x4009b004)
+#define I2C1_IC_SAR_CLR (*(volatile uint32_t *)0x4009b008)
+#define I2C1_IC_DATA_CMD_CLR (*(volatile uint32_t *)0x4009b010)
+#define I2C1_IC_SS_SCL_HCNT_CLR (*(volatile uint32_t *)0x4009b014)
+#define I2C1_IC_SS_SCL_LCNT_CLR (*(volatile uint32_t *)0x4009b018)
+#define I2C1_IC_FS_SCL_HCNT_CLR (*(volatile uint32_t *)0x4009b01c)
+#define I2C1_IC_FS_SCL_LCNT_CLR (*(volatile uint32_t *)0x4009b020)
+#define I2C1_IC_INTR_STAT_CLR (*(volatile uint32_t *)0x4009b02c)
+#define I2C1_IC_INTR_MASK_CLR (*(volatile uint32_t *)0x4009b030)
+#define I2C1_IC_RAW_INTR_STAT_CLR (*(volatile uint32_t *)0x4009b034)
+#define I2C1_IC_RX_TL_CLR (*(volatile uint32_t *)0x4009b038)
+#define I2C1_IC_TX_TL_CLR (*(volatile uint32_t *)0x4009b03c)
+#define I2C1_IC_CLR_INTR_CLR (*(volatile uint32_t *)0x4009b040)
+#define I2C1_IC_CLR_RX_UNDER_CLR (*(volatile uint32_t *)0x4009b044)
+#define I2C1_IC_CLR_RX_OVER_CLR (*(volatile uint32_t *)0x4009b048)
+#define I2C1_IC_CLR_TX_OVER_CLR (*(volatile uint32_t *)0x4009b04c)
+#define I2C1_IC_CLR_RD_REQ_CLR (*(volatile uint32_t *)0x4009b050)
+#define I2C1_IC_CLR_TX_ABRT_CLR (*(volatile uint32_t *)0x4009b054)
+#define I2C1_IC_CLR_RX_DONE_CLR (*(volatile uint32_t *)0x4009b058)
+#define I2C1_IC_CLR_ACTIVITY_CLR (*(volatile uint32_t *)0x4009b05c)
+#define I2C1_IC_CLR_STOP_DET_CLR (*(volatile uint32_t *)0x4009b060)
+#define I2C1_IC_CLR_START_DET_CLR (*(volatile uint32_t *)0x4009b064)
+#define I2C1_IC_CLR_GEN_CALL_CLR (*(volatile uint32_t *)0x4009b068)
+#define I2C1_IC_ENABLE_CLR (*(volatile uint32_t *)0x4009b06c)
+#define I2C1_IC_STATUS_CLR (*(volatile uint32_t *)0x4009b070)
+#define I2C1_IC_TXFLR_CLR (*(volatile uint32_t *)0x4009b074)
+#define I2C1_IC_RXFLR_CLR (*(volatile uint32_t *)0x4009b078)
+#define I2C1_IC_SDA_HOLD_CLR (*(volatile uint32_t *)0x4009b07c)
+#define I2C1_IC_TX_ABRT_SOURCE_CLR (*(volatile uint32_t *)0x4009b080)
+#define I2C1_IC_SLV_DATA_NACK_ONLY_CLR (*(volatile uint32_t *)0x4009b084)
+#define I2C1_IC_DMA_CR_CLR (*(volatile uint32_t *)0x4009b088)
+#define I2C1_IC_DMA_TDLR_CLR (*(volatile uint32_t *)0x4009b08c)
+#define I2C1_IC_DMA_RDLR_CLR (*(volatile uint32_t *)0x4009b090)
+#define I2C1_IC_SDA_SETUP_CLR (*(volatile uint32_t *)0x4009b094)
+#define I2C1_IC_ACK_GENERAL_CALL_CLR (*(volatile uint32_t *)0x4009b098)
+#define I2C1_IC_ENABLE_STATUS_CLR (*(volatile uint32_t *)0x4009b09c)
+#define I2C1_IC_FS_SPKLEN_CLR (*(volatile uint32_t *)0x4009b0a0)
+#define I2C1_IC_CLR_RESTART_DET_CLR (*(volatile uint32_t *)0x4009b0a8)
+#define I2C1_IC_COMP_PARAM_1_CLR (*(volatile uint32_t *)0x4009b0f4)
+#define I2C1_IC_COMP_VERSION_CLR (*(volatile uint32_t *)0x4009b0f8)
+#define I2C1_IC_COMP_TYPE_CLR (*(volatile uint32_t *)0x4009b0fc)
 
 /*IC_CON Register macros*/
 

@@ -33,11 +33,11 @@
 typedef struct{
 		uint32_t platform;
 		uint32_t RSVD0[1023];
-		uint32_t xor_platform;
+		uint32_t platform_xor;
 		uint32_t RSVDxor_0[1023];
-		uint32_t set_platform;
+		uint32_t platform_set;
 		uint32_t RSVDset_0[1023];
-		uint32_t clr_platform;
+		uint32_t platform_clr;
 		uint32_t RSVDclr_0[1023];
 } TBMAN_REG_BLOCKS;
 
@@ -50,9 +50,9 @@ typedef struct{
 /*IO Registers AS MACROS*/
 
 #define TBMAN_PLATFORM (*(volatile uint32_t *)0x40160000)
-#define TBMAN_XOR_PLATFORM (*(volatile uint32_t *)0x40161000)
-#define TBMAN_SET_PLATFORM (*(volatile uint32_t *)0x40162000)
-#define TBMAN_CLR_PLATFORM (*(volatile uint32_t *)0x40163000)
+#define TBMAN_PLATFORM_XOR (*(volatile uint32_t *)0x40161000)
+#define TBMAN_PLATFORM_SET (*(volatile uint32_t *)0x40162000)
+#define TBMAN_PLATFORM_CLR (*(volatile uint32_t *)0x40163000)
 
 /*PLATFORM Register macros*/
 

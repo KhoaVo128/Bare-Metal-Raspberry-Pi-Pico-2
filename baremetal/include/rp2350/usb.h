@@ -78,146 +78,146 @@ typedef struct{
 		uint32_t ep_rx_error;
 		uint32_t dev_sm_watchdog;
 		uint32_t RSVD1[954];
-		uint32_t xor_addr_endp;
-		uint32_t xor_addr_endp1;
-		uint32_t xor_addr_endp2;
-		uint32_t xor_addr_endp3;
-		uint32_t xor_addr_endp4;
-		uint32_t xor_addr_endp5;
-		uint32_t xor_addr_endp6;
-		uint32_t xor_addr_endp7;
-		uint32_t xor_addr_endp8;
-		uint32_t xor_addr_endp9;
-		uint32_t xor_addr_endp10;
-		uint32_t xor_addr_endp11;
-		uint32_t xor_addr_endp12;
-		uint32_t xor_addr_endp13;
-		uint32_t xor_addr_endp14;
-		uint32_t xor_addr_endp15;
-		uint32_t xor_main_ctrl;
-		uint32_t xor_sof_wr;
-		uint32_t xor_sof_rd;
-		uint32_t xor_sie_ctrl;
-		uint32_t xor_sie_status;
-		uint32_t xor_int_ep_ctrl;
-		uint32_t xor_buff_status;
-		uint32_t xor_buff_cpu_should_handle;
-		uint32_t xor_ep_abort;
-		uint32_t xor_ep_abort_done;
-		uint32_t xor_ep_stall_arm;
-		uint32_t xor_nak_poll;
-		uint32_t xor_ep_status_stall_nak;
-		uint32_t xor_usb_muxing;
-		uint32_t xor_usb_pwr;
-		uint32_t xor_usbphy_direct;
-		uint32_t xor_usbphy_direct_override;
-		uint32_t xor_usbphy_trim;
-		uint32_t xor_linestate_tuning;
-		uint32_t xor_intr;
-		uint32_t xor_inte;
-		uint32_t xor_intf;
-		uint32_t xor_ints;
+		uint32_t addr_endp_xor;
+		uint32_t addr_endp1_xor;
+		uint32_t addr_endp2_xor;
+		uint32_t addr_endp3_xor;
+		uint32_t addr_endp4_xor;
+		uint32_t addr_endp5_xor;
+		uint32_t addr_endp6_xor;
+		uint32_t addr_endp7_xor;
+		uint32_t addr_endp8_xor;
+		uint32_t addr_endp9_xor;
+		uint32_t addr_endp10_xor;
+		uint32_t addr_endp11_xor;
+		uint32_t addr_endp12_xor;
+		uint32_t addr_endp13_xor;
+		uint32_t addr_endp14_xor;
+		uint32_t addr_endp15_xor;
+		uint32_t main_ctrl_xor;
+		uint32_t sof_wr_xor;
+		uint32_t sof_rd_xor;
+		uint32_t sie_ctrl_xor;
+		uint32_t sie_status_xor;
+		uint32_t int_ep_ctrl_xor;
+		uint32_t buff_status_xor;
+		uint32_t buff_cpu_should_handle_xor;
+		uint32_t ep_abort_xor;
+		uint32_t ep_abort_done_xor;
+		uint32_t ep_stall_arm_xor;
+		uint32_t nak_poll_xor;
+		uint32_t ep_status_stall_nak_xor;
+		uint32_t usb_muxing_xor;
+		uint32_t usb_pwr_xor;
+		uint32_t usbphy_direct_xor;
+		uint32_t usbphy_direct_override_xor;
+		uint32_t usbphy_trim_xor;
+		uint32_t linestate_tuning_xor;
+		uint32_t intr_xor;
+		uint32_t inte_xor;
+		uint32_t intf_xor;
+		uint32_t ints_xor;
 		uint32_t RSVDxor_0[25];
-		uint32_t xor_sof_timestamp_raw;
-		uint32_t xor_sof_timestamp_last;
-		uint32_t xor_sm_state;
-		uint32_t xor_ep_tx_error;
-		uint32_t xor_ep_rx_error;
-		uint32_t xor_dev_sm_watchdog;
+		uint32_t sof_timestamp_raw_xor;
+		uint32_t sof_timestamp_last_xor;
+		uint32_t sm_state_xor;
+		uint32_t ep_tx_error_xor;
+		uint32_t ep_rx_error_xor;
+		uint32_t dev_sm_watchdog_xor;
 		uint32_t RSVDxor_1[954];
-		uint32_t set_addr_endp;
-		uint32_t set_addr_endp1;
-		uint32_t set_addr_endp2;
-		uint32_t set_addr_endp3;
-		uint32_t set_addr_endp4;
-		uint32_t set_addr_endp5;
-		uint32_t set_addr_endp6;
-		uint32_t set_addr_endp7;
-		uint32_t set_addr_endp8;
-		uint32_t set_addr_endp9;
-		uint32_t set_addr_endp10;
-		uint32_t set_addr_endp11;
-		uint32_t set_addr_endp12;
-		uint32_t set_addr_endp13;
-		uint32_t set_addr_endp14;
-		uint32_t set_addr_endp15;
-		uint32_t set_main_ctrl;
-		uint32_t set_sof_wr;
-		uint32_t set_sof_rd;
-		uint32_t set_sie_ctrl;
-		uint32_t set_sie_status;
-		uint32_t set_int_ep_ctrl;
-		uint32_t set_buff_status;
-		uint32_t set_buff_cpu_should_handle;
-		uint32_t set_ep_abort;
-		uint32_t set_ep_abort_done;
-		uint32_t set_ep_stall_arm;
-		uint32_t set_nak_poll;
-		uint32_t set_ep_status_stall_nak;
-		uint32_t set_usb_muxing;
-		uint32_t set_usb_pwr;
-		uint32_t set_usbphy_direct;
-		uint32_t set_usbphy_direct_override;
-		uint32_t set_usbphy_trim;
-		uint32_t set_linestate_tuning;
-		uint32_t set_intr;
-		uint32_t set_inte;
-		uint32_t set_intf;
-		uint32_t set_ints;
+		uint32_t addr_endp_set;
+		uint32_t addr_endp1_set;
+		uint32_t addr_endp2_set;
+		uint32_t addr_endp3_set;
+		uint32_t addr_endp4_set;
+		uint32_t addr_endp5_set;
+		uint32_t addr_endp6_set;
+		uint32_t addr_endp7_set;
+		uint32_t addr_endp8_set;
+		uint32_t addr_endp9_set;
+		uint32_t addr_endp10_set;
+		uint32_t addr_endp11_set;
+		uint32_t addr_endp12_set;
+		uint32_t addr_endp13_set;
+		uint32_t addr_endp14_set;
+		uint32_t addr_endp15_set;
+		uint32_t main_ctrl_set;
+		uint32_t sof_wr_set;
+		uint32_t sof_rd_set;
+		uint32_t sie_ctrl_set;
+		uint32_t sie_status_set;
+		uint32_t int_ep_ctrl_set;
+		uint32_t buff_status_set;
+		uint32_t buff_cpu_should_handle_set;
+		uint32_t ep_abort_set;
+		uint32_t ep_abort_done_set;
+		uint32_t ep_stall_arm_set;
+		uint32_t nak_poll_set;
+		uint32_t ep_status_stall_nak_set;
+		uint32_t usb_muxing_set;
+		uint32_t usb_pwr_set;
+		uint32_t usbphy_direct_set;
+		uint32_t usbphy_direct_override_set;
+		uint32_t usbphy_trim_set;
+		uint32_t linestate_tuning_set;
+		uint32_t intr_set;
+		uint32_t inte_set;
+		uint32_t intf_set;
+		uint32_t ints_set;
 		uint32_t RSVDset_0[25];
-		uint32_t set_sof_timestamp_raw;
-		uint32_t set_sof_timestamp_last;
-		uint32_t set_sm_state;
-		uint32_t set_ep_tx_error;
-		uint32_t set_ep_rx_error;
-		uint32_t set_dev_sm_watchdog;
+		uint32_t sof_timestamp_raw_set;
+		uint32_t sof_timestamp_last_set;
+		uint32_t sm_state_set;
+		uint32_t ep_tx_error_set;
+		uint32_t ep_rx_error_set;
+		uint32_t dev_sm_watchdog_set;
 		uint32_t RSVDset_1[954];
-		uint32_t clr_addr_endp;
-		uint32_t clr_addr_endp1;
-		uint32_t clr_addr_endp2;
-		uint32_t clr_addr_endp3;
-		uint32_t clr_addr_endp4;
-		uint32_t clr_addr_endp5;
-		uint32_t clr_addr_endp6;
-		uint32_t clr_addr_endp7;
-		uint32_t clr_addr_endp8;
-		uint32_t clr_addr_endp9;
-		uint32_t clr_addr_endp10;
-		uint32_t clr_addr_endp11;
-		uint32_t clr_addr_endp12;
-		uint32_t clr_addr_endp13;
-		uint32_t clr_addr_endp14;
-		uint32_t clr_addr_endp15;
-		uint32_t clr_main_ctrl;
-		uint32_t clr_sof_wr;
-		uint32_t clr_sof_rd;
-		uint32_t clr_sie_ctrl;
-		uint32_t clr_sie_status;
-		uint32_t clr_int_ep_ctrl;
-		uint32_t clr_buff_status;
-		uint32_t clr_buff_cpu_should_handle;
-		uint32_t clr_ep_abort;
-		uint32_t clr_ep_abort_done;
-		uint32_t clr_ep_stall_arm;
-		uint32_t clr_nak_poll;
-		uint32_t clr_ep_status_stall_nak;
-		uint32_t clr_usb_muxing;
-		uint32_t clr_usb_pwr;
-		uint32_t clr_usbphy_direct;
-		uint32_t clr_usbphy_direct_override;
-		uint32_t clr_usbphy_trim;
-		uint32_t clr_linestate_tuning;
-		uint32_t clr_intr;
-		uint32_t clr_inte;
-		uint32_t clr_intf;
-		uint32_t clr_ints;
+		uint32_t addr_endp_clr;
+		uint32_t addr_endp1_clr;
+		uint32_t addr_endp2_clr;
+		uint32_t addr_endp3_clr;
+		uint32_t addr_endp4_clr;
+		uint32_t addr_endp5_clr;
+		uint32_t addr_endp6_clr;
+		uint32_t addr_endp7_clr;
+		uint32_t addr_endp8_clr;
+		uint32_t addr_endp9_clr;
+		uint32_t addr_endp10_clr;
+		uint32_t addr_endp11_clr;
+		uint32_t addr_endp12_clr;
+		uint32_t addr_endp13_clr;
+		uint32_t addr_endp14_clr;
+		uint32_t addr_endp15_clr;
+		uint32_t main_ctrl_clr;
+		uint32_t sof_wr_clr;
+		uint32_t sof_rd_clr;
+		uint32_t sie_ctrl_clr;
+		uint32_t sie_status_clr;
+		uint32_t int_ep_ctrl_clr;
+		uint32_t buff_status_clr;
+		uint32_t buff_cpu_should_handle_clr;
+		uint32_t ep_abort_clr;
+		uint32_t ep_abort_done_clr;
+		uint32_t ep_stall_arm_clr;
+		uint32_t nak_poll_clr;
+		uint32_t ep_status_stall_nak_clr;
+		uint32_t usb_muxing_clr;
+		uint32_t usb_pwr_clr;
+		uint32_t usbphy_direct_clr;
+		uint32_t usbphy_direct_override_clr;
+		uint32_t usbphy_trim_clr;
+		uint32_t linestate_tuning_clr;
+		uint32_t intr_clr;
+		uint32_t inte_clr;
+		uint32_t intf_clr;
+		uint32_t ints_clr;
 		uint32_t RSVDclr_0[25];
-		uint32_t clr_sof_timestamp_raw;
-		uint32_t clr_sof_timestamp_last;
-		uint32_t clr_sm_state;
-		uint32_t clr_ep_tx_error;
-		uint32_t clr_ep_rx_error;
-		uint32_t clr_dev_sm_watchdog;
+		uint32_t sof_timestamp_raw_clr;
+		uint32_t sof_timestamp_last_clr;
+		uint32_t sm_state_clr;
+		uint32_t ep_tx_error_clr;
+		uint32_t ep_rx_error_clr;
+		uint32_t dev_sm_watchdog_clr;
 		uint32_t RSVDclr_1[954];
 } USBCTRL_REG_BLOCKS;
 
@@ -274,141 +274,141 @@ typedef struct{
 #define USBCTRL_EP_TX_ERROR (*(volatile uint32_t *)0x5011010c)
 #define USBCTRL_EP_RX_ERROR (*(volatile uint32_t *)0x50110110)
 #define USBCTRL_DEV_SM_WATCHDOG (*(volatile uint32_t *)0x50110114)
-#define USBCTRL_XOR_ADDR_ENDP (*(volatile uint32_t *)0x50111000)
-#define USBCTRL_XOR_ADDR_ENDP1 (*(volatile uint32_t *)0x50111004)
-#define USBCTRL_XOR_ADDR_ENDP2 (*(volatile uint32_t *)0x50111008)
-#define USBCTRL_XOR_ADDR_ENDP3 (*(volatile uint32_t *)0x5011100c)
-#define USBCTRL_XOR_ADDR_ENDP4 (*(volatile uint32_t *)0x50111010)
-#define USBCTRL_XOR_ADDR_ENDP5 (*(volatile uint32_t *)0x50111014)
-#define USBCTRL_XOR_ADDR_ENDP6 (*(volatile uint32_t *)0x50111018)
-#define USBCTRL_XOR_ADDR_ENDP7 (*(volatile uint32_t *)0x5011101c)
-#define USBCTRL_XOR_ADDR_ENDP8 (*(volatile uint32_t *)0x50111020)
-#define USBCTRL_XOR_ADDR_ENDP9 (*(volatile uint32_t *)0x50111024)
-#define USBCTRL_XOR_ADDR_ENDP10 (*(volatile uint32_t *)0x50111028)
-#define USBCTRL_XOR_ADDR_ENDP11 (*(volatile uint32_t *)0x5011102c)
-#define USBCTRL_XOR_ADDR_ENDP12 (*(volatile uint32_t *)0x50111030)
-#define USBCTRL_XOR_ADDR_ENDP13 (*(volatile uint32_t *)0x50111034)
-#define USBCTRL_XOR_ADDR_ENDP14 (*(volatile uint32_t *)0x50111038)
-#define USBCTRL_XOR_ADDR_ENDP15 (*(volatile uint32_t *)0x5011103c)
-#define USBCTRL_XOR_MAIN_CTRL (*(volatile uint32_t *)0x50111040)
-#define USBCTRL_XOR_SOF_WR (*(volatile uint32_t *)0x50111044)
-#define USBCTRL_XOR_SOF_RD (*(volatile uint32_t *)0x50111048)
-#define USBCTRL_XOR_SIE_CTRL (*(volatile uint32_t *)0x5011104c)
-#define USBCTRL_XOR_SIE_STATUS (*(volatile uint32_t *)0x50111050)
-#define USBCTRL_XOR_INT_EP_CTRL (*(volatile uint32_t *)0x50111054)
-#define USBCTRL_XOR_BUFF_STATUS (*(volatile uint32_t *)0x50111058)
-#define USBCTRL_XOR_BUFF_CPU_SHOULD_HANDLE (*(volatile uint32_t *)0x5011105c)
-#define USBCTRL_XOR_EP_ABORT (*(volatile uint32_t *)0x50111060)
-#define USBCTRL_XOR_EP_ABORT_DONE (*(volatile uint32_t *)0x50111064)
-#define USBCTRL_XOR_EP_STALL_ARM (*(volatile uint32_t *)0x50111068)
-#define USBCTRL_XOR_NAK_POLL (*(volatile uint32_t *)0x5011106c)
-#define USBCTRL_XOR_EP_STATUS_STALL_NAK (*(volatile uint32_t *)0x50111070)
-#define USBCTRL_XOR_USB_MUXING (*(volatile uint32_t *)0x50111074)
-#define USBCTRL_XOR_USB_PWR (*(volatile uint32_t *)0x50111078)
-#define USBCTRL_XOR_USBPHY_DIRECT (*(volatile uint32_t *)0x5011107c)
-#define USBCTRL_XOR_USBPHY_DIRECT_OVERRIDE (*(volatile uint32_t *)0x50111080)
-#define USBCTRL_XOR_USBPHY_TRIM (*(volatile uint32_t *)0x50111084)
-#define USBCTRL_XOR_LINESTATE_TUNING (*(volatile uint32_t *)0x50111088)
-#define USBCTRL_XOR_INTR (*(volatile uint32_t *)0x5011108c)
-#define USBCTRL_XOR_INTE (*(volatile uint32_t *)0x50111090)
-#define USBCTRL_XOR_INTF (*(volatile uint32_t *)0x50111094)
-#define USBCTRL_XOR_INTS (*(volatile uint32_t *)0x50111098)
-#define USBCTRL_XOR_SOF_TIMESTAMP_RAW (*(volatile uint32_t *)0x50111100)
-#define USBCTRL_XOR_SOF_TIMESTAMP_LAST (*(volatile uint32_t *)0x50111104)
-#define USBCTRL_XOR_SM_STATE (*(volatile uint32_t *)0x50111108)
-#define USBCTRL_XOR_EP_TX_ERROR (*(volatile uint32_t *)0x5011110c)
-#define USBCTRL_XOR_EP_RX_ERROR (*(volatile uint32_t *)0x50111110)
-#define USBCTRL_XOR_DEV_SM_WATCHDOG (*(volatile uint32_t *)0x50111114)
-#define USBCTRL_SET_ADDR_ENDP (*(volatile uint32_t *)0x50112000)
-#define USBCTRL_SET_ADDR_ENDP1 (*(volatile uint32_t *)0x50112004)
-#define USBCTRL_SET_ADDR_ENDP2 (*(volatile uint32_t *)0x50112008)
-#define USBCTRL_SET_ADDR_ENDP3 (*(volatile uint32_t *)0x5011200c)
-#define USBCTRL_SET_ADDR_ENDP4 (*(volatile uint32_t *)0x50112010)
-#define USBCTRL_SET_ADDR_ENDP5 (*(volatile uint32_t *)0x50112014)
-#define USBCTRL_SET_ADDR_ENDP6 (*(volatile uint32_t *)0x50112018)
-#define USBCTRL_SET_ADDR_ENDP7 (*(volatile uint32_t *)0x5011201c)
-#define USBCTRL_SET_ADDR_ENDP8 (*(volatile uint32_t *)0x50112020)
-#define USBCTRL_SET_ADDR_ENDP9 (*(volatile uint32_t *)0x50112024)
-#define USBCTRL_SET_ADDR_ENDP10 (*(volatile uint32_t *)0x50112028)
-#define USBCTRL_SET_ADDR_ENDP11 (*(volatile uint32_t *)0x5011202c)
-#define USBCTRL_SET_ADDR_ENDP12 (*(volatile uint32_t *)0x50112030)
-#define USBCTRL_SET_ADDR_ENDP13 (*(volatile uint32_t *)0x50112034)
-#define USBCTRL_SET_ADDR_ENDP14 (*(volatile uint32_t *)0x50112038)
-#define USBCTRL_SET_ADDR_ENDP15 (*(volatile uint32_t *)0x5011203c)
-#define USBCTRL_SET_MAIN_CTRL (*(volatile uint32_t *)0x50112040)
-#define USBCTRL_SET_SOF_WR (*(volatile uint32_t *)0x50112044)
-#define USBCTRL_SET_SOF_RD (*(volatile uint32_t *)0x50112048)
-#define USBCTRL_SET_SIE_CTRL (*(volatile uint32_t *)0x5011204c)
-#define USBCTRL_SET_SIE_STATUS (*(volatile uint32_t *)0x50112050)
-#define USBCTRL_SET_INT_EP_CTRL (*(volatile uint32_t *)0x50112054)
-#define USBCTRL_SET_BUFF_STATUS (*(volatile uint32_t *)0x50112058)
-#define USBCTRL_SET_BUFF_CPU_SHOULD_HANDLE (*(volatile uint32_t *)0x5011205c)
-#define USBCTRL_SET_EP_ABORT (*(volatile uint32_t *)0x50112060)
-#define USBCTRL_SET_EP_ABORT_DONE (*(volatile uint32_t *)0x50112064)
-#define USBCTRL_SET_EP_STALL_ARM (*(volatile uint32_t *)0x50112068)
-#define USBCTRL_SET_NAK_POLL (*(volatile uint32_t *)0x5011206c)
-#define USBCTRL_SET_EP_STATUS_STALL_NAK (*(volatile uint32_t *)0x50112070)
-#define USBCTRL_SET_USB_MUXING (*(volatile uint32_t *)0x50112074)
-#define USBCTRL_SET_USB_PWR (*(volatile uint32_t *)0x50112078)
-#define USBCTRL_SET_USBPHY_DIRECT (*(volatile uint32_t *)0x5011207c)
-#define USBCTRL_SET_USBPHY_DIRECT_OVERRIDE (*(volatile uint32_t *)0x50112080)
-#define USBCTRL_SET_USBPHY_TRIM (*(volatile uint32_t *)0x50112084)
-#define USBCTRL_SET_LINESTATE_TUNING (*(volatile uint32_t *)0x50112088)
-#define USBCTRL_SET_INTR (*(volatile uint32_t *)0x5011208c)
-#define USBCTRL_SET_INTE (*(volatile uint32_t *)0x50112090)
-#define USBCTRL_SET_INTF (*(volatile uint32_t *)0x50112094)
-#define USBCTRL_SET_INTS (*(volatile uint32_t *)0x50112098)
-#define USBCTRL_SET_SOF_TIMESTAMP_RAW (*(volatile uint32_t *)0x50112100)
-#define USBCTRL_SET_SOF_TIMESTAMP_LAST (*(volatile uint32_t *)0x50112104)
-#define USBCTRL_SET_SM_STATE (*(volatile uint32_t *)0x50112108)
-#define USBCTRL_SET_EP_TX_ERROR (*(volatile uint32_t *)0x5011210c)
-#define USBCTRL_SET_EP_RX_ERROR (*(volatile uint32_t *)0x50112110)
-#define USBCTRL_SET_DEV_SM_WATCHDOG (*(volatile uint32_t *)0x50112114)
-#define USBCTRL_CLR_ADDR_ENDP (*(volatile uint32_t *)0x50113000)
-#define USBCTRL_CLR_ADDR_ENDP1 (*(volatile uint32_t *)0x50113004)
-#define USBCTRL_CLR_ADDR_ENDP2 (*(volatile uint32_t *)0x50113008)
-#define USBCTRL_CLR_ADDR_ENDP3 (*(volatile uint32_t *)0x5011300c)
-#define USBCTRL_CLR_ADDR_ENDP4 (*(volatile uint32_t *)0x50113010)
-#define USBCTRL_CLR_ADDR_ENDP5 (*(volatile uint32_t *)0x50113014)
-#define USBCTRL_CLR_ADDR_ENDP6 (*(volatile uint32_t *)0x50113018)
-#define USBCTRL_CLR_ADDR_ENDP7 (*(volatile uint32_t *)0x5011301c)
-#define USBCTRL_CLR_ADDR_ENDP8 (*(volatile uint32_t *)0x50113020)
-#define USBCTRL_CLR_ADDR_ENDP9 (*(volatile uint32_t *)0x50113024)
-#define USBCTRL_CLR_ADDR_ENDP10 (*(volatile uint32_t *)0x50113028)
-#define USBCTRL_CLR_ADDR_ENDP11 (*(volatile uint32_t *)0x5011302c)
-#define USBCTRL_CLR_ADDR_ENDP12 (*(volatile uint32_t *)0x50113030)
-#define USBCTRL_CLR_ADDR_ENDP13 (*(volatile uint32_t *)0x50113034)
-#define USBCTRL_CLR_ADDR_ENDP14 (*(volatile uint32_t *)0x50113038)
-#define USBCTRL_CLR_ADDR_ENDP15 (*(volatile uint32_t *)0x5011303c)
-#define USBCTRL_CLR_MAIN_CTRL (*(volatile uint32_t *)0x50113040)
-#define USBCTRL_CLR_SOF_WR (*(volatile uint32_t *)0x50113044)
-#define USBCTRL_CLR_SOF_RD (*(volatile uint32_t *)0x50113048)
-#define USBCTRL_CLR_SIE_CTRL (*(volatile uint32_t *)0x5011304c)
-#define USBCTRL_CLR_SIE_STATUS (*(volatile uint32_t *)0x50113050)
-#define USBCTRL_CLR_INT_EP_CTRL (*(volatile uint32_t *)0x50113054)
-#define USBCTRL_CLR_BUFF_STATUS (*(volatile uint32_t *)0x50113058)
-#define USBCTRL_CLR_BUFF_CPU_SHOULD_HANDLE (*(volatile uint32_t *)0x5011305c)
-#define USBCTRL_CLR_EP_ABORT (*(volatile uint32_t *)0x50113060)
-#define USBCTRL_CLR_EP_ABORT_DONE (*(volatile uint32_t *)0x50113064)
-#define USBCTRL_CLR_EP_STALL_ARM (*(volatile uint32_t *)0x50113068)
-#define USBCTRL_CLR_NAK_POLL (*(volatile uint32_t *)0x5011306c)
-#define USBCTRL_CLR_EP_STATUS_STALL_NAK (*(volatile uint32_t *)0x50113070)
-#define USBCTRL_CLR_USB_MUXING (*(volatile uint32_t *)0x50113074)
-#define USBCTRL_CLR_USB_PWR (*(volatile uint32_t *)0x50113078)
-#define USBCTRL_CLR_USBPHY_DIRECT (*(volatile uint32_t *)0x5011307c)
-#define USBCTRL_CLR_USBPHY_DIRECT_OVERRIDE (*(volatile uint32_t *)0x50113080)
-#define USBCTRL_CLR_USBPHY_TRIM (*(volatile uint32_t *)0x50113084)
-#define USBCTRL_CLR_LINESTATE_TUNING (*(volatile uint32_t *)0x50113088)
-#define USBCTRL_CLR_INTR (*(volatile uint32_t *)0x5011308c)
-#define USBCTRL_CLR_INTE (*(volatile uint32_t *)0x50113090)
-#define USBCTRL_CLR_INTF (*(volatile uint32_t *)0x50113094)
-#define USBCTRL_CLR_INTS (*(volatile uint32_t *)0x50113098)
-#define USBCTRL_CLR_SOF_TIMESTAMP_RAW (*(volatile uint32_t *)0x50113100)
-#define USBCTRL_CLR_SOF_TIMESTAMP_LAST (*(volatile uint32_t *)0x50113104)
-#define USBCTRL_CLR_SM_STATE (*(volatile uint32_t *)0x50113108)
-#define USBCTRL_CLR_EP_TX_ERROR (*(volatile uint32_t *)0x5011310c)
-#define USBCTRL_CLR_EP_RX_ERROR (*(volatile uint32_t *)0x50113110)
-#define USBCTRL_CLR_DEV_SM_WATCHDOG (*(volatile uint32_t *)0x50113114)
+#define USBCTRL_ADDR_ENDP_XOR (*(volatile uint32_t *)0x50111000)
+#define USBCTRL_ADDR_ENDP1_XOR (*(volatile uint32_t *)0x50111004)
+#define USBCTRL_ADDR_ENDP2_XOR (*(volatile uint32_t *)0x50111008)
+#define USBCTRL_ADDR_ENDP3_XOR (*(volatile uint32_t *)0x5011100c)
+#define USBCTRL_ADDR_ENDP4_XOR (*(volatile uint32_t *)0x50111010)
+#define USBCTRL_ADDR_ENDP5_XOR (*(volatile uint32_t *)0x50111014)
+#define USBCTRL_ADDR_ENDP6_XOR (*(volatile uint32_t *)0x50111018)
+#define USBCTRL_ADDR_ENDP7_XOR (*(volatile uint32_t *)0x5011101c)
+#define USBCTRL_ADDR_ENDP8_XOR (*(volatile uint32_t *)0x50111020)
+#define USBCTRL_ADDR_ENDP9_XOR (*(volatile uint32_t *)0x50111024)
+#define USBCTRL_ADDR_ENDP10_XOR (*(volatile uint32_t *)0x50111028)
+#define USBCTRL_ADDR_ENDP11_XOR (*(volatile uint32_t *)0x5011102c)
+#define USBCTRL_ADDR_ENDP12_XOR (*(volatile uint32_t *)0x50111030)
+#define USBCTRL_ADDR_ENDP13_XOR (*(volatile uint32_t *)0x50111034)
+#define USBCTRL_ADDR_ENDP14_XOR (*(volatile uint32_t *)0x50111038)
+#define USBCTRL_ADDR_ENDP15_XOR (*(volatile uint32_t *)0x5011103c)
+#define USBCTRL_MAIN_CTRL_XOR (*(volatile uint32_t *)0x50111040)
+#define USBCTRL_SOF_WR_XOR (*(volatile uint32_t *)0x50111044)
+#define USBCTRL_SOF_RD_XOR (*(volatile uint32_t *)0x50111048)
+#define USBCTRL_SIE_CTRL_XOR (*(volatile uint32_t *)0x5011104c)
+#define USBCTRL_SIE_STATUS_XOR (*(volatile uint32_t *)0x50111050)
+#define USBCTRL_INT_EP_CTRL_XOR (*(volatile uint32_t *)0x50111054)
+#define USBCTRL_BUFF_STATUS_XOR (*(volatile uint32_t *)0x50111058)
+#define USBCTRL_BUFF_CPU_SHOULD_HANDLE_XOR (*(volatile uint32_t *)0x5011105c)
+#define USBCTRL_EP_ABORT_XOR (*(volatile uint32_t *)0x50111060)
+#define USBCTRL_EP_ABORT_DONE_XOR (*(volatile uint32_t *)0x50111064)
+#define USBCTRL_EP_STALL_ARM_XOR (*(volatile uint32_t *)0x50111068)
+#define USBCTRL_NAK_POLL_XOR (*(volatile uint32_t *)0x5011106c)
+#define USBCTRL_EP_STATUS_STALL_NAK_XOR (*(volatile uint32_t *)0x50111070)
+#define USBCTRL_USB_MUXING_XOR (*(volatile uint32_t *)0x50111074)
+#define USBCTRL_USB_PWR_XOR (*(volatile uint32_t *)0x50111078)
+#define USBCTRL_USBPHY_DIRECT_XOR (*(volatile uint32_t *)0x5011107c)
+#define USBCTRL_USBPHY_DIRECT_OVERRIDE_XOR (*(volatile uint32_t *)0x50111080)
+#define USBCTRL_USBPHY_TRIM_XOR (*(volatile uint32_t *)0x50111084)
+#define USBCTRL_LINESTATE_TUNING_XOR (*(volatile uint32_t *)0x50111088)
+#define USBCTRL_INTR_XOR (*(volatile uint32_t *)0x5011108c)
+#define USBCTRL_INTE_XOR (*(volatile uint32_t *)0x50111090)
+#define USBCTRL_INTF_XOR (*(volatile uint32_t *)0x50111094)
+#define USBCTRL_INTS_XOR (*(volatile uint32_t *)0x50111098)
+#define USBCTRL_SOF_TIMESTAMP_RAW_XOR (*(volatile uint32_t *)0x50111100)
+#define USBCTRL_SOF_TIMESTAMP_LAST_XOR (*(volatile uint32_t *)0x50111104)
+#define USBCTRL_SM_STATE_XOR (*(volatile uint32_t *)0x50111108)
+#define USBCTRL_EP_TX_ERROR_XOR (*(volatile uint32_t *)0x5011110c)
+#define USBCTRL_EP_RX_ERROR_XOR (*(volatile uint32_t *)0x50111110)
+#define USBCTRL_DEV_SM_WATCHDOG_XOR (*(volatile uint32_t *)0x50111114)
+#define USBCTRL_ADDR_ENDP_SET (*(volatile uint32_t *)0x50112000)
+#define USBCTRL_ADDR_ENDP1_SET (*(volatile uint32_t *)0x50112004)
+#define USBCTRL_ADDR_ENDP2_SET (*(volatile uint32_t *)0x50112008)
+#define USBCTRL_ADDR_ENDP3_SET (*(volatile uint32_t *)0x5011200c)
+#define USBCTRL_ADDR_ENDP4_SET (*(volatile uint32_t *)0x50112010)
+#define USBCTRL_ADDR_ENDP5_SET (*(volatile uint32_t *)0x50112014)
+#define USBCTRL_ADDR_ENDP6_SET (*(volatile uint32_t *)0x50112018)
+#define USBCTRL_ADDR_ENDP7_SET (*(volatile uint32_t *)0x5011201c)
+#define USBCTRL_ADDR_ENDP8_SET (*(volatile uint32_t *)0x50112020)
+#define USBCTRL_ADDR_ENDP9_SET (*(volatile uint32_t *)0x50112024)
+#define USBCTRL_ADDR_ENDP10_SET (*(volatile uint32_t *)0x50112028)
+#define USBCTRL_ADDR_ENDP11_SET (*(volatile uint32_t *)0x5011202c)
+#define USBCTRL_ADDR_ENDP12_SET (*(volatile uint32_t *)0x50112030)
+#define USBCTRL_ADDR_ENDP13_SET (*(volatile uint32_t *)0x50112034)
+#define USBCTRL_ADDR_ENDP14_SET (*(volatile uint32_t *)0x50112038)
+#define USBCTRL_ADDR_ENDP15_SET (*(volatile uint32_t *)0x5011203c)
+#define USBCTRL_MAIN_CTRL_SET (*(volatile uint32_t *)0x50112040)
+#define USBCTRL_SOF_WR_SET (*(volatile uint32_t *)0x50112044)
+#define USBCTRL_SOF_RD_SET (*(volatile uint32_t *)0x50112048)
+#define USBCTRL_SIE_CTRL_SET (*(volatile uint32_t *)0x5011204c)
+#define USBCTRL_SIE_STATUS_SET (*(volatile uint32_t *)0x50112050)
+#define USBCTRL_INT_EP_CTRL_SET (*(volatile uint32_t *)0x50112054)
+#define USBCTRL_BUFF_STATUS_SET (*(volatile uint32_t *)0x50112058)
+#define USBCTRL_BUFF_CPU_SHOULD_HANDLE_SET (*(volatile uint32_t *)0x5011205c)
+#define USBCTRL_EP_ABORT_SET (*(volatile uint32_t *)0x50112060)
+#define USBCTRL_EP_ABORT_DONE_SET (*(volatile uint32_t *)0x50112064)
+#define USBCTRL_EP_STALL_ARM_SET (*(volatile uint32_t *)0x50112068)
+#define USBCTRL_NAK_POLL_SET (*(volatile uint32_t *)0x5011206c)
+#define USBCTRL_EP_STATUS_STALL_NAK_SET (*(volatile uint32_t *)0x50112070)
+#define USBCTRL_USB_MUXING_SET (*(volatile uint32_t *)0x50112074)
+#define USBCTRL_USB_PWR_SET (*(volatile uint32_t *)0x50112078)
+#define USBCTRL_USBPHY_DIRECT_SET (*(volatile uint32_t *)0x5011207c)
+#define USBCTRL_USBPHY_DIRECT_OVERRIDE_SET (*(volatile uint32_t *)0x50112080)
+#define USBCTRL_USBPHY_TRIM_SET (*(volatile uint32_t *)0x50112084)
+#define USBCTRL_LINESTATE_TUNING_SET (*(volatile uint32_t *)0x50112088)
+#define USBCTRL_INTR_SET (*(volatile uint32_t *)0x5011208c)
+#define USBCTRL_INTE_SET (*(volatile uint32_t *)0x50112090)
+#define USBCTRL_INTF_SET (*(volatile uint32_t *)0x50112094)
+#define USBCTRL_INTS_SET (*(volatile uint32_t *)0x50112098)
+#define USBCTRL_SOF_TIMESTAMP_RAW_SET (*(volatile uint32_t *)0x50112100)
+#define USBCTRL_SOF_TIMESTAMP_LAST_SET (*(volatile uint32_t *)0x50112104)
+#define USBCTRL_SM_STATE_SET (*(volatile uint32_t *)0x50112108)
+#define USBCTRL_EP_TX_ERROR_SET (*(volatile uint32_t *)0x5011210c)
+#define USBCTRL_EP_RX_ERROR_SET (*(volatile uint32_t *)0x50112110)
+#define USBCTRL_DEV_SM_WATCHDOG_SET (*(volatile uint32_t *)0x50112114)
+#define USBCTRL_ADDR_ENDP_CLR (*(volatile uint32_t *)0x50113000)
+#define USBCTRL_ADDR_ENDP1_CLR (*(volatile uint32_t *)0x50113004)
+#define USBCTRL_ADDR_ENDP2_CLR (*(volatile uint32_t *)0x50113008)
+#define USBCTRL_ADDR_ENDP3_CLR (*(volatile uint32_t *)0x5011300c)
+#define USBCTRL_ADDR_ENDP4_CLR (*(volatile uint32_t *)0x50113010)
+#define USBCTRL_ADDR_ENDP5_CLR (*(volatile uint32_t *)0x50113014)
+#define USBCTRL_ADDR_ENDP6_CLR (*(volatile uint32_t *)0x50113018)
+#define USBCTRL_ADDR_ENDP7_CLR (*(volatile uint32_t *)0x5011301c)
+#define USBCTRL_ADDR_ENDP8_CLR (*(volatile uint32_t *)0x50113020)
+#define USBCTRL_ADDR_ENDP9_CLR (*(volatile uint32_t *)0x50113024)
+#define USBCTRL_ADDR_ENDP10_CLR (*(volatile uint32_t *)0x50113028)
+#define USBCTRL_ADDR_ENDP11_CLR (*(volatile uint32_t *)0x5011302c)
+#define USBCTRL_ADDR_ENDP12_CLR (*(volatile uint32_t *)0x50113030)
+#define USBCTRL_ADDR_ENDP13_CLR (*(volatile uint32_t *)0x50113034)
+#define USBCTRL_ADDR_ENDP14_CLR (*(volatile uint32_t *)0x50113038)
+#define USBCTRL_ADDR_ENDP15_CLR (*(volatile uint32_t *)0x5011303c)
+#define USBCTRL_MAIN_CTRL_CLR (*(volatile uint32_t *)0x50113040)
+#define USBCTRL_SOF_WR_CLR (*(volatile uint32_t *)0x50113044)
+#define USBCTRL_SOF_RD_CLR (*(volatile uint32_t *)0x50113048)
+#define USBCTRL_SIE_CTRL_CLR (*(volatile uint32_t *)0x5011304c)
+#define USBCTRL_SIE_STATUS_CLR (*(volatile uint32_t *)0x50113050)
+#define USBCTRL_INT_EP_CTRL_CLR (*(volatile uint32_t *)0x50113054)
+#define USBCTRL_BUFF_STATUS_CLR (*(volatile uint32_t *)0x50113058)
+#define USBCTRL_BUFF_CPU_SHOULD_HANDLE_CLR (*(volatile uint32_t *)0x5011305c)
+#define USBCTRL_EP_ABORT_CLR (*(volatile uint32_t *)0x50113060)
+#define USBCTRL_EP_ABORT_DONE_CLR (*(volatile uint32_t *)0x50113064)
+#define USBCTRL_EP_STALL_ARM_CLR (*(volatile uint32_t *)0x50113068)
+#define USBCTRL_NAK_POLL_CLR (*(volatile uint32_t *)0x5011306c)
+#define USBCTRL_EP_STATUS_STALL_NAK_CLR (*(volatile uint32_t *)0x50113070)
+#define USBCTRL_USB_MUXING_CLR (*(volatile uint32_t *)0x50113074)
+#define USBCTRL_USB_PWR_CLR (*(volatile uint32_t *)0x50113078)
+#define USBCTRL_USBPHY_DIRECT_CLR (*(volatile uint32_t *)0x5011307c)
+#define USBCTRL_USBPHY_DIRECT_OVERRIDE_CLR (*(volatile uint32_t *)0x50113080)
+#define USBCTRL_USBPHY_TRIM_CLR (*(volatile uint32_t *)0x50113084)
+#define USBCTRL_LINESTATE_TUNING_CLR (*(volatile uint32_t *)0x50113088)
+#define USBCTRL_INTR_CLR (*(volatile uint32_t *)0x5011308c)
+#define USBCTRL_INTE_CLR (*(volatile uint32_t *)0x50113090)
+#define USBCTRL_INTF_CLR (*(volatile uint32_t *)0x50113094)
+#define USBCTRL_INTS_CLR (*(volatile uint32_t *)0x50113098)
+#define USBCTRL_SOF_TIMESTAMP_RAW_CLR (*(volatile uint32_t *)0x50113100)
+#define USBCTRL_SOF_TIMESTAMP_LAST_CLR (*(volatile uint32_t *)0x50113104)
+#define USBCTRL_SM_STATE_CLR (*(volatile uint32_t *)0x50113108)
+#define USBCTRL_EP_TX_ERROR_CLR (*(volatile uint32_t *)0x5011310c)
+#define USBCTRL_EP_RX_ERROR_CLR (*(volatile uint32_t *)0x50113110)
+#define USBCTRL_DEV_SM_WATCHDOG_CLR (*(volatile uint32_t *)0x50113114)
 
 /*ADDR_ENDP Register macros*/
 

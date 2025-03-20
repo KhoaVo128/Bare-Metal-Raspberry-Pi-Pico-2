@@ -58,8 +58,8 @@ void _crt0(){
 static void _config_ref_clock()
 {
 	//Clock to timers and tick generators
-	clocks.clr_clk_ref_ctrl =  CLOCKS_CLK_REF_CTRL_SRC_MASK;
-	clocks.set_clk_ref_ctrl =  CLOCKS_CLK_REF_CTRL_SRC(2); //XOSC
+	clocks.clk_ref_ctrl_clr =  CLOCKS_CLK_REF_CTRL_SRC_MASK;
+	clocks.clk_ref_ctrl_set =  CLOCKS_CLK_REF_CTRL_SRC(2); //XOSC
 	clocks.clk_ref_div = CLOCKS_CLK_REF_DIV_INT(12); //divide-by-12 for 1MHz
 }
 static void _config_sys_clock()
@@ -75,13 +75,13 @@ static void _config_sys_clock()
 	
 
 	//Reset PLL so we can (re)configure
-	resets.set_reset  =  RESETS_RESET_PLL_SYS_MASK;
-	resets.clr_reset  =  RESETS_RESET_PLL_SYS_MASK;
+	resets.reset_set  =  RESETS_RESET_PLL_SYS_MASK;
+	resets.reset_clr  =  RESETS_RESET_PLL_SYS_MASK;
 	while(!(resets.reset_done & RESETS_RESET_DONE_PLL_SYS_MASK))
 		continue;
 
 	//switch the glitchless mux to ref
-	clocks.clr_clk_sys_ctrl =  CLOCKS_CLK_SYS_CTRL_SRC_MASK  ;
+	clocks.clk_sys_ctrl_clr =  CLOCKS_CLK_SYS_CTRL_SRC_MASK  ;
 	//poll the SELECTED register until the switch is completed
 	while( !(clocks.clk_sys_selected ) )
 		continue;
@@ -89,20 +89,20 @@ static void _config_sys_clock()
 	pll_sys.cs = PLL_SYS_CS_REFDIV(1);
 	pll_sys.fbdiv_int = 125; //12MHz x 125 FCO = 1500 MHz
 	//disable power save bits to start PLL
-	pll_sys.clr_pwr = PLL_SYS_PWR_PD_MASK | PLL_SYS_PWR_VCOPD_MASK;
+	pll_sys.pwr_clr = PLL_SYS_PWR_PD_MASK | PLL_SYS_PWR_VCOPD_MASK;
 	//wait for PLL to lock
 	while( !((pll_sys.cs) & PLL_SYS_CS_LOCK_MASK))
 		continue;
 	//config post dividers for divide-by-5-by-2, which gets PLL ouput
 	//to 1500/5/2 = 150 MHz
 	pll_sys.prim  =  PLL_SYS_PRIM_POSTDIV1(5) | PLL_SYS_PRIM_POSTDIV2(2);
-	pll_sys.clr_pwr = PLL_SYS_PWR_POSTDIVPD_MASK;
+	pll_sys.pwr_clr = PLL_SYS_PWR_POSTDIVPD_MASK;
 	
 
 	//change the auxiliary mux select control
-	clocks.clr_clk_sys_ctrl = CLOCKS_CLK_SYS_CTRL_AUXSRC_MASK;
+	clocks.clk_sys_ctrl_clr = CLOCKS_CLK_SYS_CTRL_AUXSRC_MASK;
 	//switch the glitchless mux back to the aux mux
-	clocks.set_clk_sys_ctrl  = CLOCKS_CLK_SYS_CTRL_SRC_MASK;
+	clocks.clk_sys_ctrl_set  = CLOCKS_CLK_SYS_CTRL_SRC_MASK;
 	//wait for good measure
 	while( !(clocks.clk_sys_selected ) )
 		continue;

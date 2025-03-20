@@ -42,38 +42,38 @@ typedef struct{
 		uint32_t sum6;
 		uint32_t sum7;
 		uint32_t RSVD0[1014];
-		uint32_t xor_csr;
-		uint32_t xor_wdata;
-		uint32_t xor_sum0;
-		uint32_t xor_sum1;
-		uint32_t xor_sum2;
-		uint32_t xor_sum3;
-		uint32_t xor_sum4;
-		uint32_t xor_sum5;
-		uint32_t xor_sum6;
-		uint32_t xor_sum7;
+		uint32_t csr_xor;
+		uint32_t wdata_xor;
+		uint32_t sum0_xor;
+		uint32_t sum1_xor;
+		uint32_t sum2_xor;
+		uint32_t sum3_xor;
+		uint32_t sum4_xor;
+		uint32_t sum5_xor;
+		uint32_t sum6_xor;
+		uint32_t sum7_xor;
 		uint32_t RSVDxor_0[1014];
-		uint32_t set_csr;
-		uint32_t set_wdata;
-		uint32_t set_sum0;
-		uint32_t set_sum1;
-		uint32_t set_sum2;
-		uint32_t set_sum3;
-		uint32_t set_sum4;
-		uint32_t set_sum5;
-		uint32_t set_sum6;
-		uint32_t set_sum7;
+		uint32_t csr_set;
+		uint32_t wdata_set;
+		uint32_t sum0_set;
+		uint32_t sum1_set;
+		uint32_t sum2_set;
+		uint32_t sum3_set;
+		uint32_t sum4_set;
+		uint32_t sum5_set;
+		uint32_t sum6_set;
+		uint32_t sum7_set;
 		uint32_t RSVDset_0[1014];
-		uint32_t clr_csr;
-		uint32_t clr_wdata;
-		uint32_t clr_sum0;
-		uint32_t clr_sum1;
-		uint32_t clr_sum2;
-		uint32_t clr_sum3;
-		uint32_t clr_sum4;
-		uint32_t clr_sum5;
-		uint32_t clr_sum6;
-		uint32_t clr_sum7;
+		uint32_t csr_clr;
+		uint32_t wdata_clr;
+		uint32_t sum0_clr;
+		uint32_t sum1_clr;
+		uint32_t sum2_clr;
+		uint32_t sum3_clr;
+		uint32_t sum4_clr;
+		uint32_t sum5_clr;
+		uint32_t sum6_clr;
+		uint32_t sum7_clr;
 		uint32_t RSVDclr_0[1014];
 } SHA256_REG_BLOCKS;
 
@@ -95,36 +95,36 @@ typedef struct{
 #define SHA256_SUM5 (*(volatile uint32_t *)0x400f801c)
 #define SHA256_SUM6 (*(volatile uint32_t *)0x400f8020)
 #define SHA256_SUM7 (*(volatile uint32_t *)0x400f8024)
-#define SHA256_XOR_CSR (*(volatile uint32_t *)0x400f9000)
-#define SHA256_XOR_WDATA (*(volatile uint32_t *)0x400f9004)
-#define SHA256_XOR_SUM0 (*(volatile uint32_t *)0x400f9008)
-#define SHA256_XOR_SUM1 (*(volatile uint32_t *)0x400f900c)
-#define SHA256_XOR_SUM2 (*(volatile uint32_t *)0x400f9010)
-#define SHA256_XOR_SUM3 (*(volatile uint32_t *)0x400f9014)
-#define SHA256_XOR_SUM4 (*(volatile uint32_t *)0x400f9018)
-#define SHA256_XOR_SUM5 (*(volatile uint32_t *)0x400f901c)
-#define SHA256_XOR_SUM6 (*(volatile uint32_t *)0x400f9020)
-#define SHA256_XOR_SUM7 (*(volatile uint32_t *)0x400f9024)
-#define SHA256_SET_CSR (*(volatile uint32_t *)0x400fa000)
-#define SHA256_SET_WDATA (*(volatile uint32_t *)0x400fa004)
-#define SHA256_SET_SUM0 (*(volatile uint32_t *)0x400fa008)
-#define SHA256_SET_SUM1 (*(volatile uint32_t *)0x400fa00c)
-#define SHA256_SET_SUM2 (*(volatile uint32_t *)0x400fa010)
-#define SHA256_SET_SUM3 (*(volatile uint32_t *)0x400fa014)
-#define SHA256_SET_SUM4 (*(volatile uint32_t *)0x400fa018)
-#define SHA256_SET_SUM5 (*(volatile uint32_t *)0x400fa01c)
-#define SHA256_SET_SUM6 (*(volatile uint32_t *)0x400fa020)
-#define SHA256_SET_SUM7 (*(volatile uint32_t *)0x400fa024)
-#define SHA256_CLR_CSR (*(volatile uint32_t *)0x400fb000)
-#define SHA256_CLR_WDATA (*(volatile uint32_t *)0x400fb004)
-#define SHA256_CLR_SUM0 (*(volatile uint32_t *)0x400fb008)
-#define SHA256_CLR_SUM1 (*(volatile uint32_t *)0x400fb00c)
-#define SHA256_CLR_SUM2 (*(volatile uint32_t *)0x400fb010)
-#define SHA256_CLR_SUM3 (*(volatile uint32_t *)0x400fb014)
-#define SHA256_CLR_SUM4 (*(volatile uint32_t *)0x400fb018)
-#define SHA256_CLR_SUM5 (*(volatile uint32_t *)0x400fb01c)
-#define SHA256_CLR_SUM6 (*(volatile uint32_t *)0x400fb020)
-#define SHA256_CLR_SUM7 (*(volatile uint32_t *)0x400fb024)
+#define SHA256_CSR_XOR (*(volatile uint32_t *)0x400f9000)
+#define SHA256_WDATA_XOR (*(volatile uint32_t *)0x400f9004)
+#define SHA256_SUM0_XOR (*(volatile uint32_t *)0x400f9008)
+#define SHA256_SUM1_XOR (*(volatile uint32_t *)0x400f900c)
+#define SHA256_SUM2_XOR (*(volatile uint32_t *)0x400f9010)
+#define SHA256_SUM3_XOR (*(volatile uint32_t *)0x400f9014)
+#define SHA256_SUM4_XOR (*(volatile uint32_t *)0x400f9018)
+#define SHA256_SUM5_XOR (*(volatile uint32_t *)0x400f901c)
+#define SHA256_SUM6_XOR (*(volatile uint32_t *)0x400f9020)
+#define SHA256_SUM7_XOR (*(volatile uint32_t *)0x400f9024)
+#define SHA256_CSR_SET (*(volatile uint32_t *)0x400fa000)
+#define SHA256_WDATA_SET (*(volatile uint32_t *)0x400fa004)
+#define SHA256_SUM0_SET (*(volatile uint32_t *)0x400fa008)
+#define SHA256_SUM1_SET (*(volatile uint32_t *)0x400fa00c)
+#define SHA256_SUM2_SET (*(volatile uint32_t *)0x400fa010)
+#define SHA256_SUM3_SET (*(volatile uint32_t *)0x400fa014)
+#define SHA256_SUM4_SET (*(volatile uint32_t *)0x400fa018)
+#define SHA256_SUM5_SET (*(volatile uint32_t *)0x400fa01c)
+#define SHA256_SUM6_SET (*(volatile uint32_t *)0x400fa020)
+#define SHA256_SUM7_SET (*(volatile uint32_t *)0x400fa024)
+#define SHA256_CSR_CLR (*(volatile uint32_t *)0x400fb000)
+#define SHA256_WDATA_CLR (*(volatile uint32_t *)0x400fb004)
+#define SHA256_SUM0_CLR (*(volatile uint32_t *)0x400fb008)
+#define SHA256_SUM1_CLR (*(volatile uint32_t *)0x400fb00c)
+#define SHA256_SUM2_CLR (*(volatile uint32_t *)0x400fb010)
+#define SHA256_SUM3_CLR (*(volatile uint32_t *)0x400fb014)
+#define SHA256_SUM4_CLR (*(volatile uint32_t *)0x400fb018)
+#define SHA256_SUM5_CLR (*(volatile uint32_t *)0x400fb01c)
+#define SHA256_SUM6_CLR (*(volatile uint32_t *)0x400fb020)
+#define SHA256_SUM7_CLR (*(volatile uint32_t *)0x400fb024)
 
 /*CSR Register macros*/
 

@@ -201,515 +201,515 @@ typedef struct{
 		uint32_t dormant_wake_ints4;
 		uint32_t dormant_wake_ints5;
 		uint32_t RSVD1[824];
-		uint32_t xor_gpio0_status;
-		uint32_t xor_gpio0_ctrl;
-		uint32_t xor_gpio1_status;
-		uint32_t xor_gpio1_ctrl;
-		uint32_t xor_gpio2_status;
-		uint32_t xor_gpio2_ctrl;
-		uint32_t xor_gpio3_status;
-		uint32_t xor_gpio3_ctrl;
-		uint32_t xor_gpio4_status;
-		uint32_t xor_gpio4_ctrl;
-		uint32_t xor_gpio5_status;
-		uint32_t xor_gpio5_ctrl;
-		uint32_t xor_gpio6_status;
-		uint32_t xor_gpio6_ctrl;
-		uint32_t xor_gpio7_status;
-		uint32_t xor_gpio7_ctrl;
-		uint32_t xor_gpio8_status;
-		uint32_t xor_gpio8_ctrl;
-		uint32_t xor_gpio9_status;
-		uint32_t xor_gpio9_ctrl;
-		uint32_t xor_gpio10_status;
-		uint32_t xor_gpio10_ctrl;
-		uint32_t xor_gpio11_status;
-		uint32_t xor_gpio11_ctrl;
-		uint32_t xor_gpio12_status;
-		uint32_t xor_gpio12_ctrl;
-		uint32_t xor_gpio13_status;
-		uint32_t xor_gpio13_ctrl;
-		uint32_t xor_gpio14_status;
-		uint32_t xor_gpio14_ctrl;
-		uint32_t xor_gpio15_status;
-		uint32_t xor_gpio15_ctrl;
-		uint32_t xor_gpio16_status;
-		uint32_t xor_gpio16_ctrl;
-		uint32_t xor_gpio17_status;
-		uint32_t xor_gpio17_ctrl;
-		uint32_t xor_gpio18_status;
-		uint32_t xor_gpio18_ctrl;
-		uint32_t xor_gpio19_status;
-		uint32_t xor_gpio19_ctrl;
-		uint32_t xor_gpio20_status;
-		uint32_t xor_gpio20_ctrl;
-		uint32_t xor_gpio21_status;
-		uint32_t xor_gpio21_ctrl;
-		uint32_t xor_gpio22_status;
-		uint32_t xor_gpio22_ctrl;
-		uint32_t xor_gpio23_status;
-		uint32_t xor_gpio23_ctrl;
-		uint32_t xor_gpio24_status;
-		uint32_t xor_gpio24_ctrl;
-		uint32_t xor_gpio25_status;
-		uint32_t xor_gpio25_ctrl;
-		uint32_t xor_gpio26_status;
-		uint32_t xor_gpio26_ctrl;
-		uint32_t xor_gpio27_status;
-		uint32_t xor_gpio27_ctrl;
-		uint32_t xor_gpio28_status;
-		uint32_t xor_gpio28_ctrl;
-		uint32_t xor_gpio29_status;
-		uint32_t xor_gpio29_ctrl;
-		uint32_t xor_gpio30_status;
-		uint32_t xor_gpio30_ctrl;
-		uint32_t xor_gpio31_status;
-		uint32_t xor_gpio31_ctrl;
-		uint32_t xor_gpio32_status;
-		uint32_t xor_gpio32_ctrl;
-		uint32_t xor_gpio33_status;
-		uint32_t xor_gpio33_ctrl;
-		uint32_t xor_gpio34_status;
-		uint32_t xor_gpio34_ctrl;
-		uint32_t xor_gpio35_status;
-		uint32_t xor_gpio35_ctrl;
-		uint32_t xor_gpio36_status;
-		uint32_t xor_gpio36_ctrl;
-		uint32_t xor_gpio37_status;
-		uint32_t xor_gpio37_ctrl;
-		uint32_t xor_gpio38_status;
-		uint32_t xor_gpio38_ctrl;
-		uint32_t xor_gpio39_status;
-		uint32_t xor_gpio39_ctrl;
-		uint32_t xor_gpio40_status;
-		uint32_t xor_gpio40_ctrl;
-		uint32_t xor_gpio41_status;
-		uint32_t xor_gpio41_ctrl;
-		uint32_t xor_gpio42_status;
-		uint32_t xor_gpio42_ctrl;
-		uint32_t xor_gpio43_status;
-		uint32_t xor_gpio43_ctrl;
-		uint32_t xor_gpio44_status;
-		uint32_t xor_gpio44_ctrl;
-		uint32_t xor_gpio45_status;
-		uint32_t xor_gpio45_ctrl;
-		uint32_t xor_gpio46_status;
-		uint32_t xor_gpio46_ctrl;
-		uint32_t xor_gpio47_status;
-		uint32_t xor_gpio47_ctrl;
+		uint32_t gpio0_status_xor;
+		uint32_t gpio0_ctrl_xor;
+		uint32_t gpio1_status_xor;
+		uint32_t gpio1_ctrl_xor;
+		uint32_t gpio2_status_xor;
+		uint32_t gpio2_ctrl_xor;
+		uint32_t gpio3_status_xor;
+		uint32_t gpio3_ctrl_xor;
+		uint32_t gpio4_status_xor;
+		uint32_t gpio4_ctrl_xor;
+		uint32_t gpio5_status_xor;
+		uint32_t gpio5_ctrl_xor;
+		uint32_t gpio6_status_xor;
+		uint32_t gpio6_ctrl_xor;
+		uint32_t gpio7_status_xor;
+		uint32_t gpio7_ctrl_xor;
+		uint32_t gpio8_status_xor;
+		uint32_t gpio8_ctrl_xor;
+		uint32_t gpio9_status_xor;
+		uint32_t gpio9_ctrl_xor;
+		uint32_t gpio10_status_xor;
+		uint32_t gpio10_ctrl_xor;
+		uint32_t gpio11_status_xor;
+		uint32_t gpio11_ctrl_xor;
+		uint32_t gpio12_status_xor;
+		uint32_t gpio12_ctrl_xor;
+		uint32_t gpio13_status_xor;
+		uint32_t gpio13_ctrl_xor;
+		uint32_t gpio14_status_xor;
+		uint32_t gpio14_ctrl_xor;
+		uint32_t gpio15_status_xor;
+		uint32_t gpio15_ctrl_xor;
+		uint32_t gpio16_status_xor;
+		uint32_t gpio16_ctrl_xor;
+		uint32_t gpio17_status_xor;
+		uint32_t gpio17_ctrl_xor;
+		uint32_t gpio18_status_xor;
+		uint32_t gpio18_ctrl_xor;
+		uint32_t gpio19_status_xor;
+		uint32_t gpio19_ctrl_xor;
+		uint32_t gpio20_status_xor;
+		uint32_t gpio20_ctrl_xor;
+		uint32_t gpio21_status_xor;
+		uint32_t gpio21_ctrl_xor;
+		uint32_t gpio22_status_xor;
+		uint32_t gpio22_ctrl_xor;
+		uint32_t gpio23_status_xor;
+		uint32_t gpio23_ctrl_xor;
+		uint32_t gpio24_status_xor;
+		uint32_t gpio24_ctrl_xor;
+		uint32_t gpio25_status_xor;
+		uint32_t gpio25_ctrl_xor;
+		uint32_t gpio26_status_xor;
+		uint32_t gpio26_ctrl_xor;
+		uint32_t gpio27_status_xor;
+		uint32_t gpio27_ctrl_xor;
+		uint32_t gpio28_status_xor;
+		uint32_t gpio28_ctrl_xor;
+		uint32_t gpio29_status_xor;
+		uint32_t gpio29_ctrl_xor;
+		uint32_t gpio30_status_xor;
+		uint32_t gpio30_ctrl_xor;
+		uint32_t gpio31_status_xor;
+		uint32_t gpio31_ctrl_xor;
+		uint32_t gpio32_status_xor;
+		uint32_t gpio32_ctrl_xor;
+		uint32_t gpio33_status_xor;
+		uint32_t gpio33_ctrl_xor;
+		uint32_t gpio34_status_xor;
+		uint32_t gpio34_ctrl_xor;
+		uint32_t gpio35_status_xor;
+		uint32_t gpio35_ctrl_xor;
+		uint32_t gpio36_status_xor;
+		uint32_t gpio36_ctrl_xor;
+		uint32_t gpio37_status_xor;
+		uint32_t gpio37_ctrl_xor;
+		uint32_t gpio38_status_xor;
+		uint32_t gpio38_ctrl_xor;
+		uint32_t gpio39_status_xor;
+		uint32_t gpio39_ctrl_xor;
+		uint32_t gpio40_status_xor;
+		uint32_t gpio40_ctrl_xor;
+		uint32_t gpio41_status_xor;
+		uint32_t gpio41_ctrl_xor;
+		uint32_t gpio42_status_xor;
+		uint32_t gpio42_ctrl_xor;
+		uint32_t gpio43_status_xor;
+		uint32_t gpio43_ctrl_xor;
+		uint32_t gpio44_status_xor;
+		uint32_t gpio44_ctrl_xor;
+		uint32_t gpio45_status_xor;
+		uint32_t gpio45_ctrl_xor;
+		uint32_t gpio46_status_xor;
+		uint32_t gpio46_ctrl_xor;
+		uint32_t gpio47_status_xor;
+		uint32_t gpio47_ctrl_xor;
 		uint32_t RSVDxor_0[32];
-		uint32_t xor_irqsummary_proc0_secure0;
-		uint32_t xor_irqsummary_proc0_secure1;
-		uint32_t xor_irqsummary_proc0_nonsecure0;
-		uint32_t xor_irqsummary_proc0_nonsecure1;
-		uint32_t xor_irqsummary_proc1_secure0;
-		uint32_t xor_irqsummary_proc1_secure1;
-		uint32_t xor_irqsummary_proc1_nonsecure0;
-		uint32_t xor_irqsummary_proc1_nonsecure1;
-		uint32_t xor_irqsummary_dormant_wake_secure0;
-		uint32_t xor_irqsummary_dormant_wake_secure1;
-		uint32_t xor_irqsummary_dormant_wake_nonsecure0;
-		uint32_t xor_irqsummary_dormant_wake_nonsecure1;
-		uint32_t xor_intr0;
-		uint32_t xor_intr1;
-		uint32_t xor_intr2;
-		uint32_t xor_intr3;
-		uint32_t xor_intr4;
-		uint32_t xor_intr5;
-		uint32_t xor_proc0_inte0;
-		uint32_t xor_proc0_inte1;
-		uint32_t xor_proc0_inte2;
-		uint32_t xor_proc0_inte3;
-		uint32_t xor_proc0_inte4;
-		uint32_t xor_proc0_inte5;
-		uint32_t xor_proc0_intf0;
-		uint32_t xor_proc0_intf1;
-		uint32_t xor_proc0_intf2;
-		uint32_t xor_proc0_intf3;
-		uint32_t xor_proc0_intf4;
-		uint32_t xor_proc0_intf5;
-		uint32_t xor_proc0_ints0;
-		uint32_t xor_proc0_ints1;
-		uint32_t xor_proc0_ints2;
-		uint32_t xor_proc0_ints3;
-		uint32_t xor_proc0_ints4;
-		uint32_t xor_proc0_ints5;
-		uint32_t xor_proc1_inte0;
-		uint32_t xor_proc1_inte1;
-		uint32_t xor_proc1_inte2;
-		uint32_t xor_proc1_inte3;
-		uint32_t xor_proc1_inte4;
-		uint32_t xor_proc1_inte5;
-		uint32_t xor_proc1_intf0;
-		uint32_t xor_proc1_intf1;
-		uint32_t xor_proc1_intf2;
-		uint32_t xor_proc1_intf3;
-		uint32_t xor_proc1_intf4;
-		uint32_t xor_proc1_intf5;
-		uint32_t xor_proc1_ints0;
-		uint32_t xor_proc1_ints1;
-		uint32_t xor_proc1_ints2;
-		uint32_t xor_proc1_ints3;
-		uint32_t xor_proc1_ints4;
-		uint32_t xor_proc1_ints5;
-		uint32_t xor_dormant_wake_inte0;
-		uint32_t xor_dormant_wake_inte1;
-		uint32_t xor_dormant_wake_inte2;
-		uint32_t xor_dormant_wake_inte3;
-		uint32_t xor_dormant_wake_inte4;
-		uint32_t xor_dormant_wake_inte5;
-		uint32_t xor_dormant_wake_intf0;
-		uint32_t xor_dormant_wake_intf1;
-		uint32_t xor_dormant_wake_intf2;
-		uint32_t xor_dormant_wake_intf3;
-		uint32_t xor_dormant_wake_intf4;
-		uint32_t xor_dormant_wake_intf5;
-		uint32_t xor_dormant_wake_ints0;
-		uint32_t xor_dormant_wake_ints1;
-		uint32_t xor_dormant_wake_ints2;
-		uint32_t xor_dormant_wake_ints3;
-		uint32_t xor_dormant_wake_ints4;
-		uint32_t xor_dormant_wake_ints5;
+		uint32_t irqsummary_proc0_secure0_xor;
+		uint32_t irqsummary_proc0_secure1_xor;
+		uint32_t irqsummary_proc0_nonsecure0_xor;
+		uint32_t irqsummary_proc0_nonsecure1_xor;
+		uint32_t irqsummary_proc1_secure0_xor;
+		uint32_t irqsummary_proc1_secure1_xor;
+		uint32_t irqsummary_proc1_nonsecure0_xor;
+		uint32_t irqsummary_proc1_nonsecure1_xor;
+		uint32_t irqsummary_dormant_wake_secure0_xor;
+		uint32_t irqsummary_dormant_wake_secure1_xor;
+		uint32_t irqsummary_dormant_wake_nonsecure0_xor;
+		uint32_t irqsummary_dormant_wake_nonsecure1_xor;
+		uint32_t intr0_xor;
+		uint32_t intr1_xor;
+		uint32_t intr2_xor;
+		uint32_t intr3_xor;
+		uint32_t intr4_xor;
+		uint32_t intr5_xor;
+		uint32_t proc0_inte0_xor;
+		uint32_t proc0_inte1_xor;
+		uint32_t proc0_inte2_xor;
+		uint32_t proc0_inte3_xor;
+		uint32_t proc0_inte4_xor;
+		uint32_t proc0_inte5_xor;
+		uint32_t proc0_intf0_xor;
+		uint32_t proc0_intf1_xor;
+		uint32_t proc0_intf2_xor;
+		uint32_t proc0_intf3_xor;
+		uint32_t proc0_intf4_xor;
+		uint32_t proc0_intf5_xor;
+		uint32_t proc0_ints0_xor;
+		uint32_t proc0_ints1_xor;
+		uint32_t proc0_ints2_xor;
+		uint32_t proc0_ints3_xor;
+		uint32_t proc0_ints4_xor;
+		uint32_t proc0_ints5_xor;
+		uint32_t proc1_inte0_xor;
+		uint32_t proc1_inte1_xor;
+		uint32_t proc1_inte2_xor;
+		uint32_t proc1_inte3_xor;
+		uint32_t proc1_inte4_xor;
+		uint32_t proc1_inte5_xor;
+		uint32_t proc1_intf0_xor;
+		uint32_t proc1_intf1_xor;
+		uint32_t proc1_intf2_xor;
+		uint32_t proc1_intf3_xor;
+		uint32_t proc1_intf4_xor;
+		uint32_t proc1_intf5_xor;
+		uint32_t proc1_ints0_xor;
+		uint32_t proc1_ints1_xor;
+		uint32_t proc1_ints2_xor;
+		uint32_t proc1_ints3_xor;
+		uint32_t proc1_ints4_xor;
+		uint32_t proc1_ints5_xor;
+		uint32_t dormant_wake_inte0_xor;
+		uint32_t dormant_wake_inte1_xor;
+		uint32_t dormant_wake_inte2_xor;
+		uint32_t dormant_wake_inte3_xor;
+		uint32_t dormant_wake_inte4_xor;
+		uint32_t dormant_wake_inte5_xor;
+		uint32_t dormant_wake_intf0_xor;
+		uint32_t dormant_wake_intf1_xor;
+		uint32_t dormant_wake_intf2_xor;
+		uint32_t dormant_wake_intf3_xor;
+		uint32_t dormant_wake_intf4_xor;
+		uint32_t dormant_wake_intf5_xor;
+		uint32_t dormant_wake_ints0_xor;
+		uint32_t dormant_wake_ints1_xor;
+		uint32_t dormant_wake_ints2_xor;
+		uint32_t dormant_wake_ints3_xor;
+		uint32_t dormant_wake_ints4_xor;
+		uint32_t dormant_wake_ints5_xor;
 		uint32_t RSVDxor_1[824];
-		uint32_t set_gpio0_status;
-		uint32_t set_gpio0_ctrl;
-		uint32_t set_gpio1_status;
-		uint32_t set_gpio1_ctrl;
-		uint32_t set_gpio2_status;
-		uint32_t set_gpio2_ctrl;
-		uint32_t set_gpio3_status;
-		uint32_t set_gpio3_ctrl;
-		uint32_t set_gpio4_status;
-		uint32_t set_gpio4_ctrl;
-		uint32_t set_gpio5_status;
-		uint32_t set_gpio5_ctrl;
-		uint32_t set_gpio6_status;
-		uint32_t set_gpio6_ctrl;
-		uint32_t set_gpio7_status;
-		uint32_t set_gpio7_ctrl;
-		uint32_t set_gpio8_status;
-		uint32_t set_gpio8_ctrl;
-		uint32_t set_gpio9_status;
-		uint32_t set_gpio9_ctrl;
-		uint32_t set_gpio10_status;
-		uint32_t set_gpio10_ctrl;
-		uint32_t set_gpio11_status;
-		uint32_t set_gpio11_ctrl;
-		uint32_t set_gpio12_status;
-		uint32_t set_gpio12_ctrl;
-		uint32_t set_gpio13_status;
-		uint32_t set_gpio13_ctrl;
-		uint32_t set_gpio14_status;
-		uint32_t set_gpio14_ctrl;
-		uint32_t set_gpio15_status;
-		uint32_t set_gpio15_ctrl;
-		uint32_t set_gpio16_status;
-		uint32_t set_gpio16_ctrl;
-		uint32_t set_gpio17_status;
-		uint32_t set_gpio17_ctrl;
-		uint32_t set_gpio18_status;
-		uint32_t set_gpio18_ctrl;
-		uint32_t set_gpio19_status;
-		uint32_t set_gpio19_ctrl;
-		uint32_t set_gpio20_status;
-		uint32_t set_gpio20_ctrl;
-		uint32_t set_gpio21_status;
-		uint32_t set_gpio21_ctrl;
-		uint32_t set_gpio22_status;
-		uint32_t set_gpio22_ctrl;
-		uint32_t set_gpio23_status;
-		uint32_t set_gpio23_ctrl;
-		uint32_t set_gpio24_status;
-		uint32_t set_gpio24_ctrl;
-		uint32_t set_gpio25_status;
-		uint32_t set_gpio25_ctrl;
-		uint32_t set_gpio26_status;
-		uint32_t set_gpio26_ctrl;
-		uint32_t set_gpio27_status;
-		uint32_t set_gpio27_ctrl;
-		uint32_t set_gpio28_status;
-		uint32_t set_gpio28_ctrl;
-		uint32_t set_gpio29_status;
-		uint32_t set_gpio29_ctrl;
-		uint32_t set_gpio30_status;
-		uint32_t set_gpio30_ctrl;
-		uint32_t set_gpio31_status;
-		uint32_t set_gpio31_ctrl;
-		uint32_t set_gpio32_status;
-		uint32_t set_gpio32_ctrl;
-		uint32_t set_gpio33_status;
-		uint32_t set_gpio33_ctrl;
-		uint32_t set_gpio34_status;
-		uint32_t set_gpio34_ctrl;
-		uint32_t set_gpio35_status;
-		uint32_t set_gpio35_ctrl;
-		uint32_t set_gpio36_status;
-		uint32_t set_gpio36_ctrl;
-		uint32_t set_gpio37_status;
-		uint32_t set_gpio37_ctrl;
-		uint32_t set_gpio38_status;
-		uint32_t set_gpio38_ctrl;
-		uint32_t set_gpio39_status;
-		uint32_t set_gpio39_ctrl;
-		uint32_t set_gpio40_status;
-		uint32_t set_gpio40_ctrl;
-		uint32_t set_gpio41_status;
-		uint32_t set_gpio41_ctrl;
-		uint32_t set_gpio42_status;
-		uint32_t set_gpio42_ctrl;
-		uint32_t set_gpio43_status;
-		uint32_t set_gpio43_ctrl;
-		uint32_t set_gpio44_status;
-		uint32_t set_gpio44_ctrl;
-		uint32_t set_gpio45_status;
-		uint32_t set_gpio45_ctrl;
-		uint32_t set_gpio46_status;
-		uint32_t set_gpio46_ctrl;
-		uint32_t set_gpio47_status;
-		uint32_t set_gpio47_ctrl;
+		uint32_t gpio0_status_set;
+		uint32_t gpio0_ctrl_set;
+		uint32_t gpio1_status_set;
+		uint32_t gpio1_ctrl_set;
+		uint32_t gpio2_status_set;
+		uint32_t gpio2_ctrl_set;
+		uint32_t gpio3_status_set;
+		uint32_t gpio3_ctrl_set;
+		uint32_t gpio4_status_set;
+		uint32_t gpio4_ctrl_set;
+		uint32_t gpio5_status_set;
+		uint32_t gpio5_ctrl_set;
+		uint32_t gpio6_status_set;
+		uint32_t gpio6_ctrl_set;
+		uint32_t gpio7_status_set;
+		uint32_t gpio7_ctrl_set;
+		uint32_t gpio8_status_set;
+		uint32_t gpio8_ctrl_set;
+		uint32_t gpio9_status_set;
+		uint32_t gpio9_ctrl_set;
+		uint32_t gpio10_status_set;
+		uint32_t gpio10_ctrl_set;
+		uint32_t gpio11_status_set;
+		uint32_t gpio11_ctrl_set;
+		uint32_t gpio12_status_set;
+		uint32_t gpio12_ctrl_set;
+		uint32_t gpio13_status_set;
+		uint32_t gpio13_ctrl_set;
+		uint32_t gpio14_status_set;
+		uint32_t gpio14_ctrl_set;
+		uint32_t gpio15_status_set;
+		uint32_t gpio15_ctrl_set;
+		uint32_t gpio16_status_set;
+		uint32_t gpio16_ctrl_set;
+		uint32_t gpio17_status_set;
+		uint32_t gpio17_ctrl_set;
+		uint32_t gpio18_status_set;
+		uint32_t gpio18_ctrl_set;
+		uint32_t gpio19_status_set;
+		uint32_t gpio19_ctrl_set;
+		uint32_t gpio20_status_set;
+		uint32_t gpio20_ctrl_set;
+		uint32_t gpio21_status_set;
+		uint32_t gpio21_ctrl_set;
+		uint32_t gpio22_status_set;
+		uint32_t gpio22_ctrl_set;
+		uint32_t gpio23_status_set;
+		uint32_t gpio23_ctrl_set;
+		uint32_t gpio24_status_set;
+		uint32_t gpio24_ctrl_set;
+		uint32_t gpio25_status_set;
+		uint32_t gpio25_ctrl_set;
+		uint32_t gpio26_status_set;
+		uint32_t gpio26_ctrl_set;
+		uint32_t gpio27_status_set;
+		uint32_t gpio27_ctrl_set;
+		uint32_t gpio28_status_set;
+		uint32_t gpio28_ctrl_set;
+		uint32_t gpio29_status_set;
+		uint32_t gpio29_ctrl_set;
+		uint32_t gpio30_status_set;
+		uint32_t gpio30_ctrl_set;
+		uint32_t gpio31_status_set;
+		uint32_t gpio31_ctrl_set;
+		uint32_t gpio32_status_set;
+		uint32_t gpio32_ctrl_set;
+		uint32_t gpio33_status_set;
+		uint32_t gpio33_ctrl_set;
+		uint32_t gpio34_status_set;
+		uint32_t gpio34_ctrl_set;
+		uint32_t gpio35_status_set;
+		uint32_t gpio35_ctrl_set;
+		uint32_t gpio36_status_set;
+		uint32_t gpio36_ctrl_set;
+		uint32_t gpio37_status_set;
+		uint32_t gpio37_ctrl_set;
+		uint32_t gpio38_status_set;
+		uint32_t gpio38_ctrl_set;
+		uint32_t gpio39_status_set;
+		uint32_t gpio39_ctrl_set;
+		uint32_t gpio40_status_set;
+		uint32_t gpio40_ctrl_set;
+		uint32_t gpio41_status_set;
+		uint32_t gpio41_ctrl_set;
+		uint32_t gpio42_status_set;
+		uint32_t gpio42_ctrl_set;
+		uint32_t gpio43_status_set;
+		uint32_t gpio43_ctrl_set;
+		uint32_t gpio44_status_set;
+		uint32_t gpio44_ctrl_set;
+		uint32_t gpio45_status_set;
+		uint32_t gpio45_ctrl_set;
+		uint32_t gpio46_status_set;
+		uint32_t gpio46_ctrl_set;
+		uint32_t gpio47_status_set;
+		uint32_t gpio47_ctrl_set;
 		uint32_t RSVDset_0[32];
-		uint32_t set_irqsummary_proc0_secure0;
-		uint32_t set_irqsummary_proc0_secure1;
-		uint32_t set_irqsummary_proc0_nonsecure0;
-		uint32_t set_irqsummary_proc0_nonsecure1;
-		uint32_t set_irqsummary_proc1_secure0;
-		uint32_t set_irqsummary_proc1_secure1;
-		uint32_t set_irqsummary_proc1_nonsecure0;
-		uint32_t set_irqsummary_proc1_nonsecure1;
-		uint32_t set_irqsummary_dormant_wake_secure0;
-		uint32_t set_irqsummary_dormant_wake_secure1;
-		uint32_t set_irqsummary_dormant_wake_nonsecure0;
-		uint32_t set_irqsummary_dormant_wake_nonsecure1;
-		uint32_t set_intr0;
-		uint32_t set_intr1;
-		uint32_t set_intr2;
-		uint32_t set_intr3;
-		uint32_t set_intr4;
-		uint32_t set_intr5;
-		uint32_t set_proc0_inte0;
-		uint32_t set_proc0_inte1;
-		uint32_t set_proc0_inte2;
-		uint32_t set_proc0_inte3;
-		uint32_t set_proc0_inte4;
-		uint32_t set_proc0_inte5;
-		uint32_t set_proc0_intf0;
-		uint32_t set_proc0_intf1;
-		uint32_t set_proc0_intf2;
-		uint32_t set_proc0_intf3;
-		uint32_t set_proc0_intf4;
-		uint32_t set_proc0_intf5;
-		uint32_t set_proc0_ints0;
-		uint32_t set_proc0_ints1;
-		uint32_t set_proc0_ints2;
-		uint32_t set_proc0_ints3;
-		uint32_t set_proc0_ints4;
-		uint32_t set_proc0_ints5;
-		uint32_t set_proc1_inte0;
-		uint32_t set_proc1_inte1;
-		uint32_t set_proc1_inte2;
-		uint32_t set_proc1_inte3;
-		uint32_t set_proc1_inte4;
-		uint32_t set_proc1_inte5;
-		uint32_t set_proc1_intf0;
-		uint32_t set_proc1_intf1;
-		uint32_t set_proc1_intf2;
-		uint32_t set_proc1_intf3;
-		uint32_t set_proc1_intf4;
-		uint32_t set_proc1_intf5;
-		uint32_t set_proc1_ints0;
-		uint32_t set_proc1_ints1;
-		uint32_t set_proc1_ints2;
-		uint32_t set_proc1_ints3;
-		uint32_t set_proc1_ints4;
-		uint32_t set_proc1_ints5;
-		uint32_t set_dormant_wake_inte0;
-		uint32_t set_dormant_wake_inte1;
-		uint32_t set_dormant_wake_inte2;
-		uint32_t set_dormant_wake_inte3;
-		uint32_t set_dormant_wake_inte4;
-		uint32_t set_dormant_wake_inte5;
-		uint32_t set_dormant_wake_intf0;
-		uint32_t set_dormant_wake_intf1;
-		uint32_t set_dormant_wake_intf2;
-		uint32_t set_dormant_wake_intf3;
-		uint32_t set_dormant_wake_intf4;
-		uint32_t set_dormant_wake_intf5;
-		uint32_t set_dormant_wake_ints0;
-		uint32_t set_dormant_wake_ints1;
-		uint32_t set_dormant_wake_ints2;
-		uint32_t set_dormant_wake_ints3;
-		uint32_t set_dormant_wake_ints4;
-		uint32_t set_dormant_wake_ints5;
+		uint32_t irqsummary_proc0_secure0_set;
+		uint32_t irqsummary_proc0_secure1_set;
+		uint32_t irqsummary_proc0_nonsecure0_set;
+		uint32_t irqsummary_proc0_nonsecure1_set;
+		uint32_t irqsummary_proc1_secure0_set;
+		uint32_t irqsummary_proc1_secure1_set;
+		uint32_t irqsummary_proc1_nonsecure0_set;
+		uint32_t irqsummary_proc1_nonsecure1_set;
+		uint32_t irqsummary_dormant_wake_secure0_set;
+		uint32_t irqsummary_dormant_wake_secure1_set;
+		uint32_t irqsummary_dormant_wake_nonsecure0_set;
+		uint32_t irqsummary_dormant_wake_nonsecure1_set;
+		uint32_t intr0_set;
+		uint32_t intr1_set;
+		uint32_t intr2_set;
+		uint32_t intr3_set;
+		uint32_t intr4_set;
+		uint32_t intr5_set;
+		uint32_t proc0_inte0_set;
+		uint32_t proc0_inte1_set;
+		uint32_t proc0_inte2_set;
+		uint32_t proc0_inte3_set;
+		uint32_t proc0_inte4_set;
+		uint32_t proc0_inte5_set;
+		uint32_t proc0_intf0_set;
+		uint32_t proc0_intf1_set;
+		uint32_t proc0_intf2_set;
+		uint32_t proc0_intf3_set;
+		uint32_t proc0_intf4_set;
+		uint32_t proc0_intf5_set;
+		uint32_t proc0_ints0_set;
+		uint32_t proc0_ints1_set;
+		uint32_t proc0_ints2_set;
+		uint32_t proc0_ints3_set;
+		uint32_t proc0_ints4_set;
+		uint32_t proc0_ints5_set;
+		uint32_t proc1_inte0_set;
+		uint32_t proc1_inte1_set;
+		uint32_t proc1_inte2_set;
+		uint32_t proc1_inte3_set;
+		uint32_t proc1_inte4_set;
+		uint32_t proc1_inte5_set;
+		uint32_t proc1_intf0_set;
+		uint32_t proc1_intf1_set;
+		uint32_t proc1_intf2_set;
+		uint32_t proc1_intf3_set;
+		uint32_t proc1_intf4_set;
+		uint32_t proc1_intf5_set;
+		uint32_t proc1_ints0_set;
+		uint32_t proc1_ints1_set;
+		uint32_t proc1_ints2_set;
+		uint32_t proc1_ints3_set;
+		uint32_t proc1_ints4_set;
+		uint32_t proc1_ints5_set;
+		uint32_t dormant_wake_inte0_set;
+		uint32_t dormant_wake_inte1_set;
+		uint32_t dormant_wake_inte2_set;
+		uint32_t dormant_wake_inte3_set;
+		uint32_t dormant_wake_inte4_set;
+		uint32_t dormant_wake_inte5_set;
+		uint32_t dormant_wake_intf0_set;
+		uint32_t dormant_wake_intf1_set;
+		uint32_t dormant_wake_intf2_set;
+		uint32_t dormant_wake_intf3_set;
+		uint32_t dormant_wake_intf4_set;
+		uint32_t dormant_wake_intf5_set;
+		uint32_t dormant_wake_ints0_set;
+		uint32_t dormant_wake_ints1_set;
+		uint32_t dormant_wake_ints2_set;
+		uint32_t dormant_wake_ints3_set;
+		uint32_t dormant_wake_ints4_set;
+		uint32_t dormant_wake_ints5_set;
 		uint32_t RSVDset_1[824];
-		uint32_t clr_gpio0_status;
-		uint32_t clr_gpio0_ctrl;
-		uint32_t clr_gpio1_status;
-		uint32_t clr_gpio1_ctrl;
-		uint32_t clr_gpio2_status;
-		uint32_t clr_gpio2_ctrl;
-		uint32_t clr_gpio3_status;
-		uint32_t clr_gpio3_ctrl;
-		uint32_t clr_gpio4_status;
-		uint32_t clr_gpio4_ctrl;
-		uint32_t clr_gpio5_status;
-		uint32_t clr_gpio5_ctrl;
-		uint32_t clr_gpio6_status;
-		uint32_t clr_gpio6_ctrl;
-		uint32_t clr_gpio7_status;
-		uint32_t clr_gpio7_ctrl;
-		uint32_t clr_gpio8_status;
-		uint32_t clr_gpio8_ctrl;
-		uint32_t clr_gpio9_status;
-		uint32_t clr_gpio9_ctrl;
-		uint32_t clr_gpio10_status;
-		uint32_t clr_gpio10_ctrl;
-		uint32_t clr_gpio11_status;
-		uint32_t clr_gpio11_ctrl;
-		uint32_t clr_gpio12_status;
-		uint32_t clr_gpio12_ctrl;
-		uint32_t clr_gpio13_status;
-		uint32_t clr_gpio13_ctrl;
-		uint32_t clr_gpio14_status;
-		uint32_t clr_gpio14_ctrl;
-		uint32_t clr_gpio15_status;
-		uint32_t clr_gpio15_ctrl;
-		uint32_t clr_gpio16_status;
-		uint32_t clr_gpio16_ctrl;
-		uint32_t clr_gpio17_status;
-		uint32_t clr_gpio17_ctrl;
-		uint32_t clr_gpio18_status;
-		uint32_t clr_gpio18_ctrl;
-		uint32_t clr_gpio19_status;
-		uint32_t clr_gpio19_ctrl;
-		uint32_t clr_gpio20_status;
-		uint32_t clr_gpio20_ctrl;
-		uint32_t clr_gpio21_status;
-		uint32_t clr_gpio21_ctrl;
-		uint32_t clr_gpio22_status;
-		uint32_t clr_gpio22_ctrl;
-		uint32_t clr_gpio23_status;
-		uint32_t clr_gpio23_ctrl;
-		uint32_t clr_gpio24_status;
-		uint32_t clr_gpio24_ctrl;
-		uint32_t clr_gpio25_status;
-		uint32_t clr_gpio25_ctrl;
-		uint32_t clr_gpio26_status;
-		uint32_t clr_gpio26_ctrl;
-		uint32_t clr_gpio27_status;
-		uint32_t clr_gpio27_ctrl;
-		uint32_t clr_gpio28_status;
-		uint32_t clr_gpio28_ctrl;
-		uint32_t clr_gpio29_status;
-		uint32_t clr_gpio29_ctrl;
-		uint32_t clr_gpio30_status;
-		uint32_t clr_gpio30_ctrl;
-		uint32_t clr_gpio31_status;
-		uint32_t clr_gpio31_ctrl;
-		uint32_t clr_gpio32_status;
-		uint32_t clr_gpio32_ctrl;
-		uint32_t clr_gpio33_status;
-		uint32_t clr_gpio33_ctrl;
-		uint32_t clr_gpio34_status;
-		uint32_t clr_gpio34_ctrl;
-		uint32_t clr_gpio35_status;
-		uint32_t clr_gpio35_ctrl;
-		uint32_t clr_gpio36_status;
-		uint32_t clr_gpio36_ctrl;
-		uint32_t clr_gpio37_status;
-		uint32_t clr_gpio37_ctrl;
-		uint32_t clr_gpio38_status;
-		uint32_t clr_gpio38_ctrl;
-		uint32_t clr_gpio39_status;
-		uint32_t clr_gpio39_ctrl;
-		uint32_t clr_gpio40_status;
-		uint32_t clr_gpio40_ctrl;
-		uint32_t clr_gpio41_status;
-		uint32_t clr_gpio41_ctrl;
-		uint32_t clr_gpio42_status;
-		uint32_t clr_gpio42_ctrl;
-		uint32_t clr_gpio43_status;
-		uint32_t clr_gpio43_ctrl;
-		uint32_t clr_gpio44_status;
-		uint32_t clr_gpio44_ctrl;
-		uint32_t clr_gpio45_status;
-		uint32_t clr_gpio45_ctrl;
-		uint32_t clr_gpio46_status;
-		uint32_t clr_gpio46_ctrl;
-		uint32_t clr_gpio47_status;
-		uint32_t clr_gpio47_ctrl;
+		uint32_t gpio0_status_clr;
+		uint32_t gpio0_ctrl_clr;
+		uint32_t gpio1_status_clr;
+		uint32_t gpio1_ctrl_clr;
+		uint32_t gpio2_status_clr;
+		uint32_t gpio2_ctrl_clr;
+		uint32_t gpio3_status_clr;
+		uint32_t gpio3_ctrl_clr;
+		uint32_t gpio4_status_clr;
+		uint32_t gpio4_ctrl_clr;
+		uint32_t gpio5_status_clr;
+		uint32_t gpio5_ctrl_clr;
+		uint32_t gpio6_status_clr;
+		uint32_t gpio6_ctrl_clr;
+		uint32_t gpio7_status_clr;
+		uint32_t gpio7_ctrl_clr;
+		uint32_t gpio8_status_clr;
+		uint32_t gpio8_ctrl_clr;
+		uint32_t gpio9_status_clr;
+		uint32_t gpio9_ctrl_clr;
+		uint32_t gpio10_status_clr;
+		uint32_t gpio10_ctrl_clr;
+		uint32_t gpio11_status_clr;
+		uint32_t gpio11_ctrl_clr;
+		uint32_t gpio12_status_clr;
+		uint32_t gpio12_ctrl_clr;
+		uint32_t gpio13_status_clr;
+		uint32_t gpio13_ctrl_clr;
+		uint32_t gpio14_status_clr;
+		uint32_t gpio14_ctrl_clr;
+		uint32_t gpio15_status_clr;
+		uint32_t gpio15_ctrl_clr;
+		uint32_t gpio16_status_clr;
+		uint32_t gpio16_ctrl_clr;
+		uint32_t gpio17_status_clr;
+		uint32_t gpio17_ctrl_clr;
+		uint32_t gpio18_status_clr;
+		uint32_t gpio18_ctrl_clr;
+		uint32_t gpio19_status_clr;
+		uint32_t gpio19_ctrl_clr;
+		uint32_t gpio20_status_clr;
+		uint32_t gpio20_ctrl_clr;
+		uint32_t gpio21_status_clr;
+		uint32_t gpio21_ctrl_clr;
+		uint32_t gpio22_status_clr;
+		uint32_t gpio22_ctrl_clr;
+		uint32_t gpio23_status_clr;
+		uint32_t gpio23_ctrl_clr;
+		uint32_t gpio24_status_clr;
+		uint32_t gpio24_ctrl_clr;
+		uint32_t gpio25_status_clr;
+		uint32_t gpio25_ctrl_clr;
+		uint32_t gpio26_status_clr;
+		uint32_t gpio26_ctrl_clr;
+		uint32_t gpio27_status_clr;
+		uint32_t gpio27_ctrl_clr;
+		uint32_t gpio28_status_clr;
+		uint32_t gpio28_ctrl_clr;
+		uint32_t gpio29_status_clr;
+		uint32_t gpio29_ctrl_clr;
+		uint32_t gpio30_status_clr;
+		uint32_t gpio30_ctrl_clr;
+		uint32_t gpio31_status_clr;
+		uint32_t gpio31_ctrl_clr;
+		uint32_t gpio32_status_clr;
+		uint32_t gpio32_ctrl_clr;
+		uint32_t gpio33_status_clr;
+		uint32_t gpio33_ctrl_clr;
+		uint32_t gpio34_status_clr;
+		uint32_t gpio34_ctrl_clr;
+		uint32_t gpio35_status_clr;
+		uint32_t gpio35_ctrl_clr;
+		uint32_t gpio36_status_clr;
+		uint32_t gpio36_ctrl_clr;
+		uint32_t gpio37_status_clr;
+		uint32_t gpio37_ctrl_clr;
+		uint32_t gpio38_status_clr;
+		uint32_t gpio38_ctrl_clr;
+		uint32_t gpio39_status_clr;
+		uint32_t gpio39_ctrl_clr;
+		uint32_t gpio40_status_clr;
+		uint32_t gpio40_ctrl_clr;
+		uint32_t gpio41_status_clr;
+		uint32_t gpio41_ctrl_clr;
+		uint32_t gpio42_status_clr;
+		uint32_t gpio42_ctrl_clr;
+		uint32_t gpio43_status_clr;
+		uint32_t gpio43_ctrl_clr;
+		uint32_t gpio44_status_clr;
+		uint32_t gpio44_ctrl_clr;
+		uint32_t gpio45_status_clr;
+		uint32_t gpio45_ctrl_clr;
+		uint32_t gpio46_status_clr;
+		uint32_t gpio46_ctrl_clr;
+		uint32_t gpio47_status_clr;
+		uint32_t gpio47_ctrl_clr;
 		uint32_t RSVDclr_0[32];
-		uint32_t clr_irqsummary_proc0_secure0;
-		uint32_t clr_irqsummary_proc0_secure1;
-		uint32_t clr_irqsummary_proc0_nonsecure0;
-		uint32_t clr_irqsummary_proc0_nonsecure1;
-		uint32_t clr_irqsummary_proc1_secure0;
-		uint32_t clr_irqsummary_proc1_secure1;
-		uint32_t clr_irqsummary_proc1_nonsecure0;
-		uint32_t clr_irqsummary_proc1_nonsecure1;
-		uint32_t clr_irqsummary_dormant_wake_secure0;
-		uint32_t clr_irqsummary_dormant_wake_secure1;
-		uint32_t clr_irqsummary_dormant_wake_nonsecure0;
-		uint32_t clr_irqsummary_dormant_wake_nonsecure1;
-		uint32_t clr_intr0;
-		uint32_t clr_intr1;
-		uint32_t clr_intr2;
-		uint32_t clr_intr3;
-		uint32_t clr_intr4;
-		uint32_t clr_intr5;
-		uint32_t clr_proc0_inte0;
-		uint32_t clr_proc0_inte1;
-		uint32_t clr_proc0_inte2;
-		uint32_t clr_proc0_inte3;
-		uint32_t clr_proc0_inte4;
-		uint32_t clr_proc0_inte5;
-		uint32_t clr_proc0_intf0;
-		uint32_t clr_proc0_intf1;
-		uint32_t clr_proc0_intf2;
-		uint32_t clr_proc0_intf3;
-		uint32_t clr_proc0_intf4;
-		uint32_t clr_proc0_intf5;
-		uint32_t clr_proc0_ints0;
-		uint32_t clr_proc0_ints1;
-		uint32_t clr_proc0_ints2;
-		uint32_t clr_proc0_ints3;
-		uint32_t clr_proc0_ints4;
-		uint32_t clr_proc0_ints5;
-		uint32_t clr_proc1_inte0;
-		uint32_t clr_proc1_inte1;
-		uint32_t clr_proc1_inte2;
-		uint32_t clr_proc1_inte3;
-		uint32_t clr_proc1_inte4;
-		uint32_t clr_proc1_inte5;
-		uint32_t clr_proc1_intf0;
-		uint32_t clr_proc1_intf1;
-		uint32_t clr_proc1_intf2;
-		uint32_t clr_proc1_intf3;
-		uint32_t clr_proc1_intf4;
-		uint32_t clr_proc1_intf5;
-		uint32_t clr_proc1_ints0;
-		uint32_t clr_proc1_ints1;
-		uint32_t clr_proc1_ints2;
-		uint32_t clr_proc1_ints3;
-		uint32_t clr_proc1_ints4;
-		uint32_t clr_proc1_ints5;
-		uint32_t clr_dormant_wake_inte0;
-		uint32_t clr_dormant_wake_inte1;
-		uint32_t clr_dormant_wake_inte2;
-		uint32_t clr_dormant_wake_inte3;
-		uint32_t clr_dormant_wake_inte4;
-		uint32_t clr_dormant_wake_inte5;
-		uint32_t clr_dormant_wake_intf0;
-		uint32_t clr_dormant_wake_intf1;
-		uint32_t clr_dormant_wake_intf2;
-		uint32_t clr_dormant_wake_intf3;
-		uint32_t clr_dormant_wake_intf4;
-		uint32_t clr_dormant_wake_intf5;
-		uint32_t clr_dormant_wake_ints0;
-		uint32_t clr_dormant_wake_ints1;
-		uint32_t clr_dormant_wake_ints2;
-		uint32_t clr_dormant_wake_ints3;
-		uint32_t clr_dormant_wake_ints4;
-		uint32_t clr_dormant_wake_ints5;
+		uint32_t irqsummary_proc0_secure0_clr;
+		uint32_t irqsummary_proc0_secure1_clr;
+		uint32_t irqsummary_proc0_nonsecure0_clr;
+		uint32_t irqsummary_proc0_nonsecure1_clr;
+		uint32_t irqsummary_proc1_secure0_clr;
+		uint32_t irqsummary_proc1_secure1_clr;
+		uint32_t irqsummary_proc1_nonsecure0_clr;
+		uint32_t irqsummary_proc1_nonsecure1_clr;
+		uint32_t irqsummary_dormant_wake_secure0_clr;
+		uint32_t irqsummary_dormant_wake_secure1_clr;
+		uint32_t irqsummary_dormant_wake_nonsecure0_clr;
+		uint32_t irqsummary_dormant_wake_nonsecure1_clr;
+		uint32_t intr0_clr;
+		uint32_t intr1_clr;
+		uint32_t intr2_clr;
+		uint32_t intr3_clr;
+		uint32_t intr4_clr;
+		uint32_t intr5_clr;
+		uint32_t proc0_inte0_clr;
+		uint32_t proc0_inte1_clr;
+		uint32_t proc0_inte2_clr;
+		uint32_t proc0_inte3_clr;
+		uint32_t proc0_inte4_clr;
+		uint32_t proc0_inte5_clr;
+		uint32_t proc0_intf0_clr;
+		uint32_t proc0_intf1_clr;
+		uint32_t proc0_intf2_clr;
+		uint32_t proc0_intf3_clr;
+		uint32_t proc0_intf4_clr;
+		uint32_t proc0_intf5_clr;
+		uint32_t proc0_ints0_clr;
+		uint32_t proc0_ints1_clr;
+		uint32_t proc0_ints2_clr;
+		uint32_t proc0_ints3_clr;
+		uint32_t proc0_ints4_clr;
+		uint32_t proc0_ints5_clr;
+		uint32_t proc1_inte0_clr;
+		uint32_t proc1_inte1_clr;
+		uint32_t proc1_inte2_clr;
+		uint32_t proc1_inte3_clr;
+		uint32_t proc1_inte4_clr;
+		uint32_t proc1_inte5_clr;
+		uint32_t proc1_intf0_clr;
+		uint32_t proc1_intf1_clr;
+		uint32_t proc1_intf2_clr;
+		uint32_t proc1_intf3_clr;
+		uint32_t proc1_intf4_clr;
+		uint32_t proc1_intf5_clr;
+		uint32_t proc1_ints0_clr;
+		uint32_t proc1_ints1_clr;
+		uint32_t proc1_ints2_clr;
+		uint32_t proc1_ints3_clr;
+		uint32_t proc1_ints4_clr;
+		uint32_t proc1_ints5_clr;
+		uint32_t dormant_wake_inte0_clr;
+		uint32_t dormant_wake_inte1_clr;
+		uint32_t dormant_wake_inte2_clr;
+		uint32_t dormant_wake_inte3_clr;
+		uint32_t dormant_wake_inte4_clr;
+		uint32_t dormant_wake_inte5_clr;
+		uint32_t dormant_wake_intf0_clr;
+		uint32_t dormant_wake_intf1_clr;
+		uint32_t dormant_wake_intf2_clr;
+		uint32_t dormant_wake_intf3_clr;
+		uint32_t dormant_wake_intf4_clr;
+		uint32_t dormant_wake_intf5_clr;
+		uint32_t dormant_wake_ints0_clr;
+		uint32_t dormant_wake_ints1_clr;
+		uint32_t dormant_wake_ints2_clr;
+		uint32_t dormant_wake_ints3_clr;
+		uint32_t dormant_wake_ints4_clr;
+		uint32_t dormant_wake_ints5_clr;
 		uint32_t RSVDclr_1[824];
 } IO_BANK0_REG_BLOCKS;
 
@@ -889,510 +889,510 @@ typedef struct{
 #define IO_BANK0_DORMANT_WAKE_INTS3 (*(volatile uint32_t *)0x40028314)
 #define IO_BANK0_DORMANT_WAKE_INTS4 (*(volatile uint32_t *)0x40028318)
 #define IO_BANK0_DORMANT_WAKE_INTS5 (*(volatile uint32_t *)0x4002831c)
-#define IO_BANK0_XOR_GPIO0_STATUS (*(volatile uint32_t *)0x40029000)
-#define IO_BANK0_XOR_GPIO0_CTRL (*(volatile uint32_t *)0x40029004)
-#define IO_BANK0_XOR_GPIO1_STATUS (*(volatile uint32_t *)0x40029008)
-#define IO_BANK0_XOR_GPIO1_CTRL (*(volatile uint32_t *)0x4002900c)
-#define IO_BANK0_XOR_GPIO2_STATUS (*(volatile uint32_t *)0x40029010)
-#define IO_BANK0_XOR_GPIO2_CTRL (*(volatile uint32_t *)0x40029014)
-#define IO_BANK0_XOR_GPIO3_STATUS (*(volatile uint32_t *)0x40029018)
-#define IO_BANK0_XOR_GPIO3_CTRL (*(volatile uint32_t *)0x4002901c)
-#define IO_BANK0_XOR_GPIO4_STATUS (*(volatile uint32_t *)0x40029020)
-#define IO_BANK0_XOR_GPIO4_CTRL (*(volatile uint32_t *)0x40029024)
-#define IO_BANK0_XOR_GPIO5_STATUS (*(volatile uint32_t *)0x40029028)
-#define IO_BANK0_XOR_GPIO5_CTRL (*(volatile uint32_t *)0x4002902c)
-#define IO_BANK0_XOR_GPIO6_STATUS (*(volatile uint32_t *)0x40029030)
-#define IO_BANK0_XOR_GPIO6_CTRL (*(volatile uint32_t *)0x40029034)
-#define IO_BANK0_XOR_GPIO7_STATUS (*(volatile uint32_t *)0x40029038)
-#define IO_BANK0_XOR_GPIO7_CTRL (*(volatile uint32_t *)0x4002903c)
-#define IO_BANK0_XOR_GPIO8_STATUS (*(volatile uint32_t *)0x40029040)
-#define IO_BANK0_XOR_GPIO8_CTRL (*(volatile uint32_t *)0x40029044)
-#define IO_BANK0_XOR_GPIO9_STATUS (*(volatile uint32_t *)0x40029048)
-#define IO_BANK0_XOR_GPIO9_CTRL (*(volatile uint32_t *)0x4002904c)
-#define IO_BANK0_XOR_GPIO10_STATUS (*(volatile uint32_t *)0x40029050)
-#define IO_BANK0_XOR_GPIO10_CTRL (*(volatile uint32_t *)0x40029054)
-#define IO_BANK0_XOR_GPIO11_STATUS (*(volatile uint32_t *)0x40029058)
-#define IO_BANK0_XOR_GPIO11_CTRL (*(volatile uint32_t *)0x4002905c)
-#define IO_BANK0_XOR_GPIO12_STATUS (*(volatile uint32_t *)0x40029060)
-#define IO_BANK0_XOR_GPIO12_CTRL (*(volatile uint32_t *)0x40029064)
-#define IO_BANK0_XOR_GPIO13_STATUS (*(volatile uint32_t *)0x40029068)
-#define IO_BANK0_XOR_GPIO13_CTRL (*(volatile uint32_t *)0x4002906c)
-#define IO_BANK0_XOR_GPIO14_STATUS (*(volatile uint32_t *)0x40029070)
-#define IO_BANK0_XOR_GPIO14_CTRL (*(volatile uint32_t *)0x40029074)
-#define IO_BANK0_XOR_GPIO15_STATUS (*(volatile uint32_t *)0x40029078)
-#define IO_BANK0_XOR_GPIO15_CTRL (*(volatile uint32_t *)0x4002907c)
-#define IO_BANK0_XOR_GPIO16_STATUS (*(volatile uint32_t *)0x40029080)
-#define IO_BANK0_XOR_GPIO16_CTRL (*(volatile uint32_t *)0x40029084)
-#define IO_BANK0_XOR_GPIO17_STATUS (*(volatile uint32_t *)0x40029088)
-#define IO_BANK0_XOR_GPIO17_CTRL (*(volatile uint32_t *)0x4002908c)
-#define IO_BANK0_XOR_GPIO18_STATUS (*(volatile uint32_t *)0x40029090)
-#define IO_BANK0_XOR_GPIO18_CTRL (*(volatile uint32_t *)0x40029094)
-#define IO_BANK0_XOR_GPIO19_STATUS (*(volatile uint32_t *)0x40029098)
-#define IO_BANK0_XOR_GPIO19_CTRL (*(volatile uint32_t *)0x4002909c)
-#define IO_BANK0_XOR_GPIO20_STATUS (*(volatile uint32_t *)0x400290a0)
-#define IO_BANK0_XOR_GPIO20_CTRL (*(volatile uint32_t *)0x400290a4)
-#define IO_BANK0_XOR_GPIO21_STATUS (*(volatile uint32_t *)0x400290a8)
-#define IO_BANK0_XOR_GPIO21_CTRL (*(volatile uint32_t *)0x400290ac)
-#define IO_BANK0_XOR_GPIO22_STATUS (*(volatile uint32_t *)0x400290b0)
-#define IO_BANK0_XOR_GPIO22_CTRL (*(volatile uint32_t *)0x400290b4)
-#define IO_BANK0_XOR_GPIO23_STATUS (*(volatile uint32_t *)0x400290b8)
-#define IO_BANK0_XOR_GPIO23_CTRL (*(volatile uint32_t *)0x400290bc)
-#define IO_BANK0_XOR_GPIO24_STATUS (*(volatile uint32_t *)0x400290c0)
-#define IO_BANK0_XOR_GPIO24_CTRL (*(volatile uint32_t *)0x400290c4)
-#define IO_BANK0_XOR_GPIO25_STATUS (*(volatile uint32_t *)0x400290c8)
-#define IO_BANK0_XOR_GPIO25_CTRL (*(volatile uint32_t *)0x400290cc)
-#define IO_BANK0_XOR_GPIO26_STATUS (*(volatile uint32_t *)0x400290d0)
-#define IO_BANK0_XOR_GPIO26_CTRL (*(volatile uint32_t *)0x400290d4)
-#define IO_BANK0_XOR_GPIO27_STATUS (*(volatile uint32_t *)0x400290d8)
-#define IO_BANK0_XOR_GPIO27_CTRL (*(volatile uint32_t *)0x400290dc)
-#define IO_BANK0_XOR_GPIO28_STATUS (*(volatile uint32_t *)0x400290e0)
-#define IO_BANK0_XOR_GPIO28_CTRL (*(volatile uint32_t *)0x400290e4)
-#define IO_BANK0_XOR_GPIO29_STATUS (*(volatile uint32_t *)0x400290e8)
-#define IO_BANK0_XOR_GPIO29_CTRL (*(volatile uint32_t *)0x400290ec)
-#define IO_BANK0_XOR_GPIO30_STATUS (*(volatile uint32_t *)0x400290f0)
-#define IO_BANK0_XOR_GPIO30_CTRL (*(volatile uint32_t *)0x400290f4)
-#define IO_BANK0_XOR_GPIO31_STATUS (*(volatile uint32_t *)0x400290f8)
-#define IO_BANK0_XOR_GPIO31_CTRL (*(volatile uint32_t *)0x400290fc)
-#define IO_BANK0_XOR_GPIO32_STATUS (*(volatile uint32_t *)0x40029100)
-#define IO_BANK0_XOR_GPIO32_CTRL (*(volatile uint32_t *)0x40029104)
-#define IO_BANK0_XOR_GPIO33_STATUS (*(volatile uint32_t *)0x40029108)
-#define IO_BANK0_XOR_GPIO33_CTRL (*(volatile uint32_t *)0x4002910c)
-#define IO_BANK0_XOR_GPIO34_STATUS (*(volatile uint32_t *)0x40029110)
-#define IO_BANK0_XOR_GPIO34_CTRL (*(volatile uint32_t *)0x40029114)
-#define IO_BANK0_XOR_GPIO35_STATUS (*(volatile uint32_t *)0x40029118)
-#define IO_BANK0_XOR_GPIO35_CTRL (*(volatile uint32_t *)0x4002911c)
-#define IO_BANK0_XOR_GPIO36_STATUS (*(volatile uint32_t *)0x40029120)
-#define IO_BANK0_XOR_GPIO36_CTRL (*(volatile uint32_t *)0x40029124)
-#define IO_BANK0_XOR_GPIO37_STATUS (*(volatile uint32_t *)0x40029128)
-#define IO_BANK0_XOR_GPIO37_CTRL (*(volatile uint32_t *)0x4002912c)
-#define IO_BANK0_XOR_GPIO38_STATUS (*(volatile uint32_t *)0x40029130)
-#define IO_BANK0_XOR_GPIO38_CTRL (*(volatile uint32_t *)0x40029134)
-#define IO_BANK0_XOR_GPIO39_STATUS (*(volatile uint32_t *)0x40029138)
-#define IO_BANK0_XOR_GPIO39_CTRL (*(volatile uint32_t *)0x4002913c)
-#define IO_BANK0_XOR_GPIO40_STATUS (*(volatile uint32_t *)0x40029140)
-#define IO_BANK0_XOR_GPIO40_CTRL (*(volatile uint32_t *)0x40029144)
-#define IO_BANK0_XOR_GPIO41_STATUS (*(volatile uint32_t *)0x40029148)
-#define IO_BANK0_XOR_GPIO41_CTRL (*(volatile uint32_t *)0x4002914c)
-#define IO_BANK0_XOR_GPIO42_STATUS (*(volatile uint32_t *)0x40029150)
-#define IO_BANK0_XOR_GPIO42_CTRL (*(volatile uint32_t *)0x40029154)
-#define IO_BANK0_XOR_GPIO43_STATUS (*(volatile uint32_t *)0x40029158)
-#define IO_BANK0_XOR_GPIO43_CTRL (*(volatile uint32_t *)0x4002915c)
-#define IO_BANK0_XOR_GPIO44_STATUS (*(volatile uint32_t *)0x40029160)
-#define IO_BANK0_XOR_GPIO44_CTRL (*(volatile uint32_t *)0x40029164)
-#define IO_BANK0_XOR_GPIO45_STATUS (*(volatile uint32_t *)0x40029168)
-#define IO_BANK0_XOR_GPIO45_CTRL (*(volatile uint32_t *)0x4002916c)
-#define IO_BANK0_XOR_GPIO46_STATUS (*(volatile uint32_t *)0x40029170)
-#define IO_BANK0_XOR_GPIO46_CTRL (*(volatile uint32_t *)0x40029174)
-#define IO_BANK0_XOR_GPIO47_STATUS (*(volatile uint32_t *)0x40029178)
-#define IO_BANK0_XOR_GPIO47_CTRL (*(volatile uint32_t *)0x4002917c)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC0_SECURE0 (*(volatile uint32_t *)0x40029200)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC0_SECURE1 (*(volatile uint32_t *)0x40029204)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC0_NONSECURE0 (*(volatile uint32_t *)0x40029208)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC0_NONSECURE1 (*(volatile uint32_t *)0x4002920c)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC1_SECURE0 (*(volatile uint32_t *)0x40029210)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC1_SECURE1 (*(volatile uint32_t *)0x40029214)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC1_NONSECURE0 (*(volatile uint32_t *)0x40029218)
-#define IO_BANK0_XOR_IRQSUMMARY_PROC1_NONSECURE1 (*(volatile uint32_t *)0x4002921c)
-#define IO_BANK0_XOR_IRQSUMMARY_DORMANT_WAKE_SECURE0 (*(volatile uint32_t *)0x40029220)
-#define IO_BANK0_XOR_IRQSUMMARY_DORMANT_WAKE_SECURE1 (*(volatile uint32_t *)0x40029224)
-#define IO_BANK0_XOR_IRQSUMMARY_DORMANT_WAKE_NONSECURE0 (*(volatile uint32_t *)0x40029228)
-#define IO_BANK0_XOR_IRQSUMMARY_DORMANT_WAKE_NONSECURE1 (*(volatile uint32_t *)0x4002922c)
-#define IO_BANK0_XOR_INTR0 (*(volatile uint32_t *)0x40029230)
-#define IO_BANK0_XOR_INTR1 (*(volatile uint32_t *)0x40029234)
-#define IO_BANK0_XOR_INTR2 (*(volatile uint32_t *)0x40029238)
-#define IO_BANK0_XOR_INTR3 (*(volatile uint32_t *)0x4002923c)
-#define IO_BANK0_XOR_INTR4 (*(volatile uint32_t *)0x40029240)
-#define IO_BANK0_XOR_INTR5 (*(volatile uint32_t *)0x40029244)
-#define IO_BANK0_XOR_PROC0_INTE0 (*(volatile uint32_t *)0x40029248)
-#define IO_BANK0_XOR_PROC0_INTE1 (*(volatile uint32_t *)0x4002924c)
-#define IO_BANK0_XOR_PROC0_INTE2 (*(volatile uint32_t *)0x40029250)
-#define IO_BANK0_XOR_PROC0_INTE3 (*(volatile uint32_t *)0x40029254)
-#define IO_BANK0_XOR_PROC0_INTE4 (*(volatile uint32_t *)0x40029258)
-#define IO_BANK0_XOR_PROC0_INTE5 (*(volatile uint32_t *)0x4002925c)
-#define IO_BANK0_XOR_PROC0_INTF0 (*(volatile uint32_t *)0x40029260)
-#define IO_BANK0_XOR_PROC0_INTF1 (*(volatile uint32_t *)0x40029264)
-#define IO_BANK0_XOR_PROC0_INTF2 (*(volatile uint32_t *)0x40029268)
-#define IO_BANK0_XOR_PROC0_INTF3 (*(volatile uint32_t *)0x4002926c)
-#define IO_BANK0_XOR_PROC0_INTF4 (*(volatile uint32_t *)0x40029270)
-#define IO_BANK0_XOR_PROC0_INTF5 (*(volatile uint32_t *)0x40029274)
-#define IO_BANK0_XOR_PROC0_INTS0 (*(volatile uint32_t *)0x40029278)
-#define IO_BANK0_XOR_PROC0_INTS1 (*(volatile uint32_t *)0x4002927c)
-#define IO_BANK0_XOR_PROC0_INTS2 (*(volatile uint32_t *)0x40029280)
-#define IO_BANK0_XOR_PROC0_INTS3 (*(volatile uint32_t *)0x40029284)
-#define IO_BANK0_XOR_PROC0_INTS4 (*(volatile uint32_t *)0x40029288)
-#define IO_BANK0_XOR_PROC0_INTS5 (*(volatile uint32_t *)0x4002928c)
-#define IO_BANK0_XOR_PROC1_INTE0 (*(volatile uint32_t *)0x40029290)
-#define IO_BANK0_XOR_PROC1_INTE1 (*(volatile uint32_t *)0x40029294)
-#define IO_BANK0_XOR_PROC1_INTE2 (*(volatile uint32_t *)0x40029298)
-#define IO_BANK0_XOR_PROC1_INTE3 (*(volatile uint32_t *)0x4002929c)
-#define IO_BANK0_XOR_PROC1_INTE4 (*(volatile uint32_t *)0x400292a0)
-#define IO_BANK0_XOR_PROC1_INTE5 (*(volatile uint32_t *)0x400292a4)
-#define IO_BANK0_XOR_PROC1_INTF0 (*(volatile uint32_t *)0x400292a8)
-#define IO_BANK0_XOR_PROC1_INTF1 (*(volatile uint32_t *)0x400292ac)
-#define IO_BANK0_XOR_PROC1_INTF2 (*(volatile uint32_t *)0x400292b0)
-#define IO_BANK0_XOR_PROC1_INTF3 (*(volatile uint32_t *)0x400292b4)
-#define IO_BANK0_XOR_PROC1_INTF4 (*(volatile uint32_t *)0x400292b8)
-#define IO_BANK0_XOR_PROC1_INTF5 (*(volatile uint32_t *)0x400292bc)
-#define IO_BANK0_XOR_PROC1_INTS0 (*(volatile uint32_t *)0x400292c0)
-#define IO_BANK0_XOR_PROC1_INTS1 (*(volatile uint32_t *)0x400292c4)
-#define IO_BANK0_XOR_PROC1_INTS2 (*(volatile uint32_t *)0x400292c8)
-#define IO_BANK0_XOR_PROC1_INTS3 (*(volatile uint32_t *)0x400292cc)
-#define IO_BANK0_XOR_PROC1_INTS4 (*(volatile uint32_t *)0x400292d0)
-#define IO_BANK0_XOR_PROC1_INTS5 (*(volatile uint32_t *)0x400292d4)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE0 (*(volatile uint32_t *)0x400292d8)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE1 (*(volatile uint32_t *)0x400292dc)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE2 (*(volatile uint32_t *)0x400292e0)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE3 (*(volatile uint32_t *)0x400292e4)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE4 (*(volatile uint32_t *)0x400292e8)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTE5 (*(volatile uint32_t *)0x400292ec)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF0 (*(volatile uint32_t *)0x400292f0)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF1 (*(volatile uint32_t *)0x400292f4)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF2 (*(volatile uint32_t *)0x400292f8)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF3 (*(volatile uint32_t *)0x400292fc)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF4 (*(volatile uint32_t *)0x40029300)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTF5 (*(volatile uint32_t *)0x40029304)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS0 (*(volatile uint32_t *)0x40029308)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS1 (*(volatile uint32_t *)0x4002930c)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS2 (*(volatile uint32_t *)0x40029310)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS3 (*(volatile uint32_t *)0x40029314)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS4 (*(volatile uint32_t *)0x40029318)
-#define IO_BANK0_XOR_DORMANT_WAKE_INTS5 (*(volatile uint32_t *)0x4002931c)
-#define IO_BANK0_SET_GPIO0_STATUS (*(volatile uint32_t *)0x4002a000)
-#define IO_BANK0_SET_GPIO0_CTRL (*(volatile uint32_t *)0x4002a004)
-#define IO_BANK0_SET_GPIO1_STATUS (*(volatile uint32_t *)0x4002a008)
-#define IO_BANK0_SET_GPIO1_CTRL (*(volatile uint32_t *)0x4002a00c)
-#define IO_BANK0_SET_GPIO2_STATUS (*(volatile uint32_t *)0x4002a010)
-#define IO_BANK0_SET_GPIO2_CTRL (*(volatile uint32_t *)0x4002a014)
-#define IO_BANK0_SET_GPIO3_STATUS (*(volatile uint32_t *)0x4002a018)
-#define IO_BANK0_SET_GPIO3_CTRL (*(volatile uint32_t *)0x4002a01c)
-#define IO_BANK0_SET_GPIO4_STATUS (*(volatile uint32_t *)0x4002a020)
-#define IO_BANK0_SET_GPIO4_CTRL (*(volatile uint32_t *)0x4002a024)
-#define IO_BANK0_SET_GPIO5_STATUS (*(volatile uint32_t *)0x4002a028)
-#define IO_BANK0_SET_GPIO5_CTRL (*(volatile uint32_t *)0x4002a02c)
-#define IO_BANK0_SET_GPIO6_STATUS (*(volatile uint32_t *)0x4002a030)
-#define IO_BANK0_SET_GPIO6_CTRL (*(volatile uint32_t *)0x4002a034)
-#define IO_BANK0_SET_GPIO7_STATUS (*(volatile uint32_t *)0x4002a038)
-#define IO_BANK0_SET_GPIO7_CTRL (*(volatile uint32_t *)0x4002a03c)
-#define IO_BANK0_SET_GPIO8_STATUS (*(volatile uint32_t *)0x4002a040)
-#define IO_BANK0_SET_GPIO8_CTRL (*(volatile uint32_t *)0x4002a044)
-#define IO_BANK0_SET_GPIO9_STATUS (*(volatile uint32_t *)0x4002a048)
-#define IO_BANK0_SET_GPIO9_CTRL (*(volatile uint32_t *)0x4002a04c)
-#define IO_BANK0_SET_GPIO10_STATUS (*(volatile uint32_t *)0x4002a050)
-#define IO_BANK0_SET_GPIO10_CTRL (*(volatile uint32_t *)0x4002a054)
-#define IO_BANK0_SET_GPIO11_STATUS (*(volatile uint32_t *)0x4002a058)
-#define IO_BANK0_SET_GPIO11_CTRL (*(volatile uint32_t *)0x4002a05c)
-#define IO_BANK0_SET_GPIO12_STATUS (*(volatile uint32_t *)0x4002a060)
-#define IO_BANK0_SET_GPIO12_CTRL (*(volatile uint32_t *)0x4002a064)
-#define IO_BANK0_SET_GPIO13_STATUS (*(volatile uint32_t *)0x4002a068)
-#define IO_BANK0_SET_GPIO13_CTRL (*(volatile uint32_t *)0x4002a06c)
-#define IO_BANK0_SET_GPIO14_STATUS (*(volatile uint32_t *)0x4002a070)
-#define IO_BANK0_SET_GPIO14_CTRL (*(volatile uint32_t *)0x4002a074)
-#define IO_BANK0_SET_GPIO15_STATUS (*(volatile uint32_t *)0x4002a078)
-#define IO_BANK0_SET_GPIO15_CTRL (*(volatile uint32_t *)0x4002a07c)
-#define IO_BANK0_SET_GPIO16_STATUS (*(volatile uint32_t *)0x4002a080)
-#define IO_BANK0_SET_GPIO16_CTRL (*(volatile uint32_t *)0x4002a084)
-#define IO_BANK0_SET_GPIO17_STATUS (*(volatile uint32_t *)0x4002a088)
-#define IO_BANK0_SET_GPIO17_CTRL (*(volatile uint32_t *)0x4002a08c)
-#define IO_BANK0_SET_GPIO18_STATUS (*(volatile uint32_t *)0x4002a090)
-#define IO_BANK0_SET_GPIO18_CTRL (*(volatile uint32_t *)0x4002a094)
-#define IO_BANK0_SET_GPIO19_STATUS (*(volatile uint32_t *)0x4002a098)
-#define IO_BANK0_SET_GPIO19_CTRL (*(volatile uint32_t *)0x4002a09c)
-#define IO_BANK0_SET_GPIO20_STATUS (*(volatile uint32_t *)0x4002a0a0)
-#define IO_BANK0_SET_GPIO20_CTRL (*(volatile uint32_t *)0x4002a0a4)
-#define IO_BANK0_SET_GPIO21_STATUS (*(volatile uint32_t *)0x4002a0a8)
-#define IO_BANK0_SET_GPIO21_CTRL (*(volatile uint32_t *)0x4002a0ac)
-#define IO_BANK0_SET_GPIO22_STATUS (*(volatile uint32_t *)0x4002a0b0)
-#define IO_BANK0_SET_GPIO22_CTRL (*(volatile uint32_t *)0x4002a0b4)
-#define IO_BANK0_SET_GPIO23_STATUS (*(volatile uint32_t *)0x4002a0b8)
-#define IO_BANK0_SET_GPIO23_CTRL (*(volatile uint32_t *)0x4002a0bc)
-#define IO_BANK0_SET_GPIO24_STATUS (*(volatile uint32_t *)0x4002a0c0)
-#define IO_BANK0_SET_GPIO24_CTRL (*(volatile uint32_t *)0x4002a0c4)
-#define IO_BANK0_SET_GPIO25_STATUS (*(volatile uint32_t *)0x4002a0c8)
-#define IO_BANK0_SET_GPIO25_CTRL (*(volatile uint32_t *)0x4002a0cc)
-#define IO_BANK0_SET_GPIO26_STATUS (*(volatile uint32_t *)0x4002a0d0)
-#define IO_BANK0_SET_GPIO26_CTRL (*(volatile uint32_t *)0x4002a0d4)
-#define IO_BANK0_SET_GPIO27_STATUS (*(volatile uint32_t *)0x4002a0d8)
-#define IO_BANK0_SET_GPIO27_CTRL (*(volatile uint32_t *)0x4002a0dc)
-#define IO_BANK0_SET_GPIO28_STATUS (*(volatile uint32_t *)0x4002a0e0)
-#define IO_BANK0_SET_GPIO28_CTRL (*(volatile uint32_t *)0x4002a0e4)
-#define IO_BANK0_SET_GPIO29_STATUS (*(volatile uint32_t *)0x4002a0e8)
-#define IO_BANK0_SET_GPIO29_CTRL (*(volatile uint32_t *)0x4002a0ec)
-#define IO_BANK0_SET_GPIO30_STATUS (*(volatile uint32_t *)0x4002a0f0)
-#define IO_BANK0_SET_GPIO30_CTRL (*(volatile uint32_t *)0x4002a0f4)
-#define IO_BANK0_SET_GPIO31_STATUS (*(volatile uint32_t *)0x4002a0f8)
-#define IO_BANK0_SET_GPIO31_CTRL (*(volatile uint32_t *)0x4002a0fc)
-#define IO_BANK0_SET_GPIO32_STATUS (*(volatile uint32_t *)0x4002a100)
-#define IO_BANK0_SET_GPIO32_CTRL (*(volatile uint32_t *)0x4002a104)
-#define IO_BANK0_SET_GPIO33_STATUS (*(volatile uint32_t *)0x4002a108)
-#define IO_BANK0_SET_GPIO33_CTRL (*(volatile uint32_t *)0x4002a10c)
-#define IO_BANK0_SET_GPIO34_STATUS (*(volatile uint32_t *)0x4002a110)
-#define IO_BANK0_SET_GPIO34_CTRL (*(volatile uint32_t *)0x4002a114)
-#define IO_BANK0_SET_GPIO35_STATUS (*(volatile uint32_t *)0x4002a118)
-#define IO_BANK0_SET_GPIO35_CTRL (*(volatile uint32_t *)0x4002a11c)
-#define IO_BANK0_SET_GPIO36_STATUS (*(volatile uint32_t *)0x4002a120)
-#define IO_BANK0_SET_GPIO36_CTRL (*(volatile uint32_t *)0x4002a124)
-#define IO_BANK0_SET_GPIO37_STATUS (*(volatile uint32_t *)0x4002a128)
-#define IO_BANK0_SET_GPIO37_CTRL (*(volatile uint32_t *)0x4002a12c)
-#define IO_BANK0_SET_GPIO38_STATUS (*(volatile uint32_t *)0x4002a130)
-#define IO_BANK0_SET_GPIO38_CTRL (*(volatile uint32_t *)0x4002a134)
-#define IO_BANK0_SET_GPIO39_STATUS (*(volatile uint32_t *)0x4002a138)
-#define IO_BANK0_SET_GPIO39_CTRL (*(volatile uint32_t *)0x4002a13c)
-#define IO_BANK0_SET_GPIO40_STATUS (*(volatile uint32_t *)0x4002a140)
-#define IO_BANK0_SET_GPIO40_CTRL (*(volatile uint32_t *)0x4002a144)
-#define IO_BANK0_SET_GPIO41_STATUS (*(volatile uint32_t *)0x4002a148)
-#define IO_BANK0_SET_GPIO41_CTRL (*(volatile uint32_t *)0x4002a14c)
-#define IO_BANK0_SET_GPIO42_STATUS (*(volatile uint32_t *)0x4002a150)
-#define IO_BANK0_SET_GPIO42_CTRL (*(volatile uint32_t *)0x4002a154)
-#define IO_BANK0_SET_GPIO43_STATUS (*(volatile uint32_t *)0x4002a158)
-#define IO_BANK0_SET_GPIO43_CTRL (*(volatile uint32_t *)0x4002a15c)
-#define IO_BANK0_SET_GPIO44_STATUS (*(volatile uint32_t *)0x4002a160)
-#define IO_BANK0_SET_GPIO44_CTRL (*(volatile uint32_t *)0x4002a164)
-#define IO_BANK0_SET_GPIO45_STATUS (*(volatile uint32_t *)0x4002a168)
-#define IO_BANK0_SET_GPIO45_CTRL (*(volatile uint32_t *)0x4002a16c)
-#define IO_BANK0_SET_GPIO46_STATUS (*(volatile uint32_t *)0x4002a170)
-#define IO_BANK0_SET_GPIO46_CTRL (*(volatile uint32_t *)0x4002a174)
-#define IO_BANK0_SET_GPIO47_STATUS (*(volatile uint32_t *)0x4002a178)
-#define IO_BANK0_SET_GPIO47_CTRL (*(volatile uint32_t *)0x4002a17c)
-#define IO_BANK0_SET_IRQSUMMARY_PROC0_SECURE0 (*(volatile uint32_t *)0x4002a200)
-#define IO_BANK0_SET_IRQSUMMARY_PROC0_SECURE1 (*(volatile uint32_t *)0x4002a204)
-#define IO_BANK0_SET_IRQSUMMARY_PROC0_NONSECURE0 (*(volatile uint32_t *)0x4002a208)
-#define IO_BANK0_SET_IRQSUMMARY_PROC0_NONSECURE1 (*(volatile uint32_t *)0x4002a20c)
-#define IO_BANK0_SET_IRQSUMMARY_PROC1_SECURE0 (*(volatile uint32_t *)0x4002a210)
-#define IO_BANK0_SET_IRQSUMMARY_PROC1_SECURE1 (*(volatile uint32_t *)0x4002a214)
-#define IO_BANK0_SET_IRQSUMMARY_PROC1_NONSECURE0 (*(volatile uint32_t *)0x4002a218)
-#define IO_BANK0_SET_IRQSUMMARY_PROC1_NONSECURE1 (*(volatile uint32_t *)0x4002a21c)
-#define IO_BANK0_SET_IRQSUMMARY_DORMANT_WAKE_SECURE0 (*(volatile uint32_t *)0x4002a220)
-#define IO_BANK0_SET_IRQSUMMARY_DORMANT_WAKE_SECURE1 (*(volatile uint32_t *)0x4002a224)
-#define IO_BANK0_SET_IRQSUMMARY_DORMANT_WAKE_NONSECURE0 (*(volatile uint32_t *)0x4002a228)
-#define IO_BANK0_SET_IRQSUMMARY_DORMANT_WAKE_NONSECURE1 (*(volatile uint32_t *)0x4002a22c)
-#define IO_BANK0_SET_INTR0 (*(volatile uint32_t *)0x4002a230)
-#define IO_BANK0_SET_INTR1 (*(volatile uint32_t *)0x4002a234)
-#define IO_BANK0_SET_INTR2 (*(volatile uint32_t *)0x4002a238)
-#define IO_BANK0_SET_INTR3 (*(volatile uint32_t *)0x4002a23c)
-#define IO_BANK0_SET_INTR4 (*(volatile uint32_t *)0x4002a240)
-#define IO_BANK0_SET_INTR5 (*(volatile uint32_t *)0x4002a244)
-#define IO_BANK0_SET_PROC0_INTE0 (*(volatile uint32_t *)0x4002a248)
-#define IO_BANK0_SET_PROC0_INTE1 (*(volatile uint32_t *)0x4002a24c)
-#define IO_BANK0_SET_PROC0_INTE2 (*(volatile uint32_t *)0x4002a250)
-#define IO_BANK0_SET_PROC0_INTE3 (*(volatile uint32_t *)0x4002a254)
-#define IO_BANK0_SET_PROC0_INTE4 (*(volatile uint32_t *)0x4002a258)
-#define IO_BANK0_SET_PROC0_INTE5 (*(volatile uint32_t *)0x4002a25c)
-#define IO_BANK0_SET_PROC0_INTF0 (*(volatile uint32_t *)0x4002a260)
-#define IO_BANK0_SET_PROC0_INTF1 (*(volatile uint32_t *)0x4002a264)
-#define IO_BANK0_SET_PROC0_INTF2 (*(volatile uint32_t *)0x4002a268)
-#define IO_BANK0_SET_PROC0_INTF3 (*(volatile uint32_t *)0x4002a26c)
-#define IO_BANK0_SET_PROC0_INTF4 (*(volatile uint32_t *)0x4002a270)
-#define IO_BANK0_SET_PROC0_INTF5 (*(volatile uint32_t *)0x4002a274)
-#define IO_BANK0_SET_PROC0_INTS0 (*(volatile uint32_t *)0x4002a278)
-#define IO_BANK0_SET_PROC0_INTS1 (*(volatile uint32_t *)0x4002a27c)
-#define IO_BANK0_SET_PROC0_INTS2 (*(volatile uint32_t *)0x4002a280)
-#define IO_BANK0_SET_PROC0_INTS3 (*(volatile uint32_t *)0x4002a284)
-#define IO_BANK0_SET_PROC0_INTS4 (*(volatile uint32_t *)0x4002a288)
-#define IO_BANK0_SET_PROC0_INTS5 (*(volatile uint32_t *)0x4002a28c)
-#define IO_BANK0_SET_PROC1_INTE0 (*(volatile uint32_t *)0x4002a290)
-#define IO_BANK0_SET_PROC1_INTE1 (*(volatile uint32_t *)0x4002a294)
-#define IO_BANK0_SET_PROC1_INTE2 (*(volatile uint32_t *)0x4002a298)
-#define IO_BANK0_SET_PROC1_INTE3 (*(volatile uint32_t *)0x4002a29c)
-#define IO_BANK0_SET_PROC1_INTE4 (*(volatile uint32_t *)0x4002a2a0)
-#define IO_BANK0_SET_PROC1_INTE5 (*(volatile uint32_t *)0x4002a2a4)
-#define IO_BANK0_SET_PROC1_INTF0 (*(volatile uint32_t *)0x4002a2a8)
-#define IO_BANK0_SET_PROC1_INTF1 (*(volatile uint32_t *)0x4002a2ac)
-#define IO_BANK0_SET_PROC1_INTF2 (*(volatile uint32_t *)0x4002a2b0)
-#define IO_BANK0_SET_PROC1_INTF3 (*(volatile uint32_t *)0x4002a2b4)
-#define IO_BANK0_SET_PROC1_INTF4 (*(volatile uint32_t *)0x4002a2b8)
-#define IO_BANK0_SET_PROC1_INTF5 (*(volatile uint32_t *)0x4002a2bc)
-#define IO_BANK0_SET_PROC1_INTS0 (*(volatile uint32_t *)0x4002a2c0)
-#define IO_BANK0_SET_PROC1_INTS1 (*(volatile uint32_t *)0x4002a2c4)
-#define IO_BANK0_SET_PROC1_INTS2 (*(volatile uint32_t *)0x4002a2c8)
-#define IO_BANK0_SET_PROC1_INTS3 (*(volatile uint32_t *)0x4002a2cc)
-#define IO_BANK0_SET_PROC1_INTS4 (*(volatile uint32_t *)0x4002a2d0)
-#define IO_BANK0_SET_PROC1_INTS5 (*(volatile uint32_t *)0x4002a2d4)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE0 (*(volatile uint32_t *)0x4002a2d8)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE1 (*(volatile uint32_t *)0x4002a2dc)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE2 (*(volatile uint32_t *)0x4002a2e0)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE3 (*(volatile uint32_t *)0x4002a2e4)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE4 (*(volatile uint32_t *)0x4002a2e8)
-#define IO_BANK0_SET_DORMANT_WAKE_INTE5 (*(volatile uint32_t *)0x4002a2ec)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF0 (*(volatile uint32_t *)0x4002a2f0)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF1 (*(volatile uint32_t *)0x4002a2f4)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF2 (*(volatile uint32_t *)0x4002a2f8)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF3 (*(volatile uint32_t *)0x4002a2fc)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF4 (*(volatile uint32_t *)0x4002a300)
-#define IO_BANK0_SET_DORMANT_WAKE_INTF5 (*(volatile uint32_t *)0x4002a304)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS0 (*(volatile uint32_t *)0x4002a308)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS1 (*(volatile uint32_t *)0x4002a30c)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS2 (*(volatile uint32_t *)0x4002a310)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS3 (*(volatile uint32_t *)0x4002a314)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS4 (*(volatile uint32_t *)0x4002a318)
-#define IO_BANK0_SET_DORMANT_WAKE_INTS5 (*(volatile uint32_t *)0x4002a31c)
-#define IO_BANK0_CLR_GPIO0_STATUS (*(volatile uint32_t *)0x4002b000)
-#define IO_BANK0_CLR_GPIO0_CTRL (*(volatile uint32_t *)0x4002b004)
-#define IO_BANK0_CLR_GPIO1_STATUS (*(volatile uint32_t *)0x4002b008)
-#define IO_BANK0_CLR_GPIO1_CTRL (*(volatile uint32_t *)0x4002b00c)
-#define IO_BANK0_CLR_GPIO2_STATUS (*(volatile uint32_t *)0x4002b010)
-#define IO_BANK0_CLR_GPIO2_CTRL (*(volatile uint32_t *)0x4002b014)
-#define IO_BANK0_CLR_GPIO3_STATUS (*(volatile uint32_t *)0x4002b018)
-#define IO_BANK0_CLR_GPIO3_CTRL (*(volatile uint32_t *)0x4002b01c)
-#define IO_BANK0_CLR_GPIO4_STATUS (*(volatile uint32_t *)0x4002b020)
-#define IO_BANK0_CLR_GPIO4_CTRL (*(volatile uint32_t *)0x4002b024)
-#define IO_BANK0_CLR_GPIO5_STATUS (*(volatile uint32_t *)0x4002b028)
-#define IO_BANK0_CLR_GPIO5_CTRL (*(volatile uint32_t *)0x4002b02c)
-#define IO_BANK0_CLR_GPIO6_STATUS (*(volatile uint32_t *)0x4002b030)
-#define IO_BANK0_CLR_GPIO6_CTRL (*(volatile uint32_t *)0x4002b034)
-#define IO_BANK0_CLR_GPIO7_STATUS (*(volatile uint32_t *)0x4002b038)
-#define IO_BANK0_CLR_GPIO7_CTRL (*(volatile uint32_t *)0x4002b03c)
-#define IO_BANK0_CLR_GPIO8_STATUS (*(volatile uint32_t *)0x4002b040)
-#define IO_BANK0_CLR_GPIO8_CTRL (*(volatile uint32_t *)0x4002b044)
-#define IO_BANK0_CLR_GPIO9_STATUS (*(volatile uint32_t *)0x4002b048)
-#define IO_BANK0_CLR_GPIO9_CTRL (*(volatile uint32_t *)0x4002b04c)
-#define IO_BANK0_CLR_GPIO10_STATUS (*(volatile uint32_t *)0x4002b050)
-#define IO_BANK0_CLR_GPIO10_CTRL (*(volatile uint32_t *)0x4002b054)
-#define IO_BANK0_CLR_GPIO11_STATUS (*(volatile uint32_t *)0x4002b058)
-#define IO_BANK0_CLR_GPIO11_CTRL (*(volatile uint32_t *)0x4002b05c)
-#define IO_BANK0_CLR_GPIO12_STATUS (*(volatile uint32_t *)0x4002b060)
-#define IO_BANK0_CLR_GPIO12_CTRL (*(volatile uint32_t *)0x4002b064)
-#define IO_BANK0_CLR_GPIO13_STATUS (*(volatile uint32_t *)0x4002b068)
-#define IO_BANK0_CLR_GPIO13_CTRL (*(volatile uint32_t *)0x4002b06c)
-#define IO_BANK0_CLR_GPIO14_STATUS (*(volatile uint32_t *)0x4002b070)
-#define IO_BANK0_CLR_GPIO14_CTRL (*(volatile uint32_t *)0x4002b074)
-#define IO_BANK0_CLR_GPIO15_STATUS (*(volatile uint32_t *)0x4002b078)
-#define IO_BANK0_CLR_GPIO15_CTRL (*(volatile uint32_t *)0x4002b07c)
-#define IO_BANK0_CLR_GPIO16_STATUS (*(volatile uint32_t *)0x4002b080)
-#define IO_BANK0_CLR_GPIO16_CTRL (*(volatile uint32_t *)0x4002b084)
-#define IO_BANK0_CLR_GPIO17_STATUS (*(volatile uint32_t *)0x4002b088)
-#define IO_BANK0_CLR_GPIO17_CTRL (*(volatile uint32_t *)0x4002b08c)
-#define IO_BANK0_CLR_GPIO18_STATUS (*(volatile uint32_t *)0x4002b090)
-#define IO_BANK0_CLR_GPIO18_CTRL (*(volatile uint32_t *)0x4002b094)
-#define IO_BANK0_CLR_GPIO19_STATUS (*(volatile uint32_t *)0x4002b098)
-#define IO_BANK0_CLR_GPIO19_CTRL (*(volatile uint32_t *)0x4002b09c)
-#define IO_BANK0_CLR_GPIO20_STATUS (*(volatile uint32_t *)0x4002b0a0)
-#define IO_BANK0_CLR_GPIO20_CTRL (*(volatile uint32_t *)0x4002b0a4)
-#define IO_BANK0_CLR_GPIO21_STATUS (*(volatile uint32_t *)0x4002b0a8)
-#define IO_BANK0_CLR_GPIO21_CTRL (*(volatile uint32_t *)0x4002b0ac)
-#define IO_BANK0_CLR_GPIO22_STATUS (*(volatile uint32_t *)0x4002b0b0)
-#define IO_BANK0_CLR_GPIO22_CTRL (*(volatile uint32_t *)0x4002b0b4)
-#define IO_BANK0_CLR_GPIO23_STATUS (*(volatile uint32_t *)0x4002b0b8)
-#define IO_BANK0_CLR_GPIO23_CTRL (*(volatile uint32_t *)0x4002b0bc)
-#define IO_BANK0_CLR_GPIO24_STATUS (*(volatile uint32_t *)0x4002b0c0)
-#define IO_BANK0_CLR_GPIO24_CTRL (*(volatile uint32_t *)0x4002b0c4)
-#define IO_BANK0_CLR_GPIO25_STATUS (*(volatile uint32_t *)0x4002b0c8)
-#define IO_BANK0_CLR_GPIO25_CTRL (*(volatile uint32_t *)0x4002b0cc)
-#define IO_BANK0_CLR_GPIO26_STATUS (*(volatile uint32_t *)0x4002b0d0)
-#define IO_BANK0_CLR_GPIO26_CTRL (*(volatile uint32_t *)0x4002b0d4)
-#define IO_BANK0_CLR_GPIO27_STATUS (*(volatile uint32_t *)0x4002b0d8)
-#define IO_BANK0_CLR_GPIO27_CTRL (*(volatile uint32_t *)0x4002b0dc)
-#define IO_BANK0_CLR_GPIO28_STATUS (*(volatile uint32_t *)0x4002b0e0)
-#define IO_BANK0_CLR_GPIO28_CTRL (*(volatile uint32_t *)0x4002b0e4)
-#define IO_BANK0_CLR_GPIO29_STATUS (*(volatile uint32_t *)0x4002b0e8)
-#define IO_BANK0_CLR_GPIO29_CTRL (*(volatile uint32_t *)0x4002b0ec)
-#define IO_BANK0_CLR_GPIO30_STATUS (*(volatile uint32_t *)0x4002b0f0)
-#define IO_BANK0_CLR_GPIO30_CTRL (*(volatile uint32_t *)0x4002b0f4)
-#define IO_BANK0_CLR_GPIO31_STATUS (*(volatile uint32_t *)0x4002b0f8)
-#define IO_BANK0_CLR_GPIO31_CTRL (*(volatile uint32_t *)0x4002b0fc)
-#define IO_BANK0_CLR_GPIO32_STATUS (*(volatile uint32_t *)0x4002b100)
-#define IO_BANK0_CLR_GPIO32_CTRL (*(volatile uint32_t *)0x4002b104)
-#define IO_BANK0_CLR_GPIO33_STATUS (*(volatile uint32_t *)0x4002b108)
-#define IO_BANK0_CLR_GPIO33_CTRL (*(volatile uint32_t *)0x4002b10c)
-#define IO_BANK0_CLR_GPIO34_STATUS (*(volatile uint32_t *)0x4002b110)
-#define IO_BANK0_CLR_GPIO34_CTRL (*(volatile uint32_t *)0x4002b114)
-#define IO_BANK0_CLR_GPIO35_STATUS (*(volatile uint32_t *)0x4002b118)
-#define IO_BANK0_CLR_GPIO35_CTRL (*(volatile uint32_t *)0x4002b11c)
-#define IO_BANK0_CLR_GPIO36_STATUS (*(volatile uint32_t *)0x4002b120)
-#define IO_BANK0_CLR_GPIO36_CTRL (*(volatile uint32_t *)0x4002b124)
-#define IO_BANK0_CLR_GPIO37_STATUS (*(volatile uint32_t *)0x4002b128)
-#define IO_BANK0_CLR_GPIO37_CTRL (*(volatile uint32_t *)0x4002b12c)
-#define IO_BANK0_CLR_GPIO38_STATUS (*(volatile uint32_t *)0x4002b130)
-#define IO_BANK0_CLR_GPIO38_CTRL (*(volatile uint32_t *)0x4002b134)
-#define IO_BANK0_CLR_GPIO39_STATUS (*(volatile uint32_t *)0x4002b138)
-#define IO_BANK0_CLR_GPIO39_CTRL (*(volatile uint32_t *)0x4002b13c)
-#define IO_BANK0_CLR_GPIO40_STATUS (*(volatile uint32_t *)0x4002b140)
-#define IO_BANK0_CLR_GPIO40_CTRL (*(volatile uint32_t *)0x4002b144)
-#define IO_BANK0_CLR_GPIO41_STATUS (*(volatile uint32_t *)0x4002b148)
-#define IO_BANK0_CLR_GPIO41_CTRL (*(volatile uint32_t *)0x4002b14c)
-#define IO_BANK0_CLR_GPIO42_STATUS (*(volatile uint32_t *)0x4002b150)
-#define IO_BANK0_CLR_GPIO42_CTRL (*(volatile uint32_t *)0x4002b154)
-#define IO_BANK0_CLR_GPIO43_STATUS (*(volatile uint32_t *)0x4002b158)
-#define IO_BANK0_CLR_GPIO43_CTRL (*(volatile uint32_t *)0x4002b15c)
-#define IO_BANK0_CLR_GPIO44_STATUS (*(volatile uint32_t *)0x4002b160)
-#define IO_BANK0_CLR_GPIO44_CTRL (*(volatile uint32_t *)0x4002b164)
-#define IO_BANK0_CLR_GPIO45_STATUS (*(volatile uint32_t *)0x4002b168)
-#define IO_BANK0_CLR_GPIO45_CTRL (*(volatile uint32_t *)0x4002b16c)
-#define IO_BANK0_CLR_GPIO46_STATUS (*(volatile uint32_t *)0x4002b170)
-#define IO_BANK0_CLR_GPIO46_CTRL (*(volatile uint32_t *)0x4002b174)
-#define IO_BANK0_CLR_GPIO47_STATUS (*(volatile uint32_t *)0x4002b178)
-#define IO_BANK0_CLR_GPIO47_CTRL (*(volatile uint32_t *)0x4002b17c)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC0_SECURE0 (*(volatile uint32_t *)0x4002b200)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC0_SECURE1 (*(volatile uint32_t *)0x4002b204)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC0_NONSECURE0 (*(volatile uint32_t *)0x4002b208)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC0_NONSECURE1 (*(volatile uint32_t *)0x4002b20c)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC1_SECURE0 (*(volatile uint32_t *)0x4002b210)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC1_SECURE1 (*(volatile uint32_t *)0x4002b214)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC1_NONSECURE0 (*(volatile uint32_t *)0x4002b218)
-#define IO_BANK0_CLR_IRQSUMMARY_PROC1_NONSECURE1 (*(volatile uint32_t *)0x4002b21c)
-#define IO_BANK0_CLR_IRQSUMMARY_DORMANT_WAKE_SECURE0 (*(volatile uint32_t *)0x4002b220)
-#define IO_BANK0_CLR_IRQSUMMARY_DORMANT_WAKE_SECURE1 (*(volatile uint32_t *)0x4002b224)
-#define IO_BANK0_CLR_IRQSUMMARY_DORMANT_WAKE_NONSECURE0 (*(volatile uint32_t *)0x4002b228)
-#define IO_BANK0_CLR_IRQSUMMARY_DORMANT_WAKE_NONSECURE1 (*(volatile uint32_t *)0x4002b22c)
-#define IO_BANK0_CLR_INTR0 (*(volatile uint32_t *)0x4002b230)
-#define IO_BANK0_CLR_INTR1 (*(volatile uint32_t *)0x4002b234)
-#define IO_BANK0_CLR_INTR2 (*(volatile uint32_t *)0x4002b238)
-#define IO_BANK0_CLR_INTR3 (*(volatile uint32_t *)0x4002b23c)
-#define IO_BANK0_CLR_INTR4 (*(volatile uint32_t *)0x4002b240)
-#define IO_BANK0_CLR_INTR5 (*(volatile uint32_t *)0x4002b244)
-#define IO_BANK0_CLR_PROC0_INTE0 (*(volatile uint32_t *)0x4002b248)
-#define IO_BANK0_CLR_PROC0_INTE1 (*(volatile uint32_t *)0x4002b24c)
-#define IO_BANK0_CLR_PROC0_INTE2 (*(volatile uint32_t *)0x4002b250)
-#define IO_BANK0_CLR_PROC0_INTE3 (*(volatile uint32_t *)0x4002b254)
-#define IO_BANK0_CLR_PROC0_INTE4 (*(volatile uint32_t *)0x4002b258)
-#define IO_BANK0_CLR_PROC0_INTE5 (*(volatile uint32_t *)0x4002b25c)
-#define IO_BANK0_CLR_PROC0_INTF0 (*(volatile uint32_t *)0x4002b260)
-#define IO_BANK0_CLR_PROC0_INTF1 (*(volatile uint32_t *)0x4002b264)
-#define IO_BANK0_CLR_PROC0_INTF2 (*(volatile uint32_t *)0x4002b268)
-#define IO_BANK0_CLR_PROC0_INTF3 (*(volatile uint32_t *)0x4002b26c)
-#define IO_BANK0_CLR_PROC0_INTF4 (*(volatile uint32_t *)0x4002b270)
-#define IO_BANK0_CLR_PROC0_INTF5 (*(volatile uint32_t *)0x4002b274)
-#define IO_BANK0_CLR_PROC0_INTS0 (*(volatile uint32_t *)0x4002b278)
-#define IO_BANK0_CLR_PROC0_INTS1 (*(volatile uint32_t *)0x4002b27c)
-#define IO_BANK0_CLR_PROC0_INTS2 (*(volatile uint32_t *)0x4002b280)
-#define IO_BANK0_CLR_PROC0_INTS3 (*(volatile uint32_t *)0x4002b284)
-#define IO_BANK0_CLR_PROC0_INTS4 (*(volatile uint32_t *)0x4002b288)
-#define IO_BANK0_CLR_PROC0_INTS5 (*(volatile uint32_t *)0x4002b28c)
-#define IO_BANK0_CLR_PROC1_INTE0 (*(volatile uint32_t *)0x4002b290)
-#define IO_BANK0_CLR_PROC1_INTE1 (*(volatile uint32_t *)0x4002b294)
-#define IO_BANK0_CLR_PROC1_INTE2 (*(volatile uint32_t *)0x4002b298)
-#define IO_BANK0_CLR_PROC1_INTE3 (*(volatile uint32_t *)0x4002b29c)
-#define IO_BANK0_CLR_PROC1_INTE4 (*(volatile uint32_t *)0x4002b2a0)
-#define IO_BANK0_CLR_PROC1_INTE5 (*(volatile uint32_t *)0x4002b2a4)
-#define IO_BANK0_CLR_PROC1_INTF0 (*(volatile uint32_t *)0x4002b2a8)
-#define IO_BANK0_CLR_PROC1_INTF1 (*(volatile uint32_t *)0x4002b2ac)
-#define IO_BANK0_CLR_PROC1_INTF2 (*(volatile uint32_t *)0x4002b2b0)
-#define IO_BANK0_CLR_PROC1_INTF3 (*(volatile uint32_t *)0x4002b2b4)
-#define IO_BANK0_CLR_PROC1_INTF4 (*(volatile uint32_t *)0x4002b2b8)
-#define IO_BANK0_CLR_PROC1_INTF5 (*(volatile uint32_t *)0x4002b2bc)
-#define IO_BANK0_CLR_PROC1_INTS0 (*(volatile uint32_t *)0x4002b2c0)
-#define IO_BANK0_CLR_PROC1_INTS1 (*(volatile uint32_t *)0x4002b2c4)
-#define IO_BANK0_CLR_PROC1_INTS2 (*(volatile uint32_t *)0x4002b2c8)
-#define IO_BANK0_CLR_PROC1_INTS3 (*(volatile uint32_t *)0x4002b2cc)
-#define IO_BANK0_CLR_PROC1_INTS4 (*(volatile uint32_t *)0x4002b2d0)
-#define IO_BANK0_CLR_PROC1_INTS5 (*(volatile uint32_t *)0x4002b2d4)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE0 (*(volatile uint32_t *)0x4002b2d8)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE1 (*(volatile uint32_t *)0x4002b2dc)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE2 (*(volatile uint32_t *)0x4002b2e0)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE3 (*(volatile uint32_t *)0x4002b2e4)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE4 (*(volatile uint32_t *)0x4002b2e8)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTE5 (*(volatile uint32_t *)0x4002b2ec)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF0 (*(volatile uint32_t *)0x4002b2f0)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF1 (*(volatile uint32_t *)0x4002b2f4)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF2 (*(volatile uint32_t *)0x4002b2f8)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF3 (*(volatile uint32_t *)0x4002b2fc)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF4 (*(volatile uint32_t *)0x4002b300)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTF5 (*(volatile uint32_t *)0x4002b304)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS0 (*(volatile uint32_t *)0x4002b308)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS1 (*(volatile uint32_t *)0x4002b30c)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS2 (*(volatile uint32_t *)0x4002b310)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS3 (*(volatile uint32_t *)0x4002b314)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS4 (*(volatile uint32_t *)0x4002b318)
-#define IO_BANK0_CLR_DORMANT_WAKE_INTS5 (*(volatile uint32_t *)0x4002b31c)
+#define IO_BANK0_GPIO0_STATUS_XOR (*(volatile uint32_t *)0x40029000)
+#define IO_BANK0_GPIO0_CTRL_XOR (*(volatile uint32_t *)0x40029004)
+#define IO_BANK0_GPIO1_STATUS_XOR (*(volatile uint32_t *)0x40029008)
+#define IO_BANK0_GPIO1_CTRL_XOR (*(volatile uint32_t *)0x4002900c)
+#define IO_BANK0_GPIO2_STATUS_XOR (*(volatile uint32_t *)0x40029010)
+#define IO_BANK0_GPIO2_CTRL_XOR (*(volatile uint32_t *)0x40029014)
+#define IO_BANK0_GPIO3_STATUS_XOR (*(volatile uint32_t *)0x40029018)
+#define IO_BANK0_GPIO3_CTRL_XOR (*(volatile uint32_t *)0x4002901c)
+#define IO_BANK0_GPIO4_STATUS_XOR (*(volatile uint32_t *)0x40029020)
+#define IO_BANK0_GPIO4_CTRL_XOR (*(volatile uint32_t *)0x40029024)
+#define IO_BANK0_GPIO5_STATUS_XOR (*(volatile uint32_t *)0x40029028)
+#define IO_BANK0_GPIO5_CTRL_XOR (*(volatile uint32_t *)0x4002902c)
+#define IO_BANK0_GPIO6_STATUS_XOR (*(volatile uint32_t *)0x40029030)
+#define IO_BANK0_GPIO6_CTRL_XOR (*(volatile uint32_t *)0x40029034)
+#define IO_BANK0_GPIO7_STATUS_XOR (*(volatile uint32_t *)0x40029038)
+#define IO_BANK0_GPIO7_CTRL_XOR (*(volatile uint32_t *)0x4002903c)
+#define IO_BANK0_GPIO8_STATUS_XOR (*(volatile uint32_t *)0x40029040)
+#define IO_BANK0_GPIO8_CTRL_XOR (*(volatile uint32_t *)0x40029044)
+#define IO_BANK0_GPIO9_STATUS_XOR (*(volatile uint32_t *)0x40029048)
+#define IO_BANK0_GPIO9_CTRL_XOR (*(volatile uint32_t *)0x4002904c)
+#define IO_BANK0_GPIO10_STATUS_XOR (*(volatile uint32_t *)0x40029050)
+#define IO_BANK0_GPIO10_CTRL_XOR (*(volatile uint32_t *)0x40029054)
+#define IO_BANK0_GPIO11_STATUS_XOR (*(volatile uint32_t *)0x40029058)
+#define IO_BANK0_GPIO11_CTRL_XOR (*(volatile uint32_t *)0x4002905c)
+#define IO_BANK0_GPIO12_STATUS_XOR (*(volatile uint32_t *)0x40029060)
+#define IO_BANK0_GPIO12_CTRL_XOR (*(volatile uint32_t *)0x40029064)
+#define IO_BANK0_GPIO13_STATUS_XOR (*(volatile uint32_t *)0x40029068)
+#define IO_BANK0_GPIO13_CTRL_XOR (*(volatile uint32_t *)0x4002906c)
+#define IO_BANK0_GPIO14_STATUS_XOR (*(volatile uint32_t *)0x40029070)
+#define IO_BANK0_GPIO14_CTRL_XOR (*(volatile uint32_t *)0x40029074)
+#define IO_BANK0_GPIO15_STATUS_XOR (*(volatile uint32_t *)0x40029078)
+#define IO_BANK0_GPIO15_CTRL_XOR (*(volatile uint32_t *)0x4002907c)
+#define IO_BANK0_GPIO16_STATUS_XOR (*(volatile uint32_t *)0x40029080)
+#define IO_BANK0_GPIO16_CTRL_XOR (*(volatile uint32_t *)0x40029084)
+#define IO_BANK0_GPIO17_STATUS_XOR (*(volatile uint32_t *)0x40029088)
+#define IO_BANK0_GPIO17_CTRL_XOR (*(volatile uint32_t *)0x4002908c)
+#define IO_BANK0_GPIO18_STATUS_XOR (*(volatile uint32_t *)0x40029090)
+#define IO_BANK0_GPIO18_CTRL_XOR (*(volatile uint32_t *)0x40029094)
+#define IO_BANK0_GPIO19_STATUS_XOR (*(volatile uint32_t *)0x40029098)
+#define IO_BANK0_GPIO19_CTRL_XOR (*(volatile uint32_t *)0x4002909c)
+#define IO_BANK0_GPIO20_STATUS_XOR (*(volatile uint32_t *)0x400290a0)
+#define IO_BANK0_GPIO20_CTRL_XOR (*(volatile uint32_t *)0x400290a4)
+#define IO_BANK0_GPIO21_STATUS_XOR (*(volatile uint32_t *)0x400290a8)
+#define IO_BANK0_GPIO21_CTRL_XOR (*(volatile uint32_t *)0x400290ac)
+#define IO_BANK0_GPIO22_STATUS_XOR (*(volatile uint32_t *)0x400290b0)
+#define IO_BANK0_GPIO22_CTRL_XOR (*(volatile uint32_t *)0x400290b4)
+#define IO_BANK0_GPIO23_STATUS_XOR (*(volatile uint32_t *)0x400290b8)
+#define IO_BANK0_GPIO23_CTRL_XOR (*(volatile uint32_t *)0x400290bc)
+#define IO_BANK0_GPIO24_STATUS_XOR (*(volatile uint32_t *)0x400290c0)
+#define IO_BANK0_GPIO24_CTRL_XOR (*(volatile uint32_t *)0x400290c4)
+#define IO_BANK0_GPIO25_STATUS_XOR (*(volatile uint32_t *)0x400290c8)
+#define IO_BANK0_GPIO25_CTRL_XOR (*(volatile uint32_t *)0x400290cc)
+#define IO_BANK0_GPIO26_STATUS_XOR (*(volatile uint32_t *)0x400290d0)
+#define IO_BANK0_GPIO26_CTRL_XOR (*(volatile uint32_t *)0x400290d4)
+#define IO_BANK0_GPIO27_STATUS_XOR (*(volatile uint32_t *)0x400290d8)
+#define IO_BANK0_GPIO27_CTRL_XOR (*(volatile uint32_t *)0x400290dc)
+#define IO_BANK0_GPIO28_STATUS_XOR (*(volatile uint32_t *)0x400290e0)
+#define IO_BANK0_GPIO28_CTRL_XOR (*(volatile uint32_t *)0x400290e4)
+#define IO_BANK0_GPIO29_STATUS_XOR (*(volatile uint32_t *)0x400290e8)
+#define IO_BANK0_GPIO29_CTRL_XOR (*(volatile uint32_t *)0x400290ec)
+#define IO_BANK0_GPIO30_STATUS_XOR (*(volatile uint32_t *)0x400290f0)
+#define IO_BANK0_GPIO30_CTRL_XOR (*(volatile uint32_t *)0x400290f4)
+#define IO_BANK0_GPIO31_STATUS_XOR (*(volatile uint32_t *)0x400290f8)
+#define IO_BANK0_GPIO31_CTRL_XOR (*(volatile uint32_t *)0x400290fc)
+#define IO_BANK0_GPIO32_STATUS_XOR (*(volatile uint32_t *)0x40029100)
+#define IO_BANK0_GPIO32_CTRL_XOR (*(volatile uint32_t *)0x40029104)
+#define IO_BANK0_GPIO33_STATUS_XOR (*(volatile uint32_t *)0x40029108)
+#define IO_BANK0_GPIO33_CTRL_XOR (*(volatile uint32_t *)0x4002910c)
+#define IO_BANK0_GPIO34_STATUS_XOR (*(volatile uint32_t *)0x40029110)
+#define IO_BANK0_GPIO34_CTRL_XOR (*(volatile uint32_t *)0x40029114)
+#define IO_BANK0_GPIO35_STATUS_XOR (*(volatile uint32_t *)0x40029118)
+#define IO_BANK0_GPIO35_CTRL_XOR (*(volatile uint32_t *)0x4002911c)
+#define IO_BANK0_GPIO36_STATUS_XOR (*(volatile uint32_t *)0x40029120)
+#define IO_BANK0_GPIO36_CTRL_XOR (*(volatile uint32_t *)0x40029124)
+#define IO_BANK0_GPIO37_STATUS_XOR (*(volatile uint32_t *)0x40029128)
+#define IO_BANK0_GPIO37_CTRL_XOR (*(volatile uint32_t *)0x4002912c)
+#define IO_BANK0_GPIO38_STATUS_XOR (*(volatile uint32_t *)0x40029130)
+#define IO_BANK0_GPIO38_CTRL_XOR (*(volatile uint32_t *)0x40029134)
+#define IO_BANK0_GPIO39_STATUS_XOR (*(volatile uint32_t *)0x40029138)
+#define IO_BANK0_GPIO39_CTRL_XOR (*(volatile uint32_t *)0x4002913c)
+#define IO_BANK0_GPIO40_STATUS_XOR (*(volatile uint32_t *)0x40029140)
+#define IO_BANK0_GPIO40_CTRL_XOR (*(volatile uint32_t *)0x40029144)
+#define IO_BANK0_GPIO41_STATUS_XOR (*(volatile uint32_t *)0x40029148)
+#define IO_BANK0_GPIO41_CTRL_XOR (*(volatile uint32_t *)0x4002914c)
+#define IO_BANK0_GPIO42_STATUS_XOR (*(volatile uint32_t *)0x40029150)
+#define IO_BANK0_GPIO42_CTRL_XOR (*(volatile uint32_t *)0x40029154)
+#define IO_BANK0_GPIO43_STATUS_XOR (*(volatile uint32_t *)0x40029158)
+#define IO_BANK0_GPIO43_CTRL_XOR (*(volatile uint32_t *)0x4002915c)
+#define IO_BANK0_GPIO44_STATUS_XOR (*(volatile uint32_t *)0x40029160)
+#define IO_BANK0_GPIO44_CTRL_XOR (*(volatile uint32_t *)0x40029164)
+#define IO_BANK0_GPIO45_STATUS_XOR (*(volatile uint32_t *)0x40029168)
+#define IO_BANK0_GPIO45_CTRL_XOR (*(volatile uint32_t *)0x4002916c)
+#define IO_BANK0_GPIO46_STATUS_XOR (*(volatile uint32_t *)0x40029170)
+#define IO_BANK0_GPIO46_CTRL_XOR (*(volatile uint32_t *)0x40029174)
+#define IO_BANK0_GPIO47_STATUS_XOR (*(volatile uint32_t *)0x40029178)
+#define IO_BANK0_GPIO47_CTRL_XOR (*(volatile uint32_t *)0x4002917c)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE0_XOR (*(volatile uint32_t *)0x40029200)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE1_XOR (*(volatile uint32_t *)0x40029204)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE0_XOR (*(volatile uint32_t *)0x40029208)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE1_XOR (*(volatile uint32_t *)0x4002920c)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE0_XOR (*(volatile uint32_t *)0x40029210)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE1_XOR (*(volatile uint32_t *)0x40029214)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE0_XOR (*(volatile uint32_t *)0x40029218)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE1_XOR (*(volatile uint32_t *)0x4002921c)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE0_XOR (*(volatile uint32_t *)0x40029220)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE1_XOR (*(volatile uint32_t *)0x40029224)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE0_XOR (*(volatile uint32_t *)0x40029228)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE1_XOR (*(volatile uint32_t *)0x4002922c)
+#define IO_BANK0_INTR0_XOR (*(volatile uint32_t *)0x40029230)
+#define IO_BANK0_INTR1_XOR (*(volatile uint32_t *)0x40029234)
+#define IO_BANK0_INTR2_XOR (*(volatile uint32_t *)0x40029238)
+#define IO_BANK0_INTR3_XOR (*(volatile uint32_t *)0x4002923c)
+#define IO_BANK0_INTR4_XOR (*(volatile uint32_t *)0x40029240)
+#define IO_BANK0_INTR5_XOR (*(volatile uint32_t *)0x40029244)
+#define IO_BANK0_PROC0_INTE0_XOR (*(volatile uint32_t *)0x40029248)
+#define IO_BANK0_PROC0_INTE1_XOR (*(volatile uint32_t *)0x4002924c)
+#define IO_BANK0_PROC0_INTE2_XOR (*(volatile uint32_t *)0x40029250)
+#define IO_BANK0_PROC0_INTE3_XOR (*(volatile uint32_t *)0x40029254)
+#define IO_BANK0_PROC0_INTE4_XOR (*(volatile uint32_t *)0x40029258)
+#define IO_BANK0_PROC0_INTE5_XOR (*(volatile uint32_t *)0x4002925c)
+#define IO_BANK0_PROC0_INTF0_XOR (*(volatile uint32_t *)0x40029260)
+#define IO_BANK0_PROC0_INTF1_XOR (*(volatile uint32_t *)0x40029264)
+#define IO_BANK0_PROC0_INTF2_XOR (*(volatile uint32_t *)0x40029268)
+#define IO_BANK0_PROC0_INTF3_XOR (*(volatile uint32_t *)0x4002926c)
+#define IO_BANK0_PROC0_INTF4_XOR (*(volatile uint32_t *)0x40029270)
+#define IO_BANK0_PROC0_INTF5_XOR (*(volatile uint32_t *)0x40029274)
+#define IO_BANK0_PROC0_INTS0_XOR (*(volatile uint32_t *)0x40029278)
+#define IO_BANK0_PROC0_INTS1_XOR (*(volatile uint32_t *)0x4002927c)
+#define IO_BANK0_PROC0_INTS2_XOR (*(volatile uint32_t *)0x40029280)
+#define IO_BANK0_PROC0_INTS3_XOR (*(volatile uint32_t *)0x40029284)
+#define IO_BANK0_PROC0_INTS4_XOR (*(volatile uint32_t *)0x40029288)
+#define IO_BANK0_PROC0_INTS5_XOR (*(volatile uint32_t *)0x4002928c)
+#define IO_BANK0_PROC1_INTE0_XOR (*(volatile uint32_t *)0x40029290)
+#define IO_BANK0_PROC1_INTE1_XOR (*(volatile uint32_t *)0x40029294)
+#define IO_BANK0_PROC1_INTE2_XOR (*(volatile uint32_t *)0x40029298)
+#define IO_BANK0_PROC1_INTE3_XOR (*(volatile uint32_t *)0x4002929c)
+#define IO_BANK0_PROC1_INTE4_XOR (*(volatile uint32_t *)0x400292a0)
+#define IO_BANK0_PROC1_INTE5_XOR (*(volatile uint32_t *)0x400292a4)
+#define IO_BANK0_PROC1_INTF0_XOR (*(volatile uint32_t *)0x400292a8)
+#define IO_BANK0_PROC1_INTF1_XOR (*(volatile uint32_t *)0x400292ac)
+#define IO_BANK0_PROC1_INTF2_XOR (*(volatile uint32_t *)0x400292b0)
+#define IO_BANK0_PROC1_INTF3_XOR (*(volatile uint32_t *)0x400292b4)
+#define IO_BANK0_PROC1_INTF4_XOR (*(volatile uint32_t *)0x400292b8)
+#define IO_BANK0_PROC1_INTF5_XOR (*(volatile uint32_t *)0x400292bc)
+#define IO_BANK0_PROC1_INTS0_XOR (*(volatile uint32_t *)0x400292c0)
+#define IO_BANK0_PROC1_INTS1_XOR (*(volatile uint32_t *)0x400292c4)
+#define IO_BANK0_PROC1_INTS2_XOR (*(volatile uint32_t *)0x400292c8)
+#define IO_BANK0_PROC1_INTS3_XOR (*(volatile uint32_t *)0x400292cc)
+#define IO_BANK0_PROC1_INTS4_XOR (*(volatile uint32_t *)0x400292d0)
+#define IO_BANK0_PROC1_INTS5_XOR (*(volatile uint32_t *)0x400292d4)
+#define IO_BANK0_DORMANT_WAKE_INTE0_XOR (*(volatile uint32_t *)0x400292d8)
+#define IO_BANK0_DORMANT_WAKE_INTE1_XOR (*(volatile uint32_t *)0x400292dc)
+#define IO_BANK0_DORMANT_WAKE_INTE2_XOR (*(volatile uint32_t *)0x400292e0)
+#define IO_BANK0_DORMANT_WAKE_INTE3_XOR (*(volatile uint32_t *)0x400292e4)
+#define IO_BANK0_DORMANT_WAKE_INTE4_XOR (*(volatile uint32_t *)0x400292e8)
+#define IO_BANK0_DORMANT_WAKE_INTE5_XOR (*(volatile uint32_t *)0x400292ec)
+#define IO_BANK0_DORMANT_WAKE_INTF0_XOR (*(volatile uint32_t *)0x400292f0)
+#define IO_BANK0_DORMANT_WAKE_INTF1_XOR (*(volatile uint32_t *)0x400292f4)
+#define IO_BANK0_DORMANT_WAKE_INTF2_XOR (*(volatile uint32_t *)0x400292f8)
+#define IO_BANK0_DORMANT_WAKE_INTF3_XOR (*(volatile uint32_t *)0x400292fc)
+#define IO_BANK0_DORMANT_WAKE_INTF4_XOR (*(volatile uint32_t *)0x40029300)
+#define IO_BANK0_DORMANT_WAKE_INTF5_XOR (*(volatile uint32_t *)0x40029304)
+#define IO_BANK0_DORMANT_WAKE_INTS0_XOR (*(volatile uint32_t *)0x40029308)
+#define IO_BANK0_DORMANT_WAKE_INTS1_XOR (*(volatile uint32_t *)0x4002930c)
+#define IO_BANK0_DORMANT_WAKE_INTS2_XOR (*(volatile uint32_t *)0x40029310)
+#define IO_BANK0_DORMANT_WAKE_INTS3_XOR (*(volatile uint32_t *)0x40029314)
+#define IO_BANK0_DORMANT_WAKE_INTS4_XOR (*(volatile uint32_t *)0x40029318)
+#define IO_BANK0_DORMANT_WAKE_INTS5_XOR (*(volatile uint32_t *)0x4002931c)
+#define IO_BANK0_GPIO0_STATUS_SET (*(volatile uint32_t *)0x4002a000)
+#define IO_BANK0_GPIO0_CTRL_SET (*(volatile uint32_t *)0x4002a004)
+#define IO_BANK0_GPIO1_STATUS_SET (*(volatile uint32_t *)0x4002a008)
+#define IO_BANK0_GPIO1_CTRL_SET (*(volatile uint32_t *)0x4002a00c)
+#define IO_BANK0_GPIO2_STATUS_SET (*(volatile uint32_t *)0x4002a010)
+#define IO_BANK0_GPIO2_CTRL_SET (*(volatile uint32_t *)0x4002a014)
+#define IO_BANK0_GPIO3_STATUS_SET (*(volatile uint32_t *)0x4002a018)
+#define IO_BANK0_GPIO3_CTRL_SET (*(volatile uint32_t *)0x4002a01c)
+#define IO_BANK0_GPIO4_STATUS_SET (*(volatile uint32_t *)0x4002a020)
+#define IO_BANK0_GPIO4_CTRL_SET (*(volatile uint32_t *)0x4002a024)
+#define IO_BANK0_GPIO5_STATUS_SET (*(volatile uint32_t *)0x4002a028)
+#define IO_BANK0_GPIO5_CTRL_SET (*(volatile uint32_t *)0x4002a02c)
+#define IO_BANK0_GPIO6_STATUS_SET (*(volatile uint32_t *)0x4002a030)
+#define IO_BANK0_GPIO6_CTRL_SET (*(volatile uint32_t *)0x4002a034)
+#define IO_BANK0_GPIO7_STATUS_SET (*(volatile uint32_t *)0x4002a038)
+#define IO_BANK0_GPIO7_CTRL_SET (*(volatile uint32_t *)0x4002a03c)
+#define IO_BANK0_GPIO8_STATUS_SET (*(volatile uint32_t *)0x4002a040)
+#define IO_BANK0_GPIO8_CTRL_SET (*(volatile uint32_t *)0x4002a044)
+#define IO_BANK0_GPIO9_STATUS_SET (*(volatile uint32_t *)0x4002a048)
+#define IO_BANK0_GPIO9_CTRL_SET (*(volatile uint32_t *)0x4002a04c)
+#define IO_BANK0_GPIO10_STATUS_SET (*(volatile uint32_t *)0x4002a050)
+#define IO_BANK0_GPIO10_CTRL_SET (*(volatile uint32_t *)0x4002a054)
+#define IO_BANK0_GPIO11_STATUS_SET (*(volatile uint32_t *)0x4002a058)
+#define IO_BANK0_GPIO11_CTRL_SET (*(volatile uint32_t *)0x4002a05c)
+#define IO_BANK0_GPIO12_STATUS_SET (*(volatile uint32_t *)0x4002a060)
+#define IO_BANK0_GPIO12_CTRL_SET (*(volatile uint32_t *)0x4002a064)
+#define IO_BANK0_GPIO13_STATUS_SET (*(volatile uint32_t *)0x4002a068)
+#define IO_BANK0_GPIO13_CTRL_SET (*(volatile uint32_t *)0x4002a06c)
+#define IO_BANK0_GPIO14_STATUS_SET (*(volatile uint32_t *)0x4002a070)
+#define IO_BANK0_GPIO14_CTRL_SET (*(volatile uint32_t *)0x4002a074)
+#define IO_BANK0_GPIO15_STATUS_SET (*(volatile uint32_t *)0x4002a078)
+#define IO_BANK0_GPIO15_CTRL_SET (*(volatile uint32_t *)0x4002a07c)
+#define IO_BANK0_GPIO16_STATUS_SET (*(volatile uint32_t *)0x4002a080)
+#define IO_BANK0_GPIO16_CTRL_SET (*(volatile uint32_t *)0x4002a084)
+#define IO_BANK0_GPIO17_STATUS_SET (*(volatile uint32_t *)0x4002a088)
+#define IO_BANK0_GPIO17_CTRL_SET (*(volatile uint32_t *)0x4002a08c)
+#define IO_BANK0_GPIO18_STATUS_SET (*(volatile uint32_t *)0x4002a090)
+#define IO_BANK0_GPIO18_CTRL_SET (*(volatile uint32_t *)0x4002a094)
+#define IO_BANK0_GPIO19_STATUS_SET (*(volatile uint32_t *)0x4002a098)
+#define IO_BANK0_GPIO19_CTRL_SET (*(volatile uint32_t *)0x4002a09c)
+#define IO_BANK0_GPIO20_STATUS_SET (*(volatile uint32_t *)0x4002a0a0)
+#define IO_BANK0_GPIO20_CTRL_SET (*(volatile uint32_t *)0x4002a0a4)
+#define IO_BANK0_GPIO21_STATUS_SET (*(volatile uint32_t *)0x4002a0a8)
+#define IO_BANK0_GPIO21_CTRL_SET (*(volatile uint32_t *)0x4002a0ac)
+#define IO_BANK0_GPIO22_STATUS_SET (*(volatile uint32_t *)0x4002a0b0)
+#define IO_BANK0_GPIO22_CTRL_SET (*(volatile uint32_t *)0x4002a0b4)
+#define IO_BANK0_GPIO23_STATUS_SET (*(volatile uint32_t *)0x4002a0b8)
+#define IO_BANK0_GPIO23_CTRL_SET (*(volatile uint32_t *)0x4002a0bc)
+#define IO_BANK0_GPIO24_STATUS_SET (*(volatile uint32_t *)0x4002a0c0)
+#define IO_BANK0_GPIO24_CTRL_SET (*(volatile uint32_t *)0x4002a0c4)
+#define IO_BANK0_GPIO25_STATUS_SET (*(volatile uint32_t *)0x4002a0c8)
+#define IO_BANK0_GPIO25_CTRL_SET (*(volatile uint32_t *)0x4002a0cc)
+#define IO_BANK0_GPIO26_STATUS_SET (*(volatile uint32_t *)0x4002a0d0)
+#define IO_BANK0_GPIO26_CTRL_SET (*(volatile uint32_t *)0x4002a0d4)
+#define IO_BANK0_GPIO27_STATUS_SET (*(volatile uint32_t *)0x4002a0d8)
+#define IO_BANK0_GPIO27_CTRL_SET (*(volatile uint32_t *)0x4002a0dc)
+#define IO_BANK0_GPIO28_STATUS_SET (*(volatile uint32_t *)0x4002a0e0)
+#define IO_BANK0_GPIO28_CTRL_SET (*(volatile uint32_t *)0x4002a0e4)
+#define IO_BANK0_GPIO29_STATUS_SET (*(volatile uint32_t *)0x4002a0e8)
+#define IO_BANK0_GPIO29_CTRL_SET (*(volatile uint32_t *)0x4002a0ec)
+#define IO_BANK0_GPIO30_STATUS_SET (*(volatile uint32_t *)0x4002a0f0)
+#define IO_BANK0_GPIO30_CTRL_SET (*(volatile uint32_t *)0x4002a0f4)
+#define IO_BANK0_GPIO31_STATUS_SET (*(volatile uint32_t *)0x4002a0f8)
+#define IO_BANK0_GPIO31_CTRL_SET (*(volatile uint32_t *)0x4002a0fc)
+#define IO_BANK0_GPIO32_STATUS_SET (*(volatile uint32_t *)0x4002a100)
+#define IO_BANK0_GPIO32_CTRL_SET (*(volatile uint32_t *)0x4002a104)
+#define IO_BANK0_GPIO33_STATUS_SET (*(volatile uint32_t *)0x4002a108)
+#define IO_BANK0_GPIO33_CTRL_SET (*(volatile uint32_t *)0x4002a10c)
+#define IO_BANK0_GPIO34_STATUS_SET (*(volatile uint32_t *)0x4002a110)
+#define IO_BANK0_GPIO34_CTRL_SET (*(volatile uint32_t *)0x4002a114)
+#define IO_BANK0_GPIO35_STATUS_SET (*(volatile uint32_t *)0x4002a118)
+#define IO_BANK0_GPIO35_CTRL_SET (*(volatile uint32_t *)0x4002a11c)
+#define IO_BANK0_GPIO36_STATUS_SET (*(volatile uint32_t *)0x4002a120)
+#define IO_BANK0_GPIO36_CTRL_SET (*(volatile uint32_t *)0x4002a124)
+#define IO_BANK0_GPIO37_STATUS_SET (*(volatile uint32_t *)0x4002a128)
+#define IO_BANK0_GPIO37_CTRL_SET (*(volatile uint32_t *)0x4002a12c)
+#define IO_BANK0_GPIO38_STATUS_SET (*(volatile uint32_t *)0x4002a130)
+#define IO_BANK0_GPIO38_CTRL_SET (*(volatile uint32_t *)0x4002a134)
+#define IO_BANK0_GPIO39_STATUS_SET (*(volatile uint32_t *)0x4002a138)
+#define IO_BANK0_GPIO39_CTRL_SET (*(volatile uint32_t *)0x4002a13c)
+#define IO_BANK0_GPIO40_STATUS_SET (*(volatile uint32_t *)0x4002a140)
+#define IO_BANK0_GPIO40_CTRL_SET (*(volatile uint32_t *)0x4002a144)
+#define IO_BANK0_GPIO41_STATUS_SET (*(volatile uint32_t *)0x4002a148)
+#define IO_BANK0_GPIO41_CTRL_SET (*(volatile uint32_t *)0x4002a14c)
+#define IO_BANK0_GPIO42_STATUS_SET (*(volatile uint32_t *)0x4002a150)
+#define IO_BANK0_GPIO42_CTRL_SET (*(volatile uint32_t *)0x4002a154)
+#define IO_BANK0_GPIO43_STATUS_SET (*(volatile uint32_t *)0x4002a158)
+#define IO_BANK0_GPIO43_CTRL_SET (*(volatile uint32_t *)0x4002a15c)
+#define IO_BANK0_GPIO44_STATUS_SET (*(volatile uint32_t *)0x4002a160)
+#define IO_BANK0_GPIO44_CTRL_SET (*(volatile uint32_t *)0x4002a164)
+#define IO_BANK0_GPIO45_STATUS_SET (*(volatile uint32_t *)0x4002a168)
+#define IO_BANK0_GPIO45_CTRL_SET (*(volatile uint32_t *)0x4002a16c)
+#define IO_BANK0_GPIO46_STATUS_SET (*(volatile uint32_t *)0x4002a170)
+#define IO_BANK0_GPIO46_CTRL_SET (*(volatile uint32_t *)0x4002a174)
+#define IO_BANK0_GPIO47_STATUS_SET (*(volatile uint32_t *)0x4002a178)
+#define IO_BANK0_GPIO47_CTRL_SET (*(volatile uint32_t *)0x4002a17c)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE0_SET (*(volatile uint32_t *)0x4002a200)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE1_SET (*(volatile uint32_t *)0x4002a204)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE0_SET (*(volatile uint32_t *)0x4002a208)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE1_SET (*(volatile uint32_t *)0x4002a20c)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE0_SET (*(volatile uint32_t *)0x4002a210)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE1_SET (*(volatile uint32_t *)0x4002a214)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE0_SET (*(volatile uint32_t *)0x4002a218)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE1_SET (*(volatile uint32_t *)0x4002a21c)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE0_SET (*(volatile uint32_t *)0x4002a220)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE1_SET (*(volatile uint32_t *)0x4002a224)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE0_SET (*(volatile uint32_t *)0x4002a228)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE1_SET (*(volatile uint32_t *)0x4002a22c)
+#define IO_BANK0_INTR0_SET (*(volatile uint32_t *)0x4002a230)
+#define IO_BANK0_INTR1_SET (*(volatile uint32_t *)0x4002a234)
+#define IO_BANK0_INTR2_SET (*(volatile uint32_t *)0x4002a238)
+#define IO_BANK0_INTR3_SET (*(volatile uint32_t *)0x4002a23c)
+#define IO_BANK0_INTR4_SET (*(volatile uint32_t *)0x4002a240)
+#define IO_BANK0_INTR5_SET (*(volatile uint32_t *)0x4002a244)
+#define IO_BANK0_PROC0_INTE0_SET (*(volatile uint32_t *)0x4002a248)
+#define IO_BANK0_PROC0_INTE1_SET (*(volatile uint32_t *)0x4002a24c)
+#define IO_BANK0_PROC0_INTE2_SET (*(volatile uint32_t *)0x4002a250)
+#define IO_BANK0_PROC0_INTE3_SET (*(volatile uint32_t *)0x4002a254)
+#define IO_BANK0_PROC0_INTE4_SET (*(volatile uint32_t *)0x4002a258)
+#define IO_BANK0_PROC0_INTE5_SET (*(volatile uint32_t *)0x4002a25c)
+#define IO_BANK0_PROC0_INTF0_SET (*(volatile uint32_t *)0x4002a260)
+#define IO_BANK0_PROC0_INTF1_SET (*(volatile uint32_t *)0x4002a264)
+#define IO_BANK0_PROC0_INTF2_SET (*(volatile uint32_t *)0x4002a268)
+#define IO_BANK0_PROC0_INTF3_SET (*(volatile uint32_t *)0x4002a26c)
+#define IO_BANK0_PROC0_INTF4_SET (*(volatile uint32_t *)0x4002a270)
+#define IO_BANK0_PROC0_INTF5_SET (*(volatile uint32_t *)0x4002a274)
+#define IO_BANK0_PROC0_INTS0_SET (*(volatile uint32_t *)0x4002a278)
+#define IO_BANK0_PROC0_INTS1_SET (*(volatile uint32_t *)0x4002a27c)
+#define IO_BANK0_PROC0_INTS2_SET (*(volatile uint32_t *)0x4002a280)
+#define IO_BANK0_PROC0_INTS3_SET (*(volatile uint32_t *)0x4002a284)
+#define IO_BANK0_PROC0_INTS4_SET (*(volatile uint32_t *)0x4002a288)
+#define IO_BANK0_PROC0_INTS5_SET (*(volatile uint32_t *)0x4002a28c)
+#define IO_BANK0_PROC1_INTE0_SET (*(volatile uint32_t *)0x4002a290)
+#define IO_BANK0_PROC1_INTE1_SET (*(volatile uint32_t *)0x4002a294)
+#define IO_BANK0_PROC1_INTE2_SET (*(volatile uint32_t *)0x4002a298)
+#define IO_BANK0_PROC1_INTE3_SET (*(volatile uint32_t *)0x4002a29c)
+#define IO_BANK0_PROC1_INTE4_SET (*(volatile uint32_t *)0x4002a2a0)
+#define IO_BANK0_PROC1_INTE5_SET (*(volatile uint32_t *)0x4002a2a4)
+#define IO_BANK0_PROC1_INTF0_SET (*(volatile uint32_t *)0x4002a2a8)
+#define IO_BANK0_PROC1_INTF1_SET (*(volatile uint32_t *)0x4002a2ac)
+#define IO_BANK0_PROC1_INTF2_SET (*(volatile uint32_t *)0x4002a2b0)
+#define IO_BANK0_PROC1_INTF3_SET (*(volatile uint32_t *)0x4002a2b4)
+#define IO_BANK0_PROC1_INTF4_SET (*(volatile uint32_t *)0x4002a2b8)
+#define IO_BANK0_PROC1_INTF5_SET (*(volatile uint32_t *)0x4002a2bc)
+#define IO_BANK0_PROC1_INTS0_SET (*(volatile uint32_t *)0x4002a2c0)
+#define IO_BANK0_PROC1_INTS1_SET (*(volatile uint32_t *)0x4002a2c4)
+#define IO_BANK0_PROC1_INTS2_SET (*(volatile uint32_t *)0x4002a2c8)
+#define IO_BANK0_PROC1_INTS3_SET (*(volatile uint32_t *)0x4002a2cc)
+#define IO_BANK0_PROC1_INTS4_SET (*(volatile uint32_t *)0x4002a2d0)
+#define IO_BANK0_PROC1_INTS5_SET (*(volatile uint32_t *)0x4002a2d4)
+#define IO_BANK0_DORMANT_WAKE_INTE0_SET (*(volatile uint32_t *)0x4002a2d8)
+#define IO_BANK0_DORMANT_WAKE_INTE1_SET (*(volatile uint32_t *)0x4002a2dc)
+#define IO_BANK0_DORMANT_WAKE_INTE2_SET (*(volatile uint32_t *)0x4002a2e0)
+#define IO_BANK0_DORMANT_WAKE_INTE3_SET (*(volatile uint32_t *)0x4002a2e4)
+#define IO_BANK0_DORMANT_WAKE_INTE4_SET (*(volatile uint32_t *)0x4002a2e8)
+#define IO_BANK0_DORMANT_WAKE_INTE5_SET (*(volatile uint32_t *)0x4002a2ec)
+#define IO_BANK0_DORMANT_WAKE_INTF0_SET (*(volatile uint32_t *)0x4002a2f0)
+#define IO_BANK0_DORMANT_WAKE_INTF1_SET (*(volatile uint32_t *)0x4002a2f4)
+#define IO_BANK0_DORMANT_WAKE_INTF2_SET (*(volatile uint32_t *)0x4002a2f8)
+#define IO_BANK0_DORMANT_WAKE_INTF3_SET (*(volatile uint32_t *)0x4002a2fc)
+#define IO_BANK0_DORMANT_WAKE_INTF4_SET (*(volatile uint32_t *)0x4002a300)
+#define IO_BANK0_DORMANT_WAKE_INTF5_SET (*(volatile uint32_t *)0x4002a304)
+#define IO_BANK0_DORMANT_WAKE_INTS0_SET (*(volatile uint32_t *)0x4002a308)
+#define IO_BANK0_DORMANT_WAKE_INTS1_SET (*(volatile uint32_t *)0x4002a30c)
+#define IO_BANK0_DORMANT_WAKE_INTS2_SET (*(volatile uint32_t *)0x4002a310)
+#define IO_BANK0_DORMANT_WAKE_INTS3_SET (*(volatile uint32_t *)0x4002a314)
+#define IO_BANK0_DORMANT_WAKE_INTS4_SET (*(volatile uint32_t *)0x4002a318)
+#define IO_BANK0_DORMANT_WAKE_INTS5_SET (*(volatile uint32_t *)0x4002a31c)
+#define IO_BANK0_GPIO0_STATUS_CLR (*(volatile uint32_t *)0x4002b000)
+#define IO_BANK0_GPIO0_CTRL_CLR (*(volatile uint32_t *)0x4002b004)
+#define IO_BANK0_GPIO1_STATUS_CLR (*(volatile uint32_t *)0x4002b008)
+#define IO_BANK0_GPIO1_CTRL_CLR (*(volatile uint32_t *)0x4002b00c)
+#define IO_BANK0_GPIO2_STATUS_CLR (*(volatile uint32_t *)0x4002b010)
+#define IO_BANK0_GPIO2_CTRL_CLR (*(volatile uint32_t *)0x4002b014)
+#define IO_BANK0_GPIO3_STATUS_CLR (*(volatile uint32_t *)0x4002b018)
+#define IO_BANK0_GPIO3_CTRL_CLR (*(volatile uint32_t *)0x4002b01c)
+#define IO_BANK0_GPIO4_STATUS_CLR (*(volatile uint32_t *)0x4002b020)
+#define IO_BANK0_GPIO4_CTRL_CLR (*(volatile uint32_t *)0x4002b024)
+#define IO_BANK0_GPIO5_STATUS_CLR (*(volatile uint32_t *)0x4002b028)
+#define IO_BANK0_GPIO5_CTRL_CLR (*(volatile uint32_t *)0x4002b02c)
+#define IO_BANK0_GPIO6_STATUS_CLR (*(volatile uint32_t *)0x4002b030)
+#define IO_BANK0_GPIO6_CTRL_CLR (*(volatile uint32_t *)0x4002b034)
+#define IO_BANK0_GPIO7_STATUS_CLR (*(volatile uint32_t *)0x4002b038)
+#define IO_BANK0_GPIO7_CTRL_CLR (*(volatile uint32_t *)0x4002b03c)
+#define IO_BANK0_GPIO8_STATUS_CLR (*(volatile uint32_t *)0x4002b040)
+#define IO_BANK0_GPIO8_CTRL_CLR (*(volatile uint32_t *)0x4002b044)
+#define IO_BANK0_GPIO9_STATUS_CLR (*(volatile uint32_t *)0x4002b048)
+#define IO_BANK0_GPIO9_CTRL_CLR (*(volatile uint32_t *)0x4002b04c)
+#define IO_BANK0_GPIO10_STATUS_CLR (*(volatile uint32_t *)0x4002b050)
+#define IO_BANK0_GPIO10_CTRL_CLR (*(volatile uint32_t *)0x4002b054)
+#define IO_BANK0_GPIO11_STATUS_CLR (*(volatile uint32_t *)0x4002b058)
+#define IO_BANK0_GPIO11_CTRL_CLR (*(volatile uint32_t *)0x4002b05c)
+#define IO_BANK0_GPIO12_STATUS_CLR (*(volatile uint32_t *)0x4002b060)
+#define IO_BANK0_GPIO12_CTRL_CLR (*(volatile uint32_t *)0x4002b064)
+#define IO_BANK0_GPIO13_STATUS_CLR (*(volatile uint32_t *)0x4002b068)
+#define IO_BANK0_GPIO13_CTRL_CLR (*(volatile uint32_t *)0x4002b06c)
+#define IO_BANK0_GPIO14_STATUS_CLR (*(volatile uint32_t *)0x4002b070)
+#define IO_BANK0_GPIO14_CTRL_CLR (*(volatile uint32_t *)0x4002b074)
+#define IO_BANK0_GPIO15_STATUS_CLR (*(volatile uint32_t *)0x4002b078)
+#define IO_BANK0_GPIO15_CTRL_CLR (*(volatile uint32_t *)0x4002b07c)
+#define IO_BANK0_GPIO16_STATUS_CLR (*(volatile uint32_t *)0x4002b080)
+#define IO_BANK0_GPIO16_CTRL_CLR (*(volatile uint32_t *)0x4002b084)
+#define IO_BANK0_GPIO17_STATUS_CLR (*(volatile uint32_t *)0x4002b088)
+#define IO_BANK0_GPIO17_CTRL_CLR (*(volatile uint32_t *)0x4002b08c)
+#define IO_BANK0_GPIO18_STATUS_CLR (*(volatile uint32_t *)0x4002b090)
+#define IO_BANK0_GPIO18_CTRL_CLR (*(volatile uint32_t *)0x4002b094)
+#define IO_BANK0_GPIO19_STATUS_CLR (*(volatile uint32_t *)0x4002b098)
+#define IO_BANK0_GPIO19_CTRL_CLR (*(volatile uint32_t *)0x4002b09c)
+#define IO_BANK0_GPIO20_STATUS_CLR (*(volatile uint32_t *)0x4002b0a0)
+#define IO_BANK0_GPIO20_CTRL_CLR (*(volatile uint32_t *)0x4002b0a4)
+#define IO_BANK0_GPIO21_STATUS_CLR (*(volatile uint32_t *)0x4002b0a8)
+#define IO_BANK0_GPIO21_CTRL_CLR (*(volatile uint32_t *)0x4002b0ac)
+#define IO_BANK0_GPIO22_STATUS_CLR (*(volatile uint32_t *)0x4002b0b0)
+#define IO_BANK0_GPIO22_CTRL_CLR (*(volatile uint32_t *)0x4002b0b4)
+#define IO_BANK0_GPIO23_STATUS_CLR (*(volatile uint32_t *)0x4002b0b8)
+#define IO_BANK0_GPIO23_CTRL_CLR (*(volatile uint32_t *)0x4002b0bc)
+#define IO_BANK0_GPIO24_STATUS_CLR (*(volatile uint32_t *)0x4002b0c0)
+#define IO_BANK0_GPIO24_CTRL_CLR (*(volatile uint32_t *)0x4002b0c4)
+#define IO_BANK0_GPIO25_STATUS_CLR (*(volatile uint32_t *)0x4002b0c8)
+#define IO_BANK0_GPIO25_CTRL_CLR (*(volatile uint32_t *)0x4002b0cc)
+#define IO_BANK0_GPIO26_STATUS_CLR (*(volatile uint32_t *)0x4002b0d0)
+#define IO_BANK0_GPIO26_CTRL_CLR (*(volatile uint32_t *)0x4002b0d4)
+#define IO_BANK0_GPIO27_STATUS_CLR (*(volatile uint32_t *)0x4002b0d8)
+#define IO_BANK0_GPIO27_CTRL_CLR (*(volatile uint32_t *)0x4002b0dc)
+#define IO_BANK0_GPIO28_STATUS_CLR (*(volatile uint32_t *)0x4002b0e0)
+#define IO_BANK0_GPIO28_CTRL_CLR (*(volatile uint32_t *)0x4002b0e4)
+#define IO_BANK0_GPIO29_STATUS_CLR (*(volatile uint32_t *)0x4002b0e8)
+#define IO_BANK0_GPIO29_CTRL_CLR (*(volatile uint32_t *)0x4002b0ec)
+#define IO_BANK0_GPIO30_STATUS_CLR (*(volatile uint32_t *)0x4002b0f0)
+#define IO_BANK0_GPIO30_CTRL_CLR (*(volatile uint32_t *)0x4002b0f4)
+#define IO_BANK0_GPIO31_STATUS_CLR (*(volatile uint32_t *)0x4002b0f8)
+#define IO_BANK0_GPIO31_CTRL_CLR (*(volatile uint32_t *)0x4002b0fc)
+#define IO_BANK0_GPIO32_STATUS_CLR (*(volatile uint32_t *)0x4002b100)
+#define IO_BANK0_GPIO32_CTRL_CLR (*(volatile uint32_t *)0x4002b104)
+#define IO_BANK0_GPIO33_STATUS_CLR (*(volatile uint32_t *)0x4002b108)
+#define IO_BANK0_GPIO33_CTRL_CLR (*(volatile uint32_t *)0x4002b10c)
+#define IO_BANK0_GPIO34_STATUS_CLR (*(volatile uint32_t *)0x4002b110)
+#define IO_BANK0_GPIO34_CTRL_CLR (*(volatile uint32_t *)0x4002b114)
+#define IO_BANK0_GPIO35_STATUS_CLR (*(volatile uint32_t *)0x4002b118)
+#define IO_BANK0_GPIO35_CTRL_CLR (*(volatile uint32_t *)0x4002b11c)
+#define IO_BANK0_GPIO36_STATUS_CLR (*(volatile uint32_t *)0x4002b120)
+#define IO_BANK0_GPIO36_CTRL_CLR (*(volatile uint32_t *)0x4002b124)
+#define IO_BANK0_GPIO37_STATUS_CLR (*(volatile uint32_t *)0x4002b128)
+#define IO_BANK0_GPIO37_CTRL_CLR (*(volatile uint32_t *)0x4002b12c)
+#define IO_BANK0_GPIO38_STATUS_CLR (*(volatile uint32_t *)0x4002b130)
+#define IO_BANK0_GPIO38_CTRL_CLR (*(volatile uint32_t *)0x4002b134)
+#define IO_BANK0_GPIO39_STATUS_CLR (*(volatile uint32_t *)0x4002b138)
+#define IO_BANK0_GPIO39_CTRL_CLR (*(volatile uint32_t *)0x4002b13c)
+#define IO_BANK0_GPIO40_STATUS_CLR (*(volatile uint32_t *)0x4002b140)
+#define IO_BANK0_GPIO40_CTRL_CLR (*(volatile uint32_t *)0x4002b144)
+#define IO_BANK0_GPIO41_STATUS_CLR (*(volatile uint32_t *)0x4002b148)
+#define IO_BANK0_GPIO41_CTRL_CLR (*(volatile uint32_t *)0x4002b14c)
+#define IO_BANK0_GPIO42_STATUS_CLR (*(volatile uint32_t *)0x4002b150)
+#define IO_BANK0_GPIO42_CTRL_CLR (*(volatile uint32_t *)0x4002b154)
+#define IO_BANK0_GPIO43_STATUS_CLR (*(volatile uint32_t *)0x4002b158)
+#define IO_BANK0_GPIO43_CTRL_CLR (*(volatile uint32_t *)0x4002b15c)
+#define IO_BANK0_GPIO44_STATUS_CLR (*(volatile uint32_t *)0x4002b160)
+#define IO_BANK0_GPIO44_CTRL_CLR (*(volatile uint32_t *)0x4002b164)
+#define IO_BANK0_GPIO45_STATUS_CLR (*(volatile uint32_t *)0x4002b168)
+#define IO_BANK0_GPIO45_CTRL_CLR (*(volatile uint32_t *)0x4002b16c)
+#define IO_BANK0_GPIO46_STATUS_CLR (*(volatile uint32_t *)0x4002b170)
+#define IO_BANK0_GPIO46_CTRL_CLR (*(volatile uint32_t *)0x4002b174)
+#define IO_BANK0_GPIO47_STATUS_CLR (*(volatile uint32_t *)0x4002b178)
+#define IO_BANK0_GPIO47_CTRL_CLR (*(volatile uint32_t *)0x4002b17c)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE0_CLR (*(volatile uint32_t *)0x4002b200)
+#define IO_BANK0_IRQSUMMARY_PROC0_SECURE1_CLR (*(volatile uint32_t *)0x4002b204)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE0_CLR (*(volatile uint32_t *)0x4002b208)
+#define IO_BANK0_IRQSUMMARY_PROC0_NONSECURE1_CLR (*(volatile uint32_t *)0x4002b20c)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE0_CLR (*(volatile uint32_t *)0x4002b210)
+#define IO_BANK0_IRQSUMMARY_PROC1_SECURE1_CLR (*(volatile uint32_t *)0x4002b214)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE0_CLR (*(volatile uint32_t *)0x4002b218)
+#define IO_BANK0_IRQSUMMARY_PROC1_NONSECURE1_CLR (*(volatile uint32_t *)0x4002b21c)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE0_CLR (*(volatile uint32_t *)0x4002b220)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_SECURE1_CLR (*(volatile uint32_t *)0x4002b224)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE0_CLR (*(volatile uint32_t *)0x4002b228)
+#define IO_BANK0_IRQSUMMARY_DORMANT_WAKE_NONSECURE1_CLR (*(volatile uint32_t *)0x4002b22c)
+#define IO_BANK0_INTR0_CLR (*(volatile uint32_t *)0x4002b230)
+#define IO_BANK0_INTR1_CLR (*(volatile uint32_t *)0x4002b234)
+#define IO_BANK0_INTR2_CLR (*(volatile uint32_t *)0x4002b238)
+#define IO_BANK0_INTR3_CLR (*(volatile uint32_t *)0x4002b23c)
+#define IO_BANK0_INTR4_CLR (*(volatile uint32_t *)0x4002b240)
+#define IO_BANK0_INTR5_CLR (*(volatile uint32_t *)0x4002b244)
+#define IO_BANK0_PROC0_INTE0_CLR (*(volatile uint32_t *)0x4002b248)
+#define IO_BANK0_PROC0_INTE1_CLR (*(volatile uint32_t *)0x4002b24c)
+#define IO_BANK0_PROC0_INTE2_CLR (*(volatile uint32_t *)0x4002b250)
+#define IO_BANK0_PROC0_INTE3_CLR (*(volatile uint32_t *)0x4002b254)
+#define IO_BANK0_PROC0_INTE4_CLR (*(volatile uint32_t *)0x4002b258)
+#define IO_BANK0_PROC0_INTE5_CLR (*(volatile uint32_t *)0x4002b25c)
+#define IO_BANK0_PROC0_INTF0_CLR (*(volatile uint32_t *)0x4002b260)
+#define IO_BANK0_PROC0_INTF1_CLR (*(volatile uint32_t *)0x4002b264)
+#define IO_BANK0_PROC0_INTF2_CLR (*(volatile uint32_t *)0x4002b268)
+#define IO_BANK0_PROC0_INTF3_CLR (*(volatile uint32_t *)0x4002b26c)
+#define IO_BANK0_PROC0_INTF4_CLR (*(volatile uint32_t *)0x4002b270)
+#define IO_BANK0_PROC0_INTF5_CLR (*(volatile uint32_t *)0x4002b274)
+#define IO_BANK0_PROC0_INTS0_CLR (*(volatile uint32_t *)0x4002b278)
+#define IO_BANK0_PROC0_INTS1_CLR (*(volatile uint32_t *)0x4002b27c)
+#define IO_BANK0_PROC0_INTS2_CLR (*(volatile uint32_t *)0x4002b280)
+#define IO_BANK0_PROC0_INTS3_CLR (*(volatile uint32_t *)0x4002b284)
+#define IO_BANK0_PROC0_INTS4_CLR (*(volatile uint32_t *)0x4002b288)
+#define IO_BANK0_PROC0_INTS5_CLR (*(volatile uint32_t *)0x4002b28c)
+#define IO_BANK0_PROC1_INTE0_CLR (*(volatile uint32_t *)0x4002b290)
+#define IO_BANK0_PROC1_INTE1_CLR (*(volatile uint32_t *)0x4002b294)
+#define IO_BANK0_PROC1_INTE2_CLR (*(volatile uint32_t *)0x4002b298)
+#define IO_BANK0_PROC1_INTE3_CLR (*(volatile uint32_t *)0x4002b29c)
+#define IO_BANK0_PROC1_INTE4_CLR (*(volatile uint32_t *)0x4002b2a0)
+#define IO_BANK0_PROC1_INTE5_CLR (*(volatile uint32_t *)0x4002b2a4)
+#define IO_BANK0_PROC1_INTF0_CLR (*(volatile uint32_t *)0x4002b2a8)
+#define IO_BANK0_PROC1_INTF1_CLR (*(volatile uint32_t *)0x4002b2ac)
+#define IO_BANK0_PROC1_INTF2_CLR (*(volatile uint32_t *)0x4002b2b0)
+#define IO_BANK0_PROC1_INTF3_CLR (*(volatile uint32_t *)0x4002b2b4)
+#define IO_BANK0_PROC1_INTF4_CLR (*(volatile uint32_t *)0x4002b2b8)
+#define IO_BANK0_PROC1_INTF5_CLR (*(volatile uint32_t *)0x4002b2bc)
+#define IO_BANK0_PROC1_INTS0_CLR (*(volatile uint32_t *)0x4002b2c0)
+#define IO_BANK0_PROC1_INTS1_CLR (*(volatile uint32_t *)0x4002b2c4)
+#define IO_BANK0_PROC1_INTS2_CLR (*(volatile uint32_t *)0x4002b2c8)
+#define IO_BANK0_PROC1_INTS3_CLR (*(volatile uint32_t *)0x4002b2cc)
+#define IO_BANK0_PROC1_INTS4_CLR (*(volatile uint32_t *)0x4002b2d0)
+#define IO_BANK0_PROC1_INTS5_CLR (*(volatile uint32_t *)0x4002b2d4)
+#define IO_BANK0_DORMANT_WAKE_INTE0_CLR (*(volatile uint32_t *)0x4002b2d8)
+#define IO_BANK0_DORMANT_WAKE_INTE1_CLR (*(volatile uint32_t *)0x4002b2dc)
+#define IO_BANK0_DORMANT_WAKE_INTE2_CLR (*(volatile uint32_t *)0x4002b2e0)
+#define IO_BANK0_DORMANT_WAKE_INTE3_CLR (*(volatile uint32_t *)0x4002b2e4)
+#define IO_BANK0_DORMANT_WAKE_INTE4_CLR (*(volatile uint32_t *)0x4002b2e8)
+#define IO_BANK0_DORMANT_WAKE_INTE5_CLR (*(volatile uint32_t *)0x4002b2ec)
+#define IO_BANK0_DORMANT_WAKE_INTF0_CLR (*(volatile uint32_t *)0x4002b2f0)
+#define IO_BANK0_DORMANT_WAKE_INTF1_CLR (*(volatile uint32_t *)0x4002b2f4)
+#define IO_BANK0_DORMANT_WAKE_INTF2_CLR (*(volatile uint32_t *)0x4002b2f8)
+#define IO_BANK0_DORMANT_WAKE_INTF3_CLR (*(volatile uint32_t *)0x4002b2fc)
+#define IO_BANK0_DORMANT_WAKE_INTF4_CLR (*(volatile uint32_t *)0x4002b300)
+#define IO_BANK0_DORMANT_WAKE_INTF5_CLR (*(volatile uint32_t *)0x4002b304)
+#define IO_BANK0_DORMANT_WAKE_INTS0_CLR (*(volatile uint32_t *)0x4002b308)
+#define IO_BANK0_DORMANT_WAKE_INTS1_CLR (*(volatile uint32_t *)0x4002b30c)
+#define IO_BANK0_DORMANT_WAKE_INTS2_CLR (*(volatile uint32_t *)0x4002b310)
+#define IO_BANK0_DORMANT_WAKE_INTS3_CLR (*(volatile uint32_t *)0x4002b314)
+#define IO_BANK0_DORMANT_WAKE_INTS4_CLR (*(volatile uint32_t *)0x4002b318)
+#define IO_BANK0_DORMANT_WAKE_INTS5_CLR (*(volatile uint32_t *)0x4002b31c)
 
 /*GPIO0_STATUS Register macros*/
 

@@ -37,23 +37,23 @@ typedef struct{
 		uint32_t RSVD0[2];
 		uint32_t gitref_rp2350;
 		uint32_t RSVD1[1018];
-		uint32_t xor_chip_id;
-		uint32_t xor_package_sel;
-		uint32_t xor_platform;
+		uint32_t chip_id_xor;
+		uint32_t package_sel_xor;
+		uint32_t platform_xor;
 		uint32_t RSVDxor_0[2];
-		uint32_t xor_gitref_rp2350;
+		uint32_t gitref_rp2350_xor;
 		uint32_t RSVDxor_1[1018];
-		uint32_t set_chip_id;
-		uint32_t set_package_sel;
-		uint32_t set_platform;
+		uint32_t chip_id_set;
+		uint32_t package_sel_set;
+		uint32_t platform_set;
 		uint32_t RSVDset_0[2];
-		uint32_t set_gitref_rp2350;
+		uint32_t gitref_rp2350_set;
 		uint32_t RSVDset_1[1018];
-		uint32_t clr_chip_id;
-		uint32_t clr_package_sel;
-		uint32_t clr_platform;
+		uint32_t chip_id_clr;
+		uint32_t package_sel_clr;
+		uint32_t platform_clr;
 		uint32_t RSVDclr_0[2];
-		uint32_t clr_gitref_rp2350;
+		uint32_t gitref_rp2350_clr;
 		uint32_t RSVDclr_1[1018];
 } SYSINFO_REG_BLOCKS;
 
@@ -69,18 +69,18 @@ typedef struct{
 #define SYSINFO_PACKAGE_SEL (*(volatile uint32_t *)0x40000004)
 #define SYSINFO_PLATFORM (*(volatile uint32_t *)0x40000008)
 #define SYSINFO_GITREF_RP2350 (*(volatile uint32_t *)0x40000014)
-#define SYSINFO_XOR_CHIP_ID (*(volatile uint32_t *)0x40001000)
-#define SYSINFO_XOR_PACKAGE_SEL (*(volatile uint32_t *)0x40001004)
-#define SYSINFO_XOR_PLATFORM (*(volatile uint32_t *)0x40001008)
-#define SYSINFO_XOR_GITREF_RP2350 (*(volatile uint32_t *)0x40001014)
-#define SYSINFO_SET_CHIP_ID (*(volatile uint32_t *)0x40002000)
-#define SYSINFO_SET_PACKAGE_SEL (*(volatile uint32_t *)0x40002004)
-#define SYSINFO_SET_PLATFORM (*(volatile uint32_t *)0x40002008)
-#define SYSINFO_SET_GITREF_RP2350 (*(volatile uint32_t *)0x40002014)
-#define SYSINFO_CLR_CHIP_ID (*(volatile uint32_t *)0x40003000)
-#define SYSINFO_CLR_PACKAGE_SEL (*(volatile uint32_t *)0x40003004)
-#define SYSINFO_CLR_PLATFORM (*(volatile uint32_t *)0x40003008)
-#define SYSINFO_CLR_GITREF_RP2350 (*(volatile uint32_t *)0x40003014)
+#define SYSINFO_CHIP_ID_XOR (*(volatile uint32_t *)0x40001000)
+#define SYSINFO_PACKAGE_SEL_XOR (*(volatile uint32_t *)0x40001004)
+#define SYSINFO_PLATFORM_XOR (*(volatile uint32_t *)0x40001008)
+#define SYSINFO_GITREF_RP2350_XOR (*(volatile uint32_t *)0x40001014)
+#define SYSINFO_CHIP_ID_SET (*(volatile uint32_t *)0x40002000)
+#define SYSINFO_PACKAGE_SEL_SET (*(volatile uint32_t *)0x40002004)
+#define SYSINFO_PLATFORM_SET (*(volatile uint32_t *)0x40002008)
+#define SYSINFO_GITREF_RP2350_SET (*(volatile uint32_t *)0x40002014)
+#define SYSINFO_CHIP_ID_CLR (*(volatile uint32_t *)0x40003000)
+#define SYSINFO_PACKAGE_SEL_CLR (*(volatile uint32_t *)0x40003004)
+#define SYSINFO_PLATFORM_CLR (*(volatile uint32_t *)0x40003008)
+#define SYSINFO_GITREF_RP2350_CLR (*(volatile uint32_t *)0x40003014)
 
 /*CHIP_ID Register macros*/
 

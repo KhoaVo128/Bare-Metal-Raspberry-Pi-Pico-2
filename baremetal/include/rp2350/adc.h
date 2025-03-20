@@ -41,35 +41,35 @@ typedef struct{
 		uint32_t intf;
 		uint32_t ints;
 		uint32_t RSVD0[1015];
-		uint32_t xor_cs;
-		uint32_t xor_result;
-		uint32_t xor_fcs;
-		uint32_t xor_fifo;
-		uint32_t xor_div;
-		uint32_t xor_intr;
-		uint32_t xor_inte;
-		uint32_t xor_intf;
-		uint32_t xor_ints;
+		uint32_t cs_xor;
+		uint32_t result_xor;
+		uint32_t fcs_xor;
+		uint32_t fifo_xor;
+		uint32_t div_xor;
+		uint32_t intr_xor;
+		uint32_t inte_xor;
+		uint32_t intf_xor;
+		uint32_t ints_xor;
 		uint32_t RSVDxor_0[1015];
-		uint32_t set_cs;
-		uint32_t set_result;
-		uint32_t set_fcs;
-		uint32_t set_fifo;
-		uint32_t set_div;
-		uint32_t set_intr;
-		uint32_t set_inte;
-		uint32_t set_intf;
-		uint32_t set_ints;
+		uint32_t cs_set;
+		uint32_t result_set;
+		uint32_t fcs_set;
+		uint32_t fifo_set;
+		uint32_t div_set;
+		uint32_t intr_set;
+		uint32_t inte_set;
+		uint32_t intf_set;
+		uint32_t ints_set;
 		uint32_t RSVDset_0[1015];
-		uint32_t clr_cs;
-		uint32_t clr_result;
-		uint32_t clr_fcs;
-		uint32_t clr_fifo;
-		uint32_t clr_div;
-		uint32_t clr_intr;
-		uint32_t clr_inte;
-		uint32_t clr_intf;
-		uint32_t clr_ints;
+		uint32_t cs_clr;
+		uint32_t result_clr;
+		uint32_t fcs_clr;
+		uint32_t fifo_clr;
+		uint32_t div_clr;
+		uint32_t intr_clr;
+		uint32_t inte_clr;
+		uint32_t intf_clr;
+		uint32_t ints_clr;
 		uint32_t RSVDclr_0[1015];
 } ADC_REG_BLOCKS;
 
@@ -90,33 +90,33 @@ typedef struct{
 #define ADC_INTE (*(volatile uint32_t *)0x400a0018)
 #define ADC_INTF (*(volatile uint32_t *)0x400a001c)
 #define ADC_INTS (*(volatile uint32_t *)0x400a0020)
-#define ADC_XOR_CS (*(volatile uint32_t *)0x400a1000)
-#define ADC_XOR_RESULT (*(volatile uint32_t *)0x400a1004)
-#define ADC_XOR_FCS (*(volatile uint32_t *)0x400a1008)
-#define ADC_XOR_FIFO (*(volatile uint32_t *)0x400a100c)
-#define ADC_XOR_DIV (*(volatile uint32_t *)0x400a1010)
-#define ADC_XOR_INTR (*(volatile uint32_t *)0x400a1014)
-#define ADC_XOR_INTE (*(volatile uint32_t *)0x400a1018)
-#define ADC_XOR_INTF (*(volatile uint32_t *)0x400a101c)
-#define ADC_XOR_INTS (*(volatile uint32_t *)0x400a1020)
-#define ADC_SET_CS (*(volatile uint32_t *)0x400a2000)
-#define ADC_SET_RESULT (*(volatile uint32_t *)0x400a2004)
-#define ADC_SET_FCS (*(volatile uint32_t *)0x400a2008)
-#define ADC_SET_FIFO (*(volatile uint32_t *)0x400a200c)
-#define ADC_SET_DIV (*(volatile uint32_t *)0x400a2010)
-#define ADC_SET_INTR (*(volatile uint32_t *)0x400a2014)
-#define ADC_SET_INTE (*(volatile uint32_t *)0x400a2018)
-#define ADC_SET_INTF (*(volatile uint32_t *)0x400a201c)
-#define ADC_SET_INTS (*(volatile uint32_t *)0x400a2020)
-#define ADC_CLR_CS (*(volatile uint32_t *)0x400a3000)
-#define ADC_CLR_RESULT (*(volatile uint32_t *)0x400a3004)
-#define ADC_CLR_FCS (*(volatile uint32_t *)0x400a3008)
-#define ADC_CLR_FIFO (*(volatile uint32_t *)0x400a300c)
-#define ADC_CLR_DIV (*(volatile uint32_t *)0x400a3010)
-#define ADC_CLR_INTR (*(volatile uint32_t *)0x400a3014)
-#define ADC_CLR_INTE (*(volatile uint32_t *)0x400a3018)
-#define ADC_CLR_INTF (*(volatile uint32_t *)0x400a301c)
-#define ADC_CLR_INTS (*(volatile uint32_t *)0x400a3020)
+#define ADC_CS_XOR (*(volatile uint32_t *)0x400a1000)
+#define ADC_RESULT_XOR (*(volatile uint32_t *)0x400a1004)
+#define ADC_FCS_XOR (*(volatile uint32_t *)0x400a1008)
+#define ADC_FIFO_XOR (*(volatile uint32_t *)0x400a100c)
+#define ADC_DIV_XOR (*(volatile uint32_t *)0x400a1010)
+#define ADC_INTR_XOR (*(volatile uint32_t *)0x400a1014)
+#define ADC_INTE_XOR (*(volatile uint32_t *)0x400a1018)
+#define ADC_INTF_XOR (*(volatile uint32_t *)0x400a101c)
+#define ADC_INTS_XOR (*(volatile uint32_t *)0x400a1020)
+#define ADC_CS_SET (*(volatile uint32_t *)0x400a2000)
+#define ADC_RESULT_SET (*(volatile uint32_t *)0x400a2004)
+#define ADC_FCS_SET (*(volatile uint32_t *)0x400a2008)
+#define ADC_FIFO_SET (*(volatile uint32_t *)0x400a200c)
+#define ADC_DIV_SET (*(volatile uint32_t *)0x400a2010)
+#define ADC_INTR_SET (*(volatile uint32_t *)0x400a2014)
+#define ADC_INTE_SET (*(volatile uint32_t *)0x400a2018)
+#define ADC_INTF_SET (*(volatile uint32_t *)0x400a201c)
+#define ADC_INTS_SET (*(volatile uint32_t *)0x400a2020)
+#define ADC_CS_CLR (*(volatile uint32_t *)0x400a3000)
+#define ADC_RESULT_CLR (*(volatile uint32_t *)0x400a3004)
+#define ADC_FCS_CLR (*(volatile uint32_t *)0x400a3008)
+#define ADC_FIFO_CLR (*(volatile uint32_t *)0x400a300c)
+#define ADC_DIV_CLR (*(volatile uint32_t *)0x400a3010)
+#define ADC_INTR_CLR (*(volatile uint32_t *)0x400a3014)
+#define ADC_INTE_CLR (*(volatile uint32_t *)0x400a3018)
+#define ADC_INTF_CLR (*(volatile uint32_t *)0x400a301c)
+#define ADC_INTS_CLR (*(volatile uint32_t *)0x400a3020)
 
 /*CS Register macros*/
 

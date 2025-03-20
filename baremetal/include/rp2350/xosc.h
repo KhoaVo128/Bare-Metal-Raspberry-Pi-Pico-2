@@ -37,23 +37,23 @@ typedef struct{
 		uint32_t startup;
 		uint32_t count;
 		uint32_t RSVD0[1019];
-		uint32_t xor_ctrl;
-		uint32_t xor_status;
-		uint32_t xor_dormant;
-		uint32_t xor_startup;
-		uint32_t xor_count;
+		uint32_t ctrl_xor;
+		uint32_t status_xor;
+		uint32_t dormant_xor;
+		uint32_t startup_xor;
+		uint32_t count_xor;
 		uint32_t RSVDxor_0[1019];
-		uint32_t set_ctrl;
-		uint32_t set_status;
-		uint32_t set_dormant;
-		uint32_t set_startup;
-		uint32_t set_count;
+		uint32_t ctrl_set;
+		uint32_t status_set;
+		uint32_t dormant_set;
+		uint32_t startup_set;
+		uint32_t count_set;
 		uint32_t RSVDset_0[1019];
-		uint32_t clr_ctrl;
-		uint32_t clr_status;
-		uint32_t clr_dormant;
-		uint32_t clr_startup;
-		uint32_t clr_count;
+		uint32_t ctrl_clr;
+		uint32_t status_clr;
+		uint32_t dormant_clr;
+		uint32_t startup_clr;
+		uint32_t count_clr;
 		uint32_t RSVDclr_0[1019];
 } XOSC_REG_BLOCKS;
 
@@ -70,21 +70,21 @@ typedef struct{
 #define XOSC_DORMANT (*(volatile uint32_t *)0x40048008)
 #define XOSC_STARTUP (*(volatile uint32_t *)0x4004800c)
 #define XOSC_COUNT (*(volatile uint32_t *)0x40048010)
-#define XOSC_XOR_CTRL (*(volatile uint32_t *)0x40049000)
-#define XOSC_XOR_STATUS (*(volatile uint32_t *)0x40049004)
-#define XOSC_XOR_DORMANT (*(volatile uint32_t *)0x40049008)
-#define XOSC_XOR_STARTUP (*(volatile uint32_t *)0x4004900c)
-#define XOSC_XOR_COUNT (*(volatile uint32_t *)0x40049010)
-#define XOSC_SET_CTRL (*(volatile uint32_t *)0x4004a000)
-#define XOSC_SET_STATUS (*(volatile uint32_t *)0x4004a004)
-#define XOSC_SET_DORMANT (*(volatile uint32_t *)0x4004a008)
-#define XOSC_SET_STARTUP (*(volatile uint32_t *)0x4004a00c)
-#define XOSC_SET_COUNT (*(volatile uint32_t *)0x4004a010)
-#define XOSC_CLR_CTRL (*(volatile uint32_t *)0x4004b000)
-#define XOSC_CLR_STATUS (*(volatile uint32_t *)0x4004b004)
-#define XOSC_CLR_DORMANT (*(volatile uint32_t *)0x4004b008)
-#define XOSC_CLR_STARTUP (*(volatile uint32_t *)0x4004b00c)
-#define XOSC_CLR_COUNT (*(volatile uint32_t *)0x4004b010)
+#define XOSC_CTRL_XOR (*(volatile uint32_t *)0x40049000)
+#define XOSC_STATUS_XOR (*(volatile uint32_t *)0x40049004)
+#define XOSC_DORMANT_XOR (*(volatile uint32_t *)0x40049008)
+#define XOSC_STARTUP_XOR (*(volatile uint32_t *)0x4004900c)
+#define XOSC_COUNT_XOR (*(volatile uint32_t *)0x40049010)
+#define XOSC_CTRL_SET (*(volatile uint32_t *)0x4004a000)
+#define XOSC_STATUS_SET (*(volatile uint32_t *)0x4004a004)
+#define XOSC_DORMANT_SET (*(volatile uint32_t *)0x4004a008)
+#define XOSC_STARTUP_SET (*(volatile uint32_t *)0x4004a00c)
+#define XOSC_COUNT_SET (*(volatile uint32_t *)0x4004a010)
+#define XOSC_CTRL_CLR (*(volatile uint32_t *)0x4004b000)
+#define XOSC_STATUS_CLR (*(volatile uint32_t *)0x4004b004)
+#define XOSC_DORMANT_CLR (*(volatile uint32_t *)0x4004b008)
+#define XOSC_STARTUP_CLR (*(volatile uint32_t *)0x4004b00c)
+#define XOSC_COUNT_CLR (*(volatile uint32_t *)0x4004b010)
 
 /*CTRL Register macros*/
 

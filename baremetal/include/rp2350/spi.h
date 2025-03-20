@@ -50,63 +50,63 @@ typedef struct{
 		uint32_t ssppcellid1;
 		uint32_t ssppcellid2;
 		uint32_t ssppcellid3;
-		uint32_t xor_sspcr0;
-		uint32_t xor_sspcr1;
-		uint32_t xor_sspdr;
-		uint32_t xor_sspsr;
-		uint32_t xor_sspcpsr;
-		uint32_t xor_sspimsc;
-		uint32_t xor_sspris;
-		uint32_t xor_sspmis;
-		uint32_t xor_sspicr;
-		uint32_t xor_sspdmacr;
+		uint32_t sspcr0_xor;
+		uint32_t sspcr1_xor;
+		uint32_t sspdr_xor;
+		uint32_t sspsr_xor;
+		uint32_t sspcpsr_xor;
+		uint32_t sspimsc_xor;
+		uint32_t sspris_xor;
+		uint32_t sspmis_xor;
+		uint32_t sspicr_xor;
+		uint32_t sspdmacr_xor;
 		uint32_t RSVDxor_0[1006];
-		uint32_t xor_sspperiphid0;
-		uint32_t xor_sspperiphid1;
-		uint32_t xor_sspperiphid2;
-		uint32_t xor_sspperiphid3;
-		uint32_t xor_ssppcellid0;
-		uint32_t xor_ssppcellid1;
-		uint32_t xor_ssppcellid2;
-		uint32_t xor_ssppcellid3;
-		uint32_t set_sspcr0;
-		uint32_t set_sspcr1;
-		uint32_t set_sspdr;
-		uint32_t set_sspsr;
-		uint32_t set_sspcpsr;
-		uint32_t set_sspimsc;
-		uint32_t set_sspris;
-		uint32_t set_sspmis;
-		uint32_t set_sspicr;
-		uint32_t set_sspdmacr;
+		uint32_t sspperiphid0_xor;
+		uint32_t sspperiphid1_xor;
+		uint32_t sspperiphid2_xor;
+		uint32_t sspperiphid3_xor;
+		uint32_t ssppcellid0_xor;
+		uint32_t ssppcellid1_xor;
+		uint32_t ssppcellid2_xor;
+		uint32_t ssppcellid3_xor;
+		uint32_t sspcr0_set;
+		uint32_t sspcr1_set;
+		uint32_t sspdr_set;
+		uint32_t sspsr_set;
+		uint32_t sspcpsr_set;
+		uint32_t sspimsc_set;
+		uint32_t sspris_set;
+		uint32_t sspmis_set;
+		uint32_t sspicr_set;
+		uint32_t sspdmacr_set;
 		uint32_t RSVDset_0[1006];
-		uint32_t set_sspperiphid0;
-		uint32_t set_sspperiphid1;
-		uint32_t set_sspperiphid2;
-		uint32_t set_sspperiphid3;
-		uint32_t set_ssppcellid0;
-		uint32_t set_ssppcellid1;
-		uint32_t set_ssppcellid2;
-		uint32_t set_ssppcellid3;
-		uint32_t clr_sspcr0;
-		uint32_t clr_sspcr1;
-		uint32_t clr_sspdr;
-		uint32_t clr_sspsr;
-		uint32_t clr_sspcpsr;
-		uint32_t clr_sspimsc;
-		uint32_t clr_sspris;
-		uint32_t clr_sspmis;
-		uint32_t clr_sspicr;
-		uint32_t clr_sspdmacr;
+		uint32_t sspperiphid0_set;
+		uint32_t sspperiphid1_set;
+		uint32_t sspperiphid2_set;
+		uint32_t sspperiphid3_set;
+		uint32_t ssppcellid0_set;
+		uint32_t ssppcellid1_set;
+		uint32_t ssppcellid2_set;
+		uint32_t ssppcellid3_set;
+		uint32_t sspcr0_clr;
+		uint32_t sspcr1_clr;
+		uint32_t sspdr_clr;
+		uint32_t sspsr_clr;
+		uint32_t sspcpsr_clr;
+		uint32_t sspimsc_clr;
+		uint32_t sspris_clr;
+		uint32_t sspmis_clr;
+		uint32_t sspicr_clr;
+		uint32_t sspdmacr_clr;
 		uint32_t RSVDclr_0[1006];
-		uint32_t clr_sspperiphid0;
-		uint32_t clr_sspperiphid1;
-		uint32_t clr_sspperiphid2;
-		uint32_t clr_sspperiphid3;
-		uint32_t clr_ssppcellid0;
-		uint32_t clr_ssppcellid1;
-		uint32_t clr_ssppcellid2;
-		uint32_t clr_ssppcellid3;
+		uint32_t sspperiphid0_clr;
+		uint32_t sspperiphid1_clr;
+		uint32_t sspperiphid2_clr;
+		uint32_t sspperiphid3_clr;
+		uint32_t ssppcellid0_clr;
+		uint32_t ssppcellid1_clr;
+		uint32_t ssppcellid2_clr;
+		uint32_t ssppcellid3_clr;
 } SPI0_REG_BLOCKS;
 typedef struct{
 		uint32_t sspcr0;
@@ -128,63 +128,63 @@ typedef struct{
 		uint32_t ssppcellid1;
 		uint32_t ssppcellid2;
 		uint32_t ssppcellid3;
-		uint32_t xor_sspcr0;
-		uint32_t xor_sspcr1;
-		uint32_t xor_sspdr;
-		uint32_t xor_sspsr;
-		uint32_t xor_sspcpsr;
-		uint32_t xor_sspimsc;
-		uint32_t xor_sspris;
-		uint32_t xor_sspmis;
-		uint32_t xor_sspicr;
-		uint32_t xor_sspdmacr;
+		uint32_t sspcr0_xor;
+		uint32_t sspcr1_xor;
+		uint32_t sspdr_xor;
+		uint32_t sspsr_xor;
+		uint32_t sspcpsr_xor;
+		uint32_t sspimsc_xor;
+		uint32_t sspris_xor;
+		uint32_t sspmis_xor;
+		uint32_t sspicr_xor;
+		uint32_t sspdmacr_xor;
 		uint32_t RSVDxor_0[1006];
-		uint32_t xor_sspperiphid0;
-		uint32_t xor_sspperiphid1;
-		uint32_t xor_sspperiphid2;
-		uint32_t xor_sspperiphid3;
-		uint32_t xor_ssppcellid0;
-		uint32_t xor_ssppcellid1;
-		uint32_t xor_ssppcellid2;
-		uint32_t xor_ssppcellid3;
-		uint32_t set_sspcr0;
-		uint32_t set_sspcr1;
-		uint32_t set_sspdr;
-		uint32_t set_sspsr;
-		uint32_t set_sspcpsr;
-		uint32_t set_sspimsc;
-		uint32_t set_sspris;
-		uint32_t set_sspmis;
-		uint32_t set_sspicr;
-		uint32_t set_sspdmacr;
+		uint32_t sspperiphid0_xor;
+		uint32_t sspperiphid1_xor;
+		uint32_t sspperiphid2_xor;
+		uint32_t sspperiphid3_xor;
+		uint32_t ssppcellid0_xor;
+		uint32_t ssppcellid1_xor;
+		uint32_t ssppcellid2_xor;
+		uint32_t ssppcellid3_xor;
+		uint32_t sspcr0_set;
+		uint32_t sspcr1_set;
+		uint32_t sspdr_set;
+		uint32_t sspsr_set;
+		uint32_t sspcpsr_set;
+		uint32_t sspimsc_set;
+		uint32_t sspris_set;
+		uint32_t sspmis_set;
+		uint32_t sspicr_set;
+		uint32_t sspdmacr_set;
 		uint32_t RSVDset_0[1006];
-		uint32_t set_sspperiphid0;
-		uint32_t set_sspperiphid1;
-		uint32_t set_sspperiphid2;
-		uint32_t set_sspperiphid3;
-		uint32_t set_ssppcellid0;
-		uint32_t set_ssppcellid1;
-		uint32_t set_ssppcellid2;
-		uint32_t set_ssppcellid3;
-		uint32_t clr_sspcr0;
-		uint32_t clr_sspcr1;
-		uint32_t clr_sspdr;
-		uint32_t clr_sspsr;
-		uint32_t clr_sspcpsr;
-		uint32_t clr_sspimsc;
-		uint32_t clr_sspris;
-		uint32_t clr_sspmis;
-		uint32_t clr_sspicr;
-		uint32_t clr_sspdmacr;
+		uint32_t sspperiphid0_set;
+		uint32_t sspperiphid1_set;
+		uint32_t sspperiphid2_set;
+		uint32_t sspperiphid3_set;
+		uint32_t ssppcellid0_set;
+		uint32_t ssppcellid1_set;
+		uint32_t ssppcellid2_set;
+		uint32_t ssppcellid3_set;
+		uint32_t sspcr0_clr;
+		uint32_t sspcr1_clr;
+		uint32_t sspdr_clr;
+		uint32_t sspsr_clr;
+		uint32_t sspcpsr_clr;
+		uint32_t sspimsc_clr;
+		uint32_t sspris_clr;
+		uint32_t sspmis_clr;
+		uint32_t sspicr_clr;
+		uint32_t sspdmacr_clr;
 		uint32_t RSVDclr_0[1006];
-		uint32_t clr_sspperiphid0;
-		uint32_t clr_sspperiphid1;
-		uint32_t clr_sspperiphid2;
-		uint32_t clr_sspperiphid3;
-		uint32_t clr_ssppcellid0;
-		uint32_t clr_ssppcellid1;
-		uint32_t clr_ssppcellid2;
-		uint32_t clr_ssppcellid3;
+		uint32_t sspperiphid0_clr;
+		uint32_t sspperiphid1_clr;
+		uint32_t sspperiphid2_clr;
+		uint32_t sspperiphid3_clr;
+		uint32_t ssppcellid0_clr;
+		uint32_t ssppcellid1_clr;
+		uint32_t ssppcellid2_clr;
+		uint32_t ssppcellid3_clr;
 } SPI1_REG_BLOCKS;
 
 
@@ -217,60 +217,60 @@ typedef struct{
 #define SPI0_SSPPCELLID1 (*(volatile uint32_t *)0x40080ff4)
 #define SPI0_SSPPCELLID2 (*(volatile uint32_t *)0x40080ff8)
 #define SPI0_SSPPCELLID3 (*(volatile uint32_t *)0x40080ffc)
-#define SPI0_XOR_SSPCR0 (*(volatile uint32_t *)0x40081000)
-#define SPI0_XOR_SSPCR1 (*(volatile uint32_t *)0x40081004)
-#define SPI0_XOR_SSPDR (*(volatile uint32_t *)0x40081008)
-#define SPI0_XOR_SSPSR (*(volatile uint32_t *)0x4008100c)
-#define SPI0_XOR_SSPCPSR (*(volatile uint32_t *)0x40081010)
-#define SPI0_XOR_SSPIMSC (*(volatile uint32_t *)0x40081014)
-#define SPI0_XOR_SSPRIS (*(volatile uint32_t *)0x40081018)
-#define SPI0_XOR_SSPMIS (*(volatile uint32_t *)0x4008101c)
-#define SPI0_XOR_SSPICR (*(volatile uint32_t *)0x40081020)
-#define SPI0_XOR_SSPDMACR (*(volatile uint32_t *)0x40081024)
-#define SPI0_XOR_SSPPERIPHID0 (*(volatile uint32_t *)0x40081fe0)
-#define SPI0_XOR_SSPPERIPHID1 (*(volatile uint32_t *)0x40081fe4)
-#define SPI0_XOR_SSPPERIPHID2 (*(volatile uint32_t *)0x40081fe8)
-#define SPI0_XOR_SSPPERIPHID3 (*(volatile uint32_t *)0x40081fec)
-#define SPI0_XOR_SSPPCELLID0 (*(volatile uint32_t *)0x40081ff0)
-#define SPI0_XOR_SSPPCELLID1 (*(volatile uint32_t *)0x40081ff4)
-#define SPI0_XOR_SSPPCELLID2 (*(volatile uint32_t *)0x40081ff8)
-#define SPI0_XOR_SSPPCELLID3 (*(volatile uint32_t *)0x40081ffc)
-#define SPI0_SET_SSPCR0 (*(volatile uint32_t *)0x40082000)
-#define SPI0_SET_SSPCR1 (*(volatile uint32_t *)0x40082004)
-#define SPI0_SET_SSPDR (*(volatile uint32_t *)0x40082008)
-#define SPI0_SET_SSPSR (*(volatile uint32_t *)0x4008200c)
-#define SPI0_SET_SSPCPSR (*(volatile uint32_t *)0x40082010)
-#define SPI0_SET_SSPIMSC (*(volatile uint32_t *)0x40082014)
-#define SPI0_SET_SSPRIS (*(volatile uint32_t *)0x40082018)
-#define SPI0_SET_SSPMIS (*(volatile uint32_t *)0x4008201c)
-#define SPI0_SET_SSPICR (*(volatile uint32_t *)0x40082020)
-#define SPI0_SET_SSPDMACR (*(volatile uint32_t *)0x40082024)
-#define SPI0_SET_SSPPERIPHID0 (*(volatile uint32_t *)0x40082fe0)
-#define SPI0_SET_SSPPERIPHID1 (*(volatile uint32_t *)0x40082fe4)
-#define SPI0_SET_SSPPERIPHID2 (*(volatile uint32_t *)0x40082fe8)
-#define SPI0_SET_SSPPERIPHID3 (*(volatile uint32_t *)0x40082fec)
-#define SPI0_SET_SSPPCELLID0 (*(volatile uint32_t *)0x40082ff0)
-#define SPI0_SET_SSPPCELLID1 (*(volatile uint32_t *)0x40082ff4)
-#define SPI0_SET_SSPPCELLID2 (*(volatile uint32_t *)0x40082ff8)
-#define SPI0_SET_SSPPCELLID3 (*(volatile uint32_t *)0x40082ffc)
-#define SPI0_CLR_SSPCR0 (*(volatile uint32_t *)0x40083000)
-#define SPI0_CLR_SSPCR1 (*(volatile uint32_t *)0x40083004)
-#define SPI0_CLR_SSPDR (*(volatile uint32_t *)0x40083008)
-#define SPI0_CLR_SSPSR (*(volatile uint32_t *)0x4008300c)
-#define SPI0_CLR_SSPCPSR (*(volatile uint32_t *)0x40083010)
-#define SPI0_CLR_SSPIMSC (*(volatile uint32_t *)0x40083014)
-#define SPI0_CLR_SSPRIS (*(volatile uint32_t *)0x40083018)
-#define SPI0_CLR_SSPMIS (*(volatile uint32_t *)0x4008301c)
-#define SPI0_CLR_SSPICR (*(volatile uint32_t *)0x40083020)
-#define SPI0_CLR_SSPDMACR (*(volatile uint32_t *)0x40083024)
-#define SPI0_CLR_SSPPERIPHID0 (*(volatile uint32_t *)0x40083fe0)
-#define SPI0_CLR_SSPPERIPHID1 (*(volatile uint32_t *)0x40083fe4)
-#define SPI0_CLR_SSPPERIPHID2 (*(volatile uint32_t *)0x40083fe8)
-#define SPI0_CLR_SSPPERIPHID3 (*(volatile uint32_t *)0x40083fec)
-#define SPI0_CLR_SSPPCELLID0 (*(volatile uint32_t *)0x40083ff0)
-#define SPI0_CLR_SSPPCELLID1 (*(volatile uint32_t *)0x40083ff4)
-#define SPI0_CLR_SSPPCELLID2 (*(volatile uint32_t *)0x40083ff8)
-#define SPI0_CLR_SSPPCELLID3 (*(volatile uint32_t *)0x40083ffc)
+#define SPI0_SSPCR0_XOR (*(volatile uint32_t *)0x40081000)
+#define SPI0_SSPCR1_XOR (*(volatile uint32_t *)0x40081004)
+#define SPI0_SSPDR_XOR (*(volatile uint32_t *)0x40081008)
+#define SPI0_SSPSR_XOR (*(volatile uint32_t *)0x4008100c)
+#define SPI0_SSPCPSR_XOR (*(volatile uint32_t *)0x40081010)
+#define SPI0_SSPIMSC_XOR (*(volatile uint32_t *)0x40081014)
+#define SPI0_SSPRIS_XOR (*(volatile uint32_t *)0x40081018)
+#define SPI0_SSPMIS_XOR (*(volatile uint32_t *)0x4008101c)
+#define SPI0_SSPICR_XOR (*(volatile uint32_t *)0x40081020)
+#define SPI0_SSPDMACR_XOR (*(volatile uint32_t *)0x40081024)
+#define SPI0_SSPPERIPHID0_XOR (*(volatile uint32_t *)0x40081fe0)
+#define SPI0_SSPPERIPHID1_XOR (*(volatile uint32_t *)0x40081fe4)
+#define SPI0_SSPPERIPHID2_XOR (*(volatile uint32_t *)0x40081fe8)
+#define SPI0_SSPPERIPHID3_XOR (*(volatile uint32_t *)0x40081fec)
+#define SPI0_SSPPCELLID0_XOR (*(volatile uint32_t *)0x40081ff0)
+#define SPI0_SSPPCELLID1_XOR (*(volatile uint32_t *)0x40081ff4)
+#define SPI0_SSPPCELLID2_XOR (*(volatile uint32_t *)0x40081ff8)
+#define SPI0_SSPPCELLID3_XOR (*(volatile uint32_t *)0x40081ffc)
+#define SPI0_SSPCR0_SET (*(volatile uint32_t *)0x40082000)
+#define SPI0_SSPCR1_SET (*(volatile uint32_t *)0x40082004)
+#define SPI0_SSPDR_SET (*(volatile uint32_t *)0x40082008)
+#define SPI0_SSPSR_SET (*(volatile uint32_t *)0x4008200c)
+#define SPI0_SSPCPSR_SET (*(volatile uint32_t *)0x40082010)
+#define SPI0_SSPIMSC_SET (*(volatile uint32_t *)0x40082014)
+#define SPI0_SSPRIS_SET (*(volatile uint32_t *)0x40082018)
+#define SPI0_SSPMIS_SET (*(volatile uint32_t *)0x4008201c)
+#define SPI0_SSPICR_SET (*(volatile uint32_t *)0x40082020)
+#define SPI0_SSPDMACR_SET (*(volatile uint32_t *)0x40082024)
+#define SPI0_SSPPERIPHID0_SET (*(volatile uint32_t *)0x40082fe0)
+#define SPI0_SSPPERIPHID1_SET (*(volatile uint32_t *)0x40082fe4)
+#define SPI0_SSPPERIPHID2_SET (*(volatile uint32_t *)0x40082fe8)
+#define SPI0_SSPPERIPHID3_SET (*(volatile uint32_t *)0x40082fec)
+#define SPI0_SSPPCELLID0_SET (*(volatile uint32_t *)0x40082ff0)
+#define SPI0_SSPPCELLID1_SET (*(volatile uint32_t *)0x40082ff4)
+#define SPI0_SSPPCELLID2_SET (*(volatile uint32_t *)0x40082ff8)
+#define SPI0_SSPPCELLID3_SET (*(volatile uint32_t *)0x40082ffc)
+#define SPI0_SSPCR0_CLR (*(volatile uint32_t *)0x40083000)
+#define SPI0_SSPCR1_CLR (*(volatile uint32_t *)0x40083004)
+#define SPI0_SSPDR_CLR (*(volatile uint32_t *)0x40083008)
+#define SPI0_SSPSR_CLR (*(volatile uint32_t *)0x4008300c)
+#define SPI0_SSPCPSR_CLR (*(volatile uint32_t *)0x40083010)
+#define SPI0_SSPIMSC_CLR (*(volatile uint32_t *)0x40083014)
+#define SPI0_SSPRIS_CLR (*(volatile uint32_t *)0x40083018)
+#define SPI0_SSPMIS_CLR (*(volatile uint32_t *)0x4008301c)
+#define SPI0_SSPICR_CLR (*(volatile uint32_t *)0x40083020)
+#define SPI0_SSPDMACR_CLR (*(volatile uint32_t *)0x40083024)
+#define SPI0_SSPPERIPHID0_CLR (*(volatile uint32_t *)0x40083fe0)
+#define SPI0_SSPPERIPHID1_CLR (*(volatile uint32_t *)0x40083fe4)
+#define SPI0_SSPPERIPHID2_CLR (*(volatile uint32_t *)0x40083fe8)
+#define SPI0_SSPPERIPHID3_CLR (*(volatile uint32_t *)0x40083fec)
+#define SPI0_SSPPCELLID0_CLR (*(volatile uint32_t *)0x40083ff0)
+#define SPI0_SSPPCELLID1_CLR (*(volatile uint32_t *)0x40083ff4)
+#define SPI0_SSPPCELLID2_CLR (*(volatile uint32_t *)0x40083ff8)
+#define SPI0_SSPPCELLID3_CLR (*(volatile uint32_t *)0x40083ffc)
 #define SPI1_SSPCR0 (*(volatile uint32_t *)0x40088000)
 #define SPI1_SSPCR1 (*(volatile uint32_t *)0x40088004)
 #define SPI1_SSPDR (*(volatile uint32_t *)0x40088008)
@@ -289,60 +289,60 @@ typedef struct{
 #define SPI1_SSPPCELLID1 (*(volatile uint32_t *)0x40088ff4)
 #define SPI1_SSPPCELLID2 (*(volatile uint32_t *)0x40088ff8)
 #define SPI1_SSPPCELLID3 (*(volatile uint32_t *)0x40088ffc)
-#define SPI1_XOR_SSPCR0 (*(volatile uint32_t *)0x40089000)
-#define SPI1_XOR_SSPCR1 (*(volatile uint32_t *)0x40089004)
-#define SPI1_XOR_SSPDR (*(volatile uint32_t *)0x40089008)
-#define SPI1_XOR_SSPSR (*(volatile uint32_t *)0x4008900c)
-#define SPI1_XOR_SSPCPSR (*(volatile uint32_t *)0x40089010)
-#define SPI1_XOR_SSPIMSC (*(volatile uint32_t *)0x40089014)
-#define SPI1_XOR_SSPRIS (*(volatile uint32_t *)0x40089018)
-#define SPI1_XOR_SSPMIS (*(volatile uint32_t *)0x4008901c)
-#define SPI1_XOR_SSPICR (*(volatile uint32_t *)0x40089020)
-#define SPI1_XOR_SSPDMACR (*(volatile uint32_t *)0x40089024)
-#define SPI1_XOR_SSPPERIPHID0 (*(volatile uint32_t *)0x40089fe0)
-#define SPI1_XOR_SSPPERIPHID1 (*(volatile uint32_t *)0x40089fe4)
-#define SPI1_XOR_SSPPERIPHID2 (*(volatile uint32_t *)0x40089fe8)
-#define SPI1_XOR_SSPPERIPHID3 (*(volatile uint32_t *)0x40089fec)
-#define SPI1_XOR_SSPPCELLID0 (*(volatile uint32_t *)0x40089ff0)
-#define SPI1_XOR_SSPPCELLID1 (*(volatile uint32_t *)0x40089ff4)
-#define SPI1_XOR_SSPPCELLID2 (*(volatile uint32_t *)0x40089ff8)
-#define SPI1_XOR_SSPPCELLID3 (*(volatile uint32_t *)0x40089ffc)
-#define SPI1_SET_SSPCR0 (*(volatile uint32_t *)0x4008a000)
-#define SPI1_SET_SSPCR1 (*(volatile uint32_t *)0x4008a004)
-#define SPI1_SET_SSPDR (*(volatile uint32_t *)0x4008a008)
-#define SPI1_SET_SSPSR (*(volatile uint32_t *)0x4008a00c)
-#define SPI1_SET_SSPCPSR (*(volatile uint32_t *)0x4008a010)
-#define SPI1_SET_SSPIMSC (*(volatile uint32_t *)0x4008a014)
-#define SPI1_SET_SSPRIS (*(volatile uint32_t *)0x4008a018)
-#define SPI1_SET_SSPMIS (*(volatile uint32_t *)0x4008a01c)
-#define SPI1_SET_SSPICR (*(volatile uint32_t *)0x4008a020)
-#define SPI1_SET_SSPDMACR (*(volatile uint32_t *)0x4008a024)
-#define SPI1_SET_SSPPERIPHID0 (*(volatile uint32_t *)0x4008afe0)
-#define SPI1_SET_SSPPERIPHID1 (*(volatile uint32_t *)0x4008afe4)
-#define SPI1_SET_SSPPERIPHID2 (*(volatile uint32_t *)0x4008afe8)
-#define SPI1_SET_SSPPERIPHID3 (*(volatile uint32_t *)0x4008afec)
-#define SPI1_SET_SSPPCELLID0 (*(volatile uint32_t *)0x4008aff0)
-#define SPI1_SET_SSPPCELLID1 (*(volatile uint32_t *)0x4008aff4)
-#define SPI1_SET_SSPPCELLID2 (*(volatile uint32_t *)0x4008aff8)
-#define SPI1_SET_SSPPCELLID3 (*(volatile uint32_t *)0x4008affc)
-#define SPI1_CLR_SSPCR0 (*(volatile uint32_t *)0x4008b000)
-#define SPI1_CLR_SSPCR1 (*(volatile uint32_t *)0x4008b004)
-#define SPI1_CLR_SSPDR (*(volatile uint32_t *)0x4008b008)
-#define SPI1_CLR_SSPSR (*(volatile uint32_t *)0x4008b00c)
-#define SPI1_CLR_SSPCPSR (*(volatile uint32_t *)0x4008b010)
-#define SPI1_CLR_SSPIMSC (*(volatile uint32_t *)0x4008b014)
-#define SPI1_CLR_SSPRIS (*(volatile uint32_t *)0x4008b018)
-#define SPI1_CLR_SSPMIS (*(volatile uint32_t *)0x4008b01c)
-#define SPI1_CLR_SSPICR (*(volatile uint32_t *)0x4008b020)
-#define SPI1_CLR_SSPDMACR (*(volatile uint32_t *)0x4008b024)
-#define SPI1_CLR_SSPPERIPHID0 (*(volatile uint32_t *)0x4008bfe0)
-#define SPI1_CLR_SSPPERIPHID1 (*(volatile uint32_t *)0x4008bfe4)
-#define SPI1_CLR_SSPPERIPHID2 (*(volatile uint32_t *)0x4008bfe8)
-#define SPI1_CLR_SSPPERIPHID3 (*(volatile uint32_t *)0x4008bfec)
-#define SPI1_CLR_SSPPCELLID0 (*(volatile uint32_t *)0x4008bff0)
-#define SPI1_CLR_SSPPCELLID1 (*(volatile uint32_t *)0x4008bff4)
-#define SPI1_CLR_SSPPCELLID2 (*(volatile uint32_t *)0x4008bff8)
-#define SPI1_CLR_SSPPCELLID3 (*(volatile uint32_t *)0x4008bffc)
+#define SPI1_SSPCR0_XOR (*(volatile uint32_t *)0x40089000)
+#define SPI1_SSPCR1_XOR (*(volatile uint32_t *)0x40089004)
+#define SPI1_SSPDR_XOR (*(volatile uint32_t *)0x40089008)
+#define SPI1_SSPSR_XOR (*(volatile uint32_t *)0x4008900c)
+#define SPI1_SSPCPSR_XOR (*(volatile uint32_t *)0x40089010)
+#define SPI1_SSPIMSC_XOR (*(volatile uint32_t *)0x40089014)
+#define SPI1_SSPRIS_XOR (*(volatile uint32_t *)0x40089018)
+#define SPI1_SSPMIS_XOR (*(volatile uint32_t *)0x4008901c)
+#define SPI1_SSPICR_XOR (*(volatile uint32_t *)0x40089020)
+#define SPI1_SSPDMACR_XOR (*(volatile uint32_t *)0x40089024)
+#define SPI1_SSPPERIPHID0_XOR (*(volatile uint32_t *)0x40089fe0)
+#define SPI1_SSPPERIPHID1_XOR (*(volatile uint32_t *)0x40089fe4)
+#define SPI1_SSPPERIPHID2_XOR (*(volatile uint32_t *)0x40089fe8)
+#define SPI1_SSPPERIPHID3_XOR (*(volatile uint32_t *)0x40089fec)
+#define SPI1_SSPPCELLID0_XOR (*(volatile uint32_t *)0x40089ff0)
+#define SPI1_SSPPCELLID1_XOR (*(volatile uint32_t *)0x40089ff4)
+#define SPI1_SSPPCELLID2_XOR (*(volatile uint32_t *)0x40089ff8)
+#define SPI1_SSPPCELLID3_XOR (*(volatile uint32_t *)0x40089ffc)
+#define SPI1_SSPCR0_SET (*(volatile uint32_t *)0x4008a000)
+#define SPI1_SSPCR1_SET (*(volatile uint32_t *)0x4008a004)
+#define SPI1_SSPDR_SET (*(volatile uint32_t *)0x4008a008)
+#define SPI1_SSPSR_SET (*(volatile uint32_t *)0x4008a00c)
+#define SPI1_SSPCPSR_SET (*(volatile uint32_t *)0x4008a010)
+#define SPI1_SSPIMSC_SET (*(volatile uint32_t *)0x4008a014)
+#define SPI1_SSPRIS_SET (*(volatile uint32_t *)0x4008a018)
+#define SPI1_SSPMIS_SET (*(volatile uint32_t *)0x4008a01c)
+#define SPI1_SSPICR_SET (*(volatile uint32_t *)0x4008a020)
+#define SPI1_SSPDMACR_SET (*(volatile uint32_t *)0x4008a024)
+#define SPI1_SSPPERIPHID0_SET (*(volatile uint32_t *)0x4008afe0)
+#define SPI1_SSPPERIPHID1_SET (*(volatile uint32_t *)0x4008afe4)
+#define SPI1_SSPPERIPHID2_SET (*(volatile uint32_t *)0x4008afe8)
+#define SPI1_SSPPERIPHID3_SET (*(volatile uint32_t *)0x4008afec)
+#define SPI1_SSPPCELLID0_SET (*(volatile uint32_t *)0x4008aff0)
+#define SPI1_SSPPCELLID1_SET (*(volatile uint32_t *)0x4008aff4)
+#define SPI1_SSPPCELLID2_SET (*(volatile uint32_t *)0x4008aff8)
+#define SPI1_SSPPCELLID3_SET (*(volatile uint32_t *)0x4008affc)
+#define SPI1_SSPCR0_CLR (*(volatile uint32_t *)0x4008b000)
+#define SPI1_SSPCR1_CLR (*(volatile uint32_t *)0x4008b004)
+#define SPI1_SSPDR_CLR (*(volatile uint32_t *)0x4008b008)
+#define SPI1_SSPSR_CLR (*(volatile uint32_t *)0x4008b00c)
+#define SPI1_SSPCPSR_CLR (*(volatile uint32_t *)0x4008b010)
+#define SPI1_SSPIMSC_CLR (*(volatile uint32_t *)0x4008b014)
+#define SPI1_SSPRIS_CLR (*(volatile uint32_t *)0x4008b018)
+#define SPI1_SSPMIS_CLR (*(volatile uint32_t *)0x4008b01c)
+#define SPI1_SSPICR_CLR (*(volatile uint32_t *)0x4008b020)
+#define SPI1_SSPDMACR_CLR (*(volatile uint32_t *)0x4008b024)
+#define SPI1_SSPPERIPHID0_CLR (*(volatile uint32_t *)0x4008bfe0)
+#define SPI1_SSPPERIPHID1_CLR (*(volatile uint32_t *)0x4008bfe4)
+#define SPI1_SSPPERIPHID2_CLR (*(volatile uint32_t *)0x4008bfe8)
+#define SPI1_SSPPERIPHID3_CLR (*(volatile uint32_t *)0x4008bfec)
+#define SPI1_SSPPCELLID0_CLR (*(volatile uint32_t *)0x4008bff0)
+#define SPI1_SSPPCELLID1_CLR (*(volatile uint32_t *)0x4008bff4)
+#define SPI1_SSPPCELLID2_CLR (*(volatile uint32_t *)0x4008bff8)
+#define SPI1_SSPPCELLID3_CLR (*(volatile uint32_t *)0x4008bffc)
 
 /*SSPCR0 Register macros*/
 

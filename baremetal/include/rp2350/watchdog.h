@@ -43,41 +43,41 @@ typedef struct{
 		uint32_t scratch6;
 		uint32_t scratch7;
 		uint32_t RSVD0[1013];
-		uint32_t xor_ctrl;
-		uint32_t xor_load;
-		uint32_t xor_reason;
-		uint32_t xor_scratch0;
-		uint32_t xor_scratch1;
-		uint32_t xor_scratch2;
-		uint32_t xor_scratch3;
-		uint32_t xor_scratch4;
-		uint32_t xor_scratch5;
-		uint32_t xor_scratch6;
-		uint32_t xor_scratch7;
+		uint32_t ctrl_xor;
+		uint32_t load_xor;
+		uint32_t reason_xor;
+		uint32_t scratch0_xor;
+		uint32_t scratch1_xor;
+		uint32_t scratch2_xor;
+		uint32_t scratch3_xor;
+		uint32_t scratch4_xor;
+		uint32_t scratch5_xor;
+		uint32_t scratch6_xor;
+		uint32_t scratch7_xor;
 		uint32_t RSVDxor_0[1013];
-		uint32_t set_ctrl;
-		uint32_t set_load;
-		uint32_t set_reason;
-		uint32_t set_scratch0;
-		uint32_t set_scratch1;
-		uint32_t set_scratch2;
-		uint32_t set_scratch3;
-		uint32_t set_scratch4;
-		uint32_t set_scratch5;
-		uint32_t set_scratch6;
-		uint32_t set_scratch7;
+		uint32_t ctrl_set;
+		uint32_t load_set;
+		uint32_t reason_set;
+		uint32_t scratch0_set;
+		uint32_t scratch1_set;
+		uint32_t scratch2_set;
+		uint32_t scratch3_set;
+		uint32_t scratch4_set;
+		uint32_t scratch5_set;
+		uint32_t scratch6_set;
+		uint32_t scratch7_set;
 		uint32_t RSVDset_0[1013];
-		uint32_t clr_ctrl;
-		uint32_t clr_load;
-		uint32_t clr_reason;
-		uint32_t clr_scratch0;
-		uint32_t clr_scratch1;
-		uint32_t clr_scratch2;
-		uint32_t clr_scratch3;
-		uint32_t clr_scratch4;
-		uint32_t clr_scratch5;
-		uint32_t clr_scratch6;
-		uint32_t clr_scratch7;
+		uint32_t ctrl_clr;
+		uint32_t load_clr;
+		uint32_t reason_clr;
+		uint32_t scratch0_clr;
+		uint32_t scratch1_clr;
+		uint32_t scratch2_clr;
+		uint32_t scratch3_clr;
+		uint32_t scratch4_clr;
+		uint32_t scratch5_clr;
+		uint32_t scratch6_clr;
+		uint32_t scratch7_clr;
 		uint32_t RSVDclr_0[1013];
 } WATCHDOG_REG_BLOCKS;
 
@@ -100,39 +100,39 @@ typedef struct{
 #define WATCHDOG_SCRATCH5 (*(volatile uint32_t *)0x400d8020)
 #define WATCHDOG_SCRATCH6 (*(volatile uint32_t *)0x400d8024)
 #define WATCHDOG_SCRATCH7 (*(volatile uint32_t *)0x400d8028)
-#define WATCHDOG_XOR_CTRL (*(volatile uint32_t *)0x400d9000)
-#define WATCHDOG_XOR_LOAD (*(volatile uint32_t *)0x400d9004)
-#define WATCHDOG_XOR_REASON (*(volatile uint32_t *)0x400d9008)
-#define WATCHDOG_XOR_SCRATCH0 (*(volatile uint32_t *)0x400d900c)
-#define WATCHDOG_XOR_SCRATCH1 (*(volatile uint32_t *)0x400d9010)
-#define WATCHDOG_XOR_SCRATCH2 (*(volatile uint32_t *)0x400d9014)
-#define WATCHDOG_XOR_SCRATCH3 (*(volatile uint32_t *)0x400d9018)
-#define WATCHDOG_XOR_SCRATCH4 (*(volatile uint32_t *)0x400d901c)
-#define WATCHDOG_XOR_SCRATCH5 (*(volatile uint32_t *)0x400d9020)
-#define WATCHDOG_XOR_SCRATCH6 (*(volatile uint32_t *)0x400d9024)
-#define WATCHDOG_XOR_SCRATCH7 (*(volatile uint32_t *)0x400d9028)
-#define WATCHDOG_SET_CTRL (*(volatile uint32_t *)0x400da000)
-#define WATCHDOG_SET_LOAD (*(volatile uint32_t *)0x400da004)
-#define WATCHDOG_SET_REASON (*(volatile uint32_t *)0x400da008)
-#define WATCHDOG_SET_SCRATCH0 (*(volatile uint32_t *)0x400da00c)
-#define WATCHDOG_SET_SCRATCH1 (*(volatile uint32_t *)0x400da010)
-#define WATCHDOG_SET_SCRATCH2 (*(volatile uint32_t *)0x400da014)
-#define WATCHDOG_SET_SCRATCH3 (*(volatile uint32_t *)0x400da018)
-#define WATCHDOG_SET_SCRATCH4 (*(volatile uint32_t *)0x400da01c)
-#define WATCHDOG_SET_SCRATCH5 (*(volatile uint32_t *)0x400da020)
-#define WATCHDOG_SET_SCRATCH6 (*(volatile uint32_t *)0x400da024)
-#define WATCHDOG_SET_SCRATCH7 (*(volatile uint32_t *)0x400da028)
-#define WATCHDOG_CLR_CTRL (*(volatile uint32_t *)0x400db000)
-#define WATCHDOG_CLR_LOAD (*(volatile uint32_t *)0x400db004)
-#define WATCHDOG_CLR_REASON (*(volatile uint32_t *)0x400db008)
-#define WATCHDOG_CLR_SCRATCH0 (*(volatile uint32_t *)0x400db00c)
-#define WATCHDOG_CLR_SCRATCH1 (*(volatile uint32_t *)0x400db010)
-#define WATCHDOG_CLR_SCRATCH2 (*(volatile uint32_t *)0x400db014)
-#define WATCHDOG_CLR_SCRATCH3 (*(volatile uint32_t *)0x400db018)
-#define WATCHDOG_CLR_SCRATCH4 (*(volatile uint32_t *)0x400db01c)
-#define WATCHDOG_CLR_SCRATCH5 (*(volatile uint32_t *)0x400db020)
-#define WATCHDOG_CLR_SCRATCH6 (*(volatile uint32_t *)0x400db024)
-#define WATCHDOG_CLR_SCRATCH7 (*(volatile uint32_t *)0x400db028)
+#define WATCHDOG_CTRL_XOR (*(volatile uint32_t *)0x400d9000)
+#define WATCHDOG_LOAD_XOR (*(volatile uint32_t *)0x400d9004)
+#define WATCHDOG_REASON_XOR (*(volatile uint32_t *)0x400d9008)
+#define WATCHDOG_SCRATCH0_XOR (*(volatile uint32_t *)0x400d900c)
+#define WATCHDOG_SCRATCH1_XOR (*(volatile uint32_t *)0x400d9010)
+#define WATCHDOG_SCRATCH2_XOR (*(volatile uint32_t *)0x400d9014)
+#define WATCHDOG_SCRATCH3_XOR (*(volatile uint32_t *)0x400d9018)
+#define WATCHDOG_SCRATCH4_XOR (*(volatile uint32_t *)0x400d901c)
+#define WATCHDOG_SCRATCH5_XOR (*(volatile uint32_t *)0x400d9020)
+#define WATCHDOG_SCRATCH6_XOR (*(volatile uint32_t *)0x400d9024)
+#define WATCHDOG_SCRATCH7_XOR (*(volatile uint32_t *)0x400d9028)
+#define WATCHDOG_CTRL_SET (*(volatile uint32_t *)0x400da000)
+#define WATCHDOG_LOAD_SET (*(volatile uint32_t *)0x400da004)
+#define WATCHDOG_REASON_SET (*(volatile uint32_t *)0x400da008)
+#define WATCHDOG_SCRATCH0_SET (*(volatile uint32_t *)0x400da00c)
+#define WATCHDOG_SCRATCH1_SET (*(volatile uint32_t *)0x400da010)
+#define WATCHDOG_SCRATCH2_SET (*(volatile uint32_t *)0x400da014)
+#define WATCHDOG_SCRATCH3_SET (*(volatile uint32_t *)0x400da018)
+#define WATCHDOG_SCRATCH4_SET (*(volatile uint32_t *)0x400da01c)
+#define WATCHDOG_SCRATCH5_SET (*(volatile uint32_t *)0x400da020)
+#define WATCHDOG_SCRATCH6_SET (*(volatile uint32_t *)0x400da024)
+#define WATCHDOG_SCRATCH7_SET (*(volatile uint32_t *)0x400da028)
+#define WATCHDOG_CTRL_CLR (*(volatile uint32_t *)0x400db000)
+#define WATCHDOG_LOAD_CLR (*(volatile uint32_t *)0x400db004)
+#define WATCHDOG_REASON_CLR (*(volatile uint32_t *)0x400db008)
+#define WATCHDOG_SCRATCH0_CLR (*(volatile uint32_t *)0x400db00c)
+#define WATCHDOG_SCRATCH1_CLR (*(volatile uint32_t *)0x400db010)
+#define WATCHDOG_SCRATCH2_CLR (*(volatile uint32_t *)0x400db014)
+#define WATCHDOG_SCRATCH3_CLR (*(volatile uint32_t *)0x400db018)
+#define WATCHDOG_SCRATCH4_CLR (*(volatile uint32_t *)0x400db01c)
+#define WATCHDOG_SCRATCH5_CLR (*(volatile uint32_t *)0x400db020)
+#define WATCHDOG_SCRATCH6_CLR (*(volatile uint32_t *)0x400db024)
+#define WATCHDOG_SCRATCH7_CLR (*(volatile uint32_t *)0x400db028)
 
 /*CTRL Register macros*/
 

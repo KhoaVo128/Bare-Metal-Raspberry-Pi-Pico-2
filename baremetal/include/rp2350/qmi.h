@@ -53,71 +53,71 @@ typedef struct{
 		uint32_t atrans6;
 		uint32_t atrans7;
 		uint32_t RSVD0[1003];
-		uint32_t xor_direct_csr;
-		uint32_t xor_direct_tx;
-		uint32_t xor_direct_rx;
-		uint32_t xor_m0_timing;
-		uint32_t xor_m0_rfmt;
-		uint32_t xor_m0_rcmd;
-		uint32_t xor_m0_wfmt;
-		uint32_t xor_m0_wcmd;
-		uint32_t xor_m1_timing;
-		uint32_t xor_m1_rfmt;
-		uint32_t xor_m1_rcmd;
-		uint32_t xor_m1_wfmt;
-		uint32_t xor_m1_wcmd;
-		uint32_t xor_atrans0;
-		uint32_t xor_atrans1;
-		uint32_t xor_atrans2;
-		uint32_t xor_atrans3;
-		uint32_t xor_atrans4;
-		uint32_t xor_atrans5;
-		uint32_t xor_atrans6;
-		uint32_t xor_atrans7;
+		uint32_t direct_csr_xor;
+		uint32_t direct_tx_xor;
+		uint32_t direct_rx_xor;
+		uint32_t m0_timing_xor;
+		uint32_t m0_rfmt_xor;
+		uint32_t m0_rcmd_xor;
+		uint32_t m0_wfmt_xor;
+		uint32_t m0_wcmd_xor;
+		uint32_t m1_timing_xor;
+		uint32_t m1_rfmt_xor;
+		uint32_t m1_rcmd_xor;
+		uint32_t m1_wfmt_xor;
+		uint32_t m1_wcmd_xor;
+		uint32_t atrans0_xor;
+		uint32_t atrans1_xor;
+		uint32_t atrans2_xor;
+		uint32_t atrans3_xor;
+		uint32_t atrans4_xor;
+		uint32_t atrans5_xor;
+		uint32_t atrans6_xor;
+		uint32_t atrans7_xor;
 		uint32_t RSVDxor_0[1003];
-		uint32_t set_direct_csr;
-		uint32_t set_direct_tx;
-		uint32_t set_direct_rx;
-		uint32_t set_m0_timing;
-		uint32_t set_m0_rfmt;
-		uint32_t set_m0_rcmd;
-		uint32_t set_m0_wfmt;
-		uint32_t set_m0_wcmd;
-		uint32_t set_m1_timing;
-		uint32_t set_m1_rfmt;
-		uint32_t set_m1_rcmd;
-		uint32_t set_m1_wfmt;
-		uint32_t set_m1_wcmd;
-		uint32_t set_atrans0;
-		uint32_t set_atrans1;
-		uint32_t set_atrans2;
-		uint32_t set_atrans3;
-		uint32_t set_atrans4;
-		uint32_t set_atrans5;
-		uint32_t set_atrans6;
-		uint32_t set_atrans7;
+		uint32_t direct_csr_set;
+		uint32_t direct_tx_set;
+		uint32_t direct_rx_set;
+		uint32_t m0_timing_set;
+		uint32_t m0_rfmt_set;
+		uint32_t m0_rcmd_set;
+		uint32_t m0_wfmt_set;
+		uint32_t m0_wcmd_set;
+		uint32_t m1_timing_set;
+		uint32_t m1_rfmt_set;
+		uint32_t m1_rcmd_set;
+		uint32_t m1_wfmt_set;
+		uint32_t m1_wcmd_set;
+		uint32_t atrans0_set;
+		uint32_t atrans1_set;
+		uint32_t atrans2_set;
+		uint32_t atrans3_set;
+		uint32_t atrans4_set;
+		uint32_t atrans5_set;
+		uint32_t atrans6_set;
+		uint32_t atrans7_set;
 		uint32_t RSVDset_0[1003];
-		uint32_t clr_direct_csr;
-		uint32_t clr_direct_tx;
-		uint32_t clr_direct_rx;
-		uint32_t clr_m0_timing;
-		uint32_t clr_m0_rfmt;
-		uint32_t clr_m0_rcmd;
-		uint32_t clr_m0_wfmt;
-		uint32_t clr_m0_wcmd;
-		uint32_t clr_m1_timing;
-		uint32_t clr_m1_rfmt;
-		uint32_t clr_m1_rcmd;
-		uint32_t clr_m1_wfmt;
-		uint32_t clr_m1_wcmd;
-		uint32_t clr_atrans0;
-		uint32_t clr_atrans1;
-		uint32_t clr_atrans2;
-		uint32_t clr_atrans3;
-		uint32_t clr_atrans4;
-		uint32_t clr_atrans5;
-		uint32_t clr_atrans6;
-		uint32_t clr_atrans7;
+		uint32_t direct_csr_clr;
+		uint32_t direct_tx_clr;
+		uint32_t direct_rx_clr;
+		uint32_t m0_timing_clr;
+		uint32_t m0_rfmt_clr;
+		uint32_t m0_rcmd_clr;
+		uint32_t m0_wfmt_clr;
+		uint32_t m0_wcmd_clr;
+		uint32_t m1_timing_clr;
+		uint32_t m1_rfmt_clr;
+		uint32_t m1_rcmd_clr;
+		uint32_t m1_wfmt_clr;
+		uint32_t m1_wcmd_clr;
+		uint32_t atrans0_clr;
+		uint32_t atrans1_clr;
+		uint32_t atrans2_clr;
+		uint32_t atrans3_clr;
+		uint32_t atrans4_clr;
+		uint32_t atrans5_clr;
+		uint32_t atrans6_clr;
+		uint32_t atrans7_clr;
 		uint32_t RSVDclr_0[1003];
 } QMI_REG_BLOCKS;
 
@@ -150,69 +150,69 @@ typedef struct{
 #define QMI_ATRANS5 (*(volatile uint32_t *)0x400d0048)
 #define QMI_ATRANS6 (*(volatile uint32_t *)0x400d004c)
 #define QMI_ATRANS7 (*(volatile uint32_t *)0x400d0050)
-#define QMI_XOR_DIRECT_CSR (*(volatile uint32_t *)0x400d1000)
-#define QMI_XOR_DIRECT_TX (*(volatile uint32_t *)0x400d1004)
-#define QMI_XOR_DIRECT_RX (*(volatile uint32_t *)0x400d1008)
-#define QMI_XOR_M0_TIMING (*(volatile uint32_t *)0x400d100c)
-#define QMI_XOR_M0_RFMT (*(volatile uint32_t *)0x400d1010)
-#define QMI_XOR_M0_RCMD (*(volatile uint32_t *)0x400d1014)
-#define QMI_XOR_M0_WFMT (*(volatile uint32_t *)0x400d1018)
-#define QMI_XOR_M0_WCMD (*(volatile uint32_t *)0x400d101c)
-#define QMI_XOR_M1_TIMING (*(volatile uint32_t *)0x400d1020)
-#define QMI_XOR_M1_RFMT (*(volatile uint32_t *)0x400d1024)
-#define QMI_XOR_M1_RCMD (*(volatile uint32_t *)0x400d1028)
-#define QMI_XOR_M1_WFMT (*(volatile uint32_t *)0x400d102c)
-#define QMI_XOR_M1_WCMD (*(volatile uint32_t *)0x400d1030)
-#define QMI_XOR_ATRANS0 (*(volatile uint32_t *)0x400d1034)
-#define QMI_XOR_ATRANS1 (*(volatile uint32_t *)0x400d1038)
-#define QMI_XOR_ATRANS2 (*(volatile uint32_t *)0x400d103c)
-#define QMI_XOR_ATRANS3 (*(volatile uint32_t *)0x400d1040)
-#define QMI_XOR_ATRANS4 (*(volatile uint32_t *)0x400d1044)
-#define QMI_XOR_ATRANS5 (*(volatile uint32_t *)0x400d1048)
-#define QMI_XOR_ATRANS6 (*(volatile uint32_t *)0x400d104c)
-#define QMI_XOR_ATRANS7 (*(volatile uint32_t *)0x400d1050)
-#define QMI_SET_DIRECT_CSR (*(volatile uint32_t *)0x400d2000)
-#define QMI_SET_DIRECT_TX (*(volatile uint32_t *)0x400d2004)
-#define QMI_SET_DIRECT_RX (*(volatile uint32_t *)0x400d2008)
-#define QMI_SET_M0_TIMING (*(volatile uint32_t *)0x400d200c)
-#define QMI_SET_M0_RFMT (*(volatile uint32_t *)0x400d2010)
-#define QMI_SET_M0_RCMD (*(volatile uint32_t *)0x400d2014)
-#define QMI_SET_M0_WFMT (*(volatile uint32_t *)0x400d2018)
-#define QMI_SET_M0_WCMD (*(volatile uint32_t *)0x400d201c)
-#define QMI_SET_M1_TIMING (*(volatile uint32_t *)0x400d2020)
-#define QMI_SET_M1_RFMT (*(volatile uint32_t *)0x400d2024)
-#define QMI_SET_M1_RCMD (*(volatile uint32_t *)0x400d2028)
-#define QMI_SET_M1_WFMT (*(volatile uint32_t *)0x400d202c)
-#define QMI_SET_M1_WCMD (*(volatile uint32_t *)0x400d2030)
-#define QMI_SET_ATRANS0 (*(volatile uint32_t *)0x400d2034)
-#define QMI_SET_ATRANS1 (*(volatile uint32_t *)0x400d2038)
-#define QMI_SET_ATRANS2 (*(volatile uint32_t *)0x400d203c)
-#define QMI_SET_ATRANS3 (*(volatile uint32_t *)0x400d2040)
-#define QMI_SET_ATRANS4 (*(volatile uint32_t *)0x400d2044)
-#define QMI_SET_ATRANS5 (*(volatile uint32_t *)0x400d2048)
-#define QMI_SET_ATRANS6 (*(volatile uint32_t *)0x400d204c)
-#define QMI_SET_ATRANS7 (*(volatile uint32_t *)0x400d2050)
-#define QMI_CLR_DIRECT_CSR (*(volatile uint32_t *)0x400d3000)
-#define QMI_CLR_DIRECT_TX (*(volatile uint32_t *)0x400d3004)
-#define QMI_CLR_DIRECT_RX (*(volatile uint32_t *)0x400d3008)
-#define QMI_CLR_M0_TIMING (*(volatile uint32_t *)0x400d300c)
-#define QMI_CLR_M0_RFMT (*(volatile uint32_t *)0x400d3010)
-#define QMI_CLR_M0_RCMD (*(volatile uint32_t *)0x400d3014)
-#define QMI_CLR_M0_WFMT (*(volatile uint32_t *)0x400d3018)
-#define QMI_CLR_M0_WCMD (*(volatile uint32_t *)0x400d301c)
-#define QMI_CLR_M1_TIMING (*(volatile uint32_t *)0x400d3020)
-#define QMI_CLR_M1_RFMT (*(volatile uint32_t *)0x400d3024)
-#define QMI_CLR_M1_RCMD (*(volatile uint32_t *)0x400d3028)
-#define QMI_CLR_M1_WFMT (*(volatile uint32_t *)0x400d302c)
-#define QMI_CLR_M1_WCMD (*(volatile uint32_t *)0x400d3030)
-#define QMI_CLR_ATRANS0 (*(volatile uint32_t *)0x400d3034)
-#define QMI_CLR_ATRANS1 (*(volatile uint32_t *)0x400d3038)
-#define QMI_CLR_ATRANS2 (*(volatile uint32_t *)0x400d303c)
-#define QMI_CLR_ATRANS3 (*(volatile uint32_t *)0x400d3040)
-#define QMI_CLR_ATRANS4 (*(volatile uint32_t *)0x400d3044)
-#define QMI_CLR_ATRANS5 (*(volatile uint32_t *)0x400d3048)
-#define QMI_CLR_ATRANS6 (*(volatile uint32_t *)0x400d304c)
-#define QMI_CLR_ATRANS7 (*(volatile uint32_t *)0x400d3050)
+#define QMI_DIRECT_CSR_XOR (*(volatile uint32_t *)0x400d1000)
+#define QMI_DIRECT_TX_XOR (*(volatile uint32_t *)0x400d1004)
+#define QMI_DIRECT_RX_XOR (*(volatile uint32_t *)0x400d1008)
+#define QMI_M0_TIMING_XOR (*(volatile uint32_t *)0x400d100c)
+#define QMI_M0_RFMT_XOR (*(volatile uint32_t *)0x400d1010)
+#define QMI_M0_RCMD_XOR (*(volatile uint32_t *)0x400d1014)
+#define QMI_M0_WFMT_XOR (*(volatile uint32_t *)0x400d1018)
+#define QMI_M0_WCMD_XOR (*(volatile uint32_t *)0x400d101c)
+#define QMI_M1_TIMING_XOR (*(volatile uint32_t *)0x400d1020)
+#define QMI_M1_RFMT_XOR (*(volatile uint32_t *)0x400d1024)
+#define QMI_M1_RCMD_XOR (*(volatile uint32_t *)0x400d1028)
+#define QMI_M1_WFMT_XOR (*(volatile uint32_t *)0x400d102c)
+#define QMI_M1_WCMD_XOR (*(volatile uint32_t *)0x400d1030)
+#define QMI_ATRANS0_XOR (*(volatile uint32_t *)0x400d1034)
+#define QMI_ATRANS1_XOR (*(volatile uint32_t *)0x400d1038)
+#define QMI_ATRANS2_XOR (*(volatile uint32_t *)0x400d103c)
+#define QMI_ATRANS3_XOR (*(volatile uint32_t *)0x400d1040)
+#define QMI_ATRANS4_XOR (*(volatile uint32_t *)0x400d1044)
+#define QMI_ATRANS5_XOR (*(volatile uint32_t *)0x400d1048)
+#define QMI_ATRANS6_XOR (*(volatile uint32_t *)0x400d104c)
+#define QMI_ATRANS7_XOR (*(volatile uint32_t *)0x400d1050)
+#define QMI_DIRECT_CSR_SET (*(volatile uint32_t *)0x400d2000)
+#define QMI_DIRECT_TX_SET (*(volatile uint32_t *)0x400d2004)
+#define QMI_DIRECT_RX_SET (*(volatile uint32_t *)0x400d2008)
+#define QMI_M0_TIMING_SET (*(volatile uint32_t *)0x400d200c)
+#define QMI_M0_RFMT_SET (*(volatile uint32_t *)0x400d2010)
+#define QMI_M0_RCMD_SET (*(volatile uint32_t *)0x400d2014)
+#define QMI_M0_WFMT_SET (*(volatile uint32_t *)0x400d2018)
+#define QMI_M0_WCMD_SET (*(volatile uint32_t *)0x400d201c)
+#define QMI_M1_TIMING_SET (*(volatile uint32_t *)0x400d2020)
+#define QMI_M1_RFMT_SET (*(volatile uint32_t *)0x400d2024)
+#define QMI_M1_RCMD_SET (*(volatile uint32_t *)0x400d2028)
+#define QMI_M1_WFMT_SET (*(volatile uint32_t *)0x400d202c)
+#define QMI_M1_WCMD_SET (*(volatile uint32_t *)0x400d2030)
+#define QMI_ATRANS0_SET (*(volatile uint32_t *)0x400d2034)
+#define QMI_ATRANS1_SET (*(volatile uint32_t *)0x400d2038)
+#define QMI_ATRANS2_SET (*(volatile uint32_t *)0x400d203c)
+#define QMI_ATRANS3_SET (*(volatile uint32_t *)0x400d2040)
+#define QMI_ATRANS4_SET (*(volatile uint32_t *)0x400d2044)
+#define QMI_ATRANS5_SET (*(volatile uint32_t *)0x400d2048)
+#define QMI_ATRANS6_SET (*(volatile uint32_t *)0x400d204c)
+#define QMI_ATRANS7_SET (*(volatile uint32_t *)0x400d2050)
+#define QMI_DIRECT_CSR_CLR (*(volatile uint32_t *)0x400d3000)
+#define QMI_DIRECT_TX_CLR (*(volatile uint32_t *)0x400d3004)
+#define QMI_DIRECT_RX_CLR (*(volatile uint32_t *)0x400d3008)
+#define QMI_M0_TIMING_CLR (*(volatile uint32_t *)0x400d300c)
+#define QMI_M0_RFMT_CLR (*(volatile uint32_t *)0x400d3010)
+#define QMI_M0_RCMD_CLR (*(volatile uint32_t *)0x400d3014)
+#define QMI_M0_WFMT_CLR (*(volatile uint32_t *)0x400d3018)
+#define QMI_M0_WCMD_CLR (*(volatile uint32_t *)0x400d301c)
+#define QMI_M1_TIMING_CLR (*(volatile uint32_t *)0x400d3020)
+#define QMI_M1_RFMT_CLR (*(volatile uint32_t *)0x400d3024)
+#define QMI_M1_RCMD_CLR (*(volatile uint32_t *)0x400d3028)
+#define QMI_M1_WFMT_CLR (*(volatile uint32_t *)0x400d302c)
+#define QMI_M1_WCMD_CLR (*(volatile uint32_t *)0x400d3030)
+#define QMI_ATRANS0_CLR (*(volatile uint32_t *)0x400d3034)
+#define QMI_ATRANS1_CLR (*(volatile uint32_t *)0x400d3038)
+#define QMI_ATRANS2_CLR (*(volatile uint32_t *)0x400d303c)
+#define QMI_ATRANS3_CLR (*(volatile uint32_t *)0x400d3040)
+#define QMI_ATRANS4_CLR (*(volatile uint32_t *)0x400d3044)
+#define QMI_ATRANS5_CLR (*(volatile uint32_t *)0x400d3048)
+#define QMI_ATRANS6_CLR (*(volatile uint32_t *)0x400d304c)
+#define QMI_ATRANS7_CLR (*(volatile uint32_t *)0x400d3050)
 
 /*DIRECT_CSR Register macros*/
 

@@ -60,88 +60,88 @@ typedef struct{
 		uint32_t rng_bist_cntr_2;
 		uint32_t RSVD4[901];
 		uint32_t RSVDxor_0[64];
-		uint32_t xor_rng_imr;
-		uint32_t xor_rng_isr;
-		uint32_t xor_rng_icr;
-		uint32_t xor_trng_config;
-		uint32_t xor_trng_valid;
-		uint32_t xor_ehr_data0;
-		uint32_t xor_ehr_data1;
-		uint32_t xor_ehr_data2;
-		uint32_t xor_ehr_data3;
-		uint32_t xor_ehr_data4;
-		uint32_t xor_ehr_data5;
-		uint32_t xor_rnd_source_enable;
-		uint32_t xor_sample_cnt1;
-		uint32_t xor_autocorr_statistic;
-		uint32_t xor_trng_debug_control;
+		uint32_t rng_imr_xor;
+		uint32_t rng_isr_xor;
+		uint32_t rng_icr_xor;
+		uint32_t trng_config_xor;
+		uint32_t trng_valid_xor;
+		uint32_t ehr_data0_xor;
+		uint32_t ehr_data1_xor;
+		uint32_t ehr_data2_xor;
+		uint32_t ehr_data3_xor;
+		uint32_t ehr_data4_xor;
+		uint32_t ehr_data5_xor;
+		uint32_t rnd_source_enable_xor;
+		uint32_t sample_cnt1_xor;
+		uint32_t autocorr_statistic_xor;
+		uint32_t trng_debug_control_xor;
 		uint32_t RSVDxor_1;
-		uint32_t xor_trng_sw_reset;
+		uint32_t trng_sw_reset_xor;
 		uint32_t RSVDxor_2[28];
-		uint32_t xor_rng_debug_en_input;
-		uint32_t xor_trng_busy;
-		uint32_t xor_rst_bits_counter;
-		uint32_t xor_rng_version;
+		uint32_t rng_debug_en_input_xor;
+		uint32_t trng_busy_xor;
+		uint32_t rst_bits_counter_xor;
+		uint32_t rng_version_xor;
 		uint32_t RSVDxor_3[7];
-		uint32_t xor_rng_bist_cntr_0;
-		uint32_t xor_rng_bist_cntr_1;
-		uint32_t xor_rng_bist_cntr_2;
+		uint32_t rng_bist_cntr_0_xor;
+		uint32_t rng_bist_cntr_1_xor;
+		uint32_t rng_bist_cntr_2_xor;
 		uint32_t RSVDxor_4[901];
 		uint32_t RSVDset_0[64];
-		uint32_t set_rng_imr;
-		uint32_t set_rng_isr;
-		uint32_t set_rng_icr;
-		uint32_t set_trng_config;
-		uint32_t set_trng_valid;
-		uint32_t set_ehr_data0;
-		uint32_t set_ehr_data1;
-		uint32_t set_ehr_data2;
-		uint32_t set_ehr_data3;
-		uint32_t set_ehr_data4;
-		uint32_t set_ehr_data5;
-		uint32_t set_rnd_source_enable;
-		uint32_t set_sample_cnt1;
-		uint32_t set_autocorr_statistic;
-		uint32_t set_trng_debug_control;
+		uint32_t rng_imr_set;
+		uint32_t rng_isr_set;
+		uint32_t rng_icr_set;
+		uint32_t trng_config_set;
+		uint32_t trng_valid_set;
+		uint32_t ehr_data0_set;
+		uint32_t ehr_data1_set;
+		uint32_t ehr_data2_set;
+		uint32_t ehr_data3_set;
+		uint32_t ehr_data4_set;
+		uint32_t ehr_data5_set;
+		uint32_t rnd_source_enable_set;
+		uint32_t sample_cnt1_set;
+		uint32_t autocorr_statistic_set;
+		uint32_t trng_debug_control_set;
 		uint32_t RSVDset_1;
-		uint32_t set_trng_sw_reset;
+		uint32_t trng_sw_reset_set;
 		uint32_t RSVDset_2[28];
-		uint32_t set_rng_debug_en_input;
-		uint32_t set_trng_busy;
-		uint32_t set_rst_bits_counter;
-		uint32_t set_rng_version;
+		uint32_t rng_debug_en_input_set;
+		uint32_t trng_busy_set;
+		uint32_t rst_bits_counter_set;
+		uint32_t rng_version_set;
 		uint32_t RSVDset_3[7];
-		uint32_t set_rng_bist_cntr_0;
-		uint32_t set_rng_bist_cntr_1;
-		uint32_t set_rng_bist_cntr_2;
+		uint32_t rng_bist_cntr_0_set;
+		uint32_t rng_bist_cntr_1_set;
+		uint32_t rng_bist_cntr_2_set;
 		uint32_t RSVDset_4[901];
 		uint32_t RSVDclr_0[64];
-		uint32_t clr_rng_imr;
-		uint32_t clr_rng_isr;
-		uint32_t clr_rng_icr;
-		uint32_t clr_trng_config;
-		uint32_t clr_trng_valid;
-		uint32_t clr_ehr_data0;
-		uint32_t clr_ehr_data1;
-		uint32_t clr_ehr_data2;
-		uint32_t clr_ehr_data3;
-		uint32_t clr_ehr_data4;
-		uint32_t clr_ehr_data5;
-		uint32_t clr_rnd_source_enable;
-		uint32_t clr_sample_cnt1;
-		uint32_t clr_autocorr_statistic;
-		uint32_t clr_trng_debug_control;
+		uint32_t rng_imr_clr;
+		uint32_t rng_isr_clr;
+		uint32_t rng_icr_clr;
+		uint32_t trng_config_clr;
+		uint32_t trng_valid_clr;
+		uint32_t ehr_data0_clr;
+		uint32_t ehr_data1_clr;
+		uint32_t ehr_data2_clr;
+		uint32_t ehr_data3_clr;
+		uint32_t ehr_data4_clr;
+		uint32_t ehr_data5_clr;
+		uint32_t rnd_source_enable_clr;
+		uint32_t sample_cnt1_clr;
+		uint32_t autocorr_statistic_clr;
+		uint32_t trng_debug_control_clr;
 		uint32_t RSVDclr_1;
-		uint32_t clr_trng_sw_reset;
+		uint32_t trng_sw_reset_clr;
 		uint32_t RSVDclr_2[28];
-		uint32_t clr_rng_debug_en_input;
-		uint32_t clr_trng_busy;
-		uint32_t clr_rst_bits_counter;
-		uint32_t clr_rng_version;
+		uint32_t rng_debug_en_input_clr;
+		uint32_t trng_busy_clr;
+		uint32_t rst_bits_counter_clr;
+		uint32_t rng_version_clr;
 		uint32_t RSVDclr_3[7];
-		uint32_t clr_rng_bist_cntr_0;
-		uint32_t clr_rng_bist_cntr_1;
-		uint32_t clr_rng_bist_cntr_2;
+		uint32_t rng_bist_cntr_0_clr;
+		uint32_t rng_bist_cntr_1_clr;
+		uint32_t rng_bist_cntr_2_clr;
 		uint32_t RSVDclr_4[901];
 } TRNG_REG_BLOCKS;
 
@@ -176,75 +176,75 @@ typedef struct{
 #define TRNG_RNG_BIST_CNTR_0 (*(volatile uint32_t *)0x400f01e0)
 #define TRNG_RNG_BIST_CNTR_1 (*(volatile uint32_t *)0x400f01e4)
 #define TRNG_RNG_BIST_CNTR_2 (*(volatile uint32_t *)0x400f01e8)
-#define TRNG_XOR_RNG_IMR (*(volatile uint32_t *)0x400f1100)
-#define TRNG_XOR_RNG_ISR (*(volatile uint32_t *)0x400f1104)
-#define TRNG_XOR_RNG_ICR (*(volatile uint32_t *)0x400f1108)
-#define TRNG_XOR_TRNG_CONFIG (*(volatile uint32_t *)0x400f110c)
-#define TRNG_XOR_TRNG_VALID (*(volatile uint32_t *)0x400f1110)
-#define TRNG_XOR_EHR_DATA0 (*(volatile uint32_t *)0x400f1114)
-#define TRNG_XOR_EHR_DATA1 (*(volatile uint32_t *)0x400f1118)
-#define TRNG_XOR_EHR_DATA2 (*(volatile uint32_t *)0x400f111c)
-#define TRNG_XOR_EHR_DATA3 (*(volatile uint32_t *)0x400f1120)
-#define TRNG_XOR_EHR_DATA4 (*(volatile uint32_t *)0x400f1124)
-#define TRNG_XOR_EHR_DATA5 (*(volatile uint32_t *)0x400f1128)
-#define TRNG_XOR_RND_SOURCE_ENABLE (*(volatile uint32_t *)0x400f112c)
-#define TRNG_XOR_SAMPLE_CNT1 (*(volatile uint32_t *)0x400f1130)
-#define TRNG_XOR_AUTOCORR_STATISTIC (*(volatile uint32_t *)0x400f1134)
-#define TRNG_XOR_TRNG_DEBUG_CONTROL (*(volatile uint32_t *)0x400f1138)
-#define TRNG_XOR_TRNG_SW_RESET (*(volatile uint32_t *)0x400f1140)
-#define TRNG_XOR_RNG_DEBUG_EN_INPUT (*(volatile uint32_t *)0x400f11b4)
-#define TRNG_XOR_TRNG_BUSY (*(volatile uint32_t *)0x400f11b8)
-#define TRNG_XOR_RST_BITS_COUNTER (*(volatile uint32_t *)0x400f11bc)
-#define TRNG_XOR_RNG_VERSION (*(volatile uint32_t *)0x400f11c0)
-#define TRNG_XOR_RNG_BIST_CNTR_0 (*(volatile uint32_t *)0x400f11e0)
-#define TRNG_XOR_RNG_BIST_CNTR_1 (*(volatile uint32_t *)0x400f11e4)
-#define TRNG_XOR_RNG_BIST_CNTR_2 (*(volatile uint32_t *)0x400f11e8)
-#define TRNG_SET_RNG_IMR (*(volatile uint32_t *)0x400f2100)
-#define TRNG_SET_RNG_ISR (*(volatile uint32_t *)0x400f2104)
-#define TRNG_SET_RNG_ICR (*(volatile uint32_t *)0x400f2108)
-#define TRNG_SET_TRNG_CONFIG (*(volatile uint32_t *)0x400f210c)
-#define TRNG_SET_TRNG_VALID (*(volatile uint32_t *)0x400f2110)
-#define TRNG_SET_EHR_DATA0 (*(volatile uint32_t *)0x400f2114)
-#define TRNG_SET_EHR_DATA1 (*(volatile uint32_t *)0x400f2118)
-#define TRNG_SET_EHR_DATA2 (*(volatile uint32_t *)0x400f211c)
-#define TRNG_SET_EHR_DATA3 (*(volatile uint32_t *)0x400f2120)
-#define TRNG_SET_EHR_DATA4 (*(volatile uint32_t *)0x400f2124)
-#define TRNG_SET_EHR_DATA5 (*(volatile uint32_t *)0x400f2128)
-#define TRNG_SET_RND_SOURCE_ENABLE (*(volatile uint32_t *)0x400f212c)
-#define TRNG_SET_SAMPLE_CNT1 (*(volatile uint32_t *)0x400f2130)
-#define TRNG_SET_AUTOCORR_STATISTIC (*(volatile uint32_t *)0x400f2134)
-#define TRNG_SET_TRNG_DEBUG_CONTROL (*(volatile uint32_t *)0x400f2138)
-#define TRNG_SET_TRNG_SW_RESET (*(volatile uint32_t *)0x400f2140)
-#define TRNG_SET_RNG_DEBUG_EN_INPUT (*(volatile uint32_t *)0x400f21b4)
-#define TRNG_SET_TRNG_BUSY (*(volatile uint32_t *)0x400f21b8)
-#define TRNG_SET_RST_BITS_COUNTER (*(volatile uint32_t *)0x400f21bc)
-#define TRNG_SET_RNG_VERSION (*(volatile uint32_t *)0x400f21c0)
-#define TRNG_SET_RNG_BIST_CNTR_0 (*(volatile uint32_t *)0x400f21e0)
-#define TRNG_SET_RNG_BIST_CNTR_1 (*(volatile uint32_t *)0x400f21e4)
-#define TRNG_SET_RNG_BIST_CNTR_2 (*(volatile uint32_t *)0x400f21e8)
-#define TRNG_CLR_RNG_IMR (*(volatile uint32_t *)0x400f3100)
-#define TRNG_CLR_RNG_ISR (*(volatile uint32_t *)0x400f3104)
-#define TRNG_CLR_RNG_ICR (*(volatile uint32_t *)0x400f3108)
-#define TRNG_CLR_TRNG_CONFIG (*(volatile uint32_t *)0x400f310c)
-#define TRNG_CLR_TRNG_VALID (*(volatile uint32_t *)0x400f3110)
-#define TRNG_CLR_EHR_DATA0 (*(volatile uint32_t *)0x400f3114)
-#define TRNG_CLR_EHR_DATA1 (*(volatile uint32_t *)0x400f3118)
-#define TRNG_CLR_EHR_DATA2 (*(volatile uint32_t *)0x400f311c)
-#define TRNG_CLR_EHR_DATA3 (*(volatile uint32_t *)0x400f3120)
-#define TRNG_CLR_EHR_DATA4 (*(volatile uint32_t *)0x400f3124)
-#define TRNG_CLR_EHR_DATA5 (*(volatile uint32_t *)0x400f3128)
-#define TRNG_CLR_RND_SOURCE_ENABLE (*(volatile uint32_t *)0x400f312c)
-#define TRNG_CLR_SAMPLE_CNT1 (*(volatile uint32_t *)0x400f3130)
-#define TRNG_CLR_AUTOCORR_STATISTIC (*(volatile uint32_t *)0x400f3134)
-#define TRNG_CLR_TRNG_DEBUG_CONTROL (*(volatile uint32_t *)0x400f3138)
-#define TRNG_CLR_TRNG_SW_RESET (*(volatile uint32_t *)0x400f3140)
-#define TRNG_CLR_RNG_DEBUG_EN_INPUT (*(volatile uint32_t *)0x400f31b4)
-#define TRNG_CLR_TRNG_BUSY (*(volatile uint32_t *)0x400f31b8)
-#define TRNG_CLR_RST_BITS_COUNTER (*(volatile uint32_t *)0x400f31bc)
-#define TRNG_CLR_RNG_VERSION (*(volatile uint32_t *)0x400f31c0)
-#define TRNG_CLR_RNG_BIST_CNTR_0 (*(volatile uint32_t *)0x400f31e0)
-#define TRNG_CLR_RNG_BIST_CNTR_1 (*(volatile uint32_t *)0x400f31e4)
-#define TRNG_CLR_RNG_BIST_CNTR_2 (*(volatile uint32_t *)0x400f31e8)
+#define TRNG_RNG_IMR_XOR (*(volatile uint32_t *)0x400f1100)
+#define TRNG_RNG_ISR_XOR (*(volatile uint32_t *)0x400f1104)
+#define TRNG_RNG_ICR_XOR (*(volatile uint32_t *)0x400f1108)
+#define TRNG_TRNG_CONFIG_XOR (*(volatile uint32_t *)0x400f110c)
+#define TRNG_TRNG_VALID_XOR (*(volatile uint32_t *)0x400f1110)
+#define TRNG_EHR_DATA0_XOR (*(volatile uint32_t *)0x400f1114)
+#define TRNG_EHR_DATA1_XOR (*(volatile uint32_t *)0x400f1118)
+#define TRNG_EHR_DATA2_XOR (*(volatile uint32_t *)0x400f111c)
+#define TRNG_EHR_DATA3_XOR (*(volatile uint32_t *)0x400f1120)
+#define TRNG_EHR_DATA4_XOR (*(volatile uint32_t *)0x400f1124)
+#define TRNG_EHR_DATA5_XOR (*(volatile uint32_t *)0x400f1128)
+#define TRNG_RND_SOURCE_ENABLE_XOR (*(volatile uint32_t *)0x400f112c)
+#define TRNG_SAMPLE_CNT1_XOR (*(volatile uint32_t *)0x400f1130)
+#define TRNG_AUTOCORR_STATISTIC_XOR (*(volatile uint32_t *)0x400f1134)
+#define TRNG_TRNG_DEBUG_CONTROL_XOR (*(volatile uint32_t *)0x400f1138)
+#define TRNG_TRNG_SW_RESET_XOR (*(volatile uint32_t *)0x400f1140)
+#define TRNG_RNG_DEBUG_EN_INPUT_XOR (*(volatile uint32_t *)0x400f11b4)
+#define TRNG_TRNG_BUSY_XOR (*(volatile uint32_t *)0x400f11b8)
+#define TRNG_RST_BITS_COUNTER_XOR (*(volatile uint32_t *)0x400f11bc)
+#define TRNG_RNG_VERSION_XOR (*(volatile uint32_t *)0x400f11c0)
+#define TRNG_RNG_BIST_CNTR_0_XOR (*(volatile uint32_t *)0x400f11e0)
+#define TRNG_RNG_BIST_CNTR_1_XOR (*(volatile uint32_t *)0x400f11e4)
+#define TRNG_RNG_BIST_CNTR_2_XOR (*(volatile uint32_t *)0x400f11e8)
+#define TRNG_RNG_IMR_SET (*(volatile uint32_t *)0x400f2100)
+#define TRNG_RNG_ISR_SET (*(volatile uint32_t *)0x400f2104)
+#define TRNG_RNG_ICR_SET (*(volatile uint32_t *)0x400f2108)
+#define TRNG_TRNG_CONFIG_SET (*(volatile uint32_t *)0x400f210c)
+#define TRNG_TRNG_VALID_SET (*(volatile uint32_t *)0x400f2110)
+#define TRNG_EHR_DATA0_SET (*(volatile uint32_t *)0x400f2114)
+#define TRNG_EHR_DATA1_SET (*(volatile uint32_t *)0x400f2118)
+#define TRNG_EHR_DATA2_SET (*(volatile uint32_t *)0x400f211c)
+#define TRNG_EHR_DATA3_SET (*(volatile uint32_t *)0x400f2120)
+#define TRNG_EHR_DATA4_SET (*(volatile uint32_t *)0x400f2124)
+#define TRNG_EHR_DATA5_SET (*(volatile uint32_t *)0x400f2128)
+#define TRNG_RND_SOURCE_ENABLE_SET (*(volatile uint32_t *)0x400f212c)
+#define TRNG_SAMPLE_CNT1_SET (*(volatile uint32_t *)0x400f2130)
+#define TRNG_AUTOCORR_STATISTIC_SET (*(volatile uint32_t *)0x400f2134)
+#define TRNG_TRNG_DEBUG_CONTROL_SET (*(volatile uint32_t *)0x400f2138)
+#define TRNG_TRNG_SW_RESET_SET (*(volatile uint32_t *)0x400f2140)
+#define TRNG_RNG_DEBUG_EN_INPUT_SET (*(volatile uint32_t *)0x400f21b4)
+#define TRNG_TRNG_BUSY_SET (*(volatile uint32_t *)0x400f21b8)
+#define TRNG_RST_BITS_COUNTER_SET (*(volatile uint32_t *)0x400f21bc)
+#define TRNG_RNG_VERSION_SET (*(volatile uint32_t *)0x400f21c0)
+#define TRNG_RNG_BIST_CNTR_0_SET (*(volatile uint32_t *)0x400f21e0)
+#define TRNG_RNG_BIST_CNTR_1_SET (*(volatile uint32_t *)0x400f21e4)
+#define TRNG_RNG_BIST_CNTR_2_SET (*(volatile uint32_t *)0x400f21e8)
+#define TRNG_RNG_IMR_CLR (*(volatile uint32_t *)0x400f3100)
+#define TRNG_RNG_ISR_CLR (*(volatile uint32_t *)0x400f3104)
+#define TRNG_RNG_ICR_CLR (*(volatile uint32_t *)0x400f3108)
+#define TRNG_TRNG_CONFIG_CLR (*(volatile uint32_t *)0x400f310c)
+#define TRNG_TRNG_VALID_CLR (*(volatile uint32_t *)0x400f3110)
+#define TRNG_EHR_DATA0_CLR (*(volatile uint32_t *)0x400f3114)
+#define TRNG_EHR_DATA1_CLR (*(volatile uint32_t *)0x400f3118)
+#define TRNG_EHR_DATA2_CLR (*(volatile uint32_t *)0x400f311c)
+#define TRNG_EHR_DATA3_CLR (*(volatile uint32_t *)0x400f3120)
+#define TRNG_EHR_DATA4_CLR (*(volatile uint32_t *)0x400f3124)
+#define TRNG_EHR_DATA5_CLR (*(volatile uint32_t *)0x400f3128)
+#define TRNG_RND_SOURCE_ENABLE_CLR (*(volatile uint32_t *)0x400f312c)
+#define TRNG_SAMPLE_CNT1_CLR (*(volatile uint32_t *)0x400f3130)
+#define TRNG_AUTOCORR_STATISTIC_CLR (*(volatile uint32_t *)0x400f3134)
+#define TRNG_TRNG_DEBUG_CONTROL_CLR (*(volatile uint32_t *)0x400f3138)
+#define TRNG_TRNG_SW_RESET_CLR (*(volatile uint32_t *)0x400f3140)
+#define TRNG_RNG_DEBUG_EN_INPUT_CLR (*(volatile uint32_t *)0x400f31b4)
+#define TRNG_TRNG_BUSY_CLR (*(volatile uint32_t *)0x400f31b8)
+#define TRNG_RST_BITS_COUNTER_CLR (*(volatile uint32_t *)0x400f31bc)
+#define TRNG_RNG_VERSION_CLR (*(volatile uint32_t *)0x400f31c0)
+#define TRNG_RNG_BIST_CNTR_0_CLR (*(volatile uint32_t *)0x400f31e0)
+#define TRNG_RNG_BIST_CNTR_1_CLR (*(volatile uint32_t *)0x400f31e4)
+#define TRNG_RNG_BIST_CNTR_2_CLR (*(volatile uint32_t *)0x400f31e8)
 
 /*RNG_IMR Register macros*/
 

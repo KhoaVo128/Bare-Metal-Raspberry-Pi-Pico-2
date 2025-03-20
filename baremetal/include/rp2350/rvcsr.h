@@ -91,181 +91,181 @@ typedef struct{
 		uint32_t mhartid;
 		uint32_t RSVD15[58];
 		uint32_t RSVDxor_0[192];
-		uint32_t xor_mstatus;
-		uint32_t xor_mie;
+		uint32_t mstatus_xor;
+		uint32_t mie_xor;
 		uint32_t RSVDxor_1[2];
-		uint32_t xor_mstatush;
+		uint32_t mstatush_xor;
 		uint32_t RSVDxor_2[3];
-		uint32_t xor_mcountinhibit;
-		uint32_t xor_mhpmevent4;
-		uint32_t xor_mhpmevent8;
-		uint32_t xor_mhpmevent12;
-		uint32_t xor_mhpmevent16;
-		uint32_t xor_mhpmevent20;
-		uint32_t xor_mhpmevent24;
-		uint32_t xor_mhpmevent28;
-		uint32_t xor_mscratch;
-		uint32_t xor_mip;
+		uint32_t mcountinhibit_xor;
+		uint32_t mhpmevent4_xor;
+		uint32_t mhpmevent8_xor;
+		uint32_t mhpmevent12_xor;
+		uint32_t mhpmevent16_xor;
+		uint32_t mhpmevent20_xor;
+		uint32_t mhpmevent24_xor;
+		uint32_t mhpmevent28_xor;
+		uint32_t mscratch_xor;
+		uint32_t mip_xor;
 		uint32_t RSVDxor_3[22];
-		uint32_t xor_pmpcfg0;
+		uint32_t pmpcfg0_xor;
 		uint32_t RSVDxor_4[3];
-		uint32_t xor_pmpaddr0;
-		uint32_t xor_pmpaddr4;
-		uint32_t xor_pmpaddr8;
-		uint32_t xor_pmpaddr12;
+		uint32_t pmpaddr0_xor;
+		uint32_t pmpaddr4_xor;
+		uint32_t pmpaddr8_xor;
+		uint32_t pmpaddr12_xor;
 		uint32_t RSVDxor_5[248];
-		uint32_t xor_tselect;
+		uint32_t tselect_xor;
 		uint32_t RSVDxor_6[3];
-		uint32_t xor_dcsr;
+		uint32_t dcsr_xor;
 		uint32_t RSVDxor_7[211];
-		uint32_t xor_mcycle;
-		uint32_t xor_mhpmcounter4;
-		uint32_t xor_mhpmcounter8;
-		uint32_t xor_mhpmcounter12;
-		uint32_t xor_mhpmcounter16;
-		uint32_t xor_mhpmcounter20;
-		uint32_t xor_mhpmcounter24;
-		uint32_t xor_mhpmcounter28;
+		uint32_t mcycle_xor;
+		uint32_t mhpmcounter4_xor;
+		uint32_t mhpmcounter8_xor;
+		uint32_t mhpmcounter12_xor;
+		uint32_t mhpmcounter16_xor;
+		uint32_t mhpmcounter20_xor;
+		uint32_t mhpmcounter24_xor;
+		uint32_t mhpmcounter28_xor;
 		uint32_t RSVDxor_8[24];
-		uint32_t xor_mcycleh;
-		uint32_t xor_mhpmcounter4h;
-		uint32_t xor_mhpmcounter8h;
-		uint32_t xor_mhpmcounter12h;
-		uint32_t xor_mhpmcounter16h;
-		uint32_t xor_mhpmcounter20h;
-		uint32_t xor_mhpmcounter24h;
-		uint32_t xor_mhpmcounter28h;
+		uint32_t mcycleh_xor;
+		uint32_t mhpmcounter4h_xor;
+		uint32_t mhpmcounter8h_xor;
+		uint32_t mhpmcounter12h_xor;
+		uint32_t mhpmcounter16h_xor;
+		uint32_t mhpmcounter20h_xor;
+		uint32_t mhpmcounter24h_xor;
+		uint32_t mhpmcounter28h_xor;
 		uint32_t RSVDxor_9[12];
-		uint32_t xor_pmpcfgm0;
+		uint32_t pmpcfgm0_xor;
 		uint32_t RSVDxor_10[3];
-		uint32_t xor_meiea;
-		uint32_t xor_meinext;
+		uint32_t meiea_xor;
+		uint32_t meinext_xor;
 		uint32_t RSVDxor_11[2];
-		uint32_t xor_msleep;
+		uint32_t msleep_xor;
 		uint32_t RSVDxor_12[3];
-		uint32_t xor_cycle;
+		uint32_t cycle_xor;
 		uint32_t RSVDxor_13[31];
-		uint32_t xor_cycleh;
+		uint32_t cycleh_xor;
 		uint32_t RSVDxor_14[164];
-		uint32_t xor_mhartid;
+		uint32_t mhartid_xor;
 		uint32_t RSVDxor_15[58];
 		uint32_t RSVDset_0[192];
-		uint32_t set_mstatus;
-		uint32_t set_mie;
+		uint32_t mstatus_set;
+		uint32_t mie_set;
 		uint32_t RSVDset_1[2];
-		uint32_t set_mstatush;
+		uint32_t mstatush_set;
 		uint32_t RSVDset_2[3];
-		uint32_t set_mcountinhibit;
-		uint32_t set_mhpmevent4;
-		uint32_t set_mhpmevent8;
-		uint32_t set_mhpmevent12;
-		uint32_t set_mhpmevent16;
-		uint32_t set_mhpmevent20;
-		uint32_t set_mhpmevent24;
-		uint32_t set_mhpmevent28;
-		uint32_t set_mscratch;
-		uint32_t set_mip;
+		uint32_t mcountinhibit_set;
+		uint32_t mhpmevent4_set;
+		uint32_t mhpmevent8_set;
+		uint32_t mhpmevent12_set;
+		uint32_t mhpmevent16_set;
+		uint32_t mhpmevent20_set;
+		uint32_t mhpmevent24_set;
+		uint32_t mhpmevent28_set;
+		uint32_t mscratch_set;
+		uint32_t mip_set;
 		uint32_t RSVDset_3[22];
-		uint32_t set_pmpcfg0;
+		uint32_t pmpcfg0_set;
 		uint32_t RSVDset_4[3];
-		uint32_t set_pmpaddr0;
-		uint32_t set_pmpaddr4;
-		uint32_t set_pmpaddr8;
-		uint32_t set_pmpaddr12;
+		uint32_t pmpaddr0_set;
+		uint32_t pmpaddr4_set;
+		uint32_t pmpaddr8_set;
+		uint32_t pmpaddr12_set;
 		uint32_t RSVDset_5[248];
-		uint32_t set_tselect;
+		uint32_t tselect_set;
 		uint32_t RSVDset_6[3];
-		uint32_t set_dcsr;
+		uint32_t dcsr_set;
 		uint32_t RSVDset_7[211];
-		uint32_t set_mcycle;
-		uint32_t set_mhpmcounter4;
-		uint32_t set_mhpmcounter8;
-		uint32_t set_mhpmcounter12;
-		uint32_t set_mhpmcounter16;
-		uint32_t set_mhpmcounter20;
-		uint32_t set_mhpmcounter24;
-		uint32_t set_mhpmcounter28;
+		uint32_t mcycle_set;
+		uint32_t mhpmcounter4_set;
+		uint32_t mhpmcounter8_set;
+		uint32_t mhpmcounter12_set;
+		uint32_t mhpmcounter16_set;
+		uint32_t mhpmcounter20_set;
+		uint32_t mhpmcounter24_set;
+		uint32_t mhpmcounter28_set;
 		uint32_t RSVDset_8[24];
-		uint32_t set_mcycleh;
-		uint32_t set_mhpmcounter4h;
-		uint32_t set_mhpmcounter8h;
-		uint32_t set_mhpmcounter12h;
-		uint32_t set_mhpmcounter16h;
-		uint32_t set_mhpmcounter20h;
-		uint32_t set_mhpmcounter24h;
-		uint32_t set_mhpmcounter28h;
+		uint32_t mcycleh_set;
+		uint32_t mhpmcounter4h_set;
+		uint32_t mhpmcounter8h_set;
+		uint32_t mhpmcounter12h_set;
+		uint32_t mhpmcounter16h_set;
+		uint32_t mhpmcounter20h_set;
+		uint32_t mhpmcounter24h_set;
+		uint32_t mhpmcounter28h_set;
 		uint32_t RSVDset_9[12];
-		uint32_t set_pmpcfgm0;
+		uint32_t pmpcfgm0_set;
 		uint32_t RSVDset_10[3];
-		uint32_t set_meiea;
-		uint32_t set_meinext;
+		uint32_t meiea_set;
+		uint32_t meinext_set;
 		uint32_t RSVDset_11[2];
-		uint32_t set_msleep;
+		uint32_t msleep_set;
 		uint32_t RSVDset_12[3];
-		uint32_t set_cycle;
+		uint32_t cycle_set;
 		uint32_t RSVDset_13[31];
-		uint32_t set_cycleh;
+		uint32_t cycleh_set;
 		uint32_t RSVDset_14[164];
-		uint32_t set_mhartid;
+		uint32_t mhartid_set;
 		uint32_t RSVDset_15[58];
 		uint32_t RSVDclr_0[192];
-		uint32_t clr_mstatus;
-		uint32_t clr_mie;
+		uint32_t mstatus_clr;
+		uint32_t mie_clr;
 		uint32_t RSVDclr_1[2];
-		uint32_t clr_mstatush;
+		uint32_t mstatush_clr;
 		uint32_t RSVDclr_2[3];
-		uint32_t clr_mcountinhibit;
-		uint32_t clr_mhpmevent4;
-		uint32_t clr_mhpmevent8;
-		uint32_t clr_mhpmevent12;
-		uint32_t clr_mhpmevent16;
-		uint32_t clr_mhpmevent20;
-		uint32_t clr_mhpmevent24;
-		uint32_t clr_mhpmevent28;
-		uint32_t clr_mscratch;
-		uint32_t clr_mip;
+		uint32_t mcountinhibit_clr;
+		uint32_t mhpmevent4_clr;
+		uint32_t mhpmevent8_clr;
+		uint32_t mhpmevent12_clr;
+		uint32_t mhpmevent16_clr;
+		uint32_t mhpmevent20_clr;
+		uint32_t mhpmevent24_clr;
+		uint32_t mhpmevent28_clr;
+		uint32_t mscratch_clr;
+		uint32_t mip_clr;
 		uint32_t RSVDclr_3[22];
-		uint32_t clr_pmpcfg0;
+		uint32_t pmpcfg0_clr;
 		uint32_t RSVDclr_4[3];
-		uint32_t clr_pmpaddr0;
-		uint32_t clr_pmpaddr4;
-		uint32_t clr_pmpaddr8;
-		uint32_t clr_pmpaddr12;
+		uint32_t pmpaddr0_clr;
+		uint32_t pmpaddr4_clr;
+		uint32_t pmpaddr8_clr;
+		uint32_t pmpaddr12_clr;
 		uint32_t RSVDclr_5[248];
-		uint32_t clr_tselect;
+		uint32_t tselect_clr;
 		uint32_t RSVDclr_6[3];
-		uint32_t clr_dcsr;
+		uint32_t dcsr_clr;
 		uint32_t RSVDclr_7[211];
-		uint32_t clr_mcycle;
-		uint32_t clr_mhpmcounter4;
-		uint32_t clr_mhpmcounter8;
-		uint32_t clr_mhpmcounter12;
-		uint32_t clr_mhpmcounter16;
-		uint32_t clr_mhpmcounter20;
-		uint32_t clr_mhpmcounter24;
-		uint32_t clr_mhpmcounter28;
+		uint32_t mcycle_clr;
+		uint32_t mhpmcounter4_clr;
+		uint32_t mhpmcounter8_clr;
+		uint32_t mhpmcounter12_clr;
+		uint32_t mhpmcounter16_clr;
+		uint32_t mhpmcounter20_clr;
+		uint32_t mhpmcounter24_clr;
+		uint32_t mhpmcounter28_clr;
 		uint32_t RSVDclr_8[24];
-		uint32_t clr_mcycleh;
-		uint32_t clr_mhpmcounter4h;
-		uint32_t clr_mhpmcounter8h;
-		uint32_t clr_mhpmcounter12h;
-		uint32_t clr_mhpmcounter16h;
-		uint32_t clr_mhpmcounter20h;
-		uint32_t clr_mhpmcounter24h;
-		uint32_t clr_mhpmcounter28h;
+		uint32_t mcycleh_clr;
+		uint32_t mhpmcounter4h_clr;
+		uint32_t mhpmcounter8h_clr;
+		uint32_t mhpmcounter12h_clr;
+		uint32_t mhpmcounter16h_clr;
+		uint32_t mhpmcounter20h_clr;
+		uint32_t mhpmcounter24h_clr;
+		uint32_t mhpmcounter28h_clr;
 		uint32_t RSVDclr_9[12];
-		uint32_t clr_pmpcfgm0;
+		uint32_t pmpcfgm0_clr;
 		uint32_t RSVDclr_10[3];
-		uint32_t clr_meiea;
-		uint32_t clr_meinext;
+		uint32_t meiea_clr;
+		uint32_t meinext_clr;
 		uint32_t RSVDclr_11[2];
-		uint32_t clr_msleep;
+		uint32_t msleep_clr;
 		uint32_t RSVDclr_12[3];
-		uint32_t clr_cycle;
+		uint32_t cycle_clr;
 		uint32_t RSVDclr_13[31];
-		uint32_t clr_cycleh;
+		uint32_t cycleh_clr;
 		uint32_t RSVDclr_14[164];
-		uint32_t clr_mhartid;
+		uint32_t mhartid_clr;
 		uint32_t RSVDclr_15[58];
 } RVCSR_REG_BLOCKS;
 
@@ -320,135 +320,135 @@ typedef struct{
 #define RVCSR_CYCLE (*(volatile uint32_t *)0xe0000c00)
 #define RVCSR_CYCLEH (*(volatile uint32_t *)0xe0000c80)
 #define RVCSR_MHARTID (*(volatile uint32_t *)0xe0000f14)
-#define RVCSR_XOR_MSTATUS (*(volatile uint32_t *)0xe0001300)
-#define RVCSR_XOR_MIE (*(volatile uint32_t *)0xe0001304)
-#define RVCSR_XOR_MSTATUSH (*(volatile uint32_t *)0xe0001310)
-#define RVCSR_XOR_MCOUNTINHIBIT (*(volatile uint32_t *)0xe0001320)
-#define RVCSR_XOR_MHPMEVENT4 (*(volatile uint32_t *)0xe0001324)
-#define RVCSR_XOR_MHPMEVENT8 (*(volatile uint32_t *)0xe0001328)
-#define RVCSR_XOR_MHPMEVENT12 (*(volatile uint32_t *)0xe000132c)
-#define RVCSR_XOR_MHPMEVENT16 (*(volatile uint32_t *)0xe0001330)
-#define RVCSR_XOR_MHPMEVENT20 (*(volatile uint32_t *)0xe0001334)
-#define RVCSR_XOR_MHPMEVENT24 (*(volatile uint32_t *)0xe0001338)
-#define RVCSR_XOR_MHPMEVENT28 (*(volatile uint32_t *)0xe000133c)
-#define RVCSR_XOR_MSCRATCH (*(volatile uint32_t *)0xe0001340)
-#define RVCSR_XOR_MIP (*(volatile uint32_t *)0xe0001344)
-#define RVCSR_XOR_PMPCFG0 (*(volatile uint32_t *)0xe00013a0)
-#define RVCSR_XOR_PMPADDR0 (*(volatile uint32_t *)0xe00013b0)
-#define RVCSR_XOR_PMPADDR4 (*(volatile uint32_t *)0xe00013b4)
-#define RVCSR_XOR_PMPADDR8 (*(volatile uint32_t *)0xe00013b8)
-#define RVCSR_XOR_PMPADDR12 (*(volatile uint32_t *)0xe00013bc)
-#define RVCSR_XOR_TSELECT (*(volatile uint32_t *)0xe00017a0)
-#define RVCSR_XOR_DCSR (*(volatile uint32_t *)0xe00017b0)
-#define RVCSR_XOR_MCYCLE (*(volatile uint32_t *)0xe0001b00)
-#define RVCSR_XOR_MHPMCOUNTER4 (*(volatile uint32_t *)0xe0001b04)
-#define RVCSR_XOR_MHPMCOUNTER8 (*(volatile uint32_t *)0xe0001b08)
-#define RVCSR_XOR_MHPMCOUNTER12 (*(volatile uint32_t *)0xe0001b0c)
-#define RVCSR_XOR_MHPMCOUNTER16 (*(volatile uint32_t *)0xe0001b10)
-#define RVCSR_XOR_MHPMCOUNTER20 (*(volatile uint32_t *)0xe0001b14)
-#define RVCSR_XOR_MHPMCOUNTER24 (*(volatile uint32_t *)0xe0001b18)
-#define RVCSR_XOR_MHPMCOUNTER28 (*(volatile uint32_t *)0xe0001b1c)
-#define RVCSR_XOR_MCYCLEH (*(volatile uint32_t *)0xe0001b80)
-#define RVCSR_XOR_MHPMCOUNTER4H (*(volatile uint32_t *)0xe0001b84)
-#define RVCSR_XOR_MHPMCOUNTER8H (*(volatile uint32_t *)0xe0001b88)
-#define RVCSR_XOR_MHPMCOUNTER12H (*(volatile uint32_t *)0xe0001b8c)
-#define RVCSR_XOR_MHPMCOUNTER16H (*(volatile uint32_t *)0xe0001b90)
-#define RVCSR_XOR_MHPMCOUNTER20H (*(volatile uint32_t *)0xe0001b94)
-#define RVCSR_XOR_MHPMCOUNTER24H (*(volatile uint32_t *)0xe0001b98)
-#define RVCSR_XOR_MHPMCOUNTER28H (*(volatile uint32_t *)0xe0001b9c)
-#define RVCSR_XOR_PMPCFGM0 (*(volatile uint32_t *)0xe0001bd0)
-#define RVCSR_XOR_MEIEA (*(volatile uint32_t *)0xe0001be0)
-#define RVCSR_XOR_MEINEXT (*(volatile uint32_t *)0xe0001be4)
-#define RVCSR_XOR_MSLEEP (*(volatile uint32_t *)0xe0001bf0)
-#define RVCSR_XOR_CYCLE (*(volatile uint32_t *)0xe0001c00)
-#define RVCSR_XOR_CYCLEH (*(volatile uint32_t *)0xe0001c80)
-#define RVCSR_XOR_MHARTID (*(volatile uint32_t *)0xe0001f14)
-#define RVCSR_SET_MSTATUS (*(volatile uint32_t *)0xe0002300)
-#define RVCSR_SET_MIE (*(volatile uint32_t *)0xe0002304)
-#define RVCSR_SET_MSTATUSH (*(volatile uint32_t *)0xe0002310)
-#define RVCSR_SET_MCOUNTINHIBIT (*(volatile uint32_t *)0xe0002320)
-#define RVCSR_SET_MHPMEVENT4 (*(volatile uint32_t *)0xe0002324)
-#define RVCSR_SET_MHPMEVENT8 (*(volatile uint32_t *)0xe0002328)
-#define RVCSR_SET_MHPMEVENT12 (*(volatile uint32_t *)0xe000232c)
-#define RVCSR_SET_MHPMEVENT16 (*(volatile uint32_t *)0xe0002330)
-#define RVCSR_SET_MHPMEVENT20 (*(volatile uint32_t *)0xe0002334)
-#define RVCSR_SET_MHPMEVENT24 (*(volatile uint32_t *)0xe0002338)
-#define RVCSR_SET_MHPMEVENT28 (*(volatile uint32_t *)0xe000233c)
-#define RVCSR_SET_MSCRATCH (*(volatile uint32_t *)0xe0002340)
-#define RVCSR_SET_MIP (*(volatile uint32_t *)0xe0002344)
-#define RVCSR_SET_PMPCFG0 (*(volatile uint32_t *)0xe00023a0)
-#define RVCSR_SET_PMPADDR0 (*(volatile uint32_t *)0xe00023b0)
-#define RVCSR_SET_PMPADDR4 (*(volatile uint32_t *)0xe00023b4)
-#define RVCSR_SET_PMPADDR8 (*(volatile uint32_t *)0xe00023b8)
-#define RVCSR_SET_PMPADDR12 (*(volatile uint32_t *)0xe00023bc)
-#define RVCSR_SET_TSELECT (*(volatile uint32_t *)0xe00027a0)
-#define RVCSR_SET_DCSR (*(volatile uint32_t *)0xe00027b0)
-#define RVCSR_SET_MCYCLE (*(volatile uint32_t *)0xe0002b00)
-#define RVCSR_SET_MHPMCOUNTER4 (*(volatile uint32_t *)0xe0002b04)
-#define RVCSR_SET_MHPMCOUNTER8 (*(volatile uint32_t *)0xe0002b08)
-#define RVCSR_SET_MHPMCOUNTER12 (*(volatile uint32_t *)0xe0002b0c)
-#define RVCSR_SET_MHPMCOUNTER16 (*(volatile uint32_t *)0xe0002b10)
-#define RVCSR_SET_MHPMCOUNTER20 (*(volatile uint32_t *)0xe0002b14)
-#define RVCSR_SET_MHPMCOUNTER24 (*(volatile uint32_t *)0xe0002b18)
-#define RVCSR_SET_MHPMCOUNTER28 (*(volatile uint32_t *)0xe0002b1c)
-#define RVCSR_SET_MCYCLEH (*(volatile uint32_t *)0xe0002b80)
-#define RVCSR_SET_MHPMCOUNTER4H (*(volatile uint32_t *)0xe0002b84)
-#define RVCSR_SET_MHPMCOUNTER8H (*(volatile uint32_t *)0xe0002b88)
-#define RVCSR_SET_MHPMCOUNTER12H (*(volatile uint32_t *)0xe0002b8c)
-#define RVCSR_SET_MHPMCOUNTER16H (*(volatile uint32_t *)0xe0002b90)
-#define RVCSR_SET_MHPMCOUNTER20H (*(volatile uint32_t *)0xe0002b94)
-#define RVCSR_SET_MHPMCOUNTER24H (*(volatile uint32_t *)0xe0002b98)
-#define RVCSR_SET_MHPMCOUNTER28H (*(volatile uint32_t *)0xe0002b9c)
-#define RVCSR_SET_PMPCFGM0 (*(volatile uint32_t *)0xe0002bd0)
-#define RVCSR_SET_MEIEA (*(volatile uint32_t *)0xe0002be0)
-#define RVCSR_SET_MEINEXT (*(volatile uint32_t *)0xe0002be4)
-#define RVCSR_SET_MSLEEP (*(volatile uint32_t *)0xe0002bf0)
-#define RVCSR_SET_CYCLE (*(volatile uint32_t *)0xe0002c00)
-#define RVCSR_SET_CYCLEH (*(volatile uint32_t *)0xe0002c80)
-#define RVCSR_SET_MHARTID (*(volatile uint32_t *)0xe0002f14)
-#define RVCSR_CLR_MSTATUS (*(volatile uint32_t *)0xe0003300)
-#define RVCSR_CLR_MIE (*(volatile uint32_t *)0xe0003304)
-#define RVCSR_CLR_MSTATUSH (*(volatile uint32_t *)0xe0003310)
-#define RVCSR_CLR_MCOUNTINHIBIT (*(volatile uint32_t *)0xe0003320)
-#define RVCSR_CLR_MHPMEVENT4 (*(volatile uint32_t *)0xe0003324)
-#define RVCSR_CLR_MHPMEVENT8 (*(volatile uint32_t *)0xe0003328)
-#define RVCSR_CLR_MHPMEVENT12 (*(volatile uint32_t *)0xe000332c)
-#define RVCSR_CLR_MHPMEVENT16 (*(volatile uint32_t *)0xe0003330)
-#define RVCSR_CLR_MHPMEVENT20 (*(volatile uint32_t *)0xe0003334)
-#define RVCSR_CLR_MHPMEVENT24 (*(volatile uint32_t *)0xe0003338)
-#define RVCSR_CLR_MHPMEVENT28 (*(volatile uint32_t *)0xe000333c)
-#define RVCSR_CLR_MSCRATCH (*(volatile uint32_t *)0xe0003340)
-#define RVCSR_CLR_MIP (*(volatile uint32_t *)0xe0003344)
-#define RVCSR_CLR_PMPCFG0 (*(volatile uint32_t *)0xe00033a0)
-#define RVCSR_CLR_PMPADDR0 (*(volatile uint32_t *)0xe00033b0)
-#define RVCSR_CLR_PMPADDR4 (*(volatile uint32_t *)0xe00033b4)
-#define RVCSR_CLR_PMPADDR8 (*(volatile uint32_t *)0xe00033b8)
-#define RVCSR_CLR_PMPADDR12 (*(volatile uint32_t *)0xe00033bc)
-#define RVCSR_CLR_TSELECT (*(volatile uint32_t *)0xe00037a0)
-#define RVCSR_CLR_DCSR (*(volatile uint32_t *)0xe00037b0)
-#define RVCSR_CLR_MCYCLE (*(volatile uint32_t *)0xe0003b00)
-#define RVCSR_CLR_MHPMCOUNTER4 (*(volatile uint32_t *)0xe0003b04)
-#define RVCSR_CLR_MHPMCOUNTER8 (*(volatile uint32_t *)0xe0003b08)
-#define RVCSR_CLR_MHPMCOUNTER12 (*(volatile uint32_t *)0xe0003b0c)
-#define RVCSR_CLR_MHPMCOUNTER16 (*(volatile uint32_t *)0xe0003b10)
-#define RVCSR_CLR_MHPMCOUNTER20 (*(volatile uint32_t *)0xe0003b14)
-#define RVCSR_CLR_MHPMCOUNTER24 (*(volatile uint32_t *)0xe0003b18)
-#define RVCSR_CLR_MHPMCOUNTER28 (*(volatile uint32_t *)0xe0003b1c)
-#define RVCSR_CLR_MCYCLEH (*(volatile uint32_t *)0xe0003b80)
-#define RVCSR_CLR_MHPMCOUNTER4H (*(volatile uint32_t *)0xe0003b84)
-#define RVCSR_CLR_MHPMCOUNTER8H (*(volatile uint32_t *)0xe0003b88)
-#define RVCSR_CLR_MHPMCOUNTER12H (*(volatile uint32_t *)0xe0003b8c)
-#define RVCSR_CLR_MHPMCOUNTER16H (*(volatile uint32_t *)0xe0003b90)
-#define RVCSR_CLR_MHPMCOUNTER20H (*(volatile uint32_t *)0xe0003b94)
-#define RVCSR_CLR_MHPMCOUNTER24H (*(volatile uint32_t *)0xe0003b98)
-#define RVCSR_CLR_MHPMCOUNTER28H (*(volatile uint32_t *)0xe0003b9c)
-#define RVCSR_CLR_PMPCFGM0 (*(volatile uint32_t *)0xe0003bd0)
-#define RVCSR_CLR_MEIEA (*(volatile uint32_t *)0xe0003be0)
-#define RVCSR_CLR_MEINEXT (*(volatile uint32_t *)0xe0003be4)
-#define RVCSR_CLR_MSLEEP (*(volatile uint32_t *)0xe0003bf0)
-#define RVCSR_CLR_CYCLE (*(volatile uint32_t *)0xe0003c00)
-#define RVCSR_CLR_CYCLEH (*(volatile uint32_t *)0xe0003c80)
-#define RVCSR_CLR_MHARTID (*(volatile uint32_t *)0xe0003f14)
+#define RVCSR_MSTATUS_XOR (*(volatile uint32_t *)0xe0001300)
+#define RVCSR_MIE_XOR (*(volatile uint32_t *)0xe0001304)
+#define RVCSR_MSTATUSH_XOR (*(volatile uint32_t *)0xe0001310)
+#define RVCSR_MCOUNTINHIBIT_XOR (*(volatile uint32_t *)0xe0001320)
+#define RVCSR_MHPMEVENT4_XOR (*(volatile uint32_t *)0xe0001324)
+#define RVCSR_MHPMEVENT8_XOR (*(volatile uint32_t *)0xe0001328)
+#define RVCSR_MHPMEVENT12_XOR (*(volatile uint32_t *)0xe000132c)
+#define RVCSR_MHPMEVENT16_XOR (*(volatile uint32_t *)0xe0001330)
+#define RVCSR_MHPMEVENT20_XOR (*(volatile uint32_t *)0xe0001334)
+#define RVCSR_MHPMEVENT24_XOR (*(volatile uint32_t *)0xe0001338)
+#define RVCSR_MHPMEVENT28_XOR (*(volatile uint32_t *)0xe000133c)
+#define RVCSR_MSCRATCH_XOR (*(volatile uint32_t *)0xe0001340)
+#define RVCSR_MIP_XOR (*(volatile uint32_t *)0xe0001344)
+#define RVCSR_PMPCFG0_XOR (*(volatile uint32_t *)0xe00013a0)
+#define RVCSR_PMPADDR0_XOR (*(volatile uint32_t *)0xe00013b0)
+#define RVCSR_PMPADDR4_XOR (*(volatile uint32_t *)0xe00013b4)
+#define RVCSR_PMPADDR8_XOR (*(volatile uint32_t *)0xe00013b8)
+#define RVCSR_PMPADDR12_XOR (*(volatile uint32_t *)0xe00013bc)
+#define RVCSR_TSELECT_XOR (*(volatile uint32_t *)0xe00017a0)
+#define RVCSR_DCSR_XOR (*(volatile uint32_t *)0xe00017b0)
+#define RVCSR_MCYCLE_XOR (*(volatile uint32_t *)0xe0001b00)
+#define RVCSR_MHPMCOUNTER4_XOR (*(volatile uint32_t *)0xe0001b04)
+#define RVCSR_MHPMCOUNTER8_XOR (*(volatile uint32_t *)0xe0001b08)
+#define RVCSR_MHPMCOUNTER12_XOR (*(volatile uint32_t *)0xe0001b0c)
+#define RVCSR_MHPMCOUNTER16_XOR (*(volatile uint32_t *)0xe0001b10)
+#define RVCSR_MHPMCOUNTER20_XOR (*(volatile uint32_t *)0xe0001b14)
+#define RVCSR_MHPMCOUNTER24_XOR (*(volatile uint32_t *)0xe0001b18)
+#define RVCSR_MHPMCOUNTER28_XOR (*(volatile uint32_t *)0xe0001b1c)
+#define RVCSR_MCYCLEH_XOR (*(volatile uint32_t *)0xe0001b80)
+#define RVCSR_MHPMCOUNTER4H_XOR (*(volatile uint32_t *)0xe0001b84)
+#define RVCSR_MHPMCOUNTER8H_XOR (*(volatile uint32_t *)0xe0001b88)
+#define RVCSR_MHPMCOUNTER12H_XOR (*(volatile uint32_t *)0xe0001b8c)
+#define RVCSR_MHPMCOUNTER16H_XOR (*(volatile uint32_t *)0xe0001b90)
+#define RVCSR_MHPMCOUNTER20H_XOR (*(volatile uint32_t *)0xe0001b94)
+#define RVCSR_MHPMCOUNTER24H_XOR (*(volatile uint32_t *)0xe0001b98)
+#define RVCSR_MHPMCOUNTER28H_XOR (*(volatile uint32_t *)0xe0001b9c)
+#define RVCSR_PMPCFGM0_XOR (*(volatile uint32_t *)0xe0001bd0)
+#define RVCSR_MEIEA_XOR (*(volatile uint32_t *)0xe0001be0)
+#define RVCSR_MEINEXT_XOR (*(volatile uint32_t *)0xe0001be4)
+#define RVCSR_MSLEEP_XOR (*(volatile uint32_t *)0xe0001bf0)
+#define RVCSR_CYCLE_XOR (*(volatile uint32_t *)0xe0001c00)
+#define RVCSR_CYCLEH_XOR (*(volatile uint32_t *)0xe0001c80)
+#define RVCSR_MHARTID_XOR (*(volatile uint32_t *)0xe0001f14)
+#define RVCSR_MSTATUS_SET (*(volatile uint32_t *)0xe0002300)
+#define RVCSR_MIE_SET (*(volatile uint32_t *)0xe0002304)
+#define RVCSR_MSTATUSH_SET (*(volatile uint32_t *)0xe0002310)
+#define RVCSR_MCOUNTINHIBIT_SET (*(volatile uint32_t *)0xe0002320)
+#define RVCSR_MHPMEVENT4_SET (*(volatile uint32_t *)0xe0002324)
+#define RVCSR_MHPMEVENT8_SET (*(volatile uint32_t *)0xe0002328)
+#define RVCSR_MHPMEVENT12_SET (*(volatile uint32_t *)0xe000232c)
+#define RVCSR_MHPMEVENT16_SET (*(volatile uint32_t *)0xe0002330)
+#define RVCSR_MHPMEVENT20_SET (*(volatile uint32_t *)0xe0002334)
+#define RVCSR_MHPMEVENT24_SET (*(volatile uint32_t *)0xe0002338)
+#define RVCSR_MHPMEVENT28_SET (*(volatile uint32_t *)0xe000233c)
+#define RVCSR_MSCRATCH_SET (*(volatile uint32_t *)0xe0002340)
+#define RVCSR_MIP_SET (*(volatile uint32_t *)0xe0002344)
+#define RVCSR_PMPCFG0_SET (*(volatile uint32_t *)0xe00023a0)
+#define RVCSR_PMPADDR0_SET (*(volatile uint32_t *)0xe00023b0)
+#define RVCSR_PMPADDR4_SET (*(volatile uint32_t *)0xe00023b4)
+#define RVCSR_PMPADDR8_SET (*(volatile uint32_t *)0xe00023b8)
+#define RVCSR_PMPADDR12_SET (*(volatile uint32_t *)0xe00023bc)
+#define RVCSR_TSELECT_SET (*(volatile uint32_t *)0xe00027a0)
+#define RVCSR_DCSR_SET (*(volatile uint32_t *)0xe00027b0)
+#define RVCSR_MCYCLE_SET (*(volatile uint32_t *)0xe0002b00)
+#define RVCSR_MHPMCOUNTER4_SET (*(volatile uint32_t *)0xe0002b04)
+#define RVCSR_MHPMCOUNTER8_SET (*(volatile uint32_t *)0xe0002b08)
+#define RVCSR_MHPMCOUNTER12_SET (*(volatile uint32_t *)0xe0002b0c)
+#define RVCSR_MHPMCOUNTER16_SET (*(volatile uint32_t *)0xe0002b10)
+#define RVCSR_MHPMCOUNTER20_SET (*(volatile uint32_t *)0xe0002b14)
+#define RVCSR_MHPMCOUNTER24_SET (*(volatile uint32_t *)0xe0002b18)
+#define RVCSR_MHPMCOUNTER28_SET (*(volatile uint32_t *)0xe0002b1c)
+#define RVCSR_MCYCLEH_SET (*(volatile uint32_t *)0xe0002b80)
+#define RVCSR_MHPMCOUNTER4H_SET (*(volatile uint32_t *)0xe0002b84)
+#define RVCSR_MHPMCOUNTER8H_SET (*(volatile uint32_t *)0xe0002b88)
+#define RVCSR_MHPMCOUNTER12H_SET (*(volatile uint32_t *)0xe0002b8c)
+#define RVCSR_MHPMCOUNTER16H_SET (*(volatile uint32_t *)0xe0002b90)
+#define RVCSR_MHPMCOUNTER20H_SET (*(volatile uint32_t *)0xe0002b94)
+#define RVCSR_MHPMCOUNTER24H_SET (*(volatile uint32_t *)0xe0002b98)
+#define RVCSR_MHPMCOUNTER28H_SET (*(volatile uint32_t *)0xe0002b9c)
+#define RVCSR_PMPCFGM0_SET (*(volatile uint32_t *)0xe0002bd0)
+#define RVCSR_MEIEA_SET (*(volatile uint32_t *)0xe0002be0)
+#define RVCSR_MEINEXT_SET (*(volatile uint32_t *)0xe0002be4)
+#define RVCSR_MSLEEP_SET (*(volatile uint32_t *)0xe0002bf0)
+#define RVCSR_CYCLE_SET (*(volatile uint32_t *)0xe0002c00)
+#define RVCSR_CYCLEH_SET (*(volatile uint32_t *)0xe0002c80)
+#define RVCSR_MHARTID_SET (*(volatile uint32_t *)0xe0002f14)
+#define RVCSR_MSTATUS_CLR (*(volatile uint32_t *)0xe0003300)
+#define RVCSR_MIE_CLR (*(volatile uint32_t *)0xe0003304)
+#define RVCSR_MSTATUSH_CLR (*(volatile uint32_t *)0xe0003310)
+#define RVCSR_MCOUNTINHIBIT_CLR (*(volatile uint32_t *)0xe0003320)
+#define RVCSR_MHPMEVENT4_CLR (*(volatile uint32_t *)0xe0003324)
+#define RVCSR_MHPMEVENT8_CLR (*(volatile uint32_t *)0xe0003328)
+#define RVCSR_MHPMEVENT12_CLR (*(volatile uint32_t *)0xe000332c)
+#define RVCSR_MHPMEVENT16_CLR (*(volatile uint32_t *)0xe0003330)
+#define RVCSR_MHPMEVENT20_CLR (*(volatile uint32_t *)0xe0003334)
+#define RVCSR_MHPMEVENT24_CLR (*(volatile uint32_t *)0xe0003338)
+#define RVCSR_MHPMEVENT28_CLR (*(volatile uint32_t *)0xe000333c)
+#define RVCSR_MSCRATCH_CLR (*(volatile uint32_t *)0xe0003340)
+#define RVCSR_MIP_CLR (*(volatile uint32_t *)0xe0003344)
+#define RVCSR_PMPCFG0_CLR (*(volatile uint32_t *)0xe00033a0)
+#define RVCSR_PMPADDR0_CLR (*(volatile uint32_t *)0xe00033b0)
+#define RVCSR_PMPADDR4_CLR (*(volatile uint32_t *)0xe00033b4)
+#define RVCSR_PMPADDR8_CLR (*(volatile uint32_t *)0xe00033b8)
+#define RVCSR_PMPADDR12_CLR (*(volatile uint32_t *)0xe00033bc)
+#define RVCSR_TSELECT_CLR (*(volatile uint32_t *)0xe00037a0)
+#define RVCSR_DCSR_CLR (*(volatile uint32_t *)0xe00037b0)
+#define RVCSR_MCYCLE_CLR (*(volatile uint32_t *)0xe0003b00)
+#define RVCSR_MHPMCOUNTER4_CLR (*(volatile uint32_t *)0xe0003b04)
+#define RVCSR_MHPMCOUNTER8_CLR (*(volatile uint32_t *)0xe0003b08)
+#define RVCSR_MHPMCOUNTER12_CLR (*(volatile uint32_t *)0xe0003b0c)
+#define RVCSR_MHPMCOUNTER16_CLR (*(volatile uint32_t *)0xe0003b10)
+#define RVCSR_MHPMCOUNTER20_CLR (*(volatile uint32_t *)0xe0003b14)
+#define RVCSR_MHPMCOUNTER24_CLR (*(volatile uint32_t *)0xe0003b18)
+#define RVCSR_MHPMCOUNTER28_CLR (*(volatile uint32_t *)0xe0003b1c)
+#define RVCSR_MCYCLEH_CLR (*(volatile uint32_t *)0xe0003b80)
+#define RVCSR_MHPMCOUNTER4H_CLR (*(volatile uint32_t *)0xe0003b84)
+#define RVCSR_MHPMCOUNTER8H_CLR (*(volatile uint32_t *)0xe0003b88)
+#define RVCSR_MHPMCOUNTER12H_CLR (*(volatile uint32_t *)0xe0003b8c)
+#define RVCSR_MHPMCOUNTER16H_CLR (*(volatile uint32_t *)0xe0003b90)
+#define RVCSR_MHPMCOUNTER20H_CLR (*(volatile uint32_t *)0xe0003b94)
+#define RVCSR_MHPMCOUNTER24H_CLR (*(volatile uint32_t *)0xe0003b98)
+#define RVCSR_MHPMCOUNTER28H_CLR (*(volatile uint32_t *)0xe0003b9c)
+#define RVCSR_PMPCFGM0_CLR (*(volatile uint32_t *)0xe0003bd0)
+#define RVCSR_MEIEA_CLR (*(volatile uint32_t *)0xe0003be0)
+#define RVCSR_MEINEXT_CLR (*(volatile uint32_t *)0xe0003be4)
+#define RVCSR_MSLEEP_CLR (*(volatile uint32_t *)0xe0003bf0)
+#define RVCSR_CYCLE_CLR (*(volatile uint32_t *)0xe0003c00)
+#define RVCSR_CYCLEH_CLR (*(volatile uint32_t *)0xe0003c80)
+#define RVCSR_MHARTID_CLR (*(volatile uint32_t *)0xe0003f14)
 
 /*MSTATUS Register macros*/
 

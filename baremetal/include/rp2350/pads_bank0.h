@@ -83,161 +83,161 @@ typedef struct{
 		uint32_t swclk;
 		uint32_t swd;
 		uint32_t RSVD0[973];
-		uint32_t xor_voltage_select;
-		uint32_t xor_gpio0;
-		uint32_t xor_gpio1;
-		uint32_t xor_gpio2;
-		uint32_t xor_gpio3;
-		uint32_t xor_gpio4;
-		uint32_t xor_gpio5;
-		uint32_t xor_gpio6;
-		uint32_t xor_gpio7;
-		uint32_t xor_gpio8;
-		uint32_t xor_gpio9;
-		uint32_t xor_gpio10;
-		uint32_t xor_gpio11;
-		uint32_t xor_gpio12;
-		uint32_t xor_gpio13;
-		uint32_t xor_gpio14;
-		uint32_t xor_gpio15;
-		uint32_t xor_gpio16;
-		uint32_t xor_gpio17;
-		uint32_t xor_gpio18;
-		uint32_t xor_gpio19;
-		uint32_t xor_gpio20;
-		uint32_t xor_gpio21;
-		uint32_t xor_gpio22;
-		uint32_t xor_gpio23;
-		uint32_t xor_gpio24;
-		uint32_t xor_gpio25;
-		uint32_t xor_gpio26;
-		uint32_t xor_gpio27;
-		uint32_t xor_gpio28;
-		uint32_t xor_gpio29;
-		uint32_t xor_gpio30;
-		uint32_t xor_gpio31;
-		uint32_t xor_gpio32;
-		uint32_t xor_gpio33;
-		uint32_t xor_gpio34;
-		uint32_t xor_gpio35;
-		uint32_t xor_gpio36;
-		uint32_t xor_gpio37;
-		uint32_t xor_gpio38;
-		uint32_t xor_gpio39;
-		uint32_t xor_gpio40;
-		uint32_t xor_gpio41;
-		uint32_t xor_gpio42;
-		uint32_t xor_gpio43;
-		uint32_t xor_gpio44;
-		uint32_t xor_gpio45;
-		uint32_t xor_gpio46;
-		uint32_t xor_gpio47;
-		uint32_t xor_swclk;
-		uint32_t xor_swd;
+		uint32_t voltage_select_xor;
+		uint32_t gpio0_xor;
+		uint32_t gpio1_xor;
+		uint32_t gpio2_xor;
+		uint32_t gpio3_xor;
+		uint32_t gpio4_xor;
+		uint32_t gpio5_xor;
+		uint32_t gpio6_xor;
+		uint32_t gpio7_xor;
+		uint32_t gpio8_xor;
+		uint32_t gpio9_xor;
+		uint32_t gpio10_xor;
+		uint32_t gpio11_xor;
+		uint32_t gpio12_xor;
+		uint32_t gpio13_xor;
+		uint32_t gpio14_xor;
+		uint32_t gpio15_xor;
+		uint32_t gpio16_xor;
+		uint32_t gpio17_xor;
+		uint32_t gpio18_xor;
+		uint32_t gpio19_xor;
+		uint32_t gpio20_xor;
+		uint32_t gpio21_xor;
+		uint32_t gpio22_xor;
+		uint32_t gpio23_xor;
+		uint32_t gpio24_xor;
+		uint32_t gpio25_xor;
+		uint32_t gpio26_xor;
+		uint32_t gpio27_xor;
+		uint32_t gpio28_xor;
+		uint32_t gpio29_xor;
+		uint32_t gpio30_xor;
+		uint32_t gpio31_xor;
+		uint32_t gpio32_xor;
+		uint32_t gpio33_xor;
+		uint32_t gpio34_xor;
+		uint32_t gpio35_xor;
+		uint32_t gpio36_xor;
+		uint32_t gpio37_xor;
+		uint32_t gpio38_xor;
+		uint32_t gpio39_xor;
+		uint32_t gpio40_xor;
+		uint32_t gpio41_xor;
+		uint32_t gpio42_xor;
+		uint32_t gpio43_xor;
+		uint32_t gpio44_xor;
+		uint32_t gpio45_xor;
+		uint32_t gpio46_xor;
+		uint32_t gpio47_xor;
+		uint32_t swclk_xor;
+		uint32_t swd_xor;
 		uint32_t RSVDxor_0[973];
-		uint32_t set_voltage_select;
-		uint32_t set_gpio0;
-		uint32_t set_gpio1;
-		uint32_t set_gpio2;
-		uint32_t set_gpio3;
-		uint32_t set_gpio4;
-		uint32_t set_gpio5;
-		uint32_t set_gpio6;
-		uint32_t set_gpio7;
-		uint32_t set_gpio8;
-		uint32_t set_gpio9;
-		uint32_t set_gpio10;
-		uint32_t set_gpio11;
-		uint32_t set_gpio12;
-		uint32_t set_gpio13;
-		uint32_t set_gpio14;
-		uint32_t set_gpio15;
-		uint32_t set_gpio16;
-		uint32_t set_gpio17;
-		uint32_t set_gpio18;
-		uint32_t set_gpio19;
-		uint32_t set_gpio20;
-		uint32_t set_gpio21;
-		uint32_t set_gpio22;
-		uint32_t set_gpio23;
-		uint32_t set_gpio24;
-		uint32_t set_gpio25;
-		uint32_t set_gpio26;
-		uint32_t set_gpio27;
-		uint32_t set_gpio28;
-		uint32_t set_gpio29;
-		uint32_t set_gpio30;
-		uint32_t set_gpio31;
-		uint32_t set_gpio32;
-		uint32_t set_gpio33;
-		uint32_t set_gpio34;
-		uint32_t set_gpio35;
-		uint32_t set_gpio36;
-		uint32_t set_gpio37;
-		uint32_t set_gpio38;
-		uint32_t set_gpio39;
-		uint32_t set_gpio40;
-		uint32_t set_gpio41;
-		uint32_t set_gpio42;
-		uint32_t set_gpio43;
-		uint32_t set_gpio44;
-		uint32_t set_gpio45;
-		uint32_t set_gpio46;
-		uint32_t set_gpio47;
-		uint32_t set_swclk;
-		uint32_t set_swd;
+		uint32_t voltage_select_set;
+		uint32_t gpio0_set;
+		uint32_t gpio1_set;
+		uint32_t gpio2_set;
+		uint32_t gpio3_set;
+		uint32_t gpio4_set;
+		uint32_t gpio5_set;
+		uint32_t gpio6_set;
+		uint32_t gpio7_set;
+		uint32_t gpio8_set;
+		uint32_t gpio9_set;
+		uint32_t gpio10_set;
+		uint32_t gpio11_set;
+		uint32_t gpio12_set;
+		uint32_t gpio13_set;
+		uint32_t gpio14_set;
+		uint32_t gpio15_set;
+		uint32_t gpio16_set;
+		uint32_t gpio17_set;
+		uint32_t gpio18_set;
+		uint32_t gpio19_set;
+		uint32_t gpio20_set;
+		uint32_t gpio21_set;
+		uint32_t gpio22_set;
+		uint32_t gpio23_set;
+		uint32_t gpio24_set;
+		uint32_t gpio25_set;
+		uint32_t gpio26_set;
+		uint32_t gpio27_set;
+		uint32_t gpio28_set;
+		uint32_t gpio29_set;
+		uint32_t gpio30_set;
+		uint32_t gpio31_set;
+		uint32_t gpio32_set;
+		uint32_t gpio33_set;
+		uint32_t gpio34_set;
+		uint32_t gpio35_set;
+		uint32_t gpio36_set;
+		uint32_t gpio37_set;
+		uint32_t gpio38_set;
+		uint32_t gpio39_set;
+		uint32_t gpio40_set;
+		uint32_t gpio41_set;
+		uint32_t gpio42_set;
+		uint32_t gpio43_set;
+		uint32_t gpio44_set;
+		uint32_t gpio45_set;
+		uint32_t gpio46_set;
+		uint32_t gpio47_set;
+		uint32_t swclk_set;
+		uint32_t swd_set;
 		uint32_t RSVDset_0[973];
-		uint32_t clr_voltage_select;
-		uint32_t clr_gpio0;
-		uint32_t clr_gpio1;
-		uint32_t clr_gpio2;
-		uint32_t clr_gpio3;
-		uint32_t clr_gpio4;
-		uint32_t clr_gpio5;
-		uint32_t clr_gpio6;
-		uint32_t clr_gpio7;
-		uint32_t clr_gpio8;
-		uint32_t clr_gpio9;
-		uint32_t clr_gpio10;
-		uint32_t clr_gpio11;
-		uint32_t clr_gpio12;
-		uint32_t clr_gpio13;
-		uint32_t clr_gpio14;
-		uint32_t clr_gpio15;
-		uint32_t clr_gpio16;
-		uint32_t clr_gpio17;
-		uint32_t clr_gpio18;
-		uint32_t clr_gpio19;
-		uint32_t clr_gpio20;
-		uint32_t clr_gpio21;
-		uint32_t clr_gpio22;
-		uint32_t clr_gpio23;
-		uint32_t clr_gpio24;
-		uint32_t clr_gpio25;
-		uint32_t clr_gpio26;
-		uint32_t clr_gpio27;
-		uint32_t clr_gpio28;
-		uint32_t clr_gpio29;
-		uint32_t clr_gpio30;
-		uint32_t clr_gpio31;
-		uint32_t clr_gpio32;
-		uint32_t clr_gpio33;
-		uint32_t clr_gpio34;
-		uint32_t clr_gpio35;
-		uint32_t clr_gpio36;
-		uint32_t clr_gpio37;
-		uint32_t clr_gpio38;
-		uint32_t clr_gpio39;
-		uint32_t clr_gpio40;
-		uint32_t clr_gpio41;
-		uint32_t clr_gpio42;
-		uint32_t clr_gpio43;
-		uint32_t clr_gpio44;
-		uint32_t clr_gpio45;
-		uint32_t clr_gpio46;
-		uint32_t clr_gpio47;
-		uint32_t clr_swclk;
-		uint32_t clr_swd;
+		uint32_t voltage_select_clr;
+		uint32_t gpio0_clr;
+		uint32_t gpio1_clr;
+		uint32_t gpio2_clr;
+		uint32_t gpio3_clr;
+		uint32_t gpio4_clr;
+		uint32_t gpio5_clr;
+		uint32_t gpio6_clr;
+		uint32_t gpio7_clr;
+		uint32_t gpio8_clr;
+		uint32_t gpio9_clr;
+		uint32_t gpio10_clr;
+		uint32_t gpio11_clr;
+		uint32_t gpio12_clr;
+		uint32_t gpio13_clr;
+		uint32_t gpio14_clr;
+		uint32_t gpio15_clr;
+		uint32_t gpio16_clr;
+		uint32_t gpio17_clr;
+		uint32_t gpio18_clr;
+		uint32_t gpio19_clr;
+		uint32_t gpio20_clr;
+		uint32_t gpio21_clr;
+		uint32_t gpio22_clr;
+		uint32_t gpio23_clr;
+		uint32_t gpio24_clr;
+		uint32_t gpio25_clr;
+		uint32_t gpio26_clr;
+		uint32_t gpio27_clr;
+		uint32_t gpio28_clr;
+		uint32_t gpio29_clr;
+		uint32_t gpio30_clr;
+		uint32_t gpio31_clr;
+		uint32_t gpio32_clr;
+		uint32_t gpio33_clr;
+		uint32_t gpio34_clr;
+		uint32_t gpio35_clr;
+		uint32_t gpio36_clr;
+		uint32_t gpio37_clr;
+		uint32_t gpio38_clr;
+		uint32_t gpio39_clr;
+		uint32_t gpio40_clr;
+		uint32_t gpio41_clr;
+		uint32_t gpio42_clr;
+		uint32_t gpio43_clr;
+		uint32_t gpio44_clr;
+		uint32_t gpio45_clr;
+		uint32_t gpio46_clr;
+		uint32_t gpio47_clr;
+		uint32_t swclk_clr;
+		uint32_t swd_clr;
 		uint32_t RSVDclr_0[973];
 } PADS_BANK0_REG_BLOCKS;
 
@@ -300,159 +300,159 @@ typedef struct{
 #define PADS_BANK0_GPIO47 (*(volatile uint32_t *)0x400380c0)
 #define PADS_BANK0_SWCLK (*(volatile uint32_t *)0x400380c4)
 #define PADS_BANK0_SWD (*(volatile uint32_t *)0x400380c8)
-#define PADS_BANK0_XOR_VOLTAGE_SELECT (*(volatile uint32_t *)0x40039000)
-#define PADS_BANK0_XOR_GPIO0 (*(volatile uint32_t *)0x40039004)
-#define PADS_BANK0_XOR_GPIO1 (*(volatile uint32_t *)0x40039008)
-#define PADS_BANK0_XOR_GPIO2 (*(volatile uint32_t *)0x4003900c)
-#define PADS_BANK0_XOR_GPIO3 (*(volatile uint32_t *)0x40039010)
-#define PADS_BANK0_XOR_GPIO4 (*(volatile uint32_t *)0x40039014)
-#define PADS_BANK0_XOR_GPIO5 (*(volatile uint32_t *)0x40039018)
-#define PADS_BANK0_XOR_GPIO6 (*(volatile uint32_t *)0x4003901c)
-#define PADS_BANK0_XOR_GPIO7 (*(volatile uint32_t *)0x40039020)
-#define PADS_BANK0_XOR_GPIO8 (*(volatile uint32_t *)0x40039024)
-#define PADS_BANK0_XOR_GPIO9 (*(volatile uint32_t *)0x40039028)
-#define PADS_BANK0_XOR_GPIO10 (*(volatile uint32_t *)0x4003902c)
-#define PADS_BANK0_XOR_GPIO11 (*(volatile uint32_t *)0x40039030)
-#define PADS_BANK0_XOR_GPIO12 (*(volatile uint32_t *)0x40039034)
-#define PADS_BANK0_XOR_GPIO13 (*(volatile uint32_t *)0x40039038)
-#define PADS_BANK0_XOR_GPIO14 (*(volatile uint32_t *)0x4003903c)
-#define PADS_BANK0_XOR_GPIO15 (*(volatile uint32_t *)0x40039040)
-#define PADS_BANK0_XOR_GPIO16 (*(volatile uint32_t *)0x40039044)
-#define PADS_BANK0_XOR_GPIO17 (*(volatile uint32_t *)0x40039048)
-#define PADS_BANK0_XOR_GPIO18 (*(volatile uint32_t *)0x4003904c)
-#define PADS_BANK0_XOR_GPIO19 (*(volatile uint32_t *)0x40039050)
-#define PADS_BANK0_XOR_GPIO20 (*(volatile uint32_t *)0x40039054)
-#define PADS_BANK0_XOR_GPIO21 (*(volatile uint32_t *)0x40039058)
-#define PADS_BANK0_XOR_GPIO22 (*(volatile uint32_t *)0x4003905c)
-#define PADS_BANK0_XOR_GPIO23 (*(volatile uint32_t *)0x40039060)
-#define PADS_BANK0_XOR_GPIO24 (*(volatile uint32_t *)0x40039064)
-#define PADS_BANK0_XOR_GPIO25 (*(volatile uint32_t *)0x40039068)
-#define PADS_BANK0_XOR_GPIO26 (*(volatile uint32_t *)0x4003906c)
-#define PADS_BANK0_XOR_GPIO27 (*(volatile uint32_t *)0x40039070)
-#define PADS_BANK0_XOR_GPIO28 (*(volatile uint32_t *)0x40039074)
-#define PADS_BANK0_XOR_GPIO29 (*(volatile uint32_t *)0x40039078)
-#define PADS_BANK0_XOR_GPIO30 (*(volatile uint32_t *)0x4003907c)
-#define PADS_BANK0_XOR_GPIO31 (*(volatile uint32_t *)0x40039080)
-#define PADS_BANK0_XOR_GPIO32 (*(volatile uint32_t *)0x40039084)
-#define PADS_BANK0_XOR_GPIO33 (*(volatile uint32_t *)0x40039088)
-#define PADS_BANK0_XOR_GPIO34 (*(volatile uint32_t *)0x4003908c)
-#define PADS_BANK0_XOR_GPIO35 (*(volatile uint32_t *)0x40039090)
-#define PADS_BANK0_XOR_GPIO36 (*(volatile uint32_t *)0x40039094)
-#define PADS_BANK0_XOR_GPIO37 (*(volatile uint32_t *)0x40039098)
-#define PADS_BANK0_XOR_GPIO38 (*(volatile uint32_t *)0x4003909c)
-#define PADS_BANK0_XOR_GPIO39 (*(volatile uint32_t *)0x400390a0)
-#define PADS_BANK0_XOR_GPIO40 (*(volatile uint32_t *)0x400390a4)
-#define PADS_BANK0_XOR_GPIO41 (*(volatile uint32_t *)0x400390a8)
-#define PADS_BANK0_XOR_GPIO42 (*(volatile uint32_t *)0x400390ac)
-#define PADS_BANK0_XOR_GPIO43 (*(volatile uint32_t *)0x400390b0)
-#define PADS_BANK0_XOR_GPIO44 (*(volatile uint32_t *)0x400390b4)
-#define PADS_BANK0_XOR_GPIO45 (*(volatile uint32_t *)0x400390b8)
-#define PADS_BANK0_XOR_GPIO46 (*(volatile uint32_t *)0x400390bc)
-#define PADS_BANK0_XOR_GPIO47 (*(volatile uint32_t *)0x400390c0)
-#define PADS_BANK0_XOR_SWCLK (*(volatile uint32_t *)0x400390c4)
-#define PADS_BANK0_XOR_SWD (*(volatile uint32_t *)0x400390c8)
-#define PADS_BANK0_SET_VOLTAGE_SELECT (*(volatile uint32_t *)0x4003a000)
-#define PADS_BANK0_SET_GPIO0 (*(volatile uint32_t *)0x4003a004)
-#define PADS_BANK0_SET_GPIO1 (*(volatile uint32_t *)0x4003a008)
-#define PADS_BANK0_SET_GPIO2 (*(volatile uint32_t *)0x4003a00c)
-#define PADS_BANK0_SET_GPIO3 (*(volatile uint32_t *)0x4003a010)
-#define PADS_BANK0_SET_GPIO4 (*(volatile uint32_t *)0x4003a014)
-#define PADS_BANK0_SET_GPIO5 (*(volatile uint32_t *)0x4003a018)
-#define PADS_BANK0_SET_GPIO6 (*(volatile uint32_t *)0x4003a01c)
-#define PADS_BANK0_SET_GPIO7 (*(volatile uint32_t *)0x4003a020)
-#define PADS_BANK0_SET_GPIO8 (*(volatile uint32_t *)0x4003a024)
-#define PADS_BANK0_SET_GPIO9 (*(volatile uint32_t *)0x4003a028)
-#define PADS_BANK0_SET_GPIO10 (*(volatile uint32_t *)0x4003a02c)
-#define PADS_BANK0_SET_GPIO11 (*(volatile uint32_t *)0x4003a030)
-#define PADS_BANK0_SET_GPIO12 (*(volatile uint32_t *)0x4003a034)
-#define PADS_BANK0_SET_GPIO13 (*(volatile uint32_t *)0x4003a038)
-#define PADS_BANK0_SET_GPIO14 (*(volatile uint32_t *)0x4003a03c)
-#define PADS_BANK0_SET_GPIO15 (*(volatile uint32_t *)0x4003a040)
-#define PADS_BANK0_SET_GPIO16 (*(volatile uint32_t *)0x4003a044)
-#define PADS_BANK0_SET_GPIO17 (*(volatile uint32_t *)0x4003a048)
-#define PADS_BANK0_SET_GPIO18 (*(volatile uint32_t *)0x4003a04c)
-#define PADS_BANK0_SET_GPIO19 (*(volatile uint32_t *)0x4003a050)
-#define PADS_BANK0_SET_GPIO20 (*(volatile uint32_t *)0x4003a054)
-#define PADS_BANK0_SET_GPIO21 (*(volatile uint32_t *)0x4003a058)
-#define PADS_BANK0_SET_GPIO22 (*(volatile uint32_t *)0x4003a05c)
-#define PADS_BANK0_SET_GPIO23 (*(volatile uint32_t *)0x4003a060)
-#define PADS_BANK0_SET_GPIO24 (*(volatile uint32_t *)0x4003a064)
-#define PADS_BANK0_SET_GPIO25 (*(volatile uint32_t *)0x4003a068)
-#define PADS_BANK0_SET_GPIO26 (*(volatile uint32_t *)0x4003a06c)
-#define PADS_BANK0_SET_GPIO27 (*(volatile uint32_t *)0x4003a070)
-#define PADS_BANK0_SET_GPIO28 (*(volatile uint32_t *)0x4003a074)
-#define PADS_BANK0_SET_GPIO29 (*(volatile uint32_t *)0x4003a078)
-#define PADS_BANK0_SET_GPIO30 (*(volatile uint32_t *)0x4003a07c)
-#define PADS_BANK0_SET_GPIO31 (*(volatile uint32_t *)0x4003a080)
-#define PADS_BANK0_SET_GPIO32 (*(volatile uint32_t *)0x4003a084)
-#define PADS_BANK0_SET_GPIO33 (*(volatile uint32_t *)0x4003a088)
-#define PADS_BANK0_SET_GPIO34 (*(volatile uint32_t *)0x4003a08c)
-#define PADS_BANK0_SET_GPIO35 (*(volatile uint32_t *)0x4003a090)
-#define PADS_BANK0_SET_GPIO36 (*(volatile uint32_t *)0x4003a094)
-#define PADS_BANK0_SET_GPIO37 (*(volatile uint32_t *)0x4003a098)
-#define PADS_BANK0_SET_GPIO38 (*(volatile uint32_t *)0x4003a09c)
-#define PADS_BANK0_SET_GPIO39 (*(volatile uint32_t *)0x4003a0a0)
-#define PADS_BANK0_SET_GPIO40 (*(volatile uint32_t *)0x4003a0a4)
-#define PADS_BANK0_SET_GPIO41 (*(volatile uint32_t *)0x4003a0a8)
-#define PADS_BANK0_SET_GPIO42 (*(volatile uint32_t *)0x4003a0ac)
-#define PADS_BANK0_SET_GPIO43 (*(volatile uint32_t *)0x4003a0b0)
-#define PADS_BANK0_SET_GPIO44 (*(volatile uint32_t *)0x4003a0b4)
-#define PADS_BANK0_SET_GPIO45 (*(volatile uint32_t *)0x4003a0b8)
-#define PADS_BANK0_SET_GPIO46 (*(volatile uint32_t *)0x4003a0bc)
-#define PADS_BANK0_SET_GPIO47 (*(volatile uint32_t *)0x4003a0c0)
-#define PADS_BANK0_SET_SWCLK (*(volatile uint32_t *)0x4003a0c4)
-#define PADS_BANK0_SET_SWD (*(volatile uint32_t *)0x4003a0c8)
-#define PADS_BANK0_CLR_VOLTAGE_SELECT (*(volatile uint32_t *)0x4003b000)
-#define PADS_BANK0_CLR_GPIO0 (*(volatile uint32_t *)0x4003b004)
-#define PADS_BANK0_CLR_GPIO1 (*(volatile uint32_t *)0x4003b008)
-#define PADS_BANK0_CLR_GPIO2 (*(volatile uint32_t *)0x4003b00c)
-#define PADS_BANK0_CLR_GPIO3 (*(volatile uint32_t *)0x4003b010)
-#define PADS_BANK0_CLR_GPIO4 (*(volatile uint32_t *)0x4003b014)
-#define PADS_BANK0_CLR_GPIO5 (*(volatile uint32_t *)0x4003b018)
-#define PADS_BANK0_CLR_GPIO6 (*(volatile uint32_t *)0x4003b01c)
-#define PADS_BANK0_CLR_GPIO7 (*(volatile uint32_t *)0x4003b020)
-#define PADS_BANK0_CLR_GPIO8 (*(volatile uint32_t *)0x4003b024)
-#define PADS_BANK0_CLR_GPIO9 (*(volatile uint32_t *)0x4003b028)
-#define PADS_BANK0_CLR_GPIO10 (*(volatile uint32_t *)0x4003b02c)
-#define PADS_BANK0_CLR_GPIO11 (*(volatile uint32_t *)0x4003b030)
-#define PADS_BANK0_CLR_GPIO12 (*(volatile uint32_t *)0x4003b034)
-#define PADS_BANK0_CLR_GPIO13 (*(volatile uint32_t *)0x4003b038)
-#define PADS_BANK0_CLR_GPIO14 (*(volatile uint32_t *)0x4003b03c)
-#define PADS_BANK0_CLR_GPIO15 (*(volatile uint32_t *)0x4003b040)
-#define PADS_BANK0_CLR_GPIO16 (*(volatile uint32_t *)0x4003b044)
-#define PADS_BANK0_CLR_GPIO17 (*(volatile uint32_t *)0x4003b048)
-#define PADS_BANK0_CLR_GPIO18 (*(volatile uint32_t *)0x4003b04c)
-#define PADS_BANK0_CLR_GPIO19 (*(volatile uint32_t *)0x4003b050)
-#define PADS_BANK0_CLR_GPIO20 (*(volatile uint32_t *)0x4003b054)
-#define PADS_BANK0_CLR_GPIO21 (*(volatile uint32_t *)0x4003b058)
-#define PADS_BANK0_CLR_GPIO22 (*(volatile uint32_t *)0x4003b05c)
-#define PADS_BANK0_CLR_GPIO23 (*(volatile uint32_t *)0x4003b060)
-#define PADS_BANK0_CLR_GPIO24 (*(volatile uint32_t *)0x4003b064)
-#define PADS_BANK0_CLR_GPIO25 (*(volatile uint32_t *)0x4003b068)
-#define PADS_BANK0_CLR_GPIO26 (*(volatile uint32_t *)0x4003b06c)
-#define PADS_BANK0_CLR_GPIO27 (*(volatile uint32_t *)0x4003b070)
-#define PADS_BANK0_CLR_GPIO28 (*(volatile uint32_t *)0x4003b074)
-#define PADS_BANK0_CLR_GPIO29 (*(volatile uint32_t *)0x4003b078)
-#define PADS_BANK0_CLR_GPIO30 (*(volatile uint32_t *)0x4003b07c)
-#define PADS_BANK0_CLR_GPIO31 (*(volatile uint32_t *)0x4003b080)
-#define PADS_BANK0_CLR_GPIO32 (*(volatile uint32_t *)0x4003b084)
-#define PADS_BANK0_CLR_GPIO33 (*(volatile uint32_t *)0x4003b088)
-#define PADS_BANK0_CLR_GPIO34 (*(volatile uint32_t *)0x4003b08c)
-#define PADS_BANK0_CLR_GPIO35 (*(volatile uint32_t *)0x4003b090)
-#define PADS_BANK0_CLR_GPIO36 (*(volatile uint32_t *)0x4003b094)
-#define PADS_BANK0_CLR_GPIO37 (*(volatile uint32_t *)0x4003b098)
-#define PADS_BANK0_CLR_GPIO38 (*(volatile uint32_t *)0x4003b09c)
-#define PADS_BANK0_CLR_GPIO39 (*(volatile uint32_t *)0x4003b0a0)
-#define PADS_BANK0_CLR_GPIO40 (*(volatile uint32_t *)0x4003b0a4)
-#define PADS_BANK0_CLR_GPIO41 (*(volatile uint32_t *)0x4003b0a8)
-#define PADS_BANK0_CLR_GPIO42 (*(volatile uint32_t *)0x4003b0ac)
-#define PADS_BANK0_CLR_GPIO43 (*(volatile uint32_t *)0x4003b0b0)
-#define PADS_BANK0_CLR_GPIO44 (*(volatile uint32_t *)0x4003b0b4)
-#define PADS_BANK0_CLR_GPIO45 (*(volatile uint32_t *)0x4003b0b8)
-#define PADS_BANK0_CLR_GPIO46 (*(volatile uint32_t *)0x4003b0bc)
-#define PADS_BANK0_CLR_GPIO47 (*(volatile uint32_t *)0x4003b0c0)
-#define PADS_BANK0_CLR_SWCLK (*(volatile uint32_t *)0x4003b0c4)
-#define PADS_BANK0_CLR_SWD (*(volatile uint32_t *)0x4003b0c8)
+#define PADS_BANK0_VOLTAGE_SELECT_XOR (*(volatile uint32_t *)0x40039000)
+#define PADS_BANK0_GPIO0_XOR (*(volatile uint32_t *)0x40039004)
+#define PADS_BANK0_GPIO1_XOR (*(volatile uint32_t *)0x40039008)
+#define PADS_BANK0_GPIO2_XOR (*(volatile uint32_t *)0x4003900c)
+#define PADS_BANK0_GPIO3_XOR (*(volatile uint32_t *)0x40039010)
+#define PADS_BANK0_GPIO4_XOR (*(volatile uint32_t *)0x40039014)
+#define PADS_BANK0_GPIO5_XOR (*(volatile uint32_t *)0x40039018)
+#define PADS_BANK0_GPIO6_XOR (*(volatile uint32_t *)0x4003901c)
+#define PADS_BANK0_GPIO7_XOR (*(volatile uint32_t *)0x40039020)
+#define PADS_BANK0_GPIO8_XOR (*(volatile uint32_t *)0x40039024)
+#define PADS_BANK0_GPIO9_XOR (*(volatile uint32_t *)0x40039028)
+#define PADS_BANK0_GPIO10_XOR (*(volatile uint32_t *)0x4003902c)
+#define PADS_BANK0_GPIO11_XOR (*(volatile uint32_t *)0x40039030)
+#define PADS_BANK0_GPIO12_XOR (*(volatile uint32_t *)0x40039034)
+#define PADS_BANK0_GPIO13_XOR (*(volatile uint32_t *)0x40039038)
+#define PADS_BANK0_GPIO14_XOR (*(volatile uint32_t *)0x4003903c)
+#define PADS_BANK0_GPIO15_XOR (*(volatile uint32_t *)0x40039040)
+#define PADS_BANK0_GPIO16_XOR (*(volatile uint32_t *)0x40039044)
+#define PADS_BANK0_GPIO17_XOR (*(volatile uint32_t *)0x40039048)
+#define PADS_BANK0_GPIO18_XOR (*(volatile uint32_t *)0x4003904c)
+#define PADS_BANK0_GPIO19_XOR (*(volatile uint32_t *)0x40039050)
+#define PADS_BANK0_GPIO20_XOR (*(volatile uint32_t *)0x40039054)
+#define PADS_BANK0_GPIO21_XOR (*(volatile uint32_t *)0x40039058)
+#define PADS_BANK0_GPIO22_XOR (*(volatile uint32_t *)0x4003905c)
+#define PADS_BANK0_GPIO23_XOR (*(volatile uint32_t *)0x40039060)
+#define PADS_BANK0_GPIO24_XOR (*(volatile uint32_t *)0x40039064)
+#define PADS_BANK0_GPIO25_XOR (*(volatile uint32_t *)0x40039068)
+#define PADS_BANK0_GPIO26_XOR (*(volatile uint32_t *)0x4003906c)
+#define PADS_BANK0_GPIO27_XOR (*(volatile uint32_t *)0x40039070)
+#define PADS_BANK0_GPIO28_XOR (*(volatile uint32_t *)0x40039074)
+#define PADS_BANK0_GPIO29_XOR (*(volatile uint32_t *)0x40039078)
+#define PADS_BANK0_GPIO30_XOR (*(volatile uint32_t *)0x4003907c)
+#define PADS_BANK0_GPIO31_XOR (*(volatile uint32_t *)0x40039080)
+#define PADS_BANK0_GPIO32_XOR (*(volatile uint32_t *)0x40039084)
+#define PADS_BANK0_GPIO33_XOR (*(volatile uint32_t *)0x40039088)
+#define PADS_BANK0_GPIO34_XOR (*(volatile uint32_t *)0x4003908c)
+#define PADS_BANK0_GPIO35_XOR (*(volatile uint32_t *)0x40039090)
+#define PADS_BANK0_GPIO36_XOR (*(volatile uint32_t *)0x40039094)
+#define PADS_BANK0_GPIO37_XOR (*(volatile uint32_t *)0x40039098)
+#define PADS_BANK0_GPIO38_XOR (*(volatile uint32_t *)0x4003909c)
+#define PADS_BANK0_GPIO39_XOR (*(volatile uint32_t *)0x400390a0)
+#define PADS_BANK0_GPIO40_XOR (*(volatile uint32_t *)0x400390a4)
+#define PADS_BANK0_GPIO41_XOR (*(volatile uint32_t *)0x400390a8)
+#define PADS_BANK0_GPIO42_XOR (*(volatile uint32_t *)0x400390ac)
+#define PADS_BANK0_GPIO43_XOR (*(volatile uint32_t *)0x400390b0)
+#define PADS_BANK0_GPIO44_XOR (*(volatile uint32_t *)0x400390b4)
+#define PADS_BANK0_GPIO45_XOR (*(volatile uint32_t *)0x400390b8)
+#define PADS_BANK0_GPIO46_XOR (*(volatile uint32_t *)0x400390bc)
+#define PADS_BANK0_GPIO47_XOR (*(volatile uint32_t *)0x400390c0)
+#define PADS_BANK0_SWCLK_XOR (*(volatile uint32_t *)0x400390c4)
+#define PADS_BANK0_SWD_XOR (*(volatile uint32_t *)0x400390c8)
+#define PADS_BANK0_VOLTAGE_SELECT_SET (*(volatile uint32_t *)0x4003a000)
+#define PADS_BANK0_GPIO0_SET (*(volatile uint32_t *)0x4003a004)
+#define PADS_BANK0_GPIO1_SET (*(volatile uint32_t *)0x4003a008)
+#define PADS_BANK0_GPIO2_SET (*(volatile uint32_t *)0x4003a00c)
+#define PADS_BANK0_GPIO3_SET (*(volatile uint32_t *)0x4003a010)
+#define PADS_BANK0_GPIO4_SET (*(volatile uint32_t *)0x4003a014)
+#define PADS_BANK0_GPIO5_SET (*(volatile uint32_t *)0x4003a018)
+#define PADS_BANK0_GPIO6_SET (*(volatile uint32_t *)0x4003a01c)
+#define PADS_BANK0_GPIO7_SET (*(volatile uint32_t *)0x4003a020)
+#define PADS_BANK0_GPIO8_SET (*(volatile uint32_t *)0x4003a024)
+#define PADS_BANK0_GPIO9_SET (*(volatile uint32_t *)0x4003a028)
+#define PADS_BANK0_GPIO10_SET (*(volatile uint32_t *)0x4003a02c)
+#define PADS_BANK0_GPIO11_SET (*(volatile uint32_t *)0x4003a030)
+#define PADS_BANK0_GPIO12_SET (*(volatile uint32_t *)0x4003a034)
+#define PADS_BANK0_GPIO13_SET (*(volatile uint32_t *)0x4003a038)
+#define PADS_BANK0_GPIO14_SET (*(volatile uint32_t *)0x4003a03c)
+#define PADS_BANK0_GPIO15_SET (*(volatile uint32_t *)0x4003a040)
+#define PADS_BANK0_GPIO16_SET (*(volatile uint32_t *)0x4003a044)
+#define PADS_BANK0_GPIO17_SET (*(volatile uint32_t *)0x4003a048)
+#define PADS_BANK0_GPIO18_SET (*(volatile uint32_t *)0x4003a04c)
+#define PADS_BANK0_GPIO19_SET (*(volatile uint32_t *)0x4003a050)
+#define PADS_BANK0_GPIO20_SET (*(volatile uint32_t *)0x4003a054)
+#define PADS_BANK0_GPIO21_SET (*(volatile uint32_t *)0x4003a058)
+#define PADS_BANK0_GPIO22_SET (*(volatile uint32_t *)0x4003a05c)
+#define PADS_BANK0_GPIO23_SET (*(volatile uint32_t *)0x4003a060)
+#define PADS_BANK0_GPIO24_SET (*(volatile uint32_t *)0x4003a064)
+#define PADS_BANK0_GPIO25_SET (*(volatile uint32_t *)0x4003a068)
+#define PADS_BANK0_GPIO26_SET (*(volatile uint32_t *)0x4003a06c)
+#define PADS_BANK0_GPIO27_SET (*(volatile uint32_t *)0x4003a070)
+#define PADS_BANK0_GPIO28_SET (*(volatile uint32_t *)0x4003a074)
+#define PADS_BANK0_GPIO29_SET (*(volatile uint32_t *)0x4003a078)
+#define PADS_BANK0_GPIO30_SET (*(volatile uint32_t *)0x4003a07c)
+#define PADS_BANK0_GPIO31_SET (*(volatile uint32_t *)0x4003a080)
+#define PADS_BANK0_GPIO32_SET (*(volatile uint32_t *)0x4003a084)
+#define PADS_BANK0_GPIO33_SET (*(volatile uint32_t *)0x4003a088)
+#define PADS_BANK0_GPIO34_SET (*(volatile uint32_t *)0x4003a08c)
+#define PADS_BANK0_GPIO35_SET (*(volatile uint32_t *)0x4003a090)
+#define PADS_BANK0_GPIO36_SET (*(volatile uint32_t *)0x4003a094)
+#define PADS_BANK0_GPIO37_SET (*(volatile uint32_t *)0x4003a098)
+#define PADS_BANK0_GPIO38_SET (*(volatile uint32_t *)0x4003a09c)
+#define PADS_BANK0_GPIO39_SET (*(volatile uint32_t *)0x4003a0a0)
+#define PADS_BANK0_GPIO40_SET (*(volatile uint32_t *)0x4003a0a4)
+#define PADS_BANK0_GPIO41_SET (*(volatile uint32_t *)0x4003a0a8)
+#define PADS_BANK0_GPIO42_SET (*(volatile uint32_t *)0x4003a0ac)
+#define PADS_BANK0_GPIO43_SET (*(volatile uint32_t *)0x4003a0b0)
+#define PADS_BANK0_GPIO44_SET (*(volatile uint32_t *)0x4003a0b4)
+#define PADS_BANK0_GPIO45_SET (*(volatile uint32_t *)0x4003a0b8)
+#define PADS_BANK0_GPIO46_SET (*(volatile uint32_t *)0x4003a0bc)
+#define PADS_BANK0_GPIO47_SET (*(volatile uint32_t *)0x4003a0c0)
+#define PADS_BANK0_SWCLK_SET (*(volatile uint32_t *)0x4003a0c4)
+#define PADS_BANK0_SWD_SET (*(volatile uint32_t *)0x4003a0c8)
+#define PADS_BANK0_VOLTAGE_SELECT_CLR (*(volatile uint32_t *)0x4003b000)
+#define PADS_BANK0_GPIO0_CLR (*(volatile uint32_t *)0x4003b004)
+#define PADS_BANK0_GPIO1_CLR (*(volatile uint32_t *)0x4003b008)
+#define PADS_BANK0_GPIO2_CLR (*(volatile uint32_t *)0x4003b00c)
+#define PADS_BANK0_GPIO3_CLR (*(volatile uint32_t *)0x4003b010)
+#define PADS_BANK0_GPIO4_CLR (*(volatile uint32_t *)0x4003b014)
+#define PADS_BANK0_GPIO5_CLR (*(volatile uint32_t *)0x4003b018)
+#define PADS_BANK0_GPIO6_CLR (*(volatile uint32_t *)0x4003b01c)
+#define PADS_BANK0_GPIO7_CLR (*(volatile uint32_t *)0x4003b020)
+#define PADS_BANK0_GPIO8_CLR (*(volatile uint32_t *)0x4003b024)
+#define PADS_BANK0_GPIO9_CLR (*(volatile uint32_t *)0x4003b028)
+#define PADS_BANK0_GPIO10_CLR (*(volatile uint32_t *)0x4003b02c)
+#define PADS_BANK0_GPIO11_CLR (*(volatile uint32_t *)0x4003b030)
+#define PADS_BANK0_GPIO12_CLR (*(volatile uint32_t *)0x4003b034)
+#define PADS_BANK0_GPIO13_CLR (*(volatile uint32_t *)0x4003b038)
+#define PADS_BANK0_GPIO14_CLR (*(volatile uint32_t *)0x4003b03c)
+#define PADS_BANK0_GPIO15_CLR (*(volatile uint32_t *)0x4003b040)
+#define PADS_BANK0_GPIO16_CLR (*(volatile uint32_t *)0x4003b044)
+#define PADS_BANK0_GPIO17_CLR (*(volatile uint32_t *)0x4003b048)
+#define PADS_BANK0_GPIO18_CLR (*(volatile uint32_t *)0x4003b04c)
+#define PADS_BANK0_GPIO19_CLR (*(volatile uint32_t *)0x4003b050)
+#define PADS_BANK0_GPIO20_CLR (*(volatile uint32_t *)0x4003b054)
+#define PADS_BANK0_GPIO21_CLR (*(volatile uint32_t *)0x4003b058)
+#define PADS_BANK0_GPIO22_CLR (*(volatile uint32_t *)0x4003b05c)
+#define PADS_BANK0_GPIO23_CLR (*(volatile uint32_t *)0x4003b060)
+#define PADS_BANK0_GPIO24_CLR (*(volatile uint32_t *)0x4003b064)
+#define PADS_BANK0_GPIO25_CLR (*(volatile uint32_t *)0x4003b068)
+#define PADS_BANK0_GPIO26_CLR (*(volatile uint32_t *)0x4003b06c)
+#define PADS_BANK0_GPIO27_CLR (*(volatile uint32_t *)0x4003b070)
+#define PADS_BANK0_GPIO28_CLR (*(volatile uint32_t *)0x4003b074)
+#define PADS_BANK0_GPIO29_CLR (*(volatile uint32_t *)0x4003b078)
+#define PADS_BANK0_GPIO30_CLR (*(volatile uint32_t *)0x4003b07c)
+#define PADS_BANK0_GPIO31_CLR (*(volatile uint32_t *)0x4003b080)
+#define PADS_BANK0_GPIO32_CLR (*(volatile uint32_t *)0x4003b084)
+#define PADS_BANK0_GPIO33_CLR (*(volatile uint32_t *)0x4003b088)
+#define PADS_BANK0_GPIO34_CLR (*(volatile uint32_t *)0x4003b08c)
+#define PADS_BANK0_GPIO35_CLR (*(volatile uint32_t *)0x4003b090)
+#define PADS_BANK0_GPIO36_CLR (*(volatile uint32_t *)0x4003b094)
+#define PADS_BANK0_GPIO37_CLR (*(volatile uint32_t *)0x4003b098)
+#define PADS_BANK0_GPIO38_CLR (*(volatile uint32_t *)0x4003b09c)
+#define PADS_BANK0_GPIO39_CLR (*(volatile uint32_t *)0x4003b0a0)
+#define PADS_BANK0_GPIO40_CLR (*(volatile uint32_t *)0x4003b0a4)
+#define PADS_BANK0_GPIO41_CLR (*(volatile uint32_t *)0x4003b0a8)
+#define PADS_BANK0_GPIO42_CLR (*(volatile uint32_t *)0x4003b0ac)
+#define PADS_BANK0_GPIO43_CLR (*(volatile uint32_t *)0x4003b0b0)
+#define PADS_BANK0_GPIO44_CLR (*(volatile uint32_t *)0x4003b0b4)
+#define PADS_BANK0_GPIO45_CLR (*(volatile uint32_t *)0x4003b0b8)
+#define PADS_BANK0_GPIO46_CLR (*(volatile uint32_t *)0x4003b0bc)
+#define PADS_BANK0_GPIO47_CLR (*(volatile uint32_t *)0x4003b0c0)
+#define PADS_BANK0_SWCLK_CLR (*(volatile uint32_t *)0x4003b0c4)
+#define PADS_BANK0_SWD_CLR (*(volatile uint32_t *)0x4003b0c8)
 
 /*VOLTAGE_SELECT Register macros*/
 
