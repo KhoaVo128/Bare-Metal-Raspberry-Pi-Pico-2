@@ -14,7 +14,7 @@
   This environment was developed for use in an embedded systems course at Binghamton University.  Because of this use case, the number of example programs is purposely limited.  While a software-development kit (SDK) facilitates rapid development and improves portability, it adds a layer of abstraction that hides many of the low-level hardware features, which is undesirable for bare-metal embedded systems education since the skills have limited transferability.  SDKs also produce bloated code, generate excessive files on disk, take too long to compile simple programs, and are overly complicated when building small programs. 
 
 # Status
-This environment has not yet undergone significant testing but will be updated as bugs are disovered.
+This environment has been tested and should be relatively bug free.
  
 # Accessing Hardware Registers
 Each peripheral (e.g. UART) and CPU subsystem (e.g. PLL) has an include file (e.g. rp2350/pll.h) that can be included to use the register definitions and field macros.  There are two register naming conventions defined.  Either or both can be used simultaneously.  
