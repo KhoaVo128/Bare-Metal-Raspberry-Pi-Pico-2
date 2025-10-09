@@ -26,15 +26,15 @@ void memcpy32( uint32_t *dest, const uint32_t *src, uint32_t n)
 
 static void memcpy( void *dest, const void *src, uint32_t n, uint8_t size)
 {
-	resets.reset_clr = RESETS_RESET_DMA_MASK;
-	while( !(resets.reset_done & RESETS_RESET_DMA_MASK))
+	RESETS_RESET_CLR = RESETS_RESET_DMA_MASK;
+	while( !(RESETS_RESET_DONE & RESETS_RESET_DMA_MASK))
 		continue;
-	dma.ch0_read_addr = (uint32_t)src;
-	dma.ch0_write_addr = (uint32_t)dest;
-	dma.ch0_trans_count = 
+	DMA_CH0_READ_ADDR = (uint32_t)src;
+	DMA_CH0_WRITE_ADDR = (uint32_t)dest;
+	DMA_CH0_TRANS_COUNT = 
 		 DMA_CH0_TRANS_COUNT_MODE(0)
 		|DMA_CH0_TRANS_COUNT_COUNT(n);
-	dma.ch0_ctrl_trig = 
+	DMA_CH0_CTRL_TRIG = 
 		 DMA_CH0_CTRL_TRIG_READ_ERROR(1)
 		|DMA_CH0_CTRL_TRIG_WRITE_ERROR(1)
 		|DMA_CH0_CTRL_TRIG_SNIFF_EN(0)

@@ -1,22 +1,29 @@
-#include "systick.h"
-#include <stdbool.h>
-#include <stdint.h>
 #include <rp2350/m33.h>
 #include <rp2350/ticks.h>
+#include <stdbool.h>
+#include <systick.h>
 
-void configure_systick(uint32_t systick_period_us)
-{
-	ticks.proc0_ctrl_set = TICKS_PROC0_CTRL_ENABLE_MASK;
-	ticks.proc0_cycles = 1;
-	m33.syst_rvr= systick_period_us;
-	m33.syst_cvr=0;
-	m33.shpr3 = (m33.shpr3 & ~M33_SHPR3_PRI_15_3_MASK ) 
-		| M33_SHPR3_PRI_15_3(0);
-	m33.syst_csr= M33_SYST_CSR_CLKSOURCE(0) 
-		| M33_SYST_CSR_ENABLE_MASK 
-		| M33_SYST_CSR_TICKINT(0);
+#ifndef SYSTICK_FREQ
+#define SYSTICK_FREQ_HZ 1000
+#endif
+
+#ifndef EXT_CLK_FREQ_HZ
+#define EXT_CLK_FREQ_HZ 1000000
+#endif
+
+#define SYSTICK_TOP (EXT_CLK_FREQ_HZ/SYSTICK_FREQ_HZ - 1)
+
+void configure_systick() {
+	TICKS_PROC0_CYCLES = 1;
+	TICKS_PROC0_CTRL = TICKS_PROC0_CTRL_ENABLE(1);
+	M33_SYST_RVR = SYSTICK_TOP;
+	M33_SYST_CVR = 0;
+	M33_SYST_CSR = 
+		M33_SYST_CSR_CLKSOURCE(0) 
+		| M33_SYST_CSR_TICKINT(0) 
+		| M33_SYST_CSR_ENABLE(1);
 }
-_Bool systick_has_fired()
-{
-	return m33.syst_csr & M33_SYST_CSR_COUNTFLAG_MASK;
+
+_Bool system_tick() {
+	return M33_SYST_CSR & M33_SYST_CSR_COUNTFLAG_MASK; 
 }

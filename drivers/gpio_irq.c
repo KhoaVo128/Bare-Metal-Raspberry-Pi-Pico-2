@@ -24,12 +24,12 @@ static uint32_t gpio_irq_events[4];
 
 void register_gpio_irq_callback( void (*pf)() )
 {
-	resets.reset_clr = GPIO_IRQ_RESETS;
-	while( (resets.reset_done & GPIO_IRQ_RESETS) != GPIO_IRQ_RESETS)
+	RESETS_RESET_CLR = GPIO_IRQ_RESETS;
+	while( (RESETS_RESET_DONE & GPIO_IRQ_RESETS) != GPIO_IRQ_RESETS)
 		continue;
 	callback[num_registered_callbacks] = pf;
 	num_registered_callbacks++;
-	((uint8_t *)&(m33.nvic_ipr0))[16+GPIO_IRQ]=GPIO_IRQ_PRIO;
+	((uint8_t *)&(M33_NVIC_IPR0))[16+GPIO_IRQ]=GPIO_IRQ_PRIO;
 	M33_NVIC_ISER0 = (1<<GPIO_IRQ);
 }
 
@@ -45,14 +45,14 @@ uint8_t get_irq_status_for_pin( uint8_t pin)
 
 void __attribute__((interrupt)) IO_IRQ_BANK0_Handler()
 {
-	m33.nvic_icpr0 = (1<<GPIO_IRQ);
+	M33_NVIC_ICPR0 = (1<<GPIO_IRQ);
 
 	for( uint8_t i=0; i<4; i++ )
-		gpio_irq_events[i] = (&(io_bank0.proc0_ints0))[i];
+		gpio_irq_events[i] = (&(IO_BANK0_PROC0_INTS0))[i];
 
 	for( uint8_t i=0; i < num_registered_callbacks; i++)
 		callback[i]();
 
 	for( uint8_t i=0; i<4; i++ )
-		(&(io_bank0.intr0))[i]=gpio_irq_events[i];
+		(&(IO_BANK0_INTR0))[i]=gpio_irq_events[i];
 }

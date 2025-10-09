@@ -507,21 +507,9 @@ void USBCTRL_IRQ_Handler()
 void configure_usbcdc()
 {
 	/*
-	 * Configure USB PLL.  
+	 * USB PLL is configured to 144 MHz in _crt0
 	 */
 	//un-reset USB PLL and poll until reset is deasserted
-	resets.reset_clr  =  RESETS_RESET_PLL_USB_MASK;
-	while(!(resets.reset_done & RESETS_RESET_DONE_PLL_USB_MASK))
-		continue;
-	//config for 12x48MHz, disable power bits to start, and wait for lock
-	pll_usb.cs = PLL_USB_CS_REFDIV(1);
-	pll_usb.fbdiv_int = 120; //12MHz x 96 FCO = 1440 MHz
-	pll_usb.pwr = 0;
-	while( !(pll_usb.cs & PLL_USB_CS_LOCK_MASK))
-		continue;
-	//config post dividers for divide-by-6-by-5, which gets PLL ouput to 48 MHz
-	pll_usb.prim  =  
-		 PLL_USB_PRIM_POSTDIV1(6) |PLL_USB_PRIM_POSTDIV2(5);
 
 	/*
 	 * Configure USB Clock
@@ -536,7 +524,7 @@ void configure_usbcdc()
 		continue;
 	
 	//Change divider to 1.0
-	clocks.clk_usb_div  =  CLOCKS_CLK_USB_DIV_INT(1);
+	clocks.clk_usb_div  =  CLOCKS_CLK_USB_DIV_INT(3);
 	
 	/*
 	 * USB Config

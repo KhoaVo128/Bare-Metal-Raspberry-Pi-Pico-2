@@ -6,11 +6,11 @@
 int main ( void )
 {
 	uint16_t cnt=0;
-	configure_systick(LOOP_PERIOD_us);
+	configure_systick();
 	configure_led();
 	while(1)
 	{
-		if( !systick_has_fired() )
+		if( !system_tick() )
 			continue;
 		if( ++cnt==500 )
 		{

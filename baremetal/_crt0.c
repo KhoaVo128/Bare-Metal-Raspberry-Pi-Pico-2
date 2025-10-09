@@ -74,10 +74,10 @@ static void _config_sys_clock()
 		continue;
 	
 
-	//Reset PLL so we can (re)configure
-	resets.reset_set  =  RESETS_RESET_PLL_SYS_MASK;
-	resets.reset_clr  =  RESETS_RESET_PLL_SYS_MASK;
-	while(!(resets.reset_done & RESETS_RESET_DONE_PLL_SYS_MASK))
+	//Bootloader may configure PLLs, so reset
+	resets.reset_set  =  RESETS_RESET_PLL_SYS_MASK | RESETS_RESET_PLL_USB_MASK;
+	resets.reset_clr  =  RESETS_RESET_PLL_SYS_MASK | RESETS_RESET_PLL_USB_MASK;
+	while(!(resets.reset_done & (RESETS_RESET_DONE_PLL_SYS_MASK | RESETS_RESET_PLL_USB_MASK)))
 		continue;
 
 	//switch the glitchless mux to ref
@@ -85,6 +85,7 @@ static void _config_sys_clock()
 	//poll the SELECTED register until the switch is completed
 	while( !(clocks.clk_sys_selected ) )
 		continue;
+	/*
 	//config SYS PLL for 150 MHz CPU clock
 	pll_sys.cs = PLL_SYS_CS_REFDIV(1);
 	pll_sys.fbdiv_int = 125; //12MHz x 125 FCO = 1500 MHz
@@ -97,10 +98,27 @@ static void _config_sys_clock()
 	//to 1500/5/2 = 150 MHz
 	pll_sys.prim  =  PLL_SYS_PRIM_POSTDIV1(5) | PLL_SYS_PRIM_POSTDIV2(2);
 	pll_sys.pwr_clr = PLL_SYS_PWR_POSTDIVPD_MASK;
+	*/
 	
+	/*USB PLL is configured for 144MHz for use by USB and clk sys
+	 * means that the ADC can run off system clock and frees up SYS PLL
+	 */
+	resets.reset_clr  =  RESETS_RESET_PLL_USB_MASK;
+	while(!(resets.reset_done & RESETS_RESET_DONE_PLL_USB_MASK))
+		continue;
+	//config for 12x48MHz, disable power bits to start, and wait for lock
+	pll_usb.cs = PLL_USB_CS_REFDIV(1);
+	pll_usb.fbdiv_int = 120; //12MHz x 96 FCO = 1440 MHz
+	pll_usb.pwr = 0;
+	while( !(pll_usb.cs & PLL_USB_CS_LOCK_MASK))
+		continue;
+	//config post dividers for divide-by-5-by-2, which gets PLL ouput to 144 MHz
+	pll_usb.prim  =  
+		 PLL_USB_PRIM_POSTDIV1(5) |PLL_USB_PRIM_POSTDIV2(2);
 
 	//change the auxiliary mux select control
-	clocks.clk_sys_ctrl_clr = CLOCKS_CLK_SYS_CTRL_AUXSRC_MASK;
+	//clocks.clk_sys_ctrl_clr = CLOCKS_CLK_SYS_CTRL_AUXSRC_MASK;
+	clocks.clk_sys_ctrl = CLOCKS_CLK_SYS_CTRL_AUXSRC(1);
 	//switch the glitchless mux back to the aux mux
 	clocks.clk_sys_ctrl_set  = CLOCKS_CLK_SYS_CTRL_SRC_MASK;
 	//wait for good measure
