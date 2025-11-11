@@ -1,0 +1,271 @@
+
+/* Copyright (c) 2024-2025 Douglas H. Summerville (dsummer@binghamton.edu) 
+ *
+ * Created from scraped data which is Copyright (c) 2024 Raspberry Pi
+ * (Trading) Ltd.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+#ifndef RP2350_RP_AP_H
+#define RP2350_RP_AP_H
+
+#include <stdint.h>
+
+#define ALL1 ((uint32_t)0xFFFFFFFF)
+
+typedef struct{
+		uint32_t ctrl;
+		uint32_t dbgkey;
+		uint32_t dbg_pow_state_swcore;
+		uint32_t dbg_pow_state_xip;
+		uint32_t dbg_pow_state_sram0;
+		uint32_t dbg_pow_state_sram1;
+		uint32_t dbg_pow_ovrd;
+		uint32_t dbg_pow_output_to_gpio;
+		uint32_t RSVD0[887];
+		uint32_t idr;
+		uint32_t RSVD1[128];
+		uint32_t ctrl_xor;
+		uint32_t dbgkey_xor;
+		uint32_t dbg_pow_state_swcore_xor;
+		uint32_t dbg_pow_state_xip_xor;
+		uint32_t dbg_pow_state_sram0_xor;
+		uint32_t dbg_pow_state_sram1_xor;
+		uint32_t dbg_pow_ovrd_xor;
+		uint32_t dbg_pow_output_to_gpio_xor;
+		uint32_t RSVDxor_0[887];
+		uint32_t idr_xor;
+		uint32_t RSVDxor_1[128];
+		uint32_t ctrl_set;
+		uint32_t dbgkey_set;
+		uint32_t dbg_pow_state_swcore_set;
+		uint32_t dbg_pow_state_xip_set;
+		uint32_t dbg_pow_state_sram0_set;
+		uint32_t dbg_pow_state_sram1_set;
+		uint32_t dbg_pow_ovrd_set;
+		uint32_t dbg_pow_output_to_gpio_set;
+		uint32_t RSVDset_0[887];
+		uint32_t idr_set;
+		uint32_t RSVDset_1[128];
+		uint32_t ctrl_clr;
+		uint32_t dbgkey_clr;
+		uint32_t dbg_pow_state_swcore_clr;
+		uint32_t dbg_pow_state_xip_clr;
+		uint32_t dbg_pow_state_sram0_clr;
+		uint32_t dbg_pow_state_sram1_clr;
+		uint32_t dbg_pow_ovrd_clr;
+		uint32_t dbg_pow_output_to_gpio_clr;
+		uint32_t RSVDclr_0[887];
+		uint32_t idr_clr;
+		uint32_t RSVDclr_1[128];
+} RP_AP_REG_BLOCKS;
+
+
+/*IO Registers as struct*/
+
+#define rp_ap (*(RP_AP_REG_BLOCKS volatile *)0x50700000)
+
+
+/*IO Registers AS MACROS*/
+
+#define RP_AP_CTRL (*(volatile uint32_t *)0x50700000)
+#define RP_AP_DBGKEY (*(volatile uint32_t *)0x50700004)
+#define RP_AP_DBG_POW_STATE_SWCORE (*(volatile uint32_t *)0x50700008)
+#define RP_AP_DBG_POW_STATE_XIP (*(volatile uint32_t *)0x5070000c)
+#define RP_AP_DBG_POW_STATE_SRAM0 (*(volatile uint32_t *)0x50700010)
+#define RP_AP_DBG_POW_STATE_SRAM1 (*(volatile uint32_t *)0x50700014)
+#define RP_AP_DBG_POW_OVRD (*(volatile uint32_t *)0x50700018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO (*(volatile uint32_t *)0x5070001c)
+#define RP_AP_IDR (*(volatile uint32_t *)0x50700dfc)
+#define RP_AP_CTRL_XOR (*(volatile uint32_t *)0x50701000)
+#define RP_AP_DBGKEY_XOR (*(volatile uint32_t *)0x50701004)
+#define RP_AP_DBG_POW_STATE_SWCORE_XOR (*(volatile uint32_t *)0x50701008)
+#define RP_AP_DBG_POW_STATE_XIP_XOR (*(volatile uint32_t *)0x5070100c)
+#define RP_AP_DBG_POW_STATE_SRAM0_XOR (*(volatile uint32_t *)0x50701010)
+#define RP_AP_DBG_POW_STATE_SRAM1_XOR (*(volatile uint32_t *)0x50701014)
+#define RP_AP_DBG_POW_OVRD_XOR (*(volatile uint32_t *)0x50701018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_XOR (*(volatile uint32_t *)0x5070101c)
+#define RP_AP_IDR_XOR (*(volatile uint32_t *)0x50701dfc)
+#define RP_AP_CTRL_SET (*(volatile uint32_t *)0x50702000)
+#define RP_AP_DBGKEY_SET (*(volatile uint32_t *)0x50702004)
+#define RP_AP_DBG_POW_STATE_SWCORE_SET (*(volatile uint32_t *)0x50702008)
+#define RP_AP_DBG_POW_STATE_XIP_SET (*(volatile uint32_t *)0x5070200c)
+#define RP_AP_DBG_POW_STATE_SRAM0_SET (*(volatile uint32_t *)0x50702010)
+#define RP_AP_DBG_POW_STATE_SRAM1_SET (*(volatile uint32_t *)0x50702014)
+#define RP_AP_DBG_POW_OVRD_SET (*(volatile uint32_t *)0x50702018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_SET (*(volatile uint32_t *)0x5070201c)
+#define RP_AP_IDR_SET (*(volatile uint32_t *)0x50702dfc)
+#define RP_AP_CTRL_CLR (*(volatile uint32_t *)0x50703000)
+#define RP_AP_DBGKEY_CLR (*(volatile uint32_t *)0x50703004)
+#define RP_AP_DBG_POW_STATE_SWCORE_CLR (*(volatile uint32_t *)0x50703008)
+#define RP_AP_DBG_POW_STATE_XIP_CLR (*(volatile uint32_t *)0x5070300c)
+#define RP_AP_DBG_POW_STATE_SRAM0_CLR (*(volatile uint32_t *)0x50703010)
+#define RP_AP_DBG_POW_STATE_SRAM1_CLR (*(volatile uint32_t *)0x50703014)
+#define RP_AP_DBG_POW_OVRD_CLR (*(volatile uint32_t *)0x50703018)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_CLR (*(volatile uint32_t *)0x5070301c)
+#define RP_AP_IDR_CLR (*(volatile uint32_t *)0x50703dfc)
+
+/*CTRL Register macros*/
+
+#define RP_AP_CTRL_RESCUE_RESTART(v) (((v)&0x1)<<31)
+#define RP_AP_CTRL_RESCUE_RESTART_MASK RP_AP_CTRL_RESCUE_RESTART(ALL1)
+#define RP_AP_CTRL_SPARE(v) (((v)&0x1)<<30)
+#define RP_AP_CTRL_SPARE_MASK RP_AP_CTRL_SPARE(ALL1)
+#define RP_AP_CTRL_DBG_FRCE_GPIO_LPCK(v) (((v)&0x1)<<6)
+#define RP_AP_CTRL_DBG_FRCE_GPIO_LPCK_MASK RP_AP_CTRL_DBG_FRCE_GPIO_LPCK(ALL1)
+#define RP_AP_CTRL_LPOSC_STABLE_FRCE(v) (((v)&0x1)<<5)
+#define RP_AP_CTRL_LPOSC_STABLE_FRCE_MASK RP_AP_CTRL_LPOSC_STABLE_FRCE(ALL1)
+#define RP_AP_CTRL_POWMAN_DFT_ISO_OFF(v) (((v)&0x1)<<4)
+#define RP_AP_CTRL_POWMAN_DFT_ISO_OFF_MASK RP_AP_CTRL_POWMAN_DFT_ISO_OFF(ALL1)
+#define RP_AP_CTRL_POWMAN_DFT_PWRON(v) (((v)&0x1)<<3)
+#define RP_AP_CTRL_POWMAN_DFT_PWRON_MASK RP_AP_CTRL_POWMAN_DFT_PWRON(ALL1)
+#define RP_AP_CTRL_POWMAN_DBGMODE(v) (((v)&0x1)<<2)
+#define RP_AP_CTRL_POWMAN_DBGMODE_MASK RP_AP_CTRL_POWMAN_DBGMODE(ALL1)
+#define RP_AP_CTRL_JTAG_FUNCSEL(v) (((v)&0x1)<<1)
+#define RP_AP_CTRL_JTAG_FUNCSEL_MASK RP_AP_CTRL_JTAG_FUNCSEL(ALL1)
+#define RP_AP_CTRL_JTAG_TRSTN(v) (((v)&0x1)<<0)
+#define RP_AP_CTRL_JTAG_TRSTN_MASK RP_AP_CTRL_JTAG_TRSTN(ALL1)
+
+/*DBGKEY Register macros*/
+
+#define RP_AP_DBGKEY_RESET(v) (((v)&0x1)<<2)
+#define RP_AP_DBGKEY_RESET_MASK RP_AP_DBGKEY_RESET(ALL1)
+#define RP_AP_DBGKEY_PUSH(v) (((v)&0x1)<<1)
+#define RP_AP_DBGKEY_PUSH_MASK RP_AP_DBGKEY_PUSH(ALL1)
+#define RP_AP_DBGKEY_DATA(v) (((v)&0x1)<<0)
+#define RP_AP_DBGKEY_DATA_MASK RP_AP_DBGKEY_DATA(ALL1)
+
+/*DBG_POW_STATE_SWCORE Register macros*/
+
+#define RP_AP_DBG_POW_STATE_SWCORE_USING_FAST_POWCK(v) (((v)&0x1)<<11)
+#define RP_AP_DBG_POW_STATE_SWCORE_USING_FAST_POWCK_MASK RP_AP_DBG_POW_STATE_SWCORE_USING_FAST_POWCK(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_WAITING_POWCK(v) (((v)&0x1)<<10)
+#define RP_AP_DBG_POW_STATE_SWCORE_WAITING_POWCK_MASK RP_AP_DBG_POW_STATE_SWCORE_WAITING_POWCK(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_WAITING_TIMCK(v) (((v)&0x1)<<9)
+#define RP_AP_DBG_POW_STATE_SWCORE_WAITING_TIMCK_MASK RP_AP_DBG_POW_STATE_SWCORE_WAITING_TIMCK(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_IS_PU(v) (((v)&0x1)<<8)
+#define RP_AP_DBG_POW_STATE_SWCORE_IS_PU_MASK RP_AP_DBG_POW_STATE_SWCORE_IS_PU(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_RESET_FROM_SEQ(v) (((v)&0x1)<<7)
+#define RP_AP_DBG_POW_STATE_SWCORE_RESET_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SWCORE_RESET_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_ENAB_ACK(v) (((v)&0x1)<<6)
+#define RP_AP_DBG_POW_STATE_SWCORE_ENAB_ACK_MASK RP_AP_DBG_POW_STATE_SWCORE_ENAB_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_ISOLATE_FROM_SEQ(v) (((v)&0x1)<<5)
+#define RP_AP_DBG_POW_STATE_SWCORE_ISOLATE_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SWCORE_ISOLATE_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_LARGE_ACK(v) (((v)&0x1)<<4)
+#define RP_AP_DBG_POW_STATE_SWCORE_LARGE_ACK_MASK RP_AP_DBG_POW_STATE_SWCORE_LARGE_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK2(v) (((v)&0x1)<<3)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK2_MASK RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK2(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK1(v) (((v)&0x1)<<2)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK1_MASK RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK1(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK0(v) (((v)&0x1)<<1)
+#define RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK0_MASK RP_AP_DBG_POW_STATE_SWCORE_SMALL_ACK0(ALL1)
+#define RP_AP_DBG_POW_STATE_SWCORE_IS_PD(v) (((v)&0x1)<<0)
+#define RP_AP_DBG_POW_STATE_SWCORE_IS_PD_MASK RP_AP_DBG_POW_STATE_SWCORE_IS_PD(ALL1)
+
+/*DBG_POW_STATE_XIP Register macros*/
+
+#define RP_AP_DBG_POW_STATE_XIP_IS_PU(v) (((v)&0x1)<<8)
+#define RP_AP_DBG_POW_STATE_XIP_IS_PU_MASK RP_AP_DBG_POW_STATE_XIP_IS_PU(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_RESET_FROM_SEQ(v) (((v)&0x1)<<7)
+#define RP_AP_DBG_POW_STATE_XIP_RESET_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_XIP_RESET_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_ENAB_ACK(v) (((v)&0x1)<<6)
+#define RP_AP_DBG_POW_STATE_XIP_ENAB_ACK_MASK RP_AP_DBG_POW_STATE_XIP_ENAB_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_ISOLATE_FROM_SEQ(v) (((v)&0x1)<<5)
+#define RP_AP_DBG_POW_STATE_XIP_ISOLATE_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_XIP_ISOLATE_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_LARGE_ACK(v) (((v)&0x1)<<4)
+#define RP_AP_DBG_POW_STATE_XIP_LARGE_ACK_MASK RP_AP_DBG_POW_STATE_XIP_LARGE_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK2(v) (((v)&0x1)<<3)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK2_MASK RP_AP_DBG_POW_STATE_XIP_SMALL_ACK2(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK1(v) (((v)&0x1)<<2)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK1_MASK RP_AP_DBG_POW_STATE_XIP_SMALL_ACK1(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK0(v) (((v)&0x1)<<1)
+#define RP_AP_DBG_POW_STATE_XIP_SMALL_ACK0_MASK RP_AP_DBG_POW_STATE_XIP_SMALL_ACK0(ALL1)
+#define RP_AP_DBG_POW_STATE_XIP_IS_PD(v) (((v)&0x1)<<0)
+#define RP_AP_DBG_POW_STATE_XIP_IS_PD_MASK RP_AP_DBG_POW_STATE_XIP_IS_PD(ALL1)
+
+/*DBG_POW_STATE_SRAM0 Register macros*/
+
+#define RP_AP_DBG_POW_STATE_SRAM0_IS_PU(v) (((v)&0x1)<<8)
+#define RP_AP_DBG_POW_STATE_SRAM0_IS_PU_MASK RP_AP_DBG_POW_STATE_SRAM0_IS_PU(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_RESET_FROM_SEQ(v) (((v)&0x1)<<7)
+#define RP_AP_DBG_POW_STATE_SRAM0_RESET_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SRAM0_RESET_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_ENAB_ACK(v) (((v)&0x1)<<6)
+#define RP_AP_DBG_POW_STATE_SRAM0_ENAB_ACK_MASK RP_AP_DBG_POW_STATE_SRAM0_ENAB_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_ISOLATE_FROM_SEQ(v) (((v)&0x1)<<5)
+#define RP_AP_DBG_POW_STATE_SRAM0_ISOLATE_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SRAM0_ISOLATE_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_LARGE_ACK(v) (((v)&0x1)<<4)
+#define RP_AP_DBG_POW_STATE_SRAM0_LARGE_ACK_MASK RP_AP_DBG_POW_STATE_SRAM0_LARGE_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK2(v) (((v)&0x1)<<3)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK2_MASK RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK2(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK1(v) (((v)&0x1)<<2)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK1_MASK RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK1(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK0(v) (((v)&0x1)<<1)
+#define RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK0_MASK RP_AP_DBG_POW_STATE_SRAM0_SMALL_ACK0(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM0_IS_PD(v) (((v)&0x1)<<0)
+#define RP_AP_DBG_POW_STATE_SRAM0_IS_PD_MASK RP_AP_DBG_POW_STATE_SRAM0_IS_PD(ALL1)
+
+/*DBG_POW_STATE_SRAM1 Register macros*/
+
+#define RP_AP_DBG_POW_STATE_SRAM1_IS_PU(v) (((v)&0x1)<<8)
+#define RP_AP_DBG_POW_STATE_SRAM1_IS_PU_MASK RP_AP_DBG_POW_STATE_SRAM1_IS_PU(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_RESET_FROM_SEQ(v) (((v)&0x1)<<7)
+#define RP_AP_DBG_POW_STATE_SRAM1_RESET_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SRAM1_RESET_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_ENAB_ACK(v) (((v)&0x1)<<6)
+#define RP_AP_DBG_POW_STATE_SRAM1_ENAB_ACK_MASK RP_AP_DBG_POW_STATE_SRAM1_ENAB_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_ISOLATE_FROM_SEQ(v) (((v)&0x1)<<5)
+#define RP_AP_DBG_POW_STATE_SRAM1_ISOLATE_FROM_SEQ_MASK RP_AP_DBG_POW_STATE_SRAM1_ISOLATE_FROM_SEQ(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_LARGE_ACK(v) (((v)&0x1)<<4)
+#define RP_AP_DBG_POW_STATE_SRAM1_LARGE_ACK_MASK RP_AP_DBG_POW_STATE_SRAM1_LARGE_ACK(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK2(v) (((v)&0x1)<<3)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK2_MASK RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK2(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK1(v) (((v)&0x1)<<2)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK1_MASK RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK1(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK0(v) (((v)&0x1)<<1)
+#define RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK0_MASK RP_AP_DBG_POW_STATE_SRAM1_SMALL_ACK0(ALL1)
+#define RP_AP_DBG_POW_STATE_SRAM1_IS_PD(v) (((v)&0x1)<<0)
+#define RP_AP_DBG_POW_STATE_SRAM1_IS_PD_MASK RP_AP_DBG_POW_STATE_SRAM1_IS_PD(ALL1)
+
+/*DBG_POW_OVRD Register macros*/
+
+#define RP_AP_DBG_POW_OVRD_DBG_POW_RESTART_FROM_XOSC(v) (((v)&0x1)<<6)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_RESTART_FROM_XOSC_MASK RP_AP_DBG_POW_OVRD_DBG_POW_RESTART_FROM_XOSC(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_RESET(v) (((v)&0x1)<<5)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_RESET_MASK RP_AP_DBG_POW_OVRD_DBG_POW_RESET(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_RESET(v) (((v)&0x1)<<4)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_RESET_MASK RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_RESET(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_ISO(v) (((v)&0x1)<<3)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_ISO_MASK RP_AP_DBG_POW_OVRD_DBG_POW_ISO(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_ISO(v) (((v)&0x1)<<2)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_ISO_MASK RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_ISO(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_LARGE_REQ(v) (((v)&0x1)<<1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_LARGE_REQ_MASK RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_LARGE_REQ(ALL1)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_SMALL_REQ(v) (((v)&0x1)<<0)
+#define RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_SMALL_REQ_MASK RP_AP_DBG_POW_OVRD_DBG_POW_OVRD_SMALL_REQ(ALL1)
+
+/*DBG_POW_OUTPUT_TO_GPIO Register macros*/
+
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_ENABLE(v) (((v)&0xfff)<<0)
+#define RP_AP_DBG_POW_OUTPUT_TO_GPIO_ENABLE_MASK RP_AP_DBG_POW_OUTPUT_TO_GPIO_ENABLE(ALL1)
+
+/*IDR Register macros*/
+
+
+#endif
+
