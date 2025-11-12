@@ -59,6 +59,5 @@ void configure_servo(void){
 
 void rotate_servo(int16_t rotate){
 	
-}
-
+//for git testing purpoese
 
