@@ -1,0 +1,33 @@
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c drivers/usbcdc.c -o usbcdc.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c drivers/servo.c -o servo.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c drivers/systick.c -o systick.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c baremetal/_crt0.c -o _crt0.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c baremetal/_flash_init.c -o _flash_init.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -c baremetal/_newlib_stubs.c -o _newlib_stubs.o
+arm-none-eabi-gcc -ffreestanding -march=armv8-m.main+fp+dsp -mfloat-abi=hard -mthumb -std=c11 -pedantic -Wno-attributes -Os  -Idrivers -Ibaremetal/include -Ilib -Iinclude -fdata-sections -ffunction-sections -Xlinker -gc-sections -Wall -nostartfiles -specs=nano.specs -T baremetal/_flash.ld  -o test_servo.elf src/test_servo.c usbcdc.o servo.o systick.o _crt0.o _flash_init.o _newlib_stubs.o
+
+Generated Program has the following segments: n
+
+section  size  addr
+.boot    296   0x10000000
+TEXT     1826  0x10000128
+DATA     4     0x20000000
+BSS      40    0x20000008
+tools/elf2uf2.py -v test_servo.elf
+test_servo.elf is valid 32b ARM little-endian ELF file
+ELF contains loadable flash segment at 0x10000000
+ELF contains loadable flash segment at 0x1000084a
+Skipping program header for non-loadable segment
+Flash only binary; UF2 will program flash.
+Processing 2126 byte segment at physical address 10000000
+Writing output to test_servo.uf2
+Writing UF2 record of 256B @ addr 0x10000000
+Writing UF2 record of 256B @ addr 0x10000100
+Writing UF2 record of 256B @ addr 0x10000200
+Writing UF2 record of 256B @ addr 0x10000300
+Writing UF2 record of 256B @ addr 0x10000400
+Writing UF2 record of 256B @ addr 0x10000500
+Writing UF2 record of 256B @ addr 0x10000600
+Writing UF2 record of 256B @ addr 0x10000700
+Writing UF2 record of 256B @ addr 0x10000800
+rm _crt0.o _newlib_stubs.o servo.o usbcdc.o _flash_init.o systick.o test_servo.elf
