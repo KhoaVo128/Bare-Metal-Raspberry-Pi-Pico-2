@@ -1,3 +1,8 @@
+/*
+	KHOA THANH VO
+	DEFINITION OF ROTATRY ENCODER DRIVER'S HEADER FUNCTIONS
+	DEFINING MACROS
+*/
 #include <rp2350/sio.h>
 #include <rp2350/resets.h>
 #include <rp2350/io_bank0.h>
