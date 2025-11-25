@@ -1,3 +1,7 @@
+/*
+	KHOA THANH VO
+	MAIN PROGRAM TO TEST Rotary Encoder's Functionalities
+*/
 #include "rotary_encoder.h"
 #include "usbcdc.h"
 #include "systick.h"
@@ -14,7 +18,6 @@ void main(){
 			continue;
 		}
 		rotation = get_rotation();
-		
 		if(rotation == CLOCKWISE){
 			usbcdc_putchar('C');
 		}	
