@@ -46,12 +46,12 @@ void configure_rotary_encoder(){
 		
 }
 
-_Bool get_A_low(){
-	return (SIO_GPIO_IN & (0x00001 << (A))) == 0;
+static _Bool get_A(){
+	return !(SIO_GPIO_IN & (0x00001 << (A))) == 0;
 }
 
-_Bool get_B_low(){
-	return (SIO_GPIO_IN & (0x00001 << (B))) == 0;
+static _Bool get_B(){
+	return !(SIO_GPIO_IN & (0x00001 << (B))) == 0;
 }
 
 rotary_t get_rotation(){
@@ -63,55 +63,75 @@ rotary_t get_rotation(){
 				} rotary_state = IDLE;
 	switch(rotary_state){
 		case IDLE:
-			if(!get_A_low() && get_B_low()){
+			retval = NONE;
+			if(get_A() && !get_B()){
 				rotary_state = CW_STEP1;
 			}
-			else if(get_A_low() && !get_B_low()){
+			else if(!get_A() && get_B()){
 				rotary_state = ACW_STEP1;
+			}else{
+				rotary_state = IDLE;
 			}
 			break;
 		case CW_STEP1:
-			if(get_A_low() && get_B_low()){
+			if(get_A() && !get_B()){
+				rotary_state = CW_STEP1;
+			}
+			else if(!get_A() && !get_B()){
 				rotary_state = CW_STEP2;
 			}else{
 				rotary_state = IDLE;
 			}
 			break;
 		case CW_STEP2:
-			if(get_A_low() && !get_B_low()){
+			if(!get_A() && !get_B()){
+				rotary_state = CW_STEP2;
+			}
+			else if(!get_A() && get_B()){
 				rotary_state = CW_STEP3;
 			}else{
 				rotary_state = IDLE;
 			}
 			break;
 		case CW_STEP3:
-			if(!get_A_low() && !get_B_low()){
-				retval = CLOCKWISE;
+			if(!get_A() && get_B()){
+				rotary_state = CW_STEP3;
 			}
+			else if(get_A() && get_B()){
+				retval = CLOCKWISE;
 				rotary_state = IDLE;
-			break;		
+			}	
+			break;
 		case ACW_STEP1:
-			if(get_A_low() && !get_B_low()){
+			if(!get_A() && get_B()){
+				rotary_state = ACW_STEP1;
+			}
+			else if(!get_A() && !get_B()){
 				rotary_state = ACW_STEP2;
 			}else{
 				rotary_state = IDLE;
 			}
 			break;
 		case ACW_STEP2:
-			if(get_A_low() && get_B_low()){
+			if(!get_A() && !get_B()){
+				rotary_state = ACW_STEP2;
+			}
+			else if(get_A() && !get_B()){
 				rotary_state = ACW_STEP3;
 			}else{
 				rotary_state = IDLE;
 			}
 			break;
 		case ACW_STEP3:
-			if(!get_A_low() && get_B_low()){
-				retval = ANTI_CLOCKWISE;
+			if(get_A() && !get_B()){
+				rotary_state = ACW_STEP3;
 			}
-			rotary_state = IDLE;
-			break;
+			else if(get_A() && get_B()){
+				retval = ANTI_CLOCKWISE;
+				rotary_state = IDLE;
+			}
+			break;		
 		default:
-			rotary_state = IDLE;
 			break;
 	}
 	return retval;
