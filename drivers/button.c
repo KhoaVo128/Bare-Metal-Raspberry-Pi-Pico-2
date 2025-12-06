@@ -16,16 +16,16 @@ void configure_button(){
     while(!(resets.reset_done & GPIO_RESETS))
 	    continue;
 	
-	pads_bank0.gpio14 = 
-	PADS_BANK0_GPIO14_OD(1) 
-	| PADS_BANK0_GPIO14_IE(1)  
-	| PADS_BANK0_GPIO14_DRIVE(0) 
-	| PADS_BANK0_GPIO14_PUE(1) 
+	pads_bank0.gpio20 = 
+	PADS_BANK0_GPIO0_OD(1) 
+	| PADS_BANK0_GPIO0_IE(1)  
+	| PADS_BANK0_GPIO0_DRIVE(0) 
+	| PADS_BANK0_GPIO0_PUE(1) 
 	| PADS_BANK0_GPIO14_PDE(0) 
 	| PADS_BANK0_GPIO14_SCHMITT(0) 
 	| PADS_BANK0_GPIO14_SLEWFAST(0);
 	
-	io_bank0.gpio14_ctrl = 
+	io_bank0.gpio10_ctrl = 
 	IO_BANK0_GPIO14_CTRL_IRQOVER(0) |
 	IO_BANK0_GPIO14_CTRL_INOVER(0)  |
 	IO_BANK0_GPIO14_CTRL_OEOVER(0)  |
@@ -36,7 +36,7 @@ void configure_button(){
 }
 
 _Bool button_is_down(){
-	return (SIO_GPIO_IN & (0x0001<<14))==0;
+	return (SIO_GPIO_IN & (0x0001<<20))==0;
 }
 
 button_press_t get_button_press(){

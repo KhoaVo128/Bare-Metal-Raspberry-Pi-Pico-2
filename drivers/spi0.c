@@ -79,8 +79,6 @@ void configure_spi0()
 		| SPI0_SSPCR0_FRF(0)
 		| SPI0_SSPCR0_DSS(DATA_BITS-1);
 
-	//spi0.sspcpsr = 150;
-
 	SPI0_SSPCR1 =
 		  SPI0_SSPCR1_SOD(0)
 		| SPI0_SSPCR1_MS(0)

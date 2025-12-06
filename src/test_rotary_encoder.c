@@ -2,27 +2,28 @@
 	KHOA THANH VO
 	MAIN PROGRAM TO TEST Rotary Encoder's Functionalities
 */
-#include "rotary_encoder.h"
+#include "ultrasonic_sensor.h"
 #include "usbcdc.h"
 #include "systick.h"
-
+#include <stdio.h>
+static char c;
 void main(){
 	
 	configure_systick();
 	configure_usbcdc();
-	configure_rotary_encoder();
-	rotary_t rotation;
+	configure_ultrasonic_sensor();
 
 	while(1){
-		if(!system_tick()){
+		if(!system_tick())
 			continue;
-		}
-		rotation = get_rotation();
-		if(rotation == CLOCKWISE){
-			usbcdc_putchar('C');
-		}	
-		else if(rotation == ANTI_CLOCKWISE){
-			usbcdc_putchar('A');
+		if(usbcdc_getchar(&c)){
+			usbcdc_putchar(c);
+			if(c == 't'){
+				trigger();
+			}
+			if(c == 'r'){
+				printf("distance is: %d\r\n",get_distance);
+			}
 		}
 	}
 

@@ -1,0 +1,34 @@
+static enum {ISSUE_READ, WAIT ,ISSUE_DUMMY, WAIT_DATA} read_state = READ_CMD;	
+	static uint8_t wait_counter = 0;
+	switch (read_state)
+	{
+	case ISSUE_READ:
+		spi0_write(READ_CMD | reg);
+		read_state = WAIT;
+		break;
+	case WAIT:
+		wait_counter++;
+		if(wait_counter == 1){
+			spi0_read(&value);
+			wait_counter = 0;
+			read_state = ISSUE_DUMMY;
+		}else{
+			read_state = WAIT;
+		}
+		break;
+	case ISSUE_DUMMY:
+		spi0_write(DUMMY);
+		read_state = WAIT_DATA;
+		break;
+	case WAIT_DATA:
+		wait_counter++;
+		if(wait_counter == 1){
+			spi0_read(&value);
+			wait_counter = 0;
+		}else{
+			read_state = WAIT_DATA;
+		}
+		break;
+	default:
+		break;
+	}

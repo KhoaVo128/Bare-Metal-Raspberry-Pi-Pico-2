@@ -3,41 +3,53 @@
 	MAIN PROGRAM TO TEST SERVO'S FUNCTIONALITIES
 */
 #include <servo.h>
+#include <usbcdc.h>
+#include <keypad.h>
 #include <systick.h>
-#include <rotary_encoder.h>
 
 #define STEP_SIZE 100
 
+static char c;
 static int16_t rotate;
 
 
-void servo_control(rotary_t knub_rotate);
+void servo_control();
+void servo_control_v2();
 
 void main( void ){
 
 	configure_servo();
-	configure_rotary_encoder();
+	configure_usbcdc();
 	configure_systick();
-	rotary_t rotation;
 	while(1){
 		if(!system_tick())
 			continue;
-		rotation = get_rotation();
-		servo_control(rotation);
+		servo_control();
 			
 	}
 }
 
 
-void servo_control(rotary_t knub_rotate){
-	rotate = 0;
-	if(knub_rotate == CLOCKWISE){
-		rotate = STEP_SIZE;
-	}
-	else if(knub_rotate == ANTI_CLOCKWISE){
-		rotate = - STEP_SIZE;
-	}
-	rotate_servo(rotate);
-	
+void servo_control(){
+	if(usbcdc_getchar(&c)){
+		usbcdc_putchar(c);
+		switch(c){
+			case 'l':
+				rotate=STEP_SIZE;
+				break;
+			case 'r':
+				rotate=-STEP_SIZE;
+				break;
+			case 'L':
+				rotate=2*STEP_SIZE;	
+				break;
+			case 'R':
+				rotate=-2*STEP_SIZE;
+				break;
+			default:
+				break;
+			}
+			rotate_servo(rotate);
+		}
 }
 
