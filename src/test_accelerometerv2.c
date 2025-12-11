@@ -1,3 +1,7 @@
+/*
+	KHOA THANH VO
+	ACCELEROMETER MAIN TEST PROGRAM
+*/
 #include "usbcdc.h"
 #include "accelerometer.h"
 #include <stdio.h>

@@ -1,9 +1,15 @@
+/*
+	KHOA THANH VO
+
+	DEFINITIONS OF FUNCTIONS IN ACCELEROMETER HEADER FILE
+	DEFINES MACROS, FILE SCOPE VARIABLE(S), AND HELPER FUNCTIONS
+
+*/
 #include "accelerometer.h"
 #include "spi0.h"
 
 #define READ_CMD (1<<7)
 #define WRITE_CMD 0
-#define RW_MULTIPLE (1<<6)
 #define DUMMY 0
 
 

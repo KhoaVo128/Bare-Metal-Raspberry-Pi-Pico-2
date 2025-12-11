@@ -10,11 +10,6 @@
 #include <rp2350/pads_bank0.h>
 #include "servo.h"
 
-#define SERVO_PIN		  0	 
-#define SERVO_OFFSET 	-90
-#define SERVO_MAX 	(2500 + SERVO_OFFSET)
-#define SERVO_ZERO	(1500 + SERVO_OFFSET)
-#define SERVO_MIN	(500  + SERVO_OFFSET)
 #define SERVO_RESETS 	(RESETS_RESET_IO_BANK0_MASK\
 						| RESETS_RESET_PADS_BANK0_MASK\
 						| RESETS_RESET_PWM_MASK )
@@ -25,6 +20,10 @@
 #define IO_BANK0_GPIO_CTRL(X)	CONCAT3(IO_BANK0_GPIO,X,_CTRL)
 
 static int32_t duty = SERVO_ZERO;
+
+uint16_t get_duty(){
+	return duty;
+}
 
 void configure_servo(void){
 	
@@ -63,6 +62,9 @@ void configure_servo(void){
 					|PWM_CH0_CSR_EN(1);
 }
 
+uint16_t get_degree(){
+	return duty/15;
+}
 
 void rotate_servo(int16_t rotate){
 	duty += rotate;
@@ -71,4 +73,34 @@ void rotate_servo(int16_t rotate){
 	else if( duty < SERVO_MIN )
 		duty = SERVO_MIN;
 	PWM_CH0_CC = PWM_CH0_CC_A(duty);
+}
+
+void servo_automation(uint16_t step_size){
+	static uint16_t counter;
+	static enum {LEFT,RIGHT} servo_state = LEFT;
+	if(counter == 999){
+		counter = 0;
+		switch (servo_state){
+			case LEFT:
+				if(get_duty() == SERVO_MAX){
+					servo_state = RIGHT;
+				}else{
+					duty+=step_size;
+					servo_state = LEFT;
+				}
+				break;
+			case RIGHT:
+				if(get_duty() == SERVO_MIN){
+					servo_state = LEFT;
+				}else{
+					duty-=step_size;
+					servo_state = RIGHT;
+				}
+			default:
+				break;
+		}
+	}else{
+		counter++;
+	}
+	
 }

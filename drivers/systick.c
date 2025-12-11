@@ -4,7 +4,7 @@
 #include "interrupt.h"
 
 #ifndef SYSTICK_FREQ
-#define SYSTICK_FREQ_HZ 1000
+#define SYSTICK_FREQ_HZ 100000
 #endif
 
 #ifndef EXT_CLK_FREQ_HZ
@@ -17,14 +17,11 @@
 
 #define SYSTICK_TOP (EXT_CLK_FREQ_HZ/SYSTICK_FREQ_HZ - 1)
 
-static volatile uint64_t	systick_counter;
+static volatile uint64_t systick_counter;
 
 static uint8_t	num_callbacks;
 
 static void(*callback[NUM_SYSTICK_CALLBACKS])();
-
-
-
 
 _Bool systick_register_callback(void (*p_fn)()){
 	if(num_callbacks == NUM_SYSTICK_CALLBACKS){
